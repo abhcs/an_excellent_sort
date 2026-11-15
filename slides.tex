@@ -86,6 +86,8 @@
 \newcommand{\rarrow}{\tikz\node[single arrow, fill=rust, minimum height=0.55cm, single arrow head extend=2pt, inner sep=1.5pt]{};}
 \renewcommand{\arraystretch}{1.35}
 \newcommand{\bigmath}[1]{{\rmfamily\bfseries\color{navy}#1}}
+% small label naming who asked a question (default colour steel)
+\newcommand{\asker}[2][steel]{\hspace{0.6em}{\color{#1}\fontsize{5}{6}\selectfont\bfseries\MakeUppercase{#2}}}
 
 \title{Sorting Networks of Logarithmic Depth}
 
@@ -374,6 +376,28 @@ Verified depths 26, 34, 43 and 52 at 128, 256, 512 and 1024 wires. These improve
 \end{frame}
 \endgroup
 
+% ======================= 12b. How the halving lemma was found =======================
+\begin{frame}{Five questions led to the halving lemma}{Outcome 1 \textperiodcentered\ How it was found}
+\small
+\begin{enumerate}\setlength{\itemsep}{3pt}
+\item {\color{navy}\textbf{Can $D(9)\ge7$ be proved by hand?}}\asker{Team}\\
+Our starting proofs used computer-found sizes, $S(7)=16$ and $S(9)=25$.
+\item {\color{navy}\textbf{What if $\pm\infty$ inputs go on any wires, not just at the ends?}}\asker[rust]{Claude}\\
+Their paths are fixed in advance, so the network must still sort the remaining inputs.
+\item {\color{navy}\textbf{Does $S(5)=9$ have a hand proof?}}\asker{Team}\\
+Our first reduction, from 7 wires to 5, leaned on it. It became a premise to remove.
+\item {\color{navy}\textbf{What if every first-layer comparator holds one infinity?}}\asker[rust]{Claude}\\
+No two variables meet in layer 1. A search tried all 16 sign choices on 9 wires.
+\item {\color{navy}\textbf{Why did that search stop at layer 2?}}\asker[rust]{Claude}\\
+For every second layer, some sign choice kept the variables apart there too. The reason: layers 1--2 form paths and even cycles, so they can always be 2-coloured.
+\end{enumerate}
+\vspace{0.15cm}
+\begin{statement}
+The search was built to use $S(5)=9$, but it stopped for a reason that needs only $D(5)\ge5$. Explaining that reason gave the halving lemma.
+\end{statement}
+\note{0:50. Source: the Claude session log for the D(9) hand proof; this account is not yet in the report. A team member asked for a hand proof of D(9) at least 7, adding that even D(7) at least 6 might lack one. Claude placed infinities on interior wires, and the team member asked whether S(5)=9 has a hand proof, because the seven-to-five step used it. With one infinity in every first-layer comparator, a nine-wire search over sixteen sign choices was meant to prune with S(5)=9 counting. No second layer survived, for a reason that needs only D(5) at least 5. Explaining it gave the two-colouring, which was checked for every second layer up to eleven wires about half an hour after the first question.}
+\end{frame}
+
 % ======================= 13. Structural proofs =======================
 \begin{frame}{Mining structural proofs from SAT}{Outcome 1 \textperiodcentered\ Pushing further}
 SAT identifies constrained cases. We use LLM-assisted analysis to look for a reason that a human can check.\par\vspace{0.3cm}
@@ -415,8 +439,6 @@ for $n\ge2^{79}$. The leading coefficient is about 4.63\% below Chv\'atal's.\end
 \end{columns}
 \note{1:20. Report Section 10.1, Theorem 10.1, and Section 10.2. The new leading coefficient is about 4.63 percent smaller than 1830. Its larger additive offset means the complete affine bound improves Chvatal only for log2 n greater than 27009/127. Exact parameter inequalities and five stopping residues passed. This does not certify the older Seiferas proposals, prove a globally best constant, or replace the existing AKS architecture. Primary source: \url{https://doi.org/10.7282/T379487B}.}
 \end{frame}
-\endgroup
-
 \endgroup
 
 % ======================= 17. Depths =======================
