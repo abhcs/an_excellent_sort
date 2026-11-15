@@ -387,32 +387,6 @@ SAT identifies constrained cases. We use LLM-assisted analysis to look for a rea
 \note{1:20. Report Sections 6 and 7, Appendix F. In the nine-wire cycle case, opposite-sign sentinel placements remain disjoint, so their six-real sets always overlap in three wires. A matching cannot pair both sets internally. This forces a small family, eliminated by nine rows. Full H9 still has computational dependencies in 24 classes. Selected D18 prefix exclusions do not close any of the 411 full two-layer cases.}
 \end{frame}
 
-% ======================= 14. AKS tree =======================
-\begin{frame}{How AKS works: a tree of bags}{Outcome 2 \textperiodcentered\ AKS-style networks}
-\begin{columns}[c]
-\begin{column}{0.46\textwidth}
-\begin{tikzpicture}[pxgrid]
-  \begin{scope}[wire, line width=3\px]
-    \draw (380,60) -- (200,170) (380,60) -- (560,170);
-    \draw (200,170) -- (110,290) (200,170) -- (290,290) (560,170) -- (470,290) (560,170) -- (650,290);
-    \foreach \p/\c in {110/65,110/155,290/245,290/335,470/425,470/515,650/605,650/695} \draw (\p,290) -- (\c,410);
-  \end{scope}
-  \fill[steel, rounded corners=12\px] (320,35) rectangle ++(120,50);
-  \fill[steel, rounded corners=12\px] (150,145) rectangle ++(100,50) (510,145) rectangle ++(100,50);
-  \foreach \x in {70,250,430,610} \fill[steel, rounded corners=10\px] (\x,268) rectangle ++(80,44);
-  \foreach \x in {40,130,220,310,400,490,580,670} \fill[mist, rounded corners=8\px] (\x,392) rectangle ++(50,36);
-  \draw[rust, line width=6\px, line cap=round, -{Latex[length=0.2cm]}] (262,140) -- (322,100);
-\end{tikzpicture}
-\end{column}
-\begin{column}{0.50\textwidth}
-\textbf{Bags} are sets of wires at tree nodes; leaves are final positions.\par\medskip
-\textbf{Each stage}, every bag runs a constant-depth separator. It sends a few extreme items \textcolor{rust}{\textbf{up}} and splits the rest between its children.\par\medskip
-\textbf{Capacities shrink} geometrically. After $O(\log n)$ stages, the invariant eliminates misplaced items and small local sorters finish the network.
-\end{column}
-\end{columns}
-\note{0:55. Report Section 10.1 and Appendix G. This is a conceptual picture of the existing AKS architecture. The invariant controls misplaced items. Termination and a final local sort are part of the proof; shrinking bags alone is insufficient. Chvatal supplies the published separator and outsider theorems used by the new parameter calculation.}
-\end{frame}
-
 % ======================= 15. Constants =======================
 \begingroup\altstyle
 \begin{frame}{Comparing constants in the same units}{Outcome 2 \textperiodcentered\ Constants}
@@ -443,23 +417,6 @@ for $n\ge2^{79}$. The leading coefficient is about 4.63\% below Chv\'atal's.\end
 \end{frame}
 \endgroup
 
-% ======================= 16. Multiway merge =======================
-\begingroup\altstyle
-\begin{frame}{Merge many sorted lists at once}{Outcome 3 \textperiodcentered\ Shallower networks}
-\begin{columns}[c]
-\begin{column}{0.29\textwidth}\begin{step}{1}Split each of the $k$ sorted lists into its even- and odd-position elements.\end{step}\end{column}
-\begin{column}{0.04\textwidth}\centering\rarrow\end{column}
-\begin{column}{0.29\textwidth}\begin{step}{2}Merge all the evens, and in parallel all the odds, recursively.\end{step}\end{column}
-\begin{column}{0.04\textwidth}\centering\rarrow\end{column}
-\begin{column}{0.29\textwidth}\begin{step}{3}Interleave, then fix up with $\lceil\log_2 k\rceil$ extra layers.\end{step}\end{column}
-\end{columns}
-\vspace{0.4cm}
-\begin{statement}
-{\scriptsize\color{muted}The key saving is in the base case\par}\smallskip
-{\color{navy}Drop the first layer of an optimal 16-wire sorter: what is left merges 8 sorted pairs in 8 layers, one fewer than the standard recursion.}
-\end{statement}
-\note{1:00. Report Section 9, Theorem 9.1. The multiway merge recursion is Lee and Batcher prior work. The useful base case removes the first full layer of a nine-layer sixteen-wire sorter, leaving an eight-layer merger of eight sorted pairs. The zero-one cleanup proof is in the report.}
-\end{frame}
 \endgroup
 
 % ======================= 17. Depths =======================
@@ -499,38 +456,11 @@ Checking all $2^{1024}$ zero-one inputs is impossible. Instead, an independent c
 % ======================= 19. Negative results =======================
 \begin{frame}{What did not work, and why}{Other attempts}
 \begin{columns}[T]
-\begin{column}{0.31\textwidth}\begin{card}{Only counting gates}{\rmfamily\bfseries\large\color{navy}Too little structure\par}\smallskip Caps on the first two layer sizes cannot distinguish the 17- and 18-wire depth targets.\end{card}\end{column}
-\begin{column}{0.31\textwidth}\begin{card}{Deleting a third layer}{\rmfamily\bfseries\large\color{navy}Blinding has a limit\par}\smallskip At width 18, no argument can always delete a third layer using only half-width sentinel blinding.\end{card}\end{column}
-\begin{column}{0.31\textwidth}\begin{card}{Exact search}{\rmfamily\bfseries\large\color{navy}A timeout is inconclusive\par}\smallskip The saved 18-wire run timed out on one case. The other 410 cases were not solved.\end{card}\end{column}
+    \begin{column}{0.31\textwidth}\begin{card}{Simpler AKS Proof}{\rmfamily\bfseries\large\color{navy}We attempted to get a simpler proof that an AKS-style sorting network was correct, but we were not able to.}\end{card}\end{column}
+    \begin{column}{0.31\textwidth}\begin{card}{Deleting a third layer}{\rmfamily\bfseries\large\color{navy}We were unable to find stronger structural constraints by considering the first three layers at once.} \end{card}\end{column}
+    \begin{column}{0.31\textwidth}\begin{card}{Exact search}{\rmfamily\bfseries\large\color{navy}Improvements to $D(n)$ for $32 \ge n \ge 18$ failed due to the large search space that AI agents could not cut down.}\end{card}\end{column}
 \end{columns}
-\vspace{0.35cm}
-{\color{navy}These limits motivate shared restrictions and structural invariants. $D(18)$ remains unresolved.}
-\note{0:55. Report Sections 3, 5 and 8. The layer-cap limitation and third-layer blinding obstruction are proved statements about particular methods. They are not impossibility results for every structural strategy. A timeout supplies neither a sorter nor a refutation.}
 \end{frame}
-
-% ======================= 20. Review and formalization =======================
-\begingroup\altstyle
-\begin{frame}{What review and formalization establish}{Lessons}
-\begin{columns}[T]
-\begin{column}{0.54\textwidth}
-\begin{itemize}\setlength{\itemsep}{7pt}
-\item A nine-wire search needed 36 pair indices, not 35. The corrected computation supersedes the old counts.
-\item Pruning infinity wires requires tracking the moving values and untangling the resulting network.
-\item Stage counts and comparator-layer counts are different.
-\item A selected-prefix exclusion does not prove a whole depth lower bound.
-\end{itemize}
-\end{column}
-\begin{column}{0.42\textwidth}
-\begin{card}[rust]{Lean verification}
-The two-layer removal and halving recurrence passed both the project build and a direct source check.\par\smallskip
-The remaining structural and asymptotic results are outside that formal scope.\end{card}
-\end{column}
-\end{columns}
-\vspace{0.3cm}
-{\color{navy}AI suggestions are checked through proofs, independent computations and explicit evidence.}
-\note{1:00. Report Sections 2.1, 6.1, 8 and 10.2, Appendix E. The corrected H9 indexing uses all 36 pairs. Lean accepted both named declarations, with only propext, Classical.choice and Quot.sound as transitive axioms and no sorryAx. The SAT encoders, merger arguments and new asymptotic theorem remain outside that formal verification scope.}
-\end{frame}
-\endgroup
 
 % ======================= 21. Open problems =======================
 \begingroup\darkstyle
