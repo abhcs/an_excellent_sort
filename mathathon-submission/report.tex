@@ -29,12 +29,13 @@ Abhishek Singh (Independent)\\[7pt]
 \small Research snapshot: \texttt{7bcc462c92af6ea523cf2a79c03070dc4c21b770}\\
 \small Incorporated predecessor: \texttt{56723660f2644a22679b8c951407f6e65f7ac64c}\\
 \small Construction / AKS snapshot: \texttt{53034fa080e0b1014dc796281a515ce357765868}\\
+\small Explicit AKS parameter snapshot: \texttt{65e9237800eb0e77f196b1fd4452db49d4577684}\\
 \small Lean snapshot: \texttt{61d98e102ad40076908a487e9c808c8feb26402e}}
 \date{November 15, 2026}
 \begin{document}
 \maketitle
 \begin{abstract}
-We seek sorting networks that are easier to construct and whose depth is easier to explain. Our lower-bound work now gives human-understandable arguments for every optimal-depth lower bound through ten wires, with no SAT or computer-found size bound as a premise. Signed-infinity restrictions yield a general two-layer transfer theorem. We use SAT-guided exploration and LLM-assisted analysis to extract reusable invariants and short certificates: a joint-sentinel invariant reduces a nine-wire cycle case to nine explicit rows, and new merger lemmas force a large interaction component four layers before the end. H9 now has hand coverage of 26 of 50 second-layer classes; its full proof remains computer-assisted. Checked structural certificates exclude 4 of 117 complete cases at thirteen wires and 3 of 609 at seventeen. At eighteen wires we have hand exclusions of selected longer prefixes, but no complete two-layer case is closed and $D(18)$ remains unresolved. A parallel construction effort supplies certified depths 26, 34, 43, and 52 at widths 128, 256, 512, and 1024. We record the unfinished AKS analysis separately. The contribution is structural understanding and concrete constructions; a complete simpler logarithmic-depth construction remains the next objective.
+We seek sorting networks that are easier to construct and whose depth is easier to explain. Our lower-bound work now gives human-understandable arguments for every optimal-depth lower bound through ten wires, with no SAT or computer-found size bound as a premise. Signed-infinity restrictions yield a general two-layer transfer theorem. We use SAT-guided exploration and LLM-assisted analysis to extract reusable invariants and short certificates: a joint-sentinel invariant reduces a nine-wire cycle case to nine explicit rows, and new merger lemmas force a large interaction component four layers before the end. H9 now has hand coverage of 26 of 50 second-layer classes; its full proof remains computer-assisted. Checked structural certificates exclude 4 of 117 complete cases at thirteen wires and 3 of 609 at seventeen. At eighteen wires we have hand exclusions of selected longer prefixes, but no complete two-layer case is closed and $D(18)$ remains unresolved. A parallel construction effort supplies certified depths 26, 34, 43, and 52 at widths 128, 256, 512, and 1024. A separate parameter optimization in Chv\'atal's existing AKS construction gives $D(N)\le(5236/3)\log_2N-40651$ for every $N\ge2^{79}$, with a freshly checked parameter and rounding audit. Other AKS variants remain unfinished. The contribution includes structural understanding, concrete constructions, and this explicit asymptotic bound; a simpler logarithmic-depth construction remains an objective.
 \end{abstract}
 
 \section{Purpose and current result}
@@ -47,7 +48,7 @@ Our starting point lacked a complete hand derivation of the small depth bounds. 
 
 The larger-width strategy is to use SAT as a source of constrained examples and certificates, and use LLM-assisted proof development to identify the invariant behind them. The objective is a statement that applies to whole families of networks. The six-cycle proof in Section~\ref{sec:h9} illustrates the gain: two moving restrictions force the next layers, and nine explicit rows finish the argument. Current exact depth results reach seventeen wires; eighteen is the first unresolved width in the cited catalogue. We are trying to move beyond the scale at which direct case search becomes the bottleneck by mining structural results from that search.
 
-Our construction work uses sorted-pair base mergers to save layers in a multiway merging recursion. Its correctness is supported by a proof and finite compositional checks; priority relative to the full prior literature is unresolved. The AKS work remains a set of analyzed proposals, rather than an established improvement to the best published constant.
+Our construction work uses sorted-pair base mergers to save layers in a multiway merging recursion. Its correctness is supported by a proof and finite compositional checks; priority relative to the full prior literature is unresolved. The new collaborator note supplies a proved parameter improvement within Chv\'atal's published AKS construction, with leading coefficient $5236/3$ in place of $1830$. This comparison concerns that specific published bound; a global priority claim has not been established. The separate Seiferas-style proposals retain their unfinished status.
 
 Our lower-bound contribution is a connected proof-development workflow: signed restriction arguments, finite profile lemmas, shared-suffix constraints, SAT-assisted structural exclusions, and explicit checks of their scope. Table~\ref{tab:status} gives the status at the pinned research snapshot. ``Closed'' means all continuations of that complete two-layer representative are excluded at the candidate depth. It does not mean that proportion of all networks has been searched, nor that the corresponding full theorem has been reproved by hand.
 
@@ -61,7 +62,7 @@ H9 and $D(11)\ge8$ & Independent SAT and non-SAT case-tree evidence for H9 & 26 
 $D(13)\ge9$ & 4/117 structural whole-case exclusions: 0, 58, 115, 116 & 113 cases unclosed by this audit\\
 $D(17)\ge10$ & 3/609 structural whole-case exclusions: 606, 607, 608 & 606 cases unclosed; full H9 dependency remains computational\\
 $D(18)\ge11$ & One specified five-layer and two specified six-layer prefixes excluded by hand & 0/411 complete two-layer cases closed\\
-AKS simplification & Structural understanding of finite-width depth & No completed simpler $O(\log n)$ construction in this checkpoint\\
+AKS parameters & Explicit coefficient $5236/3$ for $N\ge2^{79}$ & Existing Chv\'atal architecture; no new simpler construction or Lean proof\\
 \bottomrule
 \end{tabular}
 \caption{Scope of the checkpoint. The wider literature already proves the thirteen- and seventeen-wire bounds. H9 is the nine-wire early-profile statement defined in Section~\ref{sec:h9}.}\label{tab:status}
@@ -332,7 +333,7 @@ The curated checkpoint audit binds seven whole-case exclusions to their covers, 
 
 Several failed routes informed the current direction. The seven-real two-layer profile screen, and its augmentation by five-real blind restrictions, each leave compatible matching witnesses for all 117 thirteen-wire cases. These witnesses show that those screens are insufficient. The exact eighteen-wire completion experiment records one 600-second time limit and 410 unattempted cases. Later structural and incremental interval trials also timed out or returned relaxation survivors. Smaller initial CNFs did not establish a speedup. No terminated timeout is counted as a closed case, and no saved relaxation candidate is called a sorter.
 
-Our next mathematical task is to force a shared-suffix obstruction uniformly over a complete prefix cover. Useful directions are: derive short invariants behind the six- and ten-wire interval certificates; complete the remaining H9 hand classes; extend compression beyond the few known prefixes; and prove occurrence of a signed obstruction family instead of only proving that the family is impossible to complete. The asymptotic construction question remains separate: these results do not provide a halver, an expander construction, or an improved AKS depth constant.
+Our next mathematical task is to force a shared-suffix obstruction uniformly over a complete prefix cover. Useful directions are: derive short invariants behind the six- and ten-wire interval certificates; complete the remaining H9 hand classes; extend compression beyond the few known prefixes; and prove occurrence of a signed obstruction family instead of only proving that the family is impossible to complete. The asymptotic construction question remains separate: these lower-bound results do not themselves provide a halver or an expander construction. The independent parameter improvement in Section~\ref{sec:akswork} uses an existing AKS construction.
 
 \paragraph{Formalization plan.}
 We plan to formalize all of our work in Lean. The present completed scope is the two-layer removal theorem and halving recurrence in Section~\ref{sec:lean}. The remaining program includes the general transfer theorem, the small hand proofs, H7/H9 and the merger and component arguments, the mathematical justification of computational encodings and certificate checks, and the construction proofs. The AKS analysis will be formalized as its mathematical claims are completed. This is a research plan, not a claim that the current experiments or proposed asymptotic bounds are already formally verified. Appendix~\ref{app:audit} gives the dependency ledger for that work.
@@ -364,17 +365,148 @@ Merge the even-indexed and odd-indexed elements of the input lists separately an
 Put $t=\lceil\log_2 k\rceil$. For $s=2^{t-1},2^{t-2},\ldots,1$, compare positions $2i+1$ and $2i+2s$ whenever both exist. Each layer is a matching. If $\delta\le s$ no inversion is swapped. If $s<\delta\le2s$, the swapped pairs have offsets $2j+1,2j+2s$ from the start of the alternating block, for $0\le j<\delta-s$. The resulting block is $0^{2(\delta-s)}(01)^{2s-\delta}$ followed by ones. Hence its new alternating length is at most $s$. Induction over the cleanup layers leaves $\delta\le1$, which is sorted. The zero-one principle proves correctness on arbitrary ordered data. For $k=1$ the merge is already sorted and the statement is immediate.
 \end{proof}
 
-For power-of-two $m\ge2$, this gives $M(8,m)\le8+3\log_2(m/2)$. Therefore $M(8,16)\le17$ and $M(8,128)\le26$, yielding depths $9+17=26$ and $26+26=52$. Standard binary odd-even merges have depths eight and nine at widths 256 and 512, giving the middle two rows. The earlier collaborator report compares the 128/1024 constructions with arithmetic from Lee--Batcher's formula, finding a one-layer saving in that comparison. That comparison is not a complete prior-art search.
+For power-of-two $m\ge2$, this gives $M(8,m)\le8+3\log_2(m/2)$. Therefore $M(8,16)\le17$ and $M(8,128)\le26$, yielding depths $9+17=26$ and $26+26=52$. Standard binary odd-even merges have depths eight and nine at widths 256 and 512, giving the middle two rows. The earlier collaborator report evaluates Lee--Batcher's formula at these four widths as $27,34,43,53$, finding a one-layer saving at 128 and 1024 in that comparison. These are collaborator-reported formula evaluations, not a complete prior-art search or a claim of globally best-known depths.
 
 \subsection{What the fresh construction checks establish}
 The included builder reconstructs flat comparator lists. The separate checker reads those lists, identifies blocks and recursive merger components, and accounts for every comparator. It checks sixteen-wire blocks on all $2^{16}$ binary inputs, eight-pair base mergers on all $3^8$ sorted-pair inputs, and each cleanup on every feasible pair of zero counts $(Z_e,Z_o)$ with $0\le Z_e-Z_o\le8$. Its recursive certificate is sound by the same zero-one and composition argument as the theorem. For 1024 wires it certifies 64 base sorters, 128 base mergers, 119 cleanup steps, and all 23,679 comparators. The 128-wire network also passes. The 256/512 networks compose certified half-sorters with binary merges checked on all $129^2=16,641$ and $257^2=66,049$ sorted-half binary inputs, respectively.
 
 The source handoff also reports an exhaustive $17^8$-input merger test, random-input checks, and six deletion controls. Those historical runs were not rerun here. The present package records the fresh certificate replays and their exact inputs separately. Neither random tests nor agreement between AI agents is used as a correctness proof.
 
-\section{AKS analysis: available progress and unfinished claims}\label{sec:akswork}
-The intended asymptotic goal is a clearer, fully justified logarithmic-depth construction. The existing AKS family uses a tree of bags, approximate separators, and bounds on items whose ranks belong in other subtrees. A stage count is not a comparator depth: every separator itself contains many comparator layers. Seiferas's example with about $6.95\log_2 n$ stages has a quoted comparator-depth coefficient of roughly $514{,}247$, illustrating why these units must be kept separate \cite{seiferas}.
+\section{AKS: an explicit parameter bound and unfinished variants}\label{sec:akswork}
+The new contributor note supplies a finite parameter improvement within Chv\'atal's existing AKS construction. The inherited architecture and its separator and outsider theorems remain prior work. This result is distinct from the Seiferas-style accounting analysis already present in the first collaborator's report. We integrate the new parameter choice, its proof and its exact comparison, without repeating the general sorting-network background.
 
-The pushed collaborator Section 5 contains a placeholder for a forthcoming Open Math Model contribution. The following are the available snapshot's claims and their present limits; the forthcoming derivation is not silently treated as established.
+\subsection{The new explicit parameter bound}\label{sec:newaks}
+\begin{theorem}[Explicit Chv\'atal parameter bound]\label{thm:newaks}
+For every integer $N\ge2^{79}$,
+\[
+D(N)\le \frac{5236}{3}\log_2N-40651.
+\]
+\end{theorem}
+\status{A mathematical parameter application of Chv\'atal's published separator and outsider-invariant results, with a fresh exact-arithmetic and rounding audit; not Lean-verified}
+
+Chv\'atal's Theorem 1.1 gives $1830\log_2N-58657$ for $N\ge2^{78}$ \cite{chvatal}. The leading coefficient above is smaller by $127/2745\approx4.6266\%$. The larger additive constant means that the new formula improves that \emph{full} bound only when $\log_2N>27009/127\approx212.67$. This is an asymptotic parameter improvement at enormous widths, separate from the finite-width constructions in Section~\ref{sec:construction}. It uses the existing scramble-existence theorem; it supplies neither a new simpler architecture nor an explicit listing of the enormous scrambles. We make no claim of priority relative to all later literature.
+
+\subsubsection{Separator dimensions}
+
+First take \(N=k^d\) with \(d\ge14\). Throughout, let
+\[
+ k=64,\qquad A=2048,\qquad \nu=2^{-5},\qquad M=2^{59}.
+\]
+Write \(B(p)=p(p+1)/2\) for the depth of Batcher's odd--even mergesort on \(2^p\) wires~\cite{batcher}. Padding and pruning give the same upper bound for smaller inputs. In Chv\'atal's construction, a non-root separator on \(a\le M\) wires can be implemented by a full sorter. It has depth at most \(B(59)=1770\). At a bottom level that sends all of its wires to the parent, the construction needs only routing.
+
+For the remaining non-root separators, write the fringe block sizes and the \(k\) middle block sizes as \(2^s f_0\) and \(2^s b_0\), respectively, in the notation of \cite[\S5]{chvatal}. Thus \(a=2^s m_0\), where \(m_0=2f_0+kb_0\). Choose the largest integer \(r\) with \(2^r m_0\le M/16\), and set
+\[
+ m=2^r m_0,\qquad n=2^{s-r},\qquad f=2^r f_0,\qquad b=2^r b_0.
+\]
+Here \(M\ge32A^2k^2=2^{39}\), and the cases below all satisfy \(m_0<2A^2k^2\). Since \(a>M\), it follows that \(s>r\) and \(n=a/m>16\).
+
+\begin{center}
+\small
+\setlength{\tabcolsep}{9pt}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Separator position & \(m_0\) & \(r\) & \(m\) & \(f\) \\
+\midrule
+Top, advancing & \(2^6\) & \(49\) & \(2^{55}\) & \(0\) \\
+Top, retreating & \(2^{28}\) & \(27\) & \(2^{55}\) & \(2^{32}\) \\
+Interior & \(2^{35}-2\) & \(20\) & \(2^{55}-2^{21}\) & \(4095\cdot2^{20}\) \\
+Bottom, advancing & \(2^{35-h}-2\) & \(20+h\) & \(2^{55}-2^{21+h}\) & \(4095\cdot2^{20+h}\) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+At an advancing bottom level \(i\) at time \(t\), define \(2^h=c(i,t)/(Nk^{-i})\), where \(c(i,t)=(N/(A\nu k))A^i\nu^t\). The bottom-level capacity bound gives \(h\ge0\). Because the bottom advances, \(c(i,t)=c(i+1,t+1)/(A\nu)<(Ak/\nu)Nk^{-i}\), so \(h\le21\). Substituting this ratio into the block sizes of \cite[\S5]{chvatal} gives the last row. The top-retreating row also applies at \(t=1\), by the explicit transfer from level~1 in \cite[\S3]{chvatal}. Consequently every non-root scramble has \(m\ge m_{\min}=2^{55}-2^{42}\). Every nonempty fringe is even and has \(f\ge f_{\min}=4095\cdot2^{20}\).
+
+
+\subsubsection{Separator quality and the outsider invariant}
+
+Use the exact rational parameters
+\[
+ \mu=2^{-28},\qquad \delta_F=\frac{128}{4095},\qquad
+ \varepsilon_F=\frac{1}{20{,}000{,}000},\qquad
+ \varepsilon_B=\frac{467}{10^{10}},\qquad \delta=\frac{8}{10^{10}}.
+\]
+Theorem~5.1 of \cite{chvatal} applies to each of the non-root scramble shapes with nonempty fringe. The bulk-error requirement decreases with \(m\), and
+\[
+ \frac{2(1+\ln m)}{m}\le
+ \frac{2(1+\ln m_{\min})}{m_{\min}}
+ < \frac{2(1+55\cdot 0.694)}{m_{\min}} < \varepsilon_B^2.
+\]
+For the fringe, \(\delta_F<1/25\) and \(1/\varepsilon_F\) is an integer. Put \(L=\ln(0.12/(e\delta_F))\). We have \(L>1/3\) and \(\ln(3e^5 f_{\min})<35\). The function
+\[
+ f\longmapsto \frac{2}{f-2}\left(1+\frac{\ln(3e^5f)}{L}\right)
+\]
+is decreasing for \(f\ge f_{\min}\), as follows by differentiation. Therefore, for each nonempty fringe,
+\[
+ \frac{2}{f-2}\left(1+\frac{\ln(3e^5f)}{L}\right)
+ < \frac{212}{f_{\min}-2}<\varepsilon_F,
+ \qquad \frac{4e}{f}<\frac{12}{f_{\min}}<\varepsilon_F.
+\]
+The bound \(\ln 2<0.694\) follows by summing four terms of the series \(2\sum_{j\ge0}3^{-(2j+1)}/(2j+1)\) and bounding the tail by a geometric series. The Taylor series for \(e^x\) gives \(e^{4/3}<19/5<0.12/\delta_F\) by summing through degree~10 and bounding the tail by its first term times \(9/8\). Summing through degree~45 at \(x=35\) gives \(e^{35}>300{,}000 f_{\min}>3 e^5 f_{\min}\), using \(e<3\).
+
+When \(f=0\), the fringe condition is vacuous and Lemma~6.1 of \cite{chvatal} gives Property~B, the required bound on bulk errors. In particular, use a separate root scramble with \(m^*=2^{75}\) and \(n^*=2^{6d-75}\ge16\). Its \(k\) equal output blocks each consist of \(m^*/k\) rows. Take \(\varepsilon^*=\mu/k=2^{-34}\). Its bulk-error requirement holds since
+\[
+ \frac{2(1+75\ln 2)}{2^{75}}<
+ \frac{2(1+75\cdot0.694)}{2^{75}}<(2^{-34})^2.
+\]
+
+The remaining conditions are those of \cite[\S4]{chvatal}. Condition (4.1) holds with equality by the choice of \(\varepsilon^*\). Conditions (4.3) and (4.4) hold with equality since \(\mu=\nu/(Ak^2)=\delta_F(A\nu k-1)/(2A^2k^2)\). The denominator in (4.2) is positive, since \(\delta kA<1\), and rational substitution bounds the normalized left-hand side of (4.2) and the left-hand side of (4.5), respectively
+\begin{align*}
+ \frac{1}{A\nu}\left[1+\frac{(k-1)\delta k A^2}{1-\delta^2 k^2 A^2}
+   +\frac{A\nu k-2A\nu+1}{2\mu A^2 k^2}
+   +\frac{\varepsilon_B}{\mu}\right]+\frac{\delta Ak}{\nu}
+   &< \frac{911}{1000},\\
+ \frac{\varepsilon_F}{A\nu}+\frac{\delta^2Ak}{\nu}
+   &=7.8393435456\times10^{-10}<\delta.
+\end{align*}
+At the stopping time, Chv\'atal's capacity bound is \(c(\alpha(t_f),t_f)<2A^2k^2=2^{35}\), and \(\mu\delta\,2^{35}=1.024\times10^{-7}<1\). Lemma~4.5 thus eliminates all outsiders of order~1. Every key at the stopping level is addressed to a leaf below its node's parent. Sorting all the wires grouped under each such parent completes the network.
+
+
+\subsubsection{Stopping time and depth}
+
+For these parameters the unrounded top and bottom levels of \cite[\S3]{chvatal} are
+\[
+ \alpha^*(t)=\frac{5t-6d+25}{11},\qquad
+ \omega^*(t)=\frac{5t+12}{17}.
+\]
+Each is rounded up to an integer of parity \(t\), with the top also constrained to be nonnegative. The stopping time \(t_f\) is the first \(t\ge2\) at which the rounded levels coincide. At a meeting of level \(i\), set \(q=d-i\) and \(u=5t-17i\). The bottom is at least~2 for \(t\ge2\), so the nonnegative constraint does not alter the meeting condition. In terms of \(q\) and \(u\), the meeting conditions are
+\[
+ \max\{-46,6q-47\}<u\le\min\{-12,6q-25\},
+ \qquad
+ u\equiv -12(d-q)\pmod{10}.
+\]
+The congruence enforces that \(t=(17i+u)/5\) is an integer with the same parity as \(i\). The interval requires \(-3\le q\le5\). If \(q=3\) then \(u\ge-28\), and if \(q\le2\) then \(u\ge-45\). In either case \(5t-17d=u-17q\ge-79\). For \(q=4\) the interval for \(u\) is \([-22,-12]\), and for \(q=5\) it is \([-16,-12]\). Taking the least admissible \(u\) in each interval for each residue class of \(d\), then minimizing \(u-17q\), gives the table below. Every class has a meeting with \(u-17q<-79\), so these are the first meetings. Each row extends from its representative \(d\) to \(d+5j\) by increasing \(t_f\) by \(17j\) and keeping \(q\) fixed.
+
+\begin{center}
+\small
+\setlength{\tabcolsep}{9pt}
+\begin{tabular}{@{}rrrrr@{}}
+\toprule
+Representative \(d\) & \(t_f\) & \(q=d-i\) & \(5t_f-17d\) & \(\mathcal{L}(d)-10472d\) \\
+\midrule
+14 & 30 & 4 & \(-88\) & \(-51123\) \\
+15 & 33 & 4 & \(-90\) & \(-52355\) \\
+16 & 35 & 5 & \(-97\) & \(-56466\) \\
+17 & 38 & 5 & \(-99\) & \(-57698\) \\
+18 & 41 & 5 & \(-101\) & \(-58930\) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The root uses two rounds of \(2^{75}\)-sorters. Each subsequent scramble uses two rounds on at most \(2^{55}\) wires per column, so \(2B(55)=3080\) layers suffice per step, including steps that use full sorters. After step \(t_f\), a parent on level \(i-1\) has \(k^{q+1}\) wires below it. All parents can sort in parallel. The resulting depth is therefore at most
+\[
+ \mathcal{L}(d)=2B(75)+(t_f-1)\,2B(55)+B\bigl(6(q+1)\bigr).
+\]
+The maximum in the last column is \(-51123\). Since \(d\mapsto d+5\) adds exactly \(17\cdot3080=5\cdot10472\) to \(\mathcal{L}(d)\), the table proves \(D(64^d)\le10472d-51123\) for all \(d\ge14\). For arbitrary \(N\ge2^{79}\), pad to \(64^d\) with \(d=\lceil\log_2 N/6\rceil\ge14\). Then \(10472d\le(5236/3)\log_2 N+10472\), which gives the stated bound. \hfill\(\square\)
+
+
+\paragraph{Independent audit and imported premises.}
+The new script \file{supplementary/asymptotic/verify_chvatal_parameters.py} checks all 25 separator shapes (three fixed shapes and 22 advancing-bottom values of $h$), derives their maximal scaling exponents from the block formulas, and checks the analytic estimates with rational Taylor bounds. It checks conditions (4.1)--(4.5) exactly, the root estimate, outsider elimination, the five stopping residues, and the depth and padding arithmetic. As a separate bounded control it reconstructs parity-rounded meeting times for all $14\le d\le513$. The all-$d$ proof is the residue periodicity above, not extrapolation from those 500 controls.
+
+The imported obligations are Chv\'atal's Section 3 routing/capacity construction, Theorem 5.1 and the fringe-free bulk consequence of Lemma 6.1, and Lemma 4.5 \cite{chvatal}. For a fringe-free scramble, apply the bulk estimate to both key orders; the union of the two failure events has probability less than $2/100$, so a scramble satisfying both exists. These hypotheses and the block formulas were compared with the original source. The new checker validates their parameter application; it does not reprove the published probabilistic separator theorem, generate the full network, or extend the current Lean scope. Its exact output and the overlap review are included in the supplement.
+
+\subsection{Separate unfinished Seiferas-style variants}
+The earlier collaborator report already contains the following accounting issue and parameter proposals. They are not additional results from the new note. A stage count is not comparator depth: Seiferas's example with about $6.95\log_2n$ stages has a quoted comparator-depth coefficient of roughly $514{,}247$ \cite{seiferas}. The new Chv\'atal parameter proof does not certify the different $281{,}084$ or $6{,}300$ calculations below.
 
 \paragraph{Accounting correction under review.}
 The collaborator's analysis identifies a displacement effect in a bag split. Even an exactly sorted bag of 100 items with five small outsiders, fifty natives of the left child, and forty-five natives of the right child sends five left-child natives into its upper half. A bound based only on excess native mass can miss those five. The source proposes the corrected parameter condition
@@ -393,19 +525,19 @@ The displayed counterexample establishes that local accounting issue. An end-to-
 Seiferas example & $\approx514{,}247$ & Published comparator-depth estimate\\
 Corrected constraints, optimized & $\approx281{,}084$ & Collaborator-reported arithmetic; not freshly certified here\\
 Refined bookkeeping / partial-range halvers & $\approx6{,}300$ & Unreviewed agent derivation in the handoff\\
-Forthcoming open-model contribution & Not supplied & Awaiting derivation and integration\\\bottomrule
+New Chv\'atal parameter application & $5236/3$ & Proved above for $N\ge2^{79}$, with exact arithmetic audit\\\bottomrule
 \end{tabular}
-\caption{These numbers are not a claim of a new best AKS constant. The last three rows are incomplete evidence at this version.}\label{tab:aksstatus}
+\caption{The new parameter bound and the unfinished Seiferas variants have different evidence. The middle two proposed improvements remain uncertified; the last row is proved in this section. No global best-constant claim is made.}\label{tab:aksstatus}
 \end{table}
 
 \paragraph{What remains to prove.}
-A retention variant keeps a middle band while sending fringes upward and two portions downward. The handoff reports verified schedule inequalities for finite exponents through 128, but it does not prove termination for every input size and assumes the necessary separators. That finite range cannot establish $O(\log n)$ by itself. Proposed energy and displacement arguments are useful leads, not substitutes for the missing all-size invariant and separator proof. The next contribution should provide a single parameter ledger, a comparator-depth calculation, a proof covering rounding and termination, and a precise comparison with published constructions. Until then, the concrete finite-size constructions above are the completed construction result in this report.
+A retention variant keeps a middle band while sending fringes upward and two portions downward. The handoff reports verified schedule inequalities for finite exponents through 128, but it does not prove termination for every input size and assumes the necessary separators. That finite range cannot establish $O(\log n)$ by itself. Proposed energy and displacement arguments are useful leads, not substitutes for the missing all-size invariant and separator proof. The next contribution should provide a single parameter ledger, a comparator-depth calculation, a proof covering rounding and termination, and a precise comparison with published constructions. Those missing steps concern this retention variant. They do not limit the separate explicit Chv\'atal parameter theorem established above.
 
 \section{Event work and AI disclosure}\label{sec:provenance}
-The local repository history records an initial background summary on November 14 at 06:54 Pacific, the sentinel hand-proof branch on November 14 at 15:49, and the structural checkpoint on November 15 at 09:22. These commits fall within the forty-hour event window. The account here covers the mathematical arguments, implementations, recorded experiments, and audit refinements in that checkpoint. Commit times establish repository provenance, not a claim that all underlying mathematical ideas originated during the event. Known depth values, zero-one reasoning, untangling, and published prefix/ending normal forms remain credited prior work. The construction and AKS material comes from the additional collaborator snapshot in the title block. The subsequent committed structural follow-up is included: H9 hand coverage is 26/50 and the merger/component results are added. Its exploratory D17 drafts are not counted as completed hand proofs. The forthcoming open-model derivation remains outside this version.
+The local repository history records an initial background summary on November 14 at 06:54 Pacific, the sentinel hand-proof branch on November 14 at 15:49, and the structural checkpoint on November 15 at 09:22. These commits fall within the forty-hour event window. The account here covers the mathematical arguments, implementations, recorded experiments, and audit refinements in that checkpoint. Commit times establish repository provenance, not a claim that all underlying mathematical ideas originated during the event. Known depth values, zero-one reasoning, untangling, and published prefix/ending normal forms remain credited prior work. The construction and AKS material comes from the additional collaborator snapshot in the title block. The subsequent committed structural follow-up is included: H9 hand coverage is 26/50 and the merger/component results are added. Its exploratory D17 drafts are not counted as completed hand proofs. The separately committed explicit-parameter note is now incorporated for its new bound, separator dimensions, invariant checks and stopping-time calculation.
 
 % AI_DISCLOSURE_START
-The team used Claude and OpenAI Codex for the bulk of the mathematical work and writing. It used open math models, including DeepSeek V4.1 Flash and KimiK3.1 Pro (model names as reported by the team), for initial analysis. The team attributes the forthcoming contribution to the collaborator's AKS Section 5 to those open models; its full derivation was not yet in the repository snapshot integrated here. Claude and Codex assisted with proposing arguments, implementing searches and checks, and drafting mathematical explanations. Codex also assembled this synthesis, checked the submission requirements, and reran the explicitly identified verification scripts. We distinguish model-generated proposals from proved arguments and computational certificates. Validation consists of mathematical proofs, bounded exhaustive tests, independent SAT/DRAT evidence, and compositional network checks; agreement between models is not a validation method.
+The team used Claude and OpenAI Codex for the bulk of the mathematical work and writing. It used open math models, including DeepSeek V4.1 Flash and KimiK3.1 Pro (model names as reported by the team), for initial analysis. The team credits those open models with initial AKS analysis. This version incorporates the second collaborator's explicit-parameter note, alongside the earlier construction and structural work. Claude and Codex assisted with proposing arguments, implementing searches and checks, and drafting mathematical explanations. Codex also assembled this synthesis, checked the submission requirements, and reran the explicitly identified verification scripts. We distinguish model-generated proposals from proved arguments and computational certificates. Validation consists of mathematical proofs, bounded exhaustive tests, independent SAT/DRAT evidence, and compositional network checks; agreement between models is not a validation method.
 % AI_DISCLOSURE_END
 
 Detailed source paths, computational ranges, and the distinction between fresh replays and historical records appear in Appendix~\ref{app:evidence}. The supplementary evidence index makes future additions auditable without silently changing the meaning of a closed case.
@@ -474,7 +606,7 @@ For transparency, Q7 reduces, after symmetry and sentinel arguments, to
 $L_1=01\;23\;45$, $L_2=02$, and seven possible forms of $L_3$. Twenty-six adjacent-state probes force the median support after $L_3$ onto all seven wires. A fourth layer leaving at most four median positions must use three support-merging edges. Restricting also the output-2 support leaves only 22 fourth layers; each has five output-4 positions and fails \eqref{eq:cones}. The finite table and explicit original input witnesses are stored in \file{depth-hand-proofs/results/h7-profiles-proof.json}. Our fresh replay reconstructs the reductions, all probes, and every fourth-layer candidate. This is bounded verification of the displayed hand-certificate data; it is not a new complete search for H7.
 
 \section{Evidence map and reproducibility}\label{app:evidence}
-Paths in the lower-bound rows below are relative to the structural research snapshot in the title block; the construction and AKS rows refer to the collaborator snapshot. The report and slides include only the claims stated here. Supplementary files support them and contain longer hand arguments. The supplied ZIP contains report and slide sources, compiled outputs, selected source notes, replay code, generated construction networks, and the CNF/proof/checker artifacts for the seven audited whole-case exclusions. The source manifest preserves provenance; copying a proof trace is not a fresh proof-checker run.
+Paths in the lower-bound rows below are relative to the structural research snapshot in the title block; the construction and earlier AKS rows refer to the first collaborator snapshot. The explicit-parameter row refers to the additional snapshot in the title block. The report and slides include only the claims stated here. Supplementary files support them and contain longer hand arguments. The supplied ZIP contains report and slide sources, compiled outputs, selected source notes, replay code, generated construction networks, and the CNF/proof/checker artifacts for the seven audited whole-case exclusions. The source manifest preserves provenance; copying a proof trace is not a fresh proof-checker run.
 
 \small
 \begin{longtable}{@{}p{0.24\linewidth}p{0.69\linewidth}@{}}
@@ -493,7 +625,7 @@ Five-layer eighteen-wire example & \file{d18-search/commuting-prefix-hand-proof.
 Other partial prefixes & \file{d18-search/commuting-prefix-additional-proofs.md}. Two specified six-layer prefixes; no complete two-layer case.\\
 Lean halving formalization & \file{SortingDepth.lean} at the Lean snapshot in the title block. Fresh \texttt{lake build}; two-layer removal and the depth recurrence only. Section~\ref{sec:lean} gives the declaration/claim correspondence and exact axiom scope.\\
 Concrete constructions & Collaborator \file{SortingNetworks_results_and_proofs.md}, Appendices A--B; extracted builder/checker and \file{extend_and_verify.py} in the supplement. Fresh compositional checks at 128, 256, 512, 1024 wires.\\
-AKS analysis & Collaborator \file{main.tex}, Section 5, and handoff Section 8. Approximate constants and unfinished schedules have the statuses in Section~\ref{sec:akswork}; no full asymptotic proof is claimed.\\
+AKS analyses & Earlier collaborator \file{main.tex}, Section 5, and handoff Section 8 retain their stated limits. New \file{sorting_network_depth_bound.tex} supplies Theorem~\ref{thm:newaks}; \file{supplementary/asymptotic/verify_chvatal_parameters.py} checks its parameter application.\\
 Negative experiments & \file{d18-search/endpoint-cegar.md}; \file{results/complete18-d10/audit.json}; profile-screen audits. Time limits and relaxation survivors have the limited meanings stated in Section~\ref{sec:limits}.\\\bottomrule
 \end{longtable}
 \normalsize
@@ -502,13 +634,13 @@ The replay scripts need Python 3 and NumPy. The component-control script also im
 % AUDIT_APPENDIX_BEGIN
 \clearpage
 \section{Claim ledger and audit protocol}\label{app:audit}
-This appendix prioritizes auditability. Stable identifiers C01--C20 identify conclusions; R01--R14 identify fresh finite replays; L01--L02 identify fresh Lean checks; H01 identifies file-integrity checks. The machine-readable companion is \file{supplementary/claim-ledger.json}. Each entry binds its evidence paths to full SHA-256 digests and byte counts. Dependency edges below mean mathematical premises, not merely experiments that suggested the result.
+This appendix prioritizes auditability. Stable identifiers C01--C21 identify conclusions; R01--R15 identify fresh finite replays; L01--L02 identify fresh Lean checks; H01 identifies file-integrity checks. The machine-readable companion is \file{supplementary/claim-ledger.json}. Each entry binds its evidence paths to full SHA-256 digests and byte counts. Dependency edges below mean mathematical premises, not merely experiments that suggested the result.
 
 \paragraph{Evidence semantics.}
 A hand proof is a mathematical argument whose completeness must be assessed from its stated reductions and tables. A finite replay checks only its declared domain. A Lean-verified claim means the stated declaration was accepted with the reported transitive axioms, after checking that its definitions express the intended statement. An historical DRAT certificate concerns a particular CNF; correctness of the encoding and the cover reduction remain separate obligations. A hash binds bytes and does not establish mathematical truth. A future-work or unfinished-proposal entry is not an established theorem.
 
 \paragraph{Scope of completeness.}
-All small lower bounds through ten have hand arguments. Full H9 has computational evidence but only 26/50 hand classes. The whole-case census at widths 13, 17 and 18 is 4/117, 3/609 and 0/411. Neither a selected longer-prefix exclusion, rejection of a saved relaxation witness, nor a proposed AKS parameter calculation is promoted to a complete theorem beyond that scope.
+All small lower bounds through ten have hand arguments. Full H9 has computational evidence but only 26/50 hand classes. The whole-case census at widths 13, 17 and 18 is 4/117, 3/609 and 0/411. Selected longer-prefix exclusions and rejected relaxation witnesses do not close whole cases. C21 separately records the new proved Chv\'atal parameter bound; the older Seiferas proposals in C19 remain uncertified.
 
 \subsection{External premises}
 \paragraph{E-zero-one.} Comparator semantics, the zero-one principle, pruning and untangling. The elementary reasoning is stated in Section 2; background is Knuth, bibliography [2].
@@ -517,6 +649,8 @@ All small lower bounds through ten have hand arguments. Full H9 has computationa
 \paragraph{E-depth.} Previously established depth values and matching constructions, credited in bibliography [3], [4], [7]. C03 lower bounds themselves do not use those computed lower bounds.
 \paragraph{E-merge.} Lee-Batcher multiway merging is prior work, bibliography [5]; the implemented recursion and cleanup proof are given in Section 9.
 \paragraph{E-seiferas.} Seiferas construction and its published depth estimate, bibliography [6]. Proposed changes require a separate proof.
+\paragraph{E-Chvatal.} Chv\'atal's Section 3 routing and capacity formulas, Theorem 5.1, the fringe-free bulk consequence of Lemma 6.1, and Lemma 4.5 are imported results \cite{chvatal}. C21 supplies a new parameter application and exact stopping calculation, not new proofs of these source theorems.
+
 \subsection{Statement-by-statement ledger}
 \paragraph{C01: General two-layer transfer.} \textbf{Statement:} For p=floor(n/2) and 0<=k<=p, an n-wire sorter of depth d>=2 yields an (n-k)-wire sorter of depth at most d whose first layer sizes are p-k and max(0,|L2|-k).
 
@@ -662,13 +796,13 @@ All small lower bounds through ten have hand arguments. Full H9 has computationa
 
 \textbf{Fresh checks:} R11, R12, R13, R14. \textbf{Scope limit:} The checks cover the specified flat networks by composition. They are not exhaustive tests over 2\textasciicircum{}1024 inputs, proofs of depth optimality, or claims of global record priority. The reported 17\textasciicircum{}8 historical merger test was not rerun.
 
-\paragraph{C19: AKS analysis status.} \textbf{Statement:} The local bag-displacement example identifies an accounting issue; proposed improved coefficients and the all-size construction are not established in this report.
+\paragraph{C19: AKS analysis status.} \textbf{Statement:} The local bag-displacement example identifies an accounting issue; the separate Seiferas-style coefficients and retention construction remain unfinished. C21 records the new Chvatal parameter theorem.
 
 \textbf{Basis:} local example and unfinished proposals. \textbf{Location:} Section 10. \textbf{Dependencies:} E-seiferas.
 
 \textbf{Evidence paths, relative to \file{supplementary/}:} \file{collaborator/main-source.txt}; \file{collaborator/SortingNetworks_results_and_proofs.md}.
 
-\textbf{Fresh checks:} none claimed beyond the mathematical argument. \textbf{Scope limit:} The approximately 281084 and 6300 coefficients are not certified new bounds. Separators, invariant, rounding, termination and comparator-depth accounting remain to be checked. The forthcoming open-model derivation is not present.
+\textbf{Fresh checks:} none claimed beyond the mathematical argument. \textbf{Scope limit:} The approximately 281084 and 6300 coefficients are not certified new bounds. Separators, invariant, rounding, termination and comparator-depth accounting remain to be checked. The new Chvatal parameter theorem is separately audited as C21 and does not establish these Seiferas-style claims.
 
 \paragraph{C20: Formalization roadmap.} \textbf{Statement:} The team plans to formalize all of its work in Lean.
 
@@ -678,8 +812,16 @@ All small lower bounds through ten have hand arguments. Full H9 has computationa
 
 \textbf{Fresh checks:} not applicable to a future research objective. \textbf{Scope limit:} Only C02 is presently claimed Lean-verified. Formalizing finite computations requires semantic links from inputs, covers and encodings to the mathematical claim, not merely formal checks of selected output files.
 
+\paragraph{C21: Explicit Chv\'atal parameter improvement.} \textbf{Statement:} $D(N)\le(5236/3)\log_2N-40651$ for all integers $N\ge2^{79}$.
+
+\textbf{Basis:} proof using published separator and outsider theorems, with fresh exact-arithmetic audit. \textbf{Location:} Theorem~\ref{thm:newaks} and Section~\ref{sec:newaks}. \textbf{Dependencies:} E-Chvatal and the standard padding/pruning argument.
+
+\textbf{Evidence paths, relative to \file{supplementary/}:} \file{collaborator/sorting_network_depth_bound-source.txt}; \file{asymptotic/verify_chvatal_parameters.py}; \file{asymptotic/parameter-check.json}; \file{asymptotic/integration-review.md}.
+
+\textbf{Fresh checks:} R15. \textbf{Scope limit:} This is an improvement within the existing Chv\'atal architecture. It is not a Lean proof, an explicit listing of the scrambles, a global priority claim, or an improvement over the full old bound for every admissible $N$. The exact full-bound crossover is $\log_2N=27009/127$.
+
 \subsection{Exact replay commands and expected observations}
-Run \texttt{python3 supplementary/replay.py} from the submission directory. It copies text/code/JSON inputs into a temporary directory and runs R01--R14 in the order below, preserving archived evidence. The working directories shown are relative to that temporary copy for R checks and to \file{supplementary/} for L and H checks. Replace \texttt{<temporary>} by a writable temporary directory if invoking an individual command. Successful exit status is required in addition to the expected counts. The combined fresh transcript is \file{supplementary/replay-log.txt}; host-specific executable and temporary paths are normalized there. Historical metadata printed by a replay is not thereby a fresh rerun of that historical experiment.
+Run \texttt{python3 supplementary/replay.py} from the submission directory. It copies text/code/JSON inputs into a temporary directory and runs R01--R15, preserving archived evidence. The working directories shown are relative to that temporary copy for R checks and to \file{supplementary/} for L and H checks. Replace \texttt{<temporary>} by a writable temporary directory if invoking an individual command. Successful exit status is required in addition to the expected counts. The combined fresh transcript is \file{supplementary/replay-log.txt}; host-specific executable and temporary paths are normalized there. Historical metadata printed by a replay is not thereby a fresh rerun of that historical experiment.
 
 Python 3, NumPy, python-sat and a C++17 compiler reproduce the selected finite checks. \file{MATHATHON_COMPONENT_PYTHON} can select a separate interpreter for R10 when python-sat and NumPy are installed in different environments. Lean uses its pinned toolchain and lockfile; dependency retrieval needs network access on a fresh machine. Large SAT searches and DRAT checking are deliberately outside this replay harness.
 \paragraph{R01.} Working directory: \file{research}. Command tokens (in order): \file{python3} \file{depth-hand-proofs/verify/profile_transfer.py} \file{--max-n} \file{11}.
@@ -724,6 +866,8 @@ Expected: CERTIFIED; 64 sixteen-sorters, 128 pair mergers, 119 cleanup steps; al
 \paragraph{R14.} Working directory: \file{constructions}. Command tokens (in order): \file{python3} \file{extend_and_verify.py}.
 
 Expected: CERTIFIED; widths256 and512 with 16641 and66049 sorted-half binary merge inputs respectively.
+\paragraph{R15.} Working directory: \file{asymptotic}. Command: \texttt{python3 verify\_chvatal\_parameters.py}. Expected: PASS; 25 separator shapes, exact invariant inequalities, five stopping residues, and 500 parity-rounding controls. The scope is the parameter application, not a reconstruction of the probabilistic theorem.
+
 \paragraph{L01.} Working directory: \file{lean}. Command tokens (in order): \file{lake} \file{build}.
 
 Expected: Exit zero; build completed successfully. Deprecation/linter warnings do not change acceptance.
@@ -872,6 +1016,29 @@ For each of the three other positions $a_i$, keep $a_i,c$ and either $B$ triple 
 
 These arguments permit nonperfect matchings and fixed embeddings of the blocks, after relabelling and untangling. They do not fill an arbitrary middle layer. Together with the separately bound $(4,3,2)$ contact proof, they discharge the merger premises of C16.
 
+\section{Background accompanying the presentation}\label{app:presentationbackground}
+The presentation retains an introductory account of comparison sorting, Batcher's method, and the AKS architecture. This appendix records that background explicitly so the presentation does not introduce additional research claims. The comparison-sorting facts are standard \cite{knuth}; the network constructions are prior work \cite{batcher,aks,chvatal}.
+
+\paragraph{Sequential comparisons and network depth.}
+For $n$ distinct items, a comparison decision tree must distinguish $n!$ orderings and therefore has worst-case depth at least $\lceil\log_2(n!)\rceil=\Theta(n\log n)$. Mergesort and heapsort give matching $O(n\log n)$ comparison bounds. This is the sequential comparison model. In a network, disjoint comparisons can run simultaneously. With at most $\lfloor n/2\rfloor$ comparators in a layer, the same gate-count argument gives the elementary lower bound $D(n)\ge\lceil\log_2(n!)/\lfloor n/2\rfloor\rceil$ for $n\ge2$. The fixed-network requirement is stronger than allowing a comparison algorithm to choose its next comparison from earlier outcomes.
+
+As an introductory example, the five-wire bubble-sort diagram in the slides has layers
+\[
+01;\quad12;\quad23\ 01;\quad34\ 12;\quad23\ 01;\quad12;\quad01.
+\]
+It has ten comparators and seven layers. This is an illustrative sorter, not an optimal five-wire construction. It is the parallel schedule of the ordinary adjacent-comparison bubble network; the general schedule has $2n-3$ layers for $n\ge2$. Section 2 gives comparator semantics and the zero-one principle.
+
+\paragraph{Batcher's exact split.}
+For $n=2^p$, sorting two halves in opposite directions produces a bitonic sequence. Comparing positions $i$ and $i+n/2$ in one layer separates its lower and upper halves by rank, and each output half remains bitonic. Recursing therefore merges a bitonic sequence in $p$ layers. Sorting recursively and then merging gives depth $1+2+\cdots+p=p(p+1)/2$ \cite{batcher}. The one-layer rank separation depends on the bitonic precondition; it is not a constant-depth exact halver for arbitrary inputs. The illustrative diagram shows the preceding half-sorters, the cross-half comparator layer, and the recursive merges.
+
+\paragraph{Approximate halvers and expansion.}
+For even width $n=2m$ and fixed $0<\varepsilon<1$, an $\varepsilon$-halver puts at most $\varepsilon k$ of the $k$ smallest items in the lower half, and at most $\varepsilon k$ of the $k$ largest in the upper half, for every $1\le k\le m$. Suitable bounded-degree bipartite expanders between the two halves yield such networks of depth depending on $\varepsilon$ but not on $n$ \cite{aks}. A regular bipartite graph decomposes into perfect matchings by Hall's theorem, so each matching can be a comparator layer, with the smaller item sent to the upper side.
+
+The binary obstruction explains the role of expansion. Upper wires can only change from 1 to 0, and lower wires only from 0 to 1. Thus, if a set $S$ of upper wires ends in 1, every lower neighbour $N(S)$ ends in 1 as well. On an input with $k$ ones, necessarily $|S|+|N(S)|\le k$. An expansion condition forcing $|S|+|N(S)|>k$ whenever $|S|>\varepsilon k$ excludes too many misplaced ones; the symmetric condition handles misplaced zeros. The slides show three matchings only as a schematic illustration, not as a certified expander or a new halver construction.
+
+\paragraph{Why the AKS tree is needed in this construction.}
+An approximate split followed only by recursion can leave an item in a subtree that does not contain its final rank. In the AKS architecture, bags represent groups of wires assigned to tree positions. Separators send extreme items upward and split the remainder downward. The outsider invariant controls items that are far from their correct position while capacities change geometrically. Termination, elimination of outsiders, and a final local sorting step are essential parts of the proof; shrinking capacities alone does not imply sorting. The existing construction has $O(\log n)$ stages with bounded depth per stage. Section 10.1 imports Chv\'atal's precise construction and invariant theorems, checks a new parameter choice, and includes the final local sort in its depth accounting. This is the basis of the presentation's conceptual tree-of-bags diagram, not a claim that the team invented that architecture.
+
 \begin{thebibliography}{99}
 \bibitem{aks} M. Ajtai, J. Koml\'os, and E. Szemer\'edi. An $O(n\log n)$ sorting network. Proceedings of STOC, 1983, pp. 1--9. \url{https://doi.org/10.1145/800061.808726}.
 \bibitem{knuth} D. E. Knuth. \emph{The Art of Computer Programming}, Vol. 3: Sorting and Searching, second edition. Addison-Wesley, 1998, Section 5.3.4. Background, zero-one reasoning, and untangling.
@@ -882,5 +1049,7 @@ These arguments permit nonperfect matchings and fixed embeddings of the blocks, 
 \bibitem{catalogue} B. Dobbelaere. Smallest and fastest sorting networks for a given number of inputs. \url{https://bertdobbelaere.github.io/sorting_networks.html}. Consulted November 15, 2026. Source of construction examples and the $10$--$11$ depth interval at eighteen inputs.
 \bibitem{problem} SAIR Foundation and Caltech Mathathon. Problem 47: Sorting Networks in $O(\log(n))$ Depth. \url{https://competition.sair.foundation/competitions/mathathon/problems/47}. Consulted November 15, 2026.
 \bibitem{rules} SAIR Foundation and Caltech Mathathon. Participant Rules and Submission Guidelines. \url{https://competition.sair.foundation/competitions/mathathon/participant-rules}. Consulted November 15, 2026.
+\bibitem{chvatal} V. Chv\'atal. \emph{Lecture Notes on the New AKS Sorting Network}. Rutgers University, DCS-TR-294, 1992. \url{https://doi.org/10.7282/T379487B}. Original author-hosted text: \url{https://users.encs.concordia.ca/~chvatal/aks.pdf}. Theorem 1.1 gives the comparison bound; Sections 3--6 supply the construction and imported parameter conditions.
+\bibitem{batcher} K. E. Batcher. Sorting networks and their applications. \emph{AFIPS Spring Joint Computer Conference}, 1968, pp. 307--314. \url{https://doi.org/10.1145/1468075.1468121}.
 \end{thebibliography}
 \end{document}

@@ -1,11 +1,13 @@
 % Beamer version of the "Sorting Networks of Logarithmic Depth" slide deck.
-% Mirrors the HTML deck in slides/project (same order, palette and diagrams).
+% Retains the original deck sequence, palette and diagrams with claims aligned to the report.
 % Diagrams are drawn in TikZ using the HTML deck's pixel coordinates (1920 x 1080 canvas = 16cm x 9cm).
-% Compile with: latexmk -pdf slides_beamer.tex
+% Revised against the integrated report. Compile with: pdflatex slides.tex
+% The 21-slide structure, palette, typography and existing TikZ illustrations are retained.
 % Speaker notes are included with \note{}; to show them, add \setbeameroption{show notes on second screen=right}.
 \documentclass[aspectratio=169,9pt,xcolor=table]{beamer}
 
 \usepackage[T1]{fontenc}
+\usepackage{lmodern}
 \usepackage[sfdefault]{plex-sans}
 \usepackage[lining]{ebgaramond}
 \usefonttheme[onlymath]{serif}
@@ -112,7 +114,7 @@
 \vspace{0.35cm}
 {\large\color{mist}What AI agents found about lower bounds, explicit constructions and the AKS network\par}
 \end{minipage}
-\note{This talk summarizes a project that used AI agents (Claude, ChatGPT and the Open Math model) to study sorting networks: how shallow they can be, how to build shallow ones, and how to understand the famous AKS construction better. I will cover what sorting networks are, what the project set out to do, the three main outcomes, and then what did not work.}
+\note{0:25. Report Sections 1 and 11. The team used Claude and Codex for the bulk of research and writing, with DeepSeek V4.1 Flash and KimiK3.1 Pro for initial analysis. Cover the background quickly, then emphasize the three outcomes and their evidence.}
 \end{frame}
 \endgroup
 
@@ -121,21 +123,21 @@
 \begin{frame}{One comparison at a time, sorting is solved}{Background \textperiodcentered\ Sequential sorting}
 \begin{columns}[c]
 \begin{column}{0.42\textwidth}
-\bigmath{\fontsize{40}{44}\selectfont $\Theta(n\log n)$}\par\vspace{0.2cm}
+\bigmath{\fontsize{36}{40}\selectfont $\Theta(n\log n)$}\par\vspace{0.2cm}
 comparisons are necessary and sufficient to sort $n$ items.
 \end{column}
 \begin{column}{0.54\textwidth}
 \begin{card}{Lower bound}
-Each comparison has two outcomes, and there are $n!$ orderings to tell apart. So at least $\log_2 n! \approx n\log_2 n$ comparisons are needed.
+For distinct items, comparisons distinguish $n!$ possible orderings. A decision tree therefore needs depth at least $\lceil\log_2(n!)\rceil$.
 \end{card}
 \begin{card}{Matching algorithms}
-Mergesort and heapsort achieve $O(n\log n)$ in the worst case, and quicksort on average.
+Mergesort and heapsort achieve $O(n\log n)$ comparisons in the worst case.
 \end{card}
 \end{column}
 \end{columns}
 \vspace{0.4cm}
 {\color{navy}The open questions start when comparisons can be made \textbf{in parallel}.}
-\note{Before parallel sorting, recall the sequential story. In the comparison model, an algorithm learns about the input only by comparing pairs. There are n factorial possible orderings and each comparison halves the possibilities at best, so we need about n log n comparisons. Mergesort and heapsort match this in the worst case, quicksort on average. So sequential comparison sorting is essentially solved. If comparisons can run in parallel, the question becomes how many rounds are needed. Since at most n/2 disjoint comparisons fit in one round, at least about 2 log n rounds are needed.}
+\note{0:35. Report Appendix G. The decision-tree lower bound and standard comparison-sorting algorithms are background, credited to Knuth. With at most floor(n/2) gates per layer, the counting bound also gives a logarithmic depth lower bound.}
 \end{frame}
 \endgroup
 
@@ -160,7 +162,7 @@ Mergesort and heapsort achieve $O(n\log n)$ in the worst case, and quicksort on 
 \textbf{Depth} is the number of layers. $D(n)$ is the least depth that sorts every input of size $n$.
 \end{column}
 \end{columns}
-\note{A sorting network is an oblivious algorithm: the comparisons are fixed in advance and do not depend on the data. That makes it suitable for hardware and parallel machines. The cost we care about is depth, the number of parallel rounds. Bubble sort uses n choose 2 comparisons, but they can be packed into 2n - 3 layers. A useful tool throughout is the zero-one principle: a network sorts all inputs if it sorts all inputs made of 0s and 1s.}
+\note{0:40. Report Section 2 and Appendix G. This five-wire illustration has ten comparisons in seven layers. It is a simple example, not an optimal network. The zero-one principle justifies binary verification.}
 \end{frame}
 
 % ======================= 4. Batcher =======================
@@ -189,7 +191,7 @@ Mergesort and heapsort achieve $O(n\log n)$ in the worst case, and quicksort on 
 \textbf{3.} Recurse on each half. Merging costs $\log_2 n$ layers, so sorting costs $\tfrac12\log_2 n\,(\log_2 n+1)$.
 \end{column}
 \end{columns}
-\note{This is Batcher's bitonic sort, viewed as halving plus divide and conquer. After the two halves are sorted in opposite directions, the sequence is bitonic, and a single layer of comparators between wire i and wire i + n/2 splits it exactly: the n/2 smallest items end up on top. Each half is again bitonic, so we recurse. The halving step is only one layer, but it is exact only because we first paid to sort both halves. That recursive sorting is what costs log squared depth. An exact halver on arbitrary inputs provably needs depth at least log2 n.}
+\note{0:45. Report Appendix G. This is Batcher bitonic sorting on a power-of-two width. Sort halves in opposite directions before applying the exact split. The recursive merge costs log2 n layers, and the sorter has triangular depth.}
 \end{frame}
 \endgroup
 
@@ -208,12 +210,12 @@ Mergesort and heapsort achieve $O(n\log n)$ in the worst case, and quicksort on 
 {\scriptsize\textcolor{steel}{\textbf{Blue:} small items}\quad \textcolor{rust}{\textbf{Red:} large items}\quad \textcolor{muted}{\textbf{Circled:} misplaced}}
 \end{column}
 \begin{column}{0.54\textwidth}
-\textbf{$\varepsilon$-halver:} of the $k$ smallest items, at most $\varepsilon k$ end up in the bottom half (and likewise for the largest).\par\medskip
+\textbf{$\varepsilon$-halver:} for $k\le n/2$, of the $k$ smallest items, at most $\varepsilon k$ end up in the bottom half (and likewise for the largest).\par\medskip
 \textbf{Constant depth:} built from a few matchings of an expander graph, independent of $n$.\par\medskip
 \textbf{The catch:} halving and recursing lets errors pile up. AKS keeps a tree of bags and sends items that look out of place \textbf{back up} to be re-sorted.
 \end{column}
 \end{columns}
-\note{If we could halve exactly in constant depth, halve-then-recurse would sort in O(log n) depth. But an exact halver needs depth at least log2 n. AKS gives up exactness: an epsilon-halver of constant depth misplaces a small fraction of items. Such halvers come from expander graphs: each layer is a matching, and a constant number of matchings suffice for any fixed epsilon. The difficulty is that misplaced items would end up in the wrong subtree forever. The AKS tree of bags fixes this: at every stage each bag sends its most extreme items up to its parent, so a misplaced item gets a chance to move to the correct branch.}
+\note{0:50. Report Appendix G. For fixed epsilon, a halver has constant depth. The rank guarantee is for each k at most n/2, on both sides. Recursion alone does not repair items sent into the wrong subtree.}
 \end{frame}
 
 % ======================= 6. Expander =======================
@@ -234,46 +236,44 @@ Mergesort and heapsort achieve $O(n\log n)$ in the worst case, and quicksort on 
   }
 \end{tikzpicture}\par\vspace{0.1cm}
 {\scriptsize\textbf{Top row:} top-half wires\quad \textbf{Bottom row:} bottom-half wires\par}
-{\tiny\color{muted}Each colour is one perfect matching, which is one layer of comparators (minimum to the top).\par}
+{\tiny\color{muted}Each colour is one matching and one layer. This diagram is schematic, not a certified expander.\par}
 \end{column}
 \begin{column}{0.54\textwidth}
 \textbf{1. Layers.} A $d$-regular bipartite graph between the halves splits into $d$ perfect matchings (Hall's theorem). Each becomes one layer.\par\medskip
-\textbf{2. Stuck items.} A large item that ends on top was never displaced, so every wire it met holds a large item too.\par\medskip
-\textbf{3. Expansion.} Any small set $S$ on top has at least $\frac{1-\varepsilon}{\varepsilon}|S|$ neighbours. With $k$ large items, the stuck set has $|S|\le\varepsilon k$.
+\textbf{2. Stuck wires.} In a binary input, a top wire ending in 1 always held 1. Every bottom neighbour then ends in 1 too.\par\medskip
+\textbf{3. Expansion.} If too many large items stay on top, their neighbours would require more large items than exist. Suitable expansion gives the halver guarantee.
 \end{column}
 \end{columns}
-\note{Think in zero-one terms, with k ones (large items) and k at most n/2. Each layer compares a top wire with a bottom wire and puts the minimum on top. A top wire that ever holds a 0 keeps a 0 forever, and a bottom wire that ever holds a 1 keeps a 1. So if a top wire holds a 1 at the end, it held a 1 the whole time, and every bottom wire it was compared with received a 1 and kept it. So the stuck set S and its neighbourhood N(S) all hold ones: |S| + |N(S)| <= k. The expander guarantees |N(S)| >= ((1 - eps)/eps)|S| for every S of size at most eps n/2, so |S| + |N(S)| >= |S|/eps. If more than eps k ones were stuck, a subset of size about eps k would already have more than k ones around it, a contradiction. The degree d depends only on eps, not on n, so the depth is constant.}
+\note{0:50. Report Appendix G. The drawing only illustrates three matchings. It is not claimed to certify an epsilon-halver. In a binary run, a top wire ending in one always held one, and each neighbour on the bottom ends in one. The stuck set and its neighbourhood cannot contain more ones than the input. Suitable expansion rules out a large stuck set. Credit the published AKS construction.}
 \end{frame}
 \endgroup
 
 % ======================= 7. Landscape =======================
 \begingroup\altstyle
-\begin{frame}{Theory says $O(\log n)$; practice is stuck at $\log^2 n$}{Background}
+\begin{frame}{The logarithmic-depth gap}{Background}
 \small
-\rowcolors{2}{}{}
-\begin{tabular}{p{0.40\textwidth}p{0.26\textwidth}p{0.24\textwidth}}
+\begin{tabular}{p{0.36\textwidth}p{0.30\textwidth}p{0.23\textwidth}}
 \toprule
 \textbf{Result} & \textbf{Depth} & \textbf{Comment}\\
 \midrule
-Batcher (1968) & $\tfrac12\log n(\log n+1)$ & Simple, used in practice\\
-\rowcolor{hl} Ajtai, Koml\'os, Szemer\'edi (1983) & $O(\log n)$ & Huge constant\\
-Paterson (1990) & $\approx 6100\log n$ & Simplified AKS\\
-Chv\'atal (1992) & $\approx 1830\log n$ & For $n\ge 2^{78}$\\
-Lower bound (Kahale et al., 1995) & $3.27\log n$ & Best known\\
-Exact values of $D(n)$ & known for $n\le 17$ & SAT solvers\\
+Batcher (1968) & $\tfrac12\log_2 n(\log_2 n+1)$ & Simple construction\\
+\rowcolor{hl} Ajtai, Koml\'os, Szemer\'edi (1983) & $O(\log n)$ & Large constant\\
+Chv\'atal (1992) & $1830\log_2 n-58657$ & $n\ge 2^{78}$\\
+Exact values of $D(n)$ & Known through 17 wires & Prior work\\
+First unresolved width & $10\le D(18)\le11$ & One-layer gap\\
 \bottomrule
 \end{tabular}\par\vspace{0.4cm}
-{\color{navy}AKS only beats Batcher once $\log_2 n$ is in the thousands. There is a large gap between lower and upper bounds, for both small and large $n$.}
-\note{The headline tension: AKS proved logarithmic depth is possible, but the constant is so large that Batcher's simple log-squared networks are better for any n we could ever use. Even with Chvatal's improved constant of about 1830, the crossover is around n = 2 to the 3600. On the lower-bound side we only know about 3.27 log n. And for concrete small n, exact optimal depths are known only up to 17 inputs.}
+{\color{navy}We seek simpler constructions and proofs that explain what forces another layer. The numerical small-width optima are prior work.}
+\note{0:45. Report Section 1, Section 10.1 and Appendix G. These are prior results. The new numerical contribution concerns a parameter choice within Chvatal, discussed later. The first unresolved exact width in the cited catalogue is eighteen.}
 \end{frame}
 \endgroup
 
 % ======================= 8. Purpose =======================
 \begin{frame}{Use AI agents to understand shallow sorting networks better}{Purpose of this effort}
-\begin{columns}[t]
+\begin{columns}[T]
 \begin{column}{0.48\textwidth}
 \begin{card}{AKS analysis}A simpler, clearer account of why the AKS network works\end{card}
-\begin{card}{Lower bounds}Explain why AKS needs its size, and give simpler proofs of known bounds\end{card}
+\begin{card}{Lower bounds}Extract structural obstructions and give human-understandable proofs of known bounds\end{card}
 \end{column}
 \begin{column}{0.48\textwidth}
 \begin{card}{New constructions}$O(\log n)$-depth networks that are simpler or connect to other mathematics\end{card}
@@ -281,41 +281,43 @@ Exact values of $D(n)$ & known for $n\le 17$ & SAT solvers\\
 \end{column}
 \end{columns}
 \vspace{0.2cm}
-{\scriptsize\color{muted}Agents used: the Open Math model, Claude and ChatGPT.}
-\note{The project had four aims. The main one was to simplify the analysis of AKS. Alongside that we looked for new constructions, for lower bounds that would explain the structure of AKS, and for better networks at specific sizes. Several AI systems were used, and outcomes are attributed to the system that produced them.}
+{\scriptsize\color{muted}Claude and Codex: main research and writing. DeepSeek V4.1 Flash and KimiK3.1 Pro: initial analysis.}
+\note{0:45. Report Sections 1, 8 and 11. The four directions are research objectives, not claims that all were achieved. SAT supplies examples and constraints; LLM-assisted analysis helps search for proofs. Model-specific contributions are not inferred solely from branch names.}
 \end{frame}
 
 % ======================= 9. Outcomes =======================
 \begingroup\altstyle
 \begin{frame}{Three concrete outcomes}{Statement of outcomes}
-\begin{columns}[t]
+\begin{columns}[T]
 \begin{column}{0.31\textwidth}
-\begin{card}{Claude and ChatGPT}{\rmfamily\bfseries\large\color{navy}Lower bounds by hand\par}\smallskip
-A short proof that $D(n)\ge D(\lceil n/2\rceil)+2$. It improves the lower bound for $D(32)$ from 10 to 11, with no SAT solver.\end{card}
+\begin{card}{Lower bounds}{\rmfamily\bfseries\large\color{navy}Proofs through ten wires\par}\smallskip
+Human-understandable arguments for every optimal lower bound through $D(10)$. SAT-guided work also yields short structural proofs.\end{card}
 \end{column}
 \begin{column}{0.31\textwidth}
-\begin{card}{Open Math model}{\rmfamily\bfseries\large\color{navy}AKS constants\par}\smallskip
-Improved constants for AKS-style networks, and a correction to a constraint in Seiferas's analysis.\end{card}
+\begin{card}{AKS analysis}{\rmfamily\bfseries\large\color{navy}A smaller coefficient\par}\smallskip
+A checked parameter choice gives coefficient $5236/3\approx1745.33$ within Chv\'atal's existing construction.\end{card}
 \end{column}
 \begin{column}{0.31\textwidth}
-\begin{card}{Claude}{\rmfamily\bfseries\large\color{navy}Shallower networks\par}\smallskip
-Verified networks on 128 and 1024 wires that are one layer shallower than previously known constructions.\end{card}
+\begin{card}{Constructions}{\rmfamily\bfseries\large\color{navy}Concrete shallow networks\par}\smallskip
+Verified depths 26, 34, 43 and 52 at 128, 256, 512 and 1024 wires. These improve the Batcher baseline.\end{card}
 \end{column}
 \end{columns}
-\vspace{0.2cm}
-{\color{muted}A potential-function view of AKS was also attempted, but did not give new insight.}
-\note{These are the three outcomes listed in the report. The rest of the talk goes through each one, then covers the negative results. Note the attribution: each outcome is credited to the AI system that produced it.}
+\vspace{0.3cm}
+{\color{muted}A simpler logarithmic-depth construction remains an objective.}
+\note{1:00. Report Sections 1, 2, 9 and 10.1. Separate completed explanatory progress at small widths, the explicit parameter theorem, and verified finite constructions. The lower-bound values and the AKS architecture themselves are prior work. A simpler logarithmic-depth architecture remains open.}
 \end{frame}
 \endgroup
 
 % ======================= 10. Halving lemma statement =======================
 \begingroup\darkstyle
 \begin{frame}{The halving lemma}{Outcome 1 \textperiodcentered\ Lower bounds for small $n$}
-\vspace{0.6cm}
-{\color{paper}\fontsize{34}{38}\selectfont $D(n)\;\ge\; D(\lceil n/2\rceil)+2$\par}
-\vspace{0.6cm}
-{\Large\color{mist}Sorting $n$ items always takes at least two more layers than sorting half of them.\par}
-\note{This holds for every n at least 3. Iterating it gives D(n) >= 2 ceil(log2 n) - 1. It is weaker than the asymptotic lower bounds, but for concrete n in the 20s to 60s, combined with the SAT-computed values up to 17, it gives new bounds.}
+\vspace{0.35cm}
+{\color{paper}\fontsize{32}{36}\selectfont $D(n)\;\ge\; D(\lceil n/2\rceil)+2$\par}
+\vspace{0.45cm}
+{\Large\color{mist}For $n\ge3$, sorting $n$ items needs at least two more layers than sorting half of them.\par}
+\vspace{0.4cm}
+{\color{rustlight}The two-layer removal and this recurrence are verified in Lean.}
+\note{1:00. Report Section 2.1 and Appendix E.4. The hypothesis n at least three matters. For n=2 the formula is false. Lean checks only the two-layer removal and halving recurrence, not all the report theorems. Larger consequences can use published small-width depths, but those are separate premises.}
 \end{frame}
 \endgroup
 
@@ -336,52 +338,53 @@ Verified networks on 128 and 1024 wires that are one layer shallower than previo
 {\scriptsize\textcolor{steel}{\textbf{Solid:} variables}\quad \textcolor{rust}{\textbf{Dashed:} $\pm\infty$ constants}\quad \textcolor{muted}{\textbf{Shaded:} later layers}}
 \end{column}
 \begin{column}{0.50\textwidth}
-\textbf{1.} Layers 1 and 2 form paths and even cycles, so their graph is 2-colourable.\par\medskip
-\textbf{2.} Put $\pm\infty$ on the smaller colour class. Then no two variables meet in layers 1--2.\par\medskip
+\textbf{1.} Fill the first layer if needed. The first two layers form paths and even cycles, so their graph is 2-colourable.\par\medskip
+\textbf{2.} Put $\pm\infty$ on one colour class, choosing signs that stay fixed in layer 1. No two variables meet in layers 1--2.\par\medskip
 \textbf{3.} Follow the $\ge n/2$ variables as tokens. Layers $3,\dots,d$ sort them, and Knuth's untangling turns this into a real sorter of depth $d-2$.
 \end{column}
 \end{columns}
-\note{Each wire touches at most one comparator in each of the first two layers, so the union is a set of paths and even cycles: bipartite. Choose the smaller colour class and put plus or minus infinity there, with signs chosen so they do not move in layer one. Every comparator in layers one and two joins a constant and a variable, so variables are never compared with each other. A comparison between a variable and an infinity has a fixed outcome, so the variables move like tokens independent of their values. The comparisons among variables in the remaining layers form a network that sorts them. The subtle point, which an earlier write-up missed, is that variables change wires, so you need Knuth's untangling lemma to get a standard network.}
+\note{1:10. Report Section 2, Theorem 2.1. First fill the first layer without increasing depth. Its union with the next layer consists of paths and even cycles. Select one colour class and sign the sentinels to remain stationary during the first layer. Both layers are blind. Follow the real values and untangle to obtain a sorter on the surviving inputs.}
 \end{frame}
 
 % ======================= 12. Small bounds =======================
 \begingroup\altstyle
-\begin{frame}{New lower bounds from known small values}{Outcome 1 \textperiodcentered\ Consequences}
-\begin{columns}[t]
+\begin{frame}{Hand proofs through ten wires}{Outcome 1 \textperiodcentered\ Consequences}
+\begin{columns}[T]
 \begin{column}{0.52\textwidth}
-\small
-\begin{tabular}{p{0.28\textwidth}p{0.30\textwidth}p{0.30\textwidth}}
+\begin{tabular}{cc}
 \toprule
-$n$ & \textbf{Previously listed} & \textbf{Halving lemma}\\
+\textbf{Wires $n$} & \textbf{Optimal depth $D(n)$}\\
 \midrule
-18--24 & 10 & 10\\
-\rowcolor{hl} 25--32 & 10 & \textbf{11}\\
-33--48 & --- & 12\\
-49--64 & --- & 13\\
+1 & 0\\
+2 & 1\\
+3--4 & 3\\
+5--6 & 5\\
+7--8 & 6\\
+\rowcolor{hl}9--10 & 7\\
 \bottomrule
-\end{tabular}\par\vspace{0.15cm}
-{\scriptsize\color{muted}Uses $D(13),\dots,D(16)=9$ and $D(17)=10$, known from SAT computations.}
+\end{tabular}\par\vspace{0.2cm}
+{\scriptsize\color{muted}Restrictions, a five-wire obstruction and monotonicity. Known constructions meet every lower bound.}
 \end{column}
 \begin{column}{0.44\textwidth}
-\begin{card}{For $n=32$}\bigmath{\fontsize{21}{25}\selectfont $11\le D(32)\le 14$}\end{card}
-\begin{caveat}Novelty is not confirmed. The argument is simple enough that it may be folklore; Knuth \S5.3.4 and Parberry's work still need checking.\end{caveat}
+\begin{card}{What changed}We now have a complete chain of hand arguments through ten wires, without SAT or computer-found size bounds as premises.\end{card}
+\begin{caveat}The values were already known. For larger widths, the recurrence gives $D(32)\ge11$ using the published $D(16)=9$. We do not claim priority for that consequence.\end{caveat}
 \end{column}
 \end{columns}
-\note{For n from 25 to 32, half of n is between 13 and 16, where the optimal depth is 9, so D(n) is at least 11. The tables we consulted list 10. The lemma is tight for n = 3, 4, 5, 6, 9 and 10, and off by one for the other n up to 17. The caveat matters: before claiming this as new, someone needs to check Knuth and Parberry.}
+\note{1:10. Report Section 2, Corollary 2.2, and Appendix A. Our starting point lacked a complete human proof of these small lower bounds. The seven-wire case uses a five-wire thin-layer obstruction; the nine-wire case follows from the recurrence. Known constructions provide the upper bounds. The D(32) consequence depends on the published D(16)=9 and has no priority claim.}
 \end{frame}
 \endgroup
 
-% ======================= 13. D(32) =======================
-\begin{frame}{Is a depth-11 network on 32 wires possible?}{Outcome 1 \textperiodcentered\ Pushing further}
-The same idea gives a family of tests on the first few layers: if the inputs that can still be reached form a large enough subcube, the remaining layers are too few to sort it.\par\vspace{0.3cm}
-\begin{columns}[t]
-\begin{column}{0.31\textwidth}\begin{card}{Proved by computation}Starting with the 4-layer hypercube prefix forces depth $\ge 12$.\end{card}\end{column}
-\begin{column}{0.31\textwidth}\begin{card}{Sampled}364 of 365 random 5-layer prefixes cannot be extended to depth 11.\end{card}\end{column}
-\begin{column}{0.31\textwidth}\begin{card}[rust]{But}Random prefixes also die early at sizes where good networks exist, so this is not evidence of impossibility.\end{card}\end{column}
+% ======================= 13. Structural proofs =======================
+\begin{frame}{Mining structural proofs from SAT}{Outcome 1 \textperiodcentered\ Pushing further}
+SAT identifies constrained cases. We use LLM-assisted analysis to look for a reason that a human can check.\par\vspace{0.3cm}
+\begin{columns}[T]
+\begin{column}{0.31\textwidth}\begin{card}{A short proof}Two moving infinity restrictions force a nine-wire cycle case into a small family. Nine explicit rows finish the contradiction.\end{card}\end{column}
+\begin{column}{0.31\textwidth}\begin{card}{Reusable structure}Merger arguments force a large interaction component. The nine-wire profile lemma now has hand coverage of 26 out of 50 classes.\end{card}\end{column}
+\begin{column}{0.31\textwidth}\begin{card}[rust]{Current limit}At 18 wires we exclude selected longer prefixes, but none of the 411 complete two-layer cases is closed.\end{card}\end{column}
 \end{columns}
 \vspace{0.3cm}
-{\color{navy}Proving $D(2n)\ge D(n)+3$ for $n=16$ would settle $D(32)\ge 12$. It remains open.}
-\note{We generalized the halving lemma to t layers and to subcubes of reachable 0-1 vectors. These give pruning rules for a search. One natural prefix, the hypercube, is ruled out for depth 11. Sampling suggested most prefixes die by layer 6, but a calibration experiment at n = 12, 14 and 16 showed the same behaviour where networks do exist, so we draw no conclusion. A full search over fourth layers is about 10 to the 15 candidates, out of reach.}
+{\color{navy}The goal is a structural theorem that reaches beyond large case searches.}
+\note{1:20. Report Sections 6 and 7, Appendix F. In the nine-wire cycle case, opposite-sign sentinel placements remain disjoint, so their six-real sets always overlap in three wires. A matching cannot pair both sets internally. This forces a small family, eliminated by nine rows. Full H9 still has computational dependencies in 24 classes. Selected D18 prefix exclusions do not close any of the 411 full two-layer cases.}
 \end{frame}
 
 % ======================= 14. AKS tree =======================
@@ -404,37 +407,39 @@ The same idea gives a family of tests on the first few layers: if the inputs tha
 \begin{column}{0.50\textwidth}
 \textbf{Bags} are sets of wires at tree nodes; leaves are final positions.\par\medskip
 \textbf{Each stage}, every bag runs a constant-depth separator. It sends a few extreme items \textcolor{rust}{\textbf{up}} and splits the rest between its children.\par\medskip
-\textbf{Capacities shrink} geometrically, so after $O(\log n)$ stages everything sits at the leaves, sorted.
+\textbf{Capacities shrink} geometrically. After $O(\log n)$ stages, the invariant eliminates misplaced items and small local sorters finish the network.
 \end{column}
 \end{columns}
-\note{The analysis tracks the strangeness of each item: how many levels it must climb to reach a bag whose interval contains its true rank. The invariant says items of high strangeness are exponentially rare. Depth equals the number of stages times the separator depth, and the separator, built from expander-based halvers, is where the huge constant comes from.}
+\note{0:55. Report Section 10.1 and Appendix G. This is a conceptual picture of the existing AKS architecture. The invariant controls misplaced items. Termination and a final local sort are part of the proof; shrinking bags alone is insufficient. Chvatal supplies the published separator and outsider theorems used by the new parameter calculation.}
 \end{frame}
 
 % ======================= 15. Constants =======================
 \begingroup\altstyle
 \begin{frame}{Comparing constants in the same units}{Outcome 2 \textperiodcentered\ Constants}
-\begin{columns}[t]
-\begin{column}{0.56\textwidth}
+\begin{columns}[T]
+\begin{column}{0.54\textwidth}
 \small
 \begin{tabular}{ll}
 \toprule
-\textbf{Construction} & $c$ in $c\cdot\log_2 n$ layers\\
+\textbf{Construction or proposal} & \textbf{Coefficient of $\log_2 n$}\\
 \midrule
-Paterson (1990) & $\approx 6{,}100$\\
-Chv\'atal (1992), $n\ge 2^{78}$ & $\approx 1{,}830$\\
-Seiferas, his sample parameters & $514{,}246$\\
-Seiferas, corrected and optimized & $281{,}084$\\
-Refined bookkeeping & $\approx 6{,}300$ (unreviewed)\\
+Chv\'atal (1992) & $1830$\\
+\rowcolor{hl} New parameter choice & $5236/3\approx1745.33$\\
+Seiferas, sample parameters & $\approx514{,}247$\\
+Corrected Seiferas proposal & $\approx281{,}084$\\
+Refined bookkeeping proposal & $\approx6300$\\
 \bottomrule
-\end{tabular}\par\vspace{0.15cm}
-{\scriptsize\color{muted}Seiferas's quoted 6.05 and 6.95 count stages, not layers.}
+\end{tabular}\par\vspace{0.2cm}
+{\scriptsize\color{muted}All coefficients count comparator layers. The last two proposals remain unverified.}
 \end{column}
-\begin{column}{0.40\textwidth}
-\begin{card}[rust]{A missing term}One of Seiferas's constraints ignores a bag's own outsiders pushing items across the middle. A 100-item example shows the gap; his main theorem survives.\end{card}
-\begin{caveat}[Open Math model results to be added]\end{caveat}
+\begin{column}{0.42\textwidth}
+\begin{card}[rust]{New checked parameter bound}
+$D(n)\le\frac{5236}{3}\log_2 n-40651$\par\smallskip
+for $n\ge2^{79}$. The leading coefficient is about 4.63\% below Chv\'atal's.\end{card}
+\begin{caveat}The full bound improves his only above $\log_2 n\approx212.67$. It uses the existing AKS construction and is not yet formalized in Lean.\end{caveat}
 \end{column}
 \end{columns}
-\note{Constants in this literature are quoted in different units, which makes them hard to compare. Converting to comparator layers shows Seiferas's simplified analysis has an enormous constant. We also found that one of his three parameter constraints omits a term: with 5 small outsiders, 50 left-natives and 45 right-natives, exact sorting sends 5 left-natives to the wrong child, but his bound gives zero. Paterson's version includes the term. The specific improved constants from the Open Math model still need to be filled in here, matching the placeholder in the report.}
+\note{1:20. Report Section 10.1, Theorem 10.1, and Section 10.2. The new leading coefficient is about 4.63 percent smaller than 1830. Its larger additive offset means the complete affine bound improves Chvatal only for log2 n greater than 27009/127. Exact parameter inequalities and five stopping residues passed. This does not certify the older Seiferas proposals, prove a globally best constant, or replace the existing AKS architecture. Primary source: \url{https://doi.org/10.7282/T379487B}.}
 \end{frame}
 \endgroup
 
@@ -453,12 +458,12 @@ Refined bookkeeping & $\approx 6{,}300$ (unreviewed)\\
 {\scriptsize\color{muted}The key saving is in the base case\par}\smallskip
 {\color{navy}Drop the first layer of an optimal 16-wire sorter: what is left merges 8 sorted pairs in 8 layers, one fewer than the standard recursion.}
 \end{statement}
-\note{This is a k-way version of Batcher's odd-even merge, essentially Lee and Batcher's multiway merge from 1995. Merging k lists of length 2m costs the merge of k lists of length m plus ceiling of log k layers. The proof uses the zero-one principle: after interleaving, the sequence looks like zeros, then a block of alternating 01 pairs whose length is the number of lists with an odd count of zeros, then ones. Each cleanup layer halves that block. Our gain over Lee and Batcher comes from starting the recursion from an optimal 16-wire sorter.}
+\note{1:00. Report Section 9, Theorem 9.1. The multiway merge recursion is Lee and Batcher prior work. The useful base case removes the first full layer of a nine-layer sixteen-wire sorter, leaving an eight-layer merger of eight sorted pairs. The zero-one cleanup proof is in the report.}
 \end{frame}
 \endgroup
 
 % ======================= 17. Depths =======================
-\begin{frame}{One layer better than known constructions at 128 and 1024}{Outcome 3 \textperiodcentered\ Results}
+\begin{frame}{Concrete constructions below the Batcher baseline}{Outcome 3 \textperiodcentered\ Results}
 \begin{tabular}{p{0.11\textwidth}p{0.15\textwidth}p{0.17\textwidth}p{0.11\textwidth}p{0.26\textwidth}}
 \toprule
 $n$ & \textbf{Batcher} & \textbf{Lee--Batcher} & \textbf{Ours} & \textbf{Built from}\\
@@ -469,73 +474,75 @@ $n$ & \textbf{Batcher} & \textbf{Lee--Batcher} & \textbf{Ours} & \textbf{Built f
 \rowcolor{hl} 1024 & 55 & 53 & \textbf{52} & $8\times 128$, then merge\\
 \bottomrule
 \end{tabular}\par\vspace{0.4cm}
-At 256 and 512 the networks beat Batcher but only match Lee and Batcher. No published depths beyond 64 inputs were found to compare against.
-\note{Depths are number of layers. The Lee-Batcher column is our own arithmetic from their formula. The highlighted rows are the genuine improvements. At 256 we only match the Lee-Batcher value. Dobbelaere's well-known tables stop at 64 inputs, so the absence of a better published value is not proof of novelty.}
+The Lee--Batcher column is the collaborator's evaluation of their formula. The multiway recursion is prior work. Priority against the full literature has not been established.
+\note{0:55. Report Section 9, Table 2. The networks are verified upper bounds, not optimal depths. The Lee-Batcher values are the collaborator formula comparison, not a complete literature search. Do not call these globally best-known depths.}
 \end{frame}
 
 % ======================= 18. Verification =======================
 \begingroup\altstyle
 \begin{frame}{How we know the networks sort}{Outcome 3 \textperiodcentered\ Verification}
 Checking all $2^{1024}$ zero-one inputs is impossible. Instead, an independent checker reads only the list of layers, rediscovers the structure, and checks each piece on every input that piece can receive.\par\vspace{0.3cm}
-\begin{columns}[t]
+\begin{columns}[T]
 \begin{column}{0.31\textwidth}\begin{card}{16-wire blocks}All $2^{16}$ inputs\end{card}\end{column}
 \begin{column}{0.31\textwidth}\begin{card}{Base mergers}All $3^8$ inputs of 8 sorted pairs\end{card}\end{column}
 \begin{column}{0.31\textwidth}\begin{card}{Cleanup layers}Every input they can receive, by induction\end{card}\end{column}
 \end{columns}
 \vspace{0.3cm}
-\begin{columns}[t]
-\begin{column}{0.48\textwidth}\textbf{Negative controls:} 6 broken networks, each missing one comparator, were all rejected.\end{column}
-\begin{column}{0.48\textwidth}\textbf{Cross-checks:} the 128-wire merger on all $7\times10^9$ sorted-block inputs, with no failures.\end{column}
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}\textbf{Earlier controls, not rerun here:} all 6 networks with one comparator removed were rejected.\end{column}
+\begin{column}{0.48\textwidth}\textbf{Earlier cross-check, not rerun here:} the 128-wire merger passed all $17^8$ sorted-block inputs.\end{column}
 \end{columns}
-\note{The checker does not trust the builder: it works from the flat list of comparators. A short induction shows that passing these local checks implies the whole network sorts, using the zero-one principle. The negative controls show the checker is not vacuous. The 256 and 512 networks are two copies of a smaller certified network plus Batcher's merge, which we checked on all pairs of sorted halves.}
+\note{1:00. Report Section 9.1. The fresh compositional checks cover every comparator at all four widths. The 1024-wire network has 64 base sorters, 128 pair mergers and 119 cleanup steps. The extra deletion tests and 17^8-input merger test are historical checks recorded by the collaborator, not rerun for this synthesis.}
 \end{frame}
 \endgroup
 
 % ======================= 19. Negative results =======================
 \begin{frame}{What did not work, and why}{Other attempts}
-\begin{columns}[t]
-\begin{column}{0.31\textwidth}\begin{card}{Asymptotic lower bound}{\rmfamily\bfseries\large\color{navy}$3\log n$, not 4\par}\smallskip A short potential-function proof gives Yao's 2.41 and then $3\log n$. It cannot beat the known 3.27.\end{card}\end{column}
-\begin{column}{0.31\textwidth}\begin{card}{Removing the tree}{\rmfamily\bfseries\large\color{navy}Sliding windows fail\par}\smallskip A fixed schedule of local halvers fails to sort for large $n$, whatever the wiring.\end{card}\end{column}
-\begin{column}{0.31\textwidth}\begin{card}{Simple potentials}{\rmfamily\bfseries\large\color{navy}Distance is not enough\par}\smallskip Shrinking total displacement by a constant factor needs $\Omega(\log n)$ layers, so proofs need something like AKS's tree.\end{card}\end{column}
+\begin{columns}[T]
+\begin{column}{0.31\textwidth}\begin{card}{Only counting gates}{\rmfamily\bfseries\large\color{navy}Too little structure\par}\smallskip Caps on the first two layer sizes cannot distinguish the 17- and 18-wire depth targets.\end{card}\end{column}
+\begin{column}{0.31\textwidth}\begin{card}{Deleting a third layer}{\rmfamily\bfseries\large\color{navy}Blinding has a limit\par}\smallskip At width 18, no argument can always delete a third layer using only half-width sentinel blinding.\end{card}\end{column}
+\begin{column}{0.31\textwidth}\begin{card}{Exact search}{\rmfamily\bfseries\large\color{navy}A timeout is inconclusive\par}\smallskip The saved 18-wire run timed out on one case. The other 410 cases were not solved.\end{card}\end{column}
 \end{columns}
-\vspace{0.3cm}
-{\color{navy}Every $O(\log n)$ network must keep long comparators until the end: after the first $\log_2 n-1$ layers, the remaining layers still need total span $n/2$.}
-\note{These negative results explain why AKS looks the way it does. Long comparators are needed until the very end, which is why AKS keeps sending items back to the root. A potential based only on how far items are from home cannot contract quickly, so any proof needs an extra term playing the role of tree level and strangeness. The attempt to replace the tree with sliding windows was refuted for every wiring.}
+\vspace{0.35cm}
+{\color{navy}These limits motivate shared restrictions and structural invariants. $D(18)$ remains unresolved.}
+\note{0:55. Report Sections 3, 5 and 8. The layer-cap limitation and third-layer blinding obstruction are proved statements about particular methods. They are not impossibility results for every structural strategy. A timeout supplies neither a sorter nor a refutation.}
 \end{frame}
 
-% ======================= 20. Errors =======================
+% ======================= 20. Review and formalization =======================
 \begingroup\altstyle
-\begin{frame}{Errors the agents made, caught on review}{Lessons}
-\begin{columns}[t]
+\begin{frame}{What review and formalization establish}{Lessons}
+\begin{columns}[T]
 \begin{column}{0.54\textwidth}
-\begin{itemize}\setlength{\itemsep}{4pt}
-\item A lemma used to rebuild the $3.27\log n$ bound was false (4-wire counterexample).
-\item A proof skipped the step where values change wires.
-\item A claimed $D(12)\ge 8$ came from a search bug.
-\item A search pruning rule was unsound.
-\item A ``$6\log n+12$'' depth came from a weak adversary.
-\item A ``new'' reduction was folklore.
+\begin{itemize}\setlength{\itemsep}{7pt}
+\item A nine-wire search needed 36 pair indices, not 35. The corrected computation supersedes the old counts.
+\item Pruning infinity wires requires tracking the moving values and untangling the resulting network.
+\item Stage counts and comparator-layer counts are different.
+\item A selected-prefix exclusion does not prove a whole depth lower bound.
 \end{itemize}
 \end{column}
 \begin{column}{0.42\textwidth}
-\begin{card}[rust]{Takeaway}Agent output reads equally confident whether right or wrong. Independent checkers, counterexample searches and negative controls caught these errors.\end{card}
+\begin{card}[rust]{Lean verification}
+The two-layer removal and halving recurrence passed both the project build and a direct source check.\par\smallskip
+The remaining structural and asymptotic results are outside that formal scope.\end{card}
 \end{column}
 \end{columns}
-\note{A significant part of the value of this project was in the review process. Several claims looked plausible and were stated confidently, but were wrong. The ones that survived are those that passed independent re-derivation, exhaustive checks on small cases, or certificate checkers tested with deliberately broken inputs.}
+\vspace{0.3cm}
+{\color{navy}AI suggestions are checked through proofs, independent computations and explicit evidence.}
+\note{1:00. Report Sections 2.1, 6.1, 8 and 10.2, Appendix E. The corrected H9 indexing uses all 36 pairs. Lean accepted both named declarations, with only propext, Classical.choice and Quot.sound as transitive axioms and no sorryAx. The SAT encoders, merger arguments and new asymptotic theorem remain outside that formal verification scope.}
 \end{frame}
 \endgroup
 
 % ======================= 21. Open problems =======================
 \begingroup\darkstyle
 \begin{frame}{Where to go next}{Open problems}
-\begin{enumerate}\setlength{\itemsep}{8pt}
+\begin{enumerate}\setlength{\itemsep}{10pt}
 \color{mist}
-\item Is $D(2n)\ge D(n)+3$? The case $n=16$ alone would give $D(32)\ge 12$.
-\item Can $\sqrt n$ sorted lists of length $\sqrt n$ be merged in $O(\log n)$ depth by a simple network? That would give a simple $O(\log n)$ sorter.
-\item What is the correct form of the lemma behind $3.27\log n$, and can it reach $4\log n$?
-\item Is there a short, complete AKS proof with an explicit, reasonable constant?
+\item Extract a short invariant from SAT certificates and complete the remaining nine-wire hand cases.
+\item Extend the structural arguments across complete prefix families, toward resolving $D(18)$.
+\item Find a simpler logarithmic-depth construction or a clearer AKS proof with a smaller explicit constant.
+\item Formalize all of our work in Lean, including the mathematics behind the computational certificates.
 \end{enumerate}
-\note{These are the sharpest questions the project left open. The second is particularly attractive: merging square-root-n lists of length square-root-n in logarithmic depth would immediately give a simple logarithmic-depth sorting network by recursion. Small concrete targets are merging 4 lists of 4 in depth 6 and 8 lists of 8 in depth 13; the current best for the latter is 14.}
+\note{0:50. Report Sections 1 and 8, Appendix E.4. The formalization plan covers all mathematical results and the semantic justification of computational evidence. This is a future objective. Thank the audience and invite questions.}
 \end{frame}
 \endgroup
 

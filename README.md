@@ -4,13 +4,13 @@
 
 The current synthesis is in [mathathon-submission](mathathon-submission/README.md):
 
-- [32-page report](mathathon-submission/report.pdf) and [self-contained LaTeX source](mathathon-submission/report.tex)
-- [20-slide presentation](mathathon-submission/slides.pdf) and [editable PowerPoint](mathathon-submission/slides.pptx)
+- [37-page report](mathathon-submission/report.pdf) and [self-contained LaTeX source](mathathon-submission/report.tex)
+- [21-slide presentation](slides.pdf), [Beamer source](slides_beamer.tex), and [slide-to-report consistency map](mathathon-submission/supplementary/presentation-review.md)
 - [Machine-readable claim ledger](mathathon-submission/supplementary/claim-ledger.json) with dependencies, source hashes, verification commands, and limits
 - [Lean source, formal statement mapping, and build instructions](mathathon-submission/supplementary/lean/README.md)
 - [Reproduction and collaborator-integration instructions](mathathon-submission/HANDOFF.md)
 
-The report emphasizes the completed hand arguments through ten wires, structural results mined from SAT-guided exploration, concrete constructions, and the remaining open work. Both Lean checks passed for two-layer removal and the halving recurrence. We plan to formalize all of the work. The forthcoming open-model AKS derivation remains pending. The original collaborator files at the repository root are retained as source material; the integrated report above is the current synthesis.
+The report emphasizes the completed hand arguments through ten wires, structural results mined from SAT-guided exploration, concrete constructions, and the remaining open work. Both Lean checks passed for two-layer removal and the halving recurrence. We plan to formalize all of the work. Section 10.1 now incorporates the second collaborator's distinct bound `D(N) <= (5236/3) log2 N - 40651` for `N >= 2^79`, with an exact parameter audit and comparison against Chvatal's published bound. The separate Seiferas-style proposals retain their unverified status. The original collaborator reports remain source material, while the root Beamer deck is updated to match the integrated report; the integrated report above is the current synthesis. See the [overlap and verification review](mathathon-submission/supplementary/asymptotic/integration-review.md).
 
 A sandbox for exploring **sorting networks**: fixed sequences of
 compare-and-swap operations that sort every possible input.

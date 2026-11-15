@@ -76,7 +76,7 @@ total: 289420 cases passed
   "normalized_merger_cases": 4,
   "contact_rows": 32,
   "direct_real_order_runs": 41520,
-  "elapsed_seconds": 0.05649870808701962,
+  "elapsed_seconds": 0.05559220805298537,
   "source_sha256": "1ed92aa21668afbb0a1278301604558a3415d05cec21a2102a53fccd309472d4",
   "contact_data_sha256": "a40057f7308b90b00af5c3e402bab3193887c90d8a93e773fa9fd23589946f63",
   "branch_checker_sha256": {
@@ -96,7 +96,7 @@ total: 289420 cases passed
   "source_sha256": "1afc8b3fc2244f14d1edba9a096e4f34bc3fd698446dff4c53189d0c1de78ded"
 }
 {"cwd": "research", "command": ["<component-python>", "d18-search/merge_component_verify.py"]}
-{"status": "VERIFIED", "small_prefix_tests": 108, "all_type_assignments": 8676, "integer_partitions": 30, "binary_functional_replays": 68608, "planted_obstruction_placements": 7675712, "positive_sorter_binary_inputs": 262144, "positive_sorter_cut7_accepted": 0, "seconds": 2.3905015410855412, "source_sha256": "f8fd0a50b3937fa9853e38b72e6d6f33aaeb8438f319436bf879aa895826cba0", "collector_sha256": "fa514bf2381fd5a7a51d0c2ce8c1f5981a5b8d72c8e58d4959422337b2dd8990", "scope": "Small exhaustive-type and direct value controls, plus planted obstruction and known sorter; not a complete D18 cover"}
+{"status": "VERIFIED", "small_prefix_tests": 108, "all_type_assignments": 8676, "integer_partitions": 30, "binary_functional_replays": 68608, "planted_obstruction_placements": 7675712, "positive_sorter_binary_inputs": 262144, "positive_sorter_cut7_accepted": 0, "seconds": 2.5225801250198856, "source_sha256": "f8fd0a50b3937fa9853e38b72e6d6f33aaeb8438f319436bf879aa895826cba0", "collector_sha256": "fa514bf2381fd5a7a51d0c2ce8c1f5981a5b8d72c8e58d4959422337b2dd8990", "scope": "Small exhaustive-type and direct value controls, plus planted obstruction and known sorter; not a complete D18 cover"}
 {"cwd": "constructions", "command": ["python3", "build.py"]}
 128 depth 26 size 1439
 1024 depth 52 size 23679
@@ -107,4 +107,273 @@ n=1024 depth=52 size=23679: CERTIFIED. 16-sorters 64, base mergers 128, cleanup 
 {"cwd": "constructions", "command": ["python3", "extend_and_verify.py"]}
 n=256 depth=34 size=3775: CERTIFIED by composition; all 16641 sorted-half inputs checked
 n=512 depth=43 size=9599: CERTIFIED by composition; all 66049 sorted-half inputs checked
+{"cwd": "asymptotic", "command": ["python3", "verify_chvatal_parameters.py"]}
+{
+  "status": "PASS",
+  "scope": "Exact parameter and rounding audit conditional on the cited Chvatal theorems; not Lean verification or an instantiated network test.",
+  "source_sha256": "4409ba92f6c4bfde0044f192c057b9b33d73cf5342c14a0f788ff324c3ad78cc",
+  "checker_sha256": "b235df17d9abda28de924c36763b5a4a528cee602c3f8fd6d53132a670e1e3af",
+  "separator_shapes": [
+    {
+      "shape": "top-advance",
+      "m0": 64,
+      "r": 49,
+      "m": 36028797018963968,
+      "f": 0,
+      "b": 562949953421312
+    },
+    {
+      "shape": "top-retreat",
+      "m0": 268435456,
+      "r": 27,
+      "m": 36028797018963968,
+      "f": 4294967296,
+      "b": 562949819203584
+    },
+    {
+      "shape": "interior",
+      "m0": 34359738366,
+      "r": 20,
+      "m": 36028797016866816,
+      "f": 4293918720,
+      "b": 562949819203584
+    },
+    {
+      "shape": "bottom-advance-h0",
+      "m0": 34359738366,
+      "r": 20,
+      "m": 36028797016866816,
+      "f": 4293918720,
+      "b": 562949819203584
+    },
+    {
+      "shape": "bottom-advance-h1",
+      "m0": 17179869182,
+      "r": 21,
+      "m": 36028797014769664,
+      "f": 8587837440,
+      "b": 562949684985856
+    },
+    {
+      "shape": "bottom-advance-h2",
+      "m0": 8589934590,
+      "r": 22,
+      "m": 36028797010575360,
+      "f": 17175674880,
+      "b": 562949416550400
+    },
+    {
+      "shape": "bottom-advance-h3",
+      "m0": 4294967294,
+      "r": 23,
+      "m": 36028797002186752,
+      "f": 34351349760,
+      "b": 562948879679488
+    },
+    {
+      "shape": "bottom-advance-h4",
+      "m0": 2147483646,
+      "r": 24,
+      "m": 36028796985409536,
+      "f": 68702699520,
+      "b": 562947805937664
+    },
+    {
+      "shape": "bottom-advance-h5",
+      "m0": 1073741822,
+      "r": 25,
+      "m": 36028796951855104,
+      "f": 137405399040,
+      "b": 562945658454016
+    },
+    {
+      "shape": "bottom-advance-h6",
+      "m0": 536870910,
+      "r": 26,
+      "m": 36028796884746240,
+      "f": 274810798080,
+      "b": 562941363486720
+    },
+    {
+      "shape": "bottom-advance-h7",
+      "m0": 268435454,
+      "r": 27,
+      "m": 36028796750528512,
+      "f": 549621596160,
+      "b": 562932773552128
+    },
+    {
+      "shape": "bottom-advance-h8",
+      "m0": 134217726,
+      "r": 28,
+      "m": 36028796482093056,
+      "f": 1099243192320,
+      "b": 562915593682944
+    },
+    {
+      "shape": "bottom-advance-h9",
+      "m0": 67108862,
+      "r": 29,
+      "m": 36028795945222144,
+      "f": 2198486384640,
+      "b": 562881233944576
+    },
+    {
+      "shape": "bottom-advance-h10",
+      "m0": 33554430,
+      "r": 30,
+      "m": 36028794871480320,
+      "f": 4396972769280,
+      "b": 562812514467840
+    },
+    {
+      "shape": "bottom-advance-h11",
+      "m0": 16777214,
+      "r": 31,
+      "m": 36028792723996672,
+      "f": 8793945538560,
+      "b": 562675075514368
+    },
+    {
+      "shape": "bottom-advance-h12",
+      "m0": 8388606,
+      "r": 32,
+      "m": 36028788429029376,
+      "f": 17587891077120,
+      "b": 562400197607424
+    },
+    {
+      "shape": "bottom-advance-h13",
+      "m0": 4194302,
+      "r": 33,
+      "m": 36028779839094784,
+      "f": 35175782154240,
+      "b": 561850441793536
+    },
+    {
+      "shape": "bottom-advance-h14",
+      "m0": 2097150,
+      "r": 34,
+      "m": 36028762659225600,
+      "f": 70351564308480,
+      "b": 560750930165760
+    },
+    {
+      "shape": "bottom-advance-h15",
+      "m0": 1048574,
+      "r": 35,
+      "m": 36028728299487232,
+      "f": 140703128616960,
+      "b": 558551906910208
+    },
+    {
+      "shape": "bottom-advance-h16",
+      "m0": 524286,
+      "r": 36,
+      "m": 36028659580010496,
+      "f": 281406257233920,
+      "b": 554153860399104
+    },
+    {
+      "shape": "bottom-advance-h17",
+      "m0": 262142,
+      "r": 37,
+      "m": 36028522141057024,
+      "f": 562812514467840,
+      "b": 545357767376896
+    },
+    {
+      "shape": "bottom-advance-h18",
+      "m0": 131070,
+      "r": 38,
+      "m": 36028247263150080,
+      "f": 1125625028935680,
+      "b": 527765581332480
+    },
+    {
+      "shape": "bottom-advance-h19",
+      "m0": 65534,
+      "r": 39,
+      "m": 36027697507336192,
+      "f": 2251250057871360,
+      "b": 492581209243648
+    },
+    {
+      "shape": "bottom-advance-h20",
+      "m0": 32766,
+      "r": 40,
+      "m": 36026597995708416,
+      "f": 4502500115742720,
+      "b": 422212465065984
+    },
+    {
+      "shape": "bottom-advance-h21",
+      "m0": 16382,
+      "r": 41,
+      "m": 36024398972452864,
+      "f": 9005000231485440,
+      "b": 281474976710656
+    }
+  ],
+  "shape_count": 25,
+  "m_min": 36024398972452864,
+  "f_min": 4293918720,
+  "condition_4_2_normalized": "13235101961016683307277/14532179899740800000000",
+  "condition_4_2_decimal": 0.9107444342367897,
+  "condition_4_5": "1224897429/1562500000000000000",
+  "stopping_rows": [
+    {
+      "d": 14,
+      "tf": 30,
+      "q": 4,
+      "u": -20,
+      "depth": 95485,
+      "offset": -51123
+    },
+    {
+      "d": 15,
+      "tf": 33,
+      "q": 4,
+      "u": -22,
+      "depth": 104725,
+      "offset": -52355
+    },
+    {
+      "d": 16,
+      "tf": 35,
+      "q": 5,
+      "u": -12,
+      "depth": 111086,
+      "offset": -56466
+    },
+    {
+      "d": 17,
+      "tf": 38,
+      "q": 5,
+      "u": -14,
+      "depth": 120326,
+      "offset": -57698
+    },
+    {
+      "d": 18,
+      "tf": 41,
+      "q": 5,
+      "u": -16,
+      "depth": 129566,
+      "offset": -58930
+    }
+  ],
+  "rounding_dimensions_checked": [
+    14,
+    513
+  ],
+  "all_dimensions_argument": "Five residue classes with d -> d+5, t_f -> t_f+17 and q unchanged; all other possible q give later meetings.",
+  "bound": {
+    "coefficient": "5236/3",
+    "constant": -40651,
+    "minimum_N": "2^79"
+  },
+  "coefficient_reduction_percent": 4.626593806921676,
+  "full_bound_crossover_log2N": "27009/127"
+}
 All selected replays passed.

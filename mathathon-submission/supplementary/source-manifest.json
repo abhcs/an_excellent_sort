@@ -7379,7 +7379,23 @@
       "bytes": 25,
       "sha256": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
       "source_commit": "61d98e102ad40076908a487e9c808c8feb26402e"
+    },
+    {
+      "path": "collaborator/sorting_network_depth_bound-source.txt",
+      "bytes": 10009,
+      "sha256": "4409ba92f6c4bfde0044f192c057b9b33d73cf5342c14a0f788ff324c3ad78cc",
+      "source_commit": "65e9237800eb0e77f196b1fd4452db49d4577684",
+      "original_path": "sorting_network_depth_bound.tex"
+    },
+    {
+      "path": "collaborator/slides_beamer-source.txt",
+      "bytes": 36762,
+      "sha256": "fe11bdd436a6368bcedbc33481f77bb6685fb9fc29098e6a4229cc11ec4095e9",
+      "source_commit": "53034fa080e0b1014dc796281a515ce357765868",
+      "original_path": "slides_beamer.tex"
     }
   ],
-  "lean_commit": "61d98e102ad40076908a487e9c808c8feb26402e"
+  "lean_commit": "61d98e102ad40076908a487e9c808c8feb26402e",
+  "asymptotic_commit": "65e9237800eb0e77f196b1fd4452db49d4577684",
+  "presentation_source_commit": "53034fa080e0b1014dc796281a515ce357765868"
 }

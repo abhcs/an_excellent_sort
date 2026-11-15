@@ -106,6 +106,21 @@
         "Quot.sound"
       ],
       "scope": "Two-layer removal and the halving depth recurrence; not the arbitrary-k cap theorem, H9, merger arguments or SAT encoders"
+    },
+    {
+      "check": "Chvatal_parameter_application",
+      "status": "PASS",
+      "separator_shapes": 25,
+      "stopping_residue_classes": 5,
+      "rounding_dimensions": [
+        14,
+        513
+      ],
+      "arithmetic": "exact rational and integer",
+      "coefficient": "5236/3",
+      "additive_constant": -40651,
+      "minimum_width": "2^79",
+      "scope": "Parameter application of cited Chvatal theorems; not Lean verification or full-network instantiation"
     }
   ],
   "not_rerun": [
@@ -119,6 +134,6 @@
   "limitations": [
     "Proof-checker output certifies CNF unsatisfiability, not a formally verified encoder or cover theorem.",
     "No complete D18 two-layer case closed.",
-    "Forthcoming open-model AKS derivation excluded."
+    "The new asymptotic parameter bound imports Chvatal separator and outsider theorems and is not Lean-verified."
   ]
 }

@@ -13,6 +13,9 @@ with tempfile.TemporaryDirectory(prefix="mathathon-replay-") as temporary:
     # These replayers need text/JSON inputs, not the large SAT proof traces.
     shutil.copytree(HERE / "research", work / "research", ignore=shutil.ignore_patterns("*.cnf", "*.drat"))
     shutil.copytree(HERE / "constructions", work / "constructions")
+    shutil.copytree(HERE / "asymptotic", work / "asymptotic")
+    (work / "collaborator").mkdir()
+    shutil.copy2(HERE / "collaborator/sorting_network_depth_bound-source.txt", work / "collaborator/sorting_network_depth_bound-source.txt")
     commands = [
         ("research", ["depth-hand-proofs/verify/profile_transfer.py", "--max-n", "11"]),
         ("research", ["depth-hand-proofs/verify/h7_profiles_proof.py", "--out", str(work / "h7-check.json")]),
@@ -28,6 +31,7 @@ with tempfile.TemporaryDirectory(prefix="mathathon-replay-") as temporary:
         ("constructions", ["verify.py", "net_128.json"]),
         ("constructions", ["verify.py", "net_1024.json"]),
         ("constructions", ["extend_and_verify.py"]),
+        ("asymptotic", ["verify_chvatal_parameters.py"]),
     ]
     for directory, arguments in commands:
         python = os.environ.get("MATHATHON_COMPONENT_PYTHON", sys.executable) if arguments[0].endswith("merge_component_verify.py") else sys.executable
