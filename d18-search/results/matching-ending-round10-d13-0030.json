@@ -1,0 +1,84 @@
+{
+  "status": "BUILT",
+  "n": 13,
+  "depth": 8,
+  "cut": 6,
+  "prefix": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    [
+      [
+        0,
+        12
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        8,
+        11
+      ]
+    ]
+  ],
+  "inputs": 610,
+  "variables": 23295,
+  "clauses": 427494,
+  "matching_ending": {
+    "added_variables": 237,
+    "clauses": 45561,
+    "mode_count": 79,
+    "guard_clauses": 45358,
+    "matching_clauses": 203,
+    "scope": "Exact sorting using span-three P and the implied adjacent final matching"
+  },
+  "source_sha256": "9a81452c63bd181fba120d1788cbc363bd41260ff199d4eb4a39314414ef860c",
+  "seed_sha256": "954dbabb43d7aab9b4185c239f3620d3d3194d80d55776910419de670dfa5296",
+  "cnf_sha256": "4c45ed893c5025b7e8bf160fff245c35deaf25e4c37cca17f0f4f07f9b4ed47d",
+  "certificate_directory": "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/matching-ending-round10-d13-0030",
+  "dependencies_sha256": {
+    "netsat.py": "960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3",
+    "probe_frontier.py": "e07f9183616412db41b7093fbb86efe8a13acf00d413b88084454b73ccdbeef0",
+    "prefix_drat.py": "1f85103a6efe10e02907d7fac977a88c149f1d6d2e189179a4636431db32773c",
+    "two_layer_matching_ending.py": "3430ec730eddb6991c2003adea951caf0e51790426662af51dd0776e16889d58",
+    "d13_feedback_round9_data_dp.py": "ca7febc899beeca1d1a5f7e48f806d498e8bfc3d8ae2812b5fc4b35c17a96bcf"
+  },
+  "scope": "Exact sorting completion of the fixed actual prefix using the span-three adjacent ending normal form",
+  "seconds": 0.40059345797635615
+}

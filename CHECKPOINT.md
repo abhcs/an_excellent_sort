@@ -1,6 +1,54 @@
 # Structural lower-bound research checkpoint — 2026-11-15
 
-## Current checkpoint: structural research through round eight
+## Current checkpoint: structural research through round ten
+
+This checkpoint saves the research since `9b489a9` on the isolated
+`codex/d18-structural` branch, including proof notes, encoders, finite
+certificates, CNF/DRAT artifacts, and terminal records for bounded trials.
+All agents have stopped editing and all known research jobs are terminal.
+The original shared working folder has not been edited.
+
+* **H9: 30/50 reviewed hand cases.** The round-six and round-seven
+  cases are integrated. The new
+  [fence-six proof package](depth-hand-proofs/h9_feedback_round9_fence6.md)
+  addresses two more classes (`03 14 67`, `03 16 27`). Its fixed checker
+  passes, including all 33 fourth-layer forms and 23,040 restriction
+  replays. Final integrated review remains pending, so these two cases
+  are saved without increasing the accepted count.
+* **D13: 15/117 complete cover cases have checked structural exclusions:**
+  0,1,2,3,4,55,56,57,58,111,112,113,114,115,116. The three new round-nine
+  cases have checked DRAT proofs and an
+  [independent encoder review](d18-search/results/d13-feedback-round9-review.json).
+  This does not complete a hand proof of D(13).
+* New general results include
+  [rank-separated block constraints](d18-search/rank-separated-blocks.md),
+  [exact two-layer data completion](d18-search/d13_feedback_round9_data_ending.md),
+  and its reduction to a
+  [matching covering mandatory wires](d18-search/d13_feedback_round10_matching.md).
+  The new path and matching encoders have an
+  [independent review](d18-search/results/d13-feedback-round10-review.json),
+  including 14 complete CNF reconstructions. All eight larger round-ten
+  trials reached their 30-second limits; they add no cover exclusions.
+* **D17: 3/609 accepted complete cover exclusions**, cases 606,607,608.
+  The new [first-layer-three package](d18-search/d17_feedback_round10_order.md)
+  saves checked UNSAT certificates for cases 604 and 605, obtained in
+  about four seconds each. Its checker reconstructs both CNFs and verifies
+  stronger-screen witnesses for all cases 0 through 603. Final integrated
+  mathematical review remains pending; accepting it would raise coverage
+  to 5/609. The theorem explicitly uses the established computer-assisted
+  H9 result and is not presented as a pure hand proof of D(17).
+* **D18: 0/411 complete two-layer cover cases are closed.**
+  **The lower bound D(18)>=11 remains unresolved.** All new larger trials
+  were bounded, and no full D18 SAT verification is running.
+
+The [round-nine scope record](d18-search/results/structural-cover-progress-round9.json)
+is the latest integrated coverage record. New round-ten packages and their
+review status are described above; exploratory artifacts and timeouts are
+retained without treating them as proofs. Some manifests contain absolute
+local paths and require the external dependencies described below.
+Historical sections retain their original counts and open issues.
+
+## Earlier checkpoint: structural research through round eight (`9b489a9`)
 
 This checkpoint saves all current research sources, proof drafts, finite
 certificates, CNF/DRAT artifacts, and bounded-run records on the isolated

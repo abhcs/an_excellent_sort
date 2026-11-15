@@ -1,0 +1,87 @@
+{
+  "status": "SORTER",
+  "n": 4,
+  "depth": 3,
+  "cut": 1,
+  "prefix": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ]
+  ],
+  "inputs": 9,
+  "variables": 152,
+  "clauses": 285,
+  "mode_path": {
+    "added_variables": 143,
+    "clauses": 262,
+    "mode_count": 16,
+    "guard_clauses": 22,
+    "path_clauses": 240,
+    "boundary_states": [
+      8,
+      14,
+      8,
+      1
+    ],
+    "transitions": 64,
+    "max_boundary_states": 14
+  },
+  "source_sha256": "548c19c9d177e4d513e5c51d9c813bfc8ef6970d6e7ec866e98f47d383f85fe0",
+  "seed_sha256": "e0c049d285a10d941cd19d8161b2393e14d3e31f1cbebef6753c7794b825e0c0",
+  "cnf_sha256": "ca735a758674f0f798fef18d0588b23f665b74346edf9433214c68dbd0732502",
+  "certificate_directory": "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/mode-path-round10-positive4",
+  "dependencies_sha256": {
+    "netsat.py": "960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3",
+    "probe_frontier.py": "e07f9183616412db41b7093fbb86efe8a13acf00d413b88084454b73ccdbeef0",
+    "prefix_drat.py": "1f85103a6efe10e02907d7fac977a88c149f1d6d2e189179a4636431db32773c",
+    "two_layer_mode_path.py": "3216d95ab9b09444a5a38e3edbb3a4ce5543537028177cfbf7b0174b44abc0e3",
+    "d13_feedback_round9_data_dp.py": "ca7febc899beeca1d1a5f7e48f806d498e8bfc3d8ae2812b5fc4b35c17a96bcf"
+  },
+  "scope": "Exact sorting completion of the fixed actual prefix using the span-three adjacent ending normal form",
+  "seconds": 0.002994332928210497,
+  "layers": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ]
+  ],
+  "all_binary_inputs_verified": true,
+  "independent_ending_stats": {
+    "states": 8,
+    "transitions": 13,
+    "max_boundary_states": 3
+  }
+}

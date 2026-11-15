@@ -1,0 +1,17 @@
+{
+  "case_id": "n17-r0605",
+  "family_size": 16,
+  "scope": "Necessary first>=3, second nonempty, no-repeat, and H9 peak4 conditions on all half-blind nine-real restrictions",
+  "cover_sha256": "711b620bb298deee98e5520595cfb341a13cf3600f4297dd35f3b38cb11d2100",
+  "source_sha256": "25b3b9e68b90d014df834848dc410f3fab4b0624c65c353f9d7323089b45fa13",
+  "status": "UNSAT",
+  "variables": 3778,
+  "clauses": 26576,
+  "independently_proof_checked": true,
+  "iterations": 1,
+  "certificate_directory": "d18-search/results/d17-feedback-round10-first3-case605/result",
+  "cnf_sha256": "691d94bd2774516df0dc09771f788162dc732f366076bb44304b4b9a11dcff40",
+  "proof_sha256": "47bbdb66ad596a8ad8fe45ce7d40968485321e72613d88169c9726a9eba3b963",
+  "seconds": 4.474,
+  "check_seconds": 3.3639
+}

@@ -1,0 +1,201 @@
+[
+  {
+    "terminal": "EXITED",
+    "returncode": 0,
+    "stdout": "{\"status\": \"BUILT\", \"n\": 4, \"depth\": 3, \"cut\": 1, \"cap\": 4, \"inputs\": 9, \"variables\": 33, \"clauses\": 125, \"block_capacity\": {\"clauses\": 34, \"by_kind\": {\"right_extent\": 5, \"left_capacity\": 7, \"one_direction\": 4, \"right_capacity\": 7, \"incoming_capacity\": 6, \"left_extent\": 5}, \"added_variables\": 0}, \"exact_endpoints\": {\"reverse_threshold_clauses\": 24, \"complete_image_required\": true}, \"full_triple_clauses\": 2, \"combined_clauses\": 0, \"source_sha256\": \"39aed2c33bb0155016332223dbdb61ee97401de7d4cf867f1a2e92e09b9a2dbd\", \"seed_sha256\": \"e0c049d285a10d941cd19d8161b2393e14d3e31f1cbebef6753c7794b825e0c0\", \"cnf_sha256\": \"838a30e8f258e73f43a05ed44884f5106ba4496fe686373da3544b49d9f1a066\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/rank-triples-round9-positive4\", \"scope\": \"All continuations of the fixed prefix; exact endpoints, adjacent-ending rank capacities, and full-triple sorting obstruction\", \"seconds\": 0.004291250021196902}\n{\"status\": \"SURVIVOR\", \"seconds\": 0.00448441703338176}\n",
+    "stderr": "",
+    "seconds": 0.07204116601496935,
+    "wall_cap_seconds": 30,
+    "label": "positive4",
+    "command": [
+      "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/prefix_rank_triples_round9.py",
+      "--seed",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/rank-triples-round9-positive4-seed.json",
+      "--depth",
+      "3",
+      "--cut",
+      "1",
+      "--out",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/rank-triples-round9-positive4.json",
+      "--witness",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/rank-triples-round9-positive4-witness.json"
+    ],
+    "result_status": "SURVIVOR"
+  },
+  {
+    "terminal": "EXITED",
+    "returncode": 0,
+    "stdout": "{\"status\": \"BUILT\", \"n\": 4, \"depth\": 5, \"cut\": 3, \"cap\": 4, \"inputs\": 9, \"variables\": 33, \"clauses\": 118, \"block_capacity\": {\"clauses\": 34, \"by_kind\": {\"right_extent\": 5, \"left_capacity\": 7, \"one_direction\": 4, \"right_capacity\": 7, \"incoming_capacity\": 6, \"left_extent\": 5}, \"added_variables\": 0}, \"exact_endpoints\": {\"reverse_threshold_clauses\": 24, \"complete_image_required\": true}, \"full_triple_clauses\": 2, \"combined_clauses\": 0, \"source_sha256\": \"39aed2c33bb0155016332223dbdb61ee97401de7d4cf867f1a2e92e09b9a2dbd\", \"seed_sha256\": \"b6f18e51a3127ae2ab0cce1222bf734ef5db8c6807129acf0d1826ecc650af1a\", \"cnf_sha256\": \"2688e9cea17851266e6de0428f15b6fdac4438cc80eedb19688e9e19f26532d3\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/rank-triples-round9-negative4\", \"scope\": \"All continuations of the fixed prefix; exact endpoints, adjacent-ending rank capacities, and full-triple sorting obstruction\", \"seconds\": 0.001062750001437962}\n{\"status\": \"UNSAT_UNCHECKED\", \"seconds\": 0.0012906669871881604}\n",
+    "stderr": "",
+    "seconds": 0.05684058403130621,
+    "wall_cap_seconds": 30,
+    "label": "negative4",
+    "command": [
+      "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/prefix_rank_triples_round9.py",
+      "--seed",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/rank-triples-round9-negative4-seed.json",
+      "--depth",
+      "5",
+      "--cut",
+      "3",
+      "--out",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/rank-triples-round9-negative4.json"
+    ],
+    "result_status": "UNSAT_UNCHECKED",
+    "check": {
+      "terminal": "EXITED",
+      "returncode": 0,
+      "seconds": 0.0168355000205338,
+      "wall_cap_seconds": 30,
+      "verified": true,
+      "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d"
+    }
+  },
+  {
+    "terminal": "EXITED",
+    "returncode": 0,
+    "stdout": "{\"status\": \"BUILT\", \"n\": 18, \"depth\": 11, \"cut\": 9, \"cap\": 4, \"inputs\": 243, \"variables\": 5771, \"clauses\": 63143, \"block_capacity\": {\"clauses\": 758, \"by_kind\": {\"right_extent\": 89, \"left_capacity\": 133, \"one_direction\": 46, \"right_capacity\": 133, \"incoming_capacity\": 268, \"left_extent\": 89}, \"added_variables\": 0}, \"exact_endpoints\": {\"reverse_threshold_clauses\": 612, \"complete_image_required\": true}, \"full_triple_clauses\": 16, \"combined_clauses\": 0, \"source_sha256\": \"39aed2c33bb0155016332223dbdb61ee97401de7d4cf867f1a2e92e09b9a2dbd\", \"seed_sha256\": \"02bc84a1ba7714289eb2a61cbd03a34363f0fdc94a7f9fd6b4bd651dab624a94\", \"cnf_sha256\": \"747becb06c7d9a71692bd16ed7de03ed2811b83df36898caaf9d93ccdcfc4ce9\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/rank-triples-round9-positive18\", \"scope\": \"All continuations of the fixed prefix; exact endpoints, adjacent-ending rank capacities, and full-triple sorting obstruction\", \"seconds\": 0.20518749998882413}\n{\"status\": \"SURVIVOR\", \"seconds\": 0.20612254191655666}\n",
+    "stderr": "",
+    "seconds": 0.26551858405582607,
+    "wall_cap_seconds": 30,
+    "label": "positive18",
+    "command": [
+      "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/prefix_rank_triples_round9.py",
+      "--seed",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-round6-control-p6-c9-seed.json",
+      "--depth",
+      "11",
+      "--cut",
+      "9",
+      "--out",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/rank-triples-round9-positive18.json",
+      "--witness",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/dobbelaere18-78-11.json"
+    ],
+    "result_status": "SURVIVOR"
+  },
+  {
+    "terminal": "TIMEOUT_KILLED",
+    "seconds": 30.01206729200203,
+    "wall_cap_seconds": 30,
+    "stdout": "{\"status\": \"BUILT\", \"n\": 18, \"depth\": 10, \"cut\": 8, \"cap\": 4, \"inputs\": 503, \"variables\": 22130, \"clauses\": 408656, \"block_capacity\": {\"clauses\": 758, \"by_kind\": {\"right_extent\": 89, \"left_capacity\": 133, \"one_direction\": 46, \"right_capacity\": 133, \"incoming_capacity\": 268, \"left_extent\": 89}, \"added_variables\": 0}, \"exact_endpoints\": {\"reverse_threshold_clauses\": 612, \"complete_image_required\": true}, \"full_triple_clauses\": 16, \"combined_clauses\": 0, \"source_sha256\": \"39aed2c33bb0155016332223dbdb61ee97401de7d4cf867f1a2e92e09b9a2dbd\", \"seed_sha256\": \"e41c58f4648726db7df28f04745965f03186e7b7b202389c512179d9568ca9de\", \"cnf_sha256\": \"2c35200f9aff0d8b34e04bc8dfab564257e82af2e17de167e88e21a3752b0d9e\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/rank-triples-round9-beam00\", \"scope\": \"All continuations of the fixed prefix; exact endpoints, adjacent-ending rank capacities, and full-triple sorting obstruction\", \"seconds\": 0.4678707499988377}\n",
+    "stderr": "",
+    "label": "beam00",
+    "command": [
+      "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/prefix_rank_triples_round9.py",
+      "--seed",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-round6-p4-beam00-seed.json",
+      "--depth",
+      "10",
+      "--cut",
+      "8",
+      "--out",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/rank-triples-round9-beam00.json"
+    ]
+  },
+  {
+    "terminal": "TIMEOUT_KILLED",
+    "seconds": 30.00970133394003,
+    "wall_cap_seconds": 30,
+    "stdout": "{\"status\": \"BUILT\", \"n\": 18, \"depth\": 10, \"cut\": 8, \"cap\": 4, \"inputs\": 520, \"variables\": 22986, \"clauses\": 426850, \"block_capacity\": {\"clauses\": 758, \"by_kind\": {\"right_extent\": 89, \"left_capacity\": 133, \"one_direction\": 46, \"right_capacity\": 133, \"incoming_capacity\": 268, \"left_extent\": 89}, \"added_variables\": 0}, \"exact_endpoints\": {\"reverse_threshold_clauses\": 612, \"complete_image_required\": true}, \"full_triple_clauses\": 16, \"combined_clauses\": 0, \"source_sha256\": \"39aed2c33bb0155016332223dbdb61ee97401de7d4cf867f1a2e92e09b9a2dbd\", \"seed_sha256\": \"4277d3a6488696235bd796da775524ba1a436ef8d6247f1ea97e9567288782d8\", \"cnf_sha256\": \"d23e82f769a9dcfe9288a40ef28dab0917fdbc5bdba1f3cb54695be187108514\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/rank-triples-round9-beam16\", \"scope\": \"All continuations of the fixed prefix; exact endpoints, adjacent-ending rank capacities, and full-triple sorting obstruction\", \"seconds\": 0.4882973749190569}\n",
+    "stderr": "",
+    "label": "beam16",
+    "command": [
+      "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/prefix_rank_triples_round9.py",
+      "--seed",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-round6-p4-beam16-seed.json",
+      "--depth",
+      "10",
+      "--cut",
+      "8",
+      "--out",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/rank-triples-round9-beam16.json"
+    ]
+  },
+  {
+    "terminal": "EXITED",
+    "returncode": 0,
+    "stdout": "{\"case_id\": \"n13-r0004\", \"depth\": 8, \"cut\": 6, \"mode\": \"wire\", \"inputs\": 534, \"wires\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], \"ranks\": [], \"variables\": 16716, \"clauses\": 231809, \"original_window_cost\": 26907, \"window_cost\": 17756, \"scope\": \"All four-layer continuations of this complete-cover prefix; exact cut6 endpoints, block capacity, and full-triple sorting obstruction\", \"parity_clauses\": 0, \"block_capacity\": {\"clauses\": 498, \"by_kind\": {\"right_extent\": 59, \"left_capacity\": 88, \"one_direction\": 31, \"right_capacity\": 88, \"incoming_capacity\": 173, \"left_extent\": 59}, \"added_variables\": 0}, \"exact_endpoints\": {\"reverse_threshold_clauses\": 312, \"complete_image_required\": true}, \"full_triple_clauses\": 11, \"source_sha256\": \"474eed03dfc79bdf0456cca9d4f5f9f19fc8cf541d8f41f21aa68245c23be815\", \"cover_sha256\": \"2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406\", \"status\": \"BUILT\", \"independently_proof_checked\": false, \"build_seconds\": 0.21499779203440994}\nUNSAT 9.260497499955818\n",
+    "stderr": "",
+    "seconds": 9.3308931250358,
+    "wall_cap_seconds": 30,
+    "label": "d13-0004",
+    "command": [
+      "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/d13_rank_triples_round9.py",
+      "--case",
+      "4",
+      "--out",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/rank-triples-round9-d13-0004.json",
+      "--proof"
+    ],
+    "result_status": "UNSAT",
+    "check": {
+      "terminal": "EXITED",
+      "returncode": 0,
+      "seconds": 7.378096959087998,
+      "wall_cap_seconds": 30,
+      "verified": true,
+      "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d"
+    }
+  },
+  {
+    "terminal": "EXITED",
+    "returncode": 0,
+    "stdout": "{\"case_id\": \"n13-r0055\", \"depth\": 8, \"cut\": 6, \"mode\": \"wire\", \"inputs\": 611, \"wires\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], \"ranks\": [], \"variables\": 20131, \"clauses\": 291166, \"original_window_cost\": 31585, \"window_cost\": 22410, \"scope\": \"All four-layer continuations of this complete-cover prefix; exact cut6 endpoints, block capacity, and full-triple sorting obstruction\", \"parity_clauses\": 0, \"block_capacity\": {\"clauses\": 498, \"by_kind\": {\"right_extent\": 59, \"left_capacity\": 88, \"one_direction\": 31, \"right_capacity\": 88, \"incoming_capacity\": 173, \"left_extent\": 59}, \"added_variables\": 0}, \"exact_endpoints\": {\"reverse_threshold_clauses\": 312, \"complete_image_required\": true}, \"full_triple_clauses\": 11, \"source_sha256\": \"474eed03dfc79bdf0456cca9d4f5f9f19fc8cf541d8f41f21aa68245c23be815\", \"cover_sha256\": \"2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406\", \"status\": \"BUILT\", \"independently_proof_checked\": false, \"build_seconds\": 0.2740403750212863}\nUNSAT 14.985719166928902\n",
+    "stderr": "",
+    "seconds": 15.055656083975919,
+    "wall_cap_seconds": 30,
+    "label": "d13-0055",
+    "command": [
+      "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/d13_rank_triples_round9.py",
+      "--case",
+      "55",
+      "--out",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/rank-triples-round9-d13-0055.json",
+      "--proof"
+    ],
+    "result_status": "UNSAT",
+    "check": {
+      "terminal": "EXITED",
+      "returncode": 0,
+      "seconds": 10.518303208984435,
+      "wall_cap_seconds": 30,
+      "verified": true,
+      "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d"
+    }
+  },
+  {
+    "terminal": "EXITED",
+    "returncode": 0,
+    "stdout": "{\"case_id\": \"n13-r0111\", \"depth\": 8, \"cut\": 6, \"mode\": \"wire\", \"inputs\": 715, \"wires\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], \"ranks\": [], \"variables\": 22590, \"clauses\": 316946, \"original_window_cost\": 36268, \"window_cost\": 24325, \"scope\": \"All four-layer continuations of this complete-cover prefix; exact cut6 endpoints, block capacity, and full-triple sorting obstruction\", \"parity_clauses\": 0, \"block_capacity\": {\"clauses\": 498, \"by_kind\": {\"right_extent\": 59, \"left_capacity\": 88, \"one_direction\": 31, \"right_capacity\": 88, \"incoming_capacity\": 173, \"left_extent\": 59}, \"added_variables\": 0}, \"exact_endpoints\": {\"reverse_threshold_clauses\": 312, \"complete_image_required\": true}, \"full_triple_clauses\": 11, \"source_sha256\": \"474eed03dfc79bdf0456cca9d4f5f9f19fc8cf541d8f41f21aa68245c23be815\", \"cover_sha256\": \"2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406\", \"status\": \"BUILT\", \"independently_proof_checked\": false, \"build_seconds\": 0.29657337500248104}\nUNSAT 11.769036666955799\n",
+    "stderr": "",
+    "seconds": 11.839176499983296,
+    "wall_cap_seconds": 30,
+    "label": "d13-0111",
+    "command": [
+      "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/d13_rank_triples_round9.py",
+      "--case",
+      "111",
+      "--out",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/rank-triples-round9-d13-0111.json",
+      "--proof"
+    ],
+    "result_status": "UNSAT",
+    "check": {
+      "terminal": "EXITED",
+      "returncode": 0,
+      "seconds": 8.360347750014625,
+      "wall_cap_seconds": 30,
+      "verified": true,
+      "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d"
+    }
+  }
+]

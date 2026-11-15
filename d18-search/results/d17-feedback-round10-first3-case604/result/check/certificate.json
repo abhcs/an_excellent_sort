@@ -1,0 +1,12 @@
+{
+  "status": "VERIFIED",
+  "returncode": 0,
+  "seconds": 3.207,
+  "wall_limit_seconds": 10,
+  "process_terminal": true,
+  "independently_proof_checked": true,
+  "cnf_sha256": "a36293288bc4cec3732de72f506fe6903b6dd832a2221967e4e040e019260dcc",
+  "proof_sha256": "b5759bbe241a68d16fb880cb3ec00df3ef8023a2cded25ad4a302ba3d11a8a23",
+  "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d",
+  "encoder_sha256": "25b3b9e68b90d014df834848dc410f3fab4b0624c65c353f9d7323089b45fa13"
+}

@@ -1,0 +1,176 @@
+{
+  "status": "BUILT",
+  "n": 18,
+  "depth": 10,
+  "cut": 8,
+  "prefix": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        16,
+        17
+      ]
+    ],
+    [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        5,
+        13
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        15,
+        17
+      ]
+    ],
+    [
+      [
+        0,
+        14
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        5,
+        12
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    [
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        13,
+        17
+      ]
+    ]
+  ],
+  "inputs": 520,
+  "variables": 22269,
+  "clauses": 455176,
+  "normal": true,
+  "data_ending": {
+    "clauses": 44894,
+    "distinct_templates": 44894,
+    "added_variables": 0,
+    "input_states": 520,
+    "scope": "Exact two-layer sorting with adjacent final matching"
+  },
+  "penultimate_units": 2342,
+  "source_sha256": "6175a47b8e1b244b5f26f742ece58c65873c0145b390efbcd6b8d20ed89a1b75",
+  "seed_sha256": "4277d3a6488696235bd796da775524ba1a436ef8d6247f1ea97e9567288782d8",
+  "cnf_sha256": "35fe1c75bc7ddeac875403f1495df0d68279b05787cefe0d1ced6a67f7987eb9",
+  "certificate_directory": "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/data-normal-round9-beam16",
+  "dependencies_sha256": {
+    "netsat.py": "960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3",
+    "probe_frontier.py": "e07f9183616412db41b7093fbb86efe8a13acf00d413b88084454b73ccdbeef0",
+    "prefix_drat.py": "1f85103a6efe10e02907d7fac977a88c149f1d6d2e189179a4636431db32773c",
+    "two_layer_data_ending.py": "52ca93a9382f981b8f10c0f50c1be005bafb153b0a5dbd2771112158ed70d864"
+  },
+  "scope": "Exact sorting completion of the fixed prefix, with adjacent final matching",
+  "seconds": 0.5948673750972375
+}

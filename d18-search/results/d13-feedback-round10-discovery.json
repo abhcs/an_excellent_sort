@@ -1,0 +1,9 @@
+{
+  "status": "TERMINATED_NORMALLY",
+  "uses_sat": false,
+  "wall_budget_seconds": 24,
+  "seconds": 24.000052041956224,
+  "trials": 125168,
+  "nonisolated_graphs_checked": 12603,
+  "hit": null
+}

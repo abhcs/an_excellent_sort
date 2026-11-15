@@ -1,0 +1,71 @@
+{
+  "status": "SORTER",
+  "n": 4,
+  "depth": 3,
+  "cut": 1,
+  "prefix": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ]
+  ],
+  "inputs": 9,
+  "variables": 9,
+  "clauses": 47,
+  "normal": true,
+  "data_ending": {
+    "clauses": 20,
+    "distinct_templates": 20,
+    "added_variables": 0,
+    "input_states": 9,
+    "scope": "Exact two-layer sorting with adjacent final matching"
+  },
+  "penultimate_units": 0,
+  "source_sha256": "6175a47b8e1b244b5f26f742ece58c65873c0145b390efbcd6b8d20ed89a1b75",
+  "seed_sha256": "e0c049d285a10d941cd19d8161b2393e14d3e31f1cbebef6753c7794b825e0c0",
+  "cnf_sha256": "10b045958ded22993e892bc5d024f38d965e96d754555fb9a2ede0e723c09a4b",
+  "certificate_directory": "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/data-normal-round9-positive4",
+  "dependencies_sha256": {
+    "netsat.py": "960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3",
+    "probe_frontier.py": "e07f9183616412db41b7093fbb86efe8a13acf00d413b88084454b73ccdbeef0",
+    "prefix_drat.py": "1f85103a6efe10e02907d7fac977a88c149f1d6d2e189179a4636431db32773c",
+    "two_layer_data_ending.py": "52ca93a9382f981b8f10c0f50c1be005bafb153b0a5dbd2771112158ed70d864"
+  },
+  "scope": "Exact sorting completion of the fixed prefix, with adjacent final matching",
+  "seconds": 0.0010571250459179282,
+  "layers": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    [
+      [
+        1,
+        2
+      ]
+    ]
+  ],
+  "all_binary_inputs_verified": true
+}

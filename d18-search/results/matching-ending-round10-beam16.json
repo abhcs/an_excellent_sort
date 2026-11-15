@@ -1,0 +1,176 @@
+{
+  "status": "BUILT",
+  "n": 18,
+  "depth": 10,
+  "cut": 8,
+  "prefix": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        16,
+        17
+      ]
+    ],
+    [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        5,
+        13
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        15,
+        17
+      ]
+    ],
+    [
+      [
+        0,
+        14
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        5,
+        12
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    [
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        13,
+        17
+      ]
+    ]
+  ],
+  "inputs": 520,
+  "variables": 22716,
+  "clauses": 455368,
+  "matching_ending": {
+    "added_variables": 342,
+    "clauses": 45227,
+    "mode_count": 114,
+    "guard_clauses": 44894,
+    "matching_clauses": 333,
+    "scope": "Exact sorting using span-three P and the implied adjacent final matching"
+  },
+  "source_sha256": "9a81452c63bd181fba120d1788cbc363bd41260ff199d4eb4a39314414ef860c",
+  "seed_sha256": "4277d3a6488696235bd796da775524ba1a436ef8d6247f1ea97e9567288782d8",
+  "cnf_sha256": "3c6953a6a5d25b835842eca472709e094692243b2dfa2215be32911eef8cea6d",
+  "certificate_directory": "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/matching-ending-round10-beam16",
+  "dependencies_sha256": {
+    "netsat.py": "960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3",
+    "probe_frontier.py": "e07f9183616412db41b7093fbb86efe8a13acf00d413b88084454b73ccdbeef0",
+    "prefix_drat.py": "1f85103a6efe10e02907d7fac977a88c149f1d6d2e189179a4636431db32773c",
+    "two_layer_matching_ending.py": "3430ec730eddb6991c2003adea951caf0e51790426662af51dd0776e16889d58",
+    "d13_feedback_round9_data_dp.py": "ca7febc899beeca1d1a5f7e48f806d498e8bfc3d8ae2812b5fc4b35c17a96bcf"
+  },
+  "scope": "Exact sorting completion of the fixed actual prefix using the span-three adjacent ending normal form",
+  "seconds": 0.5585669999709353
+}

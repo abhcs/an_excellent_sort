@@ -1,0 +1,179 @@
+{
+  "status": "REVIEWED_SOUND",
+  "uses_sat": false,
+  "new_solver_calls": 0,
+  "substantive_issues": [],
+  "reviewed_delta": [
+    "The D13 worker changes no CNF construction: the only delta from reviewed round8 is exact endpoint and no-full-triple replay on SAT.",
+    "The generic worker additionally allows zero free prefix layers. simulate_to_cut(x,0) returns the complete fixed-prefix bits; all endpoint and capacity obligations remain well-defined with two remaining layers.",
+    "Positive model literal evaluation handles Boolean boundary constants and signed integer variables correctly. Replayed upper predicates use strict hi<k.",
+    "No actual ending data simulation is added; survivors remain necessary-condition witnesses. Fixed sorter controls additionally have their full sorting property checked."
+  ],
+  "certificate_and_control_audits": [
+    {
+      "label": "positive4",
+      "whole_cnf_reconstructed": true,
+      "cnf_sha256": "838a30e8f258e73f43a05ed44884f5106ba4496fe686373da3544b49d9f1a066",
+      "variables": 33,
+      "clauses": 125,
+      "exact_reverse_clause_range": [
+        119,
+        123
+      ],
+      "full_triple_clause_range": [
+        123,
+        125
+      ],
+      "worker_seconds": 0.07204116601496935,
+      "status": "FIXED_SORTER_POSITIVE_CONTROL",
+      "actual_endpoints_replayed": true
+    },
+    {
+      "label": "negative4",
+      "whole_cnf_reconstructed": true,
+      "cnf_sha256": "2688e9cea17851266e6de0428f15b6fdac4438cc80eedb19688e9e19f26532d3",
+      "variables": 33,
+      "clauses": 118,
+      "exact_reverse_clause_range": [
+        110,
+        116
+      ],
+      "full_triple_clause_range": [
+        116,
+        118
+      ],
+      "worker_seconds": 0.05684058403130621,
+      "proof_sha256": "d8c170e8332d652c0286ac79e43f0b4b886bfcd7f0953f49e0b595ad0a7557c5",
+      "check_seconds": 0.0168355000205338,
+      "check_log_sha256": "2bc62560c02d9d6d3488c3178e8096d37dce8626f3bf5fffd1f39498b0bf6a80",
+      "status": "CHECKED_UNSAT"
+    },
+    {
+      "label": "positive18",
+      "whole_cnf_reconstructed": true,
+      "cnf_sha256": "747becb06c7d9a71692bd16ed7de03ed2811b83df36898caaf9d93ccdcfc4ce9",
+      "variables": 5771,
+      "clauses": 63143,
+      "exact_reverse_clause_range": [
+        62821,
+        63127
+      ],
+      "full_triple_clause_range": [
+        63127,
+        63143
+      ],
+      "worker_seconds": 0.26551858405582607,
+      "status": "FIXED_SORTER_POSITIVE_CONTROL",
+      "actual_endpoints_replayed": true
+    },
+    {
+      "label": "d13-0004",
+      "whole_cnf_reconstructed": true,
+      "cnf_sha256": "8110500333cb0b1b2945c349e9261f0d778fbcecf253fbb8267cf1798cfcfcf1",
+      "variables": 16716,
+      "clauses": 231809,
+      "exact_reverse_clause_range": [
+        231629,
+        231785
+      ],
+      "full_triple_clause_range": [
+        231785,
+        231796
+      ],
+      "worker_seconds": 9.3308931250358,
+      "proof_sha256": "7eec8e6ef552030ad4b2ccd4b8b79ad458cb7851bfacd72608fb43d476688071",
+      "check_seconds": 7.378096959087998,
+      "check_log_sha256": "dbca00a701661425cf30708155c98a3a56b7355a06811adb4d03c1bef1a32d84",
+      "status": "CHECKED_UNSAT"
+    },
+    {
+      "label": "d13-0055",
+      "whole_cnf_reconstructed": true,
+      "cnf_sha256": "2fed9707bd23628d4b687a254cd75de219c6276cc35f34b2bbbf40fb340fa639",
+      "variables": 20131,
+      "clauses": 291166,
+      "exact_reverse_clause_range": [
+        290986,
+        291142
+      ],
+      "full_triple_clause_range": [
+        291142,
+        291153
+      ],
+      "worker_seconds": 15.055656083975919,
+      "proof_sha256": "d0f852bb5bf61776f4a78358f76799d1423c227de776ff276584f8f7e104917e",
+      "check_seconds": 10.518303208984435,
+      "check_log_sha256": "bba8adcccf295c127c505ca05aa1bfaaf1ad6d360d9162ec37298d9d6252db33",
+      "status": "CHECKED_UNSAT"
+    },
+    {
+      "label": "d13-0111",
+      "whole_cnf_reconstructed": true,
+      "cnf_sha256": "b1ed070dc235490bcf7376296a91696725a1bf4b054b9936176dcefe7d6a61ac",
+      "variables": 22590,
+      "clauses": 316946,
+      "exact_reverse_clause_range": [
+        316766,
+        316922
+      ],
+      "full_triple_clause_range": [
+        316922,
+        316933
+      ],
+      "worker_seconds": 11.839176499983296,
+      "proof_sha256": "6b74fab4849fc25487de0e8033935677b7f32ea0ff920a8d66e4c53a5abea70f",
+      "check_seconds": 8.360347750014625,
+      "check_log_sha256": "7048f8c0635627a563207096bec1787512d2b5d45ecc34866d3e9a5897d018a2",
+      "status": "CHECKED_UNSAT"
+    }
+  ],
+  "timeout_audits": [
+    {
+      "label": "beam00",
+      "status": "TIMEOUT_NOT_UNSAT",
+      "seconds": 30.01206729200203
+    },
+    {
+      "label": "beam16",
+      "status": "TIMEOUT_NOT_UNSAT",
+      "seconds": 30.00970133394003
+    }
+  ],
+  "accepted_new_complete_cover_cases": [
+    4,
+    55,
+    111
+  ],
+  "accepted_total_cases": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    55,
+    56,
+    57,
+    58,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116
+  ],
+  "accepted_count": 15,
+  "total_cover_cases": 117,
+  "minor_metadata_note": "The negative4 result still says UNSAT_UNCHECKED although independently_proof_checked is true and its hash-matched DRAT log is VERIFIED; the review records its actual checked status.",
+  "performance_scope": "No parity/capacity baseline is reviewed for these three new cases. The results establish coverage but not that exact triples alone caused the exclusions.",
+  "reviewed_sha256": {
+    "d13_rank_triples_round9.py": "474eed03dfc79bdf0456cca9d4f5f9f19fc8cf541d8f41f21aa68245c23be815",
+    "prefix_rank_triples_round9.py": "39aed2c33bb0155016332223dbdb61ee97401de7d4cf867f1a2e92e09b9a2dbd",
+    "exact_rank_triples.py": "0923bcb5a4358ecce170519b50924bfdc90b21993ff8954581f11dc15a241bfe",
+    "rank_block_capacity_cnf.py": "7e9b1c2196f965669aad9de3f56bd7f77c92f76ceebf9f091c2ecbd45336740c",
+    "d13_rank_triples_round8.py": "db939a67e5382c534c0acee7797201263b799e2190d5098c1723d480ab74baa5",
+    "prefix_rank_triples_round8.py": "b0c0ceb0689aeebc968338c682e2a855bd419ac5dc6b62714eefff40976c348f"
+  },
+  "source_sha256": "4f9da92a6671c40cb581baa298ef8f1815cef915a57f00e10c20f339004df865",
+  "seconds": 0.9117169589735568,
+  "running_jobs": []
+}

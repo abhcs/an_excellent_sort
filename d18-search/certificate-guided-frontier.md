@@ -1,13 +1,12 @@
 # Structural conditions that actually eliminate D(13) prefix cases
 
-**Status, 2026-11-15:** twelve of117 complete-cover D13 cases are excluded
+**Status, 2026-11-15:** fifteen of117 complete-cover D13 cases are excluded
 by structural conditions with independently checked DRAT certificates:
-0,1,2,3,56,57,58,112,113,114,115,116. The latest block-capacity runs
-close cases3,56,112 in6.90,7.04,7.46 seconds, with independent checks
-under five seconds. Fresh parity baselines also close all three cases.
-Their necessary conditions have hand proofs; the whole-prefix applications
-still use SAT. The other105 cases are not closed by this audit.
-D(18) remains open here.
+0,1,2,3,4,55,56,57,58,111,112,113,114,115,116. The latest exact-endpoint
+and full-triple runs close cases4,55,111 in9.33,15.06,11.84 seconds,
+with independent checks in7.38,10.52,8.36 seconds. Their necessary
+conditions have hand proofs; whole-prefix applications still use SAT.
+The other102 cases are not closed by this audit. D(18) remains open here.
 
 Subsequent work supplies [small hand certificates for a specified D13
 continuation](d13_hand_obstructions.md), three checked
@@ -15,7 +14,7 @@ continuation](d13_hand_obstructions.md), three checked
 [twelve-wire obstruction that lifts to larger widths](fixed-sentinel-obstruction.md).
 The later [D18 rank-interval trials](interval-frontier.md) remain inconclusive.
 
-The [latest scope record](results/structural-cover-progress-round8.json) extends the
+The [latest scope record](results/structural-cover-progress-round9.json) extends the
 [earlier whole-cover audit](results/structural-cover-progress-round4.json), which binds results to the
 complete thirteen-wire cover, whose SHA-256 is
 `2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406`.
@@ -473,3 +472,86 @@ all three prefixes, in0.03–0.07 seconds each. The [bounded terminal record](re
 and per-prefix replay records save those next candidates. They satisfy
 only the stated necessary conditions. The next hand work can target
 their rank-partner patterns; no larger SAT job is running.
+
+
+## 18. Round-nine reviewed progress
+
+The [H9 `03 16 47` proof](../depth-hand-proofs/h9_feedback_round6_031647.md)
+raises reviewed hand coverage to29/50. Six third-layer forms,72 local
+five-vertex base cases, and19 explicit rank inputs exclude all51 remaining
+fourth layers. The fixed checker passes without SAT or global matching
+enumeration as a premise. The subsequent
+[opposite-fork proof](../depth-hand-proofs/h9_feedback_round7_031657.md)
+raises coverage to **30/50**, transferring two prefix functions exactly
+and closing the others by a shared-triangle lemma, two sink
+reschedulings, and sixteen rank obstructions.
+
+The [D17 cut-budget lemma](d17_feedback_round8_cut_lemma.md) has passed
+[independent review](results/d17-hand-round8-review.json). Its unique-signature
+corollary replaces the deepest branch by a nine-row hand table valid at
+arbitrary width. The remaining2,728 selected partial-row forms still use
+finite certificates, now compressed to one radius inequality each.
+
+The [full-three-rank theorem](d13_feedback_round8_triples.md), combined with
+exact binary-threshold endpoint clauses, gives the three new checked D13
+exclusions above. The [round-nine review](results/d13-feedback-round9-review.json)
+reconstructs the CNFs and verifies artifact bindings. Both tested D18
+four-layer prefixes still reach30-second caps. The known eighteen-wire
+positive control passes exact endpoint replay. No D18 complete-cover
+case is added.
+
+
+## 19. Exact data endings and the peak-count method's limit
+
+The [exact two-layer data-ending theorem](d13_feedback_round9_data_ending.md)
+substitutes min/max outputs directly into the final adjacent-layer
+conditions. The symbolic encoder adds no per-input penultimate data
+variables. Its fixed-cut formulation yields a dynamic program with at
+most30 boundary states, linear in the number of wires after preprocessing
+the binary image. This decides actual sorting completions of a fixed
+prefix, rather than merely rank reachability. Its scope and the
+nonredundant-ending hypothesis are explicit in the proof.
+
+The direct encoder passed70,800 complete small truth checks, four known
+sorter controls, and ten independently reconstructed CNFs. The DP passed
+105 actual-prefix comparisons and1,000 additional independently checked
+mode-profile controls. The [data review](results/d13-feedback-round9-data-review.json)
+and [DP root review](results/two-layer-data-dp-root-review.json) bind these
+results. Exact data-ending trials on both four-layer D18 prefixes, with
+and without the standard penultimate normal form, still reached their
+30-second caps. They add no complete-cover exclusion.
+
+The [separator theorem](rank-separated-blocks.md) supplies a hand
+obstruction at any width and remaining depth: cross-boundary gates are
+redundant once ranks are separated. Every odd separated block in a
+putative d-layer completion must have a wire attaining at most2^(d−1)
+ranks. This also gives a shorter proof of the full-three-rank obstruction.
+
+The [D17 frontier audit](d17_feedback_round9_frontier.md) gives directly
+replayed pure peak covers for every case0..605 (1,907 restriction
+profiles). No further exclusion of those cases is possible using only
+that same peak-count condition. The new hand lemma that anythree odd
+sets admit simultaneous maximum internal pairings explains why a first
+matching with at mostthree failed restrictions always extends. This
+makes shared data/order constraints, different restrictions, or additional
+layers the concrete next targets. The positive witnesses are not sorters.
+
+
+## 20. A product-order obstruction with five layers remaining
+
+The two newly accepted H9 cases imply a
+[nine-real poset theorem](../depth-hand-proofs/h9_feedback_round8_poset.md):
+the displayed five-coordinate partial order, either three-coordinate
+fork, and an independent singleton need at leastsix additional layers.
+A genuine signed restriction leaving exactlynine real inputs can carry
+this obstruction into a wider network, includingn>18. Fixed relabeling
+and image containment suffice; additional ordinary real auxiliaries
+cannot be ignored.
+
+The proof and routed-sentinel controls passed root review. A bounded
+recognition census checks84,480 normalized signed patterns across the
+three saved D18 five-layer prefixes. All256 component candidates have
+five-coordinate images too small to contain the required poset image.
+Thus this particular sufficient recognition test finds no new exclusion.
+The result identifies an explicit stronger target without claiming that
+it occurs in every D18 prefix. All current computations are terminal.

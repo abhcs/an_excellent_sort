@@ -1,0 +1,222 @@
+{
+  "case_id": "n13-r0055",
+  "depth": 8,
+  "cut": 6,
+  "mode": "wire",
+  "prefix": [
+    [
+      [
+        0,
+        12
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    [
+      [
+        0,
+        11
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        5,
+        8
+      ]
+    ]
+  ],
+  "source_case": {
+    "n": 13,
+    "layers": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          9,
+          10
+        ]
+      ]
+    ],
+    "sentence": [
+      [
+        "C",
+        "12121212"
+      ],
+      [
+        "H",
+        "01212"
+      ]
+    ],
+    "outputs": 611,
+    "half_blind_sets": 2,
+    "case_id": "n13-r0055"
+  },
+  "input_permutation": [
+    9,
+    4,
+    2,
+    11,
+    12,
+    0,
+    1,
+    10,
+    8,
+    3,
+    6,
+    5,
+    7
+  ],
+  "output_permutation": [
+    4,
+    2,
+    9,
+    0,
+    11,
+    1,
+    12,
+    10,
+    3,
+    5,
+    8,
+    6,
+    7
+  ],
+  "inputs": 611,
+  "wires": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "ranks": [],
+  "variables": 20131,
+  "clauses": 291166,
+  "original_window_cost": 31585,
+  "window_cost": 22410,
+  "scope": "All four-layer continuations of this complete-cover prefix; exact cut6 endpoints, block capacity, and full-triple sorting obstruction",
+  "parity_clauses": 0,
+  "block_capacity": {
+    "clauses": 498,
+    "by_kind": {
+      "right_extent": 59,
+      "left_capacity": 88,
+      "one_direction": 31,
+      "right_capacity": 88,
+      "incoming_capacity": 173,
+      "left_extent": 59
+    },
+    "added_variables": 0
+  },
+  "exact_endpoints": {
+    "reverse_threshold_clauses": 312,
+    "complete_image_required": true
+  },
+  "full_triple_clauses": 11,
+  "source_sha256": "474eed03dfc79bdf0456cca9d4f5f9f19fc8cf541d8f41f21aa68245c23be815",
+  "cover_sha256": "2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406",
+  "dependencies_sha256": {
+    "netsat.py": "960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3",
+    "probe_frontier.py": "e07f9183616412db41b7093fbb86efe8a13acf00d413b88084454b73ccdbeef0",
+    "interval_frontier.py": "93548c783322ba9754b407aaaf1cb29f649d6c8aa206ead5f1911b7454a1e6ab",
+    "cover_solve.py": "055cd3edc69c997461a6998b704a2283ef54883456ed7fc1b92515d96b9a52b5",
+    "relabel.py": "0a2e05ee9af76e79dee51542492341e2aa3aa5da57b4c9b349fefe736998b81e",
+    "prefix_drat.py": "1f85103a6efe10e02907d7fac977a88c149f1d6d2e189179a4636431db32773c",
+    "rank_block_capacity_cnf.py": "7e9b1c2196f965669aad9de3f56bd7f77c92f76ceebf9f091c2ecbd45336740c",
+    "adjacent_rank_ending.py": "f18f43489e46c9355e9738398d3fc4fdfa3070a4ae502db3d204250864e5d011",
+    "exact_rank_triples.py": "0923bcb5a4358ecce170519b50924bfdc90b21993ff8954581f11dc15a241bfe"
+  },
+  "status": "UNSAT",
+  "independently_proof_checked": true,
+  "build_seconds": 0.2740403750212863,
+  "certificate_directory": "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/rank-triples-round9-d13-0055",
+  "cnf_sha256": "2fed9707bd23628d4b687a254cd75de219c6276cc35f34b2bbbf40fb340fa639",
+  "proof_sha256": "d0f852bb5bf61776f4a78358f76799d1423c227de776ff276584f8f7e104917e",
+  "seconds": 14.985719166928902,
+  "check_seconds": 10.518303208984435,
+  "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d"
+}

@@ -1,0 +1,133 @@
+{
+  "status": "VERIFIED",
+  "uses_sat": false,
+  "actual_prefix_comparisons": [
+    {
+      "n": 2,
+      "actual_prefix_images": 2,
+      "arbitrary_P_count": 2,
+      "adjacent_S_count": 2
+    },
+    {
+      "n": 3,
+      "actual_prefix_images": 6,
+      "arbitrary_P_count": 4,
+      "adjacent_S_count": 3
+    },
+    {
+      "n": 4,
+      "actual_prefix_images": 29,
+      "arbitrary_P_count": 10,
+      "adjacent_S_count": 5
+    },
+    {
+      "n": 5,
+      "actual_prefix_images": 33,
+      "arbitrary_P_count": 26,
+      "adjacent_S_count": 8
+    },
+    {
+      "n": 6,
+      "actual_prefix_images": 35,
+      "arbitrary_P_count": 76,
+      "adjacent_S_count": 13
+    }
+  ],
+  "accepted": 35,
+  "rejected": 70,
+  "scope_counterexample": {
+    "n": 6,
+    "states": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    ],
+    "arbitrary_ending": [
+      [
+        [
+          0,
+          5
+        ]
+      ],
+      []
+    ],
+    "bounded_span_rejected": true
+  },
+  "crossing_matching_counts": {
+    "0": 1,
+    "1": 6,
+    "2": 7,
+    "3": 1
+  },
+  "large_free_profile_control": {
+    "n": 10000,
+    "states": 299907,
+    "transitions": 749752,
+    "max_boundary_states": 30
+  },
+  "source_sha256": "5e9d0df85b5b41e4e6dd320a7338977471440021002dd168d2ebff1449dbb6c2",
+  "algorithm_sha256": "ca7febc899beeca1d1a5f7e48f806d498e8bfc3d8ae2812b5fc4b35c17a96bcf",
+  "proof_sha256": "f495c7c1481e03338237f5aec39ca61e32ec11797556930d9bdeb5431234f248",
+  "seconds": 0.39709879201836884
+}

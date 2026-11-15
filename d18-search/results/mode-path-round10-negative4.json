@@ -1,0 +1,58 @@
+{
+  "status": "UNSAT_UNCHECKED",
+  "n": 4,
+  "depth": 5,
+  "cut": 3,
+  "prefix": [
+    [
+      [
+        0,
+        3
+      ]
+    ],
+    [
+      [
+        1,
+        3
+      ]
+    ],
+    [
+      [
+        2,
+        3
+      ]
+    ]
+  ],
+  "inputs": 9,
+  "variables": 152,
+  "clauses": 281,
+  "mode_path": {
+    "added_variables": 143,
+    "clauses": 258,
+    "mode_count": 16,
+    "guard_clauses": 18,
+    "path_clauses": 240,
+    "boundary_states": [
+      8,
+      14,
+      8,
+      1
+    ],
+    "transitions": 64,
+    "max_boundary_states": 14
+  },
+  "source_sha256": "548c19c9d177e4d513e5c51d9c813bfc8ef6970d6e7ec866e98f47d383f85fe0",
+  "seed_sha256": "b6f18e51a3127ae2ab0cce1222bf734ef5db8c6807129acf0d1826ecc650af1a",
+  "cnf_sha256": "972b5baa656178f100a2f7b5840bedeafd727ee7fab5b824abaf10f4d049c1a8",
+  "certificate_directory": "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/mode-path-round10-negative4",
+  "dependencies_sha256": {
+    "netsat.py": "960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3",
+    "probe_frontier.py": "e07f9183616412db41b7093fbb86efe8a13acf00d413b88084454b73ccdbeef0",
+    "prefix_drat.py": "1f85103a6efe10e02907d7fac977a88c149f1d6d2e189179a4636431db32773c",
+    "two_layer_mode_path.py": "3216d95ab9b09444a5a38e3edbb3a4ce5543537028177cfbf7b0174b44abc0e3",
+    "d13_feedback_round9_data_dp.py": "ca7febc899beeca1d1a5f7e48f806d498e8bfc3d8ae2812b5fc4b35c17a96bcf"
+  },
+  "scope": "Exact sorting completion of the fixed actual prefix using the span-three adjacent ending normal form",
+  "seconds": 0.0016761249862611294,
+  "proof_sha256": "f6d71868b9e95a6760196e42d345aeee7cc4ed784b8fa709db4f375bf787185f"
+}

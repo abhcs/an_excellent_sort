@@ -1,0 +1,27 @@
+{
+  "status": "REVIEWED_SOUND",
+  "uses_sat": false,
+  "root_profile_checks": {
+    "2": 200,
+    "3": 200,
+    "4": 200,
+    "5": 200,
+    "6": 200
+  },
+  "accepted": 713,
+  "rejected": 287,
+  "mathematical_review": [
+    "Each P mode has exactly the recorded left/right final-edge requirements by conserved threshold weight.",
+    "The crossing P pattern and one previous S bit capture every future effect; relative edge tuples remain canonically ordered by insertion, so state merging is sound.",
+    "The six possible span-three crossing edges have exactly15 matching subsets, hence30 states with the final-edge bit.",
+    "Fixed actual-prefix completeness uses the cited nonredundant ending theorem. Arbitrary families need the stated span bound; the saved counterexample correctly distinguishes these scopes.",
+    "Reconstruction uses one predecessor per boundary state, without recursive suffix copying. Preprocessing is O(n times number of binary cut states), then decision and reconstruction are O(n)."
+  ],
+  "seconds": 0.04471183300483972,
+  "hashes": {
+    "d18-search/d13_feedback_round9_data_dp.py": "ca7febc899beeca1d1a5f7e48f806d498e8bfc3d8ae2812b5fc4b35c17a96bcf",
+    "d18-search/d13_feedback_round9_data_dp_verify.py": "5e9d0df85b5b41e4e6dd320a7338977471440021002dd168d2ebff1449dbb6c2",
+    "d18-search/d13_feedback_round9_data_ending.md": "f495c7c1481e03338237f5aec39ca61e32ec11797556930d9bdeb5431234f248",
+    "d18-search/rank-separated-blocks.md": "d8093ec2d06cfecf90853a1ce9435f2d38271f74bdb65bb71502d8a864a54bad"
+  }
+}

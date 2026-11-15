@@ -1,0 +1,100 @@
+{
+  "status": "BUILT",
+  "n": 13,
+  "depth": 8,
+  "cut": 6,
+  "prefix": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    [
+      [
+        0,
+        10
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        11
+      ]
+    ]
+  ],
+  "inputs": 644,
+  "variables": 26059,
+  "clauses": 471764,
+  "mode_path": {
+    "added_variables": 1261,
+    "clauses": 51604,
+    "mode_count": 79,
+    "guard_clauses": 48888,
+    "path_clauses": 2716,
+    "boundary_states": [
+      8,
+      20,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      20,
+      8,
+      1
+    ],
+    "transitions": 727,
+    "max_boundary_states": 30
+  },
+  "source_sha256": "548c19c9d177e4d513e5c51d9c813bfc8ef6970d6e7ec866e98f47d383f85fe0",
+  "seed_sha256": "20be8e4fa34bd8088547356a951695917b77df1f9617a2811025fc6c97f180e6",
+  "cnf_sha256": "bcf0a52b249b9f270a31a561074e77b284a1299341bb30e8fa768d6bc2957bde",
+  "certificate_directory": "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/mode-path-round10-d13-0090",
+  "dependencies_sha256": {
+    "netsat.py": "960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3",
+    "probe_frontier.py": "e07f9183616412db41b7093fbb86efe8a13acf00d413b88084454b73ccdbeef0",
+    "prefix_drat.py": "1f85103a6efe10e02907d7fac977a88c149f1d6d2e189179a4636431db32773c",
+    "two_layer_mode_path.py": "3216d95ab9b09444a5a38e3edbb3a4ce5543537028177cfbf7b0174b44abc0e3",
+    "d13_feedback_round9_data_dp.py": "ca7febc899beeca1d1a5f7e48f806d498e8bfc3d8ae2812b5fc4b35c17a96bcf"
+  },
+  "scope": "Exact sorting completion of the fixed actual prefix using the span-three adjacent ending normal form",
+  "seconds": 0.45820504194125533
+}

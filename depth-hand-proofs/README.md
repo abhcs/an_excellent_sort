@@ -22,8 +22,17 @@ The [deletion-triangle and rank-endpoint proof](h9_feedback_round4_021637.md)
 raises coverage to 27 classes. Its final finite tables use fourteen
 explicit real inputs, with no SAT premise. The
 [five-real demands and rank-pivot proof](h9_feedback_round5_021456.md)
-raises coverage to **28 of 50 classes**. Nine hand matching arguments
+raises coverage to 28 classes. Nine hand matching arguments
 reduce it to 47 prefixes, excluded by fifteen explicit real inputs.
+The [five-unused-wire and rank-partner proof](h9_feedback_round6_031647.md)
+raises coverage to 29 classes: six third-layer forms reduce to
+51 fourth-layer forms, excluded by nineteen explicit real inputs.
+The [opposite-fork proof](h9_feedback_round7_031657.md) raises coverage
+to **30 of 50 classes**, using a shared-triangle rule, two sink
+reschedulings, and sixteen rank obstructions. These two cases yield a
+[nine-real poset obstruction](h9_feedback_round8_poset.md) with five
+layers remaining, valid inside a genuine signed restriction at arbitrary
+ambient width. Its bounded recognition trials add no D18 exclusion.
 The companion [three-triple theorem](h9_feedback_round3_merge333.md)
 and [four-four-one theorem](../d18-search/d13_feedback_round3_merger441.md)
 prove the same merger lower bound for (3,3,3) and (4,4,1). Together they imply
@@ -41,10 +50,13 @@ cover leaves all 117 cases open.
 The subsequent [rank-position tests](../d18-search/certificate-guided-frontier.md),
 [wire-only reductions](../d18-search/d13_feedback_round2.md),
 and [saturated-cone parity](../d18-search/rank-parity-feedback.md)
-exclude nine of the 117 D(13) prefix cases with independently checked
+exclude fifteen of the 117 D(13) prefix cases with independently checked
 structural SAT certificates. Case115 needs only six central wire bounds;
 parity closes cases1 and114 in bounded runs that previously timed out,
 and the [round-six batch](../d18-search/d13_feedback_round6.md) adds cases2,57,113.
+Reviewed block-capacity and exact-endpoint clauses add cases3,4,55,56,111,112;
+the [latest scope record](../d18-search/results/structural-cover-progress-round9.json)
+links their independent encoder and certificate reviews.
 The full D(13), D(17) and D(18) goals remain unfinished.
 The [D(17) defect screen](../d18-search/d17_feedback_results.md) now excludes
 three of its 609 prefix cases. A [twelve-wire signed pattern](../d18-search/fixed-sentinel-obstruction.md)
@@ -66,7 +78,16 @@ B-edge branch. The [complete signed case606 family](../d18-search/d17_feedback_r
 now has a width-independent finite-assisted proof: hand normalization
 reduces the final noncritical branch to 86,370 configurations checked
 in seconds without SAT. The finite classifications remain explicit
-premises; a fully symbolic case606 proof is still unfinished.
+premises; a fully symbolic case606 proof is still unfinished. The
+[cut-budget signature lemma](../d18-search/d17_feedback_round8_cut_lemma.md)
+now gives a nine-row hand proof for the formerly deepest branch and
+compresses the 2,728 partial-row certificates to explicit short inequalities.
+This strengthening has passed independent mathematical review. The
+[subsequent frontier audit](../d18-search/d17_feedback_round9_frontier.md)
+constructs pure peak-count witnesses for all606 other cover cases; that
+condition alone cannot eliminate another case. A general hand lemma
+shows that anythree odd real sets can attain their maximum internal
+pair counts simultaneously.
 The [common-real padding transfer](../d18-search/d17_feedback_round2_normalization.md#6-padding-gives-seveneight-real-obstructions-without-h9)
 also gives seven/eight-real versions of both fourteen-wire obstructions.
 These add conditional D18 targets using hand H7/H8. The case606 target
@@ -80,7 +101,12 @@ two-layer cover cases. The newer [partial-sixth-layer theorem](../d18-search/d18
 excludes entire families of L6 matchings after three specified five-layer
 prefixes using rank witnesses alone. The [last-pairing projection](../d18-search/d13_feedback_round7_pairing.md)
 and [block-capacity criterion](../d18-search/fixed-ending-block-capacity.md)
-give further reusable rank-structure results at arbitrary width.
+give further reusable rank-structure results at arbitrary width. The
+[exact data-ending DP](../d18-search/d13_feedback_round9_data_ending.md)
+now decides two-layer sorting completions of a fixed prefix using at
+most30 states per boundary after preprocessing its binary image. The
+[rank-separated-block theorem](../d18-search/rank-separated-blocks.md)
+also gives an odd-block obstruction for any remaining depth.
 For D13, the [reduced wire-only certificate](../d18-search/d13_hand_next_wire_core.md)
 sharpens the whole-case-116 structural target to ten wire intervals.
 

@@ -1,0 +1,242 @@
+{
+  "status": "REVIEWED_SOUND",
+  "uses_sat": false,
+  "new_solver_calls": 0,
+  "substantive_issues": [],
+  "exact_formula_review": [
+    "For each k-zero state, all pre-final bits away from k-1,k are forced to their sorted values. Without the final boundary edge the two middle bits are forced too; with it, weight conservation supplies complementary middle bits.",
+    "Positive incident-P gates correctly guard the idle requirement; -g correctly guards each active comparator. Matching constraints ensure a unique active output mode.",
+    "Minimum requiring one and maximum requiring zero each split into two guarded clauses. The other minimum/maximum requirements use the correct two-literal disjunction.",
+    "The final edge appears only in the two boundary-wire requirements. Other final edges connect equally forced bits and cannot spoil sorting.",
+    "Skipping zero- and full-weight states is sound because the preceding exact simulation preserves their all-equal values.",
+    "The helper is exact for arbitrary P and adjacent S, and introduces no output or cardinal variables. The worker uses the full prefix image, simulates every free cut layer, and directly verifies every SAT sorter on all binary inputs."
+  ],
+  "normal_units_review": "The normal fork only adds existing cut units under --normal. Span<=3 makes a one at c<=k-5 unable to reach rank k; at c=k-4 the only potential span-three gate forces the last edge back toward k-2 by phi3, so it still cannot reach k. The zero bound c>=k+3 is symmetric.",
+  "separator_note_review": [
+    "A separated boundary is persistent: values on its left are always below those on its right, making every future cross-boundary comparison redundant.",
+    "If all exact Q on a consecutive block stay inside it, rank conservation and outside rank intervals containing their own indices separate both boundaries.",
+    "After deleting cross-block comparisons, an odd block has a first-layer idle; its forward cone in d remaining layers has size at most 2^(d-1). Hence some wire must have at most that many attainable ranks.",
+    "The conditional no-cross-S clauses have the correct polarity and remain necessary with enclosing intervals wholly on one side of the separator.",
+    "If R and S respect a separator, a crossing P edge contributes only an outside S-block to either endpoint cone, so each endpoint demand already fits its own S-block. Deleting the P edge preserves reachability; capacity plus no-cross-S therefore rejects a full triple."
+  ],
+  "unchanged_truth_checker_replay": {
+    "status": "VERIFIED",
+    "uses_sat": false,
+    "all_binary_states_and_matchings": true,
+    "counts": {
+      "2": 16,
+      "3": 96,
+      "4": 800,
+      "5": 6656,
+      "6": 63232
+    },
+    "accepted": 18125,
+    "rejected": 52675,
+    "seconds": 0.1414744999492541,
+    "source_sha256": "52ca93a9382f981b8f10c0f50c1be005bafb153b0a5dbd2771112158ed70d864",
+    "checker_sha256": "643ff0605bfa2acd1b669ae860182a2e185ae7313dce8e040a79662f58a7943f"
+  },
+  "artifact_audits": [
+    {
+      "variant": "ending",
+      "label": "positive4",
+      "whole_cnf_reconstructed": true,
+      "data_clause_range": [
+        23,
+        43
+      ],
+      "cnf_sha256": "2bdbcf3aa2ed147c2e2b4dc93a3bd5ef3df8a0f5cad02e8ffca7cced55d048c6",
+      "data_added_variables": 0,
+      "status": "FULL_SORTER_POSITIVE_CONTROL"
+    },
+    {
+      "variant": "ending",
+      "label": "negative4",
+      "whole_cnf_reconstructed": true,
+      "data_clause_range": [
+        14,
+        32
+      ],
+      "cnf_sha256": "e4023f4188a063d4bcb820ea3b03d58b10d7d9828c8d1343da04ce570008b308",
+      "data_added_variables": 0,
+      "status": "CHECKED_UNSAT",
+      "proof_sha256": "43c4a3fdeec3ce552f7951a740ab347707f0b9d19b9866dc86d7304750d7436b",
+      "check_log_sha256": "5b882c2c273126216959abe1ba2c952ab8d6cb11c9c8e0f2d6af286e2a404c30"
+    },
+    {
+      "variant": "ending",
+      "label": "positive18",
+      "whole_cnf_reconstructed": true,
+      "data_clause_range": [
+        55239,
+        80777
+      ],
+      "cnf_sha256": "7785f9e538caff3205141cf57826093bb2d72ea84f61fe57e8daded1f5c6a3d8",
+      "data_added_variables": 0,
+      "status": "FULL_SORTER_POSITIVE_CONTROL"
+    },
+    {
+      "variant": "ending",
+      "label": "beam00",
+      "whole_cnf_reconstructed": true,
+      "data_clause_range": [
+        392458,
+        493860
+      ],
+      "cnf_sha256": "e8f9e945bf2da527b49dda0bb3ca498de3000d07cc6a09ea57cbe33c3f2ecbcf",
+      "data_added_variables": 0,
+      "status": "TIMEOUT_NOT_UNSAT"
+    },
+    {
+      "variant": "ending",
+      "label": "beam16",
+      "whole_cnf_reconstructed": true,
+      "data_clause_range": [
+        410124,
+        516412
+      ],
+      "cnf_sha256": "d0cdf82a84efcfa034f231f66f088169a79b56dd80771ee262884957c074a028",
+      "data_added_variables": 0,
+      "status": "TIMEOUT_NOT_UNSAT"
+    },
+    {
+      "variant": "normal",
+      "label": "positive4",
+      "whole_cnf_reconstructed": true,
+      "data_clause_range": [
+        27,
+        47
+      ],
+      "cnf_sha256": "10b045958ded22993e892bc5d024f38d965e96d754555fb9a2ede0e723c09a4b",
+      "data_added_variables": 0,
+      "status": "FULL_SORTER_POSITIVE_CONTROL"
+    },
+    {
+      "variant": "normal",
+      "label": "negative4",
+      "whole_cnf_reconstructed": true,
+      "data_clause_range": [
+        18,
+        36
+      ],
+      "cnf_sha256": "179830d5a5a2df12d15bc61185699bccb6c7298e217769af3b131e4a75a16b91",
+      "data_added_variables": 0,
+      "status": "CHECKED_UNSAT",
+      "proof_sha256": "43c4a3fdeec3ce552f7951a740ab347707f0b9d19b9866dc86d7304750d7436b",
+      "check_log_sha256": "b9a4f729af326579dbe20c12987b7b3c95fd2e0d91f88c659c4af9e09bab98f2"
+    },
+    {
+      "variant": "normal",
+      "label": "positive18",
+      "whole_cnf_reconstructed": true,
+      "data_clause_range": [
+        53212,
+        63898
+      ],
+      "cnf_sha256": "7b3d4a992827186ad9356cc5b1cac080250c4f966e40dcc4e6bad9323cabd233",
+      "data_added_variables": 0,
+      "status": "FULL_SORTER_POSITIVE_CONTROL"
+    },
+    {
+      "variant": "normal",
+      "label": "beam00",
+      "whole_cnf_reconstructed": true,
+      "data_clause_range": [
+        392478,
+        435128
+      ],
+      "cnf_sha256": "b608876b3547879577d72c5eea4cb5990f352dfaa064136d13db6c3528e78f6d",
+      "data_added_variables": 0,
+      "status": "TIMEOUT_NOT_UNSAT"
+    },
+    {
+      "variant": "normal",
+      "label": "beam16",
+      "whole_cnf_reconstructed": true,
+      "data_clause_range": [
+        410282,
+        455176
+      ],
+      "cnf_sha256": "35fe1c75bc7ddeac875403f1495df0d68279b05787cefe0d1ced6a67f7987eb9",
+      "data_added_variables": 0,
+      "status": "TIMEOUT_NOT_UNSAT"
+    }
+  ],
+  "independent_fixed_cut_dp_on_known_eighteen_sorter": {
+    "n": 18,
+    "cut": 9,
+    "cut_image_size": 35,
+    "ending": [
+      [
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          16,
+          17
+        ]
+      ],
+      [
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          12,
+          13
+        ]
+      ]
+    ],
+    "stats": {
+      "states": 94,
+      "transitions": 171,
+      "max_boundary_states": 30
+    }
+  },
+  "no_new_D18_exclusion": true,
+  "reviewed_sha256": {
+    "two_layer_data_ending.py": "52ca93a9382f981b8f10c0f50c1be005bafb153b0a5dbd2771112158ed70d864",
+    "two_layer_data_ending_verify.py": "643ff0605bfa2acd1b669ae860182a2e185ae7313dce8e040a79662f58a7943f",
+    "prefix_data_ending_round9.py": "2ff84166cc88b853b1c60a7be45c9148e68ee1203c210ff338f657af0190b9d3",
+    "prefix_data_normal_round9.py": "6175a47b8e1b244b5f26f742ece58c65873c0145b390efbcd6b8d20ed89a1b75",
+    "rank-separated-blocks.md": "d8093ec2d06cfecf90853a1ce9435f2d38271f74bdb65bb71502d8a864a54bad",
+    "d13_feedback_round9_data_ending.md": "f495c7c1481e03338237f5aec39ca61e32ec11797556930d9bdeb5431234f248",
+    "d13_feedback_round9_data_dp.py": "ca7febc899beeca1d1a5f7e48f806d498e8bfc3d8ae2812b5fc4b35c17a96bcf"
+  },
+  "source_sha256": "71d712595ccad57e2b2ae4cad6136a1d4476af3a93498446aafe0376331fe933",
+  "seconds": 2.3704607089748606,
+  "running_jobs": []
+}

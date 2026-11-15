@@ -1,0 +1,18 @@
+{
+  "terminal": "TIMEOUT_KILLED",
+  "seconds": 30.00757816596888,
+  "wall_cap_seconds": 30,
+  "stdout": "{\"status\": \"BUILT\", \"n\": 18, \"depth\": 10, \"cut\": 8, \"inputs\": 520, \"variables\": 22374, \"clauses\": 516412, \"normal\": false, \"data_ending\": {\"clauses\": 106288, \"distinct_templates\": 106288, \"added_variables\": 0, \"input_states\": 520, \"scope\": \"Exact two-layer sorting with adjacent final matching\"}, \"source_sha256\": \"2ff84166cc88b853b1c60a7be45c9148e68ee1203c210ff338f657af0190b9d3\", \"seed_sha256\": \"4277d3a6488696235bd796da775524ba1a436ef8d6247f1ea97e9567288782d8\", \"cnf_sha256\": \"d0cdf82a84efcfa034f231f66f088169a79b56dd80771ee262884957c074a028\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/data-ending-round9-beam16\", \"scope\": \"Exact sorting completion of the fixed prefix, with adjacent final matching\", \"seconds\": 0.7399056249996647}\n",
+  "stderr": "",
+  "label": "beam16",
+  "command": [
+    "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/prefix_data_ending_round9.py",
+    "--seed",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-round6-p4-beam16-seed.json",
+    "--depth",
+    "10",
+    "--out",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/data-ending-round9-beam16.json"
+  ]
+}

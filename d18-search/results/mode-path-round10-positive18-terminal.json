@@ -1,0 +1,21 @@
+{
+  "terminal": "EXITED",
+  "returncode": 0,
+  "stdout": "{\"status\": \"BUILT\", \"n\": 18, \"depth\": 11, \"cut\": 9, \"inputs\": 243, \"variables\": 7050, \"clauses\": 70041, \"mode_path\": {\"added_variables\": 1891, \"clauses\": 14802, \"mode_count\": 114, \"guard_clauses\": 10686, \"path_clauses\": 4116, \"boundary_states\": [8, 20, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 20, 8, 1], \"transitions\": 1102, \"max_boundary_states\": 30}, \"source_sha256\": \"548c19c9d177e4d513e5c51d9c813bfc8ef6970d6e7ec866e98f47d383f85fe0\", \"seed_sha256\": \"02bc84a1ba7714289eb2a61cbd03a34363f0fdc94a7f9fd6b4bd651dab624a94\", \"cnf_sha256\": \"5295d82fdd562b4cc3e0a1347e429057b14b1c4d9ed801d1f0f593532e4c53b9\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/mode-path-round10-positive18\", \"scope\": \"Exact sorting completion of the fixed actual prefix using the span-three adjacent ending normal form\", \"seconds\": 0.21696787502150983}\n{\"status\": \"SORTER\", \"seconds\": 0.22675720904953778}\n",
+  "stderr": "",
+  "seconds": 0.2832151249749586,
+  "wall_cap_seconds": 30,
+  "label": "positive18",
+  "command": [
+    "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/prefix_mode_path_round10.py",
+    "--seed",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-round6-control-p6-c9-seed.json",
+    "--depth",
+    "11",
+    "--out",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/mode-path-round10-positive18.json",
+    "--witness",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/dobbelaere18-78-11.json"
+  ]
+}

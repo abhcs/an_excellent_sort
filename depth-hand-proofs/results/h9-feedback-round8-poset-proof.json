@@ -1,0 +1,125 @@
+{
+  "status": "VERIFIED",
+  "solver_free": true,
+  "ambient_width_theorem": true,
+  "exactly_nine_real_tracks_required": true,
+  "complete_signed_image_search": false,
+  "additional_H9_classes": 0,
+  "additional_D18_prefixes": 0,
+  "canonical": {
+    "U5_orders": 16,
+    "fork_orders": 2,
+    "product_order_types": 16128,
+    "controls": [
+      {
+        "polarity": "minimum",
+        "ambient_width": 18,
+        "fixed_layers": 5,
+        "real_tracks": 9,
+        "component_orders": [
+          16,
+          2,
+          1
+        ],
+        "routed_real_positions": [
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          15,
+          16,
+          17
+        ],
+        "binary_replays": 512
+      },
+      {
+        "polarity": "maximum",
+        "ambient_width": 18,
+        "fixed_layers": 5,
+        "real_tracks": 9,
+        "component_orders": [
+          16,
+          2,
+          1
+        ],
+        "routed_real_positions": [
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          15,
+          16,
+          17
+        ],
+        "binary_replays": 512
+      }
+    ]
+  },
+  "census": {
+    "records": [
+      {
+        "name": "beam00",
+        "patterns": 28160,
+        "first_rr_counts": {
+          "0": 512,
+          "1": 27648
+        },
+        "packing_survivors": 64,
+        "component_image_sizes": [
+          4,
+          2,
+          1
+        ],
+        "component_order_replays": 8064,
+        "recognized": 0
+      },
+      {
+        "name": "beam16",
+        "patterns": 28160,
+        "first_rr_counts": {
+          "0": 512,
+          "1": 27648
+        },
+        "packing_survivors": 128,
+        "component_image_sizes": [
+          5,
+          1,
+          1
+        ],
+        "component_order_replays": 16128,
+        "recognized": 0
+      },
+      {
+        "name": "beam32",
+        "patterns": 28160,
+        "first_rr_counts": {
+          "0": 512,
+          "1": 27648
+        },
+        "packing_survivors": 64,
+        "component_image_sizes": [
+          3,
+          2,
+          1
+        ],
+        "component_order_replays": 8064,
+        "recognized": 0
+      }
+    ],
+    "total_patterns": 84480,
+    "component_order_replays": 32256,
+    "discovery_report_sha256": "2567dbf12305c8ed8443f79ce29f0e6193e18f4cb0ccc404c3b911cd900c3168"
+  },
+  "accepted_certificate_sha256": {
+    "h9-feedback-round6-certificate.json": "c258d102a019b789a5a01edfae1b410629d1e61f8a2ba3f1976e09c6eabf05ae",
+    "h9-feedback-round7-certificate.json": "d9237f438467d95088717b2016cc8734453ea62f4540f3ecbe48994a9cc6ca60"
+  },
+  "source_prefix_sha256": "3d662a0b4ee885426c51ae7109cb5fc57f9818f4d9e684e1dc0612afaf8ff787",
+  "note_sha256": "a3741f7acb020e10ddc202b0e60bbff11c0be8de08a78f0a0110f294a69b7a15",
+  "checker_sha256": "731fa866e5518e4494de1f917f1cb86271f3ee66226c3c345b3fb25dfbc27ed8",
+  "elapsed_seconds": 0.6285149999894202
+}

@@ -1,0 +1,43 @@
+{
+  "status": "VERIFIED_EXISTING_PURE_PROOF_BINDING",
+  "new_sat_run": false,
+  "new_drat_run": false,
+  "original_case": "n17-r0608",
+  "original_width": 17,
+  "pruned_width": 14,
+  "original_to_pruned_labels": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "removed_fixed_negative_wires": [
+    0,
+    3,
+    11
+  ],
+  "exact_signed_family_reconstructed": true,
+  "rebuilt_cnf_identical_to_checked_cnf": true,
+  "empty_retained_layers_allowed": true,
+  "repeated_gates_allowed": true,
+  "first_matching_arbitrary": true,
+  "second_matching_arbitrary": true,
+  "variables": 2150,
+  "clauses": 19412,
+  "encoder_sha256": "23de0a77850a3b1831df270b240bc518ebbc4f42d9b1bf65b748065c4cab7f29",
+  "cnf_sha256": "afe0be3fae6418512cbc9ed7b0b724158998e59dbf30ce6f957a2d8ed4ede049",
+  "proof_sha256": "5fb5b243544b7fac24a1fb77dfa267f085e3d11801901aabb98c273152a1ff38",
+  "reused_checked_manifest": "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/d17-feedback-fourteen-main/result/check/certificate.json",
+  "audit_source_sha256": "336c04b0752f2aef84fd91c9dd050610c4d8f9f48ef0153c6c40ee4440ef4fac",
+  "seconds": 0.101
+}

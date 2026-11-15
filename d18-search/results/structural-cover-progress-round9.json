@@ -1,0 +1,129 @@
+{
+  "status": "CURRENT_RESEARCH_SCOPE",
+  "h9_reviewed_hand_classes": 30,
+  "h9_classes": 50,
+  "D13": {
+    "complete_cover_exclusions": 15,
+    "total": 117,
+    "cases": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      55,
+      56,
+      57,
+      58,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116
+    ],
+    "round8_performance_scope": "Fresh parity baselines also close cases 3,56,112; single-run timing comparison only.",
+    "round9": "Exact-endpoint/full-triple worker cases4,55,111 independently reviewed and DRAT checked."
+  },
+  "D17": {
+    "complete_cover_exclusions": 3,
+    "total": 609,
+    "cases": [
+      606,
+      607,
+      608
+    ],
+    "case606_signed_family": "Finite-assisted width-independent obstruction, independently reviewed; not a global D17 proof",
+    "pure_peak_positive_cases": 606,
+    "pure_peak_positive_range": [
+      0,
+      605
+    ],
+    "pure_peak_scope": "No additional exclusion on these606 cases can follow from this exact pure two-layer peak condition on the supplied nine-real families; stronger shared-suffix/order conditions remain open.",
+    "pure_peak_classification": "Positive on0..605; negative on606..608 using accepted pure obstructions, including the rebound checked608 CNF."
+  },
+  "D18": {
+    "complete_cover_exclusions": 0,
+    "total": 411,
+    "lower_bound_11_resolved": false,
+    "partial_sixth_layer_families": {
+      "beam00": 140152,
+      "beam16": 9496,
+      "beam32_union": 142
+    },
+    "round9_experiments": {
+      "exact_rank_triples": "Both four-layer prefix tests reached30-second wall limits.",
+      "exact_data_ending": "Both four-layer prefix tests reached30-second wall limits, with arbitrary penultimate layer and again with normal form.",
+      "controls": "Known4/18 sorters pass; negative4 examples have independent DRAT verification."
+    }
+  },
+  "reviewed_artifacts": {
+    "d17_round7": {
+      "path": "d18-search/results/d17-hand-round7-review.json",
+      "sha256": "ebe6db3876cf7ab382c653078b0028d1b1857287b3e3e92792c6081239439a4b"
+    },
+    "h9_round5": {
+      "path": "depth-hand-proofs/results/h9-feedback-round5-root-review.json",
+      "sha256": "8ea6f2c60129198887def5ff4ea42804be796678eae4ba5eba1e2464dd5d0256"
+    },
+    "d18_partial_L6": {
+      "path": "d18-search/results/d18-rank-partner-round7-partial-proof.json",
+      "sha256": "3f5a13c2b60091026efe6b8d396f8b8e5a818ef21526ec2711f6c0b599b28726"
+    },
+    "rank_lemmas": {
+      "path": "d18-search/results/rank-structure-round7-root-review.json",
+      "sha256": "89004c28c7b3a886f74186a93685cf66063f9963df59491b30555971c76342f9"
+    },
+    "ending_capacity": {
+      "path": "d18-search/results/d13_feedback_round7-capacity-review.json",
+      "sha256": "3d61f0c120c9d17fdcabe3293a8ce55d1f1492cf9b855b8fc369e53942653306"
+    },
+    "d13_round8_capacity": {
+      "path": "d18-search/results/d13_feedback_round8-capacity-review.json",
+      "sha256": "4416991870988779369ed70b13a489c21a87680e54449c075133a650ee424658"
+    },
+    "exact_rank_triples": {
+      "path": "d18-search/results/d13_feedback_round8-exact-review.json",
+      "sha256": "bf4a70d0e5531684b9f15e5fa74d9b85ae85348f2730304393b3cf3e57c21eca"
+    },
+    "h9_round6": {
+      "path": "depth-hand-proofs/results/h9-feedback-round6-root-review.json",
+      "sha256": "151e829ea8ad3f4bed062540938018b2a0194b6d1ebc22e490fcf2b50ad5b871"
+    },
+    "d17_round8": {
+      "path": "d18-search/results/d17-hand-round8-review.json",
+      "sha256": "3af0ce18bafed2fd4488f320bd7ca5d67e13fec72adccf122cf4f0cb301c2b1f"
+    },
+    "d13_round9": {
+      "path": "d18-search/results/d13-feedback-round9-review.json",
+      "sha256": "91c2d9425e55f8f17ae2603fca16bdd6e1e17700912b7b3fa081be0d47bbe124"
+    },
+    "h9_round7": {
+      "path": "depth-hand-proofs/results/h9-feedback-round7-root-review.json",
+      "sha256": "a96ed7d30624a0ba878a2c672ad6a9be33871211d9076873ce8e0b7801ba5c8a"
+    },
+    "data_ending": {
+      "path": "d18-search/results/d13-feedback-round9-data-review.json",
+      "sha256": "228bd779f1b90c945264c3a4b18a00a3af2441ba79959a2d2521f110941ed4f3"
+    },
+    "data_dp": {
+      "path": "d18-search/results/two-layer-data-dp-root-review.json",
+      "sha256": "25bd8fc29eda545defade11c9af837e0bb70d5ada96e2891bb9b6c85fdab220f"
+    },
+    "d17_peak_ceiling": {
+      "path": "d18-search/results/d17-feedback-round9-root-review.json",
+      "sha256": "292d0ba8bc44c60113b5d2922fe3e0b408fc6687b1648a18060acd423d749d15"
+    },
+    "d17_pure608_binding": {
+      "path": "d18-search/results/d17-feedback-round9-pure608-binding.json",
+      "sha256": "6e5c23ff8a91bec4a6cab9a7268b2e973027f65be103b982b0a6547c009bc38b"
+    },
+    "poset_transfer": {
+      "path": "depth-hand-proofs/results/h9-feedback-round8-poset-root-review.json",
+      "sha256": "51cb8479a5a6b5d0fc09c2917d320dc90139487752955463510ec9bfb03233cf"
+    }
+  },
+  "all_root_solver_jobs_terminal": true,
+  "all_known_research_jobs_terminal": true,
+  "scope_note": "Accepted counts: H9 hand30/50, D13 checked15/117, D17 checked3/609, D18 checked0/411. General data-ending, odd-block, three-odd-set and exactly-nine-real poset theorems reviewed. All current jobs terminal."
+}

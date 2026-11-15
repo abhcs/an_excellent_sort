@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETED",
+  "returncode": 0,
+  "seconds": 0.129,
+  "wall_limit_seconds": 10,
+  "process_terminal": true,
+  "command": [
+    "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/d17_feedback_round10_profile.py",
+    "--case",
+    "476",
+    "--proof",
+    "--out",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/d17-feedback-round10-first3-case476/result.json"
+  ]
+}

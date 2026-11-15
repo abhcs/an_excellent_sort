@@ -1,0 +1,32 @@
+{
+  "status": "VERIFIED",
+  "sat_used_by_checker": false,
+  "covered_cases": 606,
+  "covered_case_range": [
+    0,
+    605
+  ],
+  "restriction_profiles_checked": 1907,
+  "first_layer_failure_counts": {
+    "0": 554,
+    "1": 35,
+    "2": 9,
+    "3": 2,
+    "4": 4,
+    "11": 1,
+    "12": 1
+  },
+  "static_price_obstructions": 30,
+  "stronger_profile_controls": [
+    587,
+    600,
+    604,
+    605
+  ],
+  "three_odd_set_parity_patterns": 16,
+  "witness_sha256": "6ec11ec8065878d5600de80723606789bff06badd6a54e0f1dd6bba6d653fcdd",
+  "checker_sha256": "974d8d5e43058bfa312ea1261c15294f853873c25447ebe58f91e14791250e27",
+  "witness_bytes": 6494,
+  "seconds": 0.1848,
+  "scope": "No other D17 cover case can be excluded by this pure two-layer peak relaxation on its full nine-real half-blind family"
+}

@@ -1,0 +1,21 @@
+{
+  "terminal": "EXITED",
+  "returncode": 0,
+  "stdout": "{\"status\": \"BUILT\", \"n\": 18, \"depth\": 11, \"cut\": 9, \"inputs\": 243, \"variables\": 5159, \"clauses\": 80777, \"normal\": false, \"data_ending\": {\"clauses\": 25538, \"distinct_templates\": 25538, \"added_variables\": 0, \"input_states\": 243, \"scope\": \"Exact two-layer sorting with adjacent final matching\"}, \"source_sha256\": \"2ff84166cc88b853b1c60a7be45c9148e68ee1203c210ff338f657af0190b9d3\", \"seed_sha256\": \"02bc84a1ba7714289eb2a61cbd03a34363f0fdc94a7f9fd6b4bd651dab624a94\", \"cnf_sha256\": \"7785f9e538caff3205141cf57826093bb2d72ea84f61fe57e8daded1f5c6a3d8\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/data-ending-round9-positive18\", \"scope\": \"Exact sorting completion of the fixed prefix, with adjacent final matching\", \"seconds\": 0.2637443750863895}\n{\"status\": \"SORTER\", \"seconds\": 0.27352341706864536}\n",
+  "stderr": "",
+  "seconds": 0.3329505840083584,
+  "wall_cap_seconds": 30,
+  "label": "positive18",
+  "command": [
+    "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/prefix_data_ending_round9.py",
+    "--seed",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-round6-control-p6-c9-seed.json",
+    "--depth",
+    "11",
+    "--out",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/data-ending-round9-positive18.json",
+    "--witness",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/dobbelaere18-78-11.json"
+  ]
+}

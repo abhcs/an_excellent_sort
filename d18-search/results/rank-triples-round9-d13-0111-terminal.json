@@ -1,0 +1,18 @@
+{
+  "terminal": "EXITED",
+  "returncode": 0,
+  "stdout": "{\"case_id\": \"n13-r0111\", \"depth\": 8, \"cut\": 6, \"mode\": \"wire\", \"inputs\": 715, \"wires\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], \"ranks\": [], \"variables\": 22590, \"clauses\": 316946, \"original_window_cost\": 36268, \"window_cost\": 24325, \"scope\": \"All four-layer continuations of this complete-cover prefix; exact cut6 endpoints, block capacity, and full-triple sorting obstruction\", \"parity_clauses\": 0, \"block_capacity\": {\"clauses\": 498, \"by_kind\": {\"right_extent\": 59, \"left_capacity\": 88, \"one_direction\": 31, \"right_capacity\": 88, \"incoming_capacity\": 173, \"left_extent\": 59}, \"added_variables\": 0}, \"exact_endpoints\": {\"reverse_threshold_clauses\": 312, \"complete_image_required\": true}, \"full_triple_clauses\": 11, \"source_sha256\": \"474eed03dfc79bdf0456cca9d4f5f9f19fc8cf541d8f41f21aa68245c23be815\", \"cover_sha256\": \"2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406\", \"status\": \"BUILT\", \"independently_proof_checked\": false, \"build_seconds\": 0.29657337500248104}\nUNSAT 11.769036666955799\n",
+  "stderr": "",
+  "seconds": 11.839176499983296,
+  "wall_cap_seconds": 30,
+  "label": "d13-0111",
+  "command": [
+    "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/d13_rank_triples_round9.py",
+    "--case",
+    "111",
+    "--out",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/rank-triples-round9-d13-0111.json",
+    "--proof"
+  ]
+}

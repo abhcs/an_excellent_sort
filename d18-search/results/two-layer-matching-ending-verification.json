@@ -1,0 +1,17 @@
+{
+  "status": "VERIFIED",
+  "small_sat_controls": true,
+  "comparisons": {
+    "2": 30,
+    "3": 30,
+    "4": 30,
+    "5": 30,
+    "6": 30
+  },
+  "accepted": 86,
+  "rejected": 64,
+  "scope_counterexample_passed": true,
+  "seconds": 0.07438650005497038,
+  "source_sha256": "3430ec730eddb6991c2003adea951caf0e51790426662af51dd0776e16889d58",
+  "checker_sha256": "a85ab8c6a9541e5803d9df19ee823e86f62a1863f34deb4b8fafc38c8e70a9c1"
+}

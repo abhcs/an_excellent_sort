@@ -1,0 +1,65 @@
+{
+  "status": "REVIEWED_SOUND",
+  "uses_sat": false,
+  "class": "03 16 47",
+  "h9_hand_coverage": 29,
+  "total_classes": 50,
+  "mathematical_review": [
+    "Exact product-image inequalities justify the two suffix symmetries; the reversed 36 gate is untangled with a fixed later-wire relabeling.",
+    "H7 after the -0,-4 restriction leaves exactly the four stated third-layer size/idle possibilities. The D restriction and four-gate height-two rescheduling eliminate all but four gates with idle4.",
+    "Without36, E and its fork symmetry forbid contacts from5,7 to3,6; F forces57. The three resulting forms yield two six-real perfect-pairing requirements with an odd five-wire intersection.",
+    "The fifteen matchings K reduce under the two explicit swaps to six representatives. No global third-layer enumeration is a premise.",
+    "The five-real restriction demands follow from the five-wire thin lemma. Universally ordered pairs are derived by sound min/max implications and may be deleted.",
+    "Every surviving fourth matching contains one of twelve two-edge bases. On five unused vertices an anchor edge leaves room for at most one further edge. Intersections exhaust all branches, including optional and nonmaximal completions.",
+    "Every one of the51 fourth forms has a mandatory pivot with all partners excluded by201 own and8 reciprocal threshold guards on19 concrete permutations."
+  ],
+  "replay": {
+    "status": "VERIFIED",
+    "solver_free": true,
+    "global_matching_enumeration": false,
+    "structural": {
+      "core_orders": 120,
+      "fork_orders": 6,
+      "named_restriction_order_runs": 21000,
+      "six_wire_matchings": 15,
+      "third_layer_orbits": 6
+    },
+    "demand_rows": 67,
+    "demand_order_runs": 8040,
+    "total_restriction_order_runs": 29040,
+    "five_vertex_bases": 72,
+    "local_clauses": 194,
+    "local_edge_branches": 152,
+    "fourth_counts": [
+      4,
+      21,
+      4,
+      1,
+      21,
+      0
+    ],
+    "rank": {
+      "rank_inputs": 19,
+      "rank_prefix_runs": 969,
+      "isolated_pivots": 51,
+      "own_threshold_guards": 201,
+      "reciprocal_guards": 8
+    },
+    "positive_control": {
+      "nonmaximal_completion_preserved": true,
+      "completions": 5
+    },
+    "certificate_sha256": "c258d102a019b789a5a01edfae1b410629d1e61f8a2ba3f1976e09c6eabf05ae",
+    "table_sha256": "d945f883344ef71d7941cfe55196fff4f018da355b0fe4b91c6a58394d4c9b8a",
+    "note_sha256": "8ca8413571caace07abaa481efa97fecad47ed179d47f08af9fd714548d81e89",
+    "source_sha256": "76e2a5f9231821b186cea1217daaebc04b089aaf7b2b401fb0af2a7a1f6cb8e3",
+    "elapsed_seconds": 0.04935441701672971
+  },
+  "artifacts": {
+    "h9_feedback_round6_031647.md": "8ca8413571caace07abaa481efa97fecad47ed179d47f08af9fd714548d81e89",
+    "h9_feedback_round6_tables.md": "d945f883344ef71d7941cfe55196fff4f018da355b0fe4b91c6a58394d4c9b8a",
+    "verify/h9_feedback_round6_proof.py": "76e2a5f9231821b186cea1217daaebc04b089aaf7b2b401fb0af2a7a1f6cb8e3",
+    "results/h9-feedback-round6-certificate.json": "c258d102a019b789a5a01edfae1b410629d1e61f8a2ba3f1976e09c6eabf05ae"
+  },
+  "scope": "One additional complete H9 second-layer class; does not complete H9 or global D11."
+}

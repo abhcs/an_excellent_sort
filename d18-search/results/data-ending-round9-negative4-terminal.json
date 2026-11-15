@@ -1,0 +1,19 @@
+{
+  "terminal": "EXITED",
+  "returncode": 0,
+  "stdout": "{\"status\": \"BUILT\", \"n\": 4, \"depth\": 5, \"cut\": 3, \"inputs\": 9, \"variables\": 9, \"clauses\": 32, \"normal\": false, \"data_ending\": {\"clauses\": 18, \"distinct_templates\": 18, \"added_variables\": 0, \"input_states\": 9, \"scope\": \"Exact two-layer sorting with adjacent final matching\"}, \"source_sha256\": \"2ff84166cc88b853b1c60a7be45c9148e68ee1203c210ff338f657af0190b9d3\", \"seed_sha256\": \"b6f18e51a3127ae2ab0cce1222bf734ef5db8c6807129acf0d1826ecc650af1a\", \"cnf_sha256\": \"e4023f4188a063d4bcb820ea3b03d58b10d7d9828c8d1343da04ce570008b308\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/data-ending-round9-negative4\", \"scope\": \"Exact sorting completion of the fixed prefix, with adjacent final matching\", \"seconds\": 0.000919666956178844}\n{\"status\": \"UNSAT_UNCHECKED\", \"seconds\": 0.0011542499996721745}\n",
+  "stderr": "",
+  "seconds": 0.05934354104101658,
+  "wall_cap_seconds": 30,
+  "label": "negative4",
+  "command": [
+    "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/prefix_data_ending_round9.py",
+    "--seed",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/rank-triples-round9-negative4-seed.json",
+    "--depth",
+    "5",
+    "--out",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/data-ending-round9-negative4.json"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "status": "UNSAT_UNCHECKED",
+  "n": 4,
+  "depth": 5,
+  "cut": 3,
+  "prefix": [
+    [
+      [
+        0,
+        3
+      ]
+    ],
+    [
+      [
+        1,
+        3
+      ]
+    ],
+    [
+      [
+        2,
+        3
+      ]
+    ]
+  ],
+  "inputs": 9,
+  "variables": 57,
+  "clauses": 67,
+  "matching_ending": {
+    "added_variables": 48,
+    "clauses": 50,
+    "mode_count": 16,
+    "guard_clauses": 18,
+    "matching_clauses": 32,
+    "scope": "Exact sorting using span-three P and the implied adjacent final matching"
+  },
+  "source_sha256": "9a81452c63bd181fba120d1788cbc363bd41260ff199d4eb4a39314414ef860c",
+  "seed_sha256": "b6f18e51a3127ae2ab0cce1222bf734ef5db8c6807129acf0d1826ecc650af1a",
+  "cnf_sha256": "1f76066b1c597b95d167bff6e78e69ffd5c0286309d8f07a7bb61847ac46fe71",
+  "certificate_directory": "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/matching-ending-round10-negative4",
+  "dependencies_sha256": {
+    "netsat.py": "960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3",
+    "probe_frontier.py": "e07f9183616412db41b7093fbb86efe8a13acf00d413b88084454b73ccdbeef0",
+    "prefix_drat.py": "1f85103a6efe10e02907d7fac977a88c149f1d6d2e189179a4636431db32773c",
+    "two_layer_matching_ending.py": "3430ec730eddb6991c2003adea951caf0e51790426662af51dd0776e16889d58",
+    "d13_feedback_round9_data_dp.py": "ca7febc899beeca1d1a5f7e48f806d498e8bfc3d8ae2812b5fc4b35c17a96bcf"
+  },
+  "scope": "Exact sorting completion of the fixed actual prefix using the span-three adjacent ending normal form",
+  "seconds": 0.001308124978095293,
+  "proof_sha256": "68a7021981d384c0e3d0bbb0be57249e51a40a901268fb518000f6c47836678b"
+}

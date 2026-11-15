@@ -1,0 +1,125 @@
+{
+  "status": "SURVIVOR",
+  "n": 4,
+  "depth": 3,
+  "cut": 1,
+  "cap": 4,
+  "prefix": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ]
+  ],
+  "inputs": 9,
+  "variables": 33,
+  "clauses": 125,
+  "block_capacity": {
+    "clauses": 34,
+    "by_kind": {
+      "right_extent": 5,
+      "left_capacity": 7,
+      "one_direction": 4,
+      "right_capacity": 7,
+      "incoming_capacity": 6,
+      "left_extent": 5
+    },
+    "added_variables": 0
+  },
+  "exact_endpoints": {
+    "reverse_threshold_clauses": 24,
+    "complete_image_required": true
+  },
+  "full_triple_clauses": 2,
+  "combined_clauses": 0,
+  "source_sha256": "39aed2c33bb0155016332223dbdb61ee97401de7d4cf867f1a2e92e09b9a2dbd",
+  "seed_sha256": "e0c049d285a10d941cd19d8161b2393e14d3e31f1cbebef6753c7794b825e0c0",
+  "cnf_sha256": "838a30e8f258e73f43a05ed44884f5106ba4496fe686373da3544b49d9f1a066",
+  "certificate_directory": "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/rank-triples-round9-positive4",
+  "scope": "All continuations of the fixed prefix; exact endpoints, adjacent-ending rank capacities, and full-triple sorting obstruction",
+  "dependencies_sha256": {
+    "netsat.py": "960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3",
+    "endpoint_cegar.py": "22768b03673525e930c722acde18c6d4c77049a0e1e6f16615801908b1e39aa1",
+    "interval_frontier.py": "93548c783322ba9754b407aaaf1cb29f649d6c8aa206ead5f1911b7454a1e6ab",
+    "probe_frontier.py": "e07f9183616412db41b7093fbb86efe8a13acf00d413b88084454b73ccdbeef0",
+    "prefix_drat.py": "1f85103a6efe10e02907d7fac977a88c149f1d6d2e189179a4636431db32773c",
+    "rank_block_capacity_cnf.py": "7e9b1c2196f965669aad9de3f56bd7f77c92f76ceebf9f091c2ecbd45336740c",
+    "adjacent_rank_ending.py": "f18f43489e46c9355e9738398d3fc4fdfa3070a4ae502db3d204250864e5d011",
+    "exact_rank_triples.py": "0923bcb5a4358ecce170519b50924bfdc90b21993ff8954581f11dc15a241bfe"
+  },
+  "seconds": 0.00448441703338176,
+  "exact_endpoint_assignment_replayed": true,
+  "no_full_triples_replayed": true,
+  "free_layers": [],
+  "intervals": [
+    {
+      "wire": 0,
+      "lo": 0,
+      "hi": 2,
+      "width": 3,
+      "zero_witness": 14,
+      "one_witness": 3
+    },
+    {
+      "wire": 1,
+      "lo": 1,
+      "hi": 3,
+      "width": 3,
+      "zero_witness": 12,
+      "one_witness": 2
+    },
+    {
+      "wire": 2,
+      "lo": 0,
+      "hi": 2,
+      "width": 3,
+      "zero_witness": 11,
+      "one_witness": 12
+    },
+    {
+      "wire": 3,
+      "lo": 1,
+      "hi": 3,
+      "width": 3,
+      "zero_witness": 3,
+      "one_witness": 8
+    }
+  ],
+  "last_pairing_projection": [
+    [
+      1,
+      2
+    ]
+  ],
+  "independent_rank_routing": [
+    [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ]
+  ],
+  "rank_dp_stats": {
+    "states": 4,
+    "transitions": 5
+  }
+}

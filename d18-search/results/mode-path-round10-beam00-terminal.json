@@ -1,0 +1,18 @@
+{
+  "terminal": "TIMEOUT_KILLED",
+  "seconds": 30.008691249997355,
+  "wall_cap_seconds": 30,
+  "stdout": "{\"status\": \"BUILT\", \"n\": 18, \"depth\": 10, \"cut\": 8, \"inputs\": 503, \"variables\": 23409, \"clauses\": 439394, \"mode_path\": {\"added_variables\": 1891, \"clauses\": 46766, \"mode_count\": 114, \"guard_clauses\": 42650, \"path_clauses\": 4116, \"boundary_states\": [8, 20, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 20, 8, 1], \"transitions\": 1102, \"max_boundary_states\": 30}, \"source_sha256\": \"548c19c9d177e4d513e5c51d9c813bfc8ef6970d6e7ec866e98f47d383f85fe0\", \"seed_sha256\": \"e41c58f4648726db7df28f04745965f03186e7b7b202389c512179d9568ca9de\", \"cnf_sha256\": \"e1ea3f19baa8cdb393847ed58c98492d031f3801c70af7a7395d114f87cd0d09\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/mode-path-round10-beam00\", \"scope\": \"Exact sorting completion of the fixed actual prefix using the span-three adjacent ending normal form\", \"seconds\": 0.5262462919345126}\n",
+  "stderr": "",
+  "label": "beam00",
+  "command": [
+    "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/prefix_mode_path_round10.py",
+    "--seed",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-round6-p4-beam00-seed.json",
+    "--depth",
+    "10",
+    "--out",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/mode-path-round10-beam00.json"
+  ]
+}

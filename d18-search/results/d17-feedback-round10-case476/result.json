@@ -1,0 +1,114 @@
+{
+  "case_id": "n17-r0476",
+  "family_size": 8,
+  "scope": "Necessary H9 first-two-layer profiles for all half-blind nine-real restrictions",
+  "cover_sha256": "711b620bb298deee98e5520595cfb341a13cf3600f4297dd35f3b38cb11d2100",
+  "source_sha256": "510ddb7ed090c1b55507a1b8d6a1cf8d3e4f1b2ba257e1759a6df474a5dce63a",
+  "status": "SURVIVOR",
+  "variables": 1250,
+  "clauses": 14410,
+  "independently_proof_checked": false,
+  "iterations": 1,
+  "next_layers": [
+    [
+      [
+        2,
+        16
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        6,
+        14
+      ],
+      [
+        7,
+        15
+      ],
+      [
+        9,
+        13
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        6,
+        13
+      ],
+      [
+        8,
+        14
+      ],
+      [
+        11,
+        16
+      ],
+      [
+        12,
+        15
+      ]
+    ]
+  ],
+  "profiles": [
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      4
+    ]
+  ],
+  "second_nonempty_refinements": 0,
+  "seconds": 0.1082
+}

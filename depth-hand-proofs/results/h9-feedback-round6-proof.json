@@ -1,0 +1,42 @@
+{
+  "status": "VERIFIED",
+  "solver_free": true,
+  "global_matching_enumeration": false,
+  "structural": {
+    "core_orders": 120,
+    "fork_orders": 6,
+    "named_restriction_order_runs": 21000,
+    "six_wire_matchings": 15,
+    "third_layer_orbits": 6
+  },
+  "demand_rows": 67,
+  "demand_order_runs": 8040,
+  "total_restriction_order_runs": 29040,
+  "five_vertex_bases": 72,
+  "local_clauses": 194,
+  "local_edge_branches": 152,
+  "fourth_counts": [
+    4,
+    21,
+    4,
+    1,
+    21,
+    0
+  ],
+  "rank": {
+    "rank_inputs": 19,
+    "rank_prefix_runs": 969,
+    "isolated_pivots": 51,
+    "own_threshold_guards": 201,
+    "reciprocal_guards": 8
+  },
+  "positive_control": {
+    "nonmaximal_completion_preserved": true,
+    "completions": 5
+  },
+  "certificate_sha256": "c258d102a019b789a5a01edfae1b410629d1e61f8a2ba3f1976e09c6eabf05ae",
+  "table_sha256": "d945f883344ef71d7941cfe55196fff4f018da355b0fe4b91c6a58394d4c9b8a",
+  "note_sha256": "8ca8413571caace07abaa481efa97fecad47ed179d47f08af9fd714548d81e89",
+  "source_sha256": "76e2a5f9231821b186cea1217daaebc04b089aaf7b2b401fb0af2a7a1f6cb8e3",
+  "elapsed_seconds": 0.04935441701672971
+}

@@ -1,0 +1,216 @@
+{
+  "status": "REVIEWED_SOUND",
+  "uses_sat": false,
+  "new_solver_calls": 0,
+  "substantive_issues": [],
+  "source_review": [
+    "B, Lgood, and Rgood guard implications have the correct min/max/idle polarities and weight thresholds. Positive use only is sufficient: false invalid predicates cannot be selected, while every valid predicate may be true.",
+    "In the path helper, terminal reachability implies an incoming true transition, which implies predecessor reachability and all required guards. Following these choices backwards through strictly decreasing boundaries yields one consistent complete path. Transition-to-target implications are unnecessary.",
+    "The relative crossing-P pattern enforces matching consistency, and the pending S bit enforces final adjacency/matching. Duplicate reach states may safely merge because all processed-wire tests are discharged.",
+    "In the matching helper, every chosen P mode forces B and Lgood OR Rgood. Long P gates are explicitly false; inactive modes need no predicate. The shared P matching conserves every cut-state weight, so the exact matching theorem supplies the omitted S.",
+    "The path worker disables both placeholder ending layers. The matching worker disables only the unused S layer and retains the actual P matching variables. Both disable redundant-edge tracking and penultimate phi constraints, so unused tail choices do not constrain earlier simulated layers.",
+    "Known-witness controls fix only layers before the cut. SAT reconstruction independently finds an ending and verifies the full network on all binary inputs.",
+    "Span-three completeness is invoked only for actual complete prefix images. On arbitrary fixed families the helper claims only bounded-span exactness; the long-edge counterexample remains valid."
+  ],
+  "independent_no_sat_fixed_family_checks": [
+    {
+      "n": 2,
+      "families": 31,
+      "fixed_P_matchings": 2
+    },
+    {
+      "n": 3,
+      "families": 31,
+      "fixed_P_matchings": 4
+    },
+    {
+      "n": 4,
+      "families": 31,
+      "fixed_P_matchings": 10
+    },
+    {
+      "n": 5,
+      "families": 31,
+      "fixed_P_matchings": 26
+    },
+    {
+      "n": 6,
+      "families": 31,
+      "fixed_P_matchings": 76
+    }
+  ],
+  "path_formula_checks": 155,
+  "matching_formula_fixed_P_checks": 3658,
+  "fixed_formula_method": "Dual-Horn greatest-model propagation after fixing P, compared with direct sorting by all adjacent S; no SAT package solve method called.",
+  "artifact_audits": [
+    {
+      "variant": "mode-path",
+      "label": "positive4",
+      "complete_cnf_reconstructed": true,
+      "helper_clause_range": [
+        23,
+        285
+      ],
+      "cnf_sha256": "ca735a758674f0f798fef18d0588b23f665b74346edf9433214c68dbd0732502",
+      "status": "FULL_SORTER_POSITIVE_CONTROL"
+    },
+    {
+      "variant": "mode-path",
+      "label": "negative4",
+      "complete_cnf_reconstructed": true,
+      "helper_clause_range": [
+        23,
+        281
+      ],
+      "cnf_sha256": "972b5baa656178f100a2f7b5840bedeafd727ee7fab5b824abaf10f4d049c1a8",
+      "status": "CHECKED_UNSAT",
+      "proof_sha256": "f6d71868b9e95a6760196e42d345aeee7cc4ed784b8fa709db4f375bf787185f"
+    },
+    {
+      "variant": "mode-path",
+      "label": "positive18",
+      "complete_cnf_reconstructed": true,
+      "helper_clause_range": [
+        55239,
+        70041
+      ],
+      "cnf_sha256": "5295d82fdd562b4cc3e0a1347e429057b14b1c4d9ed801d1f0f593532e4c53b9",
+      "status": "FULL_SORTER_POSITIVE_CONTROL"
+    },
+    {
+      "variant": "mode-path",
+      "label": "beam00",
+      "complete_cnf_reconstructed": true,
+      "helper_clause_range": [
+        392628,
+        439394
+      ],
+      "cnf_sha256": "e1ea3f19baa8cdb393847ed58c98492d031f3801c70af7a7395d114f87cd0d09",
+      "status": "TIMEOUT_NOT_UNSAT"
+    },
+    {
+      "variant": "mode-path",
+      "label": "beam16",
+      "complete_cnf_reconstructed": true,
+      "helper_clause_range": [
+        410294,
+        459304
+      ],
+      "cnf_sha256": "63443126843398f9f75bb452d218ee37aca2ce06e9a27fe92590c31e3cbeec31",
+      "status": "TIMEOUT_NOT_UNSAT"
+    },
+    {
+      "variant": "mode-path",
+      "label": "d13-0030",
+      "complete_cnf_reconstructed": true,
+      "helper_clause_range": [
+        382011,
+        430085
+      ],
+      "cnf_sha256": "aaec1a830775bfc7cab7a9cd68257117faabe95728305df2375d685c4242e01b",
+      "status": "TIMEOUT_NOT_UNSAT"
+    },
+    {
+      "variant": "mode-path",
+      "label": "d13-0090",
+      "complete_cnf_reconstructed": true,
+      "helper_clause_range": [
+        420160,
+        471764
+      ],
+      "cnf_sha256": "bcf0a52b249b9f270a31a561074e77b284a1299341bb30e8fa768d6bc2957bde",
+      "status": "TIMEOUT_NOT_UNSAT"
+    },
+    {
+      "variant": "matching-ending",
+      "label": "positive4",
+      "complete_cnf_reconstructed": true,
+      "helper_clause_range": [
+        17,
+        71
+      ],
+      "cnf_sha256": "9b493acb11ba8314fbc730444446a8a92c4b2ec6d9d42be55120b348fb3bdb3c",
+      "status": "FULL_SORTER_POSITIVE_CONTROL"
+    },
+    {
+      "variant": "matching-ending",
+      "label": "negative4",
+      "complete_cnf_reconstructed": true,
+      "helper_clause_range": [
+        17,
+        67
+      ],
+      "cnf_sha256": "1f76066b1c597b95d167bff6e78e69ffd5c0286309d8f07a7bb61847ac46fe71",
+      "status": "CHECKED_UNSAT",
+      "proof_sha256": "68a7021981d384c0e3d0bbb0be57249e51a40a901268fb518000f6c47836678b"
+    },
+    {
+      "variant": "matching-ending",
+      "label": "positive18",
+      "complete_cnf_reconstructed": true,
+      "helper_clause_range": [
+        55086,
+        66105
+      ],
+      "cnf_sha256": "44d615962413c4b0dde15ce372f48ec4ebcfab91e30a6a1f1d68d9a1a45d44a6",
+      "status": "FULL_SORTER_POSITIVE_CONTROL"
+    },
+    {
+      "variant": "matching-ending",
+      "label": "beam00",
+      "complete_cnf_reconstructed": true,
+      "helper_clause_range": [
+        392475,
+        435458
+      ],
+      "cnf_sha256": "0b2f5dc5e7254f287f980931f46a911ecf8b0a65d4f42c5e825fd53facfac606",
+      "status": "TIMEOUT_NOT_UNSAT"
+    },
+    {
+      "variant": "matching-ending",
+      "label": "beam16",
+      "complete_cnf_reconstructed": true,
+      "helper_clause_range": [
+        410141,
+        455368
+      ],
+      "cnf_sha256": "3c6953a6a5d25b835842eca472709e094692243b2dfa2215be32911eef8cea6d",
+      "status": "TIMEOUT_NOT_UNSAT"
+    },
+    {
+      "variant": "matching-ending",
+      "label": "d13-0030",
+      "complete_cnf_reconstructed": true,
+      "helper_clause_range": [
+        381933,
+        427494
+      ],
+      "cnf_sha256": "4c45ed893c5025b7e8bf160fff245c35deaf25e4c37cca17f0f4f07f9b4ed47d",
+      "status": "TIMEOUT_NOT_UNSAT"
+    },
+    {
+      "variant": "matching-ending",
+      "label": "d13-0090",
+      "complete_cnf_reconstructed": true,
+      "helper_clause_range": [
+        420082,
+        469173
+      ],
+      "cnf_sha256": "7dd614c3c74062b7bc7d26ffc838235be70deaf42e657c1a0248b1f8f09df910",
+      "status": "TIMEOUT_NOT_UNSAT"
+    }
+  ],
+  "new_complete_cover_exclusions": 0,
+  "reviewed_sha256": {
+    "two_layer_mode_path.py": "3216d95ab9b09444a5a38e3edbb3a4ce5543537028177cfbf7b0174b44abc0e3",
+    "two_layer_mode_path_verify.py": "d745e0217cd4c4cd32074a1a8dba34dadf196dc45b8cc65154fe329a673deab6",
+    "prefix_mode_path_round10.py": "548c19c9d177e4d513e5c51d9c813bfc8ef6970d6e7ec866e98f47d383f85fe0",
+    "two_layer_matching_ending.py": "3430ec730eddb6991c2003adea951caf0e51790426662af51dd0776e16889d58",
+    "two_layer_matching_ending_verify.py": "a85ab8c6a9541e5803d9df19ee823e86f62a1863f34deb4b8fafc38c8e70a9c1",
+    "prefix_matching_ending_round10.py": "9a81452c63bd181fba120d1788cbc363bd41260ff199d4eb4a39314414ef860c",
+    "d13_feedback_round10_matching.md": "72952778d001cff721b5ac8364a2ea491224312c43067bf833c6e75861dd718c"
+  },
+  "source_sha256": "75b09beb43646a8ace48038e7a5307adbff0e41bb35e434d3ce197cde5a8ddcf",
+  "seconds": 3.5707475839881226,
+  "running_jobs": []
+}

@@ -1,0 +1,265 @@
+{
+  "status": "REVIEWED_SOUND",
+  "uses_sat": false,
+  "substantive_gaps": [],
+  "mathematical_review": [
+    "Completing a matching, with one zero-signature dummy if needed, cannot remove t internal edges of an odd (2t+1)-set. Such a set then has exactly one boundary edge.",
+    "Summing signature distances over the perfect matching equals the number m of required states. The pair-radius inequalities bound that sum below by the total radius. The radius-versus-weight condition also covers any added zero-signature wire.",
+    "The price formulation p=(frequency-radius)/2 is equivalent and works directly with partial matchings because all prices are nonnegative.",
+    "Unique nonzero signatures give distance at least one from every unselected wire. Distinct selected signatures of common parity have distance at least two; five unit radii contradict four required states.",
+    "With the four fixed spine gates, only D,d,a,r and common reals remain. Over ALL twenty states a<=0<=D,d,r; only the three positive pairs are incomparable. This is a full-family normalization, not a selected-four-state comparability claim.",
+    "Comparable-idle augmentation preserves the spine and yields zero or two idles at even width. Two idles must be a positive pair. Deleting common-real pairs and contracting comparable external partners preserves the deficit and peak coverage, so only the nine printed forms remain.",
+    "Perfect forms: three internal pairings, or three choices of an external positive pair. Two-idle forms: three positive idle pairs; the remaining comparable pair contracts internally. No bound on the original matching size or original number of common reals was assumed.",
+    "For even width with five sentinels, a completed second matching reaches the RR peak exactly when it contains two SS edges. Odd-width padding adds one idle common real and leaves the required RR peak unchanged.",
+    "Common physical relabeling only reorients first-layer gates and causes fixed output swaps absorbed into the second matching. No state-dependent permutation or individual-sign change is assumed."
+  ],
+  "residual_full_family_antichains": [
+    [
+      "D",
+      "d"
+    ],
+    [
+      "D",
+      "r"
+    ],
+    [
+      "d",
+      "r"
+    ],
+    [
+      "D",
+      "d",
+      "r"
+    ]
+  ],
+  "printed_table_audits": [
+    {
+      "row": 1,
+      "width": 12,
+      "first_counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "peak": 3,
+      "selected_signatures": {
+        "E": "0111",
+        "d": "1000",
+        "a": "1101",
+        "q": "1011",
+        "e": "0010"
+      },
+      "same_parity": 1
+    },
+    {
+      "row": 2,
+      "width": 12,
+      "first_counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "peak": 3,
+      "selected_signatures": {
+        "C": "1000",
+        "E": "1110",
+        "q": "0010",
+        "e": "0111",
+        "r": "1101"
+      },
+      "same_parity": 1
+    },
+    {
+      "row": 3,
+      "width": 12,
+      "first_counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "peak": 3,
+      "selected_signatures": {
+        "E": "0110",
+        "d": "1100",
+        "q": "1010",
+        "e": "0011",
+        "r": "1001"
+      },
+      "same_parity": 0
+    },
+    {
+      "row": 4,
+      "width": 14,
+      "first_counts": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "peak": 4,
+      "selected_signatures": {
+        "E": "0111",
+        "a": "1101",
+        "q": "1011",
+        "e": "0010",
+        "x": "1000"
+      },
+      "same_parity": 1
+    },
+    {
+      "row": 5,
+      "width": 14,
+      "first_counts": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "peak": 4,
+      "selected_signatures": {
+        "E": "0111",
+        "d": "1101",
+        "q": "1011",
+        "e": "0010",
+        "x": "1000"
+      },
+      "same_parity": 1
+    },
+    {
+      "row": 6,
+      "width": 14,
+      "first_counts": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "peak": 4,
+      "selected_signatures": {
+        "C": "0100",
+        "E": "0111",
+        "a": "1000",
+        "q": "1011",
+        "e": "1110"
+      },
+      "same_parity": 1
+    },
+    {
+      "row": 7,
+      "width": 12,
+      "first_counts": [
+        2,
+        2,
+        1,
+        2
+      ],
+      "peak": 3,
+      "selected_signatures": {
+        "E": "1000",
+        "a": "0001",
+        "q": "1011",
+        "e": "1110",
+        "r": "0100"
+      },
+      "same_parity": 1
+    },
+    {
+      "row": 8,
+      "width": 12,
+      "first_counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "peak": 3,
+      "selected_signatures": {
+        "E": "1000",
+        "d": "0001",
+        "q": "1011",
+        "e": "1110",
+        "r": "0100"
+      },
+      "same_parity": 1
+    },
+    {
+      "row": 9,
+      "width": 12,
+      "first_counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "peak": 3,
+      "selected_signatures": {
+        "A": "0111",
+        "E": "1000",
+        "q": "1011",
+        "e": "1110",
+        "r": "0100"
+      },
+      "same_parity": 1
+    }
+  ],
+  "former_depth_two_cases": [
+    "579430b1a286",
+    "c7943db1a28605",
+    "c7943651a28d0b",
+    "67943c01a28d5b"
+  ],
+  "unchanged_checker_replay": {
+    "cut": {
+      "status": "VERIFIED",
+      "sat_used": false,
+      "cases": 2728,
+      "core_size_counts": {
+        "4": 1879,
+        "5": 757,
+        "6": 92
+      },
+      "unit_radius_cases": 2473,
+      "radius_two_cases": 255,
+      "certificate_sha256": "f77b8e62c42fe92d3480abc3de812703be0287a61440f452b2de937409c0630a",
+      "checker_sha256": "1332cc433aacb4d8f08353e723c3114fd20598b7bc7a3a4d34cf60999315125d",
+      "finite_first_matching_selection_remains_a_premise": true,
+      "scope": "All zero-full-row forms from accepted round7; no tree search or pricing solver in this check"
+    },
+    "spine": {
+      "status": "VERIFIED",
+      "sat_used": false,
+      "table_rows": 9,
+      "required_states_each": 4,
+      "selected_unique_same_parity_signatures_each": 5,
+      "parity_counts": {
+        "1": 8,
+        "0": 1
+      },
+      "table_sha256": "63bc90cb1af60c96844c9677229470fc1dd3109503764b94e4d29fd0f5a67bb9",
+      "checker_sha256": "1332cc433aacb4d8f08353e723c3114fd20598b7bc7a3a4d34cf60999315125d",
+      "scope": "Corroborates the displayed nine-row hand table and residual-coordinate order; not86k enumeration"
+    }
+  },
+  "finite_scope": "The nine-form spine branch has a hand normalization and explicit nine-row arithmetic proof. Coverage of all 2,728 zero-full-row forms still uses the accepted round-seven finite set plus the new radius certificate. It is not a pure hand proof of the full case-606 family and does not change a D17 cover count.",
+  "reviewed_sha256": {
+    "d17_feedback_round8_cut_lemma.md": "eb6c961a9e8c87d38bda4571675205e8dff8121c973ba4c3ac7678a0582ed155",
+    "d17_feedback_round8_check.py": "1332cc433aacb4d8f08353e723c3114fd20598b7bc7a3a4d34cf60999315125d",
+    "d17_feedback_round7_reduction.md": "5bd681b39d9cc10c170a8b5de3ea74b3f69a0c24ddd93799abf10a13a50142b5",
+    "d17_feedback_round5_reduction.md": "0acd3374e4a30700c306ea2c850869bcb0763cfe0dddb6891df1adb25d6ad8eb",
+    "d17_feedback_round6_reduction.md": "710efa0b8d0841e331ef14e382811175bae361325bced491f1dec15b73eedfce",
+    "d17_feedback_round2_normalization.md": "11e261b389a90953ccfa1b486ae913fcb26e6aacf3297f350cf5d83cab9838b5"
+  },
+  "input_sha256": {
+    "d17-feedback-fourteen-hand606-states.json": "168d10b515cdc3552264089fa1b5eeaefd8ed635dc1630e5d53973abe44f6372",
+    "d17-feedback-round7-core-certificate.json.gz": "15af56696fc7dfb93aa70d287601e4fd819784d016e3af2699868681f0af558b",
+    "d17-feedback-round8-cut-certificate.json.gz": "f77b8e62c42fe92d3480abc3de812703be0287a61440f452b2de937409c0630a",
+    "d17-feedback-round8-spine-witnesses.json": "63bc90cb1af60c96844c9677229470fc1dd3109503764b94e4d29fd0f5a67bb9"
+  },
+  "source_sha256": "6ce1d6ecfede7964539b0e5926787ec8738e80958851717d96a99edd50f3b40b",
+  "seconds": 0.284365416970104,
+  "root_sources_and_reports_modified": false,
+  "running_jobs": []
+}

@@ -1,0 +1,19 @@
+{
+  "terminal": "EXITED",
+  "returncode": 0,
+  "stdout": "{\"status\": \"BUILT\", \"n\": 4, \"depth\": 5, \"cut\": 3, \"inputs\": 9, \"variables\": 57, \"clauses\": 67, \"matching_ending\": {\"added_variables\": 48, \"clauses\": 50, \"mode_count\": 16, \"guard_clauses\": 18, \"matching_clauses\": 32, \"scope\": \"Exact sorting using span-three P and the implied adjacent final matching\"}, \"source_sha256\": \"9a81452c63bd181fba120d1788cbc363bd41260ff199d4eb4a39314414ef860c\", \"seed_sha256\": \"b6f18e51a3127ae2ab0cce1222bf734ef5db8c6807129acf0d1826ecc650af1a\", \"cnf_sha256\": \"1f76066b1c597b95d167bff6e78e69ffd5c0286309d8f07a7bb61847ac46fe71\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/matching-ending-round10-negative4\", \"scope\": \"Exact sorting completion of the fixed actual prefix using the span-three adjacent ending normal form\", \"seconds\": 0.0010961670195683837}\n{\"status\": \"UNSAT_UNCHECKED\", \"seconds\": 0.001308124978095293}\n",
+  "stderr": "",
+  "seconds": 0.05603929201606661,
+  "wall_cap_seconds": 30,
+  "label": "negative4",
+  "command": [
+    "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/prefix_matching_ending_round10.py",
+    "--seed",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/rank-triples-round9-negative4-seed.json",
+    "--depth",
+    "5",
+    "--out",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/matching-ending-round10-negative4.json"
+  ]
+}

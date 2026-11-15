@@ -1,0 +1,59 @@
+{
+  "status": "VERIFIED",
+  "solver_free": true,
+  "global_matching_enumeration": false,
+  "structural": {
+    "core_orders": 120,
+    "fork_orders": 6,
+    "named_restriction_order_runs": 21000,
+    "six_wire_matchings": 15,
+    "third_layer_orbits": 6
+  },
+  "demand_rows": 29,
+  "demand_order_runs": 3480,
+  "total_restriction_order_runs": 34560,
+  "five_vertex_bases": 24,
+  "local_clauses": 58,
+  "local_edge_branches": 40,
+  "fourth_counts": [
+    6,
+    6,
+    3,
+    3
+  ],
+  "rank": {
+    "rank_inputs": 19,
+    "rank_prefix_runs": 304,
+    "isolated_pivots": 16,
+    "own_threshold_guards": 64,
+    "reciprocal_guards": 9
+  },
+  "triangle": {
+    "shared_triangle_cases": 2,
+    "triangle_edges": 6,
+    "partner_choices": 12,
+    "completed_forms": 6
+  },
+  "sinks": {
+    "cases": 2,
+    "real_order_runs": 10080,
+    "first_two_gates_after_rescheduling": 4
+  },
+  "transfer": {
+    "transferred_cases": [
+      2,
+      5
+    ],
+    "three_wire_orders": 6,
+    "previous_certificate_sha256": "c258d102a019b789a5a01edfae1b410629d1e61f8a2ba3f1976e09c6eabf05ae"
+  },
+  "positive_control": {
+    "nonmaximal_completion_preserved": true,
+    "completions": 5
+  },
+  "certificate_sha256": "d9237f438467d95088717b2016cc8734453ea62f4540f3ecbe48994a9cc6ca60",
+  "table_sha256": "9019cf9ad7584889a0433f72dc6aa0f355838c7ebaa22daa19f1faa9dc441597",
+  "note_sha256": "ef5053b5f1b8a2d415be43c35b31eba3a53d88ababf5e3b540063dd071aa79a8",
+  "source_sha256": "b2267923b7bddcef0539117b15e63f1954e67e88c0a217a24e3347e32b6a3635",
+  "elapsed_seconds": 0.060011208057403564
+}

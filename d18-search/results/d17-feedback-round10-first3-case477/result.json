@@ -1,0 +1,114 @@
+{
+  "case_id": "n17-r0477",
+  "family_size": 8,
+  "scope": "Necessary first>=3, second nonempty, no-repeat, and H9 peak4 conditions on all half-blind nine-real restrictions",
+  "cover_sha256": "711b620bb298deee98e5520595cfb341a13cf3600f4297dd35f3b38cb11d2100",
+  "source_sha256": "25b3b9e68b90d014df834848dc410f3fab4b0624c65c353f9d7323089b45fa13",
+  "status": "SURVIVOR",
+  "variables": 2042,
+  "clauses": 15714,
+  "independently_proof_checked": false,
+  "iterations": 1,
+  "next_layers": [
+    [
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        13,
+        16
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        7,
+        14
+      ],
+      [
+        11,
+        16
+      ],
+      [
+        12,
+        13
+      ]
+    ]
+  ],
+  "profiles": [
+    [
+      4,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "second_nonempty_refinements": 0,
+  "seconds": 0.3842
+}

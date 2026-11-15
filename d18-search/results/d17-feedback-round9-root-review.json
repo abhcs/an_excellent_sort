@@ -1,0 +1,22 @@
+{
+  "status": "REVIEWED_SOUND",
+  "uses_sat": false,
+  "positive_cases": 606,
+  "profiles_replayed": 1907,
+  "mathematical_review": [
+    "Pair equal three-bit signatures first. The residual even-sized signature set has XOR111 and hence size2,4or6.",
+    "For4 signatures the two pair differences are complementary disjoint supports; for6 translate the omitted opposite pair to000,111 and use the three displayed coordinate edges.",
+    "A never-real dummy can be discarded without removing any internal edge. This proves simultaneous maximum pairing for up tothree odd sets of arbitrary sizes.",
+    "The four-set example is impossible by the shared-triple argument; adding even common reals preserves the unique odd-signature obstruction.",
+    "The positive606 witnesses are directly replayed from independently reconstructed full half-blind signed families. No optimizer or SAT correctness is assumed."
+  ],
+  "scope": "Cases0..605 cannot be excluded by their pure two-layer maximum-count condition. Together with the accepted pure606/607 obstructions and the explicitly rebound pure608 certificate, this classifies that relaxation on all609 supplied families.",
+  "hashes": {
+    "d18-search/results/d17-feedback-round9-all606-covers.json.gz": "6ec11ec8065878d5600de80723606789bff06badd6a54e0f1dd6bba6d653fcdd",
+    "d18-search/prefixes/complete17.jsonl": "711b620bb298deee98e5520595cfb341a13cf3600f4297dd35f3b38cb11d2100",
+    "d18-search/d17_feedback_round9_check.py": "974d8d5e43058bfa312ea1261c15294f853873c25447ebe58f91e14791250e27",
+    "d18-search/results/d17-feedback-round9-pure608-binding.json": "6e5c23ff8a91bec4a6cab9a7268b2e973027f65be103b982b0a6547c009bc38b",
+    "d18-search/d17_feedback_round9_frontier.md": "b20742eb8540131b47ca1221fb31b012d2a17c9c7913ad033f1a26801b74871a"
+  },
+  "pure608_review": "Read the direct encoder: no nonemptiness, nonrepetition or ending normal forms. The fresh binding reconstructs the full608 family and byte-identical checked14-wire CNF; original proof hashes match. Fixed-negative pruning uses the previously accepted deterministic-track lemma."
+}
