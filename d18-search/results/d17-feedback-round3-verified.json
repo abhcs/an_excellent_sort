@@ -1,0 +1,362 @@
+{
+  "status": "VERIFIED",
+  "sat_used": false,
+  "source_sha256": "4fe644371d4a0506c6153126cf83b57da205746e01c5694d78f8ae77920fab78",
+  "input_sha256": "168d10b515cdc3552264089fa1b5eeaefd8ed635dc1630e5d53973abe44f6372",
+  "one_row_matchings": 232,
+  "two_row_templates": [
+    {
+      "transferred": null,
+      "sets": [
+        [
+          0,
+          1,
+          2,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          4,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          6,
+          7
+        ],
+        [
+          0,
+          1,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          3,
+          4,
+          6
+        ],
+        [
+          0,
+          1,
+          3,
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "transferred": 4,
+      "sets": [
+        [
+          0,
+          1,
+          2,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          4,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          6,
+          7
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          6
+        ],
+        [
+          0,
+          1,
+          3,
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "transferred": 5,
+      "sets": [
+        [
+          0,
+          1,
+          2,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          4,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          6,
+          7
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          3,
+          4,
+          6
+        ],
+        [
+          0,
+          1,
+          3,
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "transferred": 6,
+      "sets": [
+        [
+          0,
+          1,
+          2,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          4,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          6,
+          7
+        ],
+        [
+          0,
+          1,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "transferred": 7,
+      "sets": [
+        [
+          0,
+          1,
+          2,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          4,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          6,
+          7
+        ],
+        [
+          0,
+          1,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          3,
+          4,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          6
+        ]
+      ]
+    }
+  ],
+  "matchings_per_two_row_template": 764,
+  "local_A_matchings": 26,
+  "local_deleted_edge_cases": 16,
+  "fourteen_first_matchings_checked": 61512,
+  "direct_counts": [
+    {
+      "gates": 1,
+      "cross": 0,
+      "bad_rows": 0,
+      "count": 1
+    },
+    {
+      "gates": 2,
+      "cross": 0,
+      "bad_rows": 0,
+      "count": 41
+    },
+    {
+      "gates": 2,
+      "cross": 1,
+      "bad_rows": 0,
+      "count": 25
+    },
+    {
+      "gates": 3,
+      "cross": 0,
+      "bad_rows": 0,
+      "count": 560
+    },
+    {
+      "gates": 3,
+      "cross": 1,
+      "bad_rows": 0,
+      "count": 725
+    },
+    {
+      "gates": 4,
+      "cross": 0,
+      "bad_rows": 0,
+      "count": 3110
+    },
+    {
+      "gates": 4,
+      "cross": 1,
+      "bad_rows": 0,
+      "count": 6350
+    },
+    {
+      "gates": 5,
+      "cross": 0,
+      "bad_rows": 0,
+      "count": 6609
+    },
+    {
+      "gates": 5,
+      "cross": 0,
+      "bad_rows": 1,
+      "count": 216
+    },
+    {
+      "gates": 5,
+      "cross": 1,
+      "bad_rows": 0,
+      "count": 18810
+    },
+    {
+      "gates": 5,
+      "cross": 1,
+      "bad_rows": 1,
+      "count": 540
+    },
+    {
+      "gates": 6,
+      "cross": 0,
+      "bad_rows": 0,
+      "count": 4533
+    },
+    {
+      "gates": 6,
+      "cross": 0,
+      "bad_rows": 1,
+      "count": 192
+    },
+    {
+      "gates": 6,
+      "cross": 1,
+      "bad_rows": 0,
+      "count": 15957
+    },
+    {
+      "gates": 6,
+      "cross": 1,
+      "bad_rows": 1,
+      "count": 1368
+    },
+    {
+      "gates": 7,
+      "cross": 0,
+      "bad_rows": 0,
+      "count": 450
+    },
+    {
+      "gates": 7,
+      "cross": 1,
+      "bad_rows": 0,
+      "count": 2025
+    }
+  ],
+  "template_uses": {
+    "None": 53486,
+    "6": 2170,
+    "7": 2210,
+    "5": 1826,
+    "4": 1820
+  },
+  "seconds": 1.1722,
+  "theorem_scope": "Every first matching containing critical dc and at most one A--B edge; any even width>=12",
+  "full_case606_hand_proof": false
+}

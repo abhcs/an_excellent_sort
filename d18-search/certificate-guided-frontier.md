@@ -316,3 +316,20 @@ sorter. They use the hand H7/H8 profile lemmas and retain the small pure
 SAT certificate as a premise. No prefix has yet been shown to realize
 one of these additional families, and the D18 complete-cover count
 remains zero.
+
+## 11. Hand merger theorems and a component condition at every width
+
+Three hand merger lower bounds now apply to block sizes (4,3,2),
+(3,3,3), and (4,4,1): each needs at least five layers. They imply the
+[nine-real component condition](merge-component-obstruction.md): in
+every signed-sentinel restriction leaving nine arbitrary reals, the
+interaction graph before the last four layers has a component of size
+at least five. No sorting inside the components is assumed, and no SAT
+answer is a premise. This gives constraints on cut4 for D13, cut6 for
+D18, and the analogous cut at arbitrary larger widths.
+
+The (4,3,2) theorem also completes the `03 12 46` H9 class by hand,
+raising H9 coverage to26/50. The initial component tests leave all six
+sampled D18 six-layer prefixes possible; no complete D18 cover case is
+closed by this test. The mathematical statement and its finite sample
+coverage are kept separate in the linked note.

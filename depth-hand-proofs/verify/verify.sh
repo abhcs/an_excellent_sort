@@ -40,6 +40,10 @@ python3 h9_feedback_commute_proof.py --out ../results/h9-feedback-commute-proof.
 python3 h9_feedback_reschedule_proof.py --out ../results/h9-feedback-reschedule-proof.json
 python3 h9_feedback_next_proof.py --out ../results/h9-feedback-next-proof.json
 python3 h9_feedback_next_078.py --out ../results/h9-feedback-next-078.json
+python3 h9_feedback_round2_proof.py
+python3 h9_round2_case1_branch_check.py
+python3 h9_root_helper_case3.py
+python3 h9_feedback_round3_merge333.py
 echo "== beyond (H9): D(13) (h9.md section 9)"
 cc -O2 -o leak_blinding leak_blinding.c
 ./leak_blinding 11 6 0       # reproduces the 11-channel count of section 6

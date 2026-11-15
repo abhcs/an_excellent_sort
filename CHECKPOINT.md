@@ -1,5 +1,43 @@
 # Structural lower-bound research checkpoint — 2026-11-15
 
+## Follow-up checkpoint
+
+The earlier snapshot below was pushed as `e9b71c4`. This follow-up saves
+the subsequent research, including exploratory files, with this status:
+
+* H9 hand coverage is now **26/50**. The `03 12 46` proof and its
+  (4,3,2)-merger argument have completed integrated review and replay.
+* Hand lower bounds for merging (4,3,2), (3,3,3), and (4,4,1) imply a
+  general structural theorem: four layers before the end, every signed
+  restriction leaving nine real inputs has an interaction component of
+  size at least five. See the
+  [component proof and controls](d18-search/merge-component-obstruction.md).
+  The collector passed 108 small prefix/mode checks, 8,676 signed
+  assignments, and 68,608 binary trace replays. A known eighteen-wire
+  depth-eleven sorter passes the condition.
+* The component screen rejects 34 of 117 saved D13 four-layer witnesses;
+  this does **not** exclude their complete two-layer cover cases. A new
+  common third/fourth-layer candidate for case116 passes the screen.
+  All six sampled D18 six-layer prefixes also pass it.
+* Complete cover exclusions remain **4/117 for D13**, **3/609 for D17**,
+  and **0/411 for D18**. The lower bound D(18)>=11 remains unresolved.
+* The [new D17 hand draft](d18-search/d17_feedback_round3_hand.md) and
+  its SAT-free checker are saved. The checker passed 61,512 relevant
+  fourteen-wire first matchings, but the draft still awaits independent
+  mathematical review. It addresses the critical-edge branch with at
+  most one cross gate, not the full case606.
+* The H9 `02 16 37` scan and the D17 probe/classification/two-cross
+  experiments are exploratory. They are not additional proved cases.
+  The saved (5,4) merger is a small positive control.
+
+The additional merger certificates, bounded-run terminal records, and
+component replays are included. Python syntax, JSON parsing, shell
+syntax, and source whitespace checks pass; raw checker logs are preserved
+verbatim. No new full SAT verification of
+D(18)>=11 has been completed.
+
+## Earlier checkpoint snapshot (`e9b71c4`)
+
 This checkpoint is on branch `codex/d18-structural`, in the isolated worktree
 `/private/tmp/an_excellent_sort-d18-structural-20261115`. It includes the
 research sources, notes, complete-prefix covers, result records, and saved

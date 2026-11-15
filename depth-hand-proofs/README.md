@@ -14,7 +14,16 @@ The [six-cycle proof](h9-cycle-case.md) adds a joint sentinel invariant
 and a nine-row hand proof. Three [commuting-restriction cases](h9_feedback_commute.md)
 and two [rescheduled-prefix cases](h9_feedback_reschedule.md) raise H9's
 hand coverage to 23 classes. The [six-real reduction](h9_feedback_next_case.md)
-and [fork-and-pairs proof](h9_feedback_next_078.md) raise it to **25 of 50 classes**.
+and [fork-and-pairs proof](h9_feedback_next_078.md) raise it to 25 classes.
+The [K2,2-and-fork case](h9_feedback_round2_031246.md) raises coverage to
+**26 of 50 classes**, using a standalone hand proof that
+[three sorted blocks of lengths 4,3,2 need at least five merger layers](h9_feedback_round2_merge432.md).
+The companion [three-triple theorem](h9_feedback_round3_merge333.md)
+and [four-four-one theorem](../d18-search/d13_feedback_round3_merger441.md)
+prove the same merger lower bound for (3,3,3) and (4,4,1). Together they imply
+a [nine-real interaction-component obstruction](../d18-search/merge-component-obstruction.md)
+four layers before the end, at arbitrary ambient width: some component
+must contain at least five real tracks.
 The [early-profile proof](h7-early-profiles.md) proves the seven-wire
 two-thin-layer lemma by hand and the corresponding first-two-layer
 profiles on eight wires. Its direct two-layer application to the D(13)

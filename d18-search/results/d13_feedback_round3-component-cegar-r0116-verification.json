@@ -1,0 +1,178 @@
+{
+  "status": "VERIFIED",
+  "case_id": "n13-r0116",
+  "next_layers": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        11,
+        12
+      ]
+    ],
+    [
+      [
+        0,
+        10
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        8,
+        11
+      ]
+    ]
+  ],
+  "profile_replays": [
+    {
+      "reals": 5,
+      "raw_signed_placements": 329472,
+      "blind_two_placements": 44032,
+      "violations": 0
+    },
+    {
+      "reals": 7,
+      "raw_signed_placements": 109824,
+      "blind_two_placements": 512,
+      "violations": 0
+    }
+  ],
+  "nine_real_replay": {
+    "name": "n13-r0116",
+    "prefix": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          11,
+          12
+        ]
+      ],
+      [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          11,
+          12
+        ]
+      ],
+      [
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          8,
+          11
+        ]
+      ]
+    ],
+    "placements_checked": 11440,
+    "obstructed_placements": 0,
+    "component_shapes": {},
+    "example": null,
+    "seconds": 0.02092529193032533
+  },
+  "guarded_cuts_checked": 8,
+  "seconds": 0.8588600839721039,
+  "source_sha256": "279f644aba6b1c67b8222c17e2f8b75c726080406acfeaadece66f1130404e6d",
+  "input_sha256": "6aa69e0f3992da2fd5747ab6330d8cbe05495e7da16b60acbfaac36591e7ce69"
+}

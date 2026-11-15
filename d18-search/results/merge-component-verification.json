@@ -1,0 +1,14 @@
+{
+  "status": "VERIFIED",
+  "small_prefix_tests": 108,
+  "all_type_assignments": 8676,
+  "integer_partitions": 30,
+  "binary_functional_replays": 68608,
+  "planted_obstruction_placements": 7675712,
+  "positive_sorter_binary_inputs": 262144,
+  "positive_sorter_cut7_accepted": 0,
+  "seconds": 2.341307875001803,
+  "source_sha256": "f8fd0a50b3937fa9853e38b72e6d6f33aaeb8438f319436bf879aa895826cba0",
+  "collector_sha256": "fa514bf2381fd5a7a51d0c2ce8c1f5981a5b8d72c8e58d4959422337b2dd8990",
+  "scope": "Small exhaustive-type and direct value controls, plus planted obstruction and known sorter; not a complete D18 cover"
+}

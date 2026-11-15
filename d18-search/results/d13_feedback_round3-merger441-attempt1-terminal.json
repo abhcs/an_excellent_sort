@@ -1,0 +1,8 @@
+{
+  "terminal": "EXITED",
+  "returncode": 1,
+  "wall_cap_seconds": 30,
+  "seconds": 0.07738562498707324,
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/d13_feedback_round3_merger441.py\", line 43, in <module>\n    main()\n    ~~~~^^\n  File \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/d13_feedback_round3_merger441.py\", line 21, in main\n    model.add_input(x)\n    ~~~~~~~~~~~~~~~^^^\n  File \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/netsat.py\", line 424, in add_input\n    assert a < e\n           ^^^^^\nAssertionError\n"
+}

@@ -5575,7 +5575,7 @@
       ]
     }
   ],
-  "elapsed_seconds": 0.0602190000936389,
+  "elapsed_seconds": 0.056668875040486455,
   "source_sha256": "1ed92aa21668afbb0a1278301604558a3415d05cec21a2102a53fccd309472d4",
   "contact_data_sha256": "a40057f7308b90b00af5c3e402bab3193887c90d8a93e773fa9fd23589946f63",
   "branch_checker_sha256": {
