@@ -1,0 +1,91 @@
+{
+  "status": "VERIFIED",
+  "positive_sorter_binary_inputs": 8192,
+  "positive_control": {
+    "name": "known13-depth9-cut5",
+    "placements_checked": 11440,
+    "obstructed_placements": 0,
+    "example": null,
+    "component_shapes": {}
+  },
+  "case_id": "n13-r0116",
+  "next_layers": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        11,
+        12
+      ]
+    ],
+    [
+      [
+        0,
+        10
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        8,
+        11
+      ]
+    ]
+  ],
+  "profile_replays": [
+    {
+      "reals": 5,
+      "raw_signed_placements": 329472,
+      "blind_two_placements": 44032,
+      "violations": 0
+    },
+    {
+      "reals": 7,
+      "raw_signed_placements": 109824,
+      "blind_two_placements": 512,
+      "violations": 0
+    }
+  ],
+  "nine_real_replay": {
+    "name": "n13-r0116",
+    "placements_checked": 11440,
+    "obstructed_placements": 0,
+    "example": null,
+    "component_shapes": {}
+  },
+  "guarded_cuts_checked": 25,
+  "seconds": 0.8950887080281973,
+  "source_sha256": "d1edf8af1648710f230887a991f80fa2dede3df77ebc541236cec4f27222cff6",
+  "input_sha256": "9bea5f0b778fe968d17bd8f90d5beecb11279947a37c8fc8299d7850eea990aa"
+}

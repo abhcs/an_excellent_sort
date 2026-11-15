@@ -1,0 +1,35 @@
+{
+  "status": "REVIEWED_SOUND",
+  "scope": "Added parity clause semantics and two certificate manifests; no SAT solve or DRAT rerun",
+  "clauses": 222,
+  "endpoint_assignments_checked": 19666,
+  "semantics": {
+    "L": "lo >= k",
+    "U": "hi < k"
+  },
+  "cases": [
+    {
+      "case": "n13-r0001",
+      "source_and_dependency_hashes": "MATCH",
+      "cnf_and_proof_hashes": "MATCH",
+      "cnf_clause_count": 195230,
+      "solve_terminal": "EXITED",
+      "solve_exit": 0,
+      "checker_verified": true,
+      "checker_exit": 0,
+      "worker_checked_flag": false
+    },
+    {
+      "case": "n13-r0114",
+      "source_and_dependency_hashes": "MATCH",
+      "cnf_and_proof_hashes": "MATCH",
+      "cnf_clause_count": 320529,
+      "solve_terminal": "EXITED",
+      "solve_exit": 0,
+      "checker_verified": true,
+      "checker_exit": 0,
+      "worker_checked_flag": false
+    }
+  ],
+  "semantic_review": "Genuine completions can choose exact attainable intervals; every four-rank interval equals its two-layer cone and is a union of final matching edges, hence odd intersections are impossible."
+}

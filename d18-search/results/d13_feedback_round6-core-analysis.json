@@ -1,0 +1,9685 @@
+[
+  {
+    "case_id": "n13-r0002",
+    "status": "TRANSLATED_CHECKED_PROOF_CORE",
+    "deletion_minimal": false,
+    "parity_clauses_used": 155,
+    "wire_bound_units_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "parity_window_pairs": {
+      "0,3": 8,
+      "1,4": 13,
+      "1,2": 6,
+      "2,1": 3,
+      "2,3": 10,
+      "0,1": 2,
+      "2,5": 14,
+      "3,2": 3,
+      "3,4": 10,
+      "3,6": 15,
+      "4,3": 3,
+      "4,5": 10,
+      "4,7": 13,
+      "5,4": 3,
+      "5,6": 9,
+      "5,8": 9,
+      "6,5": 3,
+      "6,7": 8,
+      "6,9": 4,
+      "7,6": 3,
+      "7,8": 4,
+      "8,7": 1,
+      "8,9": 1
+    },
+    "parity_wire_pairs": {
+      "0,5": 1,
+      "1,4": 1,
+      "1,6": 1,
+      "2,3": 4,
+      "2,4": 6,
+      "2,5": 5,
+      "2,6": 4,
+      "2,7": 2,
+      "3,4": 8,
+      "3,5": 7,
+      "3,6": 6,
+      "3,7": 4,
+      "3,8": 2,
+      "3,9": 1,
+      "4,5": 8,
+      "4,6": 7,
+      "4,7": 6,
+      "4,8": 4,
+      "4,9": 2,
+      "5,6": 8,
+      "5,7": 7,
+      "5,8": 6,
+      "5,9": 4,
+      "6,7": 8,
+      "6,8": 7,
+      "6,9": 6,
+      "6,10": 1,
+      "6,11": 1,
+      "7,8": 8,
+      "7,9": 7,
+      "7,10": 2,
+      "7,11": 1,
+      "8,9": 7,
+      "8,10": 2,
+      "9,10": 1
+    },
+    "used_parity": [
+      {
+        "wires": [
+          0,
+          5
+        ],
+        "first_window": [
+          0,
+          3
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          931,
+          1089,
+          994,
+          1152
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          1,
+          4
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          944,
+          1102,
+          983,
+          1141
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          1,
+          6
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          944,
+          1102,
+          1007,
+          1165
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          3
+        ],
+        "first_window": [
+          0,
+          3
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          955,
+          1113,
+          970,
+          1128
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          3
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          2,
+          5
+        ],
+        "clause": [
+          956,
+          1114,
+          969,
+          1127
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          3
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          1,
+          4
+        ],
+        "clause": [
+          957,
+          1115,
+          968,
+          1126
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          3
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          957,
+          1115,
+          970,
+          1128
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          4
+        ],
+        "first_window": [
+          0,
+          3
+        ],
+        "second_window": [
+          1,
+          4
+        ],
+        "clause": [
+          955,
+          1113,
+          980,
+          1138
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          4
+        ],
+        "first_window": [
+          0,
+          3
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          955,
+          1113,
+          982,
+          1140
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          4
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          2,
+          5
+        ],
+        "clause": [
+          956,
+          1114,
+          981,
+          1139
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          4
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          956,
+          1114,
+          983,
+          1141
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          4
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          1,
+          4
+        ],
+        "clause": [
+          957,
+          1115,
+          980,
+          1138
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          4
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          957,
+          1115,
+          982,
+          1140
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          5
+        ],
+        "first_window": [
+          0,
+          3
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          955,
+          1113,
+          994,
+          1152
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          5
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          2,
+          5
+        ],
+        "clause": [
+          956,
+          1114,
+          993,
+          1151
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          5
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          956,
+          1114,
+          995,
+          1153
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          5
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          957,
+          1115,
+          994,
+          1152
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          5
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          957,
+          1115,
+          996,
+          1154
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          6
+        ],
+        "first_window": [
+          0,
+          3
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          955,
+          1113,
+          1006,
+          1164
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          6
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          956,
+          1114,
+          1007,
+          1165
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          6
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          957,
+          1115,
+          1006,
+          1164
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          6
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          957,
+          1115,
+          1008,
+          1166
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          7
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          956,
+          1114,
+          1019,
+          1177
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          7
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          957,
+          1115,
+          1020,
+          1178
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          4
+        ],
+        "first_window": [
+          0,
+          3
+        ],
+        "second_window": [
+          1,
+          4
+        ],
+        "clause": [
+          967,
+          1125,
+          980,
+          1138
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          4
+        ],
+        "first_window": [
+          0,
+          3
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          967,
+          1125,
+          982,
+          1140
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          4
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          2,
+          5
+        ],
+        "clause": [
+          968,
+          1126,
+          981,
+          1139
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          4
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          968,
+          1126,
+          983,
+          1141
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          4
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          1,
+          4
+        ],
+        "clause": [
+          969,
+          1127,
+          980,
+          1138
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          4
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          969,
+          1127,
+          982,
+          1140
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          4
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          2,
+          5
+        ],
+        "clause": [
+          970,
+          1128,
+          981,
+          1139
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          4
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          970,
+          1128,
+          983,
+          1141
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          5
+        ],
+        "first_window": [
+          0,
+          3
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          967,
+          1125,
+          994,
+          1152
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          5
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          2,
+          5
+        ],
+        "clause": [
+          968,
+          1126,
+          993,
+          1151
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          5
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          968,
+          1126,
+          995,
+          1153
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          5
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          969,
+          1127,
+          994,
+          1152
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          5
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          969,
+          1127,
+          996,
+          1154
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          5
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          2,
+          5
+        ],
+        "clause": [
+          970,
+          1128,
+          993,
+          1151
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          5
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          970,
+          1128,
+          995,
+          1153
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          6
+        ],
+        "first_window": [
+          0,
+          3
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          967,
+          1125,
+          1006,
+          1164
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          6
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          968,
+          1126,
+          1007,
+          1165
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          6
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          969,
+          1127,
+          1006,
+          1164
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          6
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          969,
+          1127,
+          1008,
+          1166
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          6
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          970,
+          1128,
+          1007,
+          1165
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          6
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          970,
+          1128,
+          1009,
+          1167
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          7
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          968,
+          1126,
+          1019,
+          1177
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          7
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          969,
+          1127,
+          1020,
+          1178
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          7
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          970,
+          1128,
+          1019,
+          1177
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          7
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          970,
+          1128,
+          1021,
+          1179
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          8
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          969,
+          1127,
+          1032,
+          1190
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          8
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          970,
+          1128,
+          1033,
+          1191
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          9
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          970,
+          1128,
+          1045,
+          1203
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          5
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          2,
+          5
+        ],
+        "clause": [
+          980,
+          1138,
+          993,
+          1151
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          5
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          980,
+          1138,
+          995,
+          1153
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          5
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          981,
+          1139,
+          994,
+          1152
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          5
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          981,
+          1139,
+          996,
+          1154
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          5
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          2,
+          5
+        ],
+        "clause": [
+          982,
+          1140,
+          993,
+          1151
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          5
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          982,
+          1140,
+          995,
+          1153
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          5
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          983,
+          1141,
+          994,
+          1152
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          5
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          983,
+          1141,
+          996,
+          1154
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          6
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          980,
+          1138,
+          1007,
+          1165
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          6
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          981,
+          1139,
+          1006,
+          1164
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          6
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          981,
+          1139,
+          1008,
+          1166
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          6
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          982,
+          1140,
+          1007,
+          1165
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          6
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          982,
+          1140,
+          1009,
+          1167
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          6
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          983,
+          1141,
+          1006,
+          1164
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          6
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          983,
+          1141,
+          1008,
+          1166
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          7
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          980,
+          1138,
+          1019,
+          1177
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          7
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          981,
+          1139,
+          1020,
+          1178
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          7
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          982,
+          1140,
+          1019,
+          1177
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          7
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          982,
+          1140,
+          1021,
+          1179
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          7
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          983,
+          1141,
+          1020,
+          1178
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          7
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          983,
+          1141,
+          1022,
+          1180
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          8
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          981,
+          1139,
+          1032,
+          1190
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          8
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          982,
+          1140,
+          1033,
+          1191
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          8
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          983,
+          1141,
+          1032,
+          1190
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          8
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          983,
+          1141,
+          1034,
+          1192
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          9
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          982,
+          1140,
+          1045,
+          1203
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          9
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          983,
+          1141,
+          1046,
+          1204
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          6
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          993,
+          1151,
+          1006,
+          1164
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          6
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          993,
+          1151,
+          1008,
+          1166
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          6
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          994,
+          1152,
+          1007,
+          1165
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          6
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          994,
+          1152,
+          1009,
+          1167
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          6
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          995,
+          1153,
+          1006,
+          1164
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          6
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          995,
+          1153,
+          1008,
+          1166
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          6
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          996,
+          1154,
+          1007,
+          1165
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          6
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          996,
+          1154,
+          1009,
+          1167
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          7
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          993,
+          1151,
+          1020,
+          1178
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          7
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          994,
+          1152,
+          1019,
+          1177
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          7
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          994,
+          1152,
+          1021,
+          1179
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          7
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          995,
+          1153,
+          1020,
+          1178
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          7
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          995,
+          1153,
+          1022,
+          1180
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          7
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          996,
+          1154,
+          1019,
+          1177
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          7
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          996,
+          1154,
+          1021,
+          1179
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          8
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          993,
+          1151,
+          1032,
+          1190
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          8
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          994,
+          1152,
+          1033,
+          1191
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          8
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          995,
+          1153,
+          1032,
+          1190
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          8
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          995,
+          1153,
+          1034,
+          1192
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          8
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          996,
+          1154,
+          1033,
+          1191
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          8
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          996,
+          1154,
+          1035,
+          1193
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          9
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          994,
+          1152,
+          1045,
+          1203
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          9
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          995,
+          1153,
+          1046,
+          1204
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          9
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          996,
+          1154,
+          1045,
+          1203
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          9
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          996,
+          1154,
+          1047,
+          1205
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          7
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          1006,
+          1164,
+          1019,
+          1177
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          7
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1006,
+          1164,
+          1021,
+          1179
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          7
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          1007,
+          1165,
+          1020,
+          1178
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          7
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1007,
+          1165,
+          1022,
+          1180
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          7
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          1008,
+          1166,
+          1019,
+          1177
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          7
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1008,
+          1166,
+          1021,
+          1179
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          7
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          1009,
+          1167,
+          1020,
+          1178
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          7
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1009,
+          1167,
+          1022,
+          1180
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          8
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1006,
+          1164,
+          1033,
+          1191
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          8
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          1007,
+          1165,
+          1032,
+          1190
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          8
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1007,
+          1165,
+          1034,
+          1192
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          8
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1008,
+          1166,
+          1033,
+          1191
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          8
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1008,
+          1166,
+          1035,
+          1193
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          8
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          1009,
+          1167,
+          1032,
+          1190
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          8
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1009,
+          1167,
+          1034,
+          1192
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          9
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1006,
+          1164,
+          1045,
+          1203
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          9
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1007,
+          1165,
+          1046,
+          1204
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          9
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1008,
+          1166,
+          1045,
+          1203
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          9
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1008,
+          1166,
+          1047,
+          1205
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          9
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1009,
+          1167,
+          1046,
+          1204
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          9
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          9,
+          12
+        ],
+        "clause": [
+          1009,
+          1167,
+          1048,
+          1206
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          10
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1007,
+          1165,
+          1058,
+          1216
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          11
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1008,
+          1166,
+          1071,
+          1229
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          8
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          1019,
+          1177,
+          1032,
+          1190
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          8
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1019,
+          1177,
+          1034,
+          1192
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          8
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1020,
+          1178,
+          1033,
+          1191
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          8
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1020,
+          1178,
+          1035,
+          1193
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          8
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          1021,
+          1179,
+          1032,
+          1190
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          8
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1021,
+          1179,
+          1034,
+          1192
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          8
+        ],
+        "first_window": [
+          7,
+          10
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1022,
+          1180,
+          1033,
+          1191
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          8
+        ],
+        "first_window": [
+          7,
+          10
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1022,
+          1180,
+          1035,
+          1193
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          9
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1019,
+          1177,
+          1046,
+          1204
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          9
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1020,
+          1178,
+          1045,
+          1203
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          9
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1020,
+          1178,
+          1047,
+          1205
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          9
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1021,
+          1179,
+          1046,
+          1204
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          9
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          9,
+          12
+        ],
+        "clause": [
+          1021,
+          1179,
+          1048,
+          1206
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          9
+        ],
+        "first_window": [
+          7,
+          10
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1022,
+          1180,
+          1045,
+          1203
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          9
+        ],
+        "first_window": [
+          7,
+          10
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1022,
+          1180,
+          1047,
+          1205
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          10
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1019,
+          1177,
+          1058,
+          1216
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          10
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1021,
+          1179,
+          1058,
+          1216
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          11
+        ],
+        "first_window": [
+          7,
+          10
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1022,
+          1180,
+          1071,
+          1229
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          9
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1032,
+          1190,
+          1047,
+          1205
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          9
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1033,
+          1191,
+          1046,
+          1204
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          9
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          9,
+          12
+        ],
+        "clause": [
+          1033,
+          1191,
+          1048,
+          1206
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          9
+        ],
+        "first_window": [
+          7,
+          10
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1034,
+          1192,
+          1045,
+          1203
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          9
+        ],
+        "first_window": [
+          7,
+          10
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1034,
+          1192,
+          1047,
+          1205
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          9
+        ],
+        "first_window": [
+          8,
+          11
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1035,
+          1193,
+          1046,
+          1204
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          9
+        ],
+        "first_window": [
+          8,
+          11
+        ],
+        "second_window": [
+          9,
+          12
+        ],
+        "clause": [
+          1035,
+          1193,
+          1048,
+          1206
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          10
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1032,
+          1190,
+          1059,
+          1217
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          10
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1033,
+          1191,
+          1058,
+          1216
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          9,
+          10
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          9,
+          12
+        ],
+        "clause": [
+          1045,
+          1203,
+          1060,
+          1218
+        ],
+        "proof_used": true
+      }
+    ],
+    "original_clauses": 193187,
+    "core_clauses": 57051,
+    "input_sha256": "312bc35e02aecd02032cc205b706bdd57120f94a8869cce61d97c4601c8788f5",
+    "note": "Proof tracing only. This is neither deletion minimization nor a hand proof of the prefix obstruction."
+  },
+  {
+    "case_id": "n13-r0057",
+    "status": "TRANSLATED_CHECKED_PROOF_CORE",
+    "deletion_minimal": false,
+    "parity_clauses_used": 150,
+    "wire_bound_units_used": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "parity_window_pairs": {
+      "1,4": 11,
+      "0,1": 3,
+      "1,2": 4,
+      "2,1": 2,
+      "2,3": 5,
+      "2,5": 13,
+      "3,4": 10,
+      "0,3": 1,
+      "3,2": 2,
+      "3,6": 13,
+      "4,3": 3,
+      "4,5": 10,
+      "4,7": 14,
+      "5,4": 3,
+      "5,6": 10,
+      "5,8": 12,
+      "6,5": 3,
+      "6,7": 9,
+      "6,9": 7,
+      "7,6": 3,
+      "7,8": 6,
+      "8,7": 3,
+      "8,9": 3
+    },
+    "parity_wire_pairs": {
+      "1,5": 1,
+      "2,3": 2,
+      "2,4": 3,
+      "2,5": 3,
+      "2,6": 1,
+      "2,7": 1,
+      "3,4": 5,
+      "3,5": 7,
+      "3,6": 3,
+      "3,7": 4,
+      "3,8": 2,
+      "4,5": 8,
+      "4,6": 7,
+      "4,7": 6,
+      "4,8": 4,
+      "4,9": 2,
+      "5,6": 8,
+      "5,7": 7,
+      "5,8": 6,
+      "5,9": 4,
+      "5,10": 2,
+      "6,7": 8,
+      "6,8": 7,
+      "6,9": 6,
+      "6,10": 4,
+      "7,8": 8,
+      "7,9": 7,
+      "7,10": 5,
+      "7,11": 2,
+      "8,9": 8,
+      "8,10": 5,
+      "8,11": 1,
+      "9,10": 3
+    },
+    "used_parity": [
+      {
+        "wires": [
+          1,
+          5
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          950,
+          1108,
+          1001,
+          1159
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          3
+        ],
+        "first_window": [
+          0,
+          3
+        ],
+        "second_window": [
+          1,
+          4
+        ],
+        "clause": [
+          961,
+          1119,
+          974,
+          1132
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          3
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          2,
+          5
+        ],
+        "clause": [
+          962,
+          1120,
+          975,
+          1133
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          4
+        ],
+        "first_window": [
+          0,
+          3
+        ],
+        "second_window": [
+          1,
+          4
+        ],
+        "clause": [
+          961,
+          1119,
+          986,
+          1144
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          4
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          962,
+          1120,
+          989,
+          1147
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          4
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          1,
+          4
+        ],
+        "clause": [
+          963,
+          1121,
+          986,
+          1144
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          5
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          962,
+          1120,
+          1001,
+          1159
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          5
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          963,
+          1121,
+          1000,
+          1158
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          5
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          963,
+          1121,
+          1002,
+          1160
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          6
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          963,
+          1121,
+          1014,
+          1172
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          7
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          962,
+          1120,
+          1025,
+          1183
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          4
+        ],
+        "first_window": [
+          0,
+          3
+        ],
+        "second_window": [
+          1,
+          4
+        ],
+        "clause": [
+          973,
+          1131,
+          986,
+          1144
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          4
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          2,
+          5
+        ],
+        "clause": [
+          974,
+          1132,
+          987,
+          1145
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          4
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          974,
+          1132,
+          989,
+          1147
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          4
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          1,
+          4
+        ],
+        "clause": [
+          975,
+          1133,
+          986,
+          1144
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          4
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          976,
+          1134,
+          989,
+          1147
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          5
+        ],
+        "first_window": [
+          0,
+          3
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          973,
+          1131,
+          1000,
+          1158
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          5
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          2,
+          5
+        ],
+        "clause": [
+          974,
+          1132,
+          999,
+          1157
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          5
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          974,
+          1132,
+          1001,
+          1159
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          5
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          975,
+          1133,
+          1000,
+          1158
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          5
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          975,
+          1133,
+          1002,
+          1160
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          5
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          2,
+          5
+        ],
+        "clause": [
+          976,
+          1134,
+          999,
+          1157
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          5
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          976,
+          1134,
+          1001,
+          1159
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          6
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          974,
+          1132,
+          1013,
+          1171
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          6
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          975,
+          1133,
+          1014,
+          1172
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          6
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          976,
+          1134,
+          1013,
+          1171
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          7
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          974,
+          1132,
+          1025,
+          1183
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          7
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          975,
+          1133,
+          1026,
+          1184
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          7
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          976,
+          1134,
+          1025,
+          1183
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          7
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          976,
+          1134,
+          1027,
+          1185
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          8
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          975,
+          1133,
+          1038,
+          1196
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          8
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          976,
+          1134,
+          1039,
+          1197
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          5
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          2,
+          5
+        ],
+        "clause": [
+          986,
+          1144,
+          999,
+          1157
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          5
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          986,
+          1144,
+          1001,
+          1159
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          5
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          987,
+          1145,
+          1000,
+          1158
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          5
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          987,
+          1145,
+          1002,
+          1160
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          5
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          2,
+          5
+        ],
+        "clause": [
+          988,
+          1146,
+          999,
+          1157
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          5
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          988,
+          1146,
+          1001,
+          1159
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          5
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          989,
+          1147,
+          1000,
+          1158
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          5
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          989,
+          1147,
+          1002,
+          1160
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          6
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          986,
+          1144,
+          1013,
+          1171
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          6
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          987,
+          1145,
+          1012,
+          1170
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          6
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          987,
+          1145,
+          1014,
+          1172
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          6
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          988,
+          1146,
+          1013,
+          1171
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          6
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          988,
+          1146,
+          1015,
+          1173
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          6
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          989,
+          1147,
+          1012,
+          1170
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          6
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          989,
+          1147,
+          1014,
+          1172
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          7
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          986,
+          1144,
+          1025,
+          1183
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          7
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          987,
+          1145,
+          1026,
+          1184
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          7
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          988,
+          1146,
+          1025,
+          1183
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          7
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          988,
+          1146,
+          1027,
+          1185
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          7
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          989,
+          1147,
+          1026,
+          1184
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          7
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          989,
+          1147,
+          1028,
+          1186
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          8
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          987,
+          1145,
+          1038,
+          1196
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          8
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          988,
+          1146,
+          1039,
+          1197
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          8
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          989,
+          1147,
+          1038,
+          1196
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          8
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          989,
+          1147,
+          1040,
+          1198
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          9
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          988,
+          1146,
+          1051,
+          1209
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          9
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          989,
+          1147,
+          1052,
+          1210
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          6
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          999,
+          1157,
+          1012,
+          1170
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          6
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          999,
+          1157,
+          1014,
+          1172
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          6
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          1000,
+          1158,
+          1013,
+          1171
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          6
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1000,
+          1158,
+          1015,
+          1173
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          6
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          1001,
+          1159,
+          1012,
+          1170
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          6
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          1001,
+          1159,
+          1014,
+          1172
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          6
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          1002,
+          1160,
+          1013,
+          1171
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          6
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1002,
+          1160,
+          1015,
+          1173
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          7
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          999,
+          1157,
+          1026,
+          1184
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          7
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          1000,
+          1158,
+          1025,
+          1183
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          7
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1000,
+          1158,
+          1027,
+          1185
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          7
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          1001,
+          1159,
+          1026,
+          1184
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          7
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1001,
+          1159,
+          1028,
+          1186
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          7
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          1002,
+          1160,
+          1025,
+          1183
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          7
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1002,
+          1160,
+          1027,
+          1185
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          8
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          999,
+          1157,
+          1038,
+          1196
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          8
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1000,
+          1158,
+          1039,
+          1197
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          8
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          1001,
+          1159,
+          1038,
+          1196
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          8
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1001,
+          1159,
+          1040,
+          1198
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          8
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1002,
+          1160,
+          1039,
+          1197
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          8
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1002,
+          1160,
+          1041,
+          1199
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          9
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1000,
+          1158,
+          1051,
+          1209
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          9
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1001,
+          1159,
+          1052,
+          1210
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          9
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1002,
+          1160,
+          1051,
+          1209
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          9
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1002,
+          1160,
+          1053,
+          1211
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          10
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1001,
+          1159,
+          1064,
+          1222
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          10
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1002,
+          1160,
+          1065,
+          1223
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          7
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          1012,
+          1170,
+          1025,
+          1183
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          7
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1012,
+          1170,
+          1027,
+          1185
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          7
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          1013,
+          1171,
+          1026,
+          1184
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          7
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1013,
+          1171,
+          1028,
+          1186
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          7
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          1014,
+          1172,
+          1025,
+          1183
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          7
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1014,
+          1172,
+          1027,
+          1185
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          7
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          1015,
+          1173,
+          1026,
+          1184
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          7
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1015,
+          1173,
+          1028,
+          1186
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          8
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1012,
+          1170,
+          1039,
+          1197
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          8
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          1013,
+          1171,
+          1038,
+          1196
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          8
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1013,
+          1171,
+          1040,
+          1198
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          8
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1014,
+          1172,
+          1039,
+          1197
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          8
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1014,
+          1172,
+          1041,
+          1199
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          8
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          1015,
+          1173,
+          1038,
+          1196
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          8
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1015,
+          1173,
+          1040,
+          1198
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          9
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1012,
+          1170,
+          1051,
+          1209
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          9
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1013,
+          1171,
+          1052,
+          1210
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          9
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1014,
+          1172,
+          1051,
+          1209
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          9
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1014,
+          1172,
+          1053,
+          1211
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          9
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1015,
+          1173,
+          1052,
+          1210
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          9
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          9,
+          12
+        ],
+        "clause": [
+          1015,
+          1173,
+          1054,
+          1212
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          10
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1013,
+          1171,
+          1064,
+          1222
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          10
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1014,
+          1172,
+          1065,
+          1223
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          10
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1015,
+          1173,
+          1064,
+          1222
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          10
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          9,
+          12
+        ],
+        "clause": [
+          1015,
+          1173,
+          1066,
+          1224
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          8
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          1025,
+          1183,
+          1038,
+          1196
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          8
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1025,
+          1183,
+          1040,
+          1198
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          8
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1026,
+          1184,
+          1039,
+          1197
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          8
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1026,
+          1184,
+          1041,
+          1199
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          8
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          1027,
+          1185,
+          1038,
+          1196
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          8
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1027,
+          1185,
+          1040,
+          1198
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          8
+        ],
+        "first_window": [
+          7,
+          10
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1028,
+          1186,
+          1039,
+          1197
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          8
+        ],
+        "first_window": [
+          7,
+          10
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1028,
+          1186,
+          1041,
+          1199
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          9
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1025,
+          1183,
+          1052,
+          1210
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          9
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1026,
+          1184,
+          1051,
+          1209
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          9
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1026,
+          1184,
+          1053,
+          1211
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          9
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1027,
+          1185,
+          1052,
+          1210
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          9
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          9,
+          12
+        ],
+        "clause": [
+          1027,
+          1185,
+          1054,
+          1212
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          9
+        ],
+        "first_window": [
+          7,
+          10
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1028,
+          1186,
+          1051,
+          1209
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          9
+        ],
+        "first_window": [
+          7,
+          10
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1028,
+          1186,
+          1053,
+          1211
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          10
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1025,
+          1183,
+          1064,
+          1222
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          10
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1026,
+          1184,
+          1065,
+          1223
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          10
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1027,
+          1185,
+          1064,
+          1222
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          10
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          9,
+          12
+        ],
+        "clause": [
+          1027,
+          1185,
+          1066,
+          1224
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          10
+        ],
+        "first_window": [
+          7,
+          10
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1028,
+          1186,
+          1065,
+          1223
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          11
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1026,
+          1184,
+          1077,
+          1235
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          11
+        ],
+        "first_window": [
+          7,
+          10
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1028,
+          1186,
+          1077,
+          1235
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          9
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1038,
+          1196,
+          1051,
+          1209
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          9
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1038,
+          1196,
+          1053,
+          1211
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          9
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1039,
+          1197,
+          1052,
+          1210
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          9
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          9,
+          12
+        ],
+        "clause": [
+          1039,
+          1197,
+          1054,
+          1212
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          9
+        ],
+        "first_window": [
+          7,
+          10
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1040,
+          1198,
+          1051,
+          1209
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          9
+        ],
+        "first_window": [
+          7,
+          10
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1040,
+          1198,
+          1053,
+          1211
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          9
+        ],
+        "first_window": [
+          8,
+          11
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1041,
+          1199,
+          1052,
+          1210
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          9
+        ],
+        "first_window": [
+          8,
+          11
+        ],
+        "second_window": [
+          9,
+          12
+        ],
+        "clause": [
+          1041,
+          1199,
+          1054,
+          1212
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          10
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1038,
+          1196,
+          1065,
+          1223
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          10
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1039,
+          1197,
+          1064,
+          1222
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          10
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          9,
+          12
+        ],
+        "clause": [
+          1039,
+          1197,
+          1066,
+          1224
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          10
+        ],
+        "first_window": [
+          8,
+          11
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1041,
+          1199,
+          1064,
+          1222
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          10
+        ],
+        "first_window": [
+          8,
+          11
+        ],
+        "second_window": [
+          9,
+          12
+        ],
+        "clause": [
+          1041,
+          1199,
+          1066,
+          1224
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          11
+        ],
+        "first_window": [
+          7,
+          10
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1040,
+          1198,
+          1077,
+          1235
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          9,
+          10
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          9,
+          12
+        ],
+        "clause": [
+          1051,
+          1209,
+          1066,
+          1224
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          9,
+          10
+        ],
+        "first_window": [
+          8,
+          11
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1053,
+          1211,
+          1064,
+          1222
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          9,
+          10
+        ],
+        "first_window": [
+          8,
+          11
+        ],
+        "second_window": [
+          9,
+          12
+        ],
+        "clause": [
+          1053,
+          1211,
+          1066,
+          1224
+        ],
+        "proof_used": true
+      }
+    ],
+    "original_clauses": 263771,
+    "core_clauses": 47008,
+    "input_sha256": "b7a090053c79c382ac7d6cb5f7f0b51a77581243aa3f5f5827dd5decb6c95f1e",
+    "note": "Proof tracing only. This is neither deletion minimization nor a hand proof of the prefix obstruction."
+  },
+  {
+    "case_id": "n13-r0113",
+    "status": "TRANSLATED_CHECKED_PROOF_CORE",
+    "deletion_minimal": false,
+    "parity_clauses_used": 144,
+    "wire_bound_units_used": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "parity_window_pairs": {
+      "1,4": 9,
+      "2,3": 8,
+      "1,2": 3,
+      "3,2": 3,
+      "2,5": 10,
+      "3,4": 9,
+      "0,3": 1,
+      "3,6": 12,
+      "4,3": 3,
+      "4,5": 10,
+      "4,7": 14,
+      "5,4": 3,
+      "5,6": 10,
+      "5,8": 12,
+      "6,5": 3,
+      "6,7": 9,
+      "6,9": 7,
+      "7,6": 3,
+      "7,8": 7,
+      "8,7": 3,
+      "8,9": 3,
+      "9,8": 2
+    },
+    "parity_wire_pairs": {
+      "1,6": 1,
+      "2,5": 2,
+      "2,6": 1,
+      "3,4": 4,
+      "3,5": 6,
+      "3,6": 6,
+      "3,7": 4,
+      "4,5": 8,
+      "4,6": 7,
+      "4,7": 6,
+      "4,8": 4,
+      "4,9": 1,
+      "5,6": 8,
+      "5,7": 7,
+      "5,8": 6,
+      "5,9": 4,
+      "5,10": 1,
+      "6,7": 8,
+      "6,8": 7,
+      "6,9": 6,
+      "6,10": 4,
+      "6,11": 1,
+      "7,8": 8,
+      "7,9": 7,
+      "7,10": 5,
+      "7,11": 1,
+      "8,9": 8,
+      "8,10": 6,
+      "8,11": 1,
+      "9,10": 5,
+      "10,11": 1
+    },
+    "used_parity": [
+      {
+        "wires": [
+          1,
+          6
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          953,
+          1111,
+          1016,
+          1174
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          5
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          965,
+          1123,
+          1004,
+          1162
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          5
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          966,
+          1124,
+          1003,
+          1161
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          2,
+          6
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          966,
+          1124,
+          1015,
+          1173
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          4
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          2,
+          5
+        ],
+        "clause": [
+          977,
+          1135,
+          990,
+          1148
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          4
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          977,
+          1135,
+          992,
+          1150
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          4
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          978,
+          1136,
+          991,
+          1149
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          4
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          2,
+          5
+        ],
+        "clause": [
+          979,
+          1137,
+          990,
+          1148
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          5
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          2,
+          5
+        ],
+        "clause": [
+          977,
+          1135,
+          1002,
+          1160
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          5
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          977,
+          1135,
+          1004,
+          1162
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          5
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          978,
+          1136,
+          1003,
+          1161
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          5
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          978,
+          1136,
+          1005,
+          1163
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          5
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          2,
+          5
+        ],
+        "clause": [
+          979,
+          1137,
+          1002,
+          1160
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          5
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          979,
+          1137,
+          1004,
+          1162
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          6
+        ],
+        "first_window": [
+          0,
+          3
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          976,
+          1134,
+          1015,
+          1173
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          6
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          977,
+          1135,
+          1016,
+          1174
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          6
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          978,
+          1136,
+          1015,
+          1173
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          6
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          978,
+          1136,
+          1017,
+          1175
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          6
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          979,
+          1137,
+          1016,
+          1174
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          6
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          979,
+          1137,
+          1018,
+          1176
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          7
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          977,
+          1135,
+          1028,
+          1186
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          7
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          978,
+          1136,
+          1029,
+          1187
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          7
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          979,
+          1137,
+          1028,
+          1186
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          3,
+          7
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          979,
+          1137,
+          1030,
+          1188
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          5
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          2,
+          5
+        ],
+        "clause": [
+          989,
+          1147,
+          1002,
+          1160
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          5
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          989,
+          1147,
+          1004,
+          1162
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          5
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          990,
+          1148,
+          1003,
+          1161
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          5
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          990,
+          1148,
+          1005,
+          1163
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          5
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          2,
+          5
+        ],
+        "clause": [
+          991,
+          1149,
+          1002,
+          1160
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          5
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          991,
+          1149,
+          1004,
+          1162
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          5
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          992,
+          1150,
+          1003,
+          1161
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          5
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          992,
+          1150,
+          1005,
+          1163
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          6
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          989,
+          1147,
+          1016,
+          1174
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          6
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          990,
+          1148,
+          1015,
+          1173
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          6
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          990,
+          1148,
+          1017,
+          1175
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          6
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          991,
+          1149,
+          1016,
+          1174
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          6
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          991,
+          1149,
+          1018,
+          1176
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          6
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          992,
+          1150,
+          1015,
+          1173
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          6
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          992,
+          1150,
+          1017,
+          1175
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          7
+        ],
+        "first_window": [
+          1,
+          4
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          989,
+          1147,
+          1028,
+          1186
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          7
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          990,
+          1148,
+          1029,
+          1187
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          7
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          991,
+          1149,
+          1028,
+          1186
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          7
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          991,
+          1149,
+          1030,
+          1188
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          7
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          992,
+          1150,
+          1029,
+          1187
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          7
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          992,
+          1150,
+          1031,
+          1189
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          8
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          990,
+          1148,
+          1041,
+          1199
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          8
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          991,
+          1149,
+          1042,
+          1200
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          8
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          992,
+          1150,
+          1041,
+          1199
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          8
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          992,
+          1150,
+          1043,
+          1201
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          4,
+          9
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          992,
+          1150,
+          1055,
+          1213
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          6
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          1002,
+          1160,
+          1015,
+          1173
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          6
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          1002,
+          1160,
+          1017,
+          1175
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          6
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          1003,
+          1161,
+          1016,
+          1174
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          6
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1003,
+          1161,
+          1018,
+          1176
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          6
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          3,
+          6
+        ],
+        "clause": [
+          1004,
+          1162,
+          1015,
+          1173
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          6
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          1004,
+          1162,
+          1017,
+          1175
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          6
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          1005,
+          1163,
+          1016,
+          1174
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          6
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1005,
+          1163,
+          1018,
+          1176
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          7
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          1002,
+          1160,
+          1029,
+          1187
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          7
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          1003,
+          1161,
+          1028,
+          1186
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          7
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1003,
+          1161,
+          1030,
+          1188
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          7
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          1004,
+          1162,
+          1029,
+          1187
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          7
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1004,
+          1162,
+          1031,
+          1189
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          7
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          1005,
+          1163,
+          1028,
+          1186
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          7
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1005,
+          1163,
+          1030,
+          1188
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          8
+        ],
+        "first_window": [
+          2,
+          5
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          1002,
+          1160,
+          1041,
+          1199
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          8
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1003,
+          1161,
+          1042,
+          1200
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          8
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          1004,
+          1162,
+          1041,
+          1199
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          8
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1004,
+          1162,
+          1043,
+          1201
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          8
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1005,
+          1163,
+          1042,
+          1200
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          8
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1005,
+          1163,
+          1044,
+          1202
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          9
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1003,
+          1161,
+          1054,
+          1212
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          9
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1004,
+          1162,
+          1055,
+          1213
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          9
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1005,
+          1163,
+          1054,
+          1212
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          9
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1005,
+          1163,
+          1056,
+          1214
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          5,
+          10
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1004,
+          1162,
+          1067,
+          1225
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          7
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          1015,
+          1173,
+          1028,
+          1186
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          7
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1015,
+          1173,
+          1030,
+          1188
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          7
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          1016,
+          1174,
+          1029,
+          1187
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          7
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1016,
+          1174,
+          1031,
+          1189
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          7
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          4,
+          7
+        ],
+        "clause": [
+          1017,
+          1175,
+          1028,
+          1186
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          7
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1017,
+          1175,
+          1030,
+          1188
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          7
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          1018,
+          1176,
+          1029,
+          1187
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          7
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1018,
+          1176,
+          1031,
+          1189
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          8
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1015,
+          1173,
+          1042,
+          1200
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          8
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          1016,
+          1174,
+          1041,
+          1199
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          8
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1016,
+          1174,
+          1043,
+          1201
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          8
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1017,
+          1175,
+          1042,
+          1200
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          8
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1017,
+          1175,
+          1044,
+          1202
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          8
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          1018,
+          1176,
+          1041,
+          1199
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          8
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1018,
+          1176,
+          1043,
+          1201
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          9
+        ],
+        "first_window": [
+          3,
+          6
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1015,
+          1173,
+          1054,
+          1212
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          9
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1016,
+          1174,
+          1055,
+          1213
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          9
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1017,
+          1175,
+          1054,
+          1212
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          9
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1017,
+          1175,
+          1056,
+          1214
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          9
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1018,
+          1176,
+          1055,
+          1213
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          9
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          9,
+          12
+        ],
+        "clause": [
+          1018,
+          1176,
+          1057,
+          1215
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          10
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1016,
+          1174,
+          1067,
+          1225
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          10
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1017,
+          1175,
+          1068,
+          1226
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          10
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1018,
+          1176,
+          1067,
+          1225
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          10
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          9,
+          12
+        ],
+        "clause": [
+          1018,
+          1176,
+          1069,
+          1227
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          6,
+          11
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1017,
+          1175,
+          1080,
+          1238
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          8
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          1028,
+          1186,
+          1041,
+          1199
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          8
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1028,
+          1186,
+          1043,
+          1201
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          8
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1029,
+          1187,
+          1042,
+          1200
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          8
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1029,
+          1187,
+          1044,
+          1202
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          8
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          5,
+          8
+        ],
+        "clause": [
+          1030,
+          1188,
+          1041,
+          1199
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          8
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1030,
+          1188,
+          1043,
+          1201
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          8
+        ],
+        "first_window": [
+          7,
+          10
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1031,
+          1189,
+          1042,
+          1200
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          8
+        ],
+        "first_window": [
+          7,
+          10
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1031,
+          1189,
+          1044,
+          1202
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          9
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1028,
+          1186,
+          1055,
+          1213
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          9
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1029,
+          1187,
+          1054,
+          1212
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          9
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1029,
+          1187,
+          1056,
+          1214
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          9
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1030,
+          1188,
+          1055,
+          1213
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          9
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          9,
+          12
+        ],
+        "clause": [
+          1030,
+          1188,
+          1057,
+          1215
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          9
+        ],
+        "first_window": [
+          7,
+          10
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1031,
+          1189,
+          1054,
+          1212
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          9
+        ],
+        "first_window": [
+          7,
+          10
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1031,
+          1189,
+          1056,
+          1214
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          10
+        ],
+        "first_window": [
+          4,
+          7
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1028,
+          1186,
+          1067,
+          1225
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          10
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1029,
+          1187,
+          1068,
+          1226
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          10
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1030,
+          1188,
+          1067,
+          1225
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          10
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          9,
+          12
+        ],
+        "clause": [
+          1030,
+          1188,
+          1069,
+          1227
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          10
+        ],
+        "first_window": [
+          7,
+          10
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1031,
+          1189,
+          1068,
+          1226
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          7,
+          11
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1029,
+          1187,
+          1080,
+          1238
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          9
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1041,
+          1199,
+          1054,
+          1212
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          9
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1041,
+          1199,
+          1056,
+          1214
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          9
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1042,
+          1200,
+          1055,
+          1213
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          9
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          9,
+          12
+        ],
+        "clause": [
+          1042,
+          1200,
+          1057,
+          1215
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          9
+        ],
+        "first_window": [
+          7,
+          10
+        ],
+        "second_window": [
+          6,
+          9
+        ],
+        "clause": [
+          1043,
+          1201,
+          1054,
+          1212
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          9
+        ],
+        "first_window": [
+          7,
+          10
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1043,
+          1201,
+          1056,
+          1214
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          9
+        ],
+        "first_window": [
+          8,
+          11
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1044,
+          1202,
+          1055,
+          1213
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          9
+        ],
+        "first_window": [
+          8,
+          11
+        ],
+        "second_window": [
+          9,
+          12
+        ],
+        "clause": [
+          1044,
+          1202,
+          1057,
+          1215
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          10
+        ],
+        "first_window": [
+          5,
+          8
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1041,
+          1199,
+          1068,
+          1226
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          10
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1042,
+          1200,
+          1067,
+          1225
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          10
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          9,
+          12
+        ],
+        "clause": [
+          1042,
+          1200,
+          1069,
+          1227
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          10
+        ],
+        "first_window": [
+          7,
+          10
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1043,
+          1201,
+          1068,
+          1226
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          10
+        ],
+        "first_window": [
+          8,
+          11
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1044,
+          1202,
+          1067,
+          1225
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          10
+        ],
+        "first_window": [
+          8,
+          11
+        ],
+        "second_window": [
+          9,
+          12
+        ],
+        "clause": [
+          1044,
+          1202,
+          1069,
+          1227
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          8,
+          11
+        ],
+        "first_window": [
+          7,
+          10
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1043,
+          1201,
+          1080,
+          1238
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          9,
+          10
+        ],
+        "first_window": [
+          6,
+          9
+        ],
+        "second_window": [
+          9,
+          12
+        ],
+        "clause": [
+          1054,
+          1212,
+          1069,
+          1227
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          9,
+          10
+        ],
+        "first_window": [
+          7,
+          10
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1055,
+          1213,
+          1068,
+          1226
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          9,
+          10
+        ],
+        "first_window": [
+          8,
+          11
+        ],
+        "second_window": [
+          7,
+          10
+        ],
+        "clause": [
+          1056,
+          1214,
+          1067,
+          1225
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          9,
+          10
+        ],
+        "first_window": [
+          8,
+          11
+        ],
+        "second_window": [
+          9,
+          12
+        ],
+        "clause": [
+          1056,
+          1214,
+          1069,
+          1227
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          9,
+          10
+        ],
+        "first_window": [
+          9,
+          12
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1057,
+          1215,
+          1068,
+          1226
+        ],
+        "proof_used": true
+      },
+      {
+        "wires": [
+          10,
+          11
+        ],
+        "first_window": [
+          9,
+          12
+        ],
+        "second_window": [
+          8,
+          11
+        ],
+        "clause": [
+          1069,
+          1227,
+          1080,
+          1238
+        ],
+        "proof_used": true
+      }
+    ],
+    "original_clauses": 317027,
+    "core_clauses": 53080,
+    "input_sha256": "6698b4e6b5396b62a66af8aac3c319c43a635cacb3699faf61a4d08f7e528df1",
+    "note": "Proof tracing only. This is neither deletion minimization nor a hand proof of the prefix obstruction."
+  }
+]

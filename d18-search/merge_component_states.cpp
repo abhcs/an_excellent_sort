@@ -1,6 +1,7 @@
 // Find nine-real restrictions whose retained interaction components pack
 // into forbidden merger blocks: '432', 'both' (432 or333), or 'max4'
-// (also441, hence every interaction component has size at most four).
+// (also441, hence every interaction component has size at most four),
+// or 'three' (at least three components; additional small SAT premises).
 // No SAT; witnesses are checked independently.
 #include <algorithm>
 #include <array>
@@ -15,6 +16,7 @@ int main(int argc,char**argv){
     if(argc<2||argc>4)return 2;
     bool both=argc>=3&&string(argv[2])=="both";
     bool max4=argc>=3&&string(argv[2])=="max4";
+    bool three=argc>=3&&string(argv[2])=="three";
     bool all=argc>=4&&string(argv[3])=="all";
     ifstream in(argv[1]);int n,d;in>>n>>d;
     if(n<9||n>24||d<1)return 3;
@@ -44,9 +46,9 @@ int main(int argc,char**argv){
             if(values[a]==0&&values[b]==0){
                 int x=root(labels[a]),y=root(labels[b]);
                 if(x!=y){parent[y]=x;size[x]+=size[y];size[y]=0;}
-                int fours=0,threes=0;bool bad=false;
-                for(int s:size){bad|=s>4;fours+=s==4;threes+=s==3;}
-                if(bad||(!max4&&fours>=2)||(!max4&&!both&&threes>=3)){++rejected[t];return;}
+                int fours=0,threes=0,components=0;bool bad=false;
+                for(int s:size){bad|=s>4;fours+=s==4;threes+=s==3;components+=s>0;}
+                if(three ? components<3 : (bad||(!max4&&fours>=2)||(!max4&&!both&&threes>=3))){++rejected[t];return;}
             }else if(values[a]>values[b]){
                 swap(values[a],values[b]);swap(labels[a],labels[b]);
             }
@@ -79,7 +81,7 @@ int main(int argc,char**argv){
     generate(0,0);
     auto vec=[&](const auto&xs){cout<<'[';bool first=true;for(auto x:xs){if(!first)cout<<',';first=false;cout<<x;}cout<<']';};
     cout<<"{\"n\":"<<n<<",\"cut\":"<<d<<",\"reals\":9,\"normalized_placements\":"<<placements
-        <<",\"accepted_placements\":"<<accepted<<",\"criterion\":\""<<(max4?"max-component-4":both?"432-or-333":"432")
+        <<",\"accepted_placements\":"<<accepted<<",\"criterion\":\""<<(three?"at-least-three-components":max4?"max-component-4":both?"432-or-333":"432")
         <<"\",\"all_unique_states_stored\":"<<(all?"true":"false")<<",\"rejected_by_layer\":";vec(rejected);
     cout<<",\"witnesses\":[";
     bool first=true;

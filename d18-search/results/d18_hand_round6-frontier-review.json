@@ -1,0 +1,73 @@
+{
+  "status": "REVIEWED_SOUND_FOR_TESTED_CALLS",
+  "uses_sat": false,
+  "proof_check_rerun": false,
+  "records": [
+    {
+      "kind": "one-next-layer",
+      "case": "beam00",
+      "exact_cnf_match": true,
+      "clauses": 3165,
+      "source_sha256": "da0585b598711dab966deda5059823f681a23d1ff1897c363c10b850132cd71d",
+      "existing_drat_check_verified": true
+    },
+    {
+      "kind": "three-free-cut-layers",
+      "case": "beam00",
+      "checked_cnf_prefix_clauses": 13904,
+      "combined_clause_start": 11338,
+      "combined_clauses": 2566,
+      "combined_translation_matches_actual_cnf": true,
+      "combined_input_sha256": "a3383b0aee4ce56343e2c1d494147c6fa4a1429bd6eb7359f7258b27fedd7191",
+      "combined_encoder_sha256": "dba6165bd4a6bc0c590d6163ddc0048fc481eb97d882a5187390a4d575e53073",
+      "source_sha256": "b37a19b2c15e3c95f63885f41173a255e25d8de383b56f1ef5d87cbc18ad5ef4",
+      "existing_drat_check_verified": true
+    },
+    {
+      "kind": "one-next-layer",
+      "case": "beam16",
+      "exact_cnf_match": true,
+      "clauses": 3275,
+      "source_sha256": "da0585b598711dab966deda5059823f681a23d1ff1897c363c10b850132cd71d",
+      "existing_drat_check_verified": true
+    },
+    {
+      "kind": "three-free-cut-layers",
+      "case": "beam16",
+      "checked_cnf_prefix_clauses": 13919,
+      "combined_clause_start": 11338,
+      "combined_clauses": 2581,
+      "combined_translation_matches_actual_cnf": true,
+      "combined_input_sha256": "3ccfd69651249f5351f3687d72742743851b72f7d19420aa9008c3aba004e6e5",
+      "combined_encoder_sha256": "dba6165bd4a6bc0c590d6163ddc0048fc481eb97d882a5187390a4d575e53073",
+      "source_sha256": "b37a19b2c15e3c95f63885f41173a255e25d8de383b56f1ef5d87cbc18ad5ef4",
+      "existing_drat_check_verified": true
+    },
+    {
+      "kind": "one-next-layer",
+      "case": "beam32",
+      "exact_cnf_match": true,
+      "clauses": 3217,
+      "source_sha256": "da0585b598711dab966deda5059823f681a23d1ff1897c363c10b850132cd71d",
+      "existing_drat_check_verified": true
+    },
+    {
+      "kind": "three-free-cut-layers",
+      "case": "beam32",
+      "checked_cnf_prefix_clauses": 14768,
+      "combined_clause_start": 11338,
+      "combined_clauses": 3430,
+      "combined_translation_matches_actual_cnf": true,
+      "combined_input_sha256": "0dc5362922dbd69b4a9e4ac04d1e2d2ab20620491f4830829b32f0fab6294fe2",
+      "combined_encoder_sha256": "dba6165bd4a6bc0c590d6163ddc0048fc481eb97d882a5187390a4d575e53073",
+      "source_sha256": "b37a19b2c15e3c95f63885f41173a255e25d8de383b56f1ef5d87cbc18ad5ef4",
+      "existing_drat_check_verified": true
+    }
+  ],
+  "preconditions": [
+    "Saturated-cone parity requires at least one layer after the cut.",
+    "Imported combined conditions require depth=len(prefix)+5."
+  ],
+  "provenance_note": "Original worker sources are preserved as recorded_*.py alongside their dependencies; this review supplies combined hashes omitted by those manifests. Current workers enforce both preconditions and record the combined hashes.",
+  "source_sha256": "dd7f39397384f0baec5ed07edf5f0c1d77e493a04b3bbc5e3bde1fa8d421e6a3"
+}

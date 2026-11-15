@@ -1,0 +1,290 @@
+{
+  "status": "VERIFIED",
+  "records": [
+    {
+      "case": "beam00",
+      "status": "VERIFIED",
+      "layer6": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          11
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          16,
+          17
+        ]
+      ],
+      "full_cut6_collections": [
+        {
+          "n": 18,
+          "cut": 6,
+          "reals": 7,
+          "normalize": 1,
+          "normalized_placements": 1538352,
+          "accepted_placements": 0,
+          "repeats_removed_in_accepted": 0,
+          "states": [],
+          "terminal": "EXITED",
+          "returncode": 0,
+          "wall_cap_seconds": 20,
+          "seconds": 0.5145762079628184
+        },
+        {
+          "n": 18,
+          "cut": 6,
+          "reals": 8,
+          "normalize": 1,
+          "normalized_placements": 1135242,
+          "accepted_placements": 0,
+          "repeats_removed_in_accepted": 0,
+          "states": [],
+          "terminal": "EXITED",
+          "returncode": 0,
+          "wall_cap_seconds": 20,
+          "seconds": 0.3408959999214858
+        },
+        {
+          "n": 18,
+          "cut": 6,
+          "reals": 9,
+          "normalized_placements": 710828,
+          "accepted_placements": 0,
+          "criterion": "at-least-three-components",
+          "all_unique_states_stored": true,
+          "rejected_by_layer": [
+            0,
+            2430,
+            23166,
+            566234,
+            107054,
+            11944
+          ],
+          "witnesses": [],
+          "terminal": "EXITED",
+          "returncode": 0,
+          "wall_cap_seconds": 20,
+          "seconds": 0.14604283403605223
+        }
+      ],
+      "input_sha256": "a3383b0aee4ce56343e2c1d494147c6fa4a1429bd6eb7359f7258b27fedd7191",
+      "result_sha256": "96fd1be8d8527b80cdc8d278c6514f0cda5ffdaaf84f4ee7e58071cdc1898b2d"
+    },
+    {
+      "case": "beam16",
+      "status": "VERIFIED",
+      "layer6": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          7,
+          14
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          16,
+          17
+        ]
+      ],
+      "full_cut6_collections": [
+        {
+          "n": 18,
+          "cut": 6,
+          "reals": 7,
+          "normalize": 1,
+          "normalized_placements": 1538352,
+          "accepted_placements": 0,
+          "repeats_removed_in_accepted": 0,
+          "states": [],
+          "terminal": "EXITED",
+          "returncode": 0,
+          "wall_cap_seconds": 20,
+          "seconds": 0.4024997499072924
+        },
+        {
+          "n": 18,
+          "cut": 6,
+          "reals": 8,
+          "normalize": 1,
+          "normalized_placements": 1135242,
+          "accepted_placements": 0,
+          "repeats_removed_in_accepted": 0,
+          "states": [],
+          "terminal": "EXITED",
+          "returncode": 0,
+          "wall_cap_seconds": 20,
+          "seconds": 0.3298186659812927
+        },
+        {
+          "n": 18,
+          "cut": 6,
+          "reals": 9,
+          "normalized_placements": 710828,
+          "accepted_placements": 0,
+          "criterion": "at-least-three-components",
+          "all_unique_states_stored": true,
+          "rejected_by_layer": [
+            0,
+            2430,
+            23166,
+            406648,
+            254832,
+            23752
+          ],
+          "witnesses": [],
+          "terminal": "EXITED",
+          "returncode": 0,
+          "wall_cap_seconds": 20,
+          "seconds": 0.1487978749210015
+        }
+      ],
+      "input_sha256": "3ccfd69651249f5351f3687d72742743851b72f7d19420aa9008c3aba004e6e5",
+      "result_sha256": "65a1b680eed835d17562984ec9a081ecfe7f04d6f65e7569bd08d5ece7075380"
+    },
+    {
+      "case": "beam32",
+      "status": "VERIFIED",
+      "layer6": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          10,
+          14
+        ],
+        [
+          11,
+          15
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          16,
+          17
+        ]
+      ],
+      "full_cut6_collections": [
+        {
+          "n": 18,
+          "cut": 6,
+          "reals": 7,
+          "normalize": 1,
+          "normalized_placements": 1538352,
+          "accepted_placements": 0,
+          "repeats_removed_in_accepted": 0,
+          "states": [],
+          "terminal": "EXITED",
+          "returncode": 0,
+          "wall_cap_seconds": 20,
+          "seconds": 0.4075393748935312
+        },
+        {
+          "n": 18,
+          "cut": 6,
+          "reals": 8,
+          "normalize": 1,
+          "normalized_placements": 1135242,
+          "accepted_placements": 0,
+          "repeats_removed_in_accepted": 0,
+          "states": [],
+          "terminal": "EXITED",
+          "returncode": 0,
+          "wall_cap_seconds": 20,
+          "seconds": 0.3373094159178436
+        },
+        {
+          "n": 18,
+          "cut": 6,
+          "reals": 9,
+          "normalized_placements": 710828,
+          "accepted_placements": 0,
+          "criterion": "at-least-three-components",
+          "all_unique_states_stored": true,
+          "rejected_by_layer": [
+            0,
+            2430,
+            23166,
+            566234,
+            100130,
+            18868
+          ],
+          "witnesses": [],
+          "terminal": "EXITED",
+          "returncode": 0,
+          "wall_cap_seconds": 20,
+          "seconds": 0.1481436250032857
+        }
+      ],
+      "input_sha256": "0dc5362922dbd69b4a9e4ac04d1e2d2ab20620491f4830829b32f0fab6294fe2",
+      "result_sha256": "6c5c7e889545364d17365e72d40c6063ccb7aa5e1cf409fd3213f34fba584a27"
+    }
+  ],
+  "seconds": 3.3063048330368474,
+  "uses_sat": false,
+  "source_sha256": "7ab666a678f0c99eb56ced9f6dffd8610c128aa8d040e574ffc8150b88666f7e",
+  "rescheduling_collector_sha256": "ed0b0e807aa4d7cccde9cd42299e82b0cf32e819f153e0c5bb00ba90b4a0ad22",
+  "component_collector_sha256": "95158811250b65a4726ccf85636b1a4b41cc58870bdca54d448c2a1bd296c517"
+}

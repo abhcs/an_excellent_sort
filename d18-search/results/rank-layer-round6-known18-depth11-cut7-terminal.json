@@ -1,0 +1,8 @@
+{
+  "terminal": "EXITED",
+  "returncode": 0,
+  "seconds": 0.3529421250568703,
+  "stdout": "{\"universe_size\": 128, \"variables\": 171, \"clauses\": 3863, \"width_forbidden_actions\": 0, \"parity_clauses\": 1091, \"cap\": 8, \"status\": \"SURVIVOR\", \"n\": 18, \"remaining_after_next\": 3, \"seed_sha256\": \"f7e82000b2df39cb7079bb573e0eb02acd85c7b2735354ebd13391cd9a555de2\", \"source_sha256\": \"da0585b598711dab966deda5059823f681a23d1ff1897c363c10b850132cd71d\", \"dependencies_sha256\": {\"endpoint_cegar.py\": \"22768b03673525e930c722acde18c6d4c77049a0e1e6f16615801908b1e39aa1\", \"netsat.py\": \"960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3\"}, \"scope\": \"All next matching layers for a fixed prefix; rank bounds and saturated-cone parity only\", \"seconds\": 0.2862148330314085, \"next_layer\": [[1, 2], [3, 5], [4, 6], [7, 9], [8, 10], [11, 13], [12, 14], [15, 16]]}\n",
+  "stderr": "",
+  "wall_limit_seconds": 20
+}

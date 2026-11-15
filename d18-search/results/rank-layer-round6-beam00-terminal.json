@@ -1,0 +1,8 @@
+{
+  "terminal": "EXITED",
+  "returncode": 0,
+  "seconds": 0.22967054194305092,
+  "stdout": "{\"universe_size\": 182, \"variables\": 171, \"clauses\": 3165, \"width_forbidden_actions\": 120, \"parity_clauses\": 273, \"cap\": 8, \"status\": \"UNSAT_UNCHECKED\", \"n\": 18, \"remaining_after_next\": 3, \"seed_sha256\": \"af4d3973515d824ede4c1f87e164fb6eb87deed324ace6cc3574c8a1069f6506\", \"source_sha256\": \"da0585b598711dab966deda5059823f681a23d1ff1897c363c10b850132cd71d\", \"dependencies_sha256\": {\"endpoint_cegar.py\": \"22768b03673525e930c722acde18c6d4c77049a0e1e6f16615801908b1e39aa1\", \"netsat.py\": \"960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3\"}, \"scope\": \"All next matching layers for a fixed prefix; rank bounds and saturated-cone parity only\", \"seconds\": 0.14084833406377584, \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/rank-layer-round6-beam00\", \"cnf_sha256\": \"3010f1c89efb6ee455576a8454729a0e89e95ecd5da4ae8a296dadf6fd63491c\", \"proof_sha256\": \"8fcfdcfa7ef07f90680775fa61ba3aca4b277c7779917aa6c1ce123dd2afd791\"}\n",
+  "stderr": "",
+  "wall_limit_seconds": 20
+}

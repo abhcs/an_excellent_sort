@@ -1,0 +1,6 @@
+{
+  "status": "NO_THREE_COLUMN_SURVIVOR",
+  "tested": 120,
+  "seconds": 0.4263,
+  "scope": "Static final-matching feedback; no full case606 conclusion"
+}

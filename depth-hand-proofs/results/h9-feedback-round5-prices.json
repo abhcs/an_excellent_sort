@@ -1,0 +1,38 @@
+{
+  "status": "DISCOVERY_ONLY",
+  "records": [
+    {
+      "case": 7,
+      "status": "sat",
+      "timeout_ms": 1500,
+      "prices": [
+        0,
+        0,
+        2,
+        1,
+        8,
+        0,
+        0,
+        5,
+        5
+      ],
+      "weights": [
+        3,
+        2,
+        2,
+        2,
+        4,
+        3,
+        1,
+        1
+      ],
+      "gate": 2
+    },
+    {
+      "case": 9,
+      "status": "unsat",
+      "timeout_ms": 1500
+    }
+  ],
+  "elapsed_seconds": 0.028015083982609212
+}

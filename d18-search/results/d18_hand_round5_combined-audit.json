@@ -1,0 +1,32 @@
+[
+  {
+    "terminal": "EXITED",
+    "returncode": 0,
+    "stdout": "{\"status\": \"SURVIVOR\", \"case\": \"beam00\", \"scope\": \"One common L6: all stored normalized R7/R8 rescheduling demands and all R9 three-component cuts\", \"rescheduling_groups\": 40, \"component_groups\": 78, \"component_states\": 76, \"variables\": 271, \"clauses\": 2566, \"source_sha256\": \"914e9e35192aa95a1c8f26d968a3b0357e8e44a80b910a8ba0ff2afeae7144ba\", \"input_sha256\": \"a3383b0aee4ce56343e2c1d494147c6fa4a1429bd6eb7359f7258b27fedd7191\", \"layer6\": [[1, 4], [2, 11], [3, 10], [5, 6], [7, 9], [12, 13], [14, 15], [16, 17]], \"direct_replay\": {\"rescheduling_demands\": 40, \"binary_normalization_replays\": 6144, \"component_states\": 76, \"component_cuts\": 78}, \"seconds\": 0.029466292005963624}\n",
+    "stderr": "",
+    "wall_cap_seconds": 30,
+    "seconds": 0.10111374990083277,
+    "case": "beam00",
+    "result_status": "SURVIVOR"
+  },
+  {
+    "terminal": "EXITED",
+    "returncode": 0,
+    "stdout": "{\"status\": \"SURVIVOR\", \"case\": \"beam16\", \"scope\": \"One common L6: all stored normalized R7/R8 rescheduling demands and all R9 three-component cuts\", \"rescheduling_groups\": 23, \"component_groups\": 110, \"component_states\": 84, \"variables\": 286, \"clauses\": 2581, \"source_sha256\": \"914e9e35192aa95a1c8f26d968a3b0357e8e44a80b910a8ba0ff2afeae7144ba\", \"input_sha256\": \"3ccfd69651249f5351f3687d72742743851b72f7d19420aa9008c3aba004e6e5\", \"layer6\": [[1, 2], [3, 8], [4, 6], [5, 15], [7, 14], [10, 11], [12, 13], [16, 17]], \"direct_replay\": {\"rescheduling_demands\": 23, \"binary_normalization_replays\": 3328, \"component_states\": 84, \"component_cuts\": 110}, \"seconds\": 0.018312874948605895}\n",
+    "stderr": "",
+    "wall_cap_seconds": 30,
+    "seconds": 0.08835212502162904,
+    "case": "beam16",
+    "result_status": "SURVIVOR"
+  },
+  {
+    "terminal": "EXITED",
+    "returncode": 0,
+    "stdout": "{\"status\": \"SURVIVOR\", \"case\": \"beam32\", \"scope\": \"One common L6: all stored normalized R7/R8 rescheduling demands and all R9 three-component cuts\", \"rescheduling_groups\": 108, \"component_groups\": 86, \"component_states\": 84, \"variables\": 863, \"clauses\": 3430, \"source_sha256\": \"914e9e35192aa95a1c8f26d968a3b0357e8e44a80b910a8ba0ff2afeae7144ba\", \"input_sha256\": \"0dc5362922dbd69b4a9e4ac04d1e2d2ab20620491f4830829b32f0fab6294fe2\", \"layer6\": [[0, 1], [2, 8], [3, 7], [4, 5], [6, 9], [10, 14], [11, 15], [12, 13], [16, 17]], \"direct_replay\": {\"rescheduling_demands\": 108, \"binary_normalization_replays\": 15872, \"component_states\": 84, \"component_cuts\": 86}, \"seconds\": 0.07011183293070644}\n",
+    "stderr": "",
+    "wall_cap_seconds": 30,
+    "seconds": 0.14416845911182463,
+    "case": "beam32",
+    "result_status": "SURVIVOR"
+  }
+]

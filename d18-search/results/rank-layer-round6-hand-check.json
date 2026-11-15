@@ -1,0 +1,12 @@
+{
+  "status": "VERIFIED",
+  "sat_used": false,
+  "explicit_input_permutations": 69,
+  "width_exclusions": 68,
+  "odd_cone_pairs": 2,
+  "direct_prefix_runs": 144,
+  "certificate_sha256": "3d662a0b4ee885426c51ae7109cb5fc57f9818f4d9e684e1dc0612afaf8ff787",
+  "tables_sha256": "a8ba30c037a6f5f5d28541fc3e76d45b8f72c9b7aa9a1b21c9a0d0c0351c91d7",
+  "checker_sha256": "5293542669895a8da41e4e9fa172c13c49d2367835245ed3c033296013b0f3bd",
+  "scope": "Concrete six-prefix hand certificates; no search over continuations"
+}

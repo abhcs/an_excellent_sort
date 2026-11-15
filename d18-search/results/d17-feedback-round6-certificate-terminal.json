@@ -1,0 +1,18 @@
+[
+  {
+    "phase": "generate",
+    "status": "COMPLETED",
+    "returncode": 0,
+    "seconds": 0.1998,
+    "wall_limit_seconds": 30,
+    "process_terminal": true
+  },
+  {
+    "phase": "check",
+    "status": "COMPLETED",
+    "returncode": 0,
+    "seconds": 0.1451,
+    "wall_limit_seconds": 30,
+    "process_terminal": true
+  }
+]

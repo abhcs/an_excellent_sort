@@ -1,0 +1,53 @@
+{
+  "status": "SURVIVOR",
+  "case": "beam00",
+  "scope": "One common L6: all stored normalized R7/R8 rescheduling demands and all R9 three-component cuts",
+  "rescheduling_groups": 40,
+  "component_groups": 78,
+  "component_states": 76,
+  "variables": 271,
+  "clauses": 2566,
+  "source_sha256": "914e9e35192aa95a1c8f26d968a3b0357e8e44a80b910a8ba0ff2afeae7144ba",
+  "input_sha256": "a3383b0aee4ce56343e2c1d494147c6fa4a1429bd6eb7359f7258b27fedd7191",
+  "layer6": [
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      11
+    ],
+    [
+      3,
+      10
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "direct_replay": {
+    "rescheduling_demands": 40,
+    "binary_normalization_replays": 6144,
+    "component_states": 76,
+    "component_cuts": 78
+  },
+  "seconds": 0.029466292005963624
+}

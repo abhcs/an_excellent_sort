@@ -1,0 +1,8 @@
+{
+  "terminal": "EXITED",
+  "returncode": 0,
+  "stdout": "{\"case_id\": \"n13-r0114\", \"depth\": 8, \"cut\": 6, \"mode\": \"wire\", \"inputs\": 720, \"wires\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], \"ranks\": [], \"variables\": 22802, \"clauses\": 320529, \"original_window_cost\": 38589, \"window_cost\": 24669, \"scope\": \"All four-layer continuations of this complete-cover prefix; cut6 intervals and exact four-cone parity\", \"parity_clauses\": 222, \"source_sha256\": \"ac3092329478c1640f703b15c3827b407191dd1218bf99d4ef7d912f63b2e680\", \"cover_sha256\": \"2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406\", \"status\": \"BUILT\", \"independently_proof_checked\": false, \"build_seconds\": 0.2972698340890929}\nUNSAT 13.145098624983802\n",
+  "stderr": "",
+  "seconds": 13.220030999975279,
+  "wall_cap_seconds": 30
+}

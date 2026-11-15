@@ -1,0 +1,60 @@
+{
+  "status": "REVIEWED_SOUND",
+  "uses_sat": false,
+  "exact_twenty_state_family_verified": true,
+  "aa_incomparable_pairs": [
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "mixed_idle_pairs_full_family": 12,
+  "mixed_idle_pairs_selected_family": 10,
+  "selected_only_comparable_pairs": [
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      6
+    ]
+  ],
+  "four_coordinate_antichains": 6,
+  "all_contain_critical_d": true,
+  "full_rows_with_distinct_path_coordinates": 5698,
+  "cross_metadata_records_checked": 1584,
+  "independent_checker_replay": {
+    "status": "VERIFIED",
+    "sat_used": false,
+    "certificate_sha256": "1d5b34c2cd2f6cc9a36f26aa44aac5ba7894e1ddc452381d6c3f830d1ee808fa",
+    "checker_sha256": "1bb34d5fc15796ee04ddee6769b3acc61d5290bc6d90f5d5720f8b3986b71f6f",
+    "input_sha256": "168d10b515cdc3552264089fa1b5eeaefd8ed635dc1630e5d53973abe44f6372",
+    "case_counts": {
+      "(12, 2)": 720,
+      "(14, 3)": 480,
+      "(12, 4)": 240,
+      "(14, 2)": 144
+    },
+    "canonical_cases": 1584,
+    "branches": 9504,
+    "forced_steps": 5109,
+    "max_forced_per_branch": 1,
+    "qab_column_inference_uses": 10128,
+    "seconds": 0.1023,
+    "finite_verification_is_a_premise": true,
+    "complete_pure_hand_classification": false
+  },
+  "substantive_gaps": [],
+  "prose_note": "Section2 should say every USED A vertex other than C has unchanged status; D changes status but is idle.",
+  "checker_hardening_note": "The review explicitly checked four distinct path coordinates and cross-count metadata for the actual certificate.",
+  "finite_certificate_remains_a_premise": true,
+  "source_sha256": "2c24edc57aa73dfc6cfe20582fb2fbe436a079914404111e90fe073df19c0176",
+  "reduction_sha256": "b936b2d387c5b793f0bbce199e36c1b04c3364a6bc33c14e1404ba0edf682a05",
+  "certificate_sha256": "1d5b34c2cd2f6cc9a36f26aa44aac5ba7894e1ddc452381d6c3f830d1ee808fa",
+  "input_sha256": "168d10b515cdc3552264089fa1b5eeaefd8ed635dc1630e5d53973abe44f6372"
+}

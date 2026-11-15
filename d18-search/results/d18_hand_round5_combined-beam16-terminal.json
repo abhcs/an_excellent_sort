@@ -1,0 +1,10 @@
+{
+  "terminal": "EXITED",
+  "returncode": 0,
+  "stdout": "{\"status\": \"SURVIVOR\", \"case\": \"beam16\", \"scope\": \"One common L6: all stored normalized R7/R8 rescheduling demands and all R9 three-component cuts\", \"rescheduling_groups\": 23, \"component_groups\": 110, \"component_states\": 84, \"variables\": 286, \"clauses\": 2581, \"source_sha256\": \"914e9e35192aa95a1c8f26d968a3b0357e8e44a80b910a8ba0ff2afeae7144ba\", \"input_sha256\": \"3ccfd69651249f5351f3687d72742743851b72f7d19420aa9008c3aba004e6e5\", \"layer6\": [[1, 2], [3, 8], [4, 6], [5, 15], [7, 14], [10, 11], [12, 13], [16, 17]], \"direct_replay\": {\"rescheduling_demands\": 23, \"binary_normalization_replays\": 3328, \"component_states\": 84, \"component_cuts\": 110}, \"seconds\": 0.018312874948605895}\n",
+  "stderr": "",
+  "wall_cap_seconds": 30,
+  "seconds": 0.08835212502162904,
+  "case": "beam16",
+  "result_status": "SURVIVOR"
+}

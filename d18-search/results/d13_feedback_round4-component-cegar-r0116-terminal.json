@@ -1,0 +1,8 @@
+{
+  "terminal": "EXITED",
+  "returncode": 0,
+  "wall_cap_seconds": 60,
+  "seconds": 0.3998539160238579,
+  "stdout": "{\"status\": \"SURVIVOR\", \"case_id\": \"n13-r0116\", \"scope\": \"All common L3,L4; seven-real profiles, five-real blind condition, every nine-real restriction has at most two interaction components\", \"cover_sha256\": \"2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406\", \"source_sha256\": \"0aec0e1f4fc0d11a4d68481d3d82f663e361ff40eeca57f6e034051ccf329036\", \"family_sizes\": {\"5\": 700, \"7\": 8}, \"nine_real_placements\": 11440, \"independently_proof_checked\": false, \"seconds\": 0.33297225006390363, \"variables\": 4262, \"clauses\": 25570, \"component_cut_count\": 25, \"next_layers\": [[[0, 1], [2, 3], [4, 10], [5, 6], [8, 9], [11, 12]], [[0, 10], [1, 12], [2, 6], [3, 7], [5, 9], [8, 11]]]}\n",
+  "stderr": ""
+}

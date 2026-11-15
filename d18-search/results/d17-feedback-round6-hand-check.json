@@ -1,0 +1,15 @@
+{
+  "status": "VERIFIED",
+  "sat_used": false,
+  "aa_idle_cases": 2100,
+  "aa_row_signatures": {
+    "ordinary": 1860,
+    "single_transfer": 240
+  },
+  "mixed_canonical_full_row_checks": 1584,
+  "three_column_covers_checked": 6,
+  "input_sha256": "168d10b515cdc3552264089fa1b5eeaefd8ed635dc1630e5d53973abe44f6372",
+  "source_sha256": "1d27d4d0480afe8454227234b605398d5662cee7b77426a3cb72095cf277b5ea",
+  "seconds": 0.0505,
+  "scope": "Corroboration only; does not replace the hand normalization proof or finite core premise"
+}

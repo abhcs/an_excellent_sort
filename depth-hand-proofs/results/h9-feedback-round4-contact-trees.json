@@ -1,0 +1,2283 @@
+[
+  {
+    "case": 2,
+    "number": 1,
+    "fourth": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "pivot": [
+      0,
+      1
+    ],
+    "pivot_rows": [
+      2,
+      4,
+      14,
+      20,
+      26,
+      28,
+      29
+    ],
+    "branches": [
+      {
+        "partners": [
+          3,
+          5
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 23
+        }
+      },
+      {
+        "partners": [
+          4,
+          5
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 10
+        }
+      },
+      {
+        "partners": [
+          4,
+          8
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 17
+        }
+      },
+      {
+        "partners": [
+          5,
+          3
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 23
+        }
+      },
+      {
+        "partners": [
+          5,
+          4
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 10
+        }
+      },
+      {
+        "partners": [
+          8,
+          4
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 17
+        }
+      }
+    ],
+    "nodes": 6,
+    "states": 6
+  },
+  {
+    "case": 2,
+    "number": 2,
+    "fourth": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        7,
+        8
+      ]
+    ],
+    "pivot": [
+      0,
+      1
+    ],
+    "pivot_rows": [
+      2,
+      4,
+      14,
+      20,
+      26,
+      28,
+      29
+    ],
+    "branches": [
+      {
+        "partners": [
+          3,
+          5
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 23
+        }
+      },
+      {
+        "partners": [
+          4,
+          5
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 10
+        }
+      },
+      {
+        "partners": [
+          4,
+          7
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 17
+        }
+      },
+      {
+        "partners": [
+          5,
+          3
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 23
+        }
+      },
+      {
+        "partners": [
+          5,
+          4
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 10
+        }
+      },
+      {
+        "partners": [
+          7,
+          4
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 17
+        }
+      }
+    ],
+    "nodes": 6,
+    "states": 6
+  },
+  {
+    "case": 4,
+    "number": 1,
+    "fourth": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        8
+      ]
+    ],
+    "pivot": [
+      5,
+      8
+    ],
+    "pivot_rows": [
+      1,
+      5,
+      12,
+      17,
+      21
+    ],
+    "branches": [
+      {
+        "partners": [
+          0,
+          2
+        ],
+        "proof": {
+          "forced": [
+            [
+              13,
+              [
+                1,
+                4
+              ]
+            ]
+          ],
+          "empty": 19
+        }
+      },
+      {
+        "partners": [
+          1,
+          2
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 6
+        }
+      },
+      {
+        "partners": [
+          1,
+          4
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 11
+        }
+      },
+      {
+        "partners": [
+          1,
+          6
+        ],
+        "proof": {
+          "forced": [
+            [
+              19,
+              [
+                2,
+                4
+              ]
+            ],
+            [
+              3,
+              [
+                0,
+                3
+              ]
+            ]
+          ],
+          "template": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              6,
+              8
+            ]
+          ],
+          "idle": []
+        }
+      },
+      {
+        "partners": [
+          2,
+          0
+        ],
+        "proof": {
+          "forced": [
+            [
+              14,
+              [
+                1,
+                4
+              ]
+            ],
+            [
+              10,
+              [
+                3,
+                6
+              ]
+            ]
+          ],
+          "template": [
+            [
+              0,
+              8
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "idle": []
+        }
+      },
+      {
+        "partners": [
+          2,
+          1
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 6
+        }
+      },
+      {
+        "partners": [
+          2,
+          4
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 4
+        }
+      },
+      {
+        "partners": [
+          4,
+          1
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 11
+        }
+      },
+      {
+        "partners": [
+          4,
+          2
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 4
+        }
+      },
+      {
+        "partners": [
+          6,
+          1
+        ],
+        "proof": {
+          "forced": [],
+          "split": 2,
+          "children": [
+            {
+              "edge": [
+                0,
+                3
+              ],
+              "proof": {
+                "forced": [],
+                "empty": 14
+              }
+            },
+            {
+              "edge": [
+                0,
+                4
+              ],
+              "proof": {
+                "forced": [
+                  [
+                    6,
+                    [
+                      2,
+                      3
+                    ]
+                  ]
+                ],
+                "template": [
+                  [
+                    0,
+                    4
+                  ],
+                  [
+                    1,
+                    8
+                  ],
+                  [
+                    2,
+                    3
+                  ],
+                  [
+                    5,
+                    6
+                  ]
+                ],
+                "idle": []
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "nodes": 12,
+    "states": 12
+  },
+  {
+    "case": 6,
+    "number": 1,
+    "fourth": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "pivot": [
+      2,
+      3
+    ],
+    "pivot_rows": [
+      2,
+      5,
+      10,
+      18,
+      21
+    ],
+    "branches": [
+      {
+        "partners": [
+          1,
+          4
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 9
+        }
+      },
+      {
+        "partners": [
+          1,
+          5
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 7
+        }
+      },
+      {
+        "partners": [
+          1,
+          6
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 6
+        }
+      },
+      {
+        "partners": [
+          4,
+          1
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 9
+        }
+      },
+      {
+        "partners": [
+          4,
+          5
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 1
+        }
+      },
+      {
+        "partners": [
+          5,
+          1
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 7
+        }
+      },
+      {
+        "partners": [
+          5,
+          4
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 1
+        }
+      },
+      {
+        "partners": [
+          5,
+          6
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 1
+        }
+      },
+      {
+        "partners": [
+          6,
+          1
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 23
+        }
+      },
+      {
+        "partners": [
+          6,
+          5
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 1
+        }
+      }
+    ],
+    "nodes": 10,
+    "states": 10
+  },
+  {
+    "case": 6,
+    "number": 2,
+    "fourth": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        8
+      ]
+    ],
+    "pivot": [
+      2,
+      5
+    ],
+    "pivot_rows": [
+      2,
+      6,
+      10,
+      15
+    ],
+    "branches": [
+      {
+        "partners": [
+          null,
+          3
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 1
+        }
+      },
+      {
+        "partners": [
+          0,
+          3
+        ],
+        "proof": {
+          "forced": [
+            [
+              4,
+              [
+                1,
+                4
+              ]
+            ],
+            [
+              13,
+              [
+                6,
+                8
+              ]
+            ]
+          ],
+          "template": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              6,
+              8
+            ]
+          ],
+          "idle": []
+        }
+      },
+      {
+        "partners": [
+          1,
+          3
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 8
+        }
+      },
+      {
+        "partners": [
+          1,
+          4
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 9
+        }
+      },
+      {
+        "partners": [
+          1,
+          6
+        ],
+        "proof": {
+          "forced": [
+            [
+              18,
+              [
+                3,
+                4
+              ]
+            ]
+          ],
+          "empty": 4
+        }
+      },
+      {
+        "partners": [
+          3,
+          null
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 1
+        }
+      },
+      {
+        "partners": [
+          3,
+          0
+        ],
+        "proof": {
+          "forced": [],
+          "split": 7,
+          "children": [
+            {
+              "edge": [
+                1,
+                4
+              ],
+              "proof": {
+                "forced": [],
+                "empty": 9
+              }
+            },
+            {
+              "edge": [
+                1,
+                8
+              ],
+              "proof": {
+                "forced": [
+                  [
+                    9,
+                    [
+                      4,
+                      6
+                    ]
+                  ]
+                ],
+                "template": [
+                  [
+                    0,
+                    5
+                  ],
+                  [
+                    1,
+                    8
+                  ],
+                  [
+                    2,
+                    3
+                  ],
+                  [
+                    4,
+                    6
+                  ]
+                ],
+                "idle": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "partners": [
+          3,
+          1
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 8
+        }
+      },
+      {
+        "partners": [
+          3,
+          4
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 1
+        }
+      },
+      {
+        "partners": [
+          3,
+          6
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 1
+        }
+      },
+      {
+        "partners": [
+          3,
+          7
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 1
+        }
+      },
+      {
+        "partners": [
+          3,
+          8
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 1
+        }
+      },
+      {
+        "partners": [
+          4,
+          1
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 9
+        }
+      },
+      {
+        "partners": [
+          4,
+          3
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 1
+        }
+      },
+      {
+        "partners": [
+          6,
+          1
+        ],
+        "proof": {
+          "forced": [
+            [
+              9,
+              [
+                3,
+                4
+              ]
+            ]
+          ],
+          "template": [
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "idle": []
+        }
+      },
+      {
+        "partners": [
+          6,
+          3
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 1
+        }
+      },
+      {
+        "partners": [
+          7,
+          3
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 1
+        }
+      },
+      {
+        "partners": [
+          8,
+          3
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 1
+        }
+      }
+    ],
+    "nodes": 20,
+    "states": 20
+  },
+  {
+    "case": 6,
+    "number": 3,
+    "fourth": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        8
+      ]
+    ],
+    "pivot": [
+      3,
+      5
+    ],
+    "pivot_rows": [
+      2,
+      4,
+      5,
+      7,
+      8,
+      11,
+      17
+    ],
+    "branches": [
+      {
+        "partners": [
+          1,
+          4
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 6
+        }
+      },
+      {
+        "partners": [
+          1,
+          6
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 9
+        }
+      },
+      {
+        "partners": [
+          2,
+          4
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 1
+        }
+      },
+      {
+        "partners": [
+          2,
+          6
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 1
+        }
+      },
+      {
+        "partners": [
+          4,
+          1
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 6
+        }
+      },
+      {
+        "partners": [
+          4,
+          2
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 1
+        }
+      },
+      {
+        "partners": [
+          6,
+          1
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 9
+        }
+      },
+      {
+        "partners": [
+          6,
+          2
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 1
+        }
+      }
+    ],
+    "nodes": 8,
+    "states": 8
+  },
+  {
+    "case": 6,
+    "number": 4,
+    "fourth": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        6
+      ]
+    ],
+    "pivot": [
+      3,
+      5
+    ],
+    "pivot_rows": [
+      1,
+      3,
+      4,
+      6,
+      8,
+      14
+    ],
+    "branches": [
+      {
+        "partners": [
+          0,
+          4
+        ],
+        "proof": {
+          "forced": [
+            [
+              11,
+              [
+                1,
+                2
+              ]
+            ]
+          ],
+          "empty": 16
+        }
+      },
+      {
+        "partners": [
+          1,
+          4
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 2
+        }
+      },
+      {
+        "partners": [
+          2,
+          4
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 18
+        }
+      },
+      {
+        "partners": [
+          2,
+          6
+        ],
+        "proof": {
+          "forced": [
+            [
+              21,
+              [
+                1,
+                4
+              ]
+            ],
+            [
+              16,
+              [
+                0,
+                8
+              ]
+            ]
+          ],
+          "template": [
+            [
+              0,
+              8
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          "idle": []
+        }
+      },
+      {
+        "partners": [
+          2,
+          8
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 7
+        }
+      },
+      {
+        "partners": [
+          4,
+          0
+        ],
+        "proof": {
+          "forced": [
+            [
+              12,
+              [
+                1,
+                2
+              ]
+            ],
+            [
+              10,
+              [
+                6,
+                8
+              ]
+            ]
+          ],
+          "template": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              6,
+              8
+            ]
+          ],
+          "idle": []
+        }
+      },
+      {
+        "partners": [
+          4,
+          1
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 2
+        }
+      },
+      {
+        "partners": [
+          4,
+          2
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 18
+        }
+      },
+      {
+        "partners": [
+          6,
+          2
+        ],
+        "proof": {
+          "forced": [
+            [
+              10,
+              [
+                4,
+                8
+              ]
+            ],
+            [
+              11,
+              [
+                0,
+                1
+              ]
+            ]
+          ],
+          "template": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              8
+            ]
+          ],
+          "idle": []
+        }
+      },
+      {
+        "partners": [
+          8,
+          2
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 7
+        }
+      }
+    ],
+    "nodes": 10,
+    "states": 10
+  },
+  {
+    "case": 8,
+    "number": 1,
+    "fourth": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        3,
+        6
+      ]
+    ],
+    "pivot": [
+      3,
+      6
+    ],
+    "pivot_rows": [
+      4,
+      15,
+      17,
+      19,
+      20,
+      24,
+      26,
+      28
+    ],
+    "branches": [
+      {
+        "partners": [
+          2,
+          5
+        ],
+        "proof": {
+          "forced": [
+            [
+              3,
+              [
+                4,
+                8
+              ]
+            ]
+          ],
+          "empty": 1
+        }
+      },
+      {
+        "partners": [
+          2,
+          8
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 9
+        }
+      },
+      {
+        "partners": [
+          4,
+          8
+        ],
+        "proof": {
+          "forced": [
+            [
+              12,
+              [
+                1,
+                2
+              ]
+            ]
+          ],
+          "empty": 23
+        }
+      },
+      {
+        "partners": [
+          5,
+          2
+        ],
+        "proof": {
+          "forced": [
+            [
+              3,
+              [
+                4,
+                8
+              ]
+            ]
+          ],
+          "empty": 6
+        }
+      },
+      {
+        "partners": [
+          8,
+          2
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 9
+        }
+      },
+      {
+        "partners": [
+          8,
+          4
+        ],
+        "proof": {
+          "forced": [
+            [
+              23,
+              [
+                2,
+                5
+              ]
+            ]
+          ],
+          "empty": 7
+        }
+      }
+    ],
+    "nodes": 6,
+    "states": 6
+  },
+  {
+    "case": 8,
+    "number": 2,
+    "fourth": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "pivot": [
+      3,
+      6
+    ],
+    "pivot_rows": [
+      4,
+      13,
+      15,
+      17,
+      21,
+      23,
+      25
+    ],
+    "branches": [
+      {
+        "partners": [
+          2,
+          5
+        ],
+        "proof": {
+          "forced": [
+            [
+              3,
+              [
+                4,
+                8
+              ]
+            ]
+          ],
+          "empty": 1
+        }
+      },
+      {
+        "partners": [
+          2,
+          8
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 7
+        }
+      },
+      {
+        "partners": [
+          4,
+          8
+        ],
+        "proof": {
+          "forced": [
+            [
+              10,
+              [
+                1,
+                2
+              ]
+            ]
+          ],
+          "empty": 20
+        }
+      },
+      {
+        "partners": [
+          5,
+          2
+        ],
+        "proof": {
+          "forced": [
+            [
+              3,
+              [
+                4,
+                8
+              ]
+            ]
+          ],
+          "empty": 5
+        }
+      },
+      {
+        "partners": [
+          8,
+          2
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 7
+        }
+      },
+      {
+        "partners": [
+          8,
+          4
+        ],
+        "proof": {
+          "forced": [
+            [
+              20,
+              [
+                2,
+                5
+              ]
+            ]
+          ],
+          "empty": 5
+        }
+      }
+    ],
+    "nodes": 6,
+    "states": 6
+  },
+  {
+    "case": 8,
+    "number": 3,
+    "fourth": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        7
+      ]
+    ],
+    "pivot": [
+      3,
+      6
+    ],
+    "pivot_rows": [
+      4,
+      13,
+      15,
+      17,
+      18,
+      22,
+      24,
+      26
+    ],
+    "branches": [
+      {
+        "partners": [
+          2,
+          5
+        ],
+        "proof": {
+          "forced": [
+            [
+              3,
+              [
+                4,
+                8
+              ]
+            ]
+          ],
+          "empty": 1
+        }
+      },
+      {
+        "partners": [
+          2,
+          8
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 7
+        }
+      },
+      {
+        "partners": [
+          4,
+          8
+        ],
+        "proof": {
+          "forced": [
+            [
+              10,
+              [
+                1,
+                2
+              ]
+            ]
+          ],
+          "empty": 21
+        }
+      },
+      {
+        "partners": [
+          5,
+          2
+        ],
+        "proof": {
+          "forced": [
+            [
+              3,
+              [
+                4,
+                8
+              ]
+            ]
+          ],
+          "empty": 5
+        }
+      },
+      {
+        "partners": [
+          8,
+          2
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 7
+        }
+      },
+      {
+        "partners": [
+          8,
+          4
+        ],
+        "proof": {
+          "forced": [
+            [
+              21,
+              [
+                2,
+                5
+              ]
+            ]
+          ],
+          "empty": 5
+        }
+      }
+    ],
+    "nodes": 6,
+    "states": 6
+  },
+  {
+    "case": 10,
+    "number": 1,
+    "fourth": [
+      [
+        0,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "pivot": [
+      6,
+      8
+    ],
+    "pivot_rows": [
+      4,
+      6,
+      8,
+      18,
+      26,
+      28,
+      30,
+      32
+    ],
+    "branches": [
+      {
+        "partners": [
+          1,
+          4
+        ],
+        "proof": {
+          "forced": [
+            [
+              14,
+              [
+                2,
+                3
+              ]
+            ]
+          ],
+          "empty": 31
+        }
+      },
+      {
+        "partners": [
+          2,
+          4
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 11
+        }
+      },
+      {
+        "partners": [
+          2,
+          5
+        ],
+        "proof": {
+          "forced": [
+            [
+              3,
+              [
+                1,
+                4
+              ]
+            ]
+          ],
+          "empty": 2
+        }
+      },
+      {
+        "partners": [
+          4,
+          1
+        ],
+        "proof": {
+          "forced": [
+            [
+              31,
+              [
+                2,
+                5
+              ]
+            ]
+          ],
+          "empty": 9
+        }
+      },
+      {
+        "partners": [
+          4,
+          2
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 11
+        }
+      },
+      {
+        "partners": [
+          5,
+          2
+        ],
+        "proof": {
+          "forced": [
+            [
+              3,
+              [
+                1,
+                4
+              ]
+            ]
+          ],
+          "empty": 9
+        }
+      }
+    ],
+    "nodes": 6,
+    "states": 6
+  },
+  {
+    "case": 10,
+    "number": 2,
+    "fourth": [
+      [
+        0,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "pivot": [
+      6,
+      8
+    ],
+    "pivot_rows": [
+      4,
+      6,
+      16,
+      20,
+      22,
+      24,
+      26
+    ],
+    "branches": [
+      {
+        "partners": [
+          1,
+          4
+        ],
+        "proof": {
+          "forced": [
+            [
+              12,
+              [
+                2,
+                3
+              ]
+            ]
+          ],
+          "empty": 25
+        }
+      },
+      {
+        "partners": [
+          2,
+          4
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 9
+        }
+      },
+      {
+        "partners": [
+          2,
+          5
+        ],
+        "proof": {
+          "forced": [
+            [
+              3,
+              [
+                1,
+                4
+              ]
+            ]
+          ],
+          "empty": 2
+        }
+      },
+      {
+        "partners": [
+          4,
+          1
+        ],
+        "proof": {
+          "forced": [
+            [
+              25,
+              [
+                2,
+                5
+              ]
+            ]
+          ],
+          "empty": 7
+        }
+      },
+      {
+        "partners": [
+          4,
+          2
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 9
+        }
+      },
+      {
+        "partners": [
+          5,
+          2
+        ],
+        "proof": {
+          "forced": [
+            [
+              3,
+              [
+                1,
+                4
+              ]
+            ]
+          ],
+          "empty": 7
+        }
+      }
+    ],
+    "nodes": 6,
+    "states": 6
+  },
+  {
+    "case": 14,
+    "number": 1,
+    "fourth": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        6
+      ]
+    ],
+    "pivot": [
+      4,
+      6
+    ],
+    "pivot_rows": [
+      3,
+      9,
+      11,
+      12,
+      21,
+      23,
+      27
+    ],
+    "branches": [
+      {
+        "partners": [
+          1,
+          8
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 5
+        }
+      },
+      {
+        "partners": [
+          2,
+          5
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 1
+        }
+      },
+      {
+        "partners": [
+          2,
+          8
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 2
+        }
+      },
+      {
+        "partners": [
+          3,
+          8
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 29
+        }
+      },
+      {
+        "partners": [
+          5,
+          2
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 1
+        }
+      },
+      {
+        "partners": [
+          8,
+          1
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 5
+        }
+      },
+      {
+        "partners": [
+          8,
+          2
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 2
+        }
+      },
+      {
+        "partners": [
+          8,
+          3
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 16
+        }
+      }
+    ],
+    "nodes": 8,
+    "states": 8
+  },
+  {
+    "case": 14,
+    "number": 2,
+    "fourth": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "pivot": [
+      6,
+      8
+    ],
+    "pivot_rows": [
+      2,
+      12,
+      14,
+      16,
+      18,
+      19
+    ],
+    "branches": [
+      {
+        "partners": [
+          1,
+          4
+        ],
+        "proof": {
+          "forced": [],
+          "split": 3,
+          "children": [
+            {
+              "edge": [
+                0,
+                2
+              ],
+              "proof": {
+                "forced": [
+                  [
+                    9,
+                    [
+                      3,
+                      5
+                    ]
+                  ]
+                ],
+                "empty": 20
+              }
+            },
+            {
+              "edge": [
+                2,
+                3
+              ],
+              "proof": {
+                "forced": [],
+                "empty": 10
+              }
+            }
+          ]
+        }
+      },
+      {
+        "partners": [
+          2,
+          3
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 10
+        }
+      },
+      {
+        "partners": [
+          2,
+          4
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 6
+        }
+      },
+      {
+        "partners": [
+          2,
+          5
+        ],
+        "proof": {
+          "forced": [
+            [
+              10,
+              [
+                3,
+                4
+              ]
+            ],
+            [
+              3,
+              [
+                0,
+                1
+              ]
+            ]
+          ],
+          "template": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              8
+            ]
+          ],
+          "idle": []
+        }
+      },
+      {
+        "partners": [
+          3,
+          2
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 10
+        }
+      },
+      {
+        "partners": [
+          3,
+          4
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 8
+        }
+      },
+      {
+        "partners": [
+          4,
+          1
+        ],
+        "proof": {
+          "forced": [
+            [
+              8,
+              [
+                2,
+                3
+              ]
+            ]
+          ],
+          "template": [
+            [
+              1,
+              8
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "idle": []
+        }
+      },
+      {
+        "partners": [
+          4,
+          2
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 6
+        }
+      },
+      {
+        "partners": [
+          4,
+          3
+        ],
+        "proof": {
+          "forced": [],
+          "empty": 8
+        }
+      },
+      {
+        "partners": [
+          5,
+          2
+        ],
+        "proof": {
+          "forced": [
+            [
+              21,
+              [
+                3,
+                4
+              ]
+            ]
+          ],
+          "empty": 8
+        }
+      }
+    ],
+    "nodes": 12,
+    "states": 12
+  }
+]

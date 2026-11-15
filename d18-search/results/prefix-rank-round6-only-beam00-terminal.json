@@ -1,0 +1,8 @@
+{
+  "terminal": "EXITED",
+  "returncode": 0,
+  "stdout": "{\"status\": \"BUILT\", \"n\": 18, \"depth\": 10, \"cut\": 8, \"cap\": 4, \"inputs\": 254, \"variables\": 7343, \"clauses\": 97276, \"parity_clauses\": 362, \"combined_clauses\": 0, \"source_sha256\": \"c3d92dd06ecb08c2fb1123e627dfb9f98069bfd0797e344917745b4db4f891e3\", \"seed_sha256\": \"5cc218e096d9d37e2d00f86c223bbff18f214b0c4e6df2d01aba3d0f8a2e6cf0\", \"cnf_sha256\": \"dd83373e2c161ad7ed2bf7c42ed72fdfabdb5614954191df66db9993681deb40\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-round6-only-beam00\", \"scope\": \"All continuations of the fixed prefix; cut interval widths and parity, optionally earlier profile/component conditions\", \"seconds\": 0.21425962506327778}\n{\"status\": \"UNSAT_UNCHECKED\", \"seconds\": 0.37089287501294166}\n",
+  "stderr": "",
+  "seconds": 0.4513128329999745,
+  "wall_cap_seconds": 30
+}

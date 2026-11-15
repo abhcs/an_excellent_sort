@@ -1,0 +1,21 @@
+{
+  "status": "VERIFIED",
+  "sat_used": false,
+  "certificate_sha256": "d2858a22247eb034280d6a510e139cc4aa4f68a6f5a367a207160d03343c45be",
+  "checker_sha256": "5dbf7552627904cdaa1b195e6b416e140df964eacd9a2926bc3ae47452b64773",
+  "input_sha256": "168d10b515cdc3552264089fa1b5eeaefd8ed635dc1630e5d53973abe44f6372",
+  "case_counts": {
+    "(12, 3)": 600,
+    "(14, 3)": 120,
+    "(14, 4)": 240,
+    "(12, 5)": 120
+  },
+  "canonical_cases": 1080,
+  "branches": 6480,
+  "forced_steps": 2001,
+  "max_forced_per_branch": 1,
+  "seconds": 0.0672,
+  "finite_verification_is_a_premise": true,
+  "complete_pure_hand_classification": false,
+  "conclusion": "Critical perfect first matching, >=3crosses, arbitrary even active width: excluded by hand normalization plus finite core certificate"
+}

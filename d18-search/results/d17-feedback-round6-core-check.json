@@ -1,0 +1,21 @@
+{
+  "status": "VERIFIED",
+  "sat_used": false,
+  "certificate_sha256": "1d5b34c2cd2f6cc9a36f26aa44aac5ba7894e1ddc452381d6c3f830d1ee808fa",
+  "checker_sha256": "1bb34d5fc15796ee04ddee6769b3acc61d5290bc6d90f5d5720f8b3986b71f6f",
+  "input_sha256": "168d10b515cdc3552264089fa1b5eeaefd8ed635dc1630e5d53973abe44f6372",
+  "case_counts": {
+    "(12, 2)": 720,
+    "(14, 3)": 480,
+    "(12, 4)": 240,
+    "(14, 2)": 144
+  },
+  "canonical_cases": 1584,
+  "branches": 9504,
+  "forced_steps": 5109,
+  "max_forced_per_branch": 1,
+  "qab_column_inference_uses": 10128,
+  "seconds": 0.1133,
+  "finite_verification_is_a_premise": true,
+  "complete_pure_hand_classification": false
+}

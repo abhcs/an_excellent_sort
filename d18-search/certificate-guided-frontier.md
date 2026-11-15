@@ -1,10 +1,11 @@
 # Structural conditions that actually eliminate D(13) prefix cases
 
-**Status, 2026-11-15:** two of the 117 complete-cover cases are excluded by
-structural probe conditions, with independently checked DRAT certificates.
-The necessary conditions have short hand proofs. Their applications to these
-two prefixes still use SAT; they are not new hand proofs of the cases.
-The other 115 cases are not closed by this audit. D(18) remains open here.
+**Status, 2026-11-15:** six of117 complete-cover D13 cases are excluded
+by structural conditions with independently checked DRAT certificates:
+0,1,58,114,115,116. The latest [rank-parity clauses](rank-parity-feedback.md)
+close cases1 and114 in20.03 and13.15 seconds. Their necessary conditions
+have hand proofs; the whole-prefix applications still use SAT. The other
+111 cases are not closed by this audit. D(18) remains open here.
 
 Subsequent work supplies [small hand certificates for a specified D13
 continuation](d13_hand_obstructions.md), three checked
@@ -12,7 +13,7 @@ continuation](d13_hand_obstructions.md), three checked
 [twelve-wire obstruction that lifts to larger widths](fixed-sentinel-obstruction.md).
 The later [D18 rank-interval trials](interval-frontier.md) remain inconclusive.
 
-The [audit](results/structural-probe13-audit.json) binds the results to the
+The [latest whole-cover audit](results/structural-cover-progress-round4.json) binds the results to the
 complete thirteen-wire cover, whose SHA-256 is
 `2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406`.
 Everything in this note was done in the private `codex/d18-structural`
@@ -287,7 +288,8 @@ rank-support cardinalities, shared ending routing, or sorting constraints
 in the final two layers. These are SAT-assisted universal statements over
 every four-layer continuation of the specified relabelled two-layer prefix.
 
-The structural coverage is now **4/117** for D13: cases0,58,115,116.
+At the end of round two, structural coverage was **4/117** for D13:
+cases0,58,115,116. The later rank-parity update below raises it to6/117.
 The [curated artifact audit](results/structural-cover-progress-round2.json)
 checks saved CNF/proof hashes and independent checker logs, and records
 the unchanged **3/609** D17 and **0/411** D18 complete-cover counts.
@@ -333,3 +335,74 @@ raising H9 coverage to26/50. The initial component tests leave all six
 sampled D18 six-layer prefixes possible; no complete D18 cover case is
 closed by this test. The mathematical statement and its finite sample
 coverage are kept separate in the linked note.
+
+## 12. A stronger component count and two additional six-layer exclusions
+
+The [three-component theorem](three-component-obstruction.md) strengthens
+the previous size condition: every nine-real restriction has at most two
+interaction components before the final four layers. Five three-block
+merger shapes had hand proofs at the start of this round;711 and621 now
+also have hand proofs based on rank intervals and saturated-cone parity.
+The tiny SAT certificates are corroboration only. The theorem applies at
+arbitrary ambient width.
+
+It excludes the saved sixth-layer continuations of beam00 and beam16,
+and recovers the already known exclusion of the combined candidate.
+Other sixth matchings survive the condition, so no five-layer beam prefix
+or complete two-layer D18 case is declared closed. For D13 the screen
+rejects83 of117 saved witnesses, not their entire cover cases.
+
+The [D17 critical-edge hand argument](d17_feedback_round3_hand.md) has
+also completed [independent review](d17_feedback_round3_review.md). It
+excludes every first matching with that edge and at most one cross gate,
+at arbitrary even active width. The reviewed [two-cross extension](d17_feedback_round4_hand.md)
+also excludes all perfect first matchings with that edge and exactly two
+cross gates. The full case606 hand proof remains open.
+
+
+## 13. Saturated-cone parity yields two whole-case D13 exclusions
+
+Two exact four-position forward cones must intersect in an even number
+of ranks: both are unions of edges of the same final matching. Adding222
+endpoint clauses expressing this hand lemma closes cases1 and114. Their
+independent checks take15.89 and9.89 seconds after solves of20.03 and13.15
+seconds; fresh baseline runs both time out at30 seconds. The
+[comparison and derivation](rank-parity-feedback.md) records the precise
+scope. This raises the curated structural count to6/117; D17 remains
+3/609 and D18 remains0/411 complete cover cases.
+
+The same rank-endpoint method also finishes the H9 class `02 16 37`
+entirely by hand. Its [proof and tables](../depth-hand-proofs/h9_feedback_round4_021637.md)
+have completed root review and fixed-certificate replay, raising H9
+hand coverage to27/50. Fourteen explicit real inputs supply the final
+160 endpoint exclusions; no solver answer is a premise.
+
+The later [D17 critical-perfect reduction](d17_feedback_round5_reduction.md)
+has completed independent root review. Its contraction lemmas and
+finite certificate cover all remaining perfect matchings with the
+critical edge at arbitrary even width; the finite verification remains
+a premise. This is not counted as a new complete-cover exclusion or as a
+completed full case606 hand proof.
+
+
+## 14. Round-six checkpoint
+
+[Cases2,57,113](d13_feedback_round6.md) add three checked D13 exclusions,
+raising the current complete-cover count to **9/117**. The new
+[shared-middle-pair lemma](d13_feedback_round6_middle_pair.md) is a separate
+hand structural result. D17 remains3/609 and D18 remains0/411.
+
+The [critical two-idle D17 extension](d17_feedback_round6_reduction.md)
+has passed [independent review](results/d17-hand-round6-review.json).
+Its 1,584-case finite certificate remains a premise; the noncritical mixed
+branch is still open. The review records one nonfatal prose correction.
+
+For D18, [explicit rank-endpoint certificates](rank-layer-round6-hand-tables.md)
+exclude three concrete six-layer prefixes. The saved
+`prefix-rank-round6-cut8-*` and `prefix-rank-round6-only-*` results exclude
+all continuations of three concrete five-layer prefixes with independently
+checked SAT proofs. Each solve and check takes less than one second.
+The four-layer tests, including the stronger middle-pair condition, reach
+30-second limits. These are partial-prefix results and do not increase
+the complete-cover count. The [checkpoint](../CHECKPOINT.md) identifies
+current review status, artifact conventions, and unfinished work.

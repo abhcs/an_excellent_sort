@@ -1,0 +1,17 @@
+{
+  "terminal": "EXITED",
+  "returncode": 0,
+  "stdout": "{\"case_id\": \"n13-r0057\", \"depth\": 8, \"cut\": 6, \"mode\": \"wire\", \"inputs\": 611, \"wires\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], \"ranks\": [], \"variables\": 18967, \"clauses\": 263771, \"original_window_cost\": 30517, \"window_cost\": 20287, \"scope\": \"All four-layer continuations of this complete-cover prefix; cut6 intervals and exact four-cone parity\", \"parity_clauses\": 222, \"source_sha256\": \"ac3092329478c1640f703b15c3827b407191dd1218bf99d4ef7d912f63b2e680\", \"cover_sha256\": \"2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406\", \"status\": \"BUILT\", \"independently_proof_checked\": false, \"build_seconds\": 0.26898412499576807}\nUNSAT 10.642307915957645\n",
+  "stderr": "",
+  "wall_cap_seconds": 30,
+  "seconds": 10.743297000066377,
+  "case_id": "n13-r0057",
+  "result_status": "UNSAT",
+  "check": {
+    "terminal": "EXITED",
+    "returncode": 0,
+    "wall_cap_seconds": 30,
+    "seconds": 8.181364167016,
+    "verified": true
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "status": "UNSAT_UNCHECKED",
+  "n": 18,
+  "depth": 10,
+  "cut": 8,
+  "cap": 4,
+  "prefix": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        16,
+        17
+      ]
+    ],
+    [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        5,
+        13
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        15,
+        17
+      ]
+    ],
+    [
+      [
+        0,
+        14
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        5,
+        12
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    [
+      [
+        1,
+        15
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        8,
+        14
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        11,
+        13
+      ]
+    ],
+    [
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        12,
+        17
+      ]
+    ]
+  ],
+  "inputs": 254,
+  "variables": 7343,
+  "clauses": 97276,
+  "parity_clauses": 362,
+  "combined_clauses": 0,
+  "source_sha256": "c3d92dd06ecb08c2fb1123e627dfb9f98069bfd0797e344917745b4db4f891e3",
+  "seed_sha256": "5cc218e096d9d37e2d00f86c223bbff18f214b0c4e6df2d01aba3d0f8a2e6cf0",
+  "cnf_sha256": "dd83373e2c161ad7ed2bf7c42ed72fdfabdb5614954191df66db9993681deb40",
+  "certificate_directory": "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-round6-only-beam00",
+  "scope": "All continuations of the fixed prefix; cut interval widths and parity, optionally earlier profile/component conditions",
+  "dependencies_sha256": {
+    "netsat.py": "960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3",
+    "endpoint_cegar.py": "22768b03673525e930c722acde18c6d4c77049a0e1e6f16615801908b1e39aa1",
+    "interval_frontier.py": "93548c783322ba9754b407aaaf1cb29f649d6c8aa206ead5f1911b7454a1e6ab",
+    "probe_frontier.py": "e07f9183616412db41b7093fbb86efe8a13acf00d413b88084454b73ccdbeef0",
+    "prefix_drat.py": "1f85103a6efe10e02907d7fac977a88c149f1d6d2e189179a4636431db32773c"
+  },
+  "seconds": 0.37089287501294166,
+  "proof_sha256": "de10e36004a596acfcc615a8e30b50d5ce210b55304bafd7c4f91b2851167f30"
+}

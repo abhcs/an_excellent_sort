@@ -1,0 +1,8 @@
+{
+  "terminal": "EXITED",
+  "returncode": 0,
+  "stdout": "{\"status\": \"BUILT\", \"n\": 18, \"depth\": 11, \"cut\": 9, \"cap\": 4, \"inputs\": 243, \"variables\": 5771, \"clauses\": 62477, \"parity_clauses\": 362, \"middle_pair_clauses\": 52, \"combined_clauses\": 0, \"source_sha256\": \"a58604be08744f7502c318b994a24af782c2481d9642c240d4b7c4f0a07d7e3b\", \"seed_sha256\": \"02bc84a1ba7714289eb2a61cbd03a34363f0fdc94a7f9fd6b4bd651dab624a94\", \"cnf_sha256\": \"f91540a8410fda2859ca9cbc521e56fd75ee9efa8cb1c5c48b3e81ea5e869a12\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-middle-round6-control\", \"scope\": \"All continuations of the fixed prefix; cut widths, parity, shared-middle-pair capacity, optionally earlier profile/component conditions\", \"seconds\": 0.20104562502820045}\n{\"status\": \"SURVIVOR\", \"seconds\": 0.20181350002530962}\n",
+  "stderr": "",
+  "seconds": 0.26798174995929,
+  "wall_cap_seconds": 30
+}

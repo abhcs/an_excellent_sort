@@ -1,0 +1,119 @@
+{
+  "status": "SAVED_CERTIFICATE_FILES_AUDITED",
+  "scope": "Curated structural whole-prefix closures. Earlier seven certificate records inherited from round2 audit; two new CNF/proof hashes and checker logs audited, with independent encoding review. Not formal verification of encoders or cover theorem.",
+  "counts": {
+    "13": {
+      "closed": [
+        "n13-r0000",
+        "n13-r0001",
+        "n13-r0058",
+        "n13-r0114",
+        "n13-r0115",
+        "n13-r0116"
+      ],
+      "closed_count": 6,
+      "cover_size": 117,
+      "cover_sha256": "2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406"
+    },
+    "17": {
+      "closed": [
+        "n17-r0606",
+        "n17-r0607",
+        "n17-r0608"
+      ],
+      "closed_count": 3,
+      "cover_size": 609,
+      "cover_sha256": "711b620bb298deee98e5520595cfb341a13cf3600f4297dd35f3b38cb11d2100"
+    },
+    "18": {
+      "closed": [],
+      "closed_count": 0,
+      "cover_size": 411,
+      "cover_sha256": "3479c72a3dce2fe1d58d0fa80e11ccbdf9286c00b8585b1a15f23e325cb55ed2"
+    }
+  },
+  "certificates": [
+    {
+      "case_id": "n13-r0000",
+      "result_file": "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/probe-frontier13-r0000-route-checked.json",
+      "result_sha256": "09c07e48afa48abc99be24db86c11dad950ec241e3eb60ad01369d360227c36c",
+      "scope": "Probe positions only; no data comparisons in the ending",
+      "cnf_sha256": "16ac515267bb30770e2dbd9395c865cd50e5444e003a589cfc80605acc3d7eb7",
+      "proof_sha256": "9c50cdd1b02d36d98eb23f0e932c8ce9805d7370ec79390f2e7253de4df5f746",
+      "checker_log_sha256": "74ff23ac880106c659358c7626488aaf2d032838afa30396b524c2c6669c92cc"
+    },
+    {
+      "case_id": "n13-r0058",
+      "result_file": "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/d13_feedback_round2-r0058-wire.json",
+      "result_sha256": "31a9e61a79a7c0dfc7fb20ce9f379b8b386c02ea2ca307c5a773731c5d93d425",
+      "scope": "All four-layer continuations of this complete-cover prefix; cut6 interval bounds, optional common ending routing",
+      "cnf_sha256": "d12292b5719543b866c1ac8b015161e635cac2317d5ffd2dc2b126b3c2bab216",
+      "proof_sha256": "9418ce8bd6c80fe0fe03628e65005c6dd6251310ed3dd36bf3d4b09501394cf8",
+      "checker_log_sha256": "b88919ec5bc6d177ddbcbd7fb50fc7274ebbb4b681f205f05400e0ae9ceea21d"
+    },
+    {
+      "case_id": "n13-r0115",
+      "result_file": "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/d13_feedback_round2-r0115-wire-central6.json",
+      "result_sha256": "b301b8e8d732cda540742a20320d007fc333ed05ba54348aeb3788a373cc11c3",
+      "scope": "All four-layer continuations of this complete-cover prefix; cut6 interval bounds, optional common ending routing",
+      "cnf_sha256": "cd742db573a80c14e10ea55ac58dbe8c86b910d1c4748296b48d061d81d2ca48",
+      "proof_sha256": "1571d541c2b7418ea78c02157e33845bf0768b00643a60516de008720ab5a28e",
+      "checker_log_sha256": "dc26e61136c3e83fba23d453f586c429fdd4f19589b169eefbdb0a6b7fc3b131"
+    },
+    {
+      "case_id": "n13-r0116",
+      "result_file": "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/d13-hand-next-endpoints-central-checked.json",
+      "result_sha256": "6ba2d2c4d350577ebe8a49701a1629b574cacbc8d3f4a4274d4780872a118465",
+      "scope": "Every four-layer continuation of the fixed relabelled prefix; cut6 endpoint bounds only, no common-ending routing",
+      "cnf_sha256": "6f91e9a5c61edf25529aebd26bd42dc4622fefa892deaeeac672b9265e540fd5",
+      "proof_sha256": "9fa04916850bd51e497b13eec6b4c8476a4656f7a3c5aa4b1bcce0bbd34ddd1d",
+      "checker_log_sha256": "e9a74e74960d518d341f8554aa5d2b8b308610b70f4bbbbdd5373fb13772ae24"
+    },
+    {
+      "case_id": "n17-r0606",
+      "result_file": "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/d17-feedback-defects-r0606/result.json",
+      "result_sha256": "cd719d6fd1e34c0b72d2f4f9d03518dcadbea298ab8fdab6e1b3895fd7a1637d",
+      "scope": "Necessary H9 first-two-layer profiles for all half-blind nine-real restrictions",
+      "cnf_sha256": "7e449d18b5245acbf89187b0a323d797f07e648671ff348771a67f9304770219",
+      "proof_sha256": "19606898ddc86bb10e44c44cdf00c49b35f94a8e9650f372122a3109d0dad2aa",
+      "checker_log_sha256": "b81bd85b49619f23c8396c8b73bde1a63e48d3023a9a89d2f1d71ca44f0f398c"
+    },
+    {
+      "case_id": "n17-r0607",
+      "result_file": "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/d17-feedback-defects-r0607/result.json",
+      "result_sha256": "c6c504cd0d55a93b2b438625ca794fbea8b75b9a2ae377060455f6a3aec9c99e",
+      "scope": "Necessary H9 first-two-layer profiles for all half-blind nine-real restrictions",
+      "cnf_sha256": "001dff66b13b22e8e585cf7e89ee96c483e1b1730d375b4903c3234f92684f2e",
+      "proof_sha256": "e9af4a557bf921b157d5d325c9491945b68db4f2f50fe7a2d7bdd5efafb335b7",
+      "checker_log_sha256": "ba659430c48411232ba2be86e51395aed800573ddc5721c01ab76925d1946686"
+    },
+    {
+      "case_id": "n17-r0608",
+      "result_file": "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/d17-feedback-defects-r0608/result.json",
+      "result_sha256": "7107c0cdb5719e645796fd80abf5956ef6c17e9a60469983a1de7325cfb0b0a3",
+      "scope": "Necessary H9 first-two-layer profiles for all half-blind nine-real restrictions",
+      "cnf_sha256": "a2a078a9764b86e12bf9dcc37e767b14494502aedf12f7a22682243b2220be23",
+      "proof_sha256": "3d2d44b0fccd85077a48b4d5f08428b2366f838f9e3ba8c5039c0ea16f26d4f1",
+      "checker_log_sha256": "5dcf34bde6ba115da9de57ccce41923d75b114167a7333a06fc3d462ddd7212a"
+    },
+    {
+      "case_id": "n13-r0001",
+      "result_file": "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/d13-rank-parity-r0001.json",
+      "result_sha256": "70fc39debba17c5da81361158e8c2d63a31305f1032277bf8c1a8c45ef0fe6f9",
+      "scope": "All four-layer continuations of this complete-cover prefix; cut6 intervals and exact four-cone parity",
+      "cnf_sha256": "a7a95791257d6141ab52c1607e493904770033c01ca743e2492ef63838530145",
+      "proof_sha256": "53130bdaec245b6e8680efed117835f0d05812a97c866946dfd6890f0f8e0c4e",
+      "checker_log_sha256": "53045a107d3eb4759064125b299116d6cf4354d3e402df807a4264c82c5c4555"
+    },
+    {
+      "case_id": "n13-r0114",
+      "result_file": "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/d13-rank-parity-r0114.json",
+      "result_sha256": "0f6446746c5f92bc25a7cb863b7170cfa31d73a4f9d57e83e7b0bbedc46992d3",
+      "scope": "All four-layer continuations of this complete-cover prefix; cut6 intervals and exact four-cone parity",
+      "cnf_sha256": "e620c79f04da8b9ba4e0c1b6223d36847e06fc19ed9dcca319e67f1267db081a",
+      "proof_sha256": "d968c40bdc3dfdd6bd005c786b46ce2f89099040e50ff7108f55c72e864755f8",
+      "checker_log_sha256": "6c18d99cbd90edc2d398f43795f4609b04495d72a76842c7118949e8675e4f1a"
+    }
+  ],
+  "new_encoding_review": "d13_feedback_round5-parity-review.json"
+}

@@ -1,5 +1,63 @@
 # Structural lower-bound research checkpoint — 2026-11-15
 
+## Current checkpoint: structural research through round six
+
+This snapshot includes all current research sources, proof drafts, finite
+certificates, CNF/DRAT artifacts, and bounded-run records on the isolated
+`codex/d18-structural` branch. The previous checkpoint is `7bcc462`.
+All agent edits are stopped for this checkpoint; their jobs are terminal.
+The original shared working folder is unchanged.
+
+* **H9: 27/50 reviewed hand cases.** The `02 16 37` proof is integrated.
+  The next [`02 14 56` draft](depth-hand-proofs/h9_feedback_round5_021456.md)
+  and fixed certificates are saved. Its checker passes 423 rank exclusions,
+  94 clause checks, and 223,680 restriction-order runs, but final prose and
+  independent review remain; it is not counted as a 28th case.
+* **D13: 9/117 complete cover cases have checked structural exclusions:**
+  0,1,2,57,58,113,114,115,116. The new
+  [round-six cases](d18-search/d13_feedback_round6.md) are 2,57,113.
+  Solves took about 20.03,10.64,13.64 seconds and independent checks
+  19.06,8.18,9.82 seconds. Saved source/dependency/CNF/proof hashes and
+  successful checker logs were rechecked at this checkpoint. These are
+  SAT-assisted case exclusions, not a completed hand proof of D(13).
+* The [nine-real three-component theorem](d18-search/three-component-obstruction.md)
+  is proved by hand: four layers before the end, every signed restriction
+  leaving nine arbitrary real inputs has at most two interaction components.
+  The new [shared-middle-pair lemma](d18-search/d13_feedback_round6_middle_pair.md)
+  strengthens saturated-cone parity and applies at arbitrary ambient width.
+* **D17: 3/609 complete cover cases remain closed.** The critical-perfect
+  reduction has completed root review. The
+  [critical two-idle extension](d18-search/d17_feedback_round6_reduction.md)
+  passed [independent review](d18-search/results/d17-hand-round6-review.json)
+  with 1,584 finite cases and 9,504 branches. Its finite certificate remains
+  a premise. The noncritical mixed branch and full hand proof remain open.
+  A nonfatal prose correction remains in section 2: “Every A vertex outside
+  C” should read “Every used A vertex outside C”; D changes status but is idle.
+* **D18: 0/411 complete two-layer cover cases are closed.** Three specified
+  six-layer prefixes now have [explicit rank-endpoint hand certificates](d18-search/rank-layer-round6-hand-tables.md),
+  replayed by a SAT-free checker. All continuations of three specified
+  five-layer prefixes are excluded by checked SAT certificates, each solve
+  and check under one second. This does not cover every five-layer prefix.
+  The two distinct four-layer tests, with and without the new middle-pair
+  clauses, reached their 30-second limits and prove nothing about those cases.
+  **The lower bound D(18)>=11 remains unresolved.**
+
+The five-layer experiments include both combined structural conditions
+(`prefix-rank-round6-cut8-*`) and rank-width/parity alone
+(`prefix-rank-round6-only-*`). The latter all finished and their companion
+`check-terminal.json` and `check.log` files record successful independent
+DRAT checks; raw worker manifests still say `UNSAT_UNCHECKED` because they
+were written before the separate check. The
+[encoder review](d18-search/results/d18_hand_round6-frontier-review.json)
+covers the combined and one-next-layer tested calls. Exact earlier worker
+sources are preserved as `d18-search/recorded_*.py` alongside dependencies.
+
+Historical sections below retain their counts as of their own snapshots.
+Some manifests use absolute local paths; fresh checkouts need the external
+Python/SAT/compiler/checker dependencies described below. Exploratory and
+timeout artifacts are included without treating them as proofs.
+
+
 ## Follow-up checkpoint
 
 The earlier snapshot below was pushed as `e9b71c4`. This follow-up saves

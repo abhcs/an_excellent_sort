@@ -1,0 +1,8 @@
+{
+  "terminal": "EXITED",
+  "returncode": 0,
+  "wall_cap_seconds": 10,
+  "seconds": 0.19653829094022512,
+  "stdout": "{\"status\": \"UNSAT_UNCHECKED\", \"blocks\": [5, 2, 2], \"depth\": 4, \"inputs\": 54, \"variables\": 1764, \"clauses\": 37020, \"normal_forms\": false, \"source_sha256\": \"26dc918cf4c53f8b51b555d818205a70627aff34cd8950c218848cdf74bfbb4d\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/merger-partition-round4-522\", \"cnf_sha256\": \"ec24ee69c84cf8a171c232ab02bbd2d009fc1f3d7ba136aa80e999db5f330cba\", \"proof_sha256\": \"d5c2078569bd7dbdeae32feb3d69abfc1e23df1827e661e553178d8f5c2552a7\", \"seconds\": 0.13309145893435925}\n",
+  "stderr": ""
+}

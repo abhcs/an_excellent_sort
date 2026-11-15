@@ -1,0 +1,8 @@
+{
+  "terminal": "EXITED",
+  "returncode": 0,
+  "stdout": "{\"status\": \"BUILT\", \"n\": 18, \"depth\": 10, \"cut\": 8, \"cap\": 4, \"inputs\": 264, \"variables\": 8393, \"clauses\": 124493, \"parity_clauses\": 362, \"combined_clauses\": 2581, \"source_sha256\": \"b37a19b2c15e3c95f63885f41173a255e25d8de383b56f1ef5d87cbc18ad5ef4\", \"seed_sha256\": \"c6b2f0e21413bf288c534a36dc60bd58f96bf55678d52fdbf8500fc3496aaaf1\", \"cnf_sha256\": \"188b9db14a67534e5ef001d0e2b66652648063dd39e344db7868b4aaf645e44c\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-round6-cut8-beam16\", \"scope\": \"All continuations of the fixed prefix; cut interval widths and parity, optionally earlier profile/component conditions\", \"seconds\": 0.268998209037818}\n{\"status\": \"UNSAT_UNCHECKED\", \"seconds\": 0.6727148750796914}\n",
+  "stderr": "",
+  "seconds": 0.7463402500143275,
+  "wall_cap_seconds": 30
+}

@@ -1,0 +1,18 @@
+{
+  "status": "UNSAT_UNCHECKED",
+  "blocks": [
+    6,
+    2,
+    1
+  ],
+  "depth": 4,
+  "inputs": 42,
+  "variables": 1332,
+  "clauses": 27304,
+  "normal_forms": false,
+  "source_sha256": "26dc918cf4c53f8b51b555d818205a70627aff34cd8950c218848cdf74bfbb4d",
+  "certificate_directory": "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/merger-partition-round4-621",
+  "cnf_sha256": "5ef3561df2db4ab6a050d64cbd4c69a374682947544974d030cb8910692547e6",
+  "proof_sha256": "541ef9fe4d4dc2cb856d9fcd6e78ad26a5e028e4e1e820ee8727ff6d59803f65",
+  "seconds": 0.12329591705929488
+}

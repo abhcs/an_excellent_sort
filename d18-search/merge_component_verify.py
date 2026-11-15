@@ -107,7 +107,7 @@ def main():
         for n in (9,10,11):
             for _ in range(12):
                 layers=[random_layer(n) for _ in range(rng.randrange(1,6))]
-                for mode in ('432','both','max4'):
+                for mode in ('432','both','max4','three'):
                     expected=set()
                     for sentinels in itertools.combinations(range(n),n-9):
                         for signs in itertools.product((-1,1),repeat=n-9):
@@ -116,7 +116,8 @@ def main():
                             masks,labels,gates,types=analyze(n,layers,initial)
                             sizes=sorted((m.bit_count() for m in masks),reverse=True)
                             if (pack(sizes,(4,3,2)) or mode in ('both','max4') and pack(sizes,(3,3,3))
-                                    or mode=='max4' and pack(sizes,(4,4,1))):
+                                    or mode=='max4' and pack(sizes,(4,4,1))
+                                    or mode=='three' and len(sizes)>=3):
                                 expected.add(tuple(masks))
                             type_assignments+=1
                     got=call(binary,path,n,layers,mode)
@@ -125,13 +126,13 @@ def main():
                     tests+=1
         blocks=[[(0,1),(2,3),(4,5)],[(0,3),(1,2),(4,6)],[(0,1),(2,3),(5,6),(7,8)]]
         planted=blocks+[[],[],[]]
-        plant=call(binary,path,18,planted,'max4',False)
+        plant=call(binary,path,18,planted,'three',False)
         assert plant['accepted_placements']>0
         value_runs += sum(value_check(18,planted,w) for w in plant['witnesses'])
         positive=json.loads((HERE/'results/dobbelaere18-78-11.json').read_text())
         assert verify_all(18,positive['layers'])
         # Four layers remain after cut7 in this genuine depth11 sorter.
-        control=call(binary,path,18,positive['layers'][:7],'max4',False)
+        control=call(binary,path,18,positive['layers'][:7],'three',False)
         assert control['accepted_placements']==0
     report=dict(status='VERIFIED',small_prefix_tests=tests,all_type_assignments=type_assignments,
                 integer_partitions=len(all_parts),binary_functional_replays=value_runs,
@@ -141,7 +142,7 @@ def main():
                 source_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
                 collector_sha256=hashlib.sha256((HERE/'merge_component_states.cpp').read_bytes()).hexdigest(),
                 scope='Small exhaustive-type and direct value controls, plus planted obstruction and known sorter; not a complete D18 cover')
-    (HERE/'results/merge-component-verification.json').write_text(json.dumps(report,indent=2)+'\n')
+    (HERE/'results/merge-component-round4-verification.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps(report),flush=True)
 
 

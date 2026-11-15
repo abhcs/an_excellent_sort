@@ -1,0 +1,76 @@
+{
+  "status": "COMPLETED",
+  "sat_used": false,
+  "seconds": 1.0274,
+  "counts": [
+    {
+      "cross": 3,
+      "full": 2,
+      "survives": false,
+      "count": 96
+    },
+    {
+      "cross": 3,
+      "full": 3,
+      "survives": false,
+      "count": 960
+    },
+    {
+      "cross": 3,
+      "full": 4,
+      "survives": false,
+      "count": 1944
+    },
+    {
+      "cross": 4,
+      "full": 1,
+      "survives": false,
+      "count": 8
+    },
+    {
+      "cross": 4,
+      "full": 2,
+      "survives": false,
+      "count": 136
+    },
+    {
+      "cross": 4,
+      "full": 3,
+      "survives": false,
+      "count": 568
+    },
+    {
+      "cross": 4,
+      "full": 4,
+      "survives": false,
+      "count": 488
+    },
+    {
+      "cross": 5,
+      "full": 1,
+      "survives": false,
+      "count": 4
+    },
+    {
+      "cross": 5,
+      "full": 2,
+      "survives": false,
+      "count": 36
+    },
+    {
+      "cross": 5,
+      "full": 3,
+      "survives": false,
+      "count": 60
+    },
+    {
+      "cross": 5,
+      "full": 4,
+      "survives": false,
+      "count": 20
+    }
+  ],
+  "examples": {},
+  "survivors": [],
+  "scope": "Incomplete full-row-core and forced-edge screen; survivors are not peak covers"
+}

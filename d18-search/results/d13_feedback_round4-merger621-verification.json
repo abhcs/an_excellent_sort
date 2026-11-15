@@ -1,0 +1,744 @@
+{
+  "status": "VERIFIED",
+  "uses_sat": false,
+  "enumerates_matchings": false,
+  "triple_intersections": [
+    [
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      4,
+      5
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2
+    ]
+  ],
+  "blind_221_checks": [
+    {
+      "first": [
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "reals": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "first": [
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "reals": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "first": [
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "reals": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "first": [
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "reals": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "first": [
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "reals": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "first": [
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "reals": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "first": [
+        [
+          3,
+          8
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "reals": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "first": [
+        [
+          3,
+          8
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "reals": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "first": [
+        [
+          3,
+          8
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          0,
+          7
+        ]
+      ],
+      "reals": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "first": [
+        [
+          3,
+          8
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ]
+      ],
+      "reals": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "first": [
+        [
+          3,
+          8
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          0,
+          7
+        ]
+      ],
+      "reals": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "first": [
+        [
+          3,
+          8
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "reals": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  ],
+  "input_witnesses": {
+    "L": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      2
+    ],
+    "H": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "K": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      1,
+      2,
+      0
+    ],
+    "J": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      5,
+      7,
+      8
+    ]
+  },
+  "complete_input_count": 252,
+  "first_layer_audits": [
+    {
+      "first": [
+        [
+          1,
+          8
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "witness_outputs": {
+        "L": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          2
+        ],
+        "H": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "K": [
+          3,
+          0,
+          5,
+          1,
+          2,
+          8,
+          6,
+          7,
+          4
+        ],
+        "J": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          5,
+          7,
+          8
+        ]
+      },
+      "partner_rows": [
+        {
+          "partner": 0,
+          "output": "max",
+          "low_input": "L",
+          "low": 2,
+          "high_input": "H",
+          "high": 8,
+          "exact_support": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "partner": 1,
+          "output": "max",
+          "low_input": "L",
+          "low": 2,
+          "high_input": "H",
+          "high": 8,
+          "exact_support": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "partner": 2,
+          "output": "max",
+          "low_input": "L",
+          "low": 3,
+          "high_input": "H",
+          "high": 8,
+          "exact_support": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "partner": 3,
+          "output": "max",
+          "low_input": "K",
+          "low": 4,
+          "high_input": "H",
+          "high": 8,
+          "exact_support": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "partner": 4,
+          "output": "max",
+          "low_input": "K",
+          "low": 4,
+          "high_input": "H",
+          "high": 8,
+          "exact_support": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "partner": 5,
+          "output": "min",
+          "low_input": "L",
+          "low": 2,
+          "high_input": "J",
+          "high": 6,
+          "exact_support": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "partner": 6,
+          "output": "min",
+          "low_input": "L",
+          "low": 2,
+          "high_input": "H",
+          "high": 6,
+          "exact_support": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "partner": 7,
+          "output": "min",
+          "low_input": "L",
+          "low": 2,
+          "high_input": "H",
+          "high": 7,
+          "exact_support": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "first": [
+        [
+          1,
+          8
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "witness_outputs": {
+        "L": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          2
+        ],
+        "H": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "K": [
+          3,
+          0,
+          5,
+          2,
+          1,
+          8,
+          7,
+          6,
+          4
+        ],
+        "J": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          5,
+          7,
+          8
+        ]
+      },
+      "partner_rows": [
+        {
+          "partner": 0,
+          "output": "max",
+          "low_input": "L",
+          "low": 2,
+          "high_input": "H",
+          "high": 8,
+          "exact_support": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "partner": 1,
+          "output": "max",
+          "low_input": "L",
+          "low": 2,
+          "high_input": "H",
+          "high": 8,
+          "exact_support": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "partner": 2,
+          "output": "max",
+          "low_input": "L",
+          "low": 3,
+          "high_input": "H",
+          "high": 8,
+          "exact_support": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "partner": 3,
+          "output": "max",
+          "low_input": "K",
+          "low": 4,
+          "high_input": "H",
+          "high": 8,
+          "exact_support": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "partner": 4,
+          "output": "max",
+          "low_input": "K",
+          "low": 4,
+          "high_input": "H",
+          "high": 8,
+          "exact_support": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "partner": 5,
+          "output": "min",
+          "low_input": "L",
+          "low": 2,
+          "high_input": "J",
+          "high": 6,
+          "exact_support": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "partner": 6,
+          "output": "min",
+          "low_input": "L",
+          "low": 2,
+          "high_input": "H",
+          "high": 6,
+          "exact_support": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "partner": 7,
+          "output": "min",
+          "low_input": "L",
+          "low": 2,
+          "high_input": "H",
+          "high": 7,
+          "exact_support": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    }
+  ],
+  "source_sha256": "abcb0b46c8442b485bfeced186cec8c6636e9e670e0017f7e39dd7589a756b3c",
+  "proof_sha256": "9f4fae09b3371bcbca5bbec36abc3736960d6c8d170cc0be6ab4540f5f3b094d"
+}

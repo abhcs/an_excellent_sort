@@ -1,5 +1,10 @@
 # A nine-real component obstruction four layers before the end
 
+The later [three-component theorem](three-component-obstruction.md)
+strengthens this to **at most two components**, now entirely by hand.
+The earlier size result and its original sample observations are preserved
+below.
+
 **Structural consequence.** Fix any signed-sentinel restriction leaving
 nine real inputs in a hypothetical depth-d sorter. Form the interaction
 graph of those real tracks through the first d-4 layers. **At least one

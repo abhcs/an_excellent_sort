@@ -1,0 +1,31 @@
+{
+  "status": "VERIFIED",
+  "rows": [
+    {
+      "case_id": "n13-r0001",
+      "baseline_terminal": "TIMEOUT_KILLED",
+      "baseline_wall_cap_seconds": 30,
+      "parity_solve_seconds": 20.027589582954533,
+      "parity_worker_wall_seconds": 20.103314415900968,
+      "checker_seconds": 15.893019959097728,
+      "variables": 14499,
+      "baseline_clauses": 195008,
+      "parity_clauses_added": 222,
+      "only_CNF_difference_is_222_added_clauses": true
+    },
+    {
+      "case_id": "n13-r0114",
+      "baseline_terminal": "TIMEOUT_KILLED",
+      "baseline_wall_cap_seconds": 30,
+      "parity_solve_seconds": 13.145098624983802,
+      "parity_worker_wall_seconds": 13.220030999975279,
+      "checker_seconds": 9.893135125050321,
+      "variables": 22802,
+      "baseline_clauses": 320307,
+      "parity_clauses_added": 222,
+      "only_CNF_difference_is_222_added_clauses": true
+    }
+  ],
+  "source_sha256": "ac3092329478c1640f703b15c3827b407191dd1218bf99d4ef7d912f63b2e680",
+  "scope": "Two bounded deterministic runs per formulation; not a general solver-speed benchmark"
+}

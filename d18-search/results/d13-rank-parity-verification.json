@@ -1,0 +1,77 @@
+{
+  "status": "VERIFIED",
+  "endpoint_assignments": 5554,
+  "known_sorter_binary_inputs": 8192,
+  "known_sorter_cut7_intervals": [
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      6,
+      9
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      8,
+      11
+    ],
+    [
+      6,
+      9
+    ],
+    [
+      8,
+      11
+    ],
+    [
+      10,
+      12
+    ],
+    [
+      10,
+      12
+    ]
+  ],
+  "certificates": [
+    {
+      "case_id": "n13-r0001",
+      "cnf_sha256": "a7a95791257d6141ab52c1607e493904770033c01ca743e2492ef63838530145",
+      "proof_sha256": "53130bdaec245b6e8680efed117835f0d05812a97c866946dfd6890f0f8e0c4e",
+      "checker_log_sha256": "53045a107d3eb4759064125b299116d6cf4354d3e402df807a4264c82c5c4555",
+      "exact_added_clause_count": 222
+    },
+    {
+      "case_id": "n13-r0114",
+      "cnf_sha256": "e620c79f04da8b9ba4e0c1b6223d36847e06fc19ed9dcca319e67f1267db081a",
+      "proof_sha256": "d968c40bdc3dfdd6bd005c786b46ce2f89099040e50ff7108f55c72e864755f8",
+      "checker_log_sha256": "6c18d99cbd90edc2d398f43795f4609b04495d72a76842c7118949e8675e4f1a",
+      "exact_added_clause_count": 222
+    }
+  ],
+  "source_sha256": "af969d4d0347c22c479490b535c72bd5a1a201ee5f3e22e6b1508c8b75fd1402",
+  "scope": "Clause semantics, known-sorter control, saved proof-file and checker-log audit; not a new proof-checker run"
+}

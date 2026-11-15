@@ -1,0 +1,8 @@
+{
+  "terminal": "EXITED",
+  "returncode": 0,
+  "seconds": 0.26803491602186114,
+  "stdout": "{\"status\": \"BUILT\", \"n\": 18, \"depth\": 11, \"cut\": 9, \"cap\": 4, \"inputs\": 243, \"variables\": 5771, \"clauses\": 62425, \"parity_clauses\": 362, \"combined_clauses\": 0, \"source_sha256\": \"b37a19b2c15e3c95f63885f41173a255e25d8de383b56f1ef5d87cbc18ad5ef4\", \"seed_sha256\": \"02bc84a1ba7714289eb2a61cbd03a34363f0fdc94a7f9fd6b4bd651dab624a94\", \"cnf_sha256\": \"8202e2e946f94fe8a4eee1d1ada27edef7c95c75757beee3caa5858a7aab4beb\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-round6-control-p6-c9\", \"scope\": \"All continuations of the fixed prefix; cut interval widths and parity, optionally earlier profile/component conditions\", \"seconds\": 0.20307133300229907}\n{\"status\": \"SURVIVOR\", \"seconds\": 0.20380141597706825}\n",
+  "stderr": "",
+  "wall_cap_seconds": 30
+}
