@@ -1,0 +1,184 @@
+% Scratch material moved out of main.tex (previously below "Everything below this point should be considered scratch work"). Not compiled.
+% Everything below this point should be considered scratch work.
+
+
+
+
+The results below were produced by the over a long project made up of many separate chat sessions. Those sessions produced about thirty working notes, and these were later compiled (by Claude) into a single document of results and proofs. This report is a human-readable summary of that compiled document. We refer to it as \emph{the results document}, and section numbers such as ``RD~2.1'' refer to it.
+
+Each result in the results document carries one of the following status tags, and we keep them here because they matter for how much weight a result can bear.
+\begin{itemize}
+    \item \textbf{Proved:} a complete proof is written out in the results document. These are hand proofs, not machine-checked, and have not been refereed.
+    \item \textbf{Exact:} established by exhaustive computation on a stated finite class.
+    \item \textbf{Literature:} taken from the literature, often read through summaries rather than the original paper.
+    \item \textbf{Agent:} reported by a sub-agent in an earlier session, with the proof or code no longer available and not reviewed.
+    \item \textbf{Simulation:} evidence from simulation or adversarial search only.
+    \item \textbf{Retracted:} known to be wrong or to have a gap.
+\end{itemize}
+Most of the code and sub-agent write-ups have been lost. The exception is the certification of the large constructions in \cref{sec:constructions}, whose builder and checker are reproduced in the results document. Novelty checks against the literature were limited, and several results below may already be known. Where a result looks new, we say what was and was not checked.
+
+\paragraph{Notation.} Wires are numbered $0, \dots, n-1$. A \emph{standard} comparator $(a,b)$ with $a < b$ puts the minimum on wire $a$. We write $M(r)$ for the largest $n$ with $D(n) \le r$; the known values for $r = 0, \dots, 9$ are $1,2,2,4,4,6,8,10,12,16$. Logarithms are base 2 and $L = \log_2 n$. Most arguments use the \emph{zero-one principle}: a comparator network sorts all inputs if and only if it sorts all $0$-$1$ inputs \cite[Section 5.3.4]{knuth1998art}.
+
+\section{Summary of findings}
+
+At a high level, the project produced the following.
+\begin{enumerate}
+    \item A simple \emph{halving lemma}, $D(n) \ge D(\lceil n/2 \rceil) + 2$, together with a family of ``fixing'' and ``subcube'' rules that generalize it (\cref{sec:fixed-lower}). Combined with the known values of $D(13), \dots, D(17)$, it gives lower bounds such as $D(n) \ge 11$ for $25 \le n \le 32$. These are better than the bounds listed in the tables consulted, but novelty has not been established.
+    \item Explicit sorting networks on $128$ and $1024$ wires of depth $26$ and $52$, against $28$ and $55$ for Batcher's construction, with a machine-checked certificate of correctness (\cref{sec:constructions}).
+    \item A self-contained potential-function proof of a $(3 - o(1))\log_2 n$ lower bound on depth, which recovers Yao's bound along the way. This does \emph{not} reach the known $3.27\log_2 n$, and a flaw was found in an earlier attempt to reconstruct that bound (\cref{sec:asymptotic}).
+    \item Several structural facts that every $O(\log n)$-depth network must satisfy, such as a constraint on how long its comparators must be in late layers. There are also lower bounds for $\eps$-halvers, and a refutation of a natural ``sliding window'' design for avoiding the AKS tree (\cref{sec:structure,sec:halvers}).
+    \item For the AKS family, a missing term in one of Seiferas's constraints, an ``energy'' reformulation of his invariant, and a table comparing the constants of the various constructions (\cref{sec:aks}).
+    \item A list of errors in the project's own earlier work, which were caught and retracted (\cref{sec:retractions}).
+\end{enumerate}
+No result resolves a major open question. The asymptotic lower bound was not improved, no $O(\log n)$ construction with a better constant was proved, and the question of whether a depth-$11$ sorting network on $32$ wires exists remains open.
+
+\subsection{Depth lower bounds for fixed \texorpdfstring{$n$}{n}}\label{sec:fixed-lower}
+
+\begin{theorem}[Halving lemma; Proved, RD~2.1]\label{thm:halving}
+For every $n \ge 3$, $D(n) \ge D(\lceil n/2 \rceil) + 2$.
+\end{theorem}
+
+The idea is as follows. The first two layers of a sorting network form a union of two matchings on the wires, which is a bipartite graph. One colour class $C$ has at most $\lfloor n/2 \rfloor$ wires. Put $\pm\infty$ on the wires of $C$, choosing the signs so that these constants do not move in layer~1, and put arbitrary values on the other $h \ge \lceil n/2 \rceil$ wires. Then no two genuine values are compared in the first two layers. The remaining $D(n) - 2$ layers must therefore sort the $h$ genuine values. Turning this into an actual $h$-wire sorting network requires care, because genuine values change wires when they meet constants. The proof tracks them as tokens and then uses Knuth's ``untangling'' result, which converts a network with arbitrarily oriented comparators into a standard one of the same depth \cite[Exercise 5.3.4.16]{knuth1998art}. The results document notes that an earlier write-up of this lemma skipped exactly this step.
+
+Iterating gives $D(n) \ge 2\lceil \log_2 n \rceil - 1$. Using the known values $D(13), \dots, D(16) = 9$ and $D(17) = 10$ \cite{bundala2014optimal, codish2019end} gives
+\[
+D(n) \ge 11 \text{ for } 25 \le n \le 32, \qquad D(n) \ge 12 \text{ for } 33 \le n \le 48, \qquad D(n) \ge 13 \text{ for } 49 \le n \le 64.
+\]
+The table of Dobbelaere \cite{dobbelaere}, as read during the project, lists a lower bound of $10$ for $18 \le n \le 32$. However, the inequality is simple enough that it may well be known. A folklore $(2-o(1))\log_2 n$ bound is cited in recent papers, and the natural places to check (Knuth's Section~5.3.4 and Parberry's work) were not read. Novelty should therefore be checked before relying on this.
+
+The same argument generalizes in two directions.
+\begin{itemize}
+    \item \textbf{$t$-layer fixing (RD~2.2).} If some assignment of $\pm\infty$ to $n-h$ wires ensures that no two genuine values meet in the first $t$ layers, then $D(h) \le d - t$. This gives a sequence of necessary conditions on the first few layers of a candidate network.
+    \item \textbf{Subcube rule (RD~2.3--2.4).} If the set of $0$-$1$ vectors reachable after $k$ layers of a depth-$d$ sorter contains a subcube of dimension $h$ (that is, $n-h$ coordinates fixed and $h$ free), then $h \le M(d-k)$. A refinement, the \emph{existential hitting rule}, rules out a prefix for \emph{all} possible next layers at once. An attempted two-layer lookahead version was found to be unsound and was retracted.
+\end{itemize}
+
+These rules were applied to the open question of whether $D(32) = 11$; the best known upper bound is $14$ \cite{dobbelaere} (RD~2.6). The results are partial.
+\begin{itemize}
+    \item \textbf{Exact:} any $32$-wire sorter whose first four layers are the hypercube (``Green'') prefix has depth at least $12$.
+    \item \textbf{Exact, per prefix:} of $365$ sampled five-layer prefixes starting with three hypercube layers, $364$ admit no valid sixth layer, and the remaining one is unresolved. However, a calibration experiment showed that random prefixes also tend to die at layers 5--6 for $n = 12, 14, 16$, where sorters of the target depth \emph{do} exist. So this is not evidence that depth $11$ is impossible.
+    \item Exhaustive search over all fourth layers is infeasible (on the order of $10^{15}$ candidates, at least $2.8\times 10^{11}$ up to symmetry).
+\end{itemize}
+A related effort at depth $13$ for $n=32$ built a SAT encoding validated on Wang's recent depth-$13$ network for $28$ wires \cite{wang2025depth13}. The UNSAT results obtained so far only concern specific greedily chosen prefixes and say nothing about depth $13$ in general (RD~2.7).
+
+Finally, it is known that every non-redundant comparator in the last layer of a sorting network joins adjacent wires \cite{codish2015endgame}. The project's own proof of this had a gap and was withdrawn in favour of the literature (RD~2.8). A short consequence is proved: just before the last layer, each weight class of $0$-$1$ inputs has at most two reachable vectors.
+
+\subsection{Asymptotic lower bounds}\label{sec:asymptotic}
+
+The record is $(3.27 - o(1))\log_2 n$ \cite{kahale1995lower}. An attempt to reach $4 \log_2 n$ was not successful. Along the way, the project's earlier reconstruction of the $3.27$ bound was found to rest on a false ``weight recursion''. A four-wire counterexample is given in RD~3.2. The published proof presumably uses a correct statement under a different definition, but its depth section was never read directly.
+
+In its place, the results document proves a clean potential inequality (Proved, RD~3.1--3.3). For each wire, let $m$ be the size of the smallest set of inputs which, when all zero, forces the wire to hold zero. Then for every $\alpha > 0$,
+\[
+\sum_{\text{wires}} m^{-\alpha} \;\ge\; n\left(\frac{1 + 2^{-\alpha}}{2}\right)^{t} \quad \text{after } t \text{ layers}.
+\]
+Combined with a counting step for the last $s$ layers, which uses the fact that the set of values a wire can hold is an interval, this gives:
+\begin{itemize}
+    \item with $\alpha = 1$, $s = 0$: depth $\ge (2.409 - o(1))\log_2 n$, which is Yao's bound \cite{yao1980bounds};
+    \item optimizing over $\alpha \to 0$ and the split point: depth $\ge (3 - o(1))\log_2 n$.
+\end{itemize}
+This potential alone cannot do better than $3$. The proof is short and self-contained, but the bound is weaker than the known one. A heuristic analysis (RD~3.4) suggests what kind of ``finishing lemma'' would be needed to reach $4 \log_2 n$.
+
+\subsection{Constructions}\label{sec:constructions}
+
+This is the most concrete output of the project (RD~4).
+
+\paragraph{Multiway merging.} Let $\Dmerge(k,m)$ be the least depth of a network merging $k$ sorted lists of length $m$. A $k$-way generalization of Batcher's odd-even merge is proved (RD~4.2). Merge the even-indexed and odd-indexed elements of all lists separately, interleave the results, and finish with $\lceil \log_2 k \rceil$ cleanup layers. This gives
+\[
+\Dmerge(k, 2m) \le \Dmerge(k, m) + \lceil \log_2 k \rceil.
+\]
+This is essentially Lee and Batcher's multiway merge \cite{lee1995multiway}. The improvement comes from the base case. Removing the first layer of an optimal depth-$9$ sorter on $16$ wires leaves a network merging $8$ sorted pairs in $8$ layers, so $\Dmerge(8,2) = 8$.
+
+\paragraph{Results.} Sorting blocks of $16$ (or recursively of $128$) wires and merging $8$ or $16$ blocks with this merger gives the following depths.
+\begin{center}
+\begin{tabular}{rrrrll}
+\toprule
+$n$ & Batcher & this project & size & construction & status \\
+\midrule
+128 & 28 & \textbf{26} & 1439 & 8 blocks of 16, then 8-way merge & Exact (certified) \\
+256 & 36 & 34 & 3775 & 16 blocks of 16, then 16-way merge & Agent \\
+512 & 45 & 43 & 9599 & 8 blocks of 64, then 8-way merge & Agent \\
+1024 & 55 & \textbf{52} & 23679 & 8 blocks of 128, then 8-way merge & Exact (certified) \\
+\bottomrule
+\end{tabular}
+\end{center}
+The $128$- and $1024$-wire networks were rebuilt from scratch and checked by an independent certificate checker. The checker reads only the flat list of layers and rediscovers the block and merger structure. It checks each $16$-wire block on all $2^{16}$ inputs, each base merger on all $3^8$ sorted-pair inputs, and each cleanup stage on exactly the $0$-$1$ inputs it can receive. It also confirms that every comparator is accounted for. The soundness of this compositional check is proved by induction. Six negative controls (one comparator removed each time) were correctly rejected. As independent cross-checks, the $128$-wire merger was run on all $17^8 \approx 7\times 10^9$ sorted-block inputs, and the $1024$-wire network on about $49{,}000$ further $0$-$1$ inputs, with no failures.
+
+\paragraph{Novelty.} Lee and Batcher's formula \cite{lee1995multiway} gives $27$ at $n = 128$ and $53$ at $n = 1024$. The one layer saved here comes from the better base case. No source stating $26$ or $52$ was found, and Dobbelaere's table stops at $64$ wires. This is only an absence of evidence. For $n \le 64$, the same merge-based search matched the literature for most $n$ but improved none (RD~4.4).
+
+A small instance of the AKS bag-tree scheme on $16$ wires was also built and verified exhaustively (RD~4.5). It has depth $17$, against an optimum of $9$, which illustrates how poorly the scheme performs at small sizes.
+
+\subsection{Structure that every \texorpdfstring{$O(\log n)$}{O(log n)} network must have}\label{sec:structure}
+
+These results are all Proved (RD~5).
+\begin{itemize}
+    \item \textbf{Span schedule.} Let $s_t$ be the longest comparator span $b - a$ in layer $t$. Then $\sum_{t > \tau} s_t \ge n - 2^\tau$ for every $\tau$. In particular, after the first $\log_2 n - 1$ layers the remaining layers still need total span at least $n/2$, so long comparators must remain in use until the end. This explains why AKS-type networks must keep sending items back to the root of their tree.
+    \item \textbf{Span budget.} The total span of all comparators is at least $n^2/4$ ($n$ even).
+    \item \textbf{A barrier for displacement potentials.} Let $G(\sigma) = \frac12 \sum_i (\sigma(i) - i)^2$ measure how far a permutation is from sorted. Then $G$ drops by exactly $(b-a)(\sigma_a - \sigma_b)$ at each swap. However, no block of $D$ layers can shrink $G$ by a constant factor on all inputs unless $D \ge \log_2\log_2 n - O(1)$. So any potential-function proof of an $O(\log n)$ bound needs a term beyond displacement, which plays the role of the tree level and ``strangeness'' in AKS.
+    \item \textbf{Deficit matrix.} A matrix of ``how many items still need to cross cut $c$ below rank $r$'' is entrywise nonincreasing under every comparator, and its entries sum to $G$. This gives a convenient language for halvers.
+\end{itemize}
+
+\subsection{Halvers and a refuted design}\label{sec:halvers}
+
+An \emph{$\eps$-halver} moves all but an $\eps$ fraction of the smaller elements into the lower half. It is the basic building block of AKS. The following are Proved in RD~6:
+\begin{itemize}
+    \item any $D$-layer halver has $\eps \ge 2^{-D}$, so an exact halver needs depth at least $\log_2 n$;
+    \item a halver built from $D$ matchings between the two halves has $\eps \ge 1/(D+1)$;
+    \item such a halver is exact on every input with at most $D$ misplaced elements if each wire's $D$ partners are distinct, but an exact halver of this form on $w + w$ wires needs $D \ge w$.
+\end{itemize}
+Computational data (Exact, $n \le 32$) suggest that such halvers leave a \emph{floor} of stuck elements rather than shrinking the number of misplaced elements by a constant factor.
+
+The project also investigated a ``sliding window'' design meant to replace the AKS tree with a fixed schedule of local halvers at decreasing scales. This design was refuted (RD~7). For any fixed parameters it fails to sort for large $n$, for every choice of wiring. A union bound over inputs cannot close a single round. Covering inputs by monotone domination does not compress the problem enough. An earlier empirical claim of ``$6\log_2 n + 12$'' depth for this design came from a weak adversary and was retracted.
+
+\subsection{The AKS family: simplification and constants}\label{sec:aks}
+
+Seiferas's analysis \cite{seiferas2009sorting} was read in full (RD~8).
+\begin{itemize}
+    \item \textbf{A missing term (Proved by example).} One of Seiferas's three parameter constraints omits the effect of a bag's own ``small strangers'' pushing native items across the middle. A $100$-item example with exact sorting shows the omission. A corrected constraint is given. His theorem and his first sample parameter point survive, but his second sample point and the optimum of his printed constraints do not. Paterson's corresponding inequality \cite{paterson1990improved} does include the term.
+    \item \textbf{Energy reformulation (Agent).} Replacing Seiferas's per-strangeness counts by a single ``energy'' $\sum \mu^{\text{strangeness}}$ per bag reduces three constraints to one, at the cost of worse constants. This is a re-derivation, not a new theorem, and the full proof is no longer available.
+    \item \textbf{Retention lemma (Proved).} A variant in which each bag keeps a middle band of items is analysed. Termination in $O(\log n)$ stages for all $n$ was \emph{not} proved; it was checked numerically only up to $\log_2 n = 128$.
+    \item \textbf{Why a capacity schedule is needed.} A conservation identity (Proved) and simulations suggest that designs without a shrinking capacity schedule fail even with perfect separators.
+\end{itemize}
+
+The coefficients $c$ in depth $\le c \log_2 n$ compiled in the project are as follows.
+\begin{center}
+\begin{tabular}{lrl}
+\toprule
+source & $c$ & status \\
+\midrule
+Paterson \cite{paterson1990improved} & $\approx 6100$ & Literature \\
+Chv\'atal \cite{chvatal1992lecture} & $\approx 1830$ ($n \ge 2^{78}$) & Literature \\
+Seiferas \cite{seiferas2009sorting}, his sample parameters, counted in layers & $514{,}246$ & Exact arithmetic \\
+Seiferas, corrected constraints, optimized & $281{,}084$ & Exact arithmetic \\
+same architecture, refined bookkeeping & $\approx 6{,}300$ & Agent, unreviewed \\
+retention schedule & $\approx 31{,}000$ & Agent, per-$n$ certificates \\
+block-sort separators & $\approx 1{,}000$--$1{,}300$ & Simulation estimate, no proof \\
+\bottomrule
+\end{tabular}
+\end{center}
+Seiferas's often-quoted ``$6.05$'' and ``$6.95$'' count stages, not comparator layers. The constant is dominated by the cost of the separators. As concrete networks for $16 \le n \le 1024$, the AKS-style constructions found were $1.4$ to $3.9$ times deeper than Batcher's. A heuristic accounting argument (RD~8.7) suggests that potentials which see only bag membership cannot yield constants below roughly $14$.
+
+\subsection{Errors found and retracted}\label{sec:retractions}
+
+Part of the project's output is a list of its own mistakes, kept so that they are not repeated (RD~9). Among the more important:
+\begin{itemize}
+    \item the ``weight recursion'' used to reconstruct the $3.27\log_2 n$ lower bound is false (four-wire counterexample);
+    \item the project's proof that last-layer comparators are adjacent has a gap (the statement itself is a published result);
+    \item a claimed proof that $D(12) \ge 8$ came from a bug in a search;
+    \item a two-layer lookahead rule for pruning prefixes is unsound, and is violated by real optimal $16$-wire sorters;
+    \item an empirical $6\log_2 n + 12$ depth for the sliding-window design came from a weak adversary;
+    \item a claimed contraction rate in the retention analysis was wrong, and the correct rate is $\eps + 2\sqrt{2\eps}$;
+    \item the ``reduction to square merging'' (sorting reduces to merging $\sqrt n$ lists of length $\sqrt n$) is folklore, not a discovery.
+\end{itemize}
+
+\subsection{Open problems}
+
+The sharpest open questions identified (RD~10) are:
+\begin{enumerate}
+    \item Can $\sqrt{n}$ sorted lists of length $\sqrt{n}$ be merged in depth $O(\log n)$ by a simple network? Small targets: $\Dmerge(4,4) = 6$ and $\Dmerge(8,8) \le 13$ (currently $\le 14$).
+    \item Is $D(2n) \ge D(n) + 3$? Even the case $n = 16$ would give $D(32) \ge 12$.
+    \item Does a depth-$13$ sorting network on $32$ wires exist?
+    \item What is a correct statement and proof of the weight lemma behind the $3.27\log_2 n$ bound, and can a ``finishing lemma'' push it towards $4\log_2 n$?
+    \item Is there a complete, short proof of an AKS-type network in the retention or energy form, including termination for all $n$?
+    \item Can blocks of $O(\log\log n)$ layers shrink the displacement potential $G$ by a constant factor, i.e.\ is the barrier of \cref{sec:structure} tight?
+\end{enumerate}
+Novelty checks that remain to be done: Knuth Section~5.3.4 and Parberry's work for \cref{thm:halving}, the body of Lee and Batcher's paper for the constructions of \cref{sec:constructions}, and the depth section of \cite{kahale1995lower} for \cref{sec:asymptotic}.
+
