@@ -1,0 +1,21 @@
+{
+  "normal_endings_checked": 7224,
+  "accepted_states_checked": 123502,
+  "allowed_middle_words": [
+    "101010",
+    "011010",
+    "100110",
+    "010110",
+    "001110",
+    "101001",
+    "011001",
+    "100101",
+    "010101",
+    "001101",
+    "100011",
+    "010011",
+    "001011",
+    "000111"
+  ],
+  "scope": "all normal endings of widths 2 through 9; the proof is width independent"
+}

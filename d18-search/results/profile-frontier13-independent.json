@@ -1,0 +1,7 @@
+{
+  "cover_sha256": "2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406",
+  "checked_prefix_cases": 117,
+  "checked_restriction_profiles": 265,
+  "all_witnesses_valid": true,
+  "scope": "Necessary profiles only; no claim of sorting or of the D(13) lower bound."
+}

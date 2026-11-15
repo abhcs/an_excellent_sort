@@ -1,0 +1,12 @@
+{
+  "n": 18,
+  "depth": 10,
+  "cover_sha256": "3479c72a3dce2fe1d58d0fa80e11ccbdf9286c00b8585b1a15f23e325cb55ed2",
+  "total_cases": 411,
+  "statuses": {
+    "TIME_LIMIT": 1,
+    "NOT_SOLVED": 410
+  },
+  "outcome": "OPEN",
+  "independently_proof_checked": false
+}

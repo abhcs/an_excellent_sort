@@ -1,0 +1,158 @@
+{
+  "cover_sha256": "711b620bb298deee98e5520595cfb341a13cf3600f4297dd35f3b38cb11d2100",
+  "cover_cases": 609,
+  "excluded_cases": 3,
+  "unexcluded_cases": 606,
+  "full_D17_bound_proved": false,
+  "scope": "H9-based necessary conditions on first two retained layers of half-blind nine-real restrictions",
+  "records": [
+    {
+      "case_id": "n17-r0606",
+      "sentence": [
+        [
+          "H",
+          "012"
+        ],
+        [
+          "S",
+          "211212"
+        ],
+        [
+          "S",
+          "21121212"
+        ]
+      ],
+      "status": "UNSAT",
+      "proof_checked": true,
+      "result": "d18-search/results/d17-feedback-defects-r0606/result.json",
+      "solve_seconds": 14.1693,
+      "check_seconds": 10.9337,
+      "cnf_sha256": "7e449d18b5245acbf89187b0a323d797f07e648671ff348771a67f9304770219",
+      "proof_sha256": "19606898ddc86bb10e44c44cdf00c49b35f94a8e9650f372122a3109d0dad2aa"
+    },
+    {
+      "case_id": "n17-r0607",
+      "sentence": [
+        [
+          "H",
+          "012"
+        ],
+        [
+          "S",
+          "211212"
+        ],
+        [
+          "S",
+          "21122112"
+        ]
+      ],
+      "status": "UNSAT",
+      "proof_checked": true,
+      "result": "d18-search/results/d17-feedback-defects-r0607/result.json",
+      "solve_seconds": 10.7632,
+      "check_seconds": 7.4822,
+      "cnf_sha256": "001dff66b13b22e8e585cf7e89ee96c483e1b1730d375b4903c3234f92684f2e",
+      "proof_sha256": "e9af4a557bf921b157d5d325c9491945b68db4f2f50fe7a2d7bdd5efafb335b7"
+    },
+    {
+      "case_id": "n17-r0608",
+      "sentence": [
+        [
+          "H",
+          "012"
+        ],
+        [
+          "S",
+          "211212"
+        ],
+        [
+          "S",
+          "21211212"
+        ]
+      ],
+      "status": "UNSAT",
+      "proof_checked": true,
+      "result": "d18-search/results/d17-feedback-defects-r0608/result.json",
+      "solve_seconds": 6.8336,
+      "check_seconds": 4.935,
+      "cnf_sha256": "a2a078a9764b86e12bf9dcc37e767b14494502aedf12f7a22682243b2220be23",
+      "proof_sha256": "3d2d44b0fccd85077a48b4d5f08428b2366f838f9e3ba8c5039c0ea16f26d4f1"
+    }
+  ],
+  "positive_control": {
+    "case_id": "n17-r0000",
+    "profiles": [
+      [
+        1,
+        4
+      ]
+    ],
+    "independently_replayed": true
+  },
+  "reduced_core": {
+    "indices": [
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "proof_checked": true,
+    "certificate": "d18-search/results/d17-feedback-core-r0608/reduced-certificate/certificate.json",
+    "cnf_sha256": "cb26d2d06319fd328065be7eede27e5727af32ce8427abfa398c834b8b166866",
+    "proof_sha256": "c8270d6b90b238a5903b99358266271d54dbbe843285bf47bddcc7459291384a"
+  },
+  "sources": {
+    "d18-search/d17_feedback_certificate.py": "e464feea00cdcfe9db014a676effa138d33e47d9f05718f5d685b39f7be2a7ed",
+    "d18-search/d17_feedback_core.py": "8d471286b703b18262ade1854e9a22cf6d0bfe977c852c3f0a669fd862eb5ccd",
+    "d18-search/d17_feedback_repeat.py": "575c42c1daaa1e46767b9a83ecc1bc8f94c544f95396a974574fc0274ad5b2dc",
+    "d18-search/d17_feedback_static.py": "554070ea45e5c782f5ed9ab39f080187be6a0f9ef5a51f3b73495bef9ee62d4c",
+    "d18-search/d17_feedback_peak_only.py": "a46c2a02f8ff4e47fe60ac1b35ed249a11a989827d7054c44cff1b18a2426c80",
+    "d18-search/d17_feedback_defects.py": "510ddb7ed090c1b55507a1b8d6a1cf8d3e4f1b2ba257e1759a6df474a5dce63a",
+    "d18-search/d17_feedback_peaks.py": "2df8313434ec237f6ad343e4b04398255b4aedf8ccedc370156722115bbafab6",
+    "d18-search/two_layer_cover.py": "414269d87ab42e839f8d1ae9411de67e14b80bb9ed47c7145c08d9c0e979e83b",
+    "depth-hand-proofs/verify/sentinel_cegar.py": "89d66187f1118a86e8adcfd9c5f1aa9ab90a0ef4a0f4290d05c410bdfca696f3"
+  },
+  "prior_probe": {
+    "paused_result": "results/d17-feedback-r0608-cut7/terminal.json",
+    "fresh_result": "results/d17-feedback-r0608-cut7-resumed/terminal.json",
+    "fresh_status": "TIME_LIMIT"
+  },
+  "all_completed_operations_wall_bounded_seconds": 120,
+  "weakened_case608_certificates": [
+    {
+      "kind": "repeat",
+      "scope": "Case608 with L3/L4 repeat prohibition removed; L2/L3 no-repeat retained",
+      "proof_checked": true,
+      "solve_seconds": 8.0844,
+      "check_seconds": 6.3357,
+      "certificate": "d18-search/results/d17-feedback-repeat-r0608/result/check/certificate.json",
+      "cnf_sha256": "0ed255c9b9d262a83d497916c170ab2a88a28d5501597a82222eb22e9ad1b4bd",
+      "proof_sha256": "989a31568431a0f3d0d9bad0a2b46e7dbce5a093a72b9e3583038a4b5930e332"
+    },
+    {
+      "kind": "peak-only",
+      "scope": "Case608 pure peak coverage by arbitrary two matchings: repeats and empty retained layers allowed",
+      "proof_checked": true,
+      "solve_seconds": 7.6861,
+      "check_seconds": 5.8758,
+      "certificate": "d18-search/results/d17-feedback-peak-only-r0608/result/check/certificate.json",
+      "cnf_sha256": "bc3014bff12e380684fe6badf57e1e4b88b57348af6d0e7f5844942f9ea8b19a",
+      "proof_sha256": "da264dbc238106cb2d2f7527a1c6c562c49b8aade196bcf09c684f5cf6540b8e"
+    }
+  ],
+  "note": "d18-search/d17_feedback_results.md",
+  "all_solver_and_checker_processes_terminal": true
+}

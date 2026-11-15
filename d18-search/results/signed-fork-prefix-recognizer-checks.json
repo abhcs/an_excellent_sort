@@ -1,0 +1,13 @@
+{
+  "status": "VERIFIED",
+  "tiny_exhaustive_prefix_cases": 96,
+  "planted_arbitrarily_embedded_families": 32,
+  "planted_families_cover_all_B_sign_assignments": true,
+  "nineteen_state_negative_controls": 32,
+  "twenty_state_nine_variable_negative_control": true,
+  "sat_used": false,
+  "sha256": {
+    "signed_fork_prefix_verify.py": "11b2c2bbb6d05ef67f1bc447857dabbe0b0775628e82b3894f65dd2c3c601ac7",
+    "signed_fork_prefix.py": "77f5590c785431af69b7822f10ca937bb2d3425c4a3a8d7cb387b203b13f5167"
+  }
+}

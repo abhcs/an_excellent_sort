@@ -1,0 +1,15 @@
+{
+  "n": 8,
+  "depth": 6,
+  "caps": [
+    4,
+    2
+  ],
+  "solver": "cadical195",
+  "variables": 3112,
+  "clauses": 60484,
+  "proof_trace_checked": false,
+  "encoder_sha256": "94f6830466820774d1d19228ebc8256b08aaba4f982d6812a72cfdaa7543a1ea",
+  "status": "UNSAT",
+  "seconds": 0.3928660419769585
+}

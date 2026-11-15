@@ -1,0 +1,70 @@
+{
+  "status": "VERIFIED",
+  "scope": "All arbitrary first matchings with no A--B cross edge; second matching arbitrary via safe final-layer filling",
+  "vertices": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    15,
+    16
+  ],
+  "A": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "B": [
+    10,
+    11,
+    12,
+    15,
+    16
+  ],
+  "matchings_checked": 15712,
+  "by_size": {
+    "0": 1,
+    "1": 41,
+    "2": 560,
+    "3": 3110,
+    "4": 6825,
+    "5": 4725,
+    "6": 450
+  },
+  "by_idle_A": {
+    "0 edges, 5 idle A": 1,
+    "1 edges, 3 idle A": 10,
+    "1 edges, 4 idle A": 10,
+    "1 edges, 5 idle A": 21,
+    "2 edges, 1 idle A": 15,
+    "2 edges, 2 idle A": 60,
+    "2 edges, 3 idle A": 230,
+    "2 edges, 4 idle A": 150,
+    "2 edges, 5 idle A": 105,
+    "3 edges, 0 idle A": 30,
+    "3 edges, 1 idle A": 375,
+    "3 edges, 2 idle A": 900,
+    "3 edges, 3 idle A": 1250,
+    "3 edges, 4 idle A": 450,
+    "3 edges, 5 idle A": 105,
+    "4 edges, 0 idle A": 450,
+    "4 edges, 1 idle A": 2175,
+    "4 edges, 2 idle A": 2700,
+    "4 edges, 3 idle A": 1350,
+    "4 edges, 4 idle A": 150,
+    "5 edges, 0 idle A": 1350,
+    "5 edges, 1 idle A": 2475,
+    "5 edges, 2 idle A": 900,
+    "6 edges, 0 idle A": 450
+  },
+  "sat_used": false,
+  "source_sha256": "3add57607701b2daa74cb45cdf7568e2e99499ba84477a013c40c2abf3d5ea1b"
+}

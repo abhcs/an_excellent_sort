@@ -1,0 +1,153 @@
+{
+  "status": "VERIFIED",
+  "records": [
+    {
+      "case": "combined",
+      "status": "VERIFIED",
+      "representatives": 1544,
+      "binary_functional_replays": 227072,
+      "survivor_layer": null,
+      "input_sha256": "ce7006cba3c56a7db91638cc04d62e43a759c080869f84c7cdf0567291e4a4aa"
+    },
+    {
+      "case": "beam00",
+      "status": "VERIFIED",
+      "representatives": 40,
+      "binary_functional_replays": 6144,
+      "survivor_layer": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          16,
+          17
+        ]
+      ],
+      "input_sha256": "5a0145e21d20b81f087e65438a2fdf24c2f356defec24574177838cba2a75e72"
+    },
+    {
+      "case": "beam16",
+      "status": "VERIFIED",
+      "representatives": 23,
+      "binary_functional_replays": 3328,
+      "survivor_layer": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          16,
+          17
+        ]
+      ],
+      "input_sha256": "59ef1f861cd63263de9cf52c372493538b6f0033d01679467870e23b1354cc38"
+    },
+    {
+      "case": "beam32",
+      "status": "VERIFIED",
+      "representatives": 108,
+      "binary_functional_replays": 15872,
+      "survivor_layer": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          10,
+          14
+        ],
+        [
+          11,
+          15
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          16,
+          17
+        ]
+      ],
+      "input_sha256": "a750e1f371034adfc5b8875a43a6b3761ea0f2e1df7baf807eba6469645ed193"
+    }
+  ],
+  "thin_core_check": {
+    "terminal": "EXITED",
+    "returncode": 0,
+    "wall_cap_seconds": 30,
+    "seconds": 0.01866641698870808,
+    "verified": true
+  },
+  "total_binary_functional_replays": 252416,
+  "source_sha256": "c1c8fa7759581ddc00f016997e03f8bcf1d32918aaadd4904637caf66b4376e8"
+}

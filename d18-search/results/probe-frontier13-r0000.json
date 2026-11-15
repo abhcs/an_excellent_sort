@@ -1,0 +1,68 @@
+{
+  "case_id": "n13-r0000",
+  "depth": 8,
+  "cut": 6,
+  "scope": "Probe positions only; no completion or sorting constraints",
+  "prefix": [
+    [
+      [
+        0,
+        9
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        8,
+        10
+      ]
+    ],
+    [
+      [
+        0,
+        8
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        5,
+        12
+      ],
+      [
+        9,
+        10
+      ]
+    ]
+  ],
+  "inputs": 432,
+  "probes": 1512,
+  "variables": 13844,
+  "clauses": 182388,
+  "source_sha256": "7d92fa33dd6a0c7881b576ac32cad582fec560f0219f68272082ab7567db91ba",
+  "independently_proof_checked": false,
+  "status": "TIME_LIMIT",
+  "wall_limit_seconds": 120
+}

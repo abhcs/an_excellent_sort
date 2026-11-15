@@ -1,0 +1,3 @@
+16:58:38 n=18 prefix depth=4 free layers=6 sym=False phi=True cosat=True nored0=True lex=False solver=kissat404 |U|=487 pool=487 avg window=10.69
+16:58:39 model built: vars=27692 clauses=497028 inputs=487 (0.8s)
+17:05:44 iter 1: UNSAT after 425.0s with 487 inputs; total 425.8s

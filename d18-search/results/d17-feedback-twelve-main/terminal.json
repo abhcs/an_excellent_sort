@@ -1,0 +1,15 @@
+{
+  "status": "EXITED",
+  "returncode": 0,
+  "wall_seconds": 2.216,
+  "wall_limit_seconds": 120,
+  "command": [
+    "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+    "d18-search/d17_feedback_twelve.py",
+    "--states",
+    "d18-search/results/d17-feedback-twelve-states.json",
+    "--out",
+    "d18-search/results/d17-feedback-twelve-main/result.json",
+    "--proof"
+  ]
+}

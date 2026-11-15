@@ -1,0 +1,5 @@
+16:52:05 n=17 prefix depth=3 free layers=7 sym=False phi=True cosat=True nored0=True lex=False solver=cadical195 |U|=782 pool=782 avg window=11.96
+16:52:06 model built: vars=30609 clauses=617654 inputs=400 (0.5s)
+16:55:27 iter 1: SAT in 201.2s, inputs=400, vars=30609, clauses=617654, fails=6, elapsed=202s
+16:57:28 iter 2: SAT in 120.7s, inputs=406, vars=31101, clauses=628754, fails=15, elapsed=322s
+STOPPED manually (superseded or to free cores)

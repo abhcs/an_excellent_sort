@@ -1,0 +1,1462 @@
+{
+  "case_id": "n13-r0116",
+  "n": 13,
+  "depth": 8,
+  "cut": 6,
+  "prefix": [
+    [
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        5,
+        10
+      ]
+    ],
+    [
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        4,
+        12
+      ]
+    ]
+  ],
+  "wires": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "cap": 4,
+  "mode": "endpoints",
+  "scope": "All continuations of fixed prefix; selected wire intervals only",
+  "source_sha256": "22768b03673525e930c722acde18c6d4c77049a0e1e6f16615801908b1e39aa1",
+  "status": "TIME_LIMIT",
+  "independently_proof_checked": false,
+  "universe_size": 735,
+  "iterations": [
+    {
+      "iteration": 0,
+      "solve_seconds": 0.00012304098345339298,
+      "oracle_seconds": 4.4166925363242626e-05,
+      "violated_wires": 10,
+      "input_count": 0,
+      "maximum_width": 10,
+      "added_witnesses": [
+        {
+          "wire": 5,
+          "lo": 2,
+          "hi": 11,
+          "width": 10,
+          "zero_witness": 8142,
+          "one_witness": 96
+        },
+        {
+          "wire": 6,
+          "lo": 2,
+          "hi": 11,
+          "width": 10,
+          "zero_witness": 8045,
+          "one_witness": 192
+        },
+        {
+          "wire": 8,
+          "lo": 1,
+          "hi": 9,
+          "width": 9,
+          "zero_witness": 7675,
+          "one_witness": 3840
+        },
+        {
+          "wire": 9,
+          "lo": 3,
+          "hi": 11,
+          "width": 9,
+          "zero_witness": 7417,
+          "one_witness": 1280
+        },
+        {
+          "wire": 10,
+          "lo": 3,
+          "hi": 11,
+          "width": 9,
+          "zero_witness": 6650,
+          "one_witness": 768
+        },
+        {
+          "wire": 3,
+          "lo": 3,
+          "hi": 10,
+          "width": 8,
+          "zero_witness": 8176,
+          "one_witness": 386
+        },
+        {
+          "wire": 4,
+          "lo": 0,
+          "hi": 7,
+          "width": 8,
+          "zero_witness": 8175,
+          "one_witness": 6384
+        },
+        {
+          "wire": 7,
+          "lo": 5,
+          "hi": 12,
+          "width": 8,
+          "zero_witness": 7948,
+          "one_witness": 64
+        },
+        {
+          "wire": 2,
+          "lo": 1,
+          "hi": 7,
+          "width": 7,
+          "zero_witness": 8181,
+          "one_witness": 7692
+        },
+        {
+          "wire": 11,
+          "lo": 8,
+          "hi": 12,
+          "width": 5,
+          "zero_witness": 4320,
+          "one_witness": 256
+        }
+      ]
+    },
+    {
+      "iteration": 1,
+      "solve_seconds": 0.0009293329203501344,
+      "oracle_seconds": 3.8499943912029266e-05,
+      "violated_wires": 9,
+      "input_count": 20,
+      "maximum_width": 8,
+      "added_witnesses": [
+        {
+          "wire": 4,
+          "lo": 3,
+          "hi": 10,
+          "width": 8,
+          "zero_witness": 7651,
+          "one_witness": 6160
+        },
+        {
+          "wire": 9,
+          "lo": 2,
+          "hi": 9,
+          "width": 8,
+          "zero_witness": 6119,
+          "one_witness": 3392
+        },
+        {
+          "wire": 5,
+          "lo": 3,
+          "hi": 9,
+          "width": 7,
+          "zero_witness": 7996,
+          "one_witness": 736
+        },
+        {
+          "wire": 6,
+          "lo": 1,
+          "hi": 7,
+          "width": 7,
+          "zero_witness": 7933,
+          "one_witness": 5600
+        },
+        {
+          "wire": 7,
+          "lo": 4,
+          "hi": 10,
+          "width": 7,
+          "zero_witness": 4006,
+          "one_witness": 448
+        },
+        {
+          "wire": 2,
+          "lo": 1,
+          "hi": 6,
+          "width": 6,
+          "zero_witness": 8158,
+          "one_witness": 1507
+        },
+        {
+          "wire": 3,
+          "lo": 1,
+          "hi": 6,
+          "width": 6,
+          "zero_witness": 7675,
+          "one_witness": 1765
+        },
+        {
+          "wire": 8,
+          "lo": 6,
+          "hi": 11,
+          "width": 6,
+          "zero_witness": 6552,
+          "one_witness": 96
+        },
+        {
+          "wire": 10,
+          "lo": 8,
+          "hi": 12,
+          "width": 5,
+          "zero_witness": 5408,
+          "one_witness": 64
+        }
+      ]
+    },
+    {
+      "iteration": 2,
+      "solve_seconds": 0.0008301249472424388,
+      "oracle_seconds": 2.7708010748028755e-05,
+      "violated_wires": 9,
+      "input_count": 35,
+      "maximum_width": 8,
+      "added_witnesses": [
+        {
+          "wire": 7,
+          "lo": 4,
+          "hi": 11,
+          "width": 8,
+          "zero_witness": 6642,
+          "one_witness": 1152
+        },
+        {
+          "wire": 9,
+          "lo": 5,
+          "hi": 12,
+          "width": 8,
+          "zero_witness": 7352,
+          "one_witness": 64
+        },
+        {
+          "wire": 3,
+          "lo": 1,
+          "hi": 7,
+          "width": 7,
+          "zero_witness": 8061,
+          "one_witness": 6546
+        },
+        {
+          "wire": 4,
+          "lo": 3,
+          "hi": 9,
+          "width": 7,
+          "zero_witness": 8037,
+          "one_witness": 1668
+        },
+        {
+          "wire": 6,
+          "lo": 2,
+          "hi": 8,
+          "width": 7,
+          "zero_witness": 7932,
+          "one_witness": 1633
+        },
+        {
+          "wire": 8,
+          "lo": 4,
+          "hi": 10,
+          "width": 7,
+          "zero_witness": 7578,
+          "one_witness": 352
+        },
+        {
+          "wire": 11,
+          "lo": 6,
+          "hi": 12,
+          "width": 7,
+          "zero_witness": 5828,
+          "one_witness": 2048
+        },
+        {
+          "wire": 5,
+          "lo": 2,
+          "hi": 7,
+          "width": 6,
+          "zero_witness": 7659,
+          "one_witness": 6760
+        },
+        {
+          "wire": 10,
+          "lo": 7,
+          "hi": 12,
+          "width": 6,
+          "zero_witness": 6496,
+          "one_witness": 128
+        }
+      ]
+    },
+    {
+      "iteration": 3,
+      "solve_seconds": 0.005681625101715326,
+      "oracle_seconds": 3.308395389467478e-05,
+      "violated_wires": 10,
+      "input_count": 52,
+      "maximum_width": 8,
+      "added_witnesses": [
+        {
+          "wire": 6,
+          "lo": 2,
+          "hi": 9,
+          "width": 8,
+          "zero_witness": 8094,
+          "one_witness": 5280
+        },
+        {
+          "wire": 4,
+          "lo": 2,
+          "hi": 8,
+          "width": 7,
+          "zero_witness": 8163,
+          "one_witness": 1924
+        },
+        {
+          "wire": 5,
+          "lo": 2,
+          "hi": 8,
+          "width": 7,
+          "zero_witness": 8060,
+          "one_witness": 3169
+        },
+        {
+          "wire": 8,
+          "lo": 3,
+          "hi": 9,
+          "width": 7,
+          "zero_witness": 7921,
+          "one_witness": 450
+        },
+        {
+          "wire": 9,
+          "lo": 5,
+          "hi": 11,
+          "width": 7,
+          "zero_witness": 6602,
+          "one_witness": 1152
+        },
+        {
+          "wire": 2,
+          "lo": 0,
+          "hi": 5,
+          "width": 6,
+          "zero_witness": 8187,
+          "one_witness": 7964
+        },
+        {
+          "wire": 3,
+          "lo": 2,
+          "hi": 7,
+          "width": 6,
+          "zero_witness": 4071,
+          "one_witness": 7448
+        },
+        {
+          "wire": 7,
+          "lo": 6,
+          "hi": 11,
+          "width": 6,
+          "zero_witness": 1506,
+          "one_witness": 640
+        },
+        {
+          "wire": 10,
+          "lo": 7,
+          "hi": 11,
+          "width": 5,
+          "zero_witness": 1924,
+          "one_witness": 192
+        },
+        {
+          "wire": 11,
+          "lo": 7,
+          "hi": 11,
+          "width": 5,
+          "zero_witness": 3776,
+          "one_witness": 96
+        }
+      ]
+    },
+    {
+      "iteration": 4,
+      "solve_seconds": 0.009090250008739531,
+      "oracle_seconds": 3.075005952268839e-05,
+      "violated_wires": 10,
+      "input_count": 68,
+      "maximum_width": 8,
+      "added_witnesses": [
+        {
+          "wire": 7,
+          "lo": 3,
+          "hi": 10,
+          "width": 8,
+          "zero_witness": 7545,
+          "one_witness": 3200
+        },
+        {
+          "wire": 4,
+          "lo": 2,
+          "hi": 8,
+          "width": 7,
+          "zero_witness": 7917,
+          "one_witness": 1860
+        },
+        {
+          "wire": 5,
+          "lo": 2,
+          "hi": 8,
+          "width": 7,
+          "zero_witness": 4071,
+          "one_witness": 5728
+        },
+        {
+          "wire": 6,
+          "lo": 4,
+          "hi": 10,
+          "width": 7,
+          "zero_witness": 7920,
+          "one_witness": 832
+        },
+        {
+          "wire": 8,
+          "lo": 5,
+          "hi": 11,
+          "width": 7,
+          "zero_witness": 4036,
+          "one_witness": 1056
+        },
+        {
+          "wire": 10,
+          "lo": 4,
+          "hi": 10,
+          "width": 7,
+          "zero_witness": 5989,
+          "one_witness": 1664
+        },
+        {
+          "wire": 2,
+          "lo": 0,
+          "hi": 5,
+          "width": 6,
+          "zero_witness": 8183,
+          "one_witness": 7884
+        },
+        {
+          "wire": 3,
+          "lo": 0,
+          "hi": 5,
+          "width": 6,
+          "zero_witness": 8175,
+          "one_witness": 7537
+        },
+        {
+          "wire": 9,
+          "lo": 6,
+          "hi": 11,
+          "width": 6,
+          "zero_witness": 3748,
+          "one_witness": 192
+        },
+        {
+          "wire": 11,
+          "lo": 8,
+          "hi": 12,
+          "width": 5,
+          "zero_witness": 4928,
+          "one_witness": 1024
+        }
+      ]
+    },
+    {
+      "iteration": 5,
+      "solve_seconds": 0.012832000036723912,
+      "oracle_seconds": 3.1957984901964664e-05,
+      "violated_wires": 10,
+      "input_count": 85,
+      "maximum_width": 8,
+      "added_witnesses": [
+        {
+          "wire": 8,
+          "lo": 3,
+          "hi": 10,
+          "width": 8,
+          "zero_witness": 7804,
+          "one_witness": 1216
+        },
+        {
+          "wire": 5,
+          "lo": 3,
+          "hi": 9,
+          "width": 7,
+          "zero_witness": 8116,
+          "one_witness": 4448
+        },
+        {
+          "wire": 9,
+          "lo": 4,
+          "hi": 10,
+          "width": 7,
+          "zero_witness": 7602,
+          "one_witness": 896
+        },
+        {
+          "wire": 3,
+          "lo": 1,
+          "hi": 6,
+          "width": 6,
+          "zero_witness": 8181,
+          "one_witness": 5090
+        },
+        {
+          "wire": 4,
+          "lo": 1,
+          "hi": 6,
+          "width": 6,
+          "zero_witness": 8171,
+          "one_witness": 7600
+        },
+        {
+          "wire": 6,
+          "lo": 3,
+          "hi": 8,
+          "width": 6,
+          "zero_witness": 2023,
+          "one_witness": 3488
+        },
+        {
+          "wire": 7,
+          "lo": 6,
+          "hi": 11,
+          "width": 6,
+          "zero_witness": 1761,
+          "one_witness": 4160
+        },
+        {
+          "wire": 10,
+          "lo": 6,
+          "hi": 11,
+          "width": 6,
+          "zero_witness": 6264,
+          "one_witness": 192
+        },
+        {
+          "wire": 2,
+          "lo": 0,
+          "hi": 4,
+          "width": 5,
+          "zero_witness": 8175,
+          "one_witness": 8116
+        },
+        {
+          "wire": 11,
+          "lo": 8,
+          "hi": 12,
+          "width": 5,
+          "zero_witness": 5312,
+          "one_witness": 256
+        }
+      ]
+    },
+    {
+      "iteration": 6,
+      "solve_seconds": 0.05654150003101677,
+      "oracle_seconds": 4.38750721514225e-05,
+      "violated_wires": 8,
+      "input_count": 100,
+      "maximum_width": 7,
+      "added_witnesses": [
+        {
+          "wire": 2,
+          "lo": 1,
+          "hi": 7,
+          "width": 7,
+          "zero_witness": 8179,
+          "one_witness": 5796
+        },
+        {
+          "wire": 5,
+          "lo": 3,
+          "hi": 9,
+          "width": 7,
+          "zero_witness": 7868,
+          "one_witness": 1376
+        },
+        {
+          "wire": 6,
+          "lo": 2,
+          "hi": 8,
+          "width": 7,
+          "zero_witness": 8118,
+          "one_witness": 6792
+        },
+        {
+          "wire": 7,
+          "lo": 4,
+          "hi": 10,
+          "width": 7,
+          "zero_witness": 3941,
+          "one_witness": 224
+        },
+        {
+          "wire": 8,
+          "lo": 5,
+          "hi": 11,
+          "width": 7,
+          "zero_witness": 7050,
+          "one_witness": 1280
+        },
+        {
+          "wire": 9,
+          "lo": 5,
+          "hi": 11,
+          "width": 7,
+          "zero_witness": 2018,
+          "one_witness": 4608
+        },
+        {
+          "wire": 4,
+          "lo": 2,
+          "hi": 7,
+          "width": 6,
+          "zero_witness": 6119,
+          "one_witness": 3425
+        },
+        {
+          "wire": 10,
+          "lo": 8,
+          "hi": 12,
+          "width": 5,
+          "zero_witness": 1796,
+          "one_witness": 128
+        }
+      ]
+    },
+    {
+      "iteration": 7,
+      "solve_seconds": 0.0975798339350149,
+      "oracle_seconds": 7.537507917732e-05,
+      "violated_wires": 9,
+      "input_count": 113,
+      "maximum_width": 8,
+      "added_witnesses": [
+        {
+          "wire": 4,
+          "lo": 1,
+          "hi": 8,
+          "width": 8,
+          "zero_witness": 8174,
+          "one_witness": 6680
+        },
+        {
+          "wire": 6,
+          "lo": 2,
+          "hi": 8,
+          "width": 7,
+          "zero_witness": 7805,
+          "one_witness": 1828
+        },
+        {
+          "wire": 7,
+          "lo": 4,
+          "hi": 10,
+          "width": 7,
+          "zero_witness": 8036,
+          "one_witness": 224
+        },
+        {
+          "wire": 9,
+          "lo": 5,
+          "hi": 11,
+          "width": 7,
+          "zero_witness": 7624,
+          "one_witness": 1056
+        },
+        {
+          "wire": 3,
+          "lo": 2,
+          "hi": 7,
+          "width": 6,
+          "zero_witness": 4071,
+          "one_witness": 5732
+        },
+        {
+          "wire": 5,
+          "lo": 3,
+          "hi": 8,
+          "width": 6,
+          "zero_witness": 6118,
+          "one_witness": 1249
+        },
+        {
+          "wire": 8,
+          "lo": 5,
+          "hi": 10,
+          "width": 6,
+          "zero_witness": 3042,
+          "one_witness": 1792
+        },
+        {
+          "wire": 11,
+          "lo": 6,
+          "hi": 11,
+          "width": 6,
+          "zero_witness": 5345,
+          "one_witness": 576
+        },
+        {
+          "wire": 2,
+          "lo": 0,
+          "hi": 4,
+          "width": 5,
+          "zero_witness": 8187,
+          "one_witness": 7797
+        }
+      ]
+    },
+    {
+      "iteration": 8,
+      "solve_seconds": 0.4665715420851484,
+      "oracle_seconds": 3.6209006793797016e-05,
+      "violated_wires": 10,
+      "input_count": 127,
+      "maximum_width": 7,
+      "added_witnesses": [
+        {
+          "wire": 4,
+          "lo": 2,
+          "hi": 8,
+          "width": 7,
+          "zero_witness": 8170,
+          "one_witness": 5217
+        },
+        {
+          "wire": 5,
+          "lo": 2,
+          "hi": 8,
+          "width": 7,
+          "zero_witness": 8150,
+          "one_witness": 3424
+        },
+        {
+          "wire": 6,
+          "lo": 3,
+          "hi": 9,
+          "width": 7,
+          "zero_witness": 7665,
+          "one_witness": 2434
+        },
+        {
+          "wire": 7,
+          "lo": 3,
+          "hi": 9,
+          "width": 7,
+          "zero_witness": 7130,
+          "one_witness": 480
+        },
+        {
+          "wire": 9,
+          "lo": 6,
+          "hi": 12,
+          "width": 7,
+          "zero_witness": 6538,
+          "one_witness": 64
+        },
+        {
+          "wire": 3,
+          "lo": 1,
+          "hi": 6,
+          "width": 6,
+          "zero_witness": 7675,
+          "one_witness": 6872
+        },
+        {
+          "wire": 8,
+          "lo": 6,
+          "hi": 11,
+          "width": 6,
+          "zero_witness": 1988,
+          "one_witness": 2304
+        },
+        {
+          "wire": 10,
+          "lo": 7,
+          "hi": 12,
+          "width": 6,
+          "zero_witness": 5217,
+          "one_witness": 128
+        },
+        {
+          "wire": 2,
+          "lo": 0,
+          "hi": 4,
+          "width": 5,
+          "zero_witness": 8175,
+          "one_witness": 7665
+        },
+        {
+          "wire": 11,
+          "lo": 8,
+          "hi": 12,
+          "width": 5,
+          "zero_witness": 4800,
+          "one_witness": 256
+        }
+      ]
+    },
+    {
+      "iteration": 9,
+      "solve_seconds": 0.09531700005754828,
+      "oracle_seconds": 4.02920413762331e-05,
+      "violated_wires": 9,
+      "input_count": 140,
+      "maximum_width": 7,
+      "added_witnesses": [
+        {
+          "wire": 4,
+          "lo": 3,
+          "hi": 9,
+          "width": 7,
+          "zero_witness": 4067,
+          "one_witness": 6416
+        },
+        {
+          "wire": 6,
+          "lo": 3,
+          "hi": 9,
+          "width": 7,
+          "zero_witness": 8086,
+          "one_witness": 1121
+        },
+        {
+          "wire": 7,
+          "lo": 3,
+          "hi": 9,
+          "width": 7,
+          "zero_witness": 8056,
+          "one_witness": 1472
+        },
+        {
+          "wire": 8,
+          "lo": 4,
+          "hi": 10,
+          "width": 7,
+          "zero_witness": 6086,
+          "one_witness": 2368
+        },
+        {
+          "wire": 9,
+          "lo": 6,
+          "hi": 12,
+          "width": 7,
+          "zero_witness": 6608,
+          "one_witness": 512
+        },
+        {
+          "wire": 3,
+          "lo": 1,
+          "hi": 6,
+          "width": 6,
+          "zero_witness": 8174,
+          "one_witness": 6520
+        },
+        {
+          "wire": 5,
+          "lo": 1,
+          "hi": 6,
+          "width": 6,
+          "zero_witness": 8126,
+          "one_witness": 3937
+        },
+        {
+          "wire": 2,
+          "lo": 1,
+          "hi": 5,
+          "width": 5,
+          "zero_witness": 8158,
+          "one_witness": 7852
+        },
+        {
+          "wire": 10,
+          "lo": 8,
+          "hi": 12,
+          "width": 5,
+          "zero_witness": 1121,
+          "one_witness": 128
+        }
+      ]
+    },
+    {
+      "iteration": 10,
+      "solve_seconds": 0.09424449992366135,
+      "oracle_seconds": 4.299997817724943e-05,
+      "violated_wires": 9,
+      "input_count": 154,
+      "maximum_width": 7,
+      "added_witnesses": [
+        {
+          "wire": 6,
+          "lo": 4,
+          "hi": 10,
+          "width": 7,
+          "zero_witness": 7793,
+          "one_witness": 704
+        },
+        {
+          "wire": 7,
+          "lo": 3,
+          "hi": 9,
+          "width": 7,
+          "zero_witness": 4069,
+          "one_witness": 5440
+        },
+        {
+          "wire": 3,
+          "lo": 2,
+          "hi": 7,
+          "width": 6,
+          "zero_witness": 6119,
+          "one_witness": 3876
+        },
+        {
+          "wire": 4,
+          "lo": 1,
+          "hi": 6,
+          "width": 6,
+          "zero_witness": 8173,
+          "one_witness": 5602
+        },
+        {
+          "wire": 5,
+          "lo": 2,
+          "hi": 7,
+          "width": 6,
+          "zero_witness": 8053,
+          "one_witness": 1764
+        },
+        {
+          "wire": 8,
+          "lo": 5,
+          "hi": 10,
+          "width": 6,
+          "zero_witness": 7384,
+          "one_witness": 224
+        },
+        {
+          "wire": 9,
+          "lo": 7,
+          "hi": 12,
+          "width": 6,
+          "zero_witness": 7304,
+          "one_witness": 512
+        },
+        {
+          "wire": 10,
+          "lo": 6,
+          "hi": 11,
+          "width": 6,
+          "zero_witness": 1764,
+          "one_witness": 320
+        },
+        {
+          "wire": 11,
+          "lo": 8,
+          "hi": 12,
+          "width": 5,
+          "zero_witness": 1572,
+          "one_witness": 64
+        }
+      ]
+    },
+    {
+      "iteration": 11,
+      "solve_seconds": 7.168442000052892,
+      "oracle_seconds": 4.091695882380009e-05,
+      "violated_wires": 8,
+      "input_count": 167,
+      "maximum_width": 7,
+      "added_witnesses": [
+        {
+          "wire": 4,
+          "lo": 2,
+          "hi": 8,
+          "width": 7,
+          "zero_witness": 8169,
+          "one_witness": 2498
+        },
+        {
+          "wire": 7,
+          "lo": 5,
+          "hi": 11,
+          "width": 7,
+          "zero_witness": 7984,
+          "one_witness": 2176
+        },
+        {
+          "wire": 5,
+          "lo": 3,
+          "hi": 8,
+          "width": 6,
+          "zero_witness": 7417,
+          "one_witness": 1888
+        },
+        {
+          "wire": 6,
+          "lo": 3,
+          "hi": 8,
+          "width": 6,
+          "zero_witness": 4067,
+          "one_witness": 7712
+        },
+        {
+          "wire": 8,
+          "lo": 5,
+          "hi": 10,
+          "width": 6,
+          "zero_witness": 1893,
+          "one_witness": 224
+        },
+        {
+          "wire": 9,
+          "lo": 5,
+          "hi": 10,
+          "width": 6,
+          "zero_witness": 6610,
+          "one_witness": 608
+        },
+        {
+          "wire": 11,
+          "lo": 6,
+          "hi": 11,
+          "width": 6,
+          "zero_witness": 3522,
+          "one_witness": 768
+        },
+        {
+          "wire": 10,
+          "lo": 8,
+          "hi": 12,
+          "width": 5,
+          "zero_witness": 6280,
+          "one_witness": 64
+        }
+      ]
+    },
+    {
+      "iteration": 12,
+      "solve_seconds": 2.2283764159074053,
+      "oracle_seconds": 4.1499966755509377e-05,
+      "violated_wires": 9,
+      "input_count": 178,
+      "maximum_width": 7,
+      "added_witnesses": [
+        {
+          "wire": 6,
+          "lo": 2,
+          "hi": 8,
+          "width": 7,
+          "zero_witness": 8110,
+          "one_witness": 1636
+        },
+        {
+          "wire": 3,
+          "lo": 2,
+          "hi": 7,
+          "width": 6,
+          "zero_witness": 7667,
+          "one_witness": 3972
+        },
+        {
+          "wire": 4,
+          "lo": 1,
+          "hi": 6,
+          "width": 6,
+          "zero_witness": 8158,
+          "one_witness": 6050
+        },
+        {
+          "wire": 5,
+          "lo": 3,
+          "hi": 8,
+          "width": 6,
+          "zero_witness": 7913,
+          "one_witness": 1952
+        },
+        {
+          "wire": 7,
+          "lo": 6,
+          "hi": 11,
+          "width": 6,
+          "zero_witness": 7816,
+          "one_witness": 384
+        },
+        {
+          "wire": 8,
+          "lo": 4,
+          "hi": 9,
+          "width": 6,
+          "zero_witness": 4068,
+          "one_witness": 1410
+        },
+        {
+          "wire": 9,
+          "lo": 6,
+          "hi": 11,
+          "width": 6,
+          "zero_witness": 3684,
+          "one_witness": 1152
+        },
+        {
+          "wire": 10,
+          "lo": 5,
+          "hi": 10,
+          "width": 6,
+          "zero_witness": 6050,
+          "one_witness": 608
+        },
+        {
+          "wire": 2,
+          "lo": 1,
+          "hi": 5,
+          "width": 5,
+          "zero_witness": 7675,
+          "one_witness": 8076
+        }
+      ]
+    },
+    {
+      "iteration": 13,
+      "solve_seconds": 12.318292584037408,
+      "oracle_seconds": 4.358310252428055e-05,
+      "violated_wires": 7,
+      "input_count": 191,
+      "maximum_width": 7,
+      "added_witnesses": [
+        {
+          "wire": 3,
+          "lo": 1,
+          "hi": 7,
+          "width": 7,
+          "zero_witness": 8126,
+          "one_witness": 7272
+        },
+        {
+          "wire": 5,
+          "lo": 3,
+          "hi": 9,
+          "width": 7,
+          "zero_witness": 7658,
+          "one_witness": 2656
+        },
+        {
+          "wire": 6,
+          "lo": 3,
+          "hi": 9,
+          "width": 7,
+          "zero_witness": 8078,
+          "one_witness": 7232
+        },
+        {
+          "wire": 7,
+          "lo": 3,
+          "hi": 9,
+          "width": 7,
+          "zero_witness": 7789,
+          "one_witness": 2496
+        },
+        {
+          "wire": 2,
+          "lo": 1,
+          "hi": 6,
+          "width": 6,
+          "zero_witness": 8186,
+          "one_witness": 4004
+        },
+        {
+          "wire": 8,
+          "lo": 4,
+          "hi": 9,
+          "width": 6,
+          "zero_witness": 7800,
+          "one_witness": 898
+        },
+        {
+          "wire": 4,
+          "lo": 1,
+          "hi": 5,
+          "width": 5,
+          "zero_witness": 7675,
+          "one_witness": 7781
+        }
+      ]
+    }
+  ],
+  "seconds": 22.6314148750389,
+  "variables": 8067,
+  "clauses": 112810,
+  "input_count": 203,
+  "pair_count": 127,
+  "selected_inputs": [
+    64,
+    96,
+    128,
+    192,
+    224,
+    256,
+    320,
+    352,
+    384,
+    386,
+    448,
+    450,
+    480,
+    512,
+    576,
+    608,
+    640,
+    704,
+    736,
+    768,
+    832,
+    896,
+    898,
+    1024,
+    1056,
+    1121,
+    1152,
+    1216,
+    1249,
+    1280,
+    1376,
+    1410,
+    1472,
+    1506,
+    1507,
+    1572,
+    1633,
+    1636,
+    1664,
+    1668,
+    1761,
+    1764,
+    1765,
+    1792,
+    1796,
+    1828,
+    1860,
+    1888,
+    1893,
+    1924,
+    1952,
+    1988,
+    2018,
+    2023,
+    2048,
+    2176,
+    2304,
+    2368,
+    2434,
+    2496,
+    2498,
+    2656,
+    3042,
+    3169,
+    3200,
+    3392,
+    3424,
+    3425,
+    3488,
+    3522,
+    3684,
+    3748,
+    3776,
+    3840,
+    3876,
+    3937,
+    3941,
+    3972,
+    4004,
+    4006,
+    4036,
+    4067,
+    4068,
+    4069,
+    4071,
+    4160,
+    4320,
+    4448,
+    4608,
+    4800,
+    4928,
+    5090,
+    5217,
+    5280,
+    5312,
+    5345,
+    5408,
+    5440,
+    5600,
+    5602,
+    5728,
+    5732,
+    5796,
+    5828,
+    5989,
+    6050,
+    6086,
+    6118,
+    6119,
+    6160,
+    6264,
+    6280,
+    6384,
+    6416,
+    6496,
+    6520,
+    6538,
+    6546,
+    6552,
+    6602,
+    6608,
+    6610,
+    6642,
+    6650,
+    6680,
+    6760,
+    6792,
+    6872,
+    7050,
+    7130,
+    7232,
+    7272,
+    7304,
+    7352,
+    7384,
+    7417,
+    7448,
+    7537,
+    7545,
+    7578,
+    7600,
+    7602,
+    7624,
+    7651,
+    7658,
+    7659,
+    7665,
+    7667,
+    7675,
+    7692,
+    7712,
+    7781,
+    7789,
+    7793,
+    7797,
+    7800,
+    7804,
+    7805,
+    7816,
+    7852,
+    7868,
+    7884,
+    7913,
+    7917,
+    7920,
+    7921,
+    7932,
+    7933,
+    7948,
+    7964,
+    7984,
+    7996,
+    8036,
+    8037,
+    8045,
+    8053,
+    8056,
+    8060,
+    8061,
+    8076,
+    8078,
+    8086,
+    8094,
+    8110,
+    8116,
+    8118,
+    8126,
+    8142,
+    8150,
+    8158,
+    8163,
+    8169,
+    8170,
+    8171,
+    8173,
+    8174,
+    8175,
+    8176,
+    8179,
+    8181,
+    8183,
+    8186,
+    8187
+  ],
+  "worker_terminal": {
+    "command": [
+      "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/endpoint_cegar.py",
+      "--out",
+      "d18-search/results/endpoint-cegar13-r0116-endpoints.json",
+      "--seconds",
+      "57.0",
+      "--seed",
+      "d18-search/results/complete13-d8-single-structural/n13-r0116/result.json",
+      "--wires",
+      "2,3,4,5,6,7,8,9,10,11",
+      "--proof"
+    ],
+    "wall_cap_seconds": 60.0,
+    "terminal": "TIME_LIMIT_KILLED_AND_REAPED",
+    "returncode": null,
+    "wall_seconds": 60.01449804101139
+  }
+}

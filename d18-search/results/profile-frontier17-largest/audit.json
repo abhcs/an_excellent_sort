@@ -1,0 +1,10 @@
+{
+  "cover_sha256": "711b620bb298deee98e5520595cfb341a13cf3600f4297dd35f3b38cb11d2100",
+  "cases": 3,
+  "cover_cases": 609,
+  "statuses": {
+    "TIME_LIMIT": 3
+  },
+  "source_sha256": "06770948569a893b8cfa0db995e8988a36b9ebf651d729209d67acc95f80417b",
+  "outcome": "OPEN"
+}

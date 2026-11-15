@@ -1,0 +1,182 @@
+{
+  "case_id": "n13-r0116",
+  "scope": "Every four-layer continuation of the fixed relabelled prefix; cut6 endpoint bounds only, no common-ending routing",
+  "prefix": [
+    [
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        5,
+        10
+      ]
+    ],
+    [
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        4,
+        12
+      ]
+    ]
+  ],
+  "wires": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "ranks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "variables": 24162,
+  "clauses": 342701,
+  "status": "UNSAT",
+  "independently_proof_checked": false,
+  "source_sha256": "aae6e3b5e3121190703dba91ff17a9c4ee80a0cde362867b200c565cd673667b",
+  "semantic_assumption_core": [
+    {
+      "kind": "wire",
+      "index": 1,
+      "selector": 1252
+    },
+    {
+      "kind": "wire",
+      "index": 2,
+      "selector": 1253
+    },
+    {
+      "kind": "wire",
+      "index": 3,
+      "selector": 1254
+    },
+    {
+      "kind": "wire",
+      "index": 4,
+      "selector": 1255
+    },
+    {
+      "kind": "wire",
+      "index": 5,
+      "selector": 1256
+    },
+    {
+      "kind": "wire",
+      "index": 6,
+      "selector": 1257
+    },
+    {
+      "kind": "wire",
+      "index": 7,
+      "selector": 1258
+    },
+    {
+      "kind": "wire",
+      "index": 8,
+      "selector": 1259
+    },
+    {
+      "kind": "wire",
+      "index": 9,
+      "selector": 1260
+    },
+    {
+      "kind": "wire",
+      "index": 10,
+      "selector": 1261
+    },
+    {
+      "kind": "wire",
+      "index": 11,
+      "selector": 1262
+    },
+    {
+      "kind": "rank",
+      "index": 3,
+      "selector": 1414
+    },
+    {
+      "kind": "rank",
+      "index": 4,
+      "selector": 1464
+    },
+    {
+      "kind": "rank",
+      "index": 5,
+      "selector": 1514
+    },
+    {
+      "kind": "rank",
+      "index": 6,
+      "selector": 1564
+    },
+    {
+      "kind": "rank",
+      "index": 7,
+      "selector": 1614
+    },
+    {
+      "kind": "rank",
+      "index": 8,
+      "selector": 1664
+    },
+    {
+      "kind": "rank",
+      "index": 9,
+      "selector": 1714
+    }
+  ],
+  "seconds": 28.66369725007098
+}

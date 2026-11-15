@@ -1,0 +1,158 @@
+[
+  {
+    "kind": "rank",
+    "index": 0,
+    "clause_begin": 180703,
+    "clause_end": 180780
+  },
+  {
+    "kind": "rank",
+    "index": 1,
+    "clause_begin": 180780,
+    "clause_end": 180857
+  },
+  {
+    "kind": "rank",
+    "index": 2,
+    "clause_begin": 180857,
+    "clause_end": 180934
+  },
+  {
+    "kind": "rank",
+    "index": 3,
+    "clause_begin": 180934,
+    "clause_end": 181011
+  },
+  {
+    "kind": "rank",
+    "index": 4,
+    "clause_begin": 181011,
+    "clause_end": 181088
+  },
+  {
+    "kind": "rank",
+    "index": 5,
+    "clause_begin": 181088,
+    "clause_end": 181165
+  },
+  {
+    "kind": "rank",
+    "index": 6,
+    "clause_begin": 181165,
+    "clause_end": 181242
+  },
+  {
+    "kind": "rank",
+    "index": 7,
+    "clause_begin": 181242,
+    "clause_end": 181319
+  },
+  {
+    "kind": "rank",
+    "index": 8,
+    "clause_begin": 181319,
+    "clause_end": 181396
+  },
+  {
+    "kind": "rank",
+    "index": 9,
+    "clause_begin": 181396,
+    "clause_end": 181473
+  },
+  {
+    "kind": "rank",
+    "index": 10,
+    "clause_begin": 181473,
+    "clause_end": 181550
+  },
+  {
+    "kind": "rank",
+    "index": 11,
+    "clause_begin": 181550,
+    "clause_end": 181627
+  },
+  {
+    "kind": "rank",
+    "index": 12,
+    "clause_begin": 181627,
+    "clause_end": 181704
+  },
+  {
+    "kind": "channel",
+    "index": 0,
+    "clause_begin": 181704,
+    "clause_end": 181781
+  },
+  {
+    "kind": "channel",
+    "index": 1,
+    "clause_begin": 181781,
+    "clause_end": 181858
+  },
+  {
+    "kind": "channel",
+    "index": 2,
+    "clause_begin": 181858,
+    "clause_end": 181935
+  },
+  {
+    "kind": "channel",
+    "index": 3,
+    "clause_begin": 181935,
+    "clause_end": 182012
+  },
+  {
+    "kind": "channel",
+    "index": 4,
+    "clause_begin": 182012,
+    "clause_end": 182089
+  },
+  {
+    "kind": "channel",
+    "index": 5,
+    "clause_begin": 182089,
+    "clause_end": 182166
+  },
+  {
+    "kind": "channel",
+    "index": 6,
+    "clause_begin": 182166,
+    "clause_end": 182243
+  },
+  {
+    "kind": "channel",
+    "index": 7,
+    "clause_begin": 182243,
+    "clause_end": 182320
+  },
+  {
+    "kind": "channel",
+    "index": 8,
+    "clause_begin": 182320,
+    "clause_end": 182397
+  },
+  {
+    "kind": "channel",
+    "index": 9,
+    "clause_begin": 182397,
+    "clause_end": 182474
+  },
+  {
+    "kind": "channel",
+    "index": 10,
+    "clause_begin": 182474,
+    "clause_end": 182551
+  },
+  {
+    "kind": "channel",
+    "index": 11,
+    "clause_begin": 182551,
+    "clause_end": 182628
+  },
+  {
+    "kind": "channel",
+    "index": 12,
+    "clause_begin": 182628,
+    "clause_end": 182705
+  }
+]

@@ -1,0 +1,2 @@
+17:25:26 n=18 prefix depth=3 free layers=7 sym=True phi=True cosat=False nored0=True lex=False solver=cadical195 |U|=1181 pool=600 avg window=12.56
+17:25:27 model built: vars=47489 clauses=997256 inputs=600 (2.0s)

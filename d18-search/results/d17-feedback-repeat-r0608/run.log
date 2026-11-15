@@ -1,0 +1,1 @@
+{"status": "UNSAT", "scope": "Case608 with L3/L4 repeat prohibition removed; L2/L3 no-repeat retained", "source_sha256": "575c42c1daaa1e46767b9a83ecc1bc8f94c544f95396a974574fc0274ad5b2dc", "independently_proof_checked": false, "certificate_directory": "d18-search/results/d17-feedback-repeat-r0608/result", "seconds": 8.0844}

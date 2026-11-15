@@ -1,0 +1,3 @@
+17:16:44 n=18 prefix depth=4 free layers=6 sym=True phi=True cosat=False nored0=True lex=False solver=cadical195 |U|=493 pool=249 avg window=10.22
+17:16:44 model built: vars=14440 clauses=236761 inputs=249 (0.5s)
+17:16:56 iter 1: UNSAT after 12.7s with 249 inputs; total 13.3s

@@ -1,0 +1,476 @@
+{
+  "cases": 117,
+  "statuses": {
+    "SURVIVOR": 117
+  },
+  "records": [
+    {
+      "case_id": "n13-r0000",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0001",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0002",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0003",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0004",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0005",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0006",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0007",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0008",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0009",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0010",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0011",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0012",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0013",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0014",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0015",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0016",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0017",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0018",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0019",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0020",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0021",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0022",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0023",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0024",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0025",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0026",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0027",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0028",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0029",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0030",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0031",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0032",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0033",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0034",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0035",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0036",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0037",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0038",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0039",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0040",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0041",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0042",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0043",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0044",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0045",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0046",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0047",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0048",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0049",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0050",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0051",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0052",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0053",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0054",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0055",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0056",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0057",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0058",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0059",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0060",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0061",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0062",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0063",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0064",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0065",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0066",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0067",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0068",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0069",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0070",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0071",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0072",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0073",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0074",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0075",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0076",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0077",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0078",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0079",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0080",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0081",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0082",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0083",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0084",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0085",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0086",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0087",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0088",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0089",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0090",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0091",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0092",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0093",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0094",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0095",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0096",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0097",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0098",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0099",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0100",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0101",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0102",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0103",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0104",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0105",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0106",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0107",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0108",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0109",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0110",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0111",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0112",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0113",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0114",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0115",
+      "status": "SURVIVOR"
+    },
+    {
+      "case_id": "n13-r0116",
+      "status": "SURVIVOR"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "case_id": "n13-r0116",
+  "family_size": 1728,
+  "families_by_retained": {
+    "7": 1472,
+    "8": 256
+  },
+  "status": "BUILT",
+  "scope": "Necessary H7/H8 profiles when the retained first three layers commute into one; only L3,L4 searched",
+  "prefix": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        11,
+        12
+      ]
+    ],
+    [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        10,
+        11
+      ]
+    ]
+  ],
+  "source_sha256": "5e7572625a27168589007f9c11901e03304a6f1ccf45afe7795367a1f9cb7f7f"
+}

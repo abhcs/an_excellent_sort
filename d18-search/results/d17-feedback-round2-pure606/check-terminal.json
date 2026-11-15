@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETED",
+  "returncode": 0,
+  "elapsed_seconds": 5.0801,
+  "wall_limit_seconds": 30,
+  "process_terminal": true,
+  "command": [
+    "/private/tmp/d18-structural-drat-trim/drat-trim",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/d17-feedback-round2-pure606/result/problem.cnf",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/d17-feedback-round2-pure606/result/proof.drat",
+    "-c",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/d17-feedback-round2-pure606/core.cnf",
+    "-t",
+    "28"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "case_id": "n18-r0410",
+  "n": 18,
+  "depth": 10,
+  "cut": 8,
+  "scope": "Rank-interval degree bounds and optional common ending routing",
+  "shared_ending_routing": true,
+  "inputs": 9261,
+  "variables": 671245,
+  "clauses": 15541053,
+  "source_sha256": "93548c783322ba9754b407aaaf1cb29f649d6c8aa206ead5f1911b7454a1e6ab",
+  "status": "TIME_LIMIT",
+  "independently_proof_checked": false,
+  "build_seconds": 7.305,
+  "wall_limit_seconds": 120
+}

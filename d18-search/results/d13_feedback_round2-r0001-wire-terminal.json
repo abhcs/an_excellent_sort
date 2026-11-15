@@ -1,0 +1,8 @@
+{
+  "case_id": "n13-r0001",
+  "terminal": "TIMEOUT_KILLED",
+  "wall_cap_seconds": 30,
+  "seconds": 30.007224416942336,
+  "stdout": "b'{\"case_id\": \"n13-r0001\", \"depth\": 8, \"cut\": 6, \"mode\": \"wire\", \"inputs\": 468, \"wires\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], \"ranks\": [], \"variables\": 14499, \"clauses\": 195008, \"original_window_cost\": 23629, \"window_cost\": 14904, \"scope\": \"All four-layer continuations of this complete-cover prefix; cut6 interval bounds, optional common ending routing\", \"source_sha256\": \"1edeefc7a23a3ffcb8a7b6b141f9abab8137724a4be6f1ea3e34b09abff63f06\", \"cover_sha256\": \"2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406\", \"status\": \"BUILT\", \"independently_proof_checked\": false, \"build_seconds\": 0.17617666604928672}\\n'",
+  "stderr": "None"
+}

@@ -1,0 +1,70 @@
+{
+  "normal_suffixes_by_width": {
+    "2": 3,
+    "3": 9,
+    "4": 27,
+    "5": 73,
+    "6": 207,
+    "7": 585,
+    "8": 1655
+  },
+  "normal_suffixes": 2559,
+  "known_18_wire_positive": {
+    "required_edges": 28,
+    "host_edges": 41,
+    "host_paths": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          16,
+          17
+        ]
+      ]
+    ]
+  },
+  "arbitrary_cycle_negative_control": true,
+  "induced_obstruction_controls": true,
+  "certificate_checks": [
+    {
+      "file": "two-real-k5-certificate6.json",
+      "binary_runs": 20,
+      "corruption_rejected": true
+    },
+    {
+      "file": "two-real-ball-certificate18.json",
+      "binary_runs": 20,
+      "corruption_rejected": true
+    }
+  ]
+}

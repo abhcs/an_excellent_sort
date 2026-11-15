@@ -1,0 +1,190 @@
+{
+  "status": "VERIFIED",
+  "scope": "A named five-layer prefix, not an entire two-layer cover case",
+  "n": 13,
+  "rank": 8,
+  "positions": [
+    3,
+    6,
+    7,
+    9,
+    10
+  ],
+  "layers": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    [
+      [
+        0,
+        10
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    [
+      [
+        1,
+        9
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        8,
+        12
+      ]
+    ],
+    [
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        8,
+        9
+      ]
+    ],
+    [
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        9,
+        10
+      ]
+    ]
+  ],
+  "probe_rows": [
+    {
+      "input_zero": 23,
+      "input_star": 3,
+      "output_zero": 7232,
+      "output_star": 9
+    },
+    {
+      "input_zero": 51,
+      "input_star": 2,
+      "output_zero": 7176,
+      "output_star": 6
+    },
+    {
+      "input_zero": 83,
+      "input_star": 5,
+      "output_zero": 7680,
+      "output_star": 3
+    },
+    {
+      "input_zero": 305,
+      "input_star": 9,
+      "output_zero": 6216,
+      "output_star": 7
+    },
+    {
+      "input_zero": 785,
+      "input_star": 1,
+      "output_zero": 6280,
+      "output_star": 10
+    },
+    {
+      "input_zero": 83,
+      "input_star": 12,
+      "output_zero": 7680,
+      "output_star": 7
+    },
+    {
+      "input_zero": 816,
+      "input_star": 0,
+      "output_zero": 6336,
+      "output_star": 3
+    }
+  ],
+  "covered_obligations": 25
+}

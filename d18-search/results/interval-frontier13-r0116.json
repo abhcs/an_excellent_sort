@@ -1,0 +1,16 @@
+{
+  "case_id": "n13-r0116",
+  "n": 13,
+  "depth": 8,
+  "cut": 6,
+  "scope": "Rank-interval degree bounds and optional common ending routing",
+  "shared_ending_routing": true,
+  "inputs": 735,
+  "variables": 24193,
+  "clauses": 342479,
+  "source_sha256": "93548c783322ba9754b407aaaf1cb29f649d6c8aa206ead5f1911b7454a1e6ab",
+  "status": "UNSAT",
+  "independently_proof_checked": false,
+  "build_seconds": 0.169,
+  "seconds": 6.975
+}

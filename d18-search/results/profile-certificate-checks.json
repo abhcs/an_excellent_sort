@@ -1,0 +1,14 @@
+[
+  {
+    "file": "level-cap-certificate18.json",
+    "binary_runs": 6,
+    "corruption_rejected": true,
+    "duplicates_rejected": true
+  },
+  {
+    "file": "heavy-neighbor-certificate18.json",
+    "binary_runs": 10,
+    "corruption_rejected": true,
+    "duplicates_rejected": true
+  }
+]

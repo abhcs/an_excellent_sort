@@ -1,0 +1,88 @@
+{
+  "case_id": "n13-r0113",
+  "family_size": 6,
+  "variables": 1658,
+  "clauses": 8919,
+  "solver": "cadical195",
+  "scope": "Necessary seven-real first-two-layer profiles only",
+  "proof_trace_checked": false,
+  "status": "SURVIVOR",
+  "next_layers": [
+    [
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        11,
+        12
+      ]
+    ],
+    [
+      [
+        0,
+        8
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        9,
+        10
+      ]
+    ]
+  ],
+  "profiles": [
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      3,
+      2
+    ]
+  ],
+  "solve_seconds": 0.002816916909068823,
+  "cover_sha256": "2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406"
+}

@@ -1,0 +1,72 @@
+{
+  "case_id": "n13-r0116",
+  "depth": 8,
+  "cut": 6,
+  "scope": "Probe positions only; no data comparisons in the ending",
+  "both_directions": true,
+  "shared_ending_routing": false,
+  "prefix": [
+    [
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        5,
+        10
+      ]
+    ],
+    [
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        4,
+        12
+      ]
+    ]
+  ],
+  "inputs": 735,
+  "probes": 2905,
+  "variables": 24292,
+  "clauses": 350357,
+  "source_sha256": "e07f9183616412db41b7093fbb86efe8a13acf00d413b88084454b73ccdbeef0",
+  "independently_proof_checked": true,
+  "status": "UNSAT",
+  "cnf_sha256": "cf9757fdf6facadbdff2c4ce4a57b519e50b7452c631ee78e24e1268fd230f1b",
+  "certificate_directory": "d18-search/results/probe-frontier13-r0116-both-checked",
+  "seconds": 27.414,
+  "proof_sha256": "57ecfebd9641e94d483677d6a074f66784e9b7dafafa3f5aa1d14e29d83528b7",
+  "check_seconds": 19.355,
+  "checker_returncode": 0,
+  "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d"
+}

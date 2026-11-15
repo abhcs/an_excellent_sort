@@ -1,0 +1,44 @@
+[
+  {
+    "n": 6,
+    "adjacent_matchings": 13,
+    "maximal_last_layers": 4,
+    "reflection_cases": 3
+  },
+  {
+    "n": 8,
+    "adjacent_matchings": 34,
+    "maximal_last_layers": 7,
+    "reflection_cases": 5
+  },
+  {
+    "n": 10,
+    "adjacent_matchings": 89,
+    "maximal_last_layers": 12,
+    "reflection_cases": 8
+  },
+  {
+    "n": 12,
+    "adjacent_matchings": 233,
+    "maximal_last_layers": 21,
+    "reflection_cases": 13
+  },
+  {
+    "n": 16,
+    "adjacent_matchings": 1597,
+    "maximal_last_layers": 65,
+    "reflection_cases": 37
+  },
+  {
+    "n": 17,
+    "adjacent_matchings": 2584,
+    "maximal_last_layers": 86,
+    "reflection_cases": 45
+  },
+  {
+    "n": 18,
+    "adjacent_matchings": 4181,
+    "maximal_last_layers": 114,
+    "reflection_cases": 63
+  }
+]

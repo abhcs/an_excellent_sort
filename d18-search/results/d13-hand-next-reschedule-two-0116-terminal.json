@@ -1,0 +1,8 @@
+{
+  "status": "COMPLETED",
+  "returncode": 0,
+  "stdout": "{\"case_id\": \"n13-r0116\", \"family_size\": 10082, \"families_by_retained\": {\"7\": 6428, \"8\": 3654}, \"status\": \"BUILT\", \"scope\": \"D13: first four retained layers need depth >=3 or >=5/7 gates on7/8reals.\", \"prefix\": [[[0, 1], [2, 3], [4, 5], [7, 8], [9, 10], [11, 12]], [[0, 3], [1, 2], [4, 6], [7, 9], [10, 11]]], \"source_sha256\": \"546e2d0d5eeae05e4a1f3c2b8021ec636b1440efd2f0b7b492400dc955b9a6a3\"}\n{\"iteration\": 0, \"violations\": 260}\n{\"iteration\": 1, \"violations\": 116}\n{\"iteration\": 2, \"violations\": 111}\n{\"iteration\": 3, \"violations\": 61}\n{\"iteration\": 4, \"violations\": 17}\n{\"iteration\": 5, \"violations\": 12}\n{\"iteration\": 6, \"violations\": 8}\n{\"iteration\": 7, \"violations\": 15}\n{\"iteration\": 8, \"violations\": 0}\nSURVIVOR 6.703967000008561\n",
+  "stderr": "",
+  "seconds": 6.836156375007704,
+  "wall_limit_seconds": 60
+}

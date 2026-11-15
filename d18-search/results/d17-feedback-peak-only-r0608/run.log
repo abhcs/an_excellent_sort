@@ -1,0 +1,1 @@
+{"status": "UNSAT", "scope": "Case608 pure peak coverage by arbitrary two matchings: repeats and empty retained layers allowed", "independently_proof_checked": false, "certificate_directory": "d18-search/results/d17-feedback-peak-only-r0608/result", "seconds": 7.6861}

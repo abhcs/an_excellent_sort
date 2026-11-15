@@ -1,0 +1,98 @@
+{
+  "case_id": "n13-r0116",
+  "scope": "Every four-layer continuation of the fixed relabelled prefix; cut6 endpoint bounds only, no common-ending routing",
+  "prefix": [
+    [
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        5,
+        10
+      ]
+    ],
+    [
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        4,
+        12
+      ]
+    ]
+  ],
+  "wires": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "ranks": [],
+  "variables": 23509,
+  "clauses": 341202,
+  "status": "UNSAT",
+  "independently_proof_checked": true,
+  "source_sha256": "ceda490b59c60542d5c0771dede854a9ff207cca529171806e1cf10743178fcf",
+  "certificate_directory": "d18-search/results/d13-hand-next-endpoints-central-checked",
+  "cnf_sha256": "6f91e9a5c61edf25529aebd26bd42dc4622fefa892deaeeac672b9265e540fd5",
+  "proof_sha256": "9fa04916850bd51e497b13eec6b4c8476a4656f7a3c5aa4b1bcce0bbd34ddd1d",
+  "seconds": 19.791570415953174,
+  "check_seconds": 13.689940041978844,
+  "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d",
+  "checker_returncode": 0,
+  "bound_unit_core_usage": {
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true,
+    "8": true,
+    "9": true,
+    "10": true,
+    "11": true
+  },
+  "dependency_sha256": {
+    "d13_hand_next_endpoints.py": "ceda490b59c60542d5c0771dede854a9ff207cca529171806e1cf10743178fcf",
+    "netsat.py": "960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3",
+    "probe_frontier.py": "e07f9183616412db41b7093fbb86efe8a13acf00d413b88084454b73ccdbeef0",
+    "interval_frontier.py": "93548c783322ba9754b407aaaf1cb29f649d6c8aa206ead5f1911b7454a1e6ab",
+    "prefix_drat.py": "1f85103a6efe10e02907d7fac977a88c149f1d6d2e189179a4636431db32773c"
+  }
+}

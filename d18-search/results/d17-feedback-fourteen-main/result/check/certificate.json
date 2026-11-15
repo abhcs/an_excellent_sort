@@ -1,0 +1,9 @@
+{
+  "independently_proof_checked": true,
+  "check_seconds": 3.113,
+  "returncode": 0,
+  "cnf_sha256": "afe0be3fae6418512cbc9ed7b0b724158998e59dbf30ce6f957a2d8ed4ede049",
+  "proof_sha256": "5fb5b243544b7fac24a1fb77dfa267f085e3d11801901aabb98c273152a1ff38",
+  "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d",
+  "source_sha256": "e464feea00cdcfe9db014a676effa138d33e47d9f05718f5d685b39f7be2a7ed"
+}

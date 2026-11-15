@@ -1,0 +1,14 @@
+17:18:54 prefix 0: UNSAT in 18.8s (outputs=729) totals={'UNSAT': 1}
+17:19:05 prefix 1: UNSAT in 11.5s (outputs=729) totals={'UNSAT': 2}
+17:19:24 prefix 2: UNSAT in 18.4s (outputs=729) totals={'UNSAT': 3}
+17:19:45 prefix 3: UNSAT in 21.7s (outputs=729) totals={'UNSAT': 4}
+17:19:57 prefix 4: UNSAT in 11.8s (outputs=729) totals={'UNSAT': 5}
+17:20:17 prefix 5: UNSAT in 20.3s (outputs=729) totals={'UNSAT': 6}
+17:20:45 prefix 6: UNSAT in 27.4s (outputs=784) totals={'UNSAT': 7}
+17:21:01 prefix 7: UNSAT in 16.6s (outputs=784) totals={'UNSAT': 8}
+17:21:38 prefix 8: UNSAT in 37.0s (outputs=784) totals={'UNSAT': 9}
+17:22:14 prefix 9: UNSAT in 35.8s (outputs=784) totals={'UNSAT': 10}
+17:22:47 prefix 10: UNSAT in 32.8s (outputs=784) totals={'UNSAT': 11}
+17:23:48 prefix 11: UNSAT in 61.0s (outputs=784) totals={'UNSAT': 12}
+17:24:51 prefix 12: UNSAT in 62.5s (outputs=784) totals={'UNSAT': 13}
+STOPPED manually (superseded or to free cores)

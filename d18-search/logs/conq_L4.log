@@ -1,0 +1,4 @@
+17:14:05 prefix 0: UNSAT in 927.0s (outputs=506) totals={'UNSAT': 1}
+17:14:05 prefix 1: UNSAT in 426.0s (outputs=506) totals={'UNSAT': 2}
+17:17:52 prefix 2: UNSAT in 728.3s (outputs=506) totals={'UNSAT': 3}
+STOPPED manually (superseded or to free cores)

@@ -1,0 +1,144 @@
+{
+  "case_id": "n18-r0000",
+  "n": 18,
+  "depth": 10,
+  "prefix": [
+    [
+      [
+        0,
+        11
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        3,
+        14
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        17
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        10,
+        16
+      ],
+      [
+        12,
+        13
+      ]
+    ],
+    [
+      [
+        0,
+        10
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        3,
+        13
+      ],
+      [
+        4,
+        14
+      ],
+      [
+        5,
+        12
+      ],
+      [
+        7,
+        17
+      ],
+      [
+        8,
+        15
+      ],
+      [
+        11,
+        16
+      ]
+    ]
+  ],
+  "input_permutation": [
+    3,
+    14,
+    4,
+    5,
+    13,
+    12,
+    8,
+    2,
+    9,
+    15,
+    11,
+    0,
+    16,
+    10,
+    7,
+    1,
+    6,
+    17
+  ],
+  "output_permutation": [
+    3,
+    4,
+    14,
+    5,
+    12,
+    13,
+    2,
+    8,
+    9,
+    15,
+    0,
+    11,
+    10,
+    16,
+    1,
+    7,
+    6,
+    17
+  ],
+  "original_window_cost": 411852,
+  "window_cost": 279585,
+  "inputs": 3869,
+  "mode": "profiles",
+  "solver": "kissat404",
+  "source_hashes": {
+    "capacity_sat.py": "9c4e7cc4e76ac1746462efb67effc4c4b90cb4a5c6a4e4ae6a442d19757b50da",
+    "netsat.py": "960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3",
+    "two_layer_profiles.py": "e5fb4ba4baa15be8971d4f1ee6049064d5a9f8f7c1c89898a78d04394201398a"
+  },
+  "cover_sha256": "3479c72a3dce2fe1d58d0fa80e11ccbdf9286c00b8585b1a15f23e325cb55ed2",
+  "restriction": "none beyond valid normal forms",
+  "proof_status": "solver result; not an independently checked proof trace",
+  "variables": 303172,
+  "clauses": 6203577,
+  "capacity_base_variables": 1537,
+  "capacity_base_clauses": 12414,
+  "capacity_input_clauses": 70018,
+  "profile_arcs": 322,
+  "build_seconds": 2.851978624938056,
+  "status": "BUILT"
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "kind": "rank",
+    "index": 3,
+    "clause_begin": 348586,
+    "clause_end": 348663,
+    "core_clauses": 6
+  },
+  {
+    "kind": "rank",
+    "index": 4,
+    "clause_begin": 348663,
+    "clause_end": 348740,
+    "core_clauses": 17
+  },
+  {
+    "kind": "rank",
+    "index": 5,
+    "clause_begin": 348740,
+    "clause_end": 348817,
+    "core_clauses": 27
+  },
+  {
+    "kind": "rank",
+    "index": 6,
+    "clause_begin": 348817,
+    "clause_end": 348894,
+    "core_clauses": 25
+  },
+  {
+    "kind": "rank",
+    "index": 7,
+    "clause_begin": 348894,
+    "clause_end": 348971,
+    "core_clauses": 25
+  },
+  {
+    "kind": "rank",
+    "index": 8,
+    "clause_begin": 348971,
+    "clause_end": 349048,
+    "core_clauses": 29
+  },
+  {
+    "kind": "rank",
+    "index": 9,
+    "clause_begin": 349048,
+    "clause_end": 349125,
+    "core_clauses": 21
+  },
+  {
+    "kind": "rank",
+    "index": 10,
+    "clause_begin": 349125,
+    "clause_end": 349202,
+    "core_clauses": 7
+  },
+  {
+    "kind": "channel",
+    "index": 2,
+    "clause_begin": 349510,
+    "clause_end": 349587,
+    "core_clauses": 15
+  },
+  {
+    "kind": "channel",
+    "index": 3,
+    "clause_begin": 349587,
+    "clause_end": 349664,
+    "core_clauses": 26
+  },
+  {
+    "kind": "channel",
+    "index": 4,
+    "clause_begin": 349664,
+    "clause_end": 349741,
+    "core_clauses": 38
+  },
+  {
+    "kind": "channel",
+    "index": 5,
+    "clause_begin": 349741,
+    "clause_end": 349818,
+    "core_clauses": 45
+  },
+  {
+    "kind": "channel",
+    "index": 6,
+    "clause_begin": 349818,
+    "clause_end": 349895,
+    "core_clauses": 48
+  },
+  {
+    "kind": "channel",
+    "index": 7,
+    "clause_begin": 349895,
+    "clause_end": 349972,
+    "core_clauses": 57
+  },
+  {
+    "kind": "channel",
+    "index": 8,
+    "clause_begin": 349972,
+    "clause_end": 350049,
+    "core_clauses": 44
+  },
+  {
+    "kind": "channel",
+    "index": 9,
+    "clause_begin": 350049,
+    "clause_end": 350126,
+    "core_clauses": 32
+  },
+  {
+    "kind": "channel",
+    "index": 10,
+    "clause_begin": 350126,
+    "clause_end": 350203,
+    "core_clauses": 18
+  },
+  {
+    "kind": "channel",
+    "index": 11,
+    "clause_begin": 350203,
+    "clause_end": 350280,
+    "core_clauses": 5
+  }
+]

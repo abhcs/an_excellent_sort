@@ -1,0 +1,145 @@
+[
+  {
+    "case": "combined",
+    "collections": [
+      {
+        "n": 18,
+        "cut": 5,
+        "reals": 7,
+        "normalize": 1,
+        "normalized_placements": 1538352,
+        "accepted_placements": 16100,
+        "repeats_removed_in_accepted": 2397,
+        "seconds": 0.6566558750346303
+      },
+      {
+        "n": 18,
+        "cut": 5,
+        "reals": 8,
+        "normalize": 1,
+        "normalized_placements": 1135242,
+        "accepted_placements": 1326,
+        "repeats_removed_in_accepted": 240,
+        "seconds": 0.3227094169706106
+      }
+    ],
+    "items": 1544,
+    "wall_cap_seconds": 30,
+    "terminal": "EXITED",
+    "returncode": 0,
+    "stdout": "{\"status\": \"UNSAT_UNCHECKED\", \"item_count\": 1544, \"variables\": 13159, \"clauses\": 21731, \"scope\": \"Necessary normalized two-layer rescheduling condition for one common L6\", \"input_sha256\": \"ce7006cba3c56a7db91638cc04d62e43a759c080869f84c7cdf0567291e4a4aa\", \"source_sha256\": \"dba6165bd4a6bc0c590d6163ddc0048fc481eb97d882a5187390a4d575e53073\", \"core_indices\": [518, 637, 652, 855, 994, 1052, 1104, 1154, 1155], \"core_size\": 9, \"core_is_deletion_minimal\": true, \"direct_binary_normalization_runs\": 1152, \"certificate_dir\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/d18_hand_next_reschedule-combined-certificate\", \"seconds\": 0.07726787496358156}\n",
+    "stderr": "",
+    "seconds": 0.14177220908459276,
+    "check": {
+      "terminal": "EXITED",
+      "returncode": 0,
+      "verified": true,
+      "seconds": 0.01876429095864296,
+      "wall_cap_seconds": 30
+    },
+    "result_status": "UNSAT_VERIFIED",
+    "core_size": 9
+  },
+  {
+    "case": "beam00",
+    "collections": [
+      {
+        "n": 18,
+        "cut": 5,
+        "reals": 7,
+        "normalize": 1,
+        "normalized_placements": 1538352,
+        "accepted_placements": 6232,
+        "repeats_removed_in_accepted": 2816,
+        "seconds": 0.406547708902508
+      },
+      {
+        "n": 18,
+        "cut": 5,
+        "reals": 8,
+        "normalize": 1,
+        "normalized_placements": 1135242,
+        "accepted_placements": 784,
+        "repeats_removed_in_accepted": 448,
+        "seconds": 0.33110679092351347
+      }
+    ],
+    "items": 40,
+    "wall_cap_seconds": 30,
+    "terminal": "EXITED",
+    "returncode": 0,
+    "stdout": "{\"status\": \"SURVIVOR\", \"item_count\": 40, \"variables\": 193, \"clauses\": 2488, \"scope\": \"Necessary normalized two-layer rescheduling condition for one common L6\", \"input_sha256\": \"5a0145e21d20b81f087e65438a2fdf24c2f356defec24574177838cba2a75e72\", \"source_sha256\": \"dba6165bd4a6bc0c590d6163ddc0048fc481eb97d882a5187390a4d575e53073\", \"layer6\": [[0, 1], [2, 3], [4, 5], [6, 7], [8, 9], [10, 11], [12, 13], [14, 15], [16, 17]], \"replayed_restrictions\": 40, \"seconds\": 0.002214082982391119}\n",
+    "stderr": "",
+    "seconds": 0.05887379194609821,
+    "result_status": "SURVIVOR",
+    "core_size": null
+  },
+  {
+    "case": "beam16",
+    "collections": [
+      {
+        "n": 18,
+        "cut": 5,
+        "reals": 7,
+        "normalize": 1,
+        "normalized_placements": 1538352,
+        "accepted_placements": 25704,
+        "repeats_removed_in_accepted": 21816,
+        "seconds": 0.3993579999078065
+      },
+      {
+        "n": 18,
+        "cut": 5,
+        "reals": 8,
+        "normalize": 1,
+        "normalized_placements": 1135242,
+        "accepted_placements": 3780,
+        "repeats_removed_in_accepted": 3816,
+        "seconds": 0.3485885829431936
+      }
+    ],
+    "items": 23,
+    "wall_cap_seconds": 30,
+    "terminal": "EXITED",
+    "returncode": 0,
+    "stdout": "{\"status\": \"SURVIVOR\", \"item_count\": 23, \"variables\": 176, \"clauses\": 2471, \"scope\": \"Necessary normalized two-layer rescheduling condition for one common L6\", \"input_sha256\": \"59ef1f861cd63263de9cf52c372493538b6f0033d01679467870e23b1354cc38\", \"source_sha256\": \"dba6165bd4a6bc0c590d6163ddc0048fc481eb97d882a5187390a4d575e53073\", \"layer6\": [[1, 2], [3, 8], [4, 5], [7, 9], [10, 11], [12, 13], [14, 15], [16, 17]], \"replayed_restrictions\": 23, \"seconds\": 0.0016138330101966858}\n",
+    "stderr": "",
+    "seconds": 0.05842787504661828,
+    "result_status": "SURVIVOR",
+    "core_size": null
+  },
+  {
+    "case": "beam32",
+    "collections": [
+      {
+        "n": 18,
+        "cut": 5,
+        "reals": 7,
+        "normalize": 1,
+        "normalized_placements": 1538352,
+        "accepted_placements": 20176,
+        "repeats_removed_in_accepted": 8408,
+        "seconds": 0.38112637493759394
+      },
+      {
+        "n": 18,
+        "cut": 5,
+        "reals": 8,
+        "normalize": 1,
+        "normalized_placements": 1135242,
+        "accepted_placements": 3316,
+        "repeats_removed_in_accepted": 1684,
+        "seconds": 0.3160096670035273
+      }
+    ],
+    "items": 108,
+    "wall_cap_seconds": 30,
+    "terminal": "EXITED",
+    "returncode": 0,
+    "stdout": "{\"status\": \"SURVIVOR\", \"item_count\": 108, \"variables\": 777, \"clauses\": 3344, \"scope\": \"Necessary normalized two-layer rescheduling condition for one common L6\", \"input_sha256\": \"a750e1f371034adfc5b8875a43a6b3761ea0f2e1df7baf807eba6469645ed193\", \"source_sha256\": \"dba6165bd4a6bc0c590d6163ddc0048fc481eb97d882a5187390a4d575e53073\", \"layer6\": [[0, 1], [2, 8], [3, 7], [4, 5], [6, 9], [10, 14], [11, 15], [12, 13], [16, 17]], \"replayed_restrictions\": 108, \"seconds\": 0.004565457929857075}\n",
+    "stderr": "",
+    "seconds": 0.061953249969519675,
+    "result_status": "SURVIVOR",
+    "core_size": null
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "former_ending_leaves": 43,
+  "profile_leaves": 43,
+  "prefix_sets_identical": true,
+  "verified_runs": 258,
+  "profile_types": 4,
+  "source_log_hashes": {
+    "h9-tree-dense-pairs.txt": "092ddcfa22390103e3c4b451fd0d87362f9c2acafc11b0abf9a546035a5cfe57",
+    "h9-tree-profile-certificates.txt": "c27c0c52084c5eb78f7dbb168e45b312a63ce1418fe4f7c1687189ffab191f30"
+  }
+}

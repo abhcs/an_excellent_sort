@@ -1,0 +1,3 @@
+17:15:27 n=18 prefix depth=3 free layers=7 sym=False phi=True cosat=True nored0=True lex=False solver=cadical195 |U|=1181 pool=1181 avg window=12.59
+17:15:27 case constraints: [{'idle': [0, 0]}, {'g': [0, 2, 17], 'value': True}]
+17:15:29 model built: vars=92001 clauses=1955404 inputs=1181 (2.3s)

@@ -1,0 +1,7 @@
+{
+  "status": "COMPLETED",
+  "returncode": 0,
+  "seconds": 8.28800725005567,
+  "stdout": "{\"case_id\": \"n13-r0116\", \"depth\": 8, \"cut\": 5, \"scope\": \"Probe positions only; no data comparisons in the ending\", \"both_directions\": true, \"shared_ending_routing\": false, \"inputs\": 735, \"probes\": 2905, \"variables\": 18750, \"clauses\": 255565, \"source_sha256\": \"e07f9183616412db41b7093fbb86efe8a13acf00d413b88084454b73ccdbeef0\", \"independently_proof_checked\": false, \"status\": \"BUILT\"}\nSURVIVOR 8.192\n",
+  "stderr": ""
+}

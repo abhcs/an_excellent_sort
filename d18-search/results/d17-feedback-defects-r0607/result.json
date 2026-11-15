@@ -1,0 +1,18 @@
+{
+  "case_id": "n17-r0607",
+  "family_size": 20,
+  "scope": "Necessary H9 first-two-layer profiles for all half-blind nine-real restrictions",
+  "cover_sha256": "711b620bb298deee98e5520595cfb341a13cf3600f4297dd35f3b38cb11d2100",
+  "source_sha256": "510ddb7ed090c1b55507a1b8d6a1cf8d3e4f1b2ba257e1759a6df474a5dce63a",
+  "status": "UNSAT",
+  "variables": 2666,
+  "clauses": 28708,
+  "independently_proof_checked": true,
+  "iterations": 1,
+  "certificate_directory": "d18-search/results/d17-feedback-defects-r0607/result",
+  "cnf_sha256": "001dff66b13b22e8e585cf7e89ee96c483e1b1730d375b4903c3234f92684f2e",
+  "proof_sha256": "e9af4a557bf921b157d5d325c9491945b68db4f2f50fe7a2d7bdd5efafb335b7",
+  "seconds": 10.7632,
+  "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d",
+  "check_seconds": 7.4822
+}

@@ -1,0 +1,12 @@
+{
+  "n": 13,
+  "depth": 9,
+  "cover_sha256": "2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406",
+  "total_cases": 117,
+  "statuses": {
+    "NOT_SOLVED": 116,
+    "SAT": 1
+  },
+  "outcome": "VERIFIED_SORTER_FOUND",
+  "independently_proof_checked": false
+}

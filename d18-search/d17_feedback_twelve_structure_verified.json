@@ -1,0 +1,408 @@
+{
+  "status": "VERIFIED",
+  "safe_augmentation_local_states": 9,
+  "idle_edge_fold_cases": 12,
+  "folds": [
+    {
+      "idle_edge": [
+        "a",
+        "b"
+      ],
+      "AA_pair": [
+        "c",
+        "d"
+      ],
+      "folded_edges": [
+        [
+          "b",
+          "c"
+        ],
+        [
+          "c",
+          "e"
+        ]
+      ]
+    },
+    {
+      "idle_edge": [
+        "a",
+        "b"
+      ],
+      "AA_pair": [
+        "c",
+        "e"
+      ],
+      "folded_edges": [
+        [
+          "b",
+          "c"
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ]
+    },
+    {
+      "idle_edge": [
+        "a",
+        "b"
+      ],
+      "AA_pair": [
+        "d",
+        "e"
+      ],
+      "folded_edges": [
+        [
+          "b",
+          "c"
+        ],
+        [
+          "b",
+          "d"
+        ],
+        [
+          "c",
+          "d"
+        ]
+      ]
+    },
+    {
+      "idle_edge": [
+        "b",
+        "c"
+      ],
+      "AA_pair": [
+        "a",
+        "d"
+      ],
+      "folded_edges": [
+        [
+          "a",
+          "b"
+        ],
+        [
+          "b",
+          "d"
+        ],
+        [
+          "c",
+          "e"
+        ]
+      ]
+    },
+    {
+      "idle_edge": [
+        "b",
+        "c"
+      ],
+      "AA_pair": [
+        "a",
+        "e"
+      ],
+      "folded_edges": [
+        [
+          "a",
+          "b"
+        ],
+        [
+          "b",
+          "d"
+        ],
+        [
+          "c",
+          "e"
+        ]
+      ]
+    },
+    {
+      "idle_edge": [
+        "b",
+        "c"
+      ],
+      "AA_pair": [
+        "d",
+        "e"
+      ],
+      "folded_edges": [
+        [
+          "a",
+          "b"
+        ],
+        [
+          "b",
+          "d"
+        ],
+        [
+          "c",
+          "d"
+        ]
+      ]
+    },
+    {
+      "idle_edge": [
+        "c",
+        "e"
+      ],
+      "AA_pair": [
+        "a",
+        "b"
+      ],
+      "folded_edges": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "a",
+          "d"
+        ]
+      ]
+    },
+    {
+      "idle_edge": [
+        "c",
+        "e"
+      ],
+      "AA_pair": [
+        "a",
+        "d"
+      ],
+      "folded_edges": [
+        [
+          "a",
+          "b"
+        ],
+        [
+          "b",
+          "c"
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ]
+    },
+    {
+      "idle_edge": [
+        "c",
+        "e"
+      ],
+      "AA_pair": [
+        "b",
+        "d"
+      ],
+      "folded_edges": [
+        [
+          "a",
+          "b"
+        ],
+        [
+          "b",
+          "c"
+        ]
+      ]
+    },
+    {
+      "idle_edge": [
+        "b",
+        "d"
+      ],
+      "AA_pair": [
+        "a",
+        "c"
+      ],
+      "folded_edges": [
+        [
+          "a",
+          "b"
+        ],
+        [
+          "b",
+          "c"
+        ],
+        [
+          "c",
+          "e"
+        ]
+      ]
+    },
+    {
+      "idle_edge": [
+        "b",
+        "d"
+      ],
+      "AA_pair": [
+        "a",
+        "e"
+      ],
+      "folded_edges": [
+        [
+          "a",
+          "b"
+        ],
+        [
+          "b",
+          "c"
+        ],
+        [
+          "c",
+          "e"
+        ]
+      ]
+    },
+    {
+      "idle_edge": [
+        "b",
+        "d"
+      ],
+      "AA_pair": [
+        "c",
+        "e"
+      ],
+      "folded_edges": [
+        [
+          "a",
+          "b"
+        ],
+        [
+          "b",
+          "c"
+        ]
+      ]
+    }
+  ],
+  "six_vertex_partial_matchings": 76,
+  "full_column_controls": [
+    [
+      [
+        "b",
+        "p"
+      ],
+      [
+        "c",
+        "e"
+      ]
+    ],
+    [
+      [
+        "a",
+        "d"
+      ],
+      [
+        "b",
+        "p"
+      ],
+      [
+        "c",
+        "e"
+      ]
+    ]
+  ],
+  "same_sign_bad_triples": {
+    "a": [
+      "a",
+      "b",
+      "c"
+    ],
+    "c": [
+      "a",
+      "b",
+      "c"
+    ],
+    "d": [
+      "b",
+      "c",
+      "d"
+    ],
+    "e": [
+      "a",
+      "b",
+      "e"
+    ]
+  },
+  "opposite_sign_forced_partner_completions": 4,
+  "central_endpoint_positive_controls": 4,
+  "comparable_idle_pairs": 47,
+  "comparable_routing_state_checks": 940,
+  "incomparable_idle_pairs": [
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      2,
+      9
+    ],
+    [
+      2,
+      11
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      3,
+      10
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      4,
+      10
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      5,
+      11
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      9
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      8,
+      10
+    ],
+    [
+      9,
+      11
+    ]
+  ],
+  "scope": "Local lemmas only; no full first-matching scan or SAT",
+  "source_sha256": "b6c0d7bf1124bbf6bcf1549faddbc79947ae770e14ed3c0472fcd56f3cc41c7c"
+}

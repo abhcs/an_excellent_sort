@@ -1,0 +1,34 @@
+{
+  "case": "beam16",
+  "collections": [
+    {
+      "n": 18,
+      "cut": 5,
+      "reals": 7,
+      "normalize": 1,
+      "normalized_placements": 1538352,
+      "accepted_placements": 25704,
+      "repeats_removed_in_accepted": 21816,
+      "seconds": 0.3993579999078065
+    },
+    {
+      "n": 18,
+      "cut": 5,
+      "reals": 8,
+      "normalize": 1,
+      "normalized_placements": 1135242,
+      "accepted_placements": 3780,
+      "repeats_removed_in_accepted": 3816,
+      "seconds": 0.3485885829431936
+    }
+  ],
+  "items": 23,
+  "wall_cap_seconds": 30,
+  "terminal": "EXITED",
+  "returncode": 0,
+  "stdout": "{\"status\": \"SURVIVOR\", \"item_count\": 23, \"variables\": 176, \"clauses\": 2471, \"scope\": \"Necessary normalized two-layer rescheduling condition for one common L6\", \"input_sha256\": \"59ef1f861cd63263de9cf52c372493538b6f0033d01679467870e23b1354cc38\", \"source_sha256\": \"dba6165bd4a6bc0c590d6163ddc0048fc481eb97d882a5187390a4d575e53073\", \"layer6\": [[1, 2], [3, 8], [4, 5], [7, 9], [10, 11], [12, 13], [14, 15], [16, 17]], \"replayed_restrictions\": 23, \"seconds\": 0.0016138330101966858}\n",
+  "stderr": "",
+  "seconds": 0.05842787504661828,
+  "result_status": "SURVIVOR",
+  "core_size": null
+}

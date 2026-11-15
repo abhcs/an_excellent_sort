@@ -1,0 +1,27 @@
+{
+  "n": 18,
+  "cases": 411,
+  "sha256": "3479c72a3dce2fe1d58d0fa80e11ccbdf9286c00b8585b1a15f23e325cb55ed2",
+  "half_blind_histogram": {
+    "2": 51,
+    "4": 85,
+    "6": 8,
+    "8": 74,
+    "10": 82,
+    "12": 16,
+    "14": 20,
+    "16": 32,
+    "20": 9,
+    "24": 4,
+    "28": 10,
+    "30": 12,
+    "32": 4,
+    "40": 3,
+    "64": 1
+  },
+  "min_outputs": 3888,
+  "max_outputs": 9261,
+  "coverage_source": "https://arxiv.org/abs/1412.5302",
+  "coverage_theorem": "Theorem 6 and Corollary 5",
+  "completion_symmetry_restricted": false
+}

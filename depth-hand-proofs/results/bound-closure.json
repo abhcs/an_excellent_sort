@@ -1,0 +1,1928 @@
+{
+  "hand": {
+    "1": {
+      "lower_bound": 0,
+      "rule": "seed",
+      "parent": null
+    },
+    "2": {
+      "lower_bound": 1,
+      "rule": "seed",
+      "parent": null
+    },
+    "3": {
+      "lower_bound": 3,
+      "rule": "seed",
+      "parent": null
+    },
+    "4": {
+      "lower_bound": 3,
+      "rule": "monotonicity",
+      "parent": 3
+    },
+    "5": {
+      "lower_bound": 5,
+      "rule": "seed",
+      "parent": null
+    },
+    "6": {
+      "lower_bound": 5,
+      "rule": "monotonicity",
+      "parent": 5
+    },
+    "7": {
+      "lower_bound": 6,
+      "rule": "seed",
+      "parent": null
+    },
+    "8": {
+      "lower_bound": 6,
+      "rule": "monotonicity",
+      "parent": 7
+    },
+    "9": {
+      "lower_bound": 7,
+      "rule": "seed",
+      "parent": null
+    },
+    "10": {
+      "lower_bound": 7,
+      "rule": "monotonicity",
+      "parent": 9
+    },
+    "11": {
+      "lower_bound": 7,
+      "rule": "monotonicity",
+      "parent": 10
+    },
+    "12": {
+      "lower_bound": 7,
+      "rule": "monotonicity",
+      "parent": 11
+    },
+    "13": {
+      "lower_bound": 8,
+      "rule": "two-layer restriction",
+      "parent": 7
+    },
+    "14": {
+      "lower_bound": 8,
+      "rule": "monotonicity",
+      "parent": 13
+    },
+    "15": {
+      "lower_bound": 8,
+      "rule": "monotonicity",
+      "parent": 14
+    },
+    "16": {
+      "lower_bound": 8,
+      "rule": "monotonicity",
+      "parent": 15
+    },
+    "17": {
+      "lower_bound": 9,
+      "rule": "two-layer restriction",
+      "parent": 9
+    },
+    "18": {
+      "lower_bound": 9,
+      "rule": "monotonicity",
+      "parent": 17
+    },
+    "19": {
+      "lower_bound": 9,
+      "rule": "monotonicity",
+      "parent": 18
+    },
+    "20": {
+      "lower_bound": 9,
+      "rule": "monotonicity",
+      "parent": 19
+    },
+    "21": {
+      "lower_bound": 9,
+      "rule": "monotonicity",
+      "parent": 20
+    },
+    "22": {
+      "lower_bound": 9,
+      "rule": "monotonicity",
+      "parent": 21
+    },
+    "23": {
+      "lower_bound": 9,
+      "rule": "monotonicity",
+      "parent": 22
+    },
+    "24": {
+      "lower_bound": 9,
+      "rule": "monotonicity",
+      "parent": 23
+    },
+    "25": {
+      "lower_bound": 10,
+      "rule": "two-layer restriction",
+      "parent": 13
+    },
+    "26": {
+      "lower_bound": 10,
+      "rule": "monotonicity",
+      "parent": 25
+    },
+    "27": {
+      "lower_bound": 10,
+      "rule": "monotonicity",
+      "parent": 26
+    },
+    "28": {
+      "lower_bound": 10,
+      "rule": "monotonicity",
+      "parent": 27
+    },
+    "29": {
+      "lower_bound": 10,
+      "rule": "monotonicity",
+      "parent": 28
+    },
+    "30": {
+      "lower_bound": 10,
+      "rule": "monotonicity",
+      "parent": 29
+    },
+    "31": {
+      "lower_bound": 10,
+      "rule": "monotonicity",
+      "parent": 30
+    },
+    "32": {
+      "lower_bound": 10,
+      "rule": "monotonicity",
+      "parent": 31
+    },
+    "33": {
+      "lower_bound": 11,
+      "rule": "two-layer restriction",
+      "parent": 17
+    },
+    "34": {
+      "lower_bound": 11,
+      "rule": "monotonicity",
+      "parent": 33
+    },
+    "35": {
+      "lower_bound": 11,
+      "rule": "monotonicity",
+      "parent": 34
+    },
+    "36": {
+      "lower_bound": 11,
+      "rule": "monotonicity",
+      "parent": 35
+    },
+    "37": {
+      "lower_bound": 11,
+      "rule": "monotonicity",
+      "parent": 36
+    },
+    "38": {
+      "lower_bound": 11,
+      "rule": "monotonicity",
+      "parent": 37
+    },
+    "39": {
+      "lower_bound": 11,
+      "rule": "monotonicity",
+      "parent": 38
+    },
+    "40": {
+      "lower_bound": 11,
+      "rule": "monotonicity",
+      "parent": 39
+    },
+    "41": {
+      "lower_bound": 11,
+      "rule": "monotonicity",
+      "parent": 40
+    },
+    "42": {
+      "lower_bound": 11,
+      "rule": "monotonicity",
+      "parent": 41
+    },
+    "43": {
+      "lower_bound": 11,
+      "rule": "monotonicity",
+      "parent": 42
+    },
+    "44": {
+      "lower_bound": 11,
+      "rule": "monotonicity",
+      "parent": 43
+    },
+    "45": {
+      "lower_bound": 11,
+      "rule": "monotonicity",
+      "parent": 44
+    },
+    "46": {
+      "lower_bound": 11,
+      "rule": "monotonicity",
+      "parent": 45
+    },
+    "47": {
+      "lower_bound": 11,
+      "rule": "monotonicity",
+      "parent": 46
+    },
+    "48": {
+      "lower_bound": 11,
+      "rule": "monotonicity",
+      "parent": 47
+    },
+    "49": {
+      "lower_bound": 12,
+      "rule": "two-layer restriction",
+      "parent": 25
+    },
+    "50": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 49
+    },
+    "51": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 50
+    },
+    "52": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 51
+    },
+    "53": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 52
+    },
+    "54": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 53
+    },
+    "55": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 54
+    },
+    "56": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 55
+    },
+    "57": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 56
+    },
+    "58": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 57
+    },
+    "59": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 58
+    },
+    "60": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 59
+    },
+    "61": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 60
+    },
+    "62": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 61
+    },
+    "63": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 62
+    },
+    "64": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 63
+    },
+    "65": {
+      "lower_bound": 13,
+      "rule": "two-layer restriction",
+      "parent": 33
+    },
+    "66": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 65
+    },
+    "67": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 66
+    },
+    "68": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 67
+    },
+    "69": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 68
+    },
+    "70": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 69
+    },
+    "71": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 70
+    },
+    "72": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 71
+    },
+    "73": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 72
+    },
+    "74": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 73
+    },
+    "75": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 74
+    },
+    "76": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 75
+    },
+    "77": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 76
+    },
+    "78": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 77
+    },
+    "79": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 78
+    },
+    "80": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 79
+    },
+    "81": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 80
+    },
+    "82": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 81
+    },
+    "83": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 82
+    },
+    "84": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 83
+    },
+    "85": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 84
+    },
+    "86": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 85
+    },
+    "87": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 86
+    },
+    "88": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 87
+    },
+    "89": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 88
+    },
+    "90": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 89
+    },
+    "91": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 90
+    },
+    "92": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 91
+    },
+    "93": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 92
+    },
+    "94": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 93
+    },
+    "95": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 94
+    },
+    "96": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 95
+    },
+    "97": {
+      "lower_bound": 14,
+      "rule": "two-layer restriction",
+      "parent": 49
+    },
+    "98": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 97
+    },
+    "99": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 98
+    },
+    "100": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 99
+    },
+    "101": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 100
+    },
+    "102": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 101
+    },
+    "103": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 102
+    },
+    "104": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 103
+    },
+    "105": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 104
+    },
+    "106": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 105
+    },
+    "107": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 106
+    },
+    "108": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 107
+    },
+    "109": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 108
+    },
+    "110": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 109
+    },
+    "111": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 110
+    },
+    "112": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 111
+    },
+    "113": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 112
+    },
+    "114": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 113
+    },
+    "115": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 114
+    },
+    "116": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 115
+    },
+    "117": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 116
+    },
+    "118": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 117
+    },
+    "119": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 118
+    },
+    "120": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 119
+    },
+    "121": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 120
+    },
+    "122": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 121
+    },
+    "123": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 122
+    },
+    "124": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 123
+    },
+    "125": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 124
+    },
+    "126": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 125
+    },
+    "127": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 126
+    },
+    "128": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 127
+    }
+  },
+  "local": {
+    "1": {
+      "lower_bound": 0,
+      "rule": "seed",
+      "parent": null
+    },
+    "2": {
+      "lower_bound": 1,
+      "rule": "seed",
+      "parent": null
+    },
+    "3": {
+      "lower_bound": 3,
+      "rule": "seed",
+      "parent": null
+    },
+    "4": {
+      "lower_bound": 3,
+      "rule": "monotonicity",
+      "parent": 3
+    },
+    "5": {
+      "lower_bound": 5,
+      "rule": "seed",
+      "parent": null
+    },
+    "6": {
+      "lower_bound": 5,
+      "rule": "monotonicity",
+      "parent": 5
+    },
+    "7": {
+      "lower_bound": 6,
+      "rule": "seed",
+      "parent": null
+    },
+    "8": {
+      "lower_bound": 6,
+      "rule": "monotonicity",
+      "parent": 7
+    },
+    "9": {
+      "lower_bound": 7,
+      "rule": "seed",
+      "parent": null
+    },
+    "10": {
+      "lower_bound": 7,
+      "rule": "monotonicity",
+      "parent": 9
+    },
+    "11": {
+      "lower_bound": 8,
+      "rule": "seed",
+      "parent": null
+    },
+    "12": {
+      "lower_bound": 8,
+      "rule": "monotonicity",
+      "parent": 11
+    },
+    "13": {
+      "lower_bound": 8,
+      "rule": "monotonicity",
+      "parent": 12
+    },
+    "14": {
+      "lower_bound": 8,
+      "rule": "monotonicity",
+      "parent": 13
+    },
+    "15": {
+      "lower_bound": 8,
+      "rule": "monotonicity",
+      "parent": 14
+    },
+    "16": {
+      "lower_bound": 8,
+      "rule": "monotonicity",
+      "parent": 15
+    },
+    "17": {
+      "lower_bound": 9,
+      "rule": "two-layer restriction",
+      "parent": 9
+    },
+    "18": {
+      "lower_bound": 9,
+      "rule": "monotonicity",
+      "parent": 17
+    },
+    "19": {
+      "lower_bound": 9,
+      "rule": "monotonicity",
+      "parent": 18
+    },
+    "20": {
+      "lower_bound": 9,
+      "rule": "monotonicity",
+      "parent": 19
+    },
+    "21": {
+      "lower_bound": 10,
+      "rule": "two-layer restriction",
+      "parent": 11
+    },
+    "22": {
+      "lower_bound": 10,
+      "rule": "monotonicity",
+      "parent": 21
+    },
+    "23": {
+      "lower_bound": 10,
+      "rule": "monotonicity",
+      "parent": 22
+    },
+    "24": {
+      "lower_bound": 10,
+      "rule": "monotonicity",
+      "parent": 23
+    },
+    "25": {
+      "lower_bound": 10,
+      "rule": "monotonicity",
+      "parent": 24
+    },
+    "26": {
+      "lower_bound": 10,
+      "rule": "monotonicity",
+      "parent": 25
+    },
+    "27": {
+      "lower_bound": 10,
+      "rule": "monotonicity",
+      "parent": 26
+    },
+    "28": {
+      "lower_bound": 10,
+      "rule": "monotonicity",
+      "parent": 27
+    },
+    "29": {
+      "lower_bound": 10,
+      "rule": "monotonicity",
+      "parent": 28
+    },
+    "30": {
+      "lower_bound": 10,
+      "rule": "monotonicity",
+      "parent": 29
+    },
+    "31": {
+      "lower_bound": 10,
+      "rule": "monotonicity",
+      "parent": 30
+    },
+    "32": {
+      "lower_bound": 10,
+      "rule": "monotonicity",
+      "parent": 31
+    },
+    "33": {
+      "lower_bound": 11,
+      "rule": "two-layer restriction",
+      "parent": 17
+    },
+    "34": {
+      "lower_bound": 11,
+      "rule": "monotonicity",
+      "parent": 33
+    },
+    "35": {
+      "lower_bound": 11,
+      "rule": "monotonicity",
+      "parent": 34
+    },
+    "36": {
+      "lower_bound": 11,
+      "rule": "monotonicity",
+      "parent": 35
+    },
+    "37": {
+      "lower_bound": 11,
+      "rule": "monotonicity",
+      "parent": 36
+    },
+    "38": {
+      "lower_bound": 11,
+      "rule": "monotonicity",
+      "parent": 37
+    },
+    "39": {
+      "lower_bound": 11,
+      "rule": "monotonicity",
+      "parent": 38
+    },
+    "40": {
+      "lower_bound": 11,
+      "rule": "monotonicity",
+      "parent": 39
+    },
+    "41": {
+      "lower_bound": 12,
+      "rule": "two-layer restriction",
+      "parent": 21
+    },
+    "42": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 41
+    },
+    "43": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 42
+    },
+    "44": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 43
+    },
+    "45": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 44
+    },
+    "46": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 45
+    },
+    "47": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 46
+    },
+    "48": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 47
+    },
+    "49": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 48
+    },
+    "50": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 49
+    },
+    "51": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 50
+    },
+    "52": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 51
+    },
+    "53": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 52
+    },
+    "54": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 53
+    },
+    "55": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 54
+    },
+    "56": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 55
+    },
+    "57": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 56
+    },
+    "58": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 57
+    },
+    "59": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 58
+    },
+    "60": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 59
+    },
+    "61": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 60
+    },
+    "62": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 61
+    },
+    "63": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 62
+    },
+    "64": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 63
+    },
+    "65": {
+      "lower_bound": 13,
+      "rule": "two-layer restriction",
+      "parent": 33
+    },
+    "66": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 65
+    },
+    "67": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 66
+    },
+    "68": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 67
+    },
+    "69": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 68
+    },
+    "70": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 69
+    },
+    "71": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 70
+    },
+    "72": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 71
+    },
+    "73": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 72
+    },
+    "74": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 73
+    },
+    "75": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 74
+    },
+    "76": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 75
+    },
+    "77": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 76
+    },
+    "78": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 77
+    },
+    "79": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 78
+    },
+    "80": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 79
+    },
+    "81": {
+      "lower_bound": 14,
+      "rule": "two-layer restriction",
+      "parent": 41
+    },
+    "82": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 81
+    },
+    "83": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 82
+    },
+    "84": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 83
+    },
+    "85": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 84
+    },
+    "86": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 85
+    },
+    "87": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 86
+    },
+    "88": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 87
+    },
+    "89": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 88
+    },
+    "90": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 89
+    },
+    "91": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 90
+    },
+    "92": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 91
+    },
+    "93": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 92
+    },
+    "94": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 93
+    },
+    "95": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 94
+    },
+    "96": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 95
+    },
+    "97": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 96
+    },
+    "98": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 97
+    },
+    "99": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 98
+    },
+    "100": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 99
+    },
+    "101": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 100
+    },
+    "102": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 101
+    },
+    "103": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 102
+    },
+    "104": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 103
+    },
+    "105": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 104
+    },
+    "106": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 105
+    },
+    "107": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 106
+    },
+    "108": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 107
+    },
+    "109": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 108
+    },
+    "110": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 109
+    },
+    "111": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 110
+    },
+    "112": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 111
+    },
+    "113": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 112
+    },
+    "114": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 113
+    },
+    "115": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 114
+    },
+    "116": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 115
+    },
+    "117": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 116
+    },
+    "118": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 117
+    },
+    "119": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 118
+    },
+    "120": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 119
+    },
+    "121": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 120
+    },
+    "122": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 121
+    },
+    "123": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 122
+    },
+    "124": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 123
+    },
+    "125": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 124
+    },
+    "126": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 125
+    },
+    "127": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 126
+    },
+    "128": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 127
+    }
+  },
+  "published": {
+    "1": {
+      "lower_bound": 0,
+      "rule": "seed",
+      "parent": null
+    },
+    "2": {
+      "lower_bound": 1,
+      "rule": "seed",
+      "parent": null
+    },
+    "3": {
+      "lower_bound": 3,
+      "rule": "seed",
+      "parent": null
+    },
+    "4": {
+      "lower_bound": 3,
+      "rule": "monotonicity",
+      "parent": 3
+    },
+    "5": {
+      "lower_bound": 5,
+      "rule": "seed",
+      "parent": null
+    },
+    "6": {
+      "lower_bound": 5,
+      "rule": "monotonicity",
+      "parent": 5
+    },
+    "7": {
+      "lower_bound": 6,
+      "rule": "seed",
+      "parent": null
+    },
+    "8": {
+      "lower_bound": 6,
+      "rule": "monotonicity",
+      "parent": 7
+    },
+    "9": {
+      "lower_bound": 7,
+      "rule": "seed",
+      "parent": null
+    },
+    "10": {
+      "lower_bound": 7,
+      "rule": "monotonicity",
+      "parent": 9
+    },
+    "11": {
+      "lower_bound": 8,
+      "rule": "seed",
+      "parent": null
+    },
+    "12": {
+      "lower_bound": 8,
+      "rule": "monotonicity",
+      "parent": 11
+    },
+    "13": {
+      "lower_bound": 9,
+      "rule": "seed",
+      "parent": null
+    },
+    "14": {
+      "lower_bound": 9,
+      "rule": "monotonicity",
+      "parent": 13
+    },
+    "15": {
+      "lower_bound": 9,
+      "rule": "monotonicity",
+      "parent": 14
+    },
+    "16": {
+      "lower_bound": 9,
+      "rule": "monotonicity",
+      "parent": 15
+    },
+    "17": {
+      "lower_bound": 10,
+      "rule": "seed",
+      "parent": null
+    },
+    "18": {
+      "lower_bound": 10,
+      "rule": "monotonicity",
+      "parent": 17
+    },
+    "19": {
+      "lower_bound": 10,
+      "rule": "monotonicity",
+      "parent": 18
+    },
+    "20": {
+      "lower_bound": 10,
+      "rule": "monotonicity",
+      "parent": 19
+    },
+    "21": {
+      "lower_bound": 10,
+      "rule": "monotonicity",
+      "parent": 20
+    },
+    "22": {
+      "lower_bound": 10,
+      "rule": "monotonicity",
+      "parent": 21
+    },
+    "23": {
+      "lower_bound": 10,
+      "rule": "monotonicity",
+      "parent": 22
+    },
+    "24": {
+      "lower_bound": 10,
+      "rule": "monotonicity",
+      "parent": 23
+    },
+    "25": {
+      "lower_bound": 11,
+      "rule": "two-layer restriction",
+      "parent": 13
+    },
+    "26": {
+      "lower_bound": 11,
+      "rule": "monotonicity",
+      "parent": 25
+    },
+    "27": {
+      "lower_bound": 11,
+      "rule": "monotonicity",
+      "parent": 26
+    },
+    "28": {
+      "lower_bound": 11,
+      "rule": "monotonicity",
+      "parent": 27
+    },
+    "29": {
+      "lower_bound": 11,
+      "rule": "monotonicity",
+      "parent": 28
+    },
+    "30": {
+      "lower_bound": 11,
+      "rule": "monotonicity",
+      "parent": 29
+    },
+    "31": {
+      "lower_bound": 11,
+      "rule": "monotonicity",
+      "parent": 30
+    },
+    "32": {
+      "lower_bound": 11,
+      "rule": "monotonicity",
+      "parent": 31
+    },
+    "33": {
+      "lower_bound": 12,
+      "rule": "two-layer restriction",
+      "parent": 17
+    },
+    "34": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 33
+    },
+    "35": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 34
+    },
+    "36": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 35
+    },
+    "37": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 36
+    },
+    "38": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 37
+    },
+    "39": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 38
+    },
+    "40": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 39
+    },
+    "41": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 40
+    },
+    "42": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 41
+    },
+    "43": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 42
+    },
+    "44": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 43
+    },
+    "45": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 44
+    },
+    "46": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 45
+    },
+    "47": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 46
+    },
+    "48": {
+      "lower_bound": 12,
+      "rule": "monotonicity",
+      "parent": 47
+    },
+    "49": {
+      "lower_bound": 13,
+      "rule": "two-layer restriction",
+      "parent": 25
+    },
+    "50": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 49
+    },
+    "51": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 50
+    },
+    "52": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 51
+    },
+    "53": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 52
+    },
+    "54": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 53
+    },
+    "55": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 54
+    },
+    "56": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 55
+    },
+    "57": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 56
+    },
+    "58": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 57
+    },
+    "59": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 58
+    },
+    "60": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 59
+    },
+    "61": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 60
+    },
+    "62": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 61
+    },
+    "63": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 62
+    },
+    "64": {
+      "lower_bound": 13,
+      "rule": "monotonicity",
+      "parent": 63
+    },
+    "65": {
+      "lower_bound": 14,
+      "rule": "two-layer restriction",
+      "parent": 33
+    },
+    "66": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 65
+    },
+    "67": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 66
+    },
+    "68": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 67
+    },
+    "69": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 68
+    },
+    "70": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 69
+    },
+    "71": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 70
+    },
+    "72": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 71
+    },
+    "73": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 72
+    },
+    "74": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 73
+    },
+    "75": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 74
+    },
+    "76": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 75
+    },
+    "77": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 76
+    },
+    "78": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 77
+    },
+    "79": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 78
+    },
+    "80": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 79
+    },
+    "81": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 80
+    },
+    "82": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 81
+    },
+    "83": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 82
+    },
+    "84": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 83
+    },
+    "85": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 84
+    },
+    "86": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 85
+    },
+    "87": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 86
+    },
+    "88": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 87
+    },
+    "89": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 88
+    },
+    "90": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 89
+    },
+    "91": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 90
+    },
+    "92": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 91
+    },
+    "93": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 92
+    },
+    "94": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 93
+    },
+    "95": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 94
+    },
+    "96": {
+      "lower_bound": 14,
+      "rule": "monotonicity",
+      "parent": 95
+    },
+    "97": {
+      "lower_bound": 15,
+      "rule": "two-layer restriction",
+      "parent": 49
+    },
+    "98": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 97
+    },
+    "99": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 98
+    },
+    "100": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 99
+    },
+    "101": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 100
+    },
+    "102": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 101
+    },
+    "103": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 102
+    },
+    "104": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 103
+    },
+    "105": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 104
+    },
+    "106": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 105
+    },
+    "107": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 106
+    },
+    "108": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 107
+    },
+    "109": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 108
+    },
+    "110": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 109
+    },
+    "111": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 110
+    },
+    "112": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 111
+    },
+    "113": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 112
+    },
+    "114": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 113
+    },
+    "115": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 114
+    },
+    "116": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 115
+    },
+    "117": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 116
+    },
+    "118": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 117
+    },
+    "119": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 118
+    },
+    "120": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 119
+    },
+    "121": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 120
+    },
+    "122": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 121
+    },
+    "123": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 122
+    },
+    "124": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 123
+    },
+    "125": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 124
+    },
+    "126": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 125
+    },
+    "127": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 126
+    },
+    "128": {
+      "lower_bound": 15,
+      "rule": "monotonicity",
+      "parent": 127
+    }
+  }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "variant": "positive-baseline",
+    "seconds": 24.798173957969993,
+    "positive_leaves": 4579,
+    "verified_inputs_per_leaf": 512,
+    "source_sha256": "be462c467b4629a944e0adc1f190fd2b979f2a97797640e2647d3fb88759dab9"
+  },
+  {
+    "variant": "positive-profile",
+    "seconds": 20.434782875003293,
+    "positive_leaves": 4579,
+    "verified_inputs_per_leaf": 512,
+    "source_sha256": "be462c467b4629a944e0adc1f190fd2b979f2a97797640e2647d3fb88759dab9"
+  }
+]

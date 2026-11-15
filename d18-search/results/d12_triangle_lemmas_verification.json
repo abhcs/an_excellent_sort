@@ -1,0 +1,267 @@
+{
+  "status": "VERIFIED",
+  "templates": 4,
+  "labelled_cores": 3957,
+  "labelled_cores_by_template": {
+    "IV": 1637,
+    "II": 299,
+    "III": 834,
+    "I": 1187
+  },
+  "reported_first_matchings_by_template": {
+    "IV": 97717,
+    "II": 3772,
+    "III": 30501,
+    "I": 8162
+  },
+  "reported_first_matchings": 140152,
+  "independently_reenumerated_all_first_matchings": false,
+  "representative_signed_state_transports": 79140,
+  "exact_pair_price_inequalities": 60153,
+  "independent_matching_dp_checked_cores": 3957,
+  "independent_matching_dp_subproblems": 89319,
+  "explicit_isomorphisms": 3957,
+  "positive_controls": [
+    {
+      "type": "I",
+      "omitted_triple": 0,
+      "matching": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "type": "I",
+      "omitted_triple": 1,
+      "matching": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "type": "I",
+      "omitted_triple": 2,
+      "matching": [
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          6
+        ]
+      ]
+    },
+    {
+      "type": "I",
+      "omitted_triple": 3,
+      "matching": [
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "type": "II",
+      "omitted_triple": 0,
+      "matching": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "type": "II",
+      "omitted_triple": 1,
+      "matching": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "type": "II",
+      "omitted_triple": 2,
+      "matching": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "type": "II",
+      "omitted_triple": 3,
+      "matching": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "type": "III",
+      "omitted_triple": 0,
+      "matching": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "type": "III",
+      "omitted_triple": 1,
+      "matching": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          5
+        ]
+      ]
+    },
+    {
+      "type": "III",
+      "omitted_triple": 2,
+      "matching": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "type": "III",
+      "omitted_triple": 3,
+      "matching": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "type": "IV",
+      "omitted_triple": 0,
+      "matching": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "type": "IV",
+      "omitted_triple": 1,
+      "matching": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "type": "IV",
+      "omitted_triple": 2,
+      "matching": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "type": "IV",
+      "omitted_triple": 3,
+      "matching": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    }
+  ],
+  "sat_used": false,
+  "input_core_sha256": "40bf12c854ad0b6631e6925789810ca944aa85563a896dba9483fdca087973bd",
+  "input_states_sha256": "4777e50f5f3c5bef4efc31fb6697f311c8d97318d3e695f0e578b43e6daff90e",
+  "source_sha256": "de682a9e5e17e92ea7b749554fa61aeba00ffa26088ab79be61f9cc39e5a53f3",
+  "catalogue_sha256": "6744d30bea99adc027c9cc5df25a0133b7486bdd5b15f96cc5abac783f0d5ca0"
+}

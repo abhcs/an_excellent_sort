@@ -1,0 +1,116 @@
+{
+  "case": {
+    "n": 18,
+    "layers": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          16,
+          17
+        ]
+      ],
+      [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          11,
+          13
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          15,
+          17
+        ]
+      ]
+    ],
+    "sentence": [
+      [
+        "C",
+        "121212"
+      ],
+      [
+        "C",
+        "1221"
+      ],
+      [
+        "C",
+        "1221"
+      ],
+      [
+        "C",
+        "1221"
+      ]
+    ],
+    "outputs": 3888,
+    "half_blind_sets": 2,
+    "case_id": "n18-r0000"
+  },
+  "depth": 10,
+  "mode": "profiles",
+  "solver": "kissat404",
+  "relabel_trials": 500,
+  "source_hashes": {
+    "capacity_sat.py": "9c4e7cc4e76ac1746462efb67effc4c4b90cb4a5c6a4e4ae6a442d19757b50da",
+    "netsat.py": "960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3",
+    "two_layer_profiles.py": "e5fb4ba4baa15be8971d4f1ee6049064d5a9f8f7c1c89898a78d04394201398a"
+  },
+  "cover_sha256": "3479c72a3dce2fe1d58d0fa80e11ccbdf9286c00b8585b1a15f23e325cb55ed2",
+  "result_path": "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/capacity18-r0000-attempt1.json",
+  "progress_path": "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/capacity18-r0000-attempt1.progress.json"
+}

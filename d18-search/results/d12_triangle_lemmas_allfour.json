@@ -1,0 +1,376 @@
+{
+  "distinct_labelled_row_incidence_vectors": 666,
+  "abstract_four_triple_families": 66,
+  "by_union_size": {
+    "4": 1,
+    "5": 5,
+    "6": 15,
+    "7": 17,
+    "8": 14,
+    "9": 8,
+    "10": 4,
+    "11": 1,
+    "12": 1
+  },
+  "unsatisfiable_types": 7,
+  "unsatisfiable_by_union_size": {
+    "5": 1,
+    "6": 2,
+    "7": 4
+  },
+  "all_unsatisfiable_vertex_price_certified": true,
+  "all_unsatisfiable_inclusion_minimal": true,
+  "exact_hand_criterion_agrees_on_all_66": true,
+  "source_sha256": "eb91d3b30ec089eac97e71eda6470060c2421e1a56c9fdea03b48bbc0265b30c",
+  "types": [
+    {
+      "id": 1,
+      "incidence_masks": [
+        3,
+        5,
+        10,
+        12,
+        15
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "vertices": 5,
+      "maximum_hit": 3,
+      "twice_vertex_prices": {
+        "4": 3,
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "deletion_control_maxima": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "incidence_masks": [
+        1,
+        2,
+        4,
+        11,
+        13,
+        14
+      ],
+      "triangles": [
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          2,
+          4,
+          5
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "vertices": 6,
+      "maximum_hit": 3,
+      "twice_vertex_prices": {
+        "3": 2,
+        "4": 2,
+        "5": 2,
+        "0": 0,
+        "1": 0,
+        "2": 0
+      },
+      "deletion_control_maxima": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "id": 3,
+      "incidence_masks": [
+        3,
+        5,
+        6,
+        9,
+        10,
+        12
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          1,
+          2,
+          5
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "vertices": 6,
+      "maximum_hit": 3,
+      "twice_vertex_prices": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1
+      },
+      "deletion_control_maxima": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "id": 4,
+      "incidence_masks": [
+        1,
+        2,
+        3,
+        4,
+        8,
+        12,
+        15
+      ],
+      "triangles": [
+        [
+          0,
+          2,
+          6
+        ],
+        [
+          1,
+          2,
+          6
+        ],
+        [
+          3,
+          5,
+          6
+        ],
+        [
+          4,
+          5,
+          6
+        ]
+      ],
+      "vertices": 7,
+      "maximum_hit": 3,
+      "twice_vertex_prices": {
+        "6": 2,
+        "2": 2,
+        "5": 2,
+        "0": 0,
+        "1": 0,
+        "3": 0,
+        "4": 0
+      },
+      "deletion_control_maxima": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "id": 5,
+      "incidence_masks": [
+        1,
+        2,
+        3,
+        4,
+        8,
+        13,
+        14
+      ],
+      "triangles": [
+        [
+          0,
+          2,
+          5
+        ],
+        [
+          1,
+          2,
+          6
+        ],
+        [
+          3,
+          5,
+          6
+        ],
+        [
+          4,
+          5,
+          6
+        ]
+      ],
+      "vertices": 7,
+      "maximum_hit": 3,
+      "twice_vertex_prices": {
+        "5": 2,
+        "6": 2,
+        "2": 1,
+        "0": 1,
+        "1": 1,
+        "3": 0,
+        "4": 0
+      },
+      "deletion_control_maxima": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "id": 6,
+      "incidence_masks": [
+        1,
+        2,
+        4,
+        7,
+        9,
+        10,
+        12
+      ],
+      "triangles": [
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          2,
+          3,
+          6
+        ],
+        [
+          4,
+          5,
+          6
+        ]
+      ],
+      "vertices": 7,
+      "maximum_hit": 3,
+      "twice_vertex_prices": {
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "0": 1,
+        "1": 1,
+        "2": 1
+      },
+      "deletion_control_maxima": [
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "id": 7,
+      "incidence_masks": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        10,
+        12
+      ],
+      "triangles": [
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          2,
+          3,
+          6
+        ],
+        [
+          4,
+          5,
+          6
+        ]
+      ],
+      "vertices": 7,
+      "maximum_hit": 3,
+      "twice_vertex_prices": {
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "0": 1,
+        "1": 1
+      },
+      "deletion_control_maxima": [
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ]
+}

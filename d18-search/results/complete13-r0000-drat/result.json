@@ -1,0 +1,86 @@
+{
+  "case_id": "n13-r0000",
+  "n": 13,
+  "depth": 8,
+  "prefix": [
+    [
+      [
+        0,
+        9
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        8,
+        10
+      ]
+    ],
+    [
+      [
+        0,
+        8
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        5,
+        12
+      ],
+      [
+        9,
+        10
+      ]
+    ]
+  ],
+  "weights": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "inputs": 418,
+  "variables": 16226,
+  "clauses": 206289,
+  "cnf_sha256": "738edb801b6dfeeb4e1020779fbd5a01a7daaecfa8cebfd28973de857c541dfd",
+  "encoder_sha256": "960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3",
+  "source_sha256": "1f85103a6efe10e02907d7fac977a88c149f1d6d2e189179a4636431db32773c",
+  "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d",
+  "independently_proof_checked": true,
+  "status": "UNSAT",
+  "solve_seconds": 10.214,
+  "proof_sha256": "1e865de501b8617ffa5740a3a1f5af95a65146e5c0cda76855323709df717cde",
+  "check_seconds": 9.284,
+  "checker_returncode": 0
+}

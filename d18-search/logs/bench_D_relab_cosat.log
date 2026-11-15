@@ -1,0 +1,18 @@
+16:52:05 n=17 prefix depth=3 free layers=7 sym=False phi=True cosat=True nored0=True lex=False solver=cadical195 |U|=782 pool=782 avg window=8.24
+16:52:05 model built: vars=21588 clauses=316765 inputs=400 (0.3s)
+16:53:25 iter 1: SAT in 79.7s, inputs=400, vars=21588, clauses=316765, fails=18, elapsed=80s
+16:53:47 iter 2: SAT in 21.5s, inputs=418, vars=22668, clauses=335606, fails=12, elapsed=102s
+16:55:14 iter 3: SAT in 87.1s, inputs=430, vars=23256, clauses=344382, fails=6, elapsed=189s
+16:56:45 iter 4: SAT in 91.7s, inputs=436, vars=23568, clauses=349205, fails=2, elapsed=280s
+16:57:13 iter 5: SAT in 27.3s, inputs=438, vars=23688, clauses=351231, fails=9, elapsed=308s
+16:57:40 iter 6: SAT in 27.4s, inputs=447, vars=24220, clauses=360018, fails=10, elapsed=335s
+16:59:18 iter 7: SAT in 97.9s, inputs=457, vars=24796, clauses=369774, fails=7, elapsed=433s
+16:59:49 iter 8: SAT in 31.2s, inputs=464, vars=25144, clauses=375747, fails=4, elapsed=464s
+17:00:18 iter 9: SAT in 28.4s, inputs=468, vars=25336, clauses=378822, fails=12, elapsed=493s
+17:01:46 iter 10: SAT in 87.9s, inputs=480, vars=25996, clauses=389806, fails=8, elapsed=581s
+17:01:54 iter 11: SAT in 8.5s, inputs=488, vars=26368, clauses=395110, fails=1, elapsed=589s
+17:01:55 iter 12: SAT in 1.2s, inputs=489, vars=26422, clauses=395938, fails=3, elapsed=590s
+17:02:20 iter 13: SAT in 24.9s, inputs=492, vars=26560, clauses=397786, fails=6, elapsed=615s
+17:03:31 iter 14: SAT in 71.3s, inputs=498, vars=26896, clauses=403261, fails=1, elapsed=686s
+17:05:00 iter 15: SAT in 88.7s, inputs=499, vars=26962, clauses=404451, fails=1, elapsed=775s
+STOPPED manually (superseded or to free cores)

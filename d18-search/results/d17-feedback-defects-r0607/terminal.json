@@ -1,0 +1,15 @@
+{
+  "status": "EXITED",
+  "returncode": 0,
+  "wall_seconds": 10.833,
+  "wall_limit_seconds": 120,
+  "command": [
+    "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+    "d18-search/d17_feedback_defects.py",
+    "--case",
+    "607",
+    "--out",
+    "d18-search/results/d17-feedback-defects-r0607/result.json",
+    "--proof"
+  ]
+}

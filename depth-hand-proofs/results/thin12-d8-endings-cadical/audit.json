@@ -1,0 +1,10 @@
+{
+  "total_cases": 13,
+  "statuses": {
+    "TIME_LIMIT": 1,
+    "NOT_ATTEMPTED": 12
+  },
+  "outcome": "OPEN",
+  "case_list_sha256": "ffd96b7f26360aa379acea01aedb2dd720a89b9b78d3d0a6231a35510ffa8440",
+  "proof_trace_checked": false
+}

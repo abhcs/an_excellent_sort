@@ -1,0 +1,15 @@
+{
+  "n": 9,
+  "cases": 22,
+  "sha256": "7b704e7d40e36d67a590ef44cc6c2d83904c30963d37ce0b38666a2e65d662e4",
+  "half_blind_histogram": {
+    "1": 12,
+    "2": 8,
+    "4": 2
+  },
+  "min_outputs": 72,
+  "max_outputs": 105,
+  "coverage_source": "https://arxiv.org/abs/1412.5302",
+  "coverage_theorem": "Theorem 6 and Corollary 5",
+  "completion_symmetry_restricted": false
+}

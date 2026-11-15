@@ -1,0 +1,2 @@
+17:14:05 n=18 prefix depth=4 free layers=6 sym=False phi=True cosat=True nored0=True lex=False solver=kissat404 |U|=487 pool=487 avg window=11.14
+17:14:06 model built: vars=29260 clauses=531238 inputs=487 (0.9s)

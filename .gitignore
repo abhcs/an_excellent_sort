@@ -21,6 +21,15 @@ venv/
 build/
 dist/
 target/
+*.dSYM/
+
+# Local research executables (sources and result records are tracked)
+/d18-search/pair_graph_search
+/d18-search/prefix_sa
+/d18-search/restriction_budget_audit
+/d18-search/restriction_budget_search
+/depth-hand-proofs/verify/h9_tree_checked
+/depth-hand-proofs/verify/h9_tree_ubsan
 
 # Local secrets and per-user Claude Code settings
 .env

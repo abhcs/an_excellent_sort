@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "seconds": 2.142950125038624,
+  "source_sha256": "be462c467b4629a944e0adc1f190fd2b979f2a97797640e2647d3fb88759dab9",
+  "compiler_flags": [
+    "-O1",
+    "-g",
+    "-fsanitize=undefined",
+    "-fno-sanitize-recover=undefined"
+  ],
+  "h5_leaves": 43,
+  "exhaustive_ending_searches": 0
+}

@@ -1,0 +1,95 @@
+{
+  "status": "VERIFIED",
+  "sat_used_by_verifier": false,
+  "scope": "One specified five-layer continuation of case116 only; not a refutation of all continuations",
+  "single_rank": {
+    "rank": 6,
+    "positions": [
+      2,
+      4,
+      5,
+      8,
+      9
+    ],
+    "probe_rows": 6,
+    "covered_obligations": 25,
+    "next_layer_support_lower_bound": 5
+  },
+  "two_rank": {
+    "ranks": [
+      3,
+      9
+    ],
+    "initial_total": 16,
+    "potential_vertices": [
+      0,
+      2,
+      4,
+      6,
+      9,
+      10
+    ],
+    "maximum_total_reductions": 6,
+    "next_layer_total_lower_bound": 10,
+    "probe_rows": 17,
+    "separate_rank_matchings": {
+      "3": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "9": [
+        [
+          2,
+          4
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          10,
+          11
+        ]
+      ]
+    },
+    "separate_rank_final_sizes": {
+      "3": 4,
+      "9": 4
+    }
+  },
+  "cut5_max_rank_degree": 8,
+  "cut5_max_wire_degree": 8,
+  "positive_control": {
+    "binary_inputs_checked": 8192,
+    "depth": 9,
+    "cut": 7,
+    "max_rank_degree": 4,
+    "max_wire_degree": 4,
+    "no_five_position_separator_at_cut6": true
+  },
+  "sha256": {
+    "d13_hand_verify.py": "10791e174ed98fe2aa5f02b62b8873e3cde30145271ca98f9e39e2d060bc8d90",
+    "d13_hand_probe_table.py": "08ab5732146babaae8a5030c2d6dc8c5a7957dc6a175e9e7edc7a3fa71e1c356",
+    "d13_hand_matching.py": "1461b2182fabc9a0aab889228276389557ee0f7507a51158c0649e836bef4f1b",
+    "results/d13-hand-case116-rank-separation-certificate.json": "e4c718870cc48bd52f2dad7e06b7b02f5819db19b33c3583d335fec63d1d9b09",
+    "results/d13-hand-case116-two-rank-certificate.json": "871252bcd0a34f2ecc7eccb8bb47f7c923e2c67a0a11f0e8de69b053e2a57e91"
+  }
+}
