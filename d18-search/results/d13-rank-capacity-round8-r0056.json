@@ -1,0 +1,216 @@
+{
+  "case_id": "n13-r0056",
+  "depth": 8,
+  "cut": 6,
+  "mode": "wire",
+  "prefix": [
+    [
+      [
+        1,
+        11
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        12
+      ]
+    ],
+    [
+      [
+        0,
+        7
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        6,
+        12
+      ]
+    ]
+  ],
+  "source_case": {
+    "n": 13,
+    "layers": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          9,
+          11
+        ]
+      ]
+    ],
+    "sentence": [
+      [
+        "C",
+        "12121212"
+      ],
+      [
+        "H",
+        "01221"
+      ]
+    ],
+    "outputs": 611,
+    "half_blind_sets": 2,
+    "case_id": "n13-r0056"
+  },
+  "input_permutation": [
+    4,
+    8,
+    3,
+    10,
+    11,
+    1,
+    2,
+    9,
+    7,
+    12,
+    5,
+    6,
+    0
+  ],
+  "output_permutation": [
+    4,
+    3,
+    8,
+    1,
+    10,
+    2,
+    11,
+    9,
+    0,
+    6,
+    5,
+    12,
+    7
+  ],
+  "inputs": 611,
+  "wires": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "ranks": [],
+  "variables": 19359,
+  "clauses": 274390,
+  "original_window_cost": 31077,
+  "window_cost": 21108,
+  "scope": "All four-layer continuations of this complete-cover prefix; cut6 intervals and exact adjacent-ending rank-set reachability",
+  "parity_clauses": 0,
+  "block_capacity": {
+    "clauses": 498,
+    "by_kind": {
+      "right_extent": 59,
+      "left_capacity": 88,
+      "one_direction": 31,
+      "right_capacity": 88,
+      "incoming_capacity": 173,
+      "left_extent": 59
+    },
+    "added_variables": 0
+  },
+  "source_sha256": "9c6f47df2ddb5c70ccde74bfc2a91ed9554c831011f1513476315827cb600fca",
+  "cover_sha256": "2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406",
+  "dependencies_sha256": {
+    "netsat.py": "960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3",
+    "probe_frontier.py": "e07f9183616412db41b7093fbb86efe8a13acf00d413b88084454b73ccdbeef0",
+    "interval_frontier.py": "93548c783322ba9754b407aaaf1cb29f649d6c8aa206ead5f1911b7454a1e6ab",
+    "cover_solve.py": "055cd3edc69c997461a6998b704a2283ef54883456ed7fc1b92515d96b9a52b5",
+    "relabel.py": "0a2e05ee9af76e79dee51542492341e2aa3aa5da57b4c9b349fefe736998b81e",
+    "prefix_drat.py": "1f85103a6efe10e02907d7fac977a88c149f1d6d2e189179a4636431db32773c",
+    "rank_block_capacity_cnf.py": "7e9b1c2196f965669aad9de3f56bd7f77c92f76ceebf9f091c2ecbd45336740c",
+    "adjacent_rank_ending.py": "f18f43489e46c9355e9738398d3fc4fdfa3070a4ae502db3d204250864e5d011"
+  },
+  "status": "UNSAT",
+  "independently_proof_checked": true,
+  "build_seconds": 0.25681541697122157,
+  "certificate_directory": "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/d13-rank-capacity-round8-r0056",
+  "cnf_sha256": "ca36af16b472d2150cf65f0b26971363ec7a5cd31301e6c9d8afd008cfc0edc8",
+  "proof_sha256": "df45b813773e600345b71fa44b6d4c97a90acc52fd065df68e2cdf9e40de288a",
+  "seconds": 6.971997832995839,
+  "check_seconds": 4.394211916951463,
+  "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d"
+}

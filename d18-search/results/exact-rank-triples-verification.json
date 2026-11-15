@@ -1,0 +1,11 @@
+{
+  "status": "VERIFIED",
+  "uses_sat": false,
+  "prefixes": 127,
+  "real_order_runs": 5544,
+  "complete_binary_runs": 2448,
+  "endpoint_vectors_checked": 2930,
+  "triple_examples_rejected": 2,
+  "source_sha256": "0923bcb5a4358ecce170519b50924bfdc90b21993ff8954581f11dc15a241bfe",
+  "checker_sha256": "c3d2b284f24cb24e6f63d753fc958b41ed8721183d0add517bda8107ef33bdb0"
+}

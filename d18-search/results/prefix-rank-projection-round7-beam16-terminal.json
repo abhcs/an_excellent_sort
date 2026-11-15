@@ -1,0 +1,8 @@
+{
+  "terminal": "TIMEOUT_KILLED",
+  "seconds": 30.01450683409348,
+  "wall_cap_seconds": 30,
+  "stdout": "{\"status\": \"BUILT\", \"n\": 18, \"depth\": 10, \"cut\": 8, \"cap\": 4, \"inputs\": 520, \"variables\": 22986, \"clauses\": 426020, \"parity_clauses\": 0, \"middle_pair_clauses\": 52, \"last_pairing_projection_clauses\": 198, \"combined_clauses\": 0, \"source_sha256\": \"02aceb4bdafae89e55962b93699306f5e3bd318ea6a22c0f6827a81f1122b5b3\", \"seed_sha256\": \"4277d3a6488696235bd796da775524ba1a436ef8d6247f1ea97e9567288782d8\", \"cnf_sha256\": \"51799d186e20765baa23e853631c5749b01c5b6cb1916bd7985b20bd11f36231\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-projection-round7-beam16\", \"scope\": \"All continuations of the fixed prefix; cut widths, adjacent last-pairing projection, shared-middle-pair capacity, optionally earlier conditions\", \"seconds\": 0.4839622499421239}\n",
+  "stderr": "",
+  "label": "beam16"
+}

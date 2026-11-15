@@ -1,0 +1,52 @@
+{
+  "status": "REVIEWED_SOUND",
+  "reviewer": "d13_hand_core",
+  "uses_sat": false,
+  "scope": {
+    "fixed_last_matching": "Exact necessary and sufficient capacity criterion for required-set forward reachability through a preceding matching, assuming each required set contains its own wire.",
+    "adjacent_last_matching": "Exact decision and construction of two matching layers whose forward cones contain a given vector of contiguous required intervals, with the last matching adjacent.",
+    "not_claimed": [
+      "Sorting the full input data family",
+      "Replacing an arbitrary feasible last matching by an adjacent one while preserving preceding-matching feasibility"
+    ]
+  },
+  "proof_review": [
+    "A demanding wire must be partnered into its unique other last-layer block; every nonfree such partner must make the reciprocal demand.",
+    "Maximum reciprocal cancellation leaves exactly the stated excess incoming demand, which must fit the destination block free vertices.",
+    "Greedy reciprocal cancellation and injection into free vertices use disjoint source and destination sets and construct a valid preceding matching.",
+    "For adjacent blocks, interval containment and the capacity inequality depend only on the previous, current, and next blocks."
+  ],
+  "implementation_review": [
+    "Endpoint buckets process states in topological order because every appended block advances the endpoint.",
+    "One predecessor per ordered pair of consecutive blocks is sufficient: older blocks have already passed their checks and no future check depends on earlier history.",
+    "Initial missing-left and final missing-right neighbors are handled explicitly, including one- and two-wire inputs.",
+    "Accepted tilings are reconstructed once by predecessor links; no copied recursive suffixes remain.",
+    "Each endpoint has at most four nonboundary states with at most two outgoing transitions; every local block has size at most two.",
+    "After acceptance every required interval lies in at most two adjacent blocks and has length at most four, so demand reconstruction is linear.",
+    "Greedy reciprocal cancellation constructs the preceding matching; array buckets indexed by the lower endpoint order its edges without a global comparison sort."
+  ],
+  "complexity": "O(n) time and storage under the standard constant-time indexed/dictionary operation model, including reconstruction and edge ordering.",
+  "verification_evidence": {
+    "action_this_review": "Source and proof inspection; checked current verification report hashes against the reviewed algorithm and checker. No solver or additional test replay launched.",
+    "recorded_checks": {
+      "four_wire_exhaustive": true,
+      "interval_vectors": {
+        "4": 576,
+        "6": 5000
+      },
+      "middle_pair_and_bridge_rejected": true,
+      "known_eighteen_wire_control_passed": true,
+      "large_control_n": 10000,
+      "large_control_states": 39991
+    },
+    "checks_are": "Corroboration of the proof, not a finite enumeration premise."
+  },
+  "source_sha256": {
+    "fixed-ending-block-capacity.md": "656c8cbc7f59e8f689ac7b38028873c17aa50c1e144c2e1db654806c08ed4c68",
+    "adjacent_rank_ending.py": "f18f43489e46c9355e9738398d3fc4fdfa3070a4ae502db3d204250864e5d011",
+    "adjacent_rank_ending_verify.py": "0f5deeb45eea4dffd1e8831a365e1e43bc9fcb571aaa06fc7b93e412fbfa9ecf",
+    "results/adjacent-rank-ending-verification.json": "492b9298a2266e68919cfd6a8ed5a849ee425ba27fcc02886646eee9cee5538a"
+  },
+  "substantive_issues": [],
+  "running_jobs": []
+}

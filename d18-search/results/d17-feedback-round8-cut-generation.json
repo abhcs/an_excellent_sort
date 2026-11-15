@@ -1,0 +1,23 @@
+{
+  "status": "CERTIFICATE_GENERATED",
+  "sat_used": false,
+  "cases": 2728,
+  "core_size_counts": {
+    "4": 1879,
+    "5": 757,
+    "6": 92
+  },
+  "radius_patterns": {
+    "(1, 1, 1, 1, 1)": 1879,
+    "(1, 1, 1, 1, 1, 1)": 576,
+    "(1, 1, 1, 1, 2)": 117,
+    "(1, 1, 2, 2)": 64,
+    "(1, 1, 1, 1, 1, 2)": 53,
+    "(1, 1, 1, 2, 2)": 21,
+    "(1, 1, 1, 1, 1, 1, 1)": 18
+  },
+  "compressed_bytes": 29038,
+  "certificate_sha256": "f77b8e62c42fe92d3480abc3de812703be0287a61440f452b2de937409c0630a",
+  "seconds": 3.2076,
+  "scope": "Finite selection of cut-radius witnesses; each local contradiction has one uniform hand proof"
+}

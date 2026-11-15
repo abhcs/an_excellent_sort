@@ -1,0 +1,92 @@
+{
+  "status": "VERIFIED",
+  "uses_sat": false,
+  "widths": [
+    {
+      "n": 3,
+      "arbitrary_matchings": 4,
+      "adjacent_matchings": 3,
+      "interval_families_checked": 2,
+      "feasible_families": 2,
+      "every_matching_constructively_dominated": true
+    },
+    {
+      "n": 4,
+      "arbitrary_matchings": 10,
+      "adjacent_matchings": 5,
+      "interval_families_checked": 8,
+      "feasible_families": 8,
+      "every_matching_constructively_dominated": true
+    },
+    {
+      "n": 5,
+      "arbitrary_matchings": 26,
+      "adjacent_matchings": 8,
+      "interval_families_checked": 32,
+      "feasible_families": 24,
+      "every_matching_constructively_dominated": true
+    },
+    {
+      "n": 6,
+      "arbitrary_matchings": 76,
+      "adjacent_matchings": 13,
+      "interval_families_checked": 128,
+      "feasible_families": 80,
+      "every_matching_constructively_dominated": true
+    },
+    {
+      "n": 7,
+      "arbitrary_matchings": 232,
+      "adjacent_matchings": 21,
+      "interval_families_checked": 512,
+      "feasible_families": 224,
+      "every_matching_constructively_dominated": true
+    },
+    {
+      "n": 8,
+      "arbitrary_matchings": 764,
+      "adjacent_matchings": 34,
+      "interval_families_checked": 2048,
+      "feasible_families": 704,
+      "every_matching_constructively_dominated": true
+    },
+    {
+      "n": 9,
+      "arbitrary_matchings": 2620,
+      "adjacent_matchings": 55,
+      "interval_families_checked": 8192,
+      "feasible_families": 1984,
+      "every_matching_constructively_dominated": true
+    },
+    {
+      "n": 10,
+      "arbitrary_matchings": 9496,
+      "adjacent_matchings": 89,
+      "interval_families_checked": 32768,
+      "feasible_families": 6144,
+      "every_matching_constructively_dominated": true
+    }
+  ],
+  "total_arbitrary_matchings": 13228,
+  "total_interval_families": 43690,
+  "shared_middle_pair_separation_verified": true,
+  "endpoint_counts": {
+    "13": {
+      "variables": 12,
+      "triple_clauses": 53,
+      "full_four_clauses": 80,
+      "matching_clauses": 11,
+      "total": 144
+    },
+    "18": {
+      "variables": 17,
+      "triple_clauses": 78,
+      "full_four_clauses": 120,
+      "matching_clauses": 16,
+      "total": 214
+    }
+  },
+  "seconds": 0.1469740840839222,
+  "source_sha256": "ad42911d0a084642f54fc8fc04116145035fae63e85fa20bcbfe81b140411a34",
+  "proof_sha256": "cb5010e594d000f9a26b11079c034d324545d22f72e2829cb182ed1a5f4ba2ca"
+}

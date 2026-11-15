@@ -1,0 +1,18 @@
+{
+  "terminal": "EXITED",
+  "returncode": 0,
+  "stdout": "{\"case_id\": \"n13-r0003\", \"depth\": 8, \"cut\": 6, \"mode\": \"wire\", \"inputs\": 504, \"wires\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], \"ranks\": [], \"variables\": 15535, \"clauses\": 209221, \"original_window_cost\": 26868, \"window_cost\": 15986, \"scope\": \"All four-layer continuations of this complete-cover prefix; cut6 intervals and exact four-cone parity\", \"parity_clauses\": 222, \"source_sha256\": \"ac3092329478c1640f703b15c3827b407191dd1218bf99d4ef7d912f63b2e680\", \"cover_sha256\": \"2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406\", \"status\": \"BUILT\", \"independently_proof_checked\": false, \"build_seconds\": 0.1855232920497656}\nUNSAT 7.708703959011473\n",
+  "stderr": "",
+  "seconds": 7.773425749968737,
+  "wall_cap_seconds": 30,
+  "case": 3,
+  "command": [
+    "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/d13_rank_parity_probe.py",
+    "--case",
+    "3",
+    "--out",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/d13-rank-capacity-round8-baseline-r0003.json",
+    "--proof"
+  ]
+}

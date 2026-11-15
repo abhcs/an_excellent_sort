@@ -1,0 +1,8 @@
+{
+  "terminal": "TIMEOUT_KILLED",
+  "seconds": 30.01010033302009,
+  "wall_cap_seconds": 30,
+  "stdout": "{\"status\": \"BUILT\", \"n\": 18, \"depth\": 10, \"cut\": 8, \"cap\": 4, \"inputs\": 520, \"variables\": 22986, \"clauses\": 426584, \"parity_clauses\": 362, \"middle_pair_clauses\": 52, \"bridge_clauses\": 400, \"combined_clauses\": 0, \"source_sha256\": \"ba51f91e5ee80bacac8d94eb3ecf383c21d049678ec1a2747147191845181f45\", \"seed_sha256\": \"4277d3a6488696235bd796da775524ba1a436ef8d6247f1ea97e9567288782d8\", \"cnf_sha256\": \"a22c27991e358e35b2905659199881170829821ea9388aab55cb317b901b31e9\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-bridge-round7-beam16\", \"scope\": \"All continuations of the fixed prefix; cut widths, parity, shared-middle-pair capacity, separated-window bridge, optionally earlier conditions\", \"seconds\": 0.4813336660154164}\n",
+  "stderr": "",
+  "label": "beam16"
+}

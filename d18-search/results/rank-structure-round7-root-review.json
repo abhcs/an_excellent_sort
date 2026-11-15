@@ -1,0 +1,42 @@
+{
+  "status": "REVIEWED",
+  "lemmas": [
+    {
+      "name": "bridge",
+      "status": "ROOT_REVIEWED",
+      "proof_path": "d18-search/d13_feedback_round7_bridge.md",
+      "proof_sha256": "5e5c53e0cf7ba7c21924172368c3ed0b60fd29dd6339132f2a8690cf2f00c04e",
+      "replay_path": "d18-search/results/d13_feedback_round7-bridge-verification.json",
+      "replay_status": "VERIFIED",
+      "uses_sat": false
+    },
+    {
+      "name": "last_pairing_projection",
+      "status": "ROOT_REVIEWED",
+      "proof_path": "d18-search/d13_feedback_round7_pairing.md",
+      "proof_sha256": "cb5010e594d000f9a26b11079c034d324545d22f72e2829cb182ed1a5f4ba2ca",
+      "replay_path": "d18-search/results/d13_feedback_round7-pairing-verification.json",
+      "replay_status": "VERIFIED",
+      "uses_sat": false
+    },
+    {
+      "name": "threshold_partners",
+      "status": "ROOT_REVIEWED",
+      "proof_path": "depth-hand-proofs/h9_feedback_round5_rank_partner.md",
+      "proof_sha256": "938c8d823c36590ba212ace15c186bdd4604d0cca4a6c088733e75f6f5b78a98",
+      "replay_path": "depth-hand-proofs/results/h9-feedback-round5-partner-proof.json",
+      "replay_status": "VERIFIED",
+      "uses_sat": false
+    },
+    {
+      "name": "partial_next_layer_partner_support",
+      "status": "ROOT_REVIEWED",
+      "proof_path": "d18-search/d18_rank_partner_round7_partial.md",
+      "proof_sha256": "9050c14b01a6a673e9894c6352b8490540503c990e7a437a8501d5798ccc0fa4",
+      "replay_path": "d18-search/results/d18-rank-partner-round7-partial-proof.json",
+      "replay_status": "VERIFIED",
+      "uses_sat": false
+    }
+  ],
+  "scope": "Hand structural results at arbitrary ambient width; no new complete D13/D17/D18 cover case follows solely from these lemmas."
+}

@@ -1,0 +1,2274 @@
+{
+  "status": "FIXED_THRESHOLD_CERTIFICATE",
+  "capacity": 4,
+  "original_certificate_sha256": "401ef85aadeb797511deaa7d0bf4e4c20a6ffde1c83553fa2ae65c577e14d722",
+  "records": [
+    {
+      "case": 1,
+      "number": 1,
+      "pivot": 7,
+      "low": 1,
+      "high": 7,
+      "low_input": 7,
+      "high_input": 10,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            3,
+            5
+          ]
+        },
+        {
+          "input": 2,
+          "kind": "high",
+          "excluded": [
+            4,
+            6,
+            8
+          ]
+        },
+        {
+          "input": 3,
+          "kind": "low",
+          "excluded": [
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "input": 4,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            3
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 1,
+      "number": 2,
+      "pivot": 8,
+      "low": 2,
+      "high": 8,
+      "low_input": 7,
+      "high_input": 6,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            3,
+            5
+          ]
+        },
+        {
+          "input": 1,
+          "kind": "high",
+          "excluded": [
+            5,
+            7
+          ]
+        },
+        {
+          "input": 3,
+          "kind": "low",
+          "excluded": [
+            0,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "input": 6,
+          "kind": "high",
+          "excluded": [
+            4,
+            6
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 1,
+      "number": 3,
+      "pivot": 7,
+      "low": 1,
+      "high": 7,
+      "low_input": 7,
+      "high_input": 10,
+      "guards": [
+        {
+          "input": 4,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "input": 8,
+          "kind": "high",
+          "excluded": [
+            2,
+            5,
+            6
+          ]
+        },
+        {
+          "input": 10,
+          "kind": "high",
+          "excluded": [
+            4,
+            6,
+            8
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 1,
+      "number": 4,
+      "pivot": 8,
+      "low": 2,
+      "high": 8,
+      "low_input": 7,
+      "high_input": 5,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "input": 5,
+          "kind": "high",
+          "excluded": [
+            2,
+            5
+          ]
+        },
+        {
+          "input": 6,
+          "kind": "high",
+          "excluded": [
+            6,
+            7
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 1,
+      "number": 5,
+      "pivot": 8,
+      "low": 2,
+      "high": 8,
+      "low_input": 7,
+      "high_input": 6,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "input": 1,
+          "kind": "high",
+          "excluded": [
+            5,
+            7
+          ]
+        },
+        {
+          "input": 3,
+          "kind": "low",
+          "excluded": [
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "input": 6,
+          "kind": "high",
+          "excluded": [
+            5,
+            6
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 1,
+      "number": 6,
+      "pivot": 7,
+      "low": 1,
+      "high": 7,
+      "low_input": 7,
+      "high_input": 10,
+      "guards": [
+        {
+          "input": 2,
+          "kind": "high",
+          "excluded": [
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "input": 4,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "input": 9,
+          "kind": "high",
+          "excluded": [
+            2,
+            5,
+            8
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 2,
+      "number": 1,
+      "pivot": 8,
+      "low": 2,
+      "high": 8,
+      "low_input": 7,
+      "high_input": 9,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            3,
+            5
+          ]
+        },
+        {
+          "input": 1,
+          "kind": "high",
+          "excluded": [
+            3,
+            7
+          ]
+        },
+        {
+          "input": 2,
+          "kind": "high",
+          "excluded": [
+            4,
+            6
+          ]
+        },
+        {
+          "input": 3,
+          "kind": "low",
+          "excluded": [
+            0,
+            2,
+            3,
+            5
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 3,
+      "number": 1,
+      "pivot": 7,
+      "low": 1,
+      "high": 7,
+      "low_input": 7,
+      "high_input": 10,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            2,
+            5
+          ]
+        },
+        {
+          "input": 1,
+          "kind": "high",
+          "excluded": [
+            4,
+            6,
+            8
+          ]
+        },
+        {
+          "input": 3,
+          "kind": "low",
+          "excluded": [
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "input": 4,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 3,
+      "number": 2,
+      "pivot": 7,
+      "low": 1,
+      "high": 7,
+      "low_input": 7,
+      "high_input": 10,
+      "guards": [
+        {
+          "input": 4,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "input": 8,
+          "kind": "high",
+          "excluded": [
+            3,
+            5,
+            6
+          ]
+        },
+        {
+          "input": 10,
+          "kind": "high",
+          "excluded": [
+            4,
+            6,
+            8
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 3,
+      "number": 3,
+      "pivot": 7,
+      "low": 1,
+      "high": 7,
+      "low_input": 7,
+      "high_input": 10,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "input": 3,
+          "kind": "low",
+          "excluded": [
+            0,
+            2,
+            4
+          ]
+        },
+        {
+          "input": 4,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "input": 8,
+          "kind": "high",
+          "excluded": [
+            5,
+            6,
+            8
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 3,
+      "number": 4,
+      "pivot": 8,
+      "low": 2,
+      "high": 8,
+      "low_input": 7,
+      "high_input": 6,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            2,
+            5
+          ]
+        },
+        {
+          "input": 1,
+          "kind": "high",
+          "excluded": [
+            4,
+            7
+          ]
+        },
+        {
+          "input": 3,
+          "kind": "low",
+          "excluded": [
+            0,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "input": 6,
+          "kind": "high",
+          "excluded": [
+            4,
+            6
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 3,
+      "number": 5,
+      "pivot": 8,
+      "low": 2,
+      "high": 8,
+      "low_input": 7,
+      "high_input": 5,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "input": 5,
+          "kind": "high",
+          "excluded": [
+            3,
+            5
+          ]
+        },
+        {
+          "input": 6,
+          "kind": "high",
+          "excluded": [
+            6,
+            7
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 3,
+      "number": 6,
+      "pivot": 8,
+      "low": 2,
+      "high": 8,
+      "low_input": 7,
+      "high_input": 6,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "input": 1,
+          "kind": "high",
+          "excluded": [
+            3,
+            7
+          ]
+        },
+        {
+          "input": 3,
+          "kind": "low",
+          "excluded": [
+            0,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "input": 6,
+          "kind": "high",
+          "excluded": [
+            5,
+            6
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 3,
+      "number": 7,
+      "pivot": 7,
+      "low": 1,
+      "high": 7,
+      "low_input": 8,
+      "high_input": 10,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            5
+          ]
+        },
+        {
+          "input": 1,
+          "kind": "high",
+          "excluded": [
+            4,
+            6,
+            8
+          ]
+        },
+        {
+          "input": 3,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "input": 4,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 3,
+      "number": 8,
+      "pivot": 7,
+      "low": 1,
+      "high": 7,
+      "low_input": 8,
+      "high_input": 10,
+      "guards": [
+        {
+          "input": 4,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "input": 9,
+          "kind": "high",
+          "excluded": [
+            3,
+            5,
+            8
+          ]
+        },
+        {
+          "input": 10,
+          "kind": "high",
+          "excluded": [
+            4,
+            6,
+            8
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 3,
+      "number": 9,
+      "pivot": 7,
+      "low": 1,
+      "high": 7,
+      "low_input": 8,
+      "high_input": 10,
+      "guards": [
+        {
+          "input": 1,
+          "kind": "high",
+          "excluded": [
+            3,
+            6,
+            8
+          ]
+        },
+        {
+          "input": 3,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            4
+          ]
+        },
+        {
+          "input": 4,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "input": 9,
+          "kind": "high",
+          "excluded": [
+            3,
+            5,
+            8
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 3,
+      "number": 10,
+      "pivot": 8,
+      "low": 2,
+      "high": 8,
+      "low_input": 8,
+      "high_input": 6,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            2,
+            5
+          ]
+        },
+        {
+          "input": 1,
+          "kind": "high",
+          "excluded": [
+            4,
+            7
+          ]
+        },
+        {
+          "input": 3,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            3,
+            5
+          ]
+        },
+        {
+          "input": 6,
+          "kind": "high",
+          "excluded": [
+            4,
+            6
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 3,
+      "number": 11,
+      "pivot": 8,
+      "low": 2,
+      "high": 8,
+      "low_input": 8,
+      "high_input": 5,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "input": 5,
+          "kind": "high",
+          "excluded": [
+            3,
+            5
+          ]
+        },
+        {
+          "input": 6,
+          "kind": "high",
+          "excluded": [
+            6,
+            7
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 3,
+      "number": 12,
+      "pivot": 8,
+      "low": 2,
+      "high": 8,
+      "low_input": 8,
+      "high_input": 6,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "input": 1,
+          "kind": "high",
+          "excluded": [
+            3,
+            7
+          ]
+        },
+        {
+          "input": 3,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "input": 6,
+          "kind": "high",
+          "excluded": [
+            5,
+            6
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 3,
+      "number": 13,
+      "pivot": 7,
+      "low": 1,
+      "high": 7,
+      "low_input": 13,
+      "high_input": 10,
+      "guards": [
+        {
+          "input": 1,
+          "kind": "high",
+          "excluded": [
+            4,
+            6,
+            8
+          ]
+        },
+        {
+          "input": 2,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            5
+          ]
+        },
+        {
+          "input": 4,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "input": 12,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            3
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 3,
+      "number": 14,
+      "pivot": 7,
+      "low": 1,
+      "high": 7,
+      "low_input": 13,
+      "high_input": 10,
+      "guards": [
+        {
+          "input": 3,
+          "kind": "high",
+          "excluded": [
+            3,
+            5,
+            6
+          ]
+        },
+        {
+          "input": 4,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "input": 10,
+          "kind": "high",
+          "excluded": [
+            4,
+            6,
+            8
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 3,
+      "number": 15,
+      "pivot": 7,
+      "low": 1,
+      "high": 7,
+      "low_input": 13,
+      "high_input": 10,
+      "guards": [
+        {
+          "input": 1,
+          "kind": "high",
+          "excluded": [
+            3,
+            6,
+            8
+          ]
+        },
+        {
+          "input": 3,
+          "kind": "high",
+          "excluded": [
+            5,
+            6,
+            8
+          ]
+        },
+        {
+          "input": 4,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "input": 12,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            4
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 3,
+      "number": 16,
+      "pivot": 8,
+      "low": 2,
+      "high": 8,
+      "low_input": 2,
+      "high_input": 6,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            2,
+            5
+          ]
+        },
+        {
+          "input": 1,
+          "kind": "high",
+          "excluded": [
+            4,
+            7
+          ]
+        },
+        {
+          "input": 6,
+          "kind": "high",
+          "excluded": [
+            4,
+            6
+          ]
+        },
+        {
+          "input": 8,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            3,
+            5
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 3,
+      "number": 17,
+      "pivot": 8,
+      "low": 2,
+      "high": 8,
+      "low_input": 2,
+      "high_input": 5,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "input": 5,
+          "kind": "high",
+          "excluded": [
+            3,
+            5
+          ]
+        },
+        {
+          "input": 6,
+          "kind": "high",
+          "excluded": [
+            6,
+            7
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 3,
+      "number": 18,
+      "pivot": 8,
+      "low": 2,
+      "high": 8,
+      "low_input": 2,
+      "high_input": 6,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "input": 1,
+          "kind": "high",
+          "excluded": [
+            3,
+            7
+          ]
+        },
+        {
+          "input": 6,
+          "kind": "high",
+          "excluded": [
+            5,
+            6
+          ]
+        },
+        {
+          "input": 8,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            3,
+            4
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 4,
+      "number": 1,
+      "pivot": 8,
+      "low": 3,
+      "high": 8,
+      "low_input": 5,
+      "high_input": 9,
+      "guards": [
+        {
+          "input": 1,
+          "kind": "high",
+          "excluded": [
+            7
+          ]
+        },
+        {
+          "input": 2,
+          "kind": "high",
+          "excluded": [
+            6
+          ]
+        },
+        {
+          "input": 3,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            4,
+            5
+          ]
+        }
+      ],
+      "remaining": [
+        2,
+        3
+      ],
+      "reciprocal": [
+        {
+          "pivot": 2,
+          "low": 1,
+          "high": 6,
+          "low_input": 4,
+          "high_input": 5,
+          "guard": {
+            "input": 6,
+            "kind": "high",
+            "excluded": [
+              6,
+              7,
+              8
+            ]
+          }
+        },
+        {
+          "pivot": 3,
+          "low": 2,
+          "high": 7,
+          "low_input": 6,
+          "high_input": 3,
+          "guard": {
+            "input": 1,
+            "kind": "high",
+            "excluded": [
+              7,
+              8
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "case": 5,
+      "number": 1,
+      "pivot": 8,
+      "low": 3,
+      "high": 8,
+      "low_input": 0,
+      "high_input": 10,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            2,
+            5
+          ]
+        },
+        {
+          "input": 1,
+          "kind": "high",
+          "excluded": [
+            4
+          ]
+        },
+        {
+          "input": 2,
+          "kind": "high",
+          "excluded": [
+            6
+          ]
+        },
+        {
+          "input": 3,
+          "kind": "low",
+          "excluded": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "input": 10,
+          "kind": "high",
+          "excluded": [
+            7
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 5,
+      "number": 2,
+      "pivot": 2,
+      "low": 1,
+      "high": 6,
+      "low_input": 4,
+      "high_input": 5,
+      "guards": [
+        {
+          "input": 4,
+          "kind": "low",
+          "excluded": [
+            0,
+            3
+          ]
+        },
+        {
+          "input": 5,
+          "kind": "high",
+          "excluded": [
+            4,
+            6,
+            8
+          ]
+        },
+        {
+          "input": 7,
+          "kind": "low",
+          "excluded": [
+            1,
+            5
+          ]
+        },
+        {
+          "input": 9,
+          "kind": "high",
+          "excluded": [
+            4,
+            7,
+            8
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 5,
+      "number": 3,
+      "pivot": 3,
+      "low": 2,
+      "high": 8,
+      "low_input": 4,
+      "high_input": 1,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "high",
+          "excluded": [
+            2,
+            6
+          ]
+        },
+        {
+          "input": 1,
+          "kind": "high",
+          "excluded": [
+            7,
+            8
+          ]
+        },
+        {
+          "input": 4,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            4,
+            5
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 5,
+      "number": 4,
+      "pivot": 3,
+      "low": 2,
+      "high": 8,
+      "low_input": 4,
+      "high_input": 1,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "high",
+          "excluded": [
+            2,
+            6
+          ]
+        },
+        {
+          "input": 1,
+          "kind": "high",
+          "excluded": [
+            7,
+            8
+          ]
+        },
+        {
+          "input": 4,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            4,
+            5
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 5,
+      "number": 5,
+      "pivot": 3,
+      "low": 2,
+      "high": 7,
+      "low_input": 4,
+      "high_input": 0,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "high",
+          "excluded": [
+            2,
+            6
+          ]
+        },
+        {
+          "input": 4,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            4
+          ]
+        },
+        {
+          "input": 7,
+          "kind": "high",
+          "excluded": [
+            6,
+            7
+          ]
+        },
+        {
+          "input": 8,
+          "kind": "high",
+          "excluded": [
+            6,
+            8
+          ]
+        }
+      ],
+      "remaining": [
+        5
+      ],
+      "reciprocal": [
+        {
+          "pivot": 5,
+          "low": 1,
+          "high": 6,
+          "low_input": 0,
+          "high_input": 12,
+          "guard": {
+            "input": 12,
+            "kind": "high",
+            "excluded": [
+              3,
+              6,
+              8
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "case": 5,
+      "number": 6,
+      "pivot": 3,
+      "low": 2,
+      "high": 7,
+      "low_input": 4,
+      "high_input": 0,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "high",
+          "excluded": [
+            2,
+            6
+          ]
+        },
+        {
+          "input": 4,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            5
+          ]
+        },
+        {
+          "input": 7,
+          "kind": "high",
+          "excluded": [
+            6,
+            8
+          ]
+        },
+        {
+          "input": 8,
+          "kind": "high",
+          "excluded": [
+            6,
+            7
+          ]
+        }
+      ],
+      "remaining": [
+        4
+      ],
+      "reciprocal": [
+        {
+          "pivot": 4,
+          "low": 1,
+          "high": 6,
+          "low_input": 2,
+          "high_input": 6,
+          "guard": {
+            "input": 6,
+            "kind": "high",
+            "excluded": [
+              3,
+              6,
+              8
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "case": 5,
+      "number": 7,
+      "pivot": 3,
+      "low": 0,
+      "high": 6,
+      "low_input": 13,
+      "high_input": 1,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            5
+          ]
+        },
+        {
+          "input": 4,
+          "kind": "low",
+          "excluded": [
+            0,
+            2
+          ]
+        },
+        {
+          "input": 6,
+          "kind": "high",
+          "excluded": [
+            4,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "input": 13,
+          "kind": "low",
+          "excluded": [
+            0,
+            1
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 5,
+      "number": 8,
+      "pivot": 3,
+      "low": 1,
+      "high": 7,
+      "low_input": 2,
+      "high_input": 5,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            5,
+            7
+          ]
+        },
+        {
+          "input": 2,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            5
+          ]
+        },
+        {
+          "input": 4,
+          "kind": "low",
+          "excluded": [
+            0,
+            2,
+            5
+          ]
+        },
+        {
+          "input": 5,
+          "kind": "high",
+          "excluded": [
+            4,
+            6,
+            8
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 5,
+      "number": 9,
+      "pivot": 3,
+      "low": 0,
+      "high": 6,
+      "low_input": 2,
+      "high_input": 1,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            2
+          ]
+        },
+        {
+          "input": 1,
+          "kind": "high",
+          "excluded": [
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "input": 2,
+          "kind": "low",
+          "excluded": [
+            0,
+            4
+          ]
+        },
+        {
+          "input": 13,
+          "kind": "low",
+          "excluded": [
+            0,
+            1
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 5,
+      "number": 10,
+      "pivot": 3,
+      "low": 1,
+      "high": 7,
+      "low_input": 2,
+      "high_input": 1,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            2,
+            4
+          ]
+        },
+        {
+          "input": 1,
+          "kind": "high",
+          "excluded": [
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "input": 2,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            4
+          ]
+        },
+        {
+          "input": 5,
+          "kind": "high",
+          "excluded": [
+            5,
+            6,
+            8
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 5,
+      "number": 11,
+      "pivot": 8,
+      "low": 3,
+      "high": 8,
+      "low_input": 0,
+      "high_input": 10,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            2,
+            5
+          ]
+        },
+        {
+          "input": 1,
+          "kind": "high",
+          "excluded": [
+            4
+          ]
+        },
+        {
+          "input": 2,
+          "kind": "high",
+          "excluded": [
+            6
+          ]
+        },
+        {
+          "input": 3,
+          "kind": "low",
+          "excluded": [
+            0,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "input": 10,
+          "kind": "high",
+          "excluded": [
+            7
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 5,
+      "number": 12,
+      "pivot": 3,
+      "low": 1,
+      "high": 6,
+      "low_input": 0,
+      "high_input": 8,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            2
+          ]
+        },
+        {
+          "input": 2,
+          "kind": "high",
+          "excluded": [
+            5,
+            6,
+            8
+          ]
+        },
+        {
+          "input": 3,
+          "kind": "low",
+          "excluded": [
+            0,
+            4
+          ]
+        },
+        {
+          "input": 8,
+          "kind": "high",
+          "excluded": [
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "input": 10,
+          "kind": "low",
+          "excluded": [
+            0,
+            1
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 5,
+      "number": 13,
+      "pivot": 3,
+      "low": 1,
+      "high": 7,
+      "low_input": 2,
+      "high_input": 1,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            2,
+            4
+          ]
+        },
+        {
+          "input": 1,
+          "kind": "high",
+          "excluded": [
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "input": 2,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "input": 6,
+          "kind": "high",
+          "excluded": [
+            5,
+            6,
+            8
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 5,
+      "number": 14,
+      "pivot": 2,
+      "low": 1,
+      "high": 6,
+      "low_input": 2,
+      "high_input": 5,
+      "guards": [
+        {
+          "input": 1,
+          "kind": "low",
+          "excluded": [
+            0,
+            1
+          ]
+        },
+        {
+          "input": 2,
+          "kind": "low",
+          "excluded": [
+            0,
+            5
+          ]
+        },
+        {
+          "input": 4,
+          "kind": "low",
+          "excluded": [
+            0,
+            3
+          ]
+        },
+        {
+          "input": 5,
+          "kind": "high",
+          "excluded": [
+            4,
+            6,
+            8
+          ]
+        },
+        {
+          "input": 9,
+          "kind": "high",
+          "excluded": [
+            4,
+            7,
+            8
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 5,
+      "number": 15,
+      "pivot": 2,
+      "low": 1,
+      "high": 6,
+      "low_input": 2,
+      "high_input": 5,
+      "guards": [
+        {
+          "input": 1,
+          "kind": "low",
+          "excluded": [
+            0,
+            1
+          ]
+        },
+        {
+          "input": 2,
+          "kind": "low",
+          "excluded": [
+            0,
+            4
+          ]
+        },
+        {
+          "input": 4,
+          "kind": "low",
+          "excluded": [
+            0,
+            3
+          ]
+        },
+        {
+          "input": 5,
+          "kind": "high",
+          "excluded": [
+            5,
+            6,
+            8
+          ]
+        },
+        {
+          "input": 9,
+          "kind": "high",
+          "excluded": [
+            5,
+            7,
+            8
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 5,
+      "number": 16,
+      "pivot": 3,
+      "low": 0,
+      "high": 6,
+      "low_input": 2,
+      "high_input": 1,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            4
+          ]
+        },
+        {
+          "input": 1,
+          "kind": "high",
+          "excluded": [
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "input": 2,
+          "kind": "low",
+          "excluded": [
+            0,
+            2
+          ]
+        },
+        {
+          "input": 13,
+          "kind": "low",
+          "excluded": [
+            0,
+            1
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 6,
+      "number": 1,
+      "pivot": 3,
+      "low": 1,
+      "high": 7,
+      "low_input": 2,
+      "high_input": 1,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            2,
+            4
+          ]
+        },
+        {
+          "input": 1,
+          "kind": "high",
+          "excluded": [
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "input": 2,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "input": 6,
+          "kind": "high",
+          "excluded": [
+            5,
+            6,
+            8
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 6,
+      "number": 2,
+      "pivot": 5,
+      "low": 2,
+      "high": 7,
+      "low_input": 11,
+      "high_input": 1,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "input": 1,
+          "kind": "high",
+          "excluded": [
+            7,
+            8
+          ]
+        },
+        {
+          "input": 2,
+          "kind": "high",
+          "excluded": [
+            4,
+            6
+          ]
+        },
+        {
+          "input": 6,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            3
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 6,
+      "number": 3,
+      "pivot": 5,
+      "low": 2,
+      "high": 7,
+      "low_input": 0,
+      "high_input": 2,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "input": 2,
+          "kind": "high",
+          "excluded": [
+            4,
+            6
+          ]
+        },
+        {
+          "input": 5,
+          "kind": "high",
+          "excluded": [
+            7,
+            8
+          ]
+        },
+        {
+          "input": 10,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 6,
+      "number": 4,
+      "pivot": 2,
+      "low": 1,
+      "high": 6,
+      "low_input": 4,
+      "high_input": 5,
+      "guards": [
+        {
+          "input": 1,
+          "kind": "low",
+          "excluded": [
+            0,
+            1
+          ]
+        },
+        {
+          "input": 2,
+          "kind": "low",
+          "excluded": [
+            0,
+            3
+          ]
+        },
+        {
+          "input": 6,
+          "kind": "high",
+          "excluded": [
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "input": 9,
+          "kind": "high",
+          "excluded": [
+            5,
+            7,
+            8
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    },
+    {
+      "case": 8,
+      "number": 1,
+      "pivot": 7,
+      "low": 2,
+      "high": 8,
+      "low_input": 8,
+      "high_input": 6,
+      "guards": [
+        {
+          "input": 0,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "input": 1,
+          "kind": "high",
+          "excluded": [
+            3,
+            8
+          ]
+        },
+        {
+          "input": 3,
+          "kind": "low",
+          "excluded": [
+            0,
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "input": 6,
+          "kind": "high",
+          "excluded": [
+            5,
+            6
+          ]
+        }
+      ],
+      "remaining": [],
+      "reciprocal": []
+    }
+  ]
+}

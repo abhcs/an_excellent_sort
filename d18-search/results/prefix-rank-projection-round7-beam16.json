@@ -1,0 +1,173 @@
+{
+  "status": "BUILT",
+  "n": 18,
+  "depth": 10,
+  "cut": 8,
+  "cap": 4,
+  "prefix": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        16,
+        17
+      ]
+    ],
+    [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        5,
+        13
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        15,
+        17
+      ]
+    ],
+    [
+      [
+        0,
+        14
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        5,
+        12
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    [
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        13,
+        17
+      ]
+    ]
+  ],
+  "inputs": 520,
+  "variables": 22986,
+  "clauses": 426020,
+  "parity_clauses": 0,
+  "middle_pair_clauses": 52,
+  "last_pairing_projection_clauses": 198,
+  "combined_clauses": 0,
+  "source_sha256": "02aceb4bdafae89e55962b93699306f5e3bd318ea6a22c0f6827a81f1122b5b3",
+  "seed_sha256": "4277d3a6488696235bd796da775524ba1a436ef8d6247f1ea97e9567288782d8",
+  "cnf_sha256": "51799d186e20765baa23e853631c5749b01c5b6cb1916bd7985b20bd11f36231",
+  "certificate_directory": "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-projection-round7-beam16",
+  "scope": "All continuations of the fixed prefix; cut widths, adjacent last-pairing projection, shared-middle-pair capacity, optionally earlier conditions",
+  "dependencies_sha256": {
+    "netsat.py": "960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3",
+    "endpoint_cegar.py": "22768b03673525e930c722acde18c6d4c77049a0e1e6f16615801908b1e39aa1",
+    "interval_frontier.py": "93548c783322ba9754b407aaaf1cb29f649d6c8aa206ead5f1911b7454a1e6ab",
+    "probe_frontier.py": "e07f9183616412db41b7093fbb86efe8a13acf00d413b88084454b73ccdbeef0",
+    "prefix_drat.py": "1f85103a6efe10e02907d7fac977a88c149f1d6d2e189179a4636431db32773c"
+  },
+  "seconds": 0.4839622499421239
+}

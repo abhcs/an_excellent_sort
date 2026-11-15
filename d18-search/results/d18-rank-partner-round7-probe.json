@@ -1,0 +1,167 @@
+{
+  "status": "DISCOVERY_ONLY",
+  "records": [
+    {
+      "name": "beam00",
+      "total_activities": 10,
+      "minimum_fixed_activities": 3,
+      "witnesses": [
+        {
+          "fixed": [
+            [
+              1,
+              4
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              12,
+              13
+            ]
+          ],
+          "neighbors": {
+            "12": []
+          }
+        }
+      ],
+      "full": [
+        true,
+        {
+          "12": []
+        }
+      ]
+    },
+    {
+      "name": "beam16",
+      "total_activities": 10,
+      "minimum_fixed_activities": 4,
+      "witnesses": [
+        {
+          "fixed": [
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              15
+            ],
+            [
+              7,
+              14
+            ],
+            [
+              16,
+              17
+            ]
+          ],
+          "neighbors": {
+            "6": []
+          }
+        }
+      ],
+      "full": [
+        true,
+        {
+          "6": []
+        }
+      ]
+    },
+    {
+      "name": "beam32",
+      "total_activities": 9,
+      "minimum_fixed_activities": 6,
+      "witnesses": [
+        {
+          "fixed": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              8
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              9
+            ],
+            [
+              10,
+              14
+            ],
+            [
+              12,
+              13
+            ]
+          ],
+          "neighbors": {
+            "5": [
+              2,
+              8
+            ],
+            "12": [
+              8
+            ]
+          }
+        },
+        {
+          "fixed": [
+            [
+              2,
+              8
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              9
+            ],
+            [
+              10,
+              14
+            ],
+            [
+              12,
+              13
+            ]
+          ],
+          "neighbors": {
+            "5": [
+              2,
+              8
+            ],
+            "12": [
+              8
+            ]
+          }
+        }
+      ],
+      "full": [
+        true,
+        {
+          "5": [
+            2,
+            8
+          ],
+          "12": [
+            8
+          ]
+        }
+      ]
+    }
+  ],
+  "elapsed_seconds": 0.006291416939347982
+}

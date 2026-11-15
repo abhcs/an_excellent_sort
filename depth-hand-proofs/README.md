@@ -19,8 +19,11 @@ The [K2,2-and-fork case](h9_feedback_round2_031246.md) raises coverage to
 26 classes, using a standalone hand proof that
 [three sorted blocks of lengths 4,3,2 need at least five merger layers](h9_feedback_round2_merge432.md).
 The [deletion-triangle and rank-endpoint proof](h9_feedback_round4_021637.md)
-raises coverage to **27 of 50 classes**. Its final finite tables use fourteen
-explicit real inputs, with no SAT premise.
+raises coverage to 27 classes. Its final finite tables use fourteen
+explicit real inputs, with no SAT premise. The
+[five-real demands and rank-pivot proof](h9_feedback_round5_021456.md)
+raises coverage to **28 of 50 classes**. Nine hand matching arguments
+reduce it to 47 prefixes, excluded by fifteen explicit real inputs.
 The companion [three-triple theorem](h9_feedback_round3_merge333.md)
 and [four-four-one theorem](../d18-search/d13_feedback_round3_merger441.md)
 prove the same merger lower bound for (3,3,3) and (4,4,1). Together they imply
@@ -59,16 +62,26 @@ versions give a hand obstruction after four blinded layers; forcing such
 a family remains open.
 The [case606 normalization and incident-row lemmas](../d18-search/d17_feedback_round2_normalization.md)
 add reductions valid at arbitrary even width, including the exceptional
-B-edge branch. The full case606 hand proof remains unfinished.
+B-edge branch. The [complete signed case606 family](../d18-search/d17_feedback_round7_reduction.md)
+now has a width-independent finite-assisted proof: hand normalization
+reduces the final noncritical branch to 86,370 configurations checked
+in seconds without SAT. The finite classifications remain explicit
+premises; a fully symbolic case606 proof is still unfinished.
 The [common-real padding transfer](../d18-search/d17_feedback_round2_normalization.md#6-padding-gives-seveneight-real-obstructions-without-h9)
 also gives seven/eight-real versions of both fourteen-wire obstructions.
-These add conditional D18 targets using hand H7/H8, with small checked
-SAT certificates still present as premises.
+These add conditional D18 targets using hand H7/H8. The case606 target
+now has the finite arithmetic proof above; the separate case608 target
+still uses its checked SAT certificate.
 For D18, [compression and four restriction prices](../d18-search/commuting-prefix-hand-proof.md)
 now exclude a specified five-layer prefix by hand, and
 [two further certificates](../d18-search/commuting-prefix-additional-proofs.md)
 exclude specified six-layer prefixes. These do not close complete
-two-layer cover cases. For D13, the [reduced wire-only certificate](../d18-search/d13_hand_next_wire_core.md)
+two-layer cover cases. The newer [partial-sixth-layer theorem](../d18-search/d18_rank_partner_round7_partial.md)
+excludes entire families of L6 matchings after three specified five-layer
+prefixes using rank witnesses alone. The [last-pairing projection](../d18-search/d13_feedback_round7_pairing.md)
+and [block-capacity criterion](../d18-search/fixed-ending-block-capacity.md)
+give further reusable rank-structure results at arbitrary width.
+For D13, the [reduced wire-only certificate](../d18-search/d13_hand_next_wire_core.md)
 sharpens the whole-case-116 structural target to ten wire intervals.
 
 **Result.** Every optimal-depth lower bound for $n\le10$ follows by hand from $D(3)\ge3$:

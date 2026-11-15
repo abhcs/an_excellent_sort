@@ -1,0 +1,29 @@
+{
+  "status": "COMPLETED_FEEDBACK",
+  "sat_used": false,
+  "scope": "Exploratory recursion; no independent certificate yet",
+  "batches": [
+    {
+      "deficit": 0,
+      "cases": 2352
+    },
+    {
+      "deficit": 1,
+      "cases": 344
+    }
+  ],
+  "stats": {
+    "nodes": 43148,
+    "branch_nodes": 2700,
+    "leaves": 40448,
+    "max_depth": 2,
+    "max_choice": 15
+  },
+  "histogram": {
+    "(0, 1, False)": 2348,
+    "(0, 2, False)": 4,
+    "(1, 1, False)": 344
+  },
+  "models": [],
+  "seconds": 1.3091
+}

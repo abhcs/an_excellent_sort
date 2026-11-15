@@ -1,0 +1,23 @@
+{
+  "status": "ROOT_REVIEWED",
+  "uses_sat": false,
+  "case": "02 14 56",
+  "hand_coverage": 28,
+  "total_h9_classes": 50,
+  "review_scope": [
+    "Two signed H7 restrictions and complete structural L3 reduction",
+    "Symmetry of untouched wires7,8",
+    "Five-real demand justification and all nine L4 matching arguments",
+    "Consecutive-rank-swap proof of interval attainability",
+    "Complete coverage of idle and eight pivot partners in47 forms",
+    "Fixed checker dependencies and endpoint replay"
+  ],
+  "finite_matching_scans_are_premises": false,
+  "fixed_explicit_endpoint_rows_are_premises": true,
+  "proof_sha256": "8315a0ca27c952a70fc9186d6e9bb93ec19abec16dccb9647c9d62bbc9ea83e5",
+  "certificate_sha256": "401ef85aadeb797511deaa7d0bf4e4c20a6ffde1c83553fa2ae65c577e14d722",
+  "tables_sha256": "60ef19acfc6531aadd07df4be0103bedb0b5258a5c1242e8534fd6fa8b310342",
+  "checker_sha256": "c33faddfdfe993d7d4032f8174acb667e55467d62546c2e23912b1cb42a5c60c",
+  "direct_real_order_runs": 223680,
+  "endpoint_exclusions": 423
+}

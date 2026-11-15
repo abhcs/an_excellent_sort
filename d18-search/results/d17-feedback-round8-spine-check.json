@@ -1,0 +1,14 @@
+{
+  "status": "VERIFIED",
+  "sat_used": false,
+  "table_rows": 9,
+  "required_states_each": 4,
+  "selected_unique_same_parity_signatures_each": 5,
+  "parity_counts": {
+    "1": 8,
+    "0": 1
+  },
+  "table_sha256": "63bc90cb1af60c96844c9677229470fc1dd3109503764b94e4d29fd0f5a67bb9",
+  "checker_sha256": "1332cc433aacb4d8f08353e723c3114fd20598b7bc7a3a4d34cf60999315125d",
+  "scope": "Corroborates the displayed nine-row hand table and residual-coordinate order; not86k enumeration"
+}

@@ -1,0 +1,8 @@
+{
+  "terminal": "TIMEOUT_KILLED",
+  "seconds": 30.01058412506245,
+  "wall_cap_seconds": 30,
+  "stdout": "{\"status\": \"BUILT\", \"n\": 18, \"depth\": 10, \"cut\": 8, \"cap\": 4, \"inputs\": 503, \"variables\": 27162, \"clauses\": 425380, \"parity_clauses\": 362, \"combined_clauses\": 0, \"route_clauses\": 14994, \"ending_normal_form\": false, \"source_sha256\": \"e71a0ca2247f8630ec5ff247a41f859e166294ba808f3d5e4b96e946f509af8c\", \"seed_sha256\": \"e41c58f4648726db7df28f04745965f03186e7b7b202389c512179d9568ca9de\", \"cnf_sha256\": \"47413d445d8a62fae8cd5d7ecb3a5288d90e145f6908b1dad4a8e51b79e0c822\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-route-round7-arbitrary-beam00\", \"scope\": \"All continuations of the fixed prefix; cut intervals route through common two-layer ending\", \"seconds\": 0.4711826249258593}\n",
+  "stderr": "",
+  "label": "arbitrary-beam00"
+}

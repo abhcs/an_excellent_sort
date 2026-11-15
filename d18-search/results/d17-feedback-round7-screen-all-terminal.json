@@ -1,0 +1,18 @@
+[
+  {
+    "phase": "d0",
+    "status": "COMPLETED",
+    "returncode": 0,
+    "seconds": 0.89,
+    "wall_limit_seconds": 30,
+    "process_terminal": true
+  },
+  {
+    "phase": "d1",
+    "status": "COMPLETED",
+    "returncode": 0,
+    "seconds": 1.5515,
+    "wall_limit_seconds": 30,
+    "process_terminal": true
+  }
+]

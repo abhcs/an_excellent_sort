@@ -1,0 +1,9 @@
+{
+  "terminal": "EXITED",
+  "returncode": 0,
+  "stdout": "{\"status\": \"BUILT\", \"n\": 18, \"depth\": 11, \"cut\": 9, \"cap\": 4, \"inputs\": 243, \"variables\": 10803, \"clauses\": 80003, \"parity_clauses\": 362, \"combined_clauses\": 0, \"route_clauses\": 14994, \"ending_normal_form\": false, \"source_sha256\": \"e71a0ca2247f8630ec5ff247a41f859e166294ba808f3d5e4b96e946f509af8c\", \"seed_sha256\": \"02bc84a1ba7714289eb2a61cbd03a34363f0fdc94a7f9fd6b4bd651dab624a94\", \"cnf_sha256\": \"bd555bda25943a8404168a2e0fa28368c706730898033a5ed630e9ed827b6afe\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-route-round7-arbitrary-control\", \"scope\": \"All continuations of the fixed prefix; cut intervals route through common two-layer ending\", \"seconds\": 0.2037257089978084}\n{\"status\": \"SURVIVOR\", \"seconds\": 0.20484870893415064}\n",
+  "stderr": "",
+  "seconds": 0.2700229160254821,
+  "wall_cap_seconds": 30,
+  "label": "arbitrary-control"
+}

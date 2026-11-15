@@ -1,0 +1,42 @@
+{
+  "status": "REVIEWED_SOUND",
+  "uses_sat": false,
+  "new_solver_calls": 0,
+  "scope": "Exact attainable interval endpoints from a complete fixed-prefix binary image propagated to the cut; full-three-rank sorting obstruction with precisely two layers remaining.",
+  "reviewed_claims": [
+    "For threshold k, a real value has rank below k exactly when its thresholded bit is zero. Thus lo(c)>=k iff all cut bits from complete k-zero inputs equal one; hi(c)<k iff all such bits equal zero.",
+    "Existing forward clauses L=>state and U=>not-state combined with the new reverse conjunction clauses define both endpoint predicates exactly.",
+    "Weights are preserved by the fixed prefix, so deduplicating its complete image retains every distinct symbolic continuation relevant to each threshold. Sampling or merely representing each weight would be insufficient.",
+    "Boundary values at k=0,n are already constants with the correct truth values. Only interior thresholds need converse clauses.",
+    "The full-triple clause negates all twelve literals defining three exact equalities lo=a and hi=a+2: each row contributes not L[a], L[a+1], not U[a+3], U[a+2].",
+    "Both synthesis call sites use the complete prefix_images result and simulate all free layers up to the cut before adding exact endpoints. The generic worker requires cap=4, hence precisely two remaining layers.",
+    "The hand theorem uses actual attainable sets and permutation conservation, then an isolated four-wire cone component and redundant fixed-extreme comparisons. No adjacent-last-layer or perfect-matching assumption enters this theorem."
+  ],
+  "clauses": {
+    "n13_reverse_thresholds": 312,
+    "n13_triples": 11,
+    "n18_reverse_thresholds": 612,
+    "n18_triples": 16
+  },
+  "recorded_finite_control": {
+    "status": "VERIFIED",
+    "uses_sat": false,
+    "prefixes": 127,
+    "real_order_runs": 5544,
+    "complete_binary_runs": 2448,
+    "endpoint_vectors_checked": 2930,
+    "triple_examples_rejected": 2,
+    "source_sha256": "0923bcb5a4358ecce170519b50924bfdc90b21993ff8954581f11dc15a241bfe",
+    "checker_sha256": "c3d2b284f24cb24e6f63d753fc958b41ed8721183d0add517bda8107ef33bdb0"
+  },
+  "control_review": "Checker compares exact supports from all real orders with complete binary threshold runs, tests every alternative interval on each wire, and directly checks the twelve-literal forbidden-triple condition. Row-separability makes the one-wire variations sufficient for endpoint uniqueness on those fixed networks.",
+  "substantive_issues": [],
+  "optional_sat_replay_improvement": "On any future SAT survivor, compare assigned endpoint predicates with the recomputed exact endpoints and directly assert absence of a full triple. Current survivor replay verifies capacity, but this omission does not affect UNSAT soundness.",
+  "reviewed_sha256": {
+    "exact_rank_triples.py": "0923bcb5a4358ecce170519b50924bfdc90b21993ff8954581f11dc15a241bfe",
+    "exact_rank_triples_verify.py": "c3d2b284f24cb24e6f63d753fc958b41ed8721183d0add517bda8107ef33bdb0",
+    "d13_rank_triples_round8.py": "db939a67e5382c534c0acee7797201263b799e2190d5098c1723d480ab74baa5",
+    "prefix_rank_triples_round8.py": "b0c0ceb0689aeebc968338c682e2a855bd419ac5dc6b62714eefff40976c348f",
+    "d13_feedback_round8_triples.md": "536e1585295d27eaeb586dd5abd95cb9cea418d05e00212291387a831327e8c0"
+  }
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "terminal": "EXITED",
+    "returncode": 0,
+    "stdout": "{\"status\": \"BUILT\", \"n\": 18, \"depth\": 11, \"cut\": 9, \"cap\": 4, \"inputs\": 243, \"variables\": 5771, \"clauses\": 62877, \"parity_clauses\": 362, \"middle_pair_clauses\": 52, \"bridge_clauses\": 400, \"combined_clauses\": 0, \"source_sha256\": \"ba51f91e5ee80bacac8d94eb3ecf383c21d049678ec1a2747147191845181f45\", \"seed_sha256\": \"02bc84a1ba7714289eb2a61cbd03a34363f0fdc94a7f9fd6b4bd651dab624a94\", \"cnf_sha256\": \"0b0c4be6bc3126fb297cfcfcb74261052ef4de1c7af7e5de0828a015bca84a44\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-bridge-round7-control\", \"scope\": \"All continuations of the fixed prefix; cut widths, parity, shared-middle-pair capacity, separated-window bridge, optionally earlier conditions\", \"seconds\": 0.19972312496975064}\n{\"status\": \"SURVIVOR\", \"seconds\": 0.2006087499903515}\n",
+    "stderr": "",
+    "seconds": 0.2668525840854272,
+    "wall_cap_seconds": 30,
+    "label": "control",
+    "result_status": "SURVIVOR"
+  },
+  {
+    "terminal": "TIMEOUT_KILLED",
+    "seconds": 30.008566041011363,
+    "wall_cap_seconds": 30,
+    "stdout": "{\"status\": \"BUILT\", \"n\": 18, \"depth\": 10, \"cut\": 8, \"cap\": 4, \"inputs\": 503, \"variables\": 22130, \"clauses\": 408390, \"parity_clauses\": 362, \"middle_pair_clauses\": 52, \"bridge_clauses\": 400, \"combined_clauses\": 0, \"source_sha256\": \"ba51f91e5ee80bacac8d94eb3ecf383c21d049678ec1a2747147191845181f45\", \"seed_sha256\": \"e41c58f4648726db7df28f04745965f03186e7b7b202389c512179d9568ca9de\", \"cnf_sha256\": \"808d876ec0701c7fd8f68ec098985a69e15fed533e752e3d9863e9f8443febf9\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-bridge-round7-beam00\", \"scope\": \"All continuations of the fixed prefix; cut widths, parity, shared-middle-pair capacity, separated-window bridge, optionally earlier conditions\", \"seconds\": 0.4653050829656422}\n",
+    "stderr": "",
+    "label": "beam00"
+  },
+  {
+    "terminal": "TIMEOUT_KILLED",
+    "seconds": 30.01010033302009,
+    "wall_cap_seconds": 30,
+    "stdout": "{\"status\": \"BUILT\", \"n\": 18, \"depth\": 10, \"cut\": 8, \"cap\": 4, \"inputs\": 520, \"variables\": 22986, \"clauses\": 426584, \"parity_clauses\": 362, \"middle_pair_clauses\": 52, \"bridge_clauses\": 400, \"combined_clauses\": 0, \"source_sha256\": \"ba51f91e5ee80bacac8d94eb3ecf383c21d049678ec1a2747147191845181f45\", \"seed_sha256\": \"4277d3a6488696235bd796da775524ba1a436ef8d6247f1ea97e9567288782d8\", \"cnf_sha256\": \"a22c27991e358e35b2905659199881170829821ea9388aab55cb317b901b31e9\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-bridge-round7-beam16\", \"scope\": \"All continuations of the fixed prefix; cut widths, parity, shared-middle-pair capacity, separated-window bridge, optionally earlier conditions\", \"seconds\": 0.4813336660154164}\n",
+    "stderr": "",
+    "label": "beam16"
+  }
+]

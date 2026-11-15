@@ -1,0 +1,12 @@
+{
+  "status": "VERIFIED",
+  "uses_sat": false,
+  "interval_families_by_width": {
+    "4": 5760,
+    "6": 7600
+  },
+  "four_wire_exhaustive": true,
+  "six_wire_samples_per_last_matching": 100,
+  "proof_sha256": "656c8cbc7f59e8f689ac7b38028873c17aa50c1e144c2e1db654806c08ed4c68",
+  "source_sha256": "23c126ed286a2e497a648d91dd50cf22cc2f498cb06a804801ee046d9f03dae9"
+}

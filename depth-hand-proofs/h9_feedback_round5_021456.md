@@ -1,9 +1,10 @@
 # The H9 case `02 14 56`
 
-This note is a proof draft for the second layer `02 14 56`, after
-`L1=01 23 45`. The third-layer reduction below is complete. The
-fourth-layer matching arguments and fixed rank tables are being packaged;
-no additional coverage claim is made until their independent audit passes.
+No seven-layer nine-wire sorter begins with `L1=01 23 45` and
+`L2=02 14 56`. This hand proof uses the explicit signed restrictions,
+matching arguments, and rank witnesses below. Its fixed certificates
+pass the independent audit in Section4. Aggregate coverage is updated
+separately after independent review.
 
 Write M=L3, N=L4 and Q=L5. The notation `+i` or `-i` means a positive
 or negative infinity at original input i. RR gates compare two retained
@@ -342,5 +343,53 @@ counts6,1,18,1,16,4,1. Cases7 and9 are already contradicted.
 ## 3. Rank endpoints
 
 All47 fourth-layer forms retained by the five-real demands alone have
-a mandatory Q pivot with no possible partner. A shared finite input
-bank and the independent readback checker are being assembled.
+a mandatory Q pivot with no possible partner. The appendix labels each
+form, names its pivot, and gives explicit witnesses excluding the idle
+choice and each of its eight possible partners. The same fifteen input
+permutations are shared by all47 forms.
+
+Here is the rank argument in full. At any fixed wire of a comparator
+prefix, the attainable ranks over all input permutations form an integer
+interval. Swapping consecutive rank values connects all input permutations.
+For one such swap of k and k+1, identify those two values. The monotone
+identification commutes with minimum and maximum, so every output either
+stays fixed or changes between k and k+1. Along a path of these swaps,
+the value at the fixed wire changes by at most one. It therefore attains
+every rank between any two witnessed endpoint ranks.
+
+A wire after Q has only two layers left. Its value can reach at most
+four final output positions, and each attainable rank requires its own
+final position. Thus two witnessed ranks with difference at least four
+at that wire are impossible: the interval contains at least five ranks.
+
+For an idle pivot, the appendix evaluates its value after L4. For a
+proposed partner v, it evaluates either the minimum or maximum of the
+pivot and v after L4. These are the two physical outputs of that Q
+comparison. All other Q gates are disjoint, so none can affect the
+displayed output. Every endpoint row has a rank gap of at least four.
+The rows include comparisons repeated from earlier layers, and make no
+assumption that Q is a maximal matching.
+
+For each of the47 forms, every way to handle its pivot is consequently
+excluded. Together with the direct contradictions in Cases7 and9,
+this completes the `02 14 56` class. □
+
+## 4. Fixed certificates and verification
+
+The [solver-free checker](verify/h9_feedback_round5_proof.py) reads back
+the [printed tables](h9_feedback_round5_tables.md) and checks all423
+endpoint exclusions by running the fifteen displayed permutations
+through each of the47 fixed prefixes:705 prefix evaluations in total.
+It checks the moving-track restrictions on223,680 real orderings,
+audits94 residual edge clauses used in the matching arguments, and
+corroborates the derived third- and fourth-layer families. Its only
+code dependency is the already-reviewed moving-track and replay helper
+from the previous H9 checker; it imports no solver or discovery module.
+
+The finite matching scans corroborate the structural classifications
+proved above. Their absence of further survivors is not a proof premise.
+The [audit record](results/h9-feedback-round5-proof.json) includes the
+source, trace-helper, certificate, appendix, and proof hashes. The
+separate probe, reduction, fourth-layer, and price-search files are
+discovery material; no SAT answer is used in this proof. This closes
+one H9 class, not all remaining classes or the full D(11) hand-proof goal.

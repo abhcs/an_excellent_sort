@@ -1,0 +1,63 @@
+{
+  "status": "CURRENT_RESEARCH_SCOPE",
+  "h9_reviewed_hand_classes": 28,
+  "h9_classes": 50,
+  "D13": {
+    "complete_cover_exclusions": 9,
+    "total": 117,
+    "cases": [
+      0,
+      1,
+      2,
+      57,
+      58,
+      113,
+      114,
+      115,
+      116
+    ]
+  },
+  "D17": {
+    "complete_cover_exclusions": 3,
+    "total": 609,
+    "cases": [
+      606,
+      607,
+      608
+    ],
+    "case606_signed_family": "Finite-assisted width-independent obstruction, independently reviewed; not a global D17 proof"
+  },
+  "D18": {
+    "complete_cover_exclusions": 0,
+    "total": 411,
+    "lower_bound_11_resolved": false,
+    "partial_sixth_layer_families": {
+      "beam00": 140152,
+      "beam16": 9496,
+      "beam32_union": 142
+    }
+  },
+  "reviewed_artifacts": {
+    "d17_round7": {
+      "path": "d18-search/results/d17-hand-round7-review.json",
+      "sha256": "ebe6db3876cf7ab382c653078b0028d1b1857287b3e3e92792c6081239439a4b"
+    },
+    "h9_round5": {
+      "path": "depth-hand-proofs/results/h9-feedback-round5-root-review.json",
+      "sha256": "8ea6f2c60129198887def5ff4ea42804be796678eae4ba5eba1e2464dd5d0256"
+    },
+    "d18_partial_L6": {
+      "path": "d18-search/results/d18-rank-partner-round7-partial-proof.json",
+      "sha256": "3f5a13c2b60091026efe6b8d396f8b8e5a818ef21526ec2711f6c0b599b28726"
+    },
+    "rank_lemmas": {
+      "path": "d18-search/results/rank-structure-round7-root-review.json",
+      "sha256": "89004c28c7b3a886f74186a93685cf66063f9963df59491b30555971c76342f9"
+    },
+    "ending_capacity": {
+      "path": "d18-search/results/d13_feedback_round7-capacity-review.json",
+      "sha256": "3d61f0c120c9d17fdcabe3293a8ce55d1f1492cf9b855b8fc369e53942653306"
+    }
+  },
+  "all_root_solver_jobs_terminal": true
+}

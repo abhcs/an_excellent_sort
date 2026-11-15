@@ -1,0 +1,21 @@
+{
+  "status": "VERIFIED",
+  "uses_sat": false,
+  "interval_vectors": {
+    "4": 576,
+    "6": 5000
+  },
+  "max_dp_states": {
+    "4": 7,
+    "6": 17
+  },
+  "four_wire_exhaustive": true,
+  "six_wire_sample_count": 5000,
+  "middle_pair_and_bridge_rejected": true,
+  "known_eighteen_wire_control_passed": true,
+  "large_control_n": 10000,
+  "large_control_states": 39991,
+  "control_sha256": "4cb93c50caaab782f96daba40d53bf226630929afefe13b0aa313f15284b11d9",
+  "algorithm_sha256": "f18f43489e46c9355e9738398d3fc4fdfa3070a4ae502db3d204250864e5d011",
+  "checker_sha256": "0f5deeb45eea4dffd1e8831a365e1e43bc9fcb571aaa06fc7b93e412fbfa9ecf"
+}

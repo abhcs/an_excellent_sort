@@ -1,0 +1,54 @@
+[
+  {
+    "terminal": "EXITED",
+    "returncode": 0,
+    "stdout": "{\"status\": \"BUILT\", \"n\": 18, \"depth\": 11, \"cut\": 9, \"cap\": 4, \"inputs\": 243, \"variables\": 10803, \"clauses\": 80003, \"parity_clauses\": 362, \"combined_clauses\": 0, \"route_clauses\": 14994, \"ending_normal_form\": false, \"source_sha256\": \"e71a0ca2247f8630ec5ff247a41f859e166294ba808f3d5e4b96e946f509af8c\", \"seed_sha256\": \"02bc84a1ba7714289eb2a61cbd03a34363f0fdc94a7f9fd6b4bd651dab624a94\", \"cnf_sha256\": \"bd555bda25943a8404168a2e0fa28368c706730898033a5ed630e9ed827b6afe\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-route-round7-arbitrary-control\", \"scope\": \"All continuations of the fixed prefix; cut intervals route through common two-layer ending\", \"seconds\": 0.2037257089978084}\n{\"status\": \"SURVIVOR\", \"seconds\": 0.20484870893415064}\n",
+    "stderr": "",
+    "seconds": 0.2700229160254821,
+    "wall_cap_seconds": 30,
+    "label": "arbitrary-control",
+    "result_status": "SURVIVOR"
+  },
+  {
+    "terminal": "EXITED",
+    "returncode": 0,
+    "stdout": "{\"status\": \"BUILT\", \"n\": 18, \"depth\": 11, \"cut\": 9, \"cap\": 4, \"inputs\": 243, \"variables\": 5818, \"clauses\": 60898, \"parity_clauses\": 362, \"combined_clauses\": 0, \"route_clauses\": 762, \"ending_normal_form\": true, \"source_sha256\": \"e71a0ca2247f8630ec5ff247a41f859e166294ba808f3d5e4b96e946f509af8c\", \"seed_sha256\": \"02bc84a1ba7714289eb2a61cbd03a34363f0fdc94a7f9fd6b4bd651dab624a94\", \"cnf_sha256\": \"0e921adca8e6c37bb0bc307ee5103c62e785255630bb9be00f3a3f8e905fcfe7\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-route-round7-normal-control\", \"scope\": \"All continuations of the fixed prefix; cut intervals route through common two-layer ending\", \"seconds\": 0.1899861249839887}\n{\"status\": \"SURVIVOR\", \"seconds\": 0.1907251669326797}\n",
+    "stderr": "",
+    "seconds": 0.24941370903979987,
+    "wall_cap_seconds": 30,
+    "label": "normal-control",
+    "result_status": "SURVIVOR"
+  },
+  {
+    "terminal": "TIMEOUT_KILLED",
+    "seconds": 30.01058412506245,
+    "wall_cap_seconds": 30,
+    "stdout": "{\"status\": \"BUILT\", \"n\": 18, \"depth\": 10, \"cut\": 8, \"cap\": 4, \"inputs\": 503, \"variables\": 27162, \"clauses\": 425380, \"parity_clauses\": 362, \"combined_clauses\": 0, \"route_clauses\": 14994, \"ending_normal_form\": false, \"source_sha256\": \"e71a0ca2247f8630ec5ff247a41f859e166294ba808f3d5e4b96e946f509af8c\", \"seed_sha256\": \"e41c58f4648726db7df28f04745965f03186e7b7b202389c512179d9568ca9de\", \"cnf_sha256\": \"47413d445d8a62fae8cd5d7ecb3a5288d90e145f6908b1dad4a8e51b79e0c822\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-route-round7-arbitrary-beam00\", \"scope\": \"All continuations of the fixed prefix; cut intervals route through common two-layer ending\", \"seconds\": 0.4711826249258593}\n",
+    "stderr": "",
+    "label": "arbitrary-beam00"
+  },
+  {
+    "terminal": "TIMEOUT_KILLED",
+    "seconds": 30.008911041077226,
+    "wall_cap_seconds": 30,
+    "stdout": "{\"status\": \"BUILT\", \"n\": 18, \"depth\": 10, \"cut\": 8, \"cap\": 4, \"inputs\": 520, \"variables\": 28018, \"clauses\": 443574, \"parity_clauses\": 362, \"combined_clauses\": 0, \"route_clauses\": 14994, \"ending_normal_form\": false, \"source_sha256\": \"e71a0ca2247f8630ec5ff247a41f859e166294ba808f3d5e4b96e946f509af8c\", \"seed_sha256\": \"4277d3a6488696235bd796da775524ba1a436ef8d6247f1ea97e9567288782d8\", \"cnf_sha256\": \"f9c27904af599335e94774e44ff5c973df62b6eeb8244b6b64e687f2acad5d40\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-route-round7-arbitrary-beam16\", \"scope\": \"All continuations of the fixed prefix; cut intervals route through common two-layer ending\", \"seconds\": 0.49079287494532764}\n",
+    "stderr": "",
+    "label": "arbitrary-beam16"
+  },
+  {
+    "terminal": "TIMEOUT_KILLED",
+    "seconds": 30.012871791026555,
+    "wall_cap_seconds": 30,
+    "stdout": "{\"status\": \"BUILT\", \"n\": 18, \"depth\": 10, \"cut\": 8, \"cap\": 4, \"inputs\": 503, \"variables\": 22177, \"clauses\": 406516, \"parity_clauses\": 362, \"combined_clauses\": 0, \"route_clauses\": 762, \"ending_normal_form\": true, \"source_sha256\": \"e71a0ca2247f8630ec5ff247a41f859e166294ba808f3d5e4b96e946f509af8c\", \"seed_sha256\": \"e41c58f4648726db7df28f04745965f03186e7b7b202389c512179d9568ca9de\", \"cnf_sha256\": \"0bf07b7f12d03e4b45910ddb784930cc407eb22e4db8ccecda96280e5137f8db\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-route-round7-normal-beam00\", \"scope\": \"All continuations of the fixed prefix; cut intervals route through common two-layer ending\", \"seconds\": 0.48039204196538776}\n",
+    "stderr": "",
+    "label": "normal-beam00"
+  },
+  {
+    "terminal": "TIMEOUT_KILLED",
+    "seconds": 30.013508458971046,
+    "wall_cap_seconds": 30,
+    "stdout": "{\"status\": \"BUILT\", \"n\": 18, \"depth\": 10, \"cut\": 8, \"cap\": 4, \"inputs\": 520, \"variables\": 23033, \"clauses\": 424710, \"parity_clauses\": 362, \"combined_clauses\": 0, \"route_clauses\": 762, \"ending_normal_form\": true, \"source_sha256\": \"e71a0ca2247f8630ec5ff247a41f859e166294ba808f3d5e4b96e946f509af8c\", \"seed_sha256\": \"4277d3a6488696235bd796da775524ba1a436ef8d6247f1ea97e9567288782d8\", \"cnf_sha256\": \"4b8c289ca6a69e03890e0b59f5f1aca76ab88f5daf3f7702a30f0504736979ef\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-route-round7-normal-beam16\", \"scope\": \"All continuations of the fixed prefix; cut intervals route through common two-layer ending\", \"seconds\": 0.4927372500533238}\n",
+    "stderr": "",
+    "label": "normal-beam16"
+  }
+]

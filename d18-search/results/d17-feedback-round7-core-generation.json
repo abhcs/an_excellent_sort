@@ -1,0 +1,30 @@
+{
+  "status": "CERTIFICATE_GENERATED",
+  "sat_used": false,
+  "case_counts": {
+    "(0, 12)": 9450,
+    "(0, 14)": 20265,
+    "(0, 16)": 630,
+    "(1, 12)": 20265,
+    "(1, 14)": 35040,
+    "(1, 16)": 720
+  },
+  "total_cases": 86370,
+  "full_row_cases": 83642,
+  "partial_row_cases": 2728,
+  "stats": {
+    "nodes": 127302,
+    "max_depth": 2,
+    "conflicting_cores": 71098,
+    "capacity_leaves": 53472,
+    "forced_edges": 2648,
+    "branch_nodes": 2732
+  },
+  "uncompressed_bytes": 4807564,
+  "compressed_bytes": 529460,
+  "certificate_sha256": "15af56696fc7dfb93aa70d287601e4fd819784d016e3af2699868681f0af558b",
+  "input_sha256": "168d10b515cdc3552264089fa1b5eeaefd8ed635dc1630e5d53973abe44f6372",
+  "source_sha256": "fd932baaa94fab8e20e6b2d59cc832d1d4d848f9d03d2c21a270c1244b3bc2c9",
+  "seconds": 4.1047,
+  "finite_verification_is_a_premise": true
+}

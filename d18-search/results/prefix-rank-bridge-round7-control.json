@@ -1,0 +1,463 @@
+{
+  "status": "SURVIVOR",
+  "n": 18,
+  "depth": 11,
+  "cut": 9,
+  "cap": 4,
+  "prefix": [
+    [
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        7,
+        16
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        11,
+        17
+      ],
+      [
+        12,
+        14
+      ]
+    ],
+    [
+      [
+        0,
+        12
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        5,
+        17
+      ],
+      [
+        6,
+        14
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        13,
+        16
+      ]
+    ],
+    [
+      [
+        1,
+        13
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        4,
+        16
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        10,
+        15
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        5,
+        13
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        16,
+        17
+      ]
+    ],
+    [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        11
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        16
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        15,
+        17
+      ]
+    ],
+    [
+      [
+        1,
+        8
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        13
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        11,
+        12
+      ]
+    ]
+  ],
+  "inputs": 243,
+  "variables": 5771,
+  "clauses": 62877,
+  "parity_clauses": 362,
+  "middle_pair_clauses": 52,
+  "bridge_clauses": 400,
+  "combined_clauses": 0,
+  "source_sha256": "ba51f91e5ee80bacac8d94eb3ecf383c21d049678ec1a2747147191845181f45",
+  "seed_sha256": "02bc84a1ba7714289eb2a61cbd03a34363f0fdc94a7f9fd6b4bd651dab624a94",
+  "cnf_sha256": "0b0c4be6bc3126fb297cfcfcb74261052ef4de1c7af7e5de0828a015bca84a44",
+  "certificate_directory": "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-bridge-round7-control",
+  "scope": "All continuations of the fixed prefix; cut widths, parity, shared-middle-pair capacity, separated-window bridge, optionally earlier conditions",
+  "dependencies_sha256": {
+    "netsat.py": "960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3",
+    "endpoint_cegar.py": "22768b03673525e930c722acde18c6d4c77049a0e1e6f16615801908b1e39aa1",
+    "interval_frontier.py": "93548c783322ba9754b407aaaf1cb29f649d6c8aa206ead5f1911b7454a1e6ab",
+    "probe_frontier.py": "e07f9183616412db41b7093fbb86efe8a13acf00d413b88084454b73ccdbeef0",
+    "prefix_drat.py": "1f85103a6efe10e02907d7fac977a88c149f1d6d2e189179a4636431db32773c"
+  },
+  "seconds": 0.2006087499903515,
+  "free_layers": [
+    [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        10,
+        13
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        14,
+        16
+      ]
+    ],
+    [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    [
+      [
+        2,
+        3
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        14,
+        15
+      ]
+    ]
+  ],
+  "intervals": [
+    {
+      "wire": 0,
+      "lo": 0,
+      "hi": 0,
+      "width": 1,
+      "zero_witness": 262142,
+      "one_witness": 262143
+    },
+    {
+      "wire": 1,
+      "lo": 1,
+      "hi": 1,
+      "width": 1,
+      "zero_witness": 262110,
+      "one_witness": 262142
+    },
+    {
+      "wire": 2,
+      "lo": 2,
+      "hi": 2,
+      "width": 1,
+      "zero_witness": 262102,
+      "one_witness": 262110
+    },
+    {
+      "wire": 3,
+      "lo": 3,
+      "hi": 5,
+      "width": 3,
+      "zero_witness": 262098,
+      "one_witness": 261914
+    },
+    {
+      "wire": 4,
+      "lo": 3,
+      "hi": 5,
+      "width": 3,
+      "zero_witness": 261876,
+      "one_witness": 262096
+    },
+    {
+      "wire": 5,
+      "lo": 4,
+      "hi": 7,
+      "width": 4,
+      "zero_witness": 262096,
+      "one_witness": 259808
+    },
+    {
+      "wire": 6,
+      "lo": 4,
+      "hi": 7,
+      "width": 4,
+      "zero_witness": 261914,
+      "one_witness": 253776
+    },
+    {
+      "wire": 7,
+      "lo": 6,
+      "hi": 9,
+      "width": 4,
+      "zero_witness": 259808,
+      "one_witness": 252736
+    },
+    {
+      "wire": 8,
+      "lo": 6,
+      "hi": 9,
+      "width": 4,
+      "zero_witness": 253776,
+      "one_witness": 245504
+    },
+    {
+      "wire": 9,
+      "lo": 8,
+      "hi": 11,
+      "width": 4,
+      "zero_witness": 245504,
+      "one_witness": 250896
+    },
+    {
+      "wire": 10,
+      "lo": 8,
+      "hi": 11,
+      "width": 4,
+      "zero_witness": 252736,
+      "one_witness": 195584
+    },
+    {
+      "wire": 11,
+      "lo": 10,
+      "hi": 13,
+      "width": 4,
+      "zero_witness": 250896,
+      "one_witness": 171008
+    },
+    {
+      "wire": 12,
+      "lo": 10,
+      "hi": 13,
+      "width": 4,
+      "zero_witness": 195584,
+      "one_witness": 249856
+    },
+    {
+      "wire": 13,
+      "lo": 12,
+      "hi": 14,
+      "width": 3,
+      "zero_witness": 249856,
+      "one_witness": 152576
+    },
+    {
+      "wire": 14,
+      "lo": 12,
+      "hi": 14,
+      "width": 3,
+      "zero_witness": 171008,
+      "one_witness": 184320
+    },
+    {
+      "wire": 15,
+      "lo": 15,
+      "hi": 15,
+      "width": 1,
+      "zero_witness": 135168,
+      "one_witness": 151552
+    },
+    {
+      "wire": 16,
+      "lo": 16,
+      "hi": 16,
+      "width": 1,
+      "zero_witness": 131072,
+      "one_witness": 135168
+    },
+    {
+      "wire": 17,
+      "lo": 17,
+      "hi": 17,
+      "width": 1,
+      "zero_witness": 0,
+      "one_witness": 131072
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "scope": "Saved interval vectors only; no complete-prefix exclusion inferred without reconstructing source evidence",
+  "records": [
+    {
+      "source": "d18-search/results/endpoint-cegar13-d9-positive.json",
+      "n": 13,
+      "status": "ROUTABLE",
+      "states": 8,
+      "source_status": "SURVIVOR",
+      "source_cut": 7,
+      "source_depth": 9
+    },
+    {
+      "source": "d18-search/results/interval-frontier13-d9-positive.json",
+      "n": 13,
+      "status": "ROUTABLE",
+      "states": 8,
+      "source_status": "SURVIVOR",
+      "source_cut": 7,
+      "source_depth": 9
+    },
+    {
+      "source": "d18-search/results/prefix-rank-bridge-round7-control.json",
+      "n": 18,
+      "status": "ROUTABLE",
+      "states": 27,
+      "source_status": "SURVIVOR",
+      "source_cut": 9,
+      "source_depth": 11
+    },
+    {
+      "source": "d18-search/results/prefix-rank-middle-round6-control.json",
+      "n": 18,
+      "status": "ROUTABLE",
+      "states": 27,
+      "source_status": "SURVIVOR",
+      "source_cut": 9,
+      "source_depth": 11
+    },
+    {
+      "source": "d18-search/results/prefix-rank-projection-round7-control.json",
+      "n": 18,
+      "status": "ROUTABLE",
+      "states": 27,
+      "source_status": "SURVIVOR",
+      "source_cut": 9,
+      "source_depth": 11
+    },
+    {
+      "source": "d18-search/results/prefix-rank-round6-control-p6-c9.json",
+      "n": 18,
+      "status": "ROUTABLE",
+      "states": 27,
+      "source_status": "SURVIVOR",
+      "source_cut": 9,
+      "source_depth": 11
+    },
+    {
+      "source": "d18-search/results/prefix-rank-route-round7-arbitrary-control.json",
+      "n": 18,
+      "status": "ROUTABLE",
+      "states": 27,
+      "source_status": "SURVIVOR",
+      "source_cut": 9,
+      "source_depth": 11
+    },
+    {
+      "source": "d18-search/results/prefix-rank-route-round7-normal-control.json",
+      "n": 18,
+      "status": "ROUTABLE",
+      "states": 27,
+      "source_status": "SURVIVOR",
+      "source_cut": 9,
+      "source_depth": 11
+    }
+  ],
+  "counts": {
+    "ROUTABLE": 8
+  }
+}

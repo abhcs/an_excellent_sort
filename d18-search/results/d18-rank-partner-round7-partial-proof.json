@@ -1,0 +1,74 @@
+{
+  "status": "VERIFIED",
+  "sat_used": false,
+  "full_layer_enumeration": false,
+  "families": [
+    {
+      "name": "beam00",
+      "free_wires": 12,
+      "local_activities": 149,
+      "remaining_supports": {
+        "12": []
+      },
+      "labelled_layer_completions": 140152
+    },
+    {
+      "name": "beam16",
+      "free_wires": 10,
+      "local_activities": 107,
+      "remaining_supports": {
+        "6": []
+      },
+      "labelled_layer_completions": 9496
+    },
+    {
+      "name": "beam32a",
+      "free_wires": 6,
+      "local_activities": 94,
+      "remaining_supports": {
+        "5": [
+          2,
+          8
+        ],
+        "12": [
+          8
+        ]
+      },
+      "labelled_layer_completions": 76
+    },
+    {
+      "name": "beam32b",
+      "free_wires": 6,
+      "local_activities": 94,
+      "remaining_supports": {
+        "5": [
+          2,
+          8
+        ],
+        "12": [
+          8
+        ]
+      },
+      "labelled_layer_completions": 76
+    }
+  ],
+  "bank_entries": 69,
+  "distinct_input_permutations": 59,
+  "local_activities": 444,
+  "width_exclusions": 436,
+  "self_parity_exclusions": 2,
+  "forced_pair_parity_contradictions": 2,
+  "direct_endpoint_and_support_runs": 1104,
+  "beam32_union_labelled_completions": 142,
+  "positive_controls": {
+    "sorters": 1,
+    "partial_layers": 3,
+    "bank_inputs": 24,
+    "support_checks": 8
+  },
+  "source_certificate_sha256": "3d662a0b4ee885426c51ae7109cb5fc57f9818f4d9e684e1dc0612afaf8ff787",
+  "certificate_sha256": "94a6dbb89c8e5cbad19371132777d2b04df4d3b73b1498155110327341651f54",
+  "tables_sha256": "4996835b724bb63357091a6f3a28f5a29382be6751aec93a716eb6e780f02719",
+  "theorem_sha256": "9050c14b01a6a673e9894c6352b8490540503c990e7a437a8501d5798ccc0fa4",
+  "checker_sha256": "6f71917095c0bcf53131943e205d44bfa9d44672cf2f338c633b81f8145481ff"
+}

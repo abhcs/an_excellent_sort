@@ -1,0 +1,8 @@
+{
+  "terminal": "TIMEOUT_KILLED",
+  "seconds": 30.012871791026555,
+  "wall_cap_seconds": 30,
+  "stdout": "{\"status\": \"BUILT\", \"n\": 18, \"depth\": 10, \"cut\": 8, \"cap\": 4, \"inputs\": 503, \"variables\": 22177, \"clauses\": 406516, \"parity_clauses\": 362, \"combined_clauses\": 0, \"route_clauses\": 762, \"ending_normal_form\": true, \"source_sha256\": \"e71a0ca2247f8630ec5ff247a41f859e166294ba808f3d5e4b96e946f509af8c\", \"seed_sha256\": \"e41c58f4648726db7df28f04745965f03186e7b7b202389c512179d9568ca9de\", \"cnf_sha256\": \"0bf07b7f12d03e4b45910ddb784930cc407eb22e4db8ccecda96280e5137f8db\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-route-round7-normal-beam00\", \"scope\": \"All continuations of the fixed prefix; cut intervals route through common two-layer ending\", \"seconds\": 0.48039204196538776}\n",
+  "stderr": "",
+  "label": "normal-beam00"
+}

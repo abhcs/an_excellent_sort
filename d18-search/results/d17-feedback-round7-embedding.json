@@ -1,0 +1,112 @@
+{
+  "status": "VERIFIED",
+  "sat_used": false,
+  "cover_cases": 609,
+  "classification": {
+    "TOO_FEW_DISTINCT_STATES": 606,
+    "EXACT_EMBEDDING": 1,
+    "WRONG_VARIABLE_COUNT": 1,
+    "WRONG_SIGN_COUNT_MULTISET": 1
+  },
+  "cases_with_twenty_states": [
+    {
+      "case_id": "n17-r0606",
+      "states": 20,
+      "variable_coordinates": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "result": "EXACT_EMBEDDING",
+      "base12_to_original": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "common_reals": [
+        1,
+        2
+      ],
+      "fixed_sentinels": {
+        "0": -1,
+        "3": -1,
+        "9": -1
+      }
+    },
+    {
+      "case_id": "n17-r0607",
+      "states": 20,
+      "variable_coordinates": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        15,
+        16
+      ],
+      "result": "WRONG_VARIABLE_COUNT"
+    },
+    {
+      "case_id": "n17-r0608",
+      "states": 20,
+      "variable_coordinates": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "result": "WRONG_SIGN_COUNT_MULTISET",
+      "variable_sign_counts": {
+        "(1, 4)": 2,
+        "(2, 3)": 6,
+        "(3, 2)": 7,
+        "(4, 1)": 4,
+        "(5, 0)": 1
+      }
+    }
+  ],
+  "reference_sign_counts": {
+    "(0, 5)": 1,
+    "(1, 4)": 3,
+    "(2, 3)": 5,
+    "(3, 2)": 6,
+    "(4, 1)": 4,
+    "(5, 0)": 1
+  },
+  "scope": "Direct embedding of this exact signed20-state family, with only fixed/common coordinates outside",
+  "additional_D17_cover_cases_closed": 0,
+  "seconds": 0.0899,
+  "input_sha256": "168d10b515cdc3552264089fa1b5eeaefd8ed635dc1630e5d53973abe44f6372",
+  "cover_sha256": "711b620bb298deee98e5520595cfb341a13cf3600f4297dd35f3b38cb11d2100",
+  "source_sha256": "ee1c63cdcb3aae8df5b457e384586077880b0535ccfa02fa33ddce6b8dc1f444"
+}

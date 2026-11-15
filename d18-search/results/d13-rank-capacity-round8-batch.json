@@ -1,0 +1,83 @@
+[
+  {
+    "terminal": "EXITED",
+    "returncode": 0,
+    "stdout": "{\"case_id\": \"n13-r0003\", \"depth\": 8, \"cut\": 6, \"mode\": \"wire\", \"inputs\": 504, \"wires\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], \"ranks\": [], \"variables\": 15535, \"clauses\": 209497, \"original_window_cost\": 26868, \"window_cost\": 15986, \"scope\": \"All four-layer continuations of this complete-cover prefix; cut6 intervals and exact adjacent-ending rank-set reachability\", \"parity_clauses\": 0, \"block_capacity\": {\"clauses\": 498, \"by_kind\": {\"right_extent\": 59, \"left_capacity\": 88, \"one_direction\": 31, \"right_capacity\": 88, \"incoming_capacity\": 173, \"left_extent\": 59}, \"added_variables\": 0}, \"source_sha256\": \"9c6f47df2ddb5c70ccde74bfc2a91ed9554c831011f1513476315827cb600fca\", \"cover_sha256\": \"2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406\", \"status\": \"BUILT\", \"independently_proof_checked\": false, \"build_seconds\": 0.1874606660567224}\nUNSAT 6.8412518330151215\n",
+    "stderr": "",
+    "seconds": 6.904798834002577,
+    "wall_cap_seconds": 30,
+    "case": 3,
+    "command": [
+      "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/d13_rank_capacity_round8.py",
+      "--case",
+      "3",
+      "--out",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/d13-rank-capacity-round8-r0003.json",
+      "--proof"
+    ],
+    "result_status": "UNSAT",
+    "check": {
+      "terminal": "EXITED",
+      "returncode": 0,
+      "seconds": 4.885497041977942,
+      "wall_cap_seconds": 30,
+      "verified": true,
+      "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d"
+    }
+  },
+  {
+    "terminal": "EXITED",
+    "returncode": 0,
+    "stdout": "{\"case_id\": \"n13-r0056\", \"depth\": 8, \"cut\": 6, \"mode\": \"wire\", \"inputs\": 611, \"wires\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], \"ranks\": [], \"variables\": 19359, \"clauses\": 274390, \"original_window_cost\": 31077, \"window_cost\": 21108, \"scope\": \"All four-layer continuations of this complete-cover prefix; cut6 intervals and exact adjacent-ending rank-set reachability\", \"parity_clauses\": 0, \"block_capacity\": {\"clauses\": 498, \"by_kind\": {\"right_extent\": 59, \"left_capacity\": 88, \"one_direction\": 31, \"right_capacity\": 88, \"incoming_capacity\": 173, \"left_extent\": 59}, \"added_variables\": 0}, \"source_sha256\": \"9c6f47df2ddb5c70ccde74bfc2a91ed9554c831011f1513476315827cb600fca\", \"cover_sha256\": \"2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406\", \"status\": \"BUILT\", \"independently_proof_checked\": false, \"build_seconds\": 0.25681541697122157}\nUNSAT 6.971997832995839\n",
+    "stderr": "",
+    "seconds": 7.039116875035688,
+    "wall_cap_seconds": 30,
+    "case": 56,
+    "command": [
+      "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/d13_rank_capacity_round8.py",
+      "--case",
+      "56",
+      "--out",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/d13-rank-capacity-round8-r0056.json",
+      "--proof"
+    ],
+    "result_status": "UNSAT",
+    "check": {
+      "terminal": "EXITED",
+      "returncode": 0,
+      "seconds": 4.394211916951463,
+      "wall_cap_seconds": 30,
+      "verified": true,
+      "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d"
+    }
+  },
+  {
+    "terminal": "EXITED",
+    "returncode": 0,
+    "stdout": "{\"case_id\": \"n13-r0112\", \"depth\": 8, \"cut\": 6, \"mode\": \"wire\", \"inputs\": 720, \"wires\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], \"ranks\": [], \"variables\": 23122, \"clauses\": 334163, \"original_window_cost\": 38487, \"window_cost\": 25788, \"scope\": \"All four-layer continuations of this complete-cover prefix; cut6 intervals and exact adjacent-ending rank-set reachability\", \"parity_clauses\": 0, \"block_capacity\": {\"clauses\": 498, \"by_kind\": {\"right_extent\": 59, \"left_capacity\": 88, \"one_direction\": 31, \"right_capacity\": 88, \"incoming_capacity\": 173, \"left_extent\": 59}, \"added_variables\": 0}, \"source_sha256\": \"9c6f47df2ddb5c70ccde74bfc2a91ed9554c831011f1513476315827cb600fca\", \"cover_sha256\": \"2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406\", \"status\": \"BUILT\", \"independently_proof_checked\": false, \"build_seconds\": 0.3068128750892356}\nUNSAT 7.385976165998727\n",
+    "stderr": "",
+    "seconds": 7.455220583942719,
+    "wall_cap_seconds": 30,
+    "case": 112,
+    "command": [
+      "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/d13_rank_capacity_round8.py",
+      "--case",
+      "112",
+      "--out",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/d13-rank-capacity-round8-r0112.json",
+      "--proof"
+    ],
+    "result_status": "UNSAT",
+    "check": {
+      "terminal": "EXITED",
+      "returncode": 0,
+      "seconds": 4.577331832959317,
+      "wall_cap_seconds": 30,
+      "verified": true,
+      "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d"
+    }
+  }
+]

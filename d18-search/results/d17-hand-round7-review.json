@@ -1,0 +1,123 @@
+{
+  "status": "REVIEWED_SOUND",
+  "uses_sat": false,
+  "hand_normalization_review": "Full-family comparability preserves deficit and cannot create dc; normalized idles are variable incomparable pairs; external antichains have even size0/2/4.",
+  "full_family_incomparable_pairs": 23,
+  "full_family_four_antichains": 6,
+  "no_five_antichain": true,
+  "critical_pair_incomparable": true,
+  "independent_double_factorial_counts": {
+    "(0, 12)": 9450,
+    "(0, 14)": 20265,
+    "(0, 16)": 630,
+    "(1, 12)": 20265,
+    "(1, 14)": 35040,
+    "(1, 16)": 720
+  },
+  "independent_zero_cross_counts": {
+    "(0, 12)": 0,
+    "(0, 14)": 702,
+    "(0, 16)": 0,
+    "(1, 12)": 702,
+    "(1, 14)": 1152,
+    "(1, 16)": 144
+  },
+  "static_full_row_necessity_controls": [
+    {
+      "transport": "none",
+      "partial_matchings_checked": 2620,
+      "satisfying_matchings": 4,
+      "unique_forced_core": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "transport": "de",
+      "partial_matchings_checked": 2620,
+      "satisfying_matchings": 4,
+      "unique_forced_core": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "transport": "dr",
+      "partial_matchings_checked": 2620,
+      "satisfying_matchings": 4,
+      "unique_forced_core": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    }
+  ],
+  "independent_checker_replay": {
+    "status": "VERIFIED",
+    "sat_used": false,
+    "canonical_cases": 86370,
+    "case_counts": {
+      "(0, 12)": 9450,
+      "(0, 14)": 20265,
+      "(0, 16)": 630,
+      "(1, 12)": 20265,
+      "(1, 14)": 35040,
+      "(1, 16)": 720
+    },
+    "full_row_cases": 83642,
+    "partial_row_cases": 2728,
+    "zero_cross_cases": 2700,
+    "stats": {
+      "nodes": 127302,
+      "max_depth": 2,
+      "conflicting_cores": 71098,
+      "capacity_leaves": 53472,
+      "forced_edges": 2648,
+      "branch_nodes": 2732
+    },
+    "exact_twenty_state_family_checked": true,
+    "independent_coverage_recursion": true,
+    "finite_verification_is_a_premise": true,
+    "complete_pure_hand_classification": false,
+    "input_sha256": "168d10b515cdc3552264089fa1b5eeaefd8ed635dc1630e5d53973abe44f6372",
+    "certificate_sha256": "15af56696fc7dfb93aa70d287601e4fd819784d016e3af2699868681f0af558b",
+    "checker_sha256": "a94251729c38b4d28c91b9dbd34ccfa59da7b1e9be56bb8f48f7e1c035754ddb",
+    "seconds": 3.4467
+  },
+  "finite_arithmetic_verification_remains_a_premise": true,
+  "pure_hand_global_lower_bound_claimed": false,
+  "substantive_gaps": [],
+  "reviewed_scope": "Case606 full twenty-state two-layer peak obstruction, arbitrary extra common reals; odd-width padding and fixed-sentinel/global-flip extensions are sound under their stated hypotheses.",
+  "source_sha256": "7ff1fda3cdd5e84ea87d0e0f2583fbc18b10e8672d5f27ea9e6e0e659205e3f3",
+  "reduction_sha256": "5bd681b39d9cc10c170a8b5de3ea74b3f69a0c24ddd93799abf10a13a50142b5",
+  "certificate_sha256": "15af56696fc7dfb93aa70d287601e4fd819784d016e3af2699868681f0af558b"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "VERIFIED",
+  "sat_used": false,
+  "cases": 2728,
+  "core_size_counts": {
+    "4": 1879,
+    "5": 757,
+    "6": 92
+  },
+  "unit_radius_cases": 2473,
+  "radius_two_cases": 255,
+  "certificate_sha256": "f77b8e62c42fe92d3480abc3de812703be0287a61440f452b2de937409c0630a",
+  "checker_sha256": "1332cc433aacb4d8f08353e723c3114fd20598b7bc7a3a4d34cf60999315125d",
+  "finite_first_matching_selection_remains_a_premise": true,
+  "scope": "All zero-full-row forms from accepted round7; no tree search or pricing solver in this check"
+}

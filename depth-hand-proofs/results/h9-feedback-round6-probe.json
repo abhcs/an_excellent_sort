@@ -1,0 +1,1709 @@
+{
+  "status": "DISCOVERY_ONLY",
+  "second": [
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      4,
+      7
+    ]
+  ],
+  "cases": [
+    {
+      "case": 1,
+      "third": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "fourths": []
+    },
+    {
+      "case": 2,
+      "third": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "fourths": [
+        {
+          "number": 1,
+          "fourth": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              5,
+              8
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "isolated": [
+            2,
+            4,
+            6,
+            7,
+            8
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 2,
+          "fourth": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "isolated": [
+            2,
+            4,
+            6,
+            8
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 3,
+          "fourth": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              8
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8
+          ],
+          "isolated": [
+            2,
+            4,
+            7,
+            8
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 4,
+          "fourth": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              3,
+              8
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "isolated": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 5,
+          "fourth": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              3,
+              8
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "isolated": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 6,
+          "fourth": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              3,
+              8
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8
+          ],
+          "isolated": [
+            1,
+            2,
+            3,
+            4,
+            7
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 7,
+          "fourth": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              5,
+              8
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "isolated": [
+            2,
+            4,
+            6,
+            7,
+            8
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 8,
+          "fourth": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              8
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "isolated": [
+            6,
+            7
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 9,
+          "fourth": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              8
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            8
+          ],
+          "isolated": [
+            1,
+            4,
+            7
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 10,
+          "fourth": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              5,
+              8
+            ]
+          ],
+          "mandatory": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "isolated": [
+            6,
+            7,
+            8
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 11,
+          "fourth": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              8
+            ]
+          ],
+          "mandatory": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "isolated": [
+            1,
+            3,
+            4,
+            6,
+            7
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 12,
+          "fourth": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              8
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "mandatory": [
+            0,
+            1,
+            3,
+            4,
+            6,
+            7,
+            8
+          ],
+          "isolated": [
+            1,
+            4,
+            7
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        }
+      ]
+    },
+    {
+      "case": 3,
+      "third": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "fourths": []
+    },
+    {
+      "case": 4,
+      "third": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "fourths": [
+        {
+          "number": 1,
+          "fourth": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              8
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "isolated": [
+            1,
+            4,
+            6,
+            7,
+            8
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 2,
+          "fourth": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "isolated": [
+            1,
+            4,
+            6,
+            8
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 3,
+          "fourth": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              8
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8
+          ],
+          "isolated": [
+            1,
+            4,
+            7,
+            8
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 4,
+          "fourth": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              8
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "isolated": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 5,
+          "fourth": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              8
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "isolated": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 6,
+          "fourth": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              8
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8
+          ],
+          "isolated": [
+            1,
+            2,
+            3,
+            4,
+            7
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 7,
+          "fourth": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              8
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "isolated": [
+            1,
+            4,
+            6,
+            7,
+            8
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 8,
+          "fourth": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              8
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "isolated": [
+            6,
+            7
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 9,
+          "fourth": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              8
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            8
+          ],
+          "isolated": [
+            2,
+            4,
+            7
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 10,
+          "fourth": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              8
+            ]
+          ],
+          "mandatory": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "isolated": [
+            6,
+            7,
+            8
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 11,
+          "fourth": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              8
+            ]
+          ],
+          "mandatory": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "isolated": [
+            2,
+            3,
+            4,
+            6,
+            7
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 12,
+          "fourth": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              8
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "mandatory": [
+            0,
+            2,
+            3,
+            4,
+            6,
+            7,
+            8
+          ],
+          "isolated": [
+            2,
+            4,
+            7
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        }
+      ]
+    },
+    {
+      "case": 5,
+      "third": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "fourths": [
+        {
+          "number": 1,
+          "fourth": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              8
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "isolated": [
+            7
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 2,
+          "fourth": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              8
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "isolated": [
+            4
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        }
+      ]
+    },
+    {
+      "case": 6,
+      "third": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "fourths": [
+        {
+          "number": 1,
+          "fourth": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              8
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "isolated": [
+            8
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        }
+      ]
+    },
+    {
+      "case": 7,
+      "third": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "fourths": [
+        {
+          "number": 1,
+          "fourth": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              8
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "isolated": [
+            8
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        }
+      ]
+    },
+    {
+      "case": 8,
+      "third": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "fourths": [
+        {
+          "number": 1,
+          "fourth": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              8
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "isolated": [
+            1,
+            4,
+            6,
+            7
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 2,
+          "fourth": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "isolated": [
+            4
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 3,
+          "fourth": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              8
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8
+          ],
+          "isolated": [
+            7
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 4,
+          "fourth": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              8
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "isolated": [
+            4,
+            6,
+            7
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 5,
+          "fourth": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              8
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          "isolated": [
+            4
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 6,
+          "fourth": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              8
+            ],
+            [
+              4,
+              6
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8
+          ],
+          "isolated": [
+            7
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 7,
+          "fourth": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              8
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "isolated": [
+            6
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 8,
+          "fourth": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              8
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "isolated": [
+            4,
+            6,
+            7
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 9,
+          "fourth": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              2,
+              8
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "mandatory": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            8
+          ],
+          "isolated": [
+            4,
+            7
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 10,
+          "fourth": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              8
+            ]
+          ],
+          "mandatory": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "isolated": [
+            4,
+            6
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 11,
+          "fourth": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              8
+            ]
+          ],
+          "mandatory": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "isolated": [
+            6,
+            7
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        },
+        {
+          "number": 12,
+          "fourth": [
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              8
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "mandatory": [
+            0,
+            2,
+            3,
+            4,
+            6,
+            7,
+            8
+          ],
+          "isolated": [
+            4,
+            7
+          ],
+          "width_survivors": [],
+          "parity_survivors": []
+        }
+      ]
+    },
+    {
+      "case": 9,
+      "third": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "fourths": []
+    }
+  ],
+  "elapsed_seconds": 0.0904200840741396
+}

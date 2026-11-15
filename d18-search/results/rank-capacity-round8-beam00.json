@@ -1,0 +1,184 @@
+{
+  "status": "BUILT",
+  "n": 18,
+  "depth": 10,
+  "cut": 8,
+  "cap": 4,
+  "prefix": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        16,
+        17
+      ]
+    ],
+    [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        5,
+        13
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        15,
+        17
+      ]
+    ],
+    [
+      [
+        0,
+        14
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        5,
+        12
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    [
+      [
+        1,
+        15
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        8,
+        14
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        11,
+        13
+      ]
+    ]
+  ],
+  "inputs": 503,
+  "variables": 22130,
+  "clauses": 408334,
+  "block_capacity": {
+    "clauses": 758,
+    "by_kind": {
+      "right_extent": 89,
+      "left_capacity": 133,
+      "one_direction": 46,
+      "right_capacity": 133,
+      "incoming_capacity": 268,
+      "left_extent": 89
+    },
+    "added_variables": 0
+  },
+  "combined_clauses": 0,
+  "source_sha256": "aa498964784d90a0e670e513836bff2f151d1da99c32d99401d53883122a0518",
+  "seed_sha256": "e41c58f4648726db7df28f04745965f03186e7b7b202389c512179d9568ca9de",
+  "cnf_sha256": "9672c3f089c0128ff118ab3d267b46a848d8e7e7624ab269fe87fea1e293881e",
+  "certificate_directory": "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/rank-capacity-round8-beam00",
+  "scope": "All continuations of the fixed prefix; exact rank-set reachability with adjacent final matching (necessary normal form for sorting)",
+  "dependencies_sha256": {
+    "netsat.py": "960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3",
+    "endpoint_cegar.py": "22768b03673525e930c722acde18c6d4c77049a0e1e6f16615801908b1e39aa1",
+    "interval_frontier.py": "93548c783322ba9754b407aaaf1cb29f649d6c8aa206ead5f1911b7454a1e6ab",
+    "probe_frontier.py": "e07f9183616412db41b7093fbb86efe8a13acf00d413b88084454b73ccdbeef0",
+    "prefix_drat.py": "1f85103a6efe10e02907d7fac977a88c149f1d6d2e189179a4636431db32773c",
+    "rank_block_capacity_cnf.py": "7e9b1c2196f965669aad9de3f56bd7f77c92f76ceebf9f091c2ecbd45336740c",
+    "adjacent_rank_ending.py": "f18f43489e46c9355e9738398d3fc4fdfa3070a4ae502db3d204250864e5d011"
+  },
+  "seconds": 0.45409391599241644
+}

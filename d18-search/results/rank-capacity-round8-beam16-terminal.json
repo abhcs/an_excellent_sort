@@ -1,0 +1,20 @@
+{
+  "terminal": "TIMEOUT_KILLED",
+  "seconds": 30.010463915998116,
+  "wall_cap_seconds": 30,
+  "stdout": "{\"status\": \"BUILT\", \"n\": 18, \"depth\": 10, \"cut\": 8, \"cap\": 4, \"inputs\": 520, \"variables\": 22986, \"clauses\": 426528, \"block_capacity\": {\"clauses\": 758, \"by_kind\": {\"right_extent\": 89, \"left_capacity\": 133, \"one_direction\": 46, \"right_capacity\": 133, \"incoming_capacity\": 268, \"left_extent\": 89}, \"added_variables\": 0}, \"combined_clauses\": 0, \"source_sha256\": \"aa498964784d90a0e670e513836bff2f151d1da99c32d99401d53883122a0518\", \"seed_sha256\": \"4277d3a6488696235bd796da775524ba1a436ef8d6247f1ea97e9567288782d8\", \"cnf_sha256\": \"3d58a1ac1b9baaecc9a6563350b5cea160c041412466590951bdd8ed5ebeb43d\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/rank-capacity-round8-beam16\", \"scope\": \"All continuations of the fixed prefix; exact rank-set reachability with adjacent final matching (necessary normal form for sorting)\", \"seconds\": 0.4946887500118464}\n",
+  "stderr": "",
+  "label": "beam16",
+  "command": [
+    "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/prefix_rank_capacity_round8.py",
+    "--seed",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-round6-p4-beam16-seed.json",
+    "--depth",
+    "10",
+    "--cut",
+    "8",
+    "--out",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/rank-capacity-round8-beam16.json"
+  ]
+}

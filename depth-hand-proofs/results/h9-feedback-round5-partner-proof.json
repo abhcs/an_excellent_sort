@@ -1,0 +1,33 @@
+{
+  "status": "VERIFIED",
+  "solver_free": true,
+  "matching_enumeration": false,
+  "rank_inputs": 15,
+  "prefix_runs": 705,
+  "direct_intersections": 44,
+  "reciprocal_forms": [
+    [
+      4,
+      1
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      5,
+      6
+    ]
+  ],
+  "own_guards": 181,
+  "reciprocal_guards": 4,
+  "exact_pair_equivalence_checks": 1692,
+  "positive_controls": {
+    "sorters": 4,
+    "permutation_runs": 38
+  },
+  "original_certificate_sha256": "401ef85aadeb797511deaa7d0bf4e4c20a6ffde1c83553fa2ae65c577e14d722",
+  "certificate_sha256": "f6f1093ade7690503afa0f513536f4ef39e8c162c50ceb41a9a6ad38356c1137",
+  "note_sha256": "938c8d823c36590ba212ace15c186bdd4604d0cca4a6c088733e75f6f5b78a98",
+  "source_sha256": "e28d0fc457a96f1bf1440c6f1061f9c6ee998236bffbce6c10ffdc3fd8975414"
+}

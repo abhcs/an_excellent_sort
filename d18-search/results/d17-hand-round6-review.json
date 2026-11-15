@@ -45,7 +45,7 @@
     "forced_steps": 5109,
     "max_forced_per_branch": 1,
     "qab_column_inference_uses": 10128,
-    "seconds": 0.1023,
+    "seconds": 0.1028,
     "finite_verification_is_a_premise": true,
     "complete_pure_hand_classification": false
   },
@@ -54,7 +54,7 @@
   "checker_hardening_note": "The review explicitly checked four distinct path coordinates and cross-count metadata for the actual certificate.",
   "finite_certificate_remains_a_premise": true,
   "source_sha256": "2c24edc57aa73dfc6cfe20582fb2fbe436a079914404111e90fe073df19c0176",
-  "reduction_sha256": "b936b2d387c5b793f0bbce199e36c1b04c3364a6bc33c14e1404ba0edf682a05",
+  "reduction_sha256": "710efa0b8d0841e331ef14e382811175bae361325bced491f1dec15b73eedfce",
   "certificate_sha256": "1d5b34c2cd2f6cc9a36f26aa44aac5ba7894e1ddc452381d6c3f830d1ee808fa",
   "input_sha256": "168d10b515cdc3552264089fa1b5eeaefd8ed635dc1630e5d53973abe44f6372"
 }

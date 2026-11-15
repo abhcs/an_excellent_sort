@@ -1,11 +1,13 @@
 # Structural conditions that actually eliminate D(13) prefix cases
 
-**Status, 2026-11-15:** six of117 complete-cover D13 cases are excluded
+**Status, 2026-11-15:** twelve of117 complete-cover D13 cases are excluded
 by structural conditions with independently checked DRAT certificates:
-0,1,58,114,115,116. The latest [rank-parity clauses](rank-parity-feedback.md)
-close cases1 and114 in20.03 and13.15 seconds. Their necessary conditions
-have hand proofs; the whole-prefix applications still use SAT. The other
-111 cases are not closed by this audit. D(18) remains open here.
+0,1,2,3,56,57,58,112,113,114,115,116. The latest block-capacity runs
+close cases3,56,112 in6.90,7.04,7.46 seconds, with independent checks
+under five seconds. Fresh parity baselines also close all three cases.
+Their necessary conditions have hand proofs; the whole-prefix applications
+still use SAT. The other105 cases are not closed by this audit.
+D(18) remains open here.
 
 Subsequent work supplies [small hand certificates for a specified D13
 continuation](d13_hand_obstructions.md), three checked
@@ -13,7 +15,8 @@ continuation](d13_hand_obstructions.md), three checked
 [twelve-wire obstruction that lifts to larger widths](fixed-sentinel-obstruction.md).
 The later [D18 rank-interval trials](interval-frontier.md) remain inconclusive.
 
-The [latest whole-cover audit](results/structural-cover-progress-round4.json) binds the results to the
+The [latest scope record](results/structural-cover-progress-round8.json) extends the
+[earlier whole-cover audit](results/structural-cover-progress-round4.json), which binds results to the
 complete thirteen-wire cover, whose SHA-256 is
 `2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406`.
 Everything in this note was done in the private `codex/d18-structural`
@@ -406,3 +409,67 @@ The four-layer tests, including the stronger middle-pair condition, reach
 30-second limits. These are partial-prefix results and do not increase
 the complete-cover count. The [checkpoint](../CHECKPOINT.md) identifies
 current review status, artifact conventions, and unfinished work.
+
+
+## 15. H9 round-seven integration
+
+The [`02 14 56` hand proof](../depth-hand-proofs/h9_feedback_round5_021456.md)
+has completed independent root review and fixed-certificate replay. H9
+hand coverage is now **28/50**. All nine L4 classifications are hand
+arguments; fifteen explicit real inputs then exclude every partner of a
+mandatory pivot in each of 47 forms. The 423 endpoint rows use no SAT
+premise. This does not yet complete H9 or the D(11) hand-proof goal.
+
+
+## 16. New rank structure at arbitrary width
+
+Three further hand results have completed root review and independent
+replay: [threshold partner graphs](../depth-hand-proofs/h9_feedback_round5_rank_partner.md),
+the [three-rank bridge obstruction](d13_feedback_round7_bridge.md), and
+an [exact final-matching projection](d13_feedback_round7_pairing.md) for
+intervals of length at most four. The last result replaces all final-pair
+compatibility conditions with a path of adjacent-edge variables; the
+common preceding matching remains a separate capacity issue.
+
+The [fixed-last-matching block-capacity theorem](fixed-ending-block-capacity.md)
+gives an exact test for that remaining issue once the last matching is
+fixed, by canceling reciprocal demands and bounding unmatched demands
+by free block vertices. For an adjacent last matching and contiguous
+intervals, it yields a linear local decision procedure along the blocks.
+Its direct finite controls pass; this paragraph is not a sorting
+sufficiency claim.
+
+The [D18 hand note](rank-frontier-round6-hand.md) gives complete explicit
+arguments for the three previously identified six-layer exclusions.
+Round-seven two-layer routing, bridge-cut, and compact-projection tests
+on both four-layer prefixes all reached their 30-second caps. Their
+known eighteen-wire depth-eleven positive controls passed. No new D18
+complete-cover case is closed by these experiments.
+
+
+## 17. Full signed case606 family and partial D18 layer families
+
+The [noncritical case606 reduction](d17_feedback_round7_reduction.md)
+and its complete 86,370-case arithmetic certificate have passed both
+root review and [independent skeptical review](results/d17-hand-round7-review.json).
+Together with the accepted critical branch, this proves the whole signed
+family obstruction at arbitrary width, with explicit finite premises.
+No SAT result is needed by this proof. A direct embedding audit of all609
+D17 cover families finds only case606, so the complete-cover count remains
+3/609 and this does not complete the global D17 hand-proof goal.
+
+The [partial-sixth-layer theorem](d18_rank_partner_round7_partial.md)
+has also completed root review and fixed-certificate replay. After the
+specified beam00 five-layer prefix, just three fixed L6 gates exclude
+all140,152 matchings of the remaining twelve wires. The beam16 four-gate
+pattern excludes9,496 completions, and two beam32 patterns together
+exclude142. The proof checks444 local activities with explicit input
+witnesses; it does not enumerate complete L6 matchings or use SAT.
+These are labelled conditional layer families, not complete D18 cases.
+
+Adding these four proved forbidden-pattern clauses to the earlier
+R7/R8-rescheduling and R9-component relaxation still gives survivors for
+all three prefixes, in0.03–0.07 seconds each. The [bounded terminal record](results/d18-partial-pattern-round7-terminal.json)
+and per-prefix replay records save those next candidates. They satisfy
+only the stated necessary conditions. The next hand work can target
+their rank-partner patterns; no larger SAT job is running.

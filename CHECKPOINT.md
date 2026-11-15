@@ -1,6 +1,60 @@
 # Structural lower-bound research checkpoint — 2026-11-15
 
-## Current checkpoint: structural research through round six
+## Current checkpoint: structural research through round eight
+
+This checkpoint saves all current research sources, proof drafts, finite
+certificates, CNF/DRAT artifacts, and bounded-run records on the isolated
+`codex/d18-structural` branch. Its parent checkpoint is `4d1e95b`.
+All agents have stopped editing and all known research jobs are terminal.
+The original shared working folder has not been edited.
+
+* **H9: 28/50 reviewed hand cases.** The `02 14 56` proof and
+  [threshold-partner lemma](depth-hand-proofs/h9_feedback_round5_rank_partner.md)
+  are integrated. The next
+  [`03 16 47` draft](depth-hand-proofs/h9_feedback_round6_031647.md)
+  is explicitly unfinished: its six third-layer forms and tables are saved,
+  but final section 3 and an independent fixed-certificate checker remain.
+  Its 51 fourth-layer forms do not add a reviewed case yet.
+* **D13: 12/117 complete cover cases have checked structural exclusions:**
+  0,1,2,3,56,57,58,112,113,114,115,116. Cases 3,56,112 have new
+  block-capacity CNFs, checked DRAT proofs, and an
+  [independent encoder/artifact review](d18-search/results/d13_feedback_round8-capacity-review.json).
+  Solves took 6.90,7.04,7.46 seconds; checks took 4.89,4.39,4.58 seconds.
+  Fresh parity baselines also close these cases (7.77,7.31,9.25 seconds),
+  so this is a modest single-run timing improvement, not evidence that
+  capacity is essential to closing them or a completed D(13) hand proof.
+* New general structural results include exact
+  [fixed-ending block capacity](d18-search/fixed-ending-block-capacity.md),
+  a linear adjacent-ending decision procedure, and a
+  [full-three-rank obstruction](d18-search/d13_feedback_round8_triples.md)
+  for two-layer sorting completions at any width. The new exact-endpoint
+  and triple-clause encoder has passed mathematical review and finite
+  controls, but its synthesis workers have not yet been run. These
+  statements do not assert that rank reachability suffices for sorting.
+* **D17: 3/609 complete cover cases remain closed.** The entire signed
+  case606 family now has a reviewed, finite-assisted obstruction valid
+  at arbitrary width. The new
+  [round-eight cut-budget proof](d18-search/d17_feedback_round8_cut_lemma.md)
+  compresses the 2,728 partial forms to a 29 KB inequality certificate
+  and gives a nine-row hand branch. Its checker passes; independent
+  mathematical review of that latest package remains pending. No new
+  complete D17 cover case is claimed.
+* **D18: 0/411 complete two-layer cover cases are closed.** New hand
+  [partial-sixth-layer exclusions](d18-search/d18_rank_partner_round7_partial.md)
+  rule out conditional families of 140,152, 9,496, and 142 labelled
+  matchings after three specified five-layer prefixes. They do not
+  exhaust those prefixes or the complete cover. The new capacity tests
+  on two four-layer prefixes both reached their 30-second caps; the
+  known depth-eleven positive control passed.
+  **The lower bound D(18)>=11 remains unresolved.**
+
+The [round-eight scope record](d18-search/results/structural-cover-progress-round8.json)
+records the latest counts and review references. All raw exploratory and
+timeout artifacts are retained. Some manifests use absolute local paths;
+a fresh checkout must supply the external dependencies described below.
+Historical sections retain their original counts and open issues.
+
+## Earlier checkpoint: structural research through round six (`4d1e95b`)
 
 This snapshot includes all current research sources, proof drafts, finite
 certificates, CNF/DRAT artifacts, and bounded-run records on the isolated

@@ -75,7 +75,7 @@ w is the unchanged idle D, and x is the image of C in row BC. If BC is
 itself an M-edge, its opposite signs keep the B and C images distinct,
 and the same description holds.
 
-Every A vertex outside C has the same active/inactive status in these two
+Every used A vertex outside C has the same active/inactive status in these two
 rows. Its cross gate therefore gives the same B routing in both. A cross
 gate at the common vertex B also has the same routing in both rows.
 The only possible change is a same-sign cross at C: a single B-path

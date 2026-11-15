@@ -1,0 +1,83 @@
+[
+  {
+    "terminal": "EXITED",
+    "returncode": 0,
+    "stdout": "{\"case_id\": \"n13-r0003\", \"depth\": 8, \"cut\": 6, \"mode\": \"wire\", \"inputs\": 504, \"wires\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], \"ranks\": [], \"variables\": 15535, \"clauses\": 209221, \"original_window_cost\": 26868, \"window_cost\": 15986, \"scope\": \"All four-layer continuations of this complete-cover prefix; cut6 intervals and exact four-cone parity\", \"parity_clauses\": 222, \"source_sha256\": \"ac3092329478c1640f703b15c3827b407191dd1218bf99d4ef7d912f63b2e680\", \"cover_sha256\": \"2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406\", \"status\": \"BUILT\", \"independently_proof_checked\": false, \"build_seconds\": 0.1855232920497656}\nUNSAT 7.708703959011473\n",
+    "stderr": "",
+    "seconds": 7.773425749968737,
+    "wall_cap_seconds": 30,
+    "case": 3,
+    "command": [
+      "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/d13_rank_parity_probe.py",
+      "--case",
+      "3",
+      "--out",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/d13-rank-capacity-round8-baseline-r0003.json",
+      "--proof"
+    ],
+    "result_status": "UNSAT",
+    "check": {
+      "terminal": "EXITED",
+      "returncode": 0,
+      "seconds": 6.020930708968081,
+      "wall_cap_seconds": 30,
+      "verified": true,
+      "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d"
+    }
+  },
+  {
+    "terminal": "EXITED",
+    "returncode": 0,
+    "stdout": "{\"case_id\": \"n13-r0056\", \"depth\": 8, \"cut\": 6, \"mode\": \"wire\", \"inputs\": 611, \"wires\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], \"ranks\": [], \"variables\": 19359, \"clauses\": 274114, \"original_window_cost\": 31077, \"window_cost\": 21108, \"scope\": \"All four-layer continuations of this complete-cover prefix; cut6 intervals and exact four-cone parity\", \"parity_clauses\": 222, \"source_sha256\": \"ac3092329478c1640f703b15c3827b407191dd1218bf99d4ef7d912f63b2e680\", \"cover_sha256\": \"2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406\", \"status\": \"BUILT\", \"independently_proof_checked\": false, \"build_seconds\": 0.25563000002875924}\nUNSAT 7.236110207973979\n",
+    "stderr": "",
+    "seconds": 7.306039292016067,
+    "wall_cap_seconds": 30,
+    "case": 56,
+    "command": [
+      "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/d13_rank_parity_probe.py",
+      "--case",
+      "56",
+      "--out",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/d13-rank-capacity-round8-baseline-r0056.json",
+      "--proof"
+    ],
+    "result_status": "UNSAT",
+    "check": {
+      "terminal": "EXITED",
+      "returncode": 0,
+      "seconds": 4.328142707934603,
+      "wall_cap_seconds": 30,
+      "verified": true,
+      "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d"
+    }
+  },
+  {
+    "terminal": "EXITED",
+    "returncode": 0,
+    "stdout": "{\"case_id\": \"n13-r0112\", \"depth\": 8, \"cut\": 6, \"mode\": \"wire\", \"inputs\": 720, \"wires\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], \"ranks\": [], \"variables\": 23122, \"clauses\": 333887, \"original_window_cost\": 38487, \"window_cost\": 25788, \"scope\": \"All four-layer continuations of this complete-cover prefix; cut6 intervals and exact four-cone parity\", \"parity_clauses\": 222, \"source_sha256\": \"ac3092329478c1640f703b15c3827b407191dd1218bf99d4ef7d912f63b2e680\", \"cover_sha256\": \"2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406\", \"status\": \"BUILT\", \"independently_proof_checked\": false, \"build_seconds\": 0.30391133308876306}\nUNSAT 9.18449250003323\n",
+    "stderr": "",
+    "seconds": 9.253547000000253,
+    "wall_cap_seconds": 30,
+    "case": 112,
+    "command": [
+      "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/d13_rank_parity_probe.py",
+      "--case",
+      "112",
+      "--out",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/d13-rank-capacity-round8-baseline-r0112.json",
+      "--proof"
+    ],
+    "result_status": "UNSAT",
+    "check": {
+      "terminal": "EXITED",
+      "returncode": 0,
+      "seconds": 6.545716708060354,
+      "wall_cap_seconds": 30,
+      "verified": true,
+      "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d"
+    }
+  }
+]

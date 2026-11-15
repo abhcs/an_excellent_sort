@@ -1,0 +1,23 @@
+{
+  "terminal": "EXITED",
+  "returncode": 0,
+  "stdout": "{\"status\": \"BUILT\", \"n\": 18, \"depth\": 11, \"cut\": 9, \"cap\": 4, \"inputs\": 243, \"variables\": 5771, \"clauses\": 62821, \"block_capacity\": {\"clauses\": 758, \"by_kind\": {\"right_extent\": 89, \"left_capacity\": 133, \"one_direction\": 46, \"right_capacity\": 133, \"incoming_capacity\": 268, \"left_extent\": 89}, \"added_variables\": 0}, \"combined_clauses\": 0, \"source_sha256\": \"aa498964784d90a0e670e513836bff2f151d1da99c32d99401d53883122a0518\", \"seed_sha256\": \"02bc84a1ba7714289eb2a61cbd03a34363f0fdc94a7f9fd6b4bd651dab624a94\", \"cnf_sha256\": \"77e7867878c9c1e9f62a3edafeef58ff1e9b79c27e5e81f71fd98700dcd3fbfa\", \"certificate_directory\": \"/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/rank-capacity-round8-control\", \"scope\": \"All continuations of the fixed prefix; exact rank-set reachability with adjacent final matching (necessary normal form for sorting)\", \"seconds\": 0.19729420903604478}\n{\"status\": \"SURVIVOR\", \"seconds\": 0.19813274999614805}\n",
+  "stderr": "",
+  "seconds": 0.2610620829509571,
+  "wall_cap_seconds": 30,
+  "label": "control",
+  "command": [
+    "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/prefix_rank_capacity_round8.py",
+    "--seed",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/prefix-rank-round6-control-p6-c9-seed.json",
+    "--depth",
+    "11",
+    "--cut",
+    "9",
+    "--out",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/rank-capacity-round8-control.json",
+    "--witness",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/dobbelaere18-78-11.json"
+  ]
+}
