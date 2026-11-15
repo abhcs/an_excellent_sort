@@ -1,0 +1,38 @@
+{
+  "cover_sha256": "2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406",
+  "total_cases": 117,
+  "statuses": {
+    "UNSAT_CHECKED": 2,
+    "NOT_CLOSED_BY_THIS_AUDIT": 115
+  },
+  "outcome": "OPEN",
+  "records": [
+    {
+      "case_id": "n13-r0000",
+      "depth": 8,
+      "cut": 6,
+      "shared_ending_routing": true,
+      "seconds": 10.472,
+      "check_seconds": 10.282,
+      "cnf_sha256": "16ac515267bb30770e2dbd9395c865cd50e5444e003a589cfc80605acc3d7eb7",
+      "proof_sha256": "9c50cdd1b02d36d98eb23f0e932c8ce9805d7370ec79390f2e7253de4df5f746",
+      "result": "d18-search/results/probe-frontier13-r0000-route-checked.json",
+      "independently_proof_checked": true
+    },
+    {
+      "case_id": "n13-r0116",
+      "depth": 8,
+      "cut": 6,
+      "shared_ending_routing": false,
+      "seconds": 27.414,
+      "check_seconds": 19.355,
+      "cnf_sha256": "cf9757fdf6facadbdff2c4ce4a57b519e50b7452c631ee78e24e1268fd230f1b",
+      "proof_sha256": "57ecfebd9641e94d483677d6a074f66784e9b7dafafa3f5aa1d14e29d83528b7",
+      "result": "d18-search/results/probe-frontier13-r0116-both-checked.json",
+      "independently_proof_checked": true
+    }
+  ],
+  "checker_repository": "https://github.com/marijnheule/drat-trim",
+  "checker_commit": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985",
+  "positive_control": "d18-search/results/probe-frontier13-d9-positive.json"
+}

@@ -1,0 +1,21 @@
+{
+  "terminal": "STOPPED_ON_USER_PAUSE",
+  "returncode": -15,
+  "wall_seconds": 23.461,
+  "wall_limit_seconds": 120,
+  "command": [
+    "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+    "d18-search/probe_frontier.py",
+    "--result",
+    "d18-search/results/probe-cover17-r0608/seed.json",
+    "--out",
+    "d18-search/results/d17-feedback-r0608-cut7/result.json",
+    "--cut",
+    "7",
+    "--both",
+    "--route"
+  ],
+  "progress_status": "BUILT",
+  "proof_status": "No UNSAT conclusion unless result is independently checked",
+  "stop_reason": "User goal paused; terminated only probe child pid 73552 with SIGTERM."
+}

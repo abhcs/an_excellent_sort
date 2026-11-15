@@ -1,0 +1,30 @@
+{
+  "independently_proof_checked": true,
+  "selected": [
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "clauses": 25134,
+  "solve_seconds": 10.9212,
+  "check_seconds": 8.5474,
+  "returncode": 0,
+  "cnf_sha256": "cb26d2d06319fd328065be7eede27e5727af32ce8427abfa398c834b8b166866",
+  "proof_sha256": "c8270d6b90b238a5903b99358266271d54dbbe843285bf47bddcc7459291384a",
+  "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d",
+  "source_sha256": "e464feea00cdcfe9db014a676effa138d33e47d9f05718f5d685b39f7be2a7ed"
+}

@@ -1,0 +1,82 @@
+{
+  "case_id": "n13-r0116",
+  "n": 13,
+  "depth": 8,
+  "prefix": [
+    [
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        5,
+        10
+      ]
+    ],
+    [
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        4,
+        12
+      ]
+    ]
+  ],
+  "weights": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "inputs": 721,
+  "variables": 28698,
+  "clauses": 392852,
+  "cnf_sha256": "27a0daebec6e1124cb6625e6aa9d62f25fbfc2fcbfa3ab3600fc39900db99699",
+  "encoder_sha256": "960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3",
+  "source_sha256": "1f85103a6efe10e02907d7fac977a88c149f1d6d2e189179a4636431db32773c",
+  "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d",
+  "independently_proof_checked": true,
+  "status": "UNSAT",
+  "solve_seconds": 7.444,
+  "proof_sha256": "bcaeb2ab829e4a656dcdeb8de42647867763a75a2ba9474f33863533568194a0",
+  "check_seconds": 5.424,
+  "checker_returncode": 0
+}

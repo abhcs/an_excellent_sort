@@ -1,0 +1,193 @@
+{
+  "case_id": "n13-r0115",
+  "depth": 8,
+  "cut": 6,
+  "mode": "wire",
+  "prefix": [
+    [
+      [
+        0,
+        12
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        9,
+        10
+      ]
+    ],
+    [
+      [
+        0,
+        9
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        4,
+        11
+      ]
+    ]
+  ],
+  "source_case": {
+    "n": 13,
+    "layers": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          11,
+          12
+        ]
+      ],
+      [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          10,
+          11
+        ]
+      ]
+    ],
+    "sentence": [
+      [
+        "H",
+        "012"
+      ],
+      [
+        "S",
+        "2121121212"
+      ]
+    ],
+    "outputs": 720,
+    "half_blind_sets": 6,
+    "case_id": "n13-r0115"
+  },
+  "input_permutation": [
+    1,
+    5,
+    6,
+    2,
+    7,
+    9,
+    10,
+    0,
+    12,
+    11,
+    3,
+    4,
+    8
+  ],
+  "output_permutation": [
+    1,
+    5,
+    6,
+    2,
+    7,
+    0,
+    10,
+    9,
+    3,
+    12,
+    4,
+    11,
+    8
+  ],
+  "inputs": 720,
+  "wires": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "ranks": [],
+  "variables": 23466,
+  "clauses": 341375,
+  "original_window_cost": 38577,
+  "window_cost": 26374,
+  "scope": "All four-layer continuations of this complete-cover prefix; cut6 interval bounds, optional common ending routing",
+  "source_sha256": "1edeefc7a23a3ffcb8a7b6b141f9abab8137724a4be6f1ea3e34b09abff63f06",
+  "cover_sha256": "2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406",
+  "dependencies_sha256": {
+    "netsat.py": "960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3",
+    "probe_frontier.py": "e07f9183616412db41b7093fbb86efe8a13acf00d413b88084454b73ccdbeef0",
+    "interval_frontier.py": "93548c783322ba9754b407aaaf1cb29f649d6c8aa206ead5f1911b7454a1e6ab",
+    "cover_solve.py": "055cd3edc69c997461a6998b704a2283ef54883456ed7fc1b92515d96b9a52b5",
+    "relabel.py": "0a2e05ee9af76e79dee51542492341e2aa3aa5da57b4c9b349fefe736998b81e",
+    "prefix_drat.py": "1f85103a6efe10e02907d7fac977a88c149f1d6d2e189179a4636431db32773c"
+  },
+  "status": "UNSAT",
+  "independently_proof_checked": true,
+  "build_seconds": 0.2949695420684293,
+  "certificate_directory": "d18-search/results/d13_feedback_round2-r0115-wire",
+  "cnf_sha256": "7c885fa4372db393304ad8ff89c033ec9d8a1241b39dc665f497288188e69d1d",
+  "proof_sha256": "6cba2033674769aff7b6060ccd960f41fcc172117f6701f5043be12a0e1ccd17",
+  "seconds": 22.861650082981214,
+  "check_seconds": 15.225816249963827,
+  "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d"
+}

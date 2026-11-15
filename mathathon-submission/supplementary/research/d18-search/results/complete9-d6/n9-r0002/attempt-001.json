@@ -1,0 +1,78 @@
+{
+  "problem_id": "0d1ac09b244d6c5c394c7ad5e1120a7b4a59ee3121df8d40643e2ad3041ba400",
+  "cover_sha256": "7b704e7d40e36d67a590ef44cc6c2d83904c30963d37ce0b38666a2e65d662e4",
+  "encoder_sha256": "960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3",
+  "depth": 6,
+  "solver": "cadical195",
+  "case_id": "n9-r0002",
+  "prefix": [
+    [
+      [
+        0,
+        8
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    [
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        5,
+        7
+      ]
+    ]
+  ],
+  "input_permutation": [
+    4,
+    5,
+    1,
+    7,
+    8,
+    0,
+    3,
+    2,
+    6
+  ],
+  "output_permutation": [
+    1,
+    5,
+    4,
+    7,
+    0,
+    3,
+    2,
+    8,
+    6
+  ],
+  "inputs": 68,
+  "original_window_cost": 1496,
+  "window_cost": 945,
+  "restriction": "none beyond documented valid normal forms",
+  "proof_status": "solver result; no independently checked proof trace",
+  "variables": 1173,
+  "clauses": 8498,
+  "build_seconds": 0.013,
+  "status": "UNSAT",
+  "seconds": 0.015
+}

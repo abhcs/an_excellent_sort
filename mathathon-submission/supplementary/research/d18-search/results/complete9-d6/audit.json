@@ -1,0 +1,11 @@
+{
+  "n": 9,
+  "depth": 6,
+  "cover_sha256": "7b704e7d40e36d67a590ef44cc6c2d83904c30963d37ce0b38666a2e65d662e4",
+  "total_cases": 22,
+  "statuses": {
+    "UNSAT": 22
+  },
+  "outcome": "ALL_CASES_UNSAT_SOLVER_BASED",
+  "independently_proof_checked": false
+}

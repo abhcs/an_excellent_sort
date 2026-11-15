@@ -1,0 +1,1 @@
+{"status":"VERIFIED","matchings":140152,"distinct_labelled_cores":4179,"search_nodes":17360886,"seconds":2.12914,"by_size":{"0":1,"1":66,"2":1485,"3":13860,"4":51975,"5":62370,"6":10395},"by_cross_edges":{"0":15712,"1":45800,"2":49600,"3":24000,"4":4800,"5":240},"deletion_minimal_core_sizes":{"4":129810,"5":10342},"sat_used":false,"minimality":"inclusion only, not minimum size"}

@@ -1,0 +1,8 @@
+{
+  "terminal": "EXITED",
+  "returncode": 0,
+  "wall_cap_seconds": 30,
+  "seconds": 0.0691399589413777,
+  "stdout": "{\"status\": \"UNSAT_UNCHECKED\", \"item_count\": 16, \"variables\": 952, \"clauses\": 3801, \"scope\": \"Necessary normalized two-layer rescheduling condition for one common L6\", \"input_sha256\": \"f6dc290ad76aa834edad3dd62bc5566c44a5c843e8958d631f8a1543aa5446c6\", \"source_sha256\": \"dba6165bd4a6bc0c590d6163ddc0048fc481eb97d882a5187390a4d575e53073\", \"core_indices\": [4, 6, 10, 12, 14], \"core_size\": 5, \"core_is_deletion_minimal\": true, \"direct_binary_normalization_runs\": 640, \"certificate_dir\": \"d18-search/results/d18_hand_next_reschedule-combined-thin-certificate\", \"seconds\": 0.01157129101920873}\n",
+  "stderr": ""
+}

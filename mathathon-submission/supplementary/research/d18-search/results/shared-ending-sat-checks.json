@@ -1,0 +1,7 @@
+{
+  "model": "SharedEndingModel",
+  "normal_ending_positive_controls": 904,
+  "complete_n9_d6_unsat_cases": 22,
+  "n9_d7_positive_verified_inputs": 512,
+  "seconds": 1.353797790943645
+}

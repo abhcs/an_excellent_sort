@@ -1,0 +1,111 @@
+{
+  "case": {
+    "n": 18,
+    "layers": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          16,
+          17
+        ]
+      ],
+      [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          11,
+          13
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          15,
+          17
+        ]
+      ]
+    ],
+    "sentence": [
+      [
+        "C",
+        "121212"
+      ],
+      [
+        "C",
+        "1221"
+      ],
+      [
+        "C",
+        "1221"
+      ],
+      [
+        "C",
+        "1221"
+      ]
+    ],
+    "outputs": 3888,
+    "half_blind_sets": 2,
+    "case_id": "n18-r0000"
+  },
+  "depth": 10,
+  "cover_sha256": "3479c72a3dce2fe1d58d0fa80e11ccbdf9286c00b8585b1a15f23e325cb55ed2",
+  "encoder_sha256": "960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3",
+  "solver": "kissat404",
+  "relabel_trials": 500,
+  "problem_id": "0b68790a7df0326e2717b687cd05f2061600b45f47fa6aee09860955067daa20",
+  "result_path": "/Users/abhishek/Documents/an_excellent_sort/d18-search/results/complete18-d10/n18-r0000/attempt-001.json"
+}

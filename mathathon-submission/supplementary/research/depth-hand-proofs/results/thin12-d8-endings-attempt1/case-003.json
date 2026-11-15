@@ -1,0 +1,75 @@
+{
+  "n": 12,
+  "depth": 8,
+  "first_two_caps": 5,
+  "first": [
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      9,
+      10
+    ]
+  ],
+  "last": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      10,
+      11
+    ]
+  ],
+  "selected_zeros": [
+    2,
+    4,
+    6,
+    7,
+    9,
+    10
+  ],
+  "encoded_inputs": 594,
+  "full_prefix_outputs": 972,
+  "variables": 31495,
+  "clauses": 540971,
+  "solver": "kissat404",
+  "status": "TIME_LIMIT",
+  "build_seconds": 0.20884104107972234,
+  "source_hashes": {
+    "depth-hand-proofs/verify/thin_layers_endings.py": "ec9de51d245739da8037b4872ebd6bea4c6766a926476f4168f7f3a44a956541",
+    "d18-search/netsat.py": "960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3",
+    "d18-search/capacity_sat.py": "e8033db742403eb0f7307cb4cd4a6715d283fec86382c7e14149864ebc8b0b54",
+    "d18-search/shared_ending_sat.py": "a26ad1fe7ec0bc272c7874bab2fd510b2fa76344316e35a966c826700260e078",
+    "d18-search/two_layer_profiles.py": "e5fb4ba4baa15be8971d4f1ee6049064d5a9f8f7c1c89898a78d04394201398a",
+    "d18-search/two_layer_envelope.py": "605ab3d208502600b96d4e3727e4923c16ddf7f06f4da9ea814581a468b45cc2",
+    "d18-search/two_layer_topology.py": "7b9e9c5987d7f07947bb99731360969c8644e1d0a6bb60e854d88b0398cb62d0"
+  },
+  "proof_trace_checked": false,
+  "seconds": 15.011724249925464
+}

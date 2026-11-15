@@ -1,0 +1,277 @@
+{
+  "cases": [
+    {
+      "n": 7,
+      "depth": 6,
+      "caps": [
+        3,
+        1
+      ],
+      "solver": "cadical195",
+      "variables": 1770,
+      "clauses": 29647,
+      "proof_trace_checked": false,
+      "encoder_sha256": "94f6830466820774d1d19228ebc8256b08aaba4f982d6812a72cfdaa7543a1ea",
+      "status": "UNSAT",
+      "seconds": 0.14808520895894617
+    },
+    {
+      "n": 7,
+      "depth": 6,
+      "caps": [
+        2,
+        2
+      ],
+      "solver": "cadical195",
+      "variables": 2418,
+      "clauses": 40955,
+      "proof_trace_checked": false,
+      "encoder_sha256": "94f6830466820774d1d19228ebc8256b08aaba4f982d6812a72cfdaa7543a1ea",
+      "status": "UNSAT",
+      "seconds": 0.27916154102422297
+    },
+    {
+      "n": 7,
+      "depth": 6,
+      "caps": [
+        2,
+        3
+      ],
+      "solver": "cadical195",
+      "variables": 2434,
+      "clauses": 40985,
+      "proof_trace_checked": false,
+      "encoder_sha256": "94f6830466820774d1d19228ebc8256b08aaba4f982d6812a72cfdaa7543a1ea",
+      "status": "SAT",
+      "network": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            6
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      ],
+      "verified_binary_inputs": 128,
+      "seconds": 0.07804304105229676
+    },
+    {
+      "n": 8,
+      "depth": 6,
+      "caps": [
+        4,
+        2
+      ],
+      "solver": "cadical195",
+      "variables": 3112,
+      "clauses": 60484,
+      "proof_trace_checked": false,
+      "encoder_sha256": "94f6830466820774d1d19228ebc8256b08aaba4f982d6812a72cfdaa7543a1ea",
+      "status": "UNSAT",
+      "seconds": 0.3928660419769585
+    },
+    {
+      "n": 8,
+      "depth": 6,
+      "caps": [
+        3,
+        3
+      ],
+      "solver": "cadical195",
+      "variables": 4215,
+      "clauses": 82722,
+      "proof_trace_checked": false,
+      "encoder_sha256": "94f6830466820774d1d19228ebc8256b08aaba4f982d6812a72cfdaa7543a1ea",
+      "status": "UNSAT",
+      "seconds": 0.5419228749815375
+    },
+    {
+      "n": 8,
+      "depth": 6,
+      "caps": [
+        3,
+        4
+      ],
+      "solver": "cadical195",
+      "variables": 4236,
+      "clauses": 82762,
+      "proof_trace_checked": false,
+      "encoder_sha256": "94f6830466820774d1d19228ebc8256b08aaba4f982d6812a72cfdaa7543a1ea",
+      "status": "SAT",
+      "network": [
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            5,
+            7
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            6,
+            7
+          ]
+        ]
+      ],
+      "verified_binary_inputs": 256,
+      "seconds": 0.26073708303738385
+    }
+  ],
+  "source_sha256": "1fcc6e5a1821cf1fbda763e2f850424140f2627a292a7bcb5ed9cb5b71d41efd"
+}

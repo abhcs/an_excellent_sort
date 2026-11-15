@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETED",
+  "returncode": 0,
+  "elapsed_seconds": 6.8924,
+  "wall_limit_seconds": 30,
+  "process_terminal": true,
+  "command": [
+    "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/d17_feedback_fourteen.py",
+    "--states",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/d17-feedback-fourteen-hand606-states.json",
+    "--out",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/d17-feedback-round2-pure606/result.json",
+    "--proof"
+  ]
+}

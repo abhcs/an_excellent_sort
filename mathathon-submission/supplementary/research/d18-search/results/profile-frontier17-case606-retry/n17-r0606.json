@@ -1,0 +1,14 @@
+{
+  "case_id": "n17-r0606",
+  "family_size": 20,
+  "variables": 6946,
+  "clauses": 41064,
+  "solver": "kissat404",
+  "scope": "Necessary 9-real first-two-layer profiles only",
+  "minimum": 1,
+  "peak": 4,
+  "proof_trace_checked": false,
+  "status": "TIME_LIMIT",
+  "cover_sha256": "711b620bb298deee98e5520595cfb341a13cf3600f4297dd35f3b38cb11d2100",
+  "wall_limit_seconds": 60.0
+}

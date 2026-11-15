@@ -1,0 +1,12 @@
+{
+  "status": "VERIFIED",
+  "fixed_network_formulation_checks": 256,
+  "verdicts": {
+    "SAT": 98,
+    "UNSAT": 158
+  },
+  "scalar_wire_pair_checks": 134107,
+  "scope": "64 random tiny prefixes/continuations, two caps, two formulations; scalar exact controls",
+  "source_sha256": "ee7e2c80cab03c655f36a1562fca95dba5cf17369c167baa35b1d7f9997f46f3",
+  "encoder_sha256": "22768b03673525e930c722acde18c6d4c77049a0e1e6f16615801908b1e39aa1"
+}

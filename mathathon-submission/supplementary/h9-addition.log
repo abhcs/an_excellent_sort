@@ -1,0 +1,44 @@
+{"status": "VERIFIED", "partner_pairs": 6, "oriented_branches": 12, "contradiction_leaves": 15, "full_matching_enumeration": false, "scope": "Contact-clause implication for the first normalized merger layer only; trace premises verified separately", "source_sha256": "fe3b0ca30ab69891475f94be82ca22cbba35d2cb8943b034128a45aa39f777a6", "contacts_sha256": "a40057f7308b90b00af5c3e402bab3193887c90d8a93e773fa9fd23589946f63"}
+{"status": "VERIFIED", "partner_orientations": 14, "immediate_or_forced_branches": 11, "small_leaves": 3, "leaf_choice_checks": 32, "full_matching_enumeration": false}
+{
+  "status": "VERIFIED",
+  "second": [
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      4,
+      6
+    ]
+  ],
+  "matching_count": 2620,
+  "BFK_survivors": 14,
+  "exceptional_count": 11,
+  "final_third_count": 3,
+  "merger_first_layer_count": 8,
+  "normalized_merger_cases": 4,
+  "contact_rows": 32,
+  "direct_real_order_runs": 41520,
+  "elapsed_seconds": 0.06234212499111891,
+  "source_sha256": "1ed92aa21668afbb0a1278301604558a3415d05cec21a2102a53fccd309472d4",
+  "contact_data_sha256": "a40057f7308b90b00af5c3e402bab3193887c90d8a93e773fa9fd23589946f63",
+  "branch_checker_sha256": {
+    "h9_round2_case1_branch_check.py": "fe3b0ca30ab69891475f94be82ca22cbba35d2cb8943b034128a45aa39f777a6",
+    "h9_root_helper_case3.py": "96eb4a68639d38a2974066fa68d68e5b648e85a4965b68fbbeec1a49d0c3464b"
+  },
+  "proof_scope": "One new H9 second-layer class and the standalone four-three-two merging lower bound; scans only cross-check hand classifications"
+}
+{
+  "status": "VERIFIED",
+  "restrictions": 8,
+  "allowed_matchings": 1126,
+  "equality_shapes": 120,
+  "matching_survivors": 0,
+  "all_single_deletions_satisfiable": true,
+  "source_sha256": "1afc8b3fc2244f14d1edba9a096e4f34bc3fd698446dff4c53189d0c1de78ded"
+}

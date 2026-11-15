@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-15",
+  "status": "SELECTED_REPLAYS_PASSED",
+  "fresh_checks": [
+    {
+      "check": "two_layer_transfer",
+      "n_range": [
+        3,
+        11
+      ],
+      "checks": 289420
+    },
+    {
+      "check": "H7_finite_profile_data",
+      "probes": 26,
+      "representatives": 7,
+      "final_checks": 22
+    },
+    {
+      "check": "third_layer_obstruction_witnesses",
+      "prefixes": 411,
+      "normalized_placements": 5078
+    },
+    {
+      "check": "specified_D18_prefix",
+      "distinct_real_assignments": 20160,
+      "edge_price_inequalities": 153
+    },
+    {
+      "check": "construction_128",
+      "depth": 26,
+      "comparators": 1439,
+      "method": "supplied independent compositional checker"
+    },
+    {
+      "check": "construction_1024",
+      "depth": 52,
+      "comparators": 23679,
+      "sort16_blocks": 64,
+      "base_mergers": 128,
+      "cleanup_steps": 119,
+      "method": "supplied independent compositional checker"
+    },
+    {
+      "check": "construction_256",
+      "depth": 34,
+      "comparators": 3775,
+      "sorted_half_inputs": 16641,
+      "method": "certified 128-wire halves and exhaustive binary-merge check"
+    },
+    {
+      "check": "construction_512",
+      "depth": 43,
+      "comparators": 9599,
+      "sorted_half_inputs": 66049,
+      "method": "certified 256-wire halves and exhaustive binary-merge check"
+    },
+    {
+      "check": "saved_certificate_hashes",
+      "case_count": 7,
+      "file_hashes": 28,
+      "cover_hashes": 3,
+      "fresh_drat_run": false
+    },
+    {
+      "check": "H9_six_cycle",
+      "parameter_instances": 72,
+      "symbolic_rows": 9,
+      "disjoint_support_controls": 570042,
+      "overlapping_support_controls": 340768
+    },
+    {
+      "check": "H9_new_class_031246",
+      "real_order_checks": 41520,
+      "subsidiary_branch_checks": "both passed",
+      "hand_coverage": 26,
+      "total_classes": 50
+    },
+    {
+      "check": "three_triple_merger",
+      "restrictions": 8,
+      "matching_controls": 1126,
+      "survivors": 0
+    },
+    {
+      "check": "nine_real_components",
+      "small_prefix_mode_checks": 108,
+      "signed_assignments": 8676,
+      "partitions": 30,
+      "binary_trace_replays": 68608,
+      "positive_sorter_binary_inputs": 262144
+    },
+    {
+      "check": "Lean",
+      "build": "PASS",
+      "direct_source_check": "PASS",
+      "version": "4.35.0",
+      "mathlib_commit": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+      "theorems": [
+        "SortingDepth.remove_two_layers",
+        "SortingDepth.D_ceil_half_add_two"
+      ],
+      "transitive_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "scope": "Two-layer removal and the halving depth recurrence; not the arbitrary-k cap theorem, H9, merger arguments or SAT encoders"
+    }
+  ],
+  "not_rerun": [
+    "H9 full SAT or non-SAT tree search",
+    "DRAT proof checking",
+    "13,228 labelled prefix count audit",
+    "167,800 sampled transport steps",
+    "17^8-input merger cross-check",
+    "historical deletion controls and random tests"
+  ],
+  "limitations": [
+    "Proof-checker output certifies CNF unsatisfiability, not a formally verified encoder or cover theorem.",
+    "No complete D18 two-layer case closed.",
+    "Forthcoming open-model AKS derivation excluded."
+  ]
+}

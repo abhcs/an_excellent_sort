@@ -1,0 +1,59 @@
+{
+  "case": {
+    "n": 9,
+    "layers": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    ],
+    "sentence": [
+      [
+        "H",
+        "012211212"
+      ]
+    ],
+    "outputs": 89,
+    "half_blind_sets": 1,
+    "case_id": "n9-r0008"
+  },
+  "depth": 6,
+  "cover_sha256": "7b704e7d40e36d67a590ef44cc6c2d83904c30963d37ce0b38666a2e65d662e4",
+  "encoder_sha256": "960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3",
+  "solver": "cadical195",
+  "relabel_trials": 50,
+  "problem_id": "a43c5bef6a9f1dd26c8b57d94fb984e968ce377ef09488de6b07a9c02b0686b5",
+  "result_path": "/Users/abhishek/Documents/an_excellent_sort/d18-search/results/complete9-d6/n9-r0008/attempt-001.json"
+}

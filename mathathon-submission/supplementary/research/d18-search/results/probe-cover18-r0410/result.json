@@ -1,0 +1,81 @@
+{
+  "case_id": "n18-r0410",
+  "depth": 10,
+  "cut": 8,
+  "scope": "Probe positions only; no data comparisons in the ending",
+  "both_directions": true,
+  "shared_ending_routing": true,
+  "prefix": [
+    [
+      [
+        0,
+        11
+      ],
+      [
+        1,
+        17
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        3,
+        14
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        9,
+        10
+      ]
+    ],
+    [
+      [
+        0,
+        14
+      ],
+      [
+        1,
+        13
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        6,
+        17
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        11,
+        16
+      ]
+    ]
+  ],
+  "inputs": 9261,
+  "probes": 50274,
+  "variables": 671641,
+  "clauses": 15877632,
+  "source_sha256": "e07f9183616412db41b7093fbb86efe8a13acf00d413b88084454b73ccdbeef0",
+  "independently_proof_checked": false,
+  "status": "STOPPED_ON_USER_PAUSE"
+}

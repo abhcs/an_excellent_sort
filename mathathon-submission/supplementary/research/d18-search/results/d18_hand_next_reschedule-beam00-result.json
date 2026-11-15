@@ -1,0 +1,49 @@
+{
+  "status": "SURVIVOR",
+  "item_count": 40,
+  "variables": 193,
+  "clauses": 2488,
+  "scope": "Necessary normalized two-layer rescheduling condition for one common L6",
+  "input_sha256": "5a0145e21d20b81f087e65438a2fdf24c2f356defec24574177838cba2a75e72",
+  "source_sha256": "dba6165bd4a6bc0c590d6163ddc0048fc481eb97d882a5187390a4d575e53073",
+  "layer6": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      16,
+      17
+    ]
+  ],
+  "replayed_restrictions": 40,
+  "seconds": 0.002214082982391119
+}

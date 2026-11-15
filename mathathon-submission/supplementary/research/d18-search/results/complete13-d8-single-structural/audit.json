@@ -1,0 +1,12 @@
+{
+  "n": 13,
+  "depth": 8,
+  "cover_sha256": "2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406",
+  "total_cases": 117,
+  "statuses": {
+    "UNSAT": 2,
+    "NOT_SOLVED": 115
+  },
+  "outcome": "OPEN",
+  "independently_proof_checked": false
+}

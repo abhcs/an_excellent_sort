@@ -1,0 +1,110 @@
+{
+  "status": "VERIFIED",
+  "solver_invoked": false,
+  "proof_checker_invoked": false,
+  "source_sha256": "2f8918df6e243e4be83e04f8428c5041d7f08dac26ab2b855d36135fcc4839bb",
+  "direct_padding_checks": 16080,
+  "projected_families": [
+    {
+      "case": 606,
+      "n": 12,
+      "reals": 7,
+      "peak": 3,
+      "projected_states": "results/d17-feedback-round2-case606-real7-states.json",
+      "projected_sha256": "d87ac57947b15a8c32c850e5844539cfbd21971b02ad4c89ee319e6d5380cb03",
+      "compact_to_original": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "premise_audit": "results/d17-feedback-round2-pure606/audit.json",
+      "premise_audit_sha256": "918b5299455f5322b05c72546e4dc6ca57003ee439f002fda16b8d4c3f68066b"
+    },
+    {
+      "case": 606,
+      "n": 13,
+      "reals": 8,
+      "peak": 4,
+      "projected_states": "results/d17-feedback-round2-case606-real8-states.json",
+      "projected_sha256": "d374ee88e97fee1d7ec80b67b85604d882a3e97aafd5f18c194dd0096efaa3b8",
+      "compact_to_original": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "premise_audit": "results/d17-feedback-round2-pure606/audit.json",
+      "premise_audit_sha256": "918b5299455f5322b05c72546e4dc6ca57003ee439f002fda16b8d4c3f68066b"
+    },
+    {
+      "case": 608,
+      "n": 12,
+      "reals": 7,
+      "peak": 3,
+      "projected_states": "results/d17-feedback-round2-case608-real7-states.json",
+      "projected_sha256": "3ce843e65323c073035a08967f9f2353cbffc960b9fe3e56f3e36a9647d158ea",
+      "compact_to_original": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "premise_audit": "results/d17-feedback-fourteen-audit.json",
+      "premise_audit_sha256": "5bf00ca05a3af4fdc8917b1787fb1c04ec539f816cc6afa440c1db085303ad9a"
+    },
+    {
+      "case": 608,
+      "n": 13,
+      "reals": 8,
+      "peak": 4,
+      "projected_states": "results/d17-feedback-round2-case608-real8-states.json",
+      "projected_sha256": "d7ff1dc4ba0c6f39a0485214e744563915c9997ab0240709c9cbb472f91abaeb",
+      "compact_to_original": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "premise_audit": "results/d17-feedback-fourteen-audit.json",
+      "premise_audit_sha256": "5bf00ca05a3af4fdc8917b1787fb1c04ec539f816cc6afa440c1db085303ad9a"
+    }
+  ],
+  "computational_premises_retained": true,
+  "new_D18_prefix_closure": false,
+  "elapsed_seconds": 0.1154
+}

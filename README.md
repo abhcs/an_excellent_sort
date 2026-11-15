@@ -1,5 +1,17 @@
 # an_excellent_sort
 
+## Integrated Mathathon submission
+
+The current synthesis is in [mathathon-submission](mathathon-submission/README.md):
+
+- [32-page report](mathathon-submission/report.pdf) and [self-contained LaTeX source](mathathon-submission/report.tex)
+- [20-slide presentation](mathathon-submission/slides.pdf) and [editable PowerPoint](mathathon-submission/slides.pptx)
+- [Machine-readable claim ledger](mathathon-submission/supplementary/claim-ledger.json) with dependencies, source hashes, verification commands, and limits
+- [Lean source, formal statement mapping, and build instructions](mathathon-submission/supplementary/lean/README.md)
+- [Reproduction and collaborator-integration instructions](mathathon-submission/HANDOFF.md)
+
+The report emphasizes the completed hand arguments through ten wires, structural results mined from SAT-guided exploration, concrete constructions, and the remaining open work. Both Lean checks passed for two-layer removal and the halving recurrence. We plan to formalize all of the work. The forthcoming open-model AKS derivation remains pending. The original collaborator files at the repository root are retained as source material; the integrated report above is the current synthesis.
+
 A sandbox for exploring **sorting networks**: fixed sequences of
 compare-and-swap operations that sort every possible input.
 

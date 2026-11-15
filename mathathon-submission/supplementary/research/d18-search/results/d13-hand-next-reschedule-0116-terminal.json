@@ -1,0 +1,8 @@
+{
+  "status": "COMPLETED",
+  "returncode": 0,
+  "stdout": "{\"case_id\": \"n13-r0116\", \"family_size\": 1728, \"families_by_retained\": {\"7\": 1472, \"8\": 256}, \"status\": \"BUILT\", \"scope\": \"Necessary H7/H8 profiles when the retained first three layers commute into one; only L3,L4 searched\", \"prefix\": [[[0, 1], [2, 3], [4, 5], [7, 8], [9, 10], [11, 12]], [[0, 3], [1, 2], [4, 6], [7, 9], [10, 11]]], \"source_sha256\": \"5e7572625a27168589007f9c11901e03304a6f1ccf45afe7795367a1f9cb7f7f\"}\n{\"iteration\": 0, \"violations\": 150}\n{\"iteration\": 1, \"violations\": 134}\n{\"iteration\": 2, \"violations\": 38}\n{\"iteration\": 3, \"violations\": 73}\n{\"iteration\": 4, \"violations\": 37}\n{\"iteration\": 5, \"violations\": 8}\n{\"iteration\": 6, \"violations\": 49}\n{\"iteration\": 7, \"violations\": 19}\n{\"iteration\": 8, \"violations\": 2}\n{\"iteration\": 9, \"violations\": 8}\n{\"iteration\": 10, \"violations\": 5}\n{\"iteration\": 11, \"violations\": 2}\n{\"iteration\": 12, \"violations\": 10}\n{\"iteration\": 13, \"violations\": 2}\n{\"iteration\": 14, \"violations\": 11}\n{\"iteration\": 15, \"violations\": 3}\n{\"iteration\": 16, \"violations\": 0}\nSURVIVOR 11.579127290984616\n",
+  "stderr": "",
+  "seconds": 11.717620874987915,
+  "wall_limit_seconds": 60
+}

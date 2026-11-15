@@ -1,0 +1,37 @@
+{
+  "status": "VERIFIED",
+  "sat_used": false,
+  "scope": "Full twelve-wire pure two-matching obstruction; finite enumeration of every partial first matching and hand price proofs for all four-triple leaves",
+  "first_matchings": 140152,
+  "first_matching_counts_by_size": {
+    "0": 1,
+    "1": 66,
+    "2": 1485,
+    "3": 13860,
+    "4": 51975,
+    "5": 62370,
+    "6": 10395
+  },
+  "four_triple_templates": 4,
+  "labelled_cores": 3957,
+  "pure_hand_proof_of_universal_template_occurrence": false,
+  "exact_source_family_checked": true,
+  "compiler_command": [
+    "c++",
+    "-O3",
+    "-std=c++17",
+    "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/d12_triangle_scan.cpp"
+  ],
+  "binary_sha256": "d083012017356de7f6f13ceaed13b26e5fc31bd5074dbd77d914600527fe27ed",
+  "sha256": {
+    "d12_triangle_scan.cpp": "eee605474bb9ca2d4eff0c2b06a66b626d621efa9432f1bcefa65e26bcc60df8",
+    "results/d17-feedback-twelve-states.json": "4777e50f5f3c5bef4efc31fb6697f311c8d97318d3e695f0e578b43e6daff90e",
+    "results/d12-triangle-scan-four-summary.json": "8725b0da0a46c59b42f2f9eaeb64ea43f180f2a6edbfe5a535ae28e4ddb5beef",
+    "results/d12-triangle-scan-four-cores.jsonl": "40bf12c854ad0b6631e6925789810ca944aa85563a896dba9483fdca087973bd",
+    "results/d12_triangle_lemmas_verification.json": "57c6b0121837983e1f579f271095d350e28c00c4def088ae21819fe6142c668d",
+    "d12_triangle_lemmas_verify.py": "de682a9e5e17e92ea7b749554fa61aeba00ffa26088ab79be61f9cc39e5a53f3",
+    "results/d12_triangle_lemmas_catalogue.jsonl": "6744d30bea99adc027c9cc5df25a0133b7486bdd5b15f96cc5abac783f0d5ca0",
+    "d12_triangle_audit.py": "0211436aca6dfde161f2d1ac761e65950b70a440d68a8c1ff99d315fc0d83f00"
+  },
+  "seconds": 3.1533
+}

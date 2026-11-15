@@ -1,0 +1,79 @@
+{
+  "case": {
+    "n": 13,
+    "layers": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          11,
+          12
+        ]
+      ],
+      [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          10,
+          11
+        ]
+      ]
+    ],
+    "sentence": [
+      [
+        "C",
+        "1212"
+      ],
+      [
+        "H",
+        "012"
+      ],
+      [
+        "S",
+        "211212"
+      ]
+    ],
+    "outputs": 735,
+    "half_blind_sets": 8,
+    "case_id": "n13-r0116"
+  },
+  "depth": 9,
+  "cover_sha256": "2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406",
+  "encoder_sha256": "960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3",
+  "solver": "cadical195",
+  "relabel_trials": 200,
+  "problem_id": "db0141c556f73dbdb7be910a01de7864beed86a3310dca1357142dd6c74c09f6",
+  "result_path": "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/results/complete13-d9-control/n13-r0116/attempt-001.json"
+}

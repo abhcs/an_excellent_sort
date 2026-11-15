@@ -1,0 +1,8 @@
+{
+  "n": 6,
+  "cap": 2,
+  "depth": 5,
+  "status": "UNSAT",
+  "solver": "cadical195",
+  "seconds": 0.05
+}

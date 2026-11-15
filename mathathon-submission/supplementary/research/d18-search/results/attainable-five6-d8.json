@@ -1,0 +1,43 @@
+{
+  "n": 6,
+  "depth": 8,
+  "zeros": 2,
+  "suffix": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  "target_states": [
+    53,
+    54,
+    57,
+    58,
+    60
+  ],
+  "variables": 2103,
+  "clauses": 17480,
+  "status": "UNSAT",
+  "scope": "fixed ending and specified depth only",
+  "seconds": 1.7683945409953594
+}

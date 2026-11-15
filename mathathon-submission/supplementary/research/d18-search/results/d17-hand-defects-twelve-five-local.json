@@ -1,0 +1,2903 @@
+{
+  "status": "VERIFIED",
+  "scope": "Local checks for M5 proof; no enumeration of all first or second matchings",
+  "sat_used": false,
+  "remaining_local_configurations": 240,
+  "local_configuration_table": [
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        5,
+        6
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        5,
+        6
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        5,
+        6
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        5,
+        6
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        5,
+        6
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        5,
+        6
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        5,
+        6
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        5,
+        6
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        5,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        5,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        5,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        5,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        5,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        5,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        5,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        5,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        5,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        5,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        5,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        5,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        5,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        5,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        5,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        5,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        6,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        6,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        6,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        6,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        6,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        6,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        6,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        6,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        6,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        6,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        6,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        6,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        6,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        6,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        6,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        6,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        7,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        7,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        7,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        7,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        7,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        7,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        7,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 4,
+      "crossed_A": [
+        7,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        4,
+        6
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        4,
+        6
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        4,
+        6
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        4,
+        6
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        4,
+        6
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        4,
+        6
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        4,
+        6
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        4,
+        6
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        4,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        4,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        4,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        4,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        4,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        4,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        4,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        4,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        4,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        4,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        4,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        4,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        4,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        4,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        4,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        4,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        6,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        6,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        6,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        6,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        6,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        6,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        6,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        6,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        6,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        6,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        6,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        6,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        6,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        6,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        6,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        6,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        7,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        7,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        7,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        7,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        7,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        7,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        7,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 5,
+      "crossed_A": [
+        7,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        4,
+        5
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        4,
+        5
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        4,
+        5
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        4,
+        5
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        4,
+        5
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        4,
+        5
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        4,
+        5
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        4,
+        5
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        4,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        4,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        4,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        4,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        4,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        4,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        4,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        4,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        4,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        4,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        4,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        4,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        4,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        4,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        4,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        4,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        5,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        5,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        5,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        5,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        5,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        5,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        5,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        5,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        5,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        5,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        5,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        5,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        5,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        5,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        5,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        5,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        7,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        7,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        7,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        7,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        7,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        7,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        7,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 6,
+      "crossed_A": [
+        7,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        4,
+        5
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        4,
+        5
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        4,
+        5
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        4,
+        5
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        4,
+        5
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        4,
+        5
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        4,
+        5
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        4,
+        5
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        4,
+        6
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        4,
+        6
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        4,
+        6
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        4,
+        6
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        4,
+        6
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        4,
+        6
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        4,
+        6
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        4,
+        6
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        4,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        4,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        4,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        4,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        4,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        4,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        4,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        4,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        5,
+        6
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        5,
+        6
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        5,
+        6
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        5,
+        6
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        5,
+        6
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        5,
+        6
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        5,
+        6
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        5,
+        6
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        5,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        5,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        5,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        5,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        5,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        5,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        5,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        5,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        6,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        6,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        6,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        6,
+        8
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        6,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        6,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        6,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 7,
+      "crossed_A": [
+        6,
+        8
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        4,
+        5
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        4,
+        5
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        4,
+        5
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        4,
+        5
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        4,
+        5
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        4,
+        5
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        4,
+        5
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        4,
+        5
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        4,
+        6
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        4,
+        6
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        4,
+        6
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        4,
+        6
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        4,
+        6
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        4,
+        6
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        4,
+        6
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        4,
+        6
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        4,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        4,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        4,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        4,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        4,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        4,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        4,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        4,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        5,
+        6
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        5,
+        6
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        5,
+        6
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        5,
+        6
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        5,
+        6
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        5,
+        6
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        5,
+        6
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        5,
+        6
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        5,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        5,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        5,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        5,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        5,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        5,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        5,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        5,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        6,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        6,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        6,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        6,
+        7
+      ],
+      "other_A_mode": "AA",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        6,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        false
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        6,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        false,
+        true
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        6,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        false
+      ]
+    },
+    {
+      "idle_A": 8,
+      "crossed_A": [
+        6,
+        7
+      ],
+      "other_A_mode": "AU",
+      "cross_same_sign": [
+        true,
+        true
+      ]
+    }
+  ],
+  "corrected_row_transport_checks": 320,
+  "B_sign_assignments": 32,
+  "comparability_checks": 1488,
+  "incomparable_A_idle_pairs": [
+    [
+      4,
+      7
+    ],
+    [
+      4,
+      8
+    ]
+  ],
+  "one_idle_row_partner_boundary_passed": true,
+  "source_sha256": "e47bd71d8e0c8295458ce050e71172742f8fec77e6e582fb45607dbcf1bfdea0"
+}

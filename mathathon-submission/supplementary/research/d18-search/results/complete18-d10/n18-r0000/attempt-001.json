@@ -1,0 +1,8 @@
+{
+  "problem_id": "0b68790a7df0326e2717b687cd05f2061600b45f47fa6aee09860955067daa20",
+  "case_id": "n18-r0000",
+  "cover_sha256": "3479c72a3dce2fe1d58d0fa80e11ccbdf9286c00b8585b1a15f23e325cb55ed2",
+  "encoder_sha256": "960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3",
+  "status": "TIME_LIMIT",
+  "seconds": 600.02
+}

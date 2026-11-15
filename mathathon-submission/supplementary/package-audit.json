@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "frozen_source_files": 1228,
+  "claim_entries": 20,
+  "certificate_bundles": 7,
+  "certificate_files": 28,
+  "complete_cover_hashes": 3,
+  "fresh_drat_run": false,
+  "scope": "Byte consistency only; not formal encoder or cover verification."
+}

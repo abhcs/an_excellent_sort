@@ -1,0 +1,65 @@
+{
+  "case_id": "n13-r0116",
+  "depth": 8,
+  "cut": 6,
+  "scope": "Probe positions only; no completion or sorting constraints",
+  "both_directions": true,
+  "prefix": [
+    [
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        5,
+        10
+      ]
+    ],
+    [
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        4,
+        12
+      ]
+    ]
+  ],
+  "inputs": 735,
+  "probes": 2905,
+  "variables": 24292,
+  "clauses": 350357,
+  "source_sha256": "00ec7c230040bf43df03e7b5cf1f81a5275a09c0da5b16b87374af3d02b51113",
+  "independently_proof_checked": false,
+  "status": "UNSAT",
+  "seconds": 24.583
+}

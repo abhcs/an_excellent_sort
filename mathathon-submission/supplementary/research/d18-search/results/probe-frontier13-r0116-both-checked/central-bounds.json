@@ -1,0 +1,28 @@
+{
+  "ranks": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "channels": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "bound": 4,
+  "independently_proof_checked": true,
+  "cnf_sha256": "a28988e8532237e48ceb6df2465dc6680c370ae5116811d3811f5baed79be1f7",
+  "proof_sha256": "7fcc71435c592a7cd5d100bf61dafd271310a4485c6d60b7fcf8b781582da02d"
+}

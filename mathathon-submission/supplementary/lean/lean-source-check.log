@@ -1,0 +1,162 @@
+SortingDepth.lean:44:17: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+SortingDepth.lean:44:41: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+SortingDepth.lean:64:70: warning: This simp argument is unused:
+  Function.comp_def
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [run, h, hf.map_min, hf.map_max]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+SortingDepth.lean:75:39: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+SortingDepth.lean:78:39: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+SortingDepth.lean:75:26: warning: This simp argument is unused:
+  L.mate_mate
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [run, if_pos hl.le] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+SortingDepth.lean:78:26: warning: This simp argument is unused:
+  L.mate_mate
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [run, if_neg (not_le_of_gt hl)] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+SortingDepth.lean:81:19: warning: This simp argument is unused:
+  L.inv
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h, hj]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+SortingDepth.lean:115:74: warning: This simp argument is unused:
+  L.inv
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [switch, hh]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+SortingDepth.lean:199:12: warning: This simp argument is unused:
+  hab
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hab.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+SortingDepth.lean:202:12: warning: This simp argument is unused:
+  hab
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hab.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+SortingDepth.lean:243:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+SortingDepth.lean:432:29: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+SortingDepth.lean:486:63: warning: This simp argument is unused:
+  WithBot.coe_lt_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [encode, mid_ne_bot, high_ne_bot, high_ne_mid, value] at h ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+SortingDepth.lean:487:49: warning: Unused tactic linter: `exact h.elim` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+SortingDepth.lean:488:6: warning: Unused tactic linter: `exact WithBot.bot_lt_coe _` does nothing.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+SortingDepth.lean:630:14: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+SortingDepth.lean:630:43: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+SortingDepth.lean:632:24: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+SortingDepth.lean:633:38: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+SortingDepth.lean:635:14: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+SortingDepth.lean:635:48: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+SortingDepth.lean:635:79: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+SortingDepth.lean:636:38: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+SortingDepth.lean:638:14: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+SortingDepth.lean:638:47: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+SortingDepth.lean:639:12: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+SortingDepth.lean:640:38: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+SortingDepth.lean:644:14: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+SortingDepth.lean:644:44: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+SortingDepth.lean:646:24: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+SortingDepth.lean:647:38: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+SortingDepth.lean:743:6: warning: This simp argument is unused:
+  WithBot.coe_le_coe.mpr (le_top : (WithTop.some () : WithTop Unit) ≤ ⊤)
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Layer.run, mask, hi, hm, hlt.le, not_le_of_gt hlt, high, mid]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'SortingDepth.remove_two_layers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SortingDepth.D_ceil_half_add_two' depends on axioms: [propext, Classical.choice, Quot.sound]

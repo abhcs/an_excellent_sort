@@ -1,0 +1,12 @@
+{
+  "exhaustive_prefixes": 1196,
+  "completable_prefixes": 930,
+  "five_wire_canonical_first_layer_prefixes": 676,
+  "five_wire_completable": 140,
+  "unrestricted_matching_enumeration_agrees": true,
+  "rectangle_exclusions_checked": true,
+  "inversion_graph_equality_checked": true,
+  "positive_topology_and_cube_checks": true,
+  "cube_certificate_runs": 8,
+  "corrupted_cube_rejected": true
+}

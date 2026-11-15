@@ -1,0 +1,695 @@
+{
+  "new_classes": 3,
+  "old_hand_classes": 18,
+  "combined_hand_classes": 21,
+  "total_second_layer_classes": 50,
+  "direct_permutation_checks": 181440,
+  "matching_deletion_checks": 94320,
+  "commuting_screen_total_excluded": 20,
+  "commuting_screen_new_excluded": [
+    [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    [
+      [
+        0,
+        3
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    [
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        7
+      ]
+    ]
+  ],
+  "cases": [
+    {
+      "second_layer": [
+        [
+          0,
+          3
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "certificates": [
+        {
+          "placement": {
+            "0": -1
+          },
+          "retained_layers": [
+            [
+              [
+                2,
+                3
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              [
+                6,
+                7
+              ]
+            ]
+          ],
+          "sentinel_states": [
+            [
+              -1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "final_track_labels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "sentinel_positions": [
+            0
+          ],
+          "required_real_comparators_in_third": 4,
+          "direct_permutation_checks": 40320
+        },
+        {
+          "placement": {
+            "3": 1
+          },
+          "retained_layers": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              [
+                6,
+                7
+              ]
+            ]
+          ],
+          "sentinel_states": [
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "final_track_labels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "sentinel_positions": [
+            3
+          ],
+          "required_real_comparators_in_third": 4,
+          "direct_permutation_checks": 40320
+        }
+      ],
+      "third_layers_checked": 2620,
+      "sequential_remaining_third_layers": [
+        105,
+        0
+      ]
+    },
+    {
+      "second_layer": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "certificates": [
+        {
+          "placement": {
+            "0": -1
+          },
+          "retained_layers": [
+            [
+              [
+                2,
+                3
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              [
+                1,
+                7
+              ]
+            ]
+          ],
+          "sentinel_states": [
+            [
+              -1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "final_track_labels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "sentinel_positions": [
+            0
+          ],
+          "required_real_comparators_in_third": 4,
+          "direct_permutation_checks": 40320
+        },
+        {
+          "placement": {
+            "1": 1
+          },
+          "retained_layers": [
+            [
+              [
+                2,
+                3
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              [
+                0,
+                6
+              ]
+            ]
+          ],
+          "sentinel_states": [
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          ],
+          "final_track_labels": [
+            0,
+            7,
+            2,
+            3,
+            4,
+            5,
+            6,
+            1,
+            8
+          ],
+          "sentinel_positions": [
+            7
+          ],
+          "required_real_comparators_in_third": 4,
+          "direct_permutation_checks": 40320
+        }
+      ],
+      "third_layers_checked": 2620,
+      "sequential_remaining_third_layers": [
+        105,
+        0
+      ]
+    },
+    {
+      "second_layer": [
+        [
+          0,
+          3
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "certificates": [
+        {
+          "placement": {
+            "0": -1,
+            "4": -1
+          },
+          "retained_layers": [
+            [
+              [
+                2,
+                3
+              ]
+            ],
+            [
+              [
+                5,
+                7
+              ]
+            ]
+          ],
+          "sentinel_states": [
+            [
+              -1,
+              0,
+              0,
+              0,
+              -1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              0,
+              0,
+              -1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              0,
+              0,
+              -1,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "final_track_labels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "sentinel_positions": [
+            0,
+            4
+          ],
+          "required_real_comparators_in_third": 3,
+          "direct_permutation_checks": 5040
+        },
+        {
+          "placement": {
+            "0": -1,
+            "5": 1
+          },
+          "retained_layers": [
+            [
+              [
+                2,
+                3
+              ]
+            ],
+            [
+              [
+                4,
+                6
+              ]
+            ]
+          ],
+          "sentinel_states": [
+            [
+              -1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          ],
+          "final_track_labels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            7,
+            6,
+            5,
+            8
+          ],
+          "sentinel_positions": [
+            0,
+            7
+          ],
+          "required_real_comparators_in_third": 3,
+          "direct_permutation_checks": 5040
+        },
+        {
+          "placement": {
+            "3": 1,
+            "4": -1
+          },
+          "retained_layers": [
+            [
+              [
+                0,
+                1
+              ]
+            ],
+            [
+              [
+                5,
+                7
+              ]
+            ]
+          ],
+          "sentinel_states": [
+            [
+              0,
+              0,
+              0,
+              1,
+              -1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              -1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              -1,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "final_track_labels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "sentinel_positions": [
+            3,
+            4
+          ],
+          "required_real_comparators_in_third": 3,
+          "direct_permutation_checks": 5040
+        },
+        {
+          "placement": {
+            "3": 1,
+            "5": 1
+          },
+          "retained_layers": [
+            [
+              [
+                0,
+                1
+              ]
+            ],
+            [
+              [
+                4,
+                6
+              ]
+            ]
+          ],
+          "sentinel_states": [
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0
+            ]
+          ],
+          "final_track_labels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            7,
+            6,
+            5,
+            8
+          ],
+          "sentinel_positions": [
+            3,
+            7
+          ],
+          "required_real_comparators_in_third": 3,
+          "direct_permutation_checks": 5040
+        }
+      ],
+      "third_layers_checked": 2620,
+      "sequential_remaining_third_layers": [
+        420,
+        150,
+        30,
+        0
+      ]
+    }
+  ],
+  "source_sha256": "f1afb52ba82a78c37136dea976e841a0532f64dcdcf2458a111ff6536cdeeab7"
+}

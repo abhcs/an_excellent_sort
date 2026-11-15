@@ -1,0 +1,8 @@
+{
+  "terminal": "EXITED",
+  "returncode": 0,
+  "wall_cap_seconds": 30,
+  "seconds": 0.06546495796646923,
+  "stdout": "{\"status\": \"UNSAT_UNCHECKED\", \"blocks\": [3, 1, 1], \"depth\": 3, \"inputs\": 16, \"variables\": 195, \"clauses\": 1913, \"normal_forms\": false, \"source_sha256\": \"26dc918cf4c53f8b51b555d818205a70627aff34cd8950c218848cdf74bfbb4d\", \"certificate_directory\": \"d18-search/results/d13_feedback_round3-merger311-bare\", \"cnf_sha256\": \"c8333d35ad189fd8f085aa58da117e8c6b304fd4f8391050170b57a2f588d1ef\", \"proof_sha256\": \"bc5c270119e0fdd5a112f01f31a9d876de2754d82d644feb30b275f8c100b204\", \"seconds\": 0.007227708003483713}\n",
+  "stderr": ""
+}

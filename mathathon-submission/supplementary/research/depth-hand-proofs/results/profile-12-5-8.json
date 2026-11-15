@@ -1,0 +1,8 @@
+{
+  "n": 12,
+  "cap": 5,
+  "depth": 8,
+  "status": "TIME_LIMIT",
+  "solver": "cadical195",
+  "seconds": 303.833
+}

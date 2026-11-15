@@ -1,0 +1,9 @@
+{
+  "n": 8,
+  "cap": 3,
+  "depth": 6,
+  "status": "UNSAT",
+  "solver": "cadical195",
+  "encoder": "windows",
+  "seconds": 0.499
+}

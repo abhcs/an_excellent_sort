@@ -1,0 +1,9 @@
+{
+  "n": 12,
+  "cap": 5,
+  "depth": 8,
+  "status": "TIME_LIMIT",
+  "solver": "kissat404",
+  "encoder": "windows",
+  "seconds": 180.027
+}

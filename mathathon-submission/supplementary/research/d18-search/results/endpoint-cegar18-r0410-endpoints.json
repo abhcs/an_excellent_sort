@@ -1,0 +1,1608 @@
+{
+  "case_id": "n18-r0410",
+  "n": 18,
+  "depth": 10,
+  "cut": 8,
+  "prefix": [
+    [
+      [
+        0,
+        11
+      ],
+      [
+        1,
+        17
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        3,
+        14
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        8,
+        16
+      ],
+      [
+        9,
+        10
+      ]
+    ],
+    [
+      [
+        0,
+        14
+      ],
+      [
+        1,
+        13
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        6,
+        17
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        11,
+        16
+      ]
+    ]
+  ],
+  "wires": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "cap": 4,
+  "mode": "endpoints",
+  "scope": "All continuations of fixed prefix; selected wire intervals only",
+  "source_sha256": "22768b03673525e930c722acde18c6d4c77049a0e1e6f16615801908b1e39aa1",
+  "status": "TIME_LIMIT",
+  "independently_proof_checked": false,
+  "universe_size": 9261,
+  "iterations": [
+    {
+      "iteration": 0,
+      "solve_seconds": 0.00013108295388519764,
+      "oracle_seconds": 0.00010170892346650362,
+      "violated_wires": 18,
+      "input_count": 0,
+      "maximum_width": 15,
+      "added_witnesses": [
+        {
+          "wire": 5,
+          "lo": 1,
+          "hi": 15,
+          "width": 15,
+          "zero_witness": 262095,
+          "one_witness": 131168
+        },
+        {
+          "wire": 9,
+          "lo": 1,
+          "hi": 15,
+          "width": 15,
+          "zero_witness": 261375,
+          "one_witness": 34304
+        },
+        {
+          "wire": 1,
+          "lo": 1,
+          "hi": 14,
+          "width": 14,
+          "zero_witness": 262131,
+          "one_witness": 81929
+        },
+        {
+          "wire": 3,
+          "lo": 3,
+          "hi": 16,
+          "width": 14,
+          "zero_witness": 262128,
+          "one_witness": 16392
+        },
+        {
+          "wire": 6,
+          "lo": 1,
+          "hi": 14,
+          "width": 14,
+          "zero_witness": 261983,
+          "one_witness": 135360
+        },
+        {
+          "wire": 7,
+          "lo": 3,
+          "hi": 16,
+          "width": 14,
+          "zero_witness": 261903,
+          "one_witness": 4224
+        },
+        {
+          "wire": 10,
+          "lo": 1,
+          "hi": 14,
+          "width": 14,
+          "zero_witness": 259839,
+          "one_witness": 99072
+        },
+        {
+          "wire": 11,
+          "lo": 3,
+          "hi": 16,
+          "width": 14,
+          "zero_witness": 258303,
+          "one_witness": 33280
+        },
+        {
+          "wire": 16,
+          "lo": 3,
+          "hi": 16,
+          "width": 14,
+          "zero_witness": 130973,
+          "one_witness": 196608
+        },
+        {
+          "wire": 2,
+          "lo": 1,
+          "hi": 13,
+          "width": 13,
+          "zero_witness": 262133,
+          "one_witness": 53260
+        },
+        {
+          "wire": 8,
+          "lo": 0,
+          "hi": 12,
+          "width": 13,
+          "zero_witness": 261631,
+          "one_witness": 102144
+        },
+        {
+          "wire": 12,
+          "lo": 2,
+          "hi": 14,
+          "width": 13,
+          "zero_witness": 245750,
+          "one_witness": 61440
+        },
+        {
+          "wire": 4,
+          "lo": 0,
+          "hi": 11,
+          "width": 12,
+          "zero_witness": 262015,
+          "one_witness": 143600
+        },
+        {
+          "wire": 13,
+          "lo": 5,
+          "hi": 16,
+          "width": 12,
+          "zero_witness": 249705,
+          "one_witness": 20480
+        },
+        {
+          "wire": 14,
+          "lo": 5,
+          "hi": 16,
+          "width": 12,
+          "zero_witness": 223611,
+          "one_witness": 12288
+        },
+        {
+          "wire": 17,
+          "lo": 7,
+          "hi": 17,
+          "width": 11,
+          "zero_witness": 63132,
+          "one_witness": 65536
+        },
+        {
+          "wire": 0,
+          "lo": 0,
+          "hi": 8,
+          "width": 9,
+          "zero_witness": 262135,
+          "one_witness": 258063
+        },
+        {
+          "wire": 15,
+          "lo": 11,
+          "hi": 17,
+          "width": 7,
+          "zero_witness": 199008,
+          "one_witness": 4096
+        }
+      ]
+    },
+    {
+      "iteration": 1,
+      "solve_seconds": 0.005747666931711137,
+      "oracle_seconds": 0.00012854207307100296,
+      "violated_wires": 16,
+      "input_count": 36,
+      "maximum_width": 13,
+      "added_witnesses": [
+        {
+          "wire": 8,
+          "lo": 3,
+          "hi": 15,
+          "width": 13,
+          "zero_witness": 261846,
+          "one_witness": 24584
+        },
+        {
+          "wire": 11,
+          "lo": 5,
+          "hi": 15,
+          "width": 11,
+          "zero_witness": 252333,
+          "one_witness": 75776
+        },
+        {
+          "wire": 3,
+          "lo": 1,
+          "hi": 10,
+          "width": 10,
+          "zero_witness": 261503,
+          "one_witness": 88457
+        },
+        {
+          "wire": 4,
+          "lo": 2,
+          "hi": 11,
+          "width": 10,
+          "zero_witness": 259327,
+          "one_witness": 111248
+        },
+        {
+          "wire": 5,
+          "lo": 1,
+          "hi": 10,
+          "width": 10,
+          "zero_witness": 261115,
+          "one_witness": 113796
+        },
+        {
+          "wire": 9,
+          "lo": 5,
+          "hi": 14,
+          "width": 10,
+          "zero_witness": 129945,
+          "one_witness": 38400
+        },
+        {
+          "wire": 6,
+          "lo": 3,
+          "hi": 11,
+          "width": 9,
+          "zero_witness": 130973,
+          "one_witness": 207200
+        },
+        {
+          "wire": 7,
+          "lo": 3,
+          "hi": 11,
+          "width": 9,
+          "zero_witness": 261549,
+          "one_witness": 189458
+        },
+        {
+          "wire": 10,
+          "lo": 6,
+          "hi": 14,
+          "width": 9,
+          "zero_witness": 194078,
+          "one_witness": 163936
+        },
+        {
+          "wire": 12,
+          "lo": 5,
+          "hi": 13,
+          "width": 9,
+          "zero_witness": 251876,
+          "one_witness": 58384
+        },
+        {
+          "wire": 13,
+          "lo": 8,
+          "hi": 15,
+          "width": 8,
+          "zero_witness": 223585,
+          "one_witness": 20488
+        },
+        {
+          "wire": 15,
+          "lo": 9,
+          "hi": 16,
+          "width": 8,
+          "zero_witness": 189466,
+          "one_witness": 33280
+        },
+        {
+          "wire": 2,
+          "lo": 1,
+          "hi": 7,
+          "width": 7,
+          "zero_witness": 262047,
+          "one_witness": 257138
+        },
+        {
+          "wire": 0,
+          "lo": 0,
+          "hi": 5,
+          "width": 6,
+          "zero_witness": 261631,
+          "one_witness": 260763
+        },
+        {
+          "wire": 14,
+          "lo": 11,
+          "hi": 16,
+          "width": 6,
+          "zero_witness": 229728,
+          "one_witness": 4224
+        },
+        {
+          "wire": 16,
+          "lo": 12,
+          "hi": 16,
+          "width": 5,
+          "zero_witness": 38404,
+          "one_witness": 12288
+        }
+      ]
+    },
+    {
+      "iteration": 2,
+      "solve_seconds": 0.04752545792143792,
+      "oracle_seconds": 0.00013783399481326342,
+      "violated_wires": 17,
+      "input_count": 63,
+      "maximum_width": 11,
+      "added_witnesses": [
+        {
+          "wire": 6,
+          "lo": 1,
+          "hi": 11,
+          "width": 11,
+          "zero_witness": 261759,
+          "one_witness": 168672
+        },
+        {
+          "wire": 13,
+          "lo": 6,
+          "hi": 16,
+          "width": 11,
+          "zero_witness": 227419,
+          "one_witness": 131104
+        },
+        {
+          "wire": 4,
+          "lo": 2,
+          "hi": 11,
+          "width": 10,
+          "zero_witness": 262122,
+          "one_witness": 176658
+        },
+        {
+          "wire": 5,
+          "lo": 4,
+          "hi": 13,
+          "width": 10,
+          "zero_witness": 130957,
+          "one_witness": 45076
+        },
+        {
+          "wire": 8,
+          "lo": 4,
+          "hi": 13,
+          "width": 10,
+          "zero_witness": 244214,
+          "one_witness": 90384
+        },
+        {
+          "wire": 10,
+          "lo": 5,
+          "hi": 14,
+          "width": 10,
+          "zero_witness": 227818,
+          "one_witness": 172064
+        },
+        {
+          "wire": 12,
+          "lo": 4,
+          "hi": 13,
+          "width": 10,
+          "zero_witness": 194294,
+          "one_witness": 28808
+        },
+        {
+          "wire": 7,
+          "lo": 3,
+          "hi": 10,
+          "width": 8,
+          "zero_witness": 243702,
+          "one_witness": 185952
+        },
+        {
+          "wire": 9,
+          "lo": 5,
+          "hi": 12,
+          "width": 8,
+          "zero_witness": 244854,
+          "one_witness": 54788
+        },
+        {
+          "wire": 1,
+          "lo": 0,
+          "hi": 6,
+          "width": 7,
+          "zero_witness": 262135,
+          "one_witness": 257146
+        },
+        {
+          "wire": 11,
+          "lo": 9,
+          "hi": 15,
+          "width": 7,
+          "zero_witness": 112512,
+          "one_witness": 12304
+        },
+        {
+          "wire": 16,
+          "lo": 10,
+          "hi": 16,
+          "width": 7,
+          "zero_witness": 116233,
+          "one_witness": 65792
+        },
+        {
+          "wire": 3,
+          "lo": 1,
+          "hi": 6,
+          "width": 6,
+          "zero_witness": 261375,
+          "one_witness": 243636
+        },
+        {
+          "wire": 14,
+          "lo": 11,
+          "hi": 16,
+          "width": 6,
+          "zero_witness": 172640,
+          "one_witness": 8208
+        },
+        {
+          "wire": 15,
+          "lo": 12,
+          "hi": 17,
+          "width": 6,
+          "zero_witness": 196960,
+          "one_witness": 4096
+        },
+        {
+          "wire": 2,
+          "lo": 1,
+          "hi": 5,
+          "width": 5,
+          "zero_witness": 261615,
+          "one_witness": 227803
+        },
+        {
+          "wire": 17,
+          "lo": 13,
+          "hi": 17,
+          "width": 5,
+          "zero_witness": 28688,
+          "one_witness": 65536
+        }
+      ]
+    },
+    {
+      "iteration": 3,
+      "solve_seconds": 0.6270953749772161,
+      "oracle_seconds": 0.00013866601511836052,
+      "violated_wires": 15,
+      "input_count": 93,
+      "maximum_width": 11,
+      "added_witnesses": [
+        {
+          "wire": 6,
+          "lo": 2,
+          "hi": 12,
+          "width": 11,
+          "zero_witness": 262003,
+          "one_witness": 159936
+        },
+        {
+          "wire": 7,
+          "lo": 2,
+          "hi": 12,
+          "width": 11,
+          "zero_witness": 259711,
+          "one_witness": 201152
+        },
+        {
+          "wire": 11,
+          "lo": 5,
+          "hi": 14,
+          "width": 10,
+          "zero_witness": 253733,
+          "one_witness": 76032
+        },
+        {
+          "wire": 13,
+          "lo": 6,
+          "hi": 15,
+          "width": 10,
+          "zero_witness": 244674,
+          "one_witness": 81928
+        },
+        {
+          "wire": 4,
+          "lo": 3,
+          "hi": 11,
+          "width": 9,
+          "zero_witness": 258558,
+          "one_witness": 177170
+        },
+        {
+          "wire": 8,
+          "lo": 4,
+          "hi": 12,
+          "width": 9,
+          "zero_witness": 245234,
+          "one_witness": 159754
+        },
+        {
+          "wire": 9,
+          "lo": 4,
+          "hi": 12,
+          "width": 9,
+          "zero_witness": 259542,
+          "one_witness": 94232
+        },
+        {
+          "wire": 12,
+          "lo": 7,
+          "hi": 15,
+          "width": 9,
+          "zero_witness": 190072,
+          "one_witness": 12416
+        },
+        {
+          "wire": 2,
+          "lo": 1,
+          "hi": 8,
+          "width": 8,
+          "zero_witness": 259839,
+          "one_witness": 258500
+        },
+        {
+          "wire": 5,
+          "lo": 2,
+          "hi": 9,
+          "width": 8,
+          "zero_witness": 260062,
+          "one_witness": 128529
+        },
+        {
+          "wire": 10,
+          "lo": 7,
+          "hi": 14,
+          "width": 8,
+          "zero_witness": 211440,
+          "one_witness": 42000
+        },
+        {
+          "wire": 15,
+          "lo": 9,
+          "hi": 16,
+          "width": 8,
+          "zero_witness": 225306,
+          "one_witness": 40960
+        },
+        {
+          "wire": 1,
+          "lo": 0,
+          "hi": 6,
+          "width": 7,
+          "zero_witness": 262141,
+          "one_witness": 245106
+        },
+        {
+          "wire": 3,
+          "lo": 0,
+          "hi": 6,
+          "width": 7,
+          "zero_witness": 262135,
+          "one_witness": 194266
+        },
+        {
+          "wire": 14,
+          "lo": 11,
+          "hi": 16,
+          "width": 6,
+          "zero_witness": 112896,
+          "one_witness": 16392
+        }
+      ]
+    },
+    {
+      "iteration": 4,
+      "solve_seconds": 0.8012890829704702,
+      "oracle_seconds": 0.00013804202899336815,
+      "violated_wires": 16,
+      "input_count": 120,
+      "maximum_width": 11,
+      "added_witnesses": [
+        {
+          "wire": 12,
+          "lo": 5,
+          "hi": 15,
+          "width": 11,
+          "zero_witness": 122765,
+          "one_witness": 200704
+        },
+        {
+          "wire": 5,
+          "lo": 4,
+          "hi": 13,
+          "width": 10,
+          "zero_witness": 259279,
+          "one_witness": 106768
+        },
+        {
+          "wire": 8,
+          "lo": 3,
+          "hi": 12,
+          "width": 10,
+          "zero_witness": 259703,
+          "one_witness": 104708
+        },
+        {
+          "wire": 9,
+          "lo": 3,
+          "hi": 12,
+          "width": 10,
+          "zero_witness": 261581,
+          "one_witness": 124416
+        },
+        {
+          "wire": 11,
+          "lo": 6,
+          "hi": 15,
+          "width": 10,
+          "zero_witness": 194246,
+          "one_witness": 40976
+        },
+        {
+          "wire": 6,
+          "lo": 2,
+          "hi": 10,
+          "width": 9,
+          "zero_witness": 260351,
+          "one_witness": 119821
+        },
+        {
+          "wire": 7,
+          "lo": 5,
+          "hi": 13,
+          "width": 9,
+          "zero_witness": 130961,
+          "one_witness": 86025
+        },
+        {
+          "wire": 10,
+          "lo": 5,
+          "hi": 13,
+          "width": 9,
+          "zero_witness": 253229,
+          "one_witness": 46208
+        },
+        {
+          "wire": 2,
+          "lo": 0,
+          "hi": 7,
+          "width": 8,
+          "zero_witness": 261887,
+          "one_witness": 245188
+        },
+        {
+          "wire": 3,
+          "lo": 1,
+          "hi": 8,
+          "width": 8,
+          "zero_witness": 261629,
+          "one_witness": 223571
+        },
+        {
+          "wire": 13,
+          "lo": 8,
+          "hi": 15,
+          "width": 8,
+          "zero_witness": 251945,
+          "one_witness": 12416
+        },
+        {
+          "wire": 0,
+          "lo": 0,
+          "hi": 6,
+          "width": 7,
+          "zero_witness": 262111,
+          "one_witness": 257337
+        },
+        {
+          "wire": 1,
+          "lo": 0,
+          "hi": 6,
+          "width": 7,
+          "zero_witness": 261631,
+          "one_witness": 259607
+        },
+        {
+          "wire": 4,
+          "lo": 1,
+          "hi": 7,
+          "width": 7,
+          "zero_witness": 262103,
+          "one_witness": 258253
+        },
+        {
+          "wire": 14,
+          "lo": 10,
+          "hi": 16,
+          "width": 7,
+          "zero_witness": 173168,
+          "one_witness": 73728
+        },
+        {
+          "wire": 15,
+          "lo": 10,
+          "hi": 16,
+          "width": 7,
+          "zero_witness": 109840,
+          "one_witness": 33280
+        }
+      ]
+    },
+    {
+      "iteration": 5,
+      "solve_seconds": 0.947287957998924,
+      "oracle_seconds": 0.00013675005175173283,
+      "violated_wires": 15,
+      "input_count": 149,
+      "maximum_width": 9,
+      "added_witnesses": [
+        {
+          "wire": 3,
+          "lo": 2,
+          "hi": 10,
+          "width": 9,
+          "zero_witness": 259835,
+          "one_witness": 215337
+        },
+        {
+          "wire": 5,
+          "lo": 3,
+          "hi": 11,
+          "width": 9,
+          "zero_witness": 261849,
+          "one_witness": 159826
+        },
+        {
+          "wire": 9,
+          "lo": 5,
+          "hi": 13,
+          "width": 9,
+          "zero_witness": 130968,
+          "one_witness": 46084
+        },
+        {
+          "wire": 10,
+          "lo": 6,
+          "hi": 14,
+          "width": 9,
+          "zero_witness": 130197,
+          "one_witness": 147496
+        },
+        {
+          "wire": 11,
+          "lo": 6,
+          "hi": 14,
+          "width": 9,
+          "zero_witness": 245524,
+          "one_witness": 139282
+        },
+        {
+          "wire": 13,
+          "lo": 6,
+          "hi": 14,
+          "width": 9,
+          "zero_witness": 240498,
+          "one_witness": 99584
+        },
+        {
+          "wire": 6,
+          "lo": 3,
+          "hi": 10,
+          "width": 8,
+          "zero_witness": 256891,
+          "one_witness": 185868
+        },
+        {
+          "wire": 7,
+          "lo": 2,
+          "hi": 9,
+          "width": 8,
+          "zero_witness": 260479,
+          "one_witness": 114448
+        },
+        {
+          "wire": 15,
+          "lo": 9,
+          "hi": 16,
+          "width": 8,
+          "zero_witness": 215337,
+          "one_witness": 98304
+        },
+        {
+          "wire": 2,
+          "lo": 2,
+          "hi": 8,
+          "width": 7,
+          "zero_witness": 259327,
+          "one_witness": 177876
+        },
+        {
+          "wire": 8,
+          "lo": 6,
+          "hi": 12,
+          "width": 7,
+          "zero_witness": 122253,
+          "one_witness": 54792
+        },
+        {
+          "wire": 12,
+          "lo": 10,
+          "hi": 15,
+          "width": 6,
+          "zero_witness": 127120,
+          "one_witness": 36868
+        },
+        {
+          "wire": 14,
+          "lo": 11,
+          "hi": 16,
+          "width": 6,
+          "zero_witness": 111620,
+          "one_witness": 4224
+        },
+        {
+          "wire": 16,
+          "lo": 11,
+          "hi": 16,
+          "width": 6,
+          "zero_witness": 139378,
+          "one_witness": 12288
+        },
+        {
+          "wire": 4,
+          "lo": 1,
+          "hi": 5,
+          "width": 5,
+          "zero_witness": 260607,
+          "one_witness": 259691
+        }
+      ]
+    },
+    {
+      "iteration": 6,
+      "solve_seconds": 4.759686541976407,
+      "oracle_seconds": 0.00013908289838582277,
+      "violated_wires": 16,
+      "input_count": 175,
+      "maximum_width": 10,
+      "added_witnesses": [
+        {
+          "wire": 7,
+          "lo": 3,
+          "hi": 12,
+          "width": 10,
+          "zero_witness": 261105,
+          "one_witness": 159880
+        },
+        {
+          "wire": 5,
+          "lo": 4,
+          "hi": 12,
+          "width": 9,
+          "zero_witness": 194174,
+          "one_witness": 176272
+        },
+        {
+          "wire": 6,
+          "lo": 3,
+          "hi": 11,
+          "width": 9,
+          "zero_witness": 245494,
+          "one_witness": 221233
+        },
+        {
+          "wire": 10,
+          "lo": 5,
+          "hi": 13,
+          "width": 9,
+          "zero_witness": 259229,
+          "one_witness": 53768
+        },
+        {
+          "wire": 11,
+          "lo": 6,
+          "hi": 14,
+          "width": 9,
+          "zero_witness": 244578,
+          "one_witness": 135328
+        },
+        {
+          "wire": 4,
+          "lo": 1,
+          "hi": 8,
+          "width": 8,
+          "zero_witness": 260607,
+          "one_witness": 244400
+        },
+        {
+          "wire": 8,
+          "lo": 3,
+          "hi": 10,
+          "width": 8,
+          "zero_witness": 257899,
+          "one_witness": 96521
+        },
+        {
+          "wire": 9,
+          "lo": 5,
+          "hi": 12,
+          "width": 8,
+          "zero_witness": 194292,
+          "one_witness": 110612
+        },
+        {
+          "wire": 12,
+          "lo": 8,
+          "hi": 15,
+          "width": 8,
+          "zero_witness": 219616,
+          "one_witness": 41472
+        },
+        {
+          "wire": 13,
+          "lo": 8,
+          "hi": 15,
+          "width": 8,
+          "zero_witness": 192728,
+          "one_witness": 67840
+        },
+        {
+          "wire": 1,
+          "lo": 1,
+          "hi": 6,
+          "width": 6,
+          "zero_witness": 261503,
+          "one_witness": 242934
+        },
+        {
+          "wire": 14,
+          "lo": 10,
+          "hi": 15,
+          "width": 6,
+          "zero_witness": 207170,
+          "one_witness": 34304
+        },
+        {
+          "wire": 15,
+          "lo": 12,
+          "hi": 17,
+          "width": 6,
+          "zero_witness": 200864,
+          "one_witness": 8192
+        },
+        {
+          "wire": 2,
+          "lo": 1,
+          "hi": 5,
+          "width": 5,
+          "zero_witness": 261999,
+          "one_witness": 194174
+        },
+        {
+          "wire": 3,
+          "lo": 1,
+          "hi": 5,
+          "width": 5,
+          "zero_witness": 259839,
+          "one_witness": 130717
+        },
+        {
+          "wire": 17,
+          "lo": 13,
+          "hi": 17,
+          "width": 5,
+          "zero_witness": 42496,
+          "one_witness": 4096
+        }
+      ]
+    },
+    {
+      "iteration": 7,
+      "solve_seconds": 17.6423590000486,
+      "oracle_seconds": 0.0001486249966546893,
+      "violated_wires": 16,
+      "input_count": 201,
+      "maximum_width": 10,
+      "added_witnesses": [
+        {
+          "wire": 7,
+          "lo": 3,
+          "hi": 12,
+          "width": 10,
+          "zero_witness": 260604,
+          "one_witness": 62080
+        },
+        {
+          "wire": 10,
+          "lo": 4,
+          "hi": 13,
+          "width": 10,
+          "zero_witness": 259739,
+          "one_witness": 84225
+        },
+        {
+          "wire": 13,
+          "lo": 7,
+          "hi": 15,
+          "width": 9,
+          "zero_witness": 129413,
+          "one_witness": 135200
+        },
+        {
+          "wire": 8,
+          "lo": 4,
+          "hi": 11,
+          "width": 8,
+          "zero_witness": 243446,
+          "one_witness": 127236
+        },
+        {
+          "wire": 9,
+          "lo": 6,
+          "hi": 13,
+          "width": 8,
+          "zero_witness": 257603,
+          "one_witness": 28696
+        },
+        {
+          "wire": 12,
+          "lo": 7,
+          "hi": 14,
+          "width": 8,
+          "zero_witness": 177382,
+          "one_witness": 102404
+        },
+        {
+          "wire": 4,
+          "lo": 2,
+          "hi": 8,
+          "width": 7,
+          "zero_witness": 245750,
+          "one_witness": 129308
+        },
+        {
+          "wire": 5,
+          "lo": 4,
+          "hi": 10,
+          "width": 7,
+          "zero_witness": 259663,
+          "one_witness": 113684
+        },
+        {
+          "wire": 6,
+          "lo": 2,
+          "hi": 8,
+          "width": 7,
+          "zero_witness": 260605,
+          "one_witness": 122501
+        },
+        {
+          "wire": 11,
+          "lo": 9,
+          "hi": 15,
+          "width": 7,
+          "zero_witness": 113684,
+          "one_witness": 73984
+        },
+        {
+          "wire": 3,
+          "lo": 2,
+          "hi": 7,
+          "width": 6,
+          "zero_witness": 257915,
+          "one_witness": 225784
+        },
+        {
+          "wire": 14,
+          "lo": 11,
+          "hi": 16,
+          "width": 6,
+          "zero_witness": 103556,
+          "one_witness": 33280
+        },
+        {
+          "wire": 0,
+          "lo": 0,
+          "hi": 4,
+          "width": 5,
+          "zero_witness": 261631,
+          "one_witness": 261663
+        },
+        {
+          "wire": 2,
+          "lo": 1,
+          "hi": 5,
+          "width": 5,
+          "zero_witness": 260094,
+          "one_witness": 256875
+        },
+        {
+          "wire": 15,
+          "lo": 13,
+          "hi": 17,
+          "width": 5,
+          "zero_witness": 139282,
+          "one_witness": 32768
+        },
+        {
+          "wire": 16,
+          "lo": 12,
+          "hi": 16,
+          "width": 5,
+          "zero_witness": 84225,
+          "one_witness": 4224
+        }
+      ]
+    },
+    {
+      "iteration": 8,
+      "solve_seconds": 3.250181291019544,
+      "oracle_seconds": 0.00014791591092944145,
+      "violated_wires": 14,
+      "input_count": 226,
+      "maximum_width": 9,
+      "added_witnesses": [
+        {
+          "wire": 8,
+          "lo": 4,
+          "hi": 12,
+          "width": 9,
+          "zero_witness": 258175,
+          "one_witness": 92177
+        },
+        {
+          "wire": 6,
+          "lo": 3,
+          "hi": 10,
+          "width": 8,
+          "zero_witness": 194302,
+          "one_witness": 240898
+        },
+        {
+          "wire": 7,
+          "lo": 5,
+          "hi": 12,
+          "width": 8,
+          "zero_witness": 245094,
+          "one_witness": 105600
+        },
+        {
+          "wire": 10,
+          "lo": 6,
+          "hi": 13,
+          "width": 8,
+          "zero_witness": 243314,
+          "one_witness": 213025
+        },
+        {
+          "wire": 11,
+          "lo": 8,
+          "hi": 15,
+          "width": 8,
+          "zero_witness": 250568,
+          "one_witness": 81921
+        },
+        {
+          "wire": 3,
+          "lo": 0,
+          "hi": 6,
+          "width": 7,
+          "zero_witness": 261631,
+          "one_witness": 193274
+        },
+        {
+          "wire": 9,
+          "lo": 6,
+          "hi": 12,
+          "width": 7,
+          "zero_witness": 245186,
+          "one_witness": 53896
+        },
+        {
+          "wire": 15,
+          "lo": 9,
+          "hi": 15,
+          "width": 7,
+          "zero_witness": 96529,
+          "one_witness": 12416
+        },
+        {
+          "wire": 1,
+          "lo": 1,
+          "hi": 6,
+          "width": 6,
+          "zero_witness": 260094,
+          "one_witness": 245586
+        },
+        {
+          "wire": 4,
+          "lo": 3,
+          "hi": 8,
+          "width": 6,
+          "zero_witness": 245718,
+          "one_witness": 96665
+        },
+        {
+          "wire": 5,
+          "lo": 3,
+          "hi": 8,
+          "width": 6,
+          "zero_witness": 245622,
+          "one_witness": 192622
+        },
+        {
+          "wire": 12,
+          "lo": 9,
+          "hi": 14,
+          "width": 6,
+          "zero_witness": 110352,
+          "one_witness": 37504
+        },
+        {
+          "wire": 13,
+          "lo": 9,
+          "hi": 14,
+          "width": 6,
+          "zero_witness": 189016,
+          "one_witness": 20616
+        },
+        {
+          "wire": 0,
+          "lo": 0,
+          "hi": 4,
+          "width": 5,
+          "zero_witness": 261887,
+          "one_witness": 261479
+        }
+      ]
+    }
+  ],
+  "seconds": 28.47561762505211,
+  "variables": 22952,
+  "clauses": 495891,
+  "input_count": 250,
+  "pair_count": 143,
+  "selected_inputs": [
+    4096,
+    4224,
+    8192,
+    8208,
+    12288,
+    12304,
+    12416,
+    16392,
+    20480,
+    20488,
+    20616,
+    24584,
+    28688,
+    28696,
+    28808,
+    32768,
+    33280,
+    34304,
+    36868,
+    37504,
+    38400,
+    38404,
+    40960,
+    40976,
+    41472,
+    42000,
+    42496,
+    45076,
+    46084,
+    46208,
+    53260,
+    53768,
+    53896,
+    54788,
+    54792,
+    58384,
+    61440,
+    62080,
+    63132,
+    65536,
+    65792,
+    67840,
+    73728,
+    73984,
+    75776,
+    76032,
+    81921,
+    81928,
+    81929,
+    84225,
+    86025,
+    88457,
+    90384,
+    92177,
+    94232,
+    96521,
+    96529,
+    96665,
+    98304,
+    99072,
+    99584,
+    102144,
+    102404,
+    103556,
+    104708,
+    105600,
+    106768,
+    109840,
+    110352,
+    110612,
+    111248,
+    111620,
+    112512,
+    112896,
+    113684,
+    113796,
+    114448,
+    116233,
+    119821,
+    122253,
+    122501,
+    122765,
+    124416,
+    127120,
+    127236,
+    128529,
+    129308,
+    129413,
+    129945,
+    130197,
+    130717,
+    130957,
+    130961,
+    130968,
+    130973,
+    131104,
+    131168,
+    135200,
+    135328,
+    135360,
+    139282,
+    139378,
+    143600,
+    147496,
+    159754,
+    159826,
+    159880,
+    159936,
+    163936,
+    168672,
+    172064,
+    172640,
+    173168,
+    176272,
+    176658,
+    177170,
+    177382,
+    177876,
+    185868,
+    185952,
+    189016,
+    189458,
+    189466,
+    190072,
+    192622,
+    192728,
+    193274,
+    194078,
+    194174,
+    194246,
+    194266,
+    194292,
+    194294,
+    194302,
+    196608,
+    196960,
+    199008,
+    200704,
+    200864,
+    201152,
+    207170,
+    207200,
+    211440,
+    213025,
+    215337,
+    219616,
+    221233,
+    223571,
+    223585,
+    223611,
+    225306,
+    225784,
+    227419,
+    227803,
+    227818,
+    229728,
+    240498,
+    240898,
+    242934,
+    243314,
+    243446,
+    243636,
+    243702,
+    244214,
+    244400,
+    244578,
+    244674,
+    244854,
+    245094,
+    245106,
+    245186,
+    245188,
+    245234,
+    245494,
+    245524,
+    245586,
+    245622,
+    245718,
+    245750,
+    249705,
+    250568,
+    251876,
+    251945,
+    252333,
+    253229,
+    253733,
+    256875,
+    256891,
+    257138,
+    257146,
+    257337,
+    257603,
+    257899,
+    257915,
+    258063,
+    258175,
+    258253,
+    258303,
+    258500,
+    258558,
+    259229,
+    259279,
+    259327,
+    259542,
+    259607,
+    259663,
+    259691,
+    259703,
+    259711,
+    259739,
+    259835,
+    259839,
+    260062,
+    260094,
+    260351,
+    260479,
+    260604,
+    260605,
+    260607,
+    260763,
+    261105,
+    261115,
+    261375,
+    261479,
+    261503,
+    261549,
+    261581,
+    261615,
+    261629,
+    261631,
+    261663,
+    261759,
+    261846,
+    261849,
+    261887,
+    261903,
+    261983,
+    261999,
+    262003,
+    262015,
+    262047,
+    262095,
+    262103,
+    262111,
+    262122,
+    262128,
+    262131,
+    262133,
+    262135,
+    262141
+  ],
+  "worker_terminal": {
+    "command": [
+      "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/endpoint_cegar.py",
+      "--out",
+      "d18-search/results/endpoint-cegar18-r0410-endpoints.json",
+      "--seconds",
+      "57.0",
+      "--seed",
+      "d18-search/results/probe-cover18-r0410/seed.json"
+    ],
+    "wall_cap_seconds": 60.0,
+    "terminal": "TIME_LIMIT_KILLED_AND_REAPED",
+    "returncode": null,
+    "wall_seconds": 60.006575917010196
+  }
+}

@@ -1,0 +1,5 @@
+|L1| = 3, |L2| <= 3, only comparators that fire; classes of L2: 50
+layer 3: 77438 prefixes; B3 settles 63395
+layer 4: 14008791 prefixes; B4 settles 13990695, C4 3126
+layer 5: 6913560 prefixes; B5 settles 6498295, B5s (uses S(5)>=9) 0, C5 415222, exhaustive 43
+leaves where a depth-7 sorting network exists: 0

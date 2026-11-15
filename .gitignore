@@ -21,6 +21,9 @@ venv/
 build/
 dist/
 target/
+.mathathon-build/
+node_modules
+mathathon-submission.zip
 
 # Local secrets and per-user Claude Code settings
 .env

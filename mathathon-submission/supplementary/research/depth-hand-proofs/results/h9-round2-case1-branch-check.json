@@ -1,0 +1,10 @@
+{
+  "status": "VERIFIED",
+  "partner_pairs": 6,
+  "oriented_branches": 12,
+  "contradiction_leaves": 15,
+  "full_matching_enumeration": false,
+  "scope": "Contact-clause implication for the first normalized merger layer only; trace premises verified separately",
+  "source_sha256": "fe3b0ca30ab69891475f94be82ca22cbba35d2cb8943b034128a45aa39f777a6",
+  "contacts_sha256": "a40057f7308b90b00af5c3e402bab3193887c90d8a93e773fa9fd23589946f63"
+}

@@ -1,0 +1,345 @@
+{
+  "case_id": "n13-r0116",
+  "n": 13,
+  "depth": 9,
+  "cut": 7,
+  "prefix": [
+    [
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        5,
+        10
+      ]
+    ],
+    [
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        4,
+        12
+      ]
+    ]
+  ],
+  "wires": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "cap": 4,
+  "mode": "endpoints",
+  "scope": "All continuations of fixed prefix; selected wire intervals only",
+  "source_sha256": "22768b03673525e930c722acde18c6d4c77049a0e1e6f16615801908b1e39aa1",
+  "status": "SURVIVOR",
+  "independently_proof_checked": false,
+  "universe_size": 735,
+  "iterations": [
+    {
+      "iteration": 0,
+      "solve_seconds": 8.516700472682714e-05,
+      "oracle_seconds": 4.508404526859522e-05,
+      "violated_wires": 0,
+      "input_count": 0,
+      "maximum_width": 4
+    }
+  ],
+  "seconds": 0.009597708936780691,
+  "variables": 1516,
+  "clauses": 8106,
+  "input_count": 0,
+  "pair_count": 0,
+  "selected_inputs": [],
+  "free_layers": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        12
+      ]
+    ],
+    [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        10,
+        11
+      ]
+    ],
+    [
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        9,
+        10
+      ]
+    ]
+  ],
+  "intervals": [
+    {
+      "wire": 0,
+      "lo": 0,
+      "hi": 3,
+      "width": 4,
+      "zero_witness": 8187,
+      "one_witness": 6119
+    },
+    {
+      "wire": 1,
+      "lo": 0,
+      "hi": 1,
+      "width": 2,
+      "zero_witness": 8175,
+      "one_witness": 8187
+    },
+    {
+      "wire": 2,
+      "lo": 1,
+      "hi": 3,
+      "width": 3,
+      "zero_witness": 8167,
+      "one_witness": 7162
+    },
+    {
+      "wire": 3,
+      "lo": 2,
+      "hi": 5,
+      "width": 4,
+      "zero_witness": 6119,
+      "one_witness": 3555
+    },
+    {
+      "wire": 4,
+      "lo": 2,
+      "hi": 5,
+      "width": 4,
+      "zero_witness": 7667,
+      "one_witness": 2021
+    },
+    {
+      "wire": 5,
+      "lo": 4,
+      "hi": 7,
+      "width": 4,
+      "zero_witness": 2021,
+      "one_witness": 3425
+    },
+    {
+      "wire": 6,
+      "lo": 6,
+      "hi": 9,
+      "width": 4,
+      "zero_witness": 1892,
+      "one_witness": 736
+    },
+    {
+      "wire": 7,
+      "lo": 4,
+      "hi": 7,
+      "width": 4,
+      "zero_witness": 3555,
+      "one_witness": 994
+    },
+    {
+      "wire": 8,
+      "lo": 8,
+      "hi": 11,
+      "width": 4,
+      "zero_witness": 1376,
+      "one_witness": 640
+    },
+    {
+      "wire": 9,
+      "lo": 6,
+      "hi": 9,
+      "width": 4,
+      "zero_witness": 994,
+      "one_witness": 1376
+    },
+    {
+      "wire": 10,
+      "lo": 8,
+      "hi": 11,
+      "width": 4,
+      "zero_witness": 736,
+      "one_witness": 3072
+    },
+    {
+      "wire": 11,
+      "lo": 10,
+      "hi": 12,
+      "width": 3,
+      "zero_witness": 640,
+      "one_witness": 1024
+    },
+    {
+      "wire": 12,
+      "lo": 10,
+      "hi": 12,
+      "width": 3,
+      "zero_witness": 3072,
+      "one_witness": 64
+    }
+  ],
+  "full_cut_sorts": false,
+  "worker_terminal": {
+    "command": [
+      "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/endpoint_cegar.py",
+      "--out",
+      "d18-search/results/endpoint-cegar13-d9-positive.json",
+      "--seconds",
+      "27.0",
+      "--seed",
+      "d18-search/results/complete13-d8-single-structural/n13-r0116/result.json",
+      "--depth",
+      "9",
+      "--witness",
+      "d18-search/results/complete13-d9-control/n13-r0116/result.json"
+    ],
+    "wall_cap_seconds": 30.0,
+    "terminal": "EXITED",
+    "returncode": 0,
+    "wall_seconds": 0.13279695808887482
+  }
+}

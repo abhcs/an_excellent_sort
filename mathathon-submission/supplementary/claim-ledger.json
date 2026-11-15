@@ -1,0 +1,1063 @@
+{
+  "schema": "mathathon.claim-ledger.v1",
+  "date": "2026-11-15",
+  "path_base": "supplementary/",
+  "source_manifest_sha256": "b9b7dd966694a710389d98106e30db9b4b60607151b6cd7c1a2ecdb59aaa81ea",
+  "source_commits": {
+    "structural_commit": "7bcc462c92af6ea523cf2a79c03070dc4c21b770",
+    "collaborator_commit": "53034fa080e0b1014dc796281a515ce357765868",
+    "lean_commit": "61d98e102ad40076908a487e9c808c8feb26402e"
+  },
+  "external_dependencies": {
+    "E-zero-one": "Comparator semantics, the zero-one principle, pruning and untangling. The elementary reasoning is stated in Section 2; background is Knuth, bibliography [2].",
+    "E-cover": "Completeness of the saturated two-layer covers and their normal forms is imported from Bundala et al., bibliography [3].",
+    "E-ending": "Any ending/redundancy normal form used by a particular CNF requires the cited sorting-network normal-form theorem and a sound translation, as stated in its source notes.",
+    "E-depth": "Previously established depth values and matching constructions, credited in bibliography [3], [4], [7]. C03 lower bounds themselves do not use those computed lower bounds.",
+    "E-merge": "Lee-Batcher multiway merging is prior work, bibliography [5]; the implemented recursion and cleanup proof are given in Section 9.",
+    "E-seiferas": "Seiferas construction and its published depth estimate, bibliography [6]. Proposed changes require a separate proof."
+  },
+  "claims": [
+    {
+      "id": "C01",
+      "title": "General two-layer transfer",
+      "statement": "For p=floor(n/2) and 0<=k<=p, an n-wire sorter of depth d>=2 yields an (n-k)-wire sorter of depth at most d whose first layer sizes are p-k and max(0,|L2|-k).",
+      "status": "HAND_IN_REPORT",
+      "depends_on": [
+        "E-zero-one"
+      ],
+      "report_location": "Theorem 2.1",
+      "evidence": [
+        {
+          "path": "research/depth-hand-proofs/extension.md",
+          "sha256": "1514b77c32d9ad55e511ab544720063834fcf1157fb62b0aae3e7111c928f681",
+          "bytes": 17139
+        },
+        {
+          "path": "research/depth-hand-proofs/verify/profile_transfer.py",
+          "sha256": "f215131a098d2c284fc142b5f1b23b660368b9f4b51384aaac7f86af8c48f19d",
+          "bytes": 2625
+        }
+      ],
+      "fresh_checks": [
+        "R01"
+      ],
+      "limitations": "Filling is permitted in the first layer only. The arbitrary-k assertion is not covered by the current Lean theorem."
+    },
+    {
+      "id": "C02",
+      "title": "Halving recurrence",
+      "statement": "For every n>=3, D(n)>=D(ceil(n/2))+2.",
+      "status": "HAND_AND_LEAN",
+      "depends_on": [
+        "C01",
+        "E-zero-one"
+      ],
+      "report_location": "Equation (1), Section 2.1",
+      "evidence": [
+        {
+          "path": "lean/SortingDepth.lean",
+          "sha256": "107bddcefeb10710316a9806ce538cab76bfecbde86ee0ef65b2f5ab10df0318",
+          "bytes": 43277
+        },
+        {
+          "path": "lean/lean-toolchain",
+          "sha256": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
+          "bytes": 25
+        },
+        {
+          "path": "lean/lakefile.toml",
+          "sha256": "b0caa44240f0e32817bfadf577d4fc45574f2c5dcba66c24cbe9816ba14a78d7",
+          "bytes": 232
+        },
+        {
+          "path": "lean/lake-manifest.json",
+          "sha256": "07957883b1029978a797bc47cf8246923b684efbb303df06a543f8709ec058c5",
+          "bytes": 3163
+        },
+        {
+          "path": "lean/lean-build.log",
+          "sha256": "0e4aefc1f24549d57e7624f6a79211523f6c7e5438ba778f53d46ba69cc0c929",
+          "bytes": 7723
+        },
+        {
+          "path": "lean/lean-source-check.log",
+          "sha256": "3525cc87a82305a0f5688414fc64a01eadb916af8043fd4094b5e07745f6e29d",
+          "bytes": 7005
+        }
+      ],
+      "fresh_checks": [
+        "L01",
+        "L02"
+      ],
+      "limitations": "The Lean proof is independent of the Python replay. Its removal theorem constructs a reduced and relabelled network, not a literal fixed-wire subnetwork. The n>=3 assumption is necessary for the depth inequality."
+    },
+    {
+      "id": "C03",
+      "title": "Complete small lower-bound chain",
+      "statement": "The lower bounds at widths 1 through 10 are 0,1,3,3,5,5,6,6,7,7. Known constructions meet them.",
+      "status": "HAND_IN_REPORT",
+      "depends_on": [
+        "C01",
+        "C02",
+        "E-depth"
+      ],
+      "report_location": "Section 2 and Appendix A",
+      "evidence": [
+        {
+          "path": "research/depth-hand-proofs/README.md",
+          "sha256": "b8ffa2719e9022ac718af601bce923eaa117a546f50d7190fcf019be5fe38ce7",
+          "bytes": 28105
+        }
+      ],
+      "fresh_checks": [],
+      "limitations": "The lower-bound argument does not use SAT, minimum comparator counts, H7, or H9. D(7)>=6 uses the five-wire thin lemma; the even widths use monotonicity. The matching upper constructions are prior work."
+    },
+    {
+      "id": "C04",
+      "title": "Two-cap limitation",
+      "statement": "Two initial layer-size caps obtained by transfer do not separate the 17-wire and 18-wire depth targets by themselves.",
+      "status": "HAND_IN_REPORT",
+      "depends_on": [
+        "C01"
+      ],
+      "report_location": "Section 3",
+      "evidence": [
+        {
+          "path": "research/depth-hand-proofs/extension.md",
+          "sha256": "1514b77c32d9ad55e511ab544720063834fcf1157fb62b0aae3e7111c928f681",
+          "bytes": 17139
+        }
+      ],
+      "fresh_checks": [],
+      "limitations": "This is a limitation of the stated cap abstraction, not an impossibility theorem for richer shared-suffix constraints."
+    },
+    {
+      "id": "C05",
+      "title": "Half-blind restriction families",
+      "statement": "Alternating components give the complete normalized half-blind family; on 4q+2 saturated wires at least two states are unavoidable.",
+      "status": "HAND_IN_REPORT_WITH_HISTORICAL_COUNTS",
+      "depends_on": [
+        "E-cover"
+      ],
+      "report_location": "Section 4",
+      "evidence": [
+        {
+          "path": "research/d18-search/structural-frontier.md",
+          "sha256": "5c7f5a8cbe750b2e2dd6d8ae5e79c01e5b06c62a1b574c11288c354f097d7312",
+          "bytes": 15176
+        },
+        {
+          "path": "research/d18-search/two_layer_cover.py",
+          "sha256": "414269d87ab42e839f8d1ae9411de67e14b80bb9ed47c7145c08d9c0e979e83b",
+          "bytes": 9501
+        },
+        {
+          "path": "research/d18-search/verify_two_layer_cover.py",
+          "sha256": "ef90cb6fbef4acf6cf951e7ac0f78d35f487291c3c1c1d6e6979d8ba85e6d0bf",
+          "bytes": 3318
+        }
+      ],
+      "fresh_checks": [],
+      "limitations": "The 13,228 labelled-prefix audit and related enumeration totals are historical. Family size alone does not force a depth gap."
+    },
+    {
+      "id": "C06",
+      "title": "Transport coupling",
+      "statement": "The signed l1 distance is nonincreasing through a common suffix; real sets initially within h exchanges have retained comparator counts differing by at most h.",
+      "status": "HAND_IN_REPORT",
+      "depends_on": [],
+      "report_location": "Lemma 4.3",
+      "evidence": [
+        {
+          "path": "research/d18-search/verify_restriction_structure.py",
+          "sha256": "a6516746366e281fe26a4d9aec4b0f5187c70acbb12ed1ba0fbed20eb956ca85",
+          "bytes": 8782
+        }
+      ],
+      "fresh_checks": [],
+      "limitations": "The 167,800 recorded transport steps are sampled corroboration, not a proof and not a fresh run in this synthesis. Real sets may coincide and later separate."
+    },
+    {
+      "id": "C07",
+      "title": "Third-blind-layer obstruction",
+      "statement": "Every saturated two-layer prefix on even n>=18 admits a third perfect matching that defeats every half-width signed blinding placement.",
+      "status": "HAND_IN_REPORT",
+      "depends_on": [
+        "C05",
+        "E-cover"
+      ],
+      "report_location": "Section 5",
+      "evidence": [
+        {
+          "path": "research/d18-search/verify_restriction_structure.py",
+          "sha256": "a6516746366e281fe26a4d9aec4b0f5187c70acbb12ed1ba0fbed20eb956ca85",
+          "bytes": 8782
+        },
+        {
+          "path": "research/d18-search/results/half-blind-obstructions18.json",
+          "sha256": "cc5161b0c185bcd82cfaac5b1701d530fa04d1ba153bcecb29a1376a8b67d759",
+          "bytes": 240070
+        }
+      ],
+      "fresh_checks": [
+        "R03"
+      ],
+      "limitations": "The universal proof is the component bound and union bound. The 411 saved witnesses are not sorters and do not close any D18 completion case."
+    },
+    {
+      "id": "C08",
+      "title": "H7 profile dependency",
+      "statement": "A depth-six sorter on seven wires cannot have at most two gates in each of its first two layers.",
+      "status": "HAND_WITH_FINITE_CERTIFICATE",
+      "depends_on": [
+        "C03"
+      ],
+      "report_location": "Section 7 and Appendix C",
+      "evidence": [
+        {
+          "path": "research/depth-hand-proofs/h7-early-profiles.md",
+          "sha256": "4441e84b43f4c0cb437bd79b30d710d60db5e12be5f67f010d73b158dc7cbbf4",
+          "bytes": 11183
+        },
+        {
+          "path": "research/depth-hand-proofs/h9.md",
+          "sha256": "89e5923a75e086f7643840066fb451989a94e6f27834dc6b8b37b6b7dc4fdbc2",
+          "bytes": 70928
+        },
+        {
+          "path": "research/depth-hand-proofs/verify/h7_profiles_proof.py",
+          "sha256": "fa49bd8ff4bf7d9af9f44926886547a62e0212bf4b704573d65bf9ff1f0b60b6",
+          "bytes": 9040
+        },
+        {
+          "path": "research/depth-hand-proofs/results/h7-profiles-proof.json",
+          "sha256": "2f97abc721ca9de12f2a72314e10261b34607a37af802890b7d3038191194cd6",
+          "bytes": 32544
+        }
+      ],
+      "fresh_checks": [
+        "R02"
+      ],
+      "limitations": "P7 and Q7 are separate premises. The fresh replay reconstructs the stated Q7 finite data; it is not a fresh complete independent proof search for all H7 premises."
+    },
+    {
+      "id": "C09",
+      "title": "H9 six-cycle class",
+      "statement": "No seven-layer nine-wire sorter starts with L1=01 23 45 and L2=03 14 25.",
+      "status": "HAND_IN_REPORT",
+      "depends_on": [
+        "C03"
+      ],
+      "report_location": "Section 6.1 and Appendix F",
+      "evidence": [
+        {
+          "path": "research/depth-hand-proofs/h9-cycle-case.md",
+          "sha256": "3dbcfca76d6257b08e862c727aa40cdec6138edc63f27a2f9fc2da7f2f813a8c",
+          "bytes": 11209
+        },
+        {
+          "path": "research/depth-hand-proofs/verify/h9_cycle_proof.py",
+          "sha256": "3045cf2884747ec3d3f5debce30b94a444cc7c217e1797bb4351029386fed8b6",
+          "bytes": 7461
+        },
+        {
+          "path": "research/depth-hand-proofs/results/h9-cycle-proof-checks.json",
+          "sha256": "79fc2e25f6fa10e522682c10b0042ec8e3d6b4b8fcc179568b6fd4c9d0e5b90e",
+          "bytes": 137409
+        }
+      ],
+      "fresh_checks": [
+        "R05"
+      ],
+      "limitations": "The proof classifies the next two layers and uses nine rows, not the full H9 tree. This one class does not establish full H9. The disjoint odd-intersection argument does not directly transfer to even ambient width 18."
+    },
+    {
+      "id": "C10",
+      "title": "Full H9 and hand coverage",
+      "statement": "Full H9 has computational evidence; 26 of its 50 second-layer classes have hand coverage in the integrated checkpoint.",
+      "status": "COMPUTATIONAL_FULL_PARTIAL_HAND",
+      "depends_on": [
+        "C03",
+        "E-zero-one"
+      ],
+      "report_location": "Section 6.1",
+      "evidence": [
+        {
+          "path": "research/depth-hand-proofs/h9.md",
+          "sha256": "89e5923a75e086f7643840066fb451989a94e6f27834dc6b8b37b6b7dc4fdbc2",
+          "bytes": 70928
+        },
+        {
+          "path": "research/depth-hand-proofs/verify/h9_tree.c",
+          "sha256": "be462c467b4629a944e0adc1f190fd2b979f2a97797640e2647d3fb88759dab9",
+          "bytes": 19533
+        },
+        {
+          "path": "research/depth-hand-proofs/verify/h9_sat.py",
+          "sha256": "d815e7393d77756c98d0c074d15e57169282edf111643e581cfddf9755ea7626",
+          "bytes": 2331
+        },
+        {
+          "path": "research/depth-hand-proofs/results/h9-tree-profile-certificates.txt",
+          "sha256": "c27c0c52084c5eb78f7dbb168e45b312a63ce1418fe4f7c1687189ffab191f30",
+          "bytes": 9975
+        },
+        {
+          "path": "research/depth-hand-proofs/h9_feedback_round2_031246.md",
+          "sha256": "f416ead02f44bd2efab371ea22d37c4bd95acc489d221066f4fb827bbae3c0e3",
+          "bytes": 9144
+        }
+      ],
+      "fresh_checks": [
+        "R06",
+        "R07",
+        "R08"
+      ],
+      "limitations": "The full corrected tree and its sanitizer/positive controls are historical and were not rerun here. The corrected 36-pair indexing supersedes the invalid old mask. Twenty-four classes still use computational evidence."
+    },
+    {
+      "id": "C11",
+      "title": "Rank-position and interval constraints",
+      "statement": "With s layers left each rank-position support and each wire-rank support has size at most 2^s; adjacent binary probes compute the exact rank-position relation.",
+      "status": "HAND_IN_REPORT",
+      "depends_on": [
+        "E-zero-one"
+      ],
+      "report_location": "Section 6.2",
+      "evidence": [
+        {
+          "path": "research/d18-search/certificate-guided-frontier.md",
+          "sha256": "f14f16abb94ab5ae7e908d81a14bb03405c5672045d400ed0df68b4e140fc265",
+          "bytes": 17561
+        }
+      ],
+      "fresh_checks": [],
+      "limitations": "The possible ranks on a wire form an interval by consecutive-rank exchanges. Independently chosen supports are not a substitute for probes through one common prefix and common ending matchings."
+    },
+    {
+      "id": "C12",
+      "title": "Thirteen-wire whole-case exclusions",
+      "statement": "At target depth eight, cases 0,58,115,116 are excluded out of the 117-case two-layer cover.",
+      "status": "HISTORICAL_DRAT_WITH_FRESH_HASH_BINDING",
+      "depends_on": [
+        "C11",
+        "E-cover",
+        "E-ending"
+      ],
+      "report_location": "Section 6.2",
+      "evidence": [
+        {
+          "path": "research/d18-search/results/structural-cover-progress-round2.json",
+          "sha256": "2d7286b6d88b36aa14a033957c28194c5f607ef4e60e213531b7dcb8a7a7cea4",
+          "bytes": 5559
+        },
+        {
+          "path": "research/d18-search/prefixes/complete13.jsonl",
+          "sha256": "2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406",
+          "bytes": 23311
+        }
+      ],
+      "fresh_checks": [
+        "H01"
+      ],
+      "limitations": "The four result/CNF/proof/log bundles are byte-bound in the certificate ledger. DRAT was not rerun here. Encoder soundness and normal-form completeness are mathematical dependencies, not consequences of a proof-file hash."
+    },
+    {
+      "id": "C13",
+      "title": "Seventeen-wire whole-case exclusions",
+      "statement": "At target depth nine, cases 606,607,608 are excluded out of the 609-case two-layer cover.",
+      "status": "HISTORICAL_DRAT_WITH_FRESH_HASH_BINDING",
+      "depends_on": [
+        "C01",
+        "C10",
+        "E-cover"
+      ],
+      "report_location": "Section 6.3",
+      "evidence": [
+        {
+          "path": "research/d18-search/d17_feedback_results.md",
+          "sha256": "14d89c3aa0c150f7659fa3145443cdccc9357fba189cef47d814dc206a040efb",
+          "bytes": 14175
+        },
+        {
+          "path": "research/d18-search/d17_feedback_round2_normalization.md",
+          "sha256": "11e261b389a90953ccfa1b486ae913fcb26e6aacf3297f350cf5d83cab9838b5",
+          "bytes": 13750
+        },
+        {
+          "path": "research/d18-search/results/structural-cover-progress-round2.json",
+          "sha256": "2d7286b6d88b36aa14a033957c28194c5f607ef4e60e213531b7dcb8a7a7cea4",
+          "bytes": 5559
+        },
+        {
+          "path": "research/d18-search/prefixes/complete17.jsonl",
+          "sha256": "711b620bb298deee98e5520595cfb341a13cf3600f4297dd35f3b38cb11d2100",
+          "bytes": 144560
+        }
+      ],
+      "fresh_checks": [
+        "H01"
+      ],
+      "limitations": "These applications depend on full H9, including its computational remainder. A short structural application is not an independent full hand proof of D(17)>=10."
+    },
+    {
+      "id": "C14",
+      "title": "Signed-fork family",
+      "statement": "For the stated twenty-state signed fork family, every pair of matchings leaves some state without a maximal real-real peak in both layers.",
+      "status": "HAND_IN_SUPPLEMENT",
+      "depends_on": [
+        "E-zero-one"
+      ],
+      "report_location": "Section 6.3",
+      "evidence": [
+        {
+          "path": "research/d18-search/d12_triangle_lemmas_width.md",
+          "sha256": "612b139826391f6e34036bbd5f845b3b042473a5da99477a7068401838bb7010",
+          "bytes": 10554
+        }
+      ],
+      "fresh_checks": [],
+      "limitations": "The occurrence of this family in every relevant sorting prefix is unproved. The 160-prefix recognition sample does not prove absence or close a complete cover case."
+    },
+    {
+      "id": "C15",
+      "title": "Three merger obstructions",
+      "statement": "Merging independently sorted blocks of sizes (4,3,2), (3,3,3), or (4,4,1) requires at least five layers.",
+      "status": "HAND_IN_SUPPLEMENT_AND_REPORT",
+      "depends_on": [
+        "C03"
+      ],
+      "report_location": "Section 6.4 and Appendix F",
+      "evidence": [
+        {
+          "path": "research/depth-hand-proofs/h9_feedback_round2_merge432.md",
+          "sha256": "b19ff1e30b8a17289b55f284ae94de5bd3db668b90009baeafc372f433cb49e3",
+          "bytes": 10272
+        },
+        {
+          "path": "research/depth-hand-proofs/h9_root_helper_case3.md",
+          "sha256": "b93c7c9127c3c03cc13fc6ac993f93e9ca4a41c0bc02615d3646ec26461eb86c",
+          "bytes": 3104
+        },
+        {
+          "path": "research/depth-hand-proofs/h9_feedback_round3_merge333.md",
+          "sha256": "1e83a86b1f379d44ca1689fa52e7cdf543c171f882d90fe95cd51f55410d5c21",
+          "bytes": 3243
+        },
+        {
+          "path": "research/d18-search/d13_feedback_round3_merger441.md",
+          "sha256": "3f7c4fb1f465377f0f79e1ab630e50b51eadc0789a1017bd63ae70e47dc65833",
+          "bytes": 6506
+        }
+      ],
+      "fresh_checks": [
+        "R06",
+        "R07",
+        "R08",
+        "R09"
+      ],
+      "limitations": "The (4,3,2) proof uses explicit contact tables and partner branches; its full tables are in the named supplement. The new Appendix F supplies the complete short (3,3,3) and (4,4,1) arguments. SAT corroboration is not a premise."
+    },
+    {
+      "id": "C16",
+      "title": "Nine-real component requirement",
+      "statement": "Four layers before the end, every nine-real signed restriction has an interaction component of at least five logical real tracks.",
+      "status": "HAND_IN_REPORT",
+      "depends_on": [
+        "C15",
+        "E-zero-one"
+      ],
+      "report_location": "Section 6.4",
+      "evidence": [
+        {
+          "path": "research/d18-search/merge-component-obstruction.md",
+          "sha256": "34eef4eb315e15486daaa56497542456af494a047d08133ee5e4eba61b24c623",
+          "bytes": 6382
+        },
+        {
+          "path": "research/d18-search/merge_component_verify.py",
+          "sha256": "f8fd0a50b3937fa9853e38b72e6d6f33aaeb8438f319436bf879aa895826cba0",
+          "bytes": 6951
+        },
+        {
+          "path": "research/d18-search/merge_component_states.cpp",
+          "sha256": "fa514bf2381fd5a7a51d0c2ce8c1f5981a5b8d72c8e58d4959422337b2dd8990",
+          "bytes": 4370
+        },
+        {
+          "path": "research/d18-search/results/merge-component-verification.json",
+          "sha256": "2319232343f04741f6b79771ef08244c79ba0508656c2e8485c33caad09248e0",
+          "bytes": 620
+        },
+        {
+          "path": "research/d18-search/results/d13_feedback_round3-components-all.json",
+          "sha256": "5fd52aa131e6f0aafe6238f2e7b7759dd34a7788f34aca4115497464c8046e88",
+          "bytes": 218337
+        },
+        {
+          "path": "research/d18-search/results/merge-component18-max4-initial.json",
+          "sha256": "5ce5bfdb6224b9c719c8e7dc9b88c60ebaea139da5008816096825dd7dd875cc",
+          "bytes": 51087
+        }
+      ],
+      "fresh_checks": [
+        "R10"
+      ],
+      "limitations": "Components concern logical registers, not fixed physical wires or value identities. The 34/117 rejected saved four-layer witnesses do not close whole two-layer cases. All six sampled D18 six-layer prefixes survive."
+    },
+    {
+      "id": "C17",
+      "title": "Specified five-layer D18 prefix exclusion",
+      "statement": "Every depth-ten completion of the five-layer prefix in Appendix B fails: four restrictions demand total peak weight 12 but every matching has weight at most 11.",
+      "status": "HAND_WITH_EXPLICIT_DEPENDENCY",
+      "depends_on": [
+        "C08"
+      ],
+      "report_location": "Section 7 and Appendix B",
+      "evidence": [
+        {
+          "path": "research/d18-search/commuting-prefix-hand-proof.md",
+          "sha256": "3aa167b9c0d6703d4d5695712334ca090b3773e61d0fd1e8d7539ba1d98a1eb0",
+          "bytes": 6273
+        },
+        {
+          "path": "research/d18-search/commuting_prefix_hand_verify.py",
+          "sha256": "73ac0bf9544a999011a8b11e6c253a362cec0e7eef461fd215757977ac25b659",
+          "bytes": 3710
+        },
+        {
+          "path": "research/d18-search/results/commuting-prefix18-hand-proof.json",
+          "sha256": "b1d661f354a3b17cdf3efabb5902a6158dd30a921a98136b3c59b950ad05f2db",
+          "bytes": 5775
+        }
+      ],
+      "fresh_checks": [
+        "R04"
+      ],
+      "limitations": "The local track and price checks do not discharge H7 automatically. The claim quantifies over suffixes of one specified five-layer prefix, not over every extension of a complete two-layer representative."
+    },
+    {
+      "id": "C18",
+      "title": "Constructed upper bounds",
+      "statement": "Sorting networks at widths 128,256,512,1024 have depths 26,34,43,52 and comparator counts 1439,3775,9599,23679.",
+      "status": "PROOF_AND_FRESH_COMPOSITIONAL_CERTIFICATES",
+      "depends_on": [
+        "E-zero-one",
+        "E-depth",
+        "E-merge"
+      ],
+      "report_location": "Section 9",
+      "evidence": [
+        {
+          "path": "collaborator/SortingNetworks_results_and_proofs.md",
+          "sha256": "9e544bcfeb092b269bbb9b6c054fafab90a793ea513be7f4820cdb089989f3b7",
+          "bytes": 58913
+        },
+        {
+          "path": "constructions/build.py",
+          "sha256": "a3ad33d72ed781124bc6333a7a5f86c0504731b64dc2c0689798816d5e44db6f",
+          "bytes": 1917
+        },
+        {
+          "path": "constructions/verify.py",
+          "sha256": "d2300a6a5309fc03bfbbfc9c67651f4653abcd456c3d692af344d5a8f32fc9eb",
+          "bytes": 4009
+        },
+        {
+          "path": "constructions/extend_and_verify.py",
+          "sha256": "0701494c80a6a9b818baad7f4ae8af3dba8b84a6994b25db29f872d875cf6440",
+          "bytes": 2016
+        },
+        {
+          "path": "constructions/net_128.json",
+          "sha256": "0cce8475bb3285b237ef0cf91f5d187cb26f20b1b1f969e1dcbf297447b3d465",
+          "bytes": 14874
+        },
+        {
+          "path": "constructions/net_256.json",
+          "sha256": "d69eb7bceceea68bb6a5a299043cbac8886b01458d3b4574173a70350d116625",
+          "bytes": 42214
+        },
+        {
+          "path": "constructions/net_512.json",
+          "sha256": "2fe5ed8488a3a619e919debc67269b18625f162ce08b7e2e077bcb1e5d19d9b9",
+          "bytes": 111412
+        },
+        {
+          "path": "constructions/net_1024.json",
+          "sha256": "bd6325b7befc41dcb5a0e1315ee48524abe541a634b1e11184680817340db030",
+          "bytes": 280674
+        }
+      ],
+      "fresh_checks": [
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "limitations": "The checks cover the specified flat networks by composition. They are not exhaustive tests over 2^1024 inputs, proofs of depth optimality, or claims of global record priority. The reported 17^8 historical merger test was not rerun."
+    },
+    {
+      "id": "C19",
+      "title": "AKS analysis status",
+      "statement": "The local bag-displacement example identifies an accounting issue; proposed improved coefficients and the all-size construction are not established in this report.",
+      "status": "LOCAL_EXAMPLE_AND_UNFINISHED_PROPOSALS",
+      "depends_on": [
+        "E-seiferas"
+      ],
+      "report_location": "Section 10",
+      "evidence": [
+        {
+          "path": "collaborator/main-source.txt",
+          "sha256": "9b6b6f586e17521b825056466037f7c26f4f032b757e4610caa0c274e8037ce0",
+          "bytes": 30581
+        },
+        {
+          "path": "collaborator/SortingNetworks_results_and_proofs.md",
+          "sha256": "9e544bcfeb092b269bbb9b6c054fafab90a793ea513be7f4820cdb089989f3b7",
+          "bytes": 58913
+        }
+      ],
+      "fresh_checks": [],
+      "limitations": "The approximately 281084 and 6300 coefficients are not certified new bounds. Separators, invariant, rounding, termination and comparator-depth accounting remain to be checked. The forthcoming open-model derivation is not present."
+    },
+    {
+      "id": "C20",
+      "title": "Formalization roadmap",
+      "statement": "The team plans to formalize all of its work in Lean.",
+      "status": "FUTURE_WORK",
+      "depends_on": [],
+      "report_location": "Sections 2.1 and 8; this appendix",
+      "evidence": [
+        {
+          "path": "lean/README.md",
+          "sha256": "43dc84d8f07f2ef977b34998dcce0ceb86dc26a577be2a44bb2273abd3678e49",
+          "bytes": 9104
+        }
+      ],
+      "fresh_checks": [],
+      "limitations": "Only C02 is presently claimed Lean-verified. Formalizing finite computations requires semantic links from inputs, covers and encodings to the mathematical claim, not merely formal checks of selected output files."
+    }
+  ],
+  "checks": [
+    {
+      "id": "R01",
+      "cwd_relative_to_supplement": "research",
+      "argv": [
+        "python3",
+        "depth-hand-proofs/verify/profile_transfer.py",
+        "--max-n",
+        "11"
+      ],
+      "expected": "289420 matching/placement-size cases pass; widths 3 through 11.",
+      "status": "PASS",
+      "log": "replay-log.txt"
+    },
+    {
+      "id": "R02",
+      "cwd_relative_to_supplement": "research",
+      "argv": [
+        "python3",
+        "depth-hand-proofs/verify/h7_profiles_proof.py",
+        "--out",
+        "<temporary>/h7-check.json"
+      ],
+      "expected": "26 probes, 7 third-layer representatives, 22 final checks.",
+      "status": "PASS",
+      "log": "replay-log.txt"
+    },
+    {
+      "id": "R03",
+      "cwd_relative_to_supplement": "research",
+      "argv": [
+        "python3",
+        "d18-search/verify_restriction_structure.py",
+        "--replay"
+      ],
+      "expected": "411 witness prefixes and 5078 direct normalized placements replayed.",
+      "status": "PASS",
+      "log": "replay-log.txt"
+    },
+    {
+      "id": "R04",
+      "cwd_relative_to_supplement": "research",
+      "argv": [
+        "python3",
+        "d18-search/commuting_prefix_hand_verify.py"
+      ],
+      "expected": "VERIFIED; 20160 distinct-real assignments and 153 pair-price inequalities.",
+      "status": "PASS",
+      "log": "replay-log.txt"
+    },
+    {
+      "id": "R05",
+      "cwd_relative_to_supplement": "research",
+      "argv": [
+        "python3",
+        "depth-hand-proofs/verify/h9_cycle_proof.py",
+        "--out",
+        "<temporary>/cycle-check.json"
+      ],
+      "expected": "72 canonical instances; 54 third layers; 432 layer pairs; 9 rows; 570042 disjoint and 340768 overlap controls; both verification flags true.",
+      "status": "PASS",
+      "log": "replay-log.txt"
+    },
+    {
+      "id": "R06",
+      "cwd_relative_to_supplement": "research",
+      "argv": [
+        "python3",
+        "depth-hand-proofs/verify/h9_round2_case1_branch_check.py"
+      ],
+      "expected": "VERIFIED; 6 partner pairs, 12 oriented branches, 15 contradiction leaves.",
+      "status": "PASS",
+      "log": "replay-log.txt"
+    },
+    {
+      "id": "R07",
+      "cwd_relative_to_supplement": "research",
+      "argv": [
+        "python3",
+        "depth-hand-proofs/verify/h9_root_helper_case3.py"
+      ],
+      "expected": "VERIFIED; 14 orientations, 11 immediate/forced branches, 3 small leaves, 32 leaf choices.",
+      "status": "PASS",
+      "log": "replay-log.txt"
+    },
+    {
+      "id": "R08",
+      "cwd_relative_to_supplement": "research",
+      "argv": [
+        "python3",
+        "depth-hand-proofs/verify/h9_feedback_round2_proof.py"
+      ],
+      "expected": "VERIFIED; 41520 direct real-order trace checks, with integrated classifications and sink contacts.",
+      "status": "PASS",
+      "log": "replay-log.txt"
+    },
+    {
+      "id": "R09",
+      "cwd_relative_to_supplement": "research",
+      "argv": [
+        "python3",
+        "depth-hand-proofs/verify/h9_feedback_round3_merge333.py"
+      ],
+      "expected": "VERIFIED; 8 restrictions, 1126 matching controls, 120 equality shapes, zero surviving matchings.",
+      "status": "PASS",
+      "log": "replay-log.txt"
+    },
+    {
+      "id": "R10",
+      "cwd_relative_to_supplement": "research",
+      "argv": [
+        "python3",
+        "d18-search/merge_component_verify.py"
+      ],
+      "expected": "VERIFIED; 108 prefix/mode controls, 8676 signed assignments, 30 partitions, 68608 binary traces, 262144 positive-sorter inputs.",
+      "status": "PASS",
+      "log": "replay-log.txt"
+    },
+    {
+      "id": "R11",
+      "cwd_relative_to_supplement": "constructions",
+      "argv": [
+        "python3",
+        "build.py"
+      ],
+      "expected": "Builds 128-wire depth26/size1439 and 1024-wire depth52/size23679 flat networks.",
+      "status": "PASS",
+      "log": "replay-log.txt"
+    },
+    {
+      "id": "R12",
+      "cwd_relative_to_supplement": "constructions",
+      "argv": [
+        "python3",
+        "verify.py",
+        "net_128.json"
+      ],
+      "expected": "CERTIFIED; 8 sixteen-sorters, 8 pair mergers, 7 cleanup steps; all 1439 comparators accounted.",
+      "status": "PASS",
+      "log": "replay-log.txt"
+    },
+    {
+      "id": "R13",
+      "cwd_relative_to_supplement": "constructions",
+      "argv": [
+        "python3",
+        "verify.py",
+        "net_1024.json"
+      ],
+      "expected": "CERTIFIED; 64 sixteen-sorters, 128 pair mergers, 119 cleanup steps; all 23679 comparators accounted.",
+      "status": "PASS",
+      "log": "replay-log.txt"
+    },
+    {
+      "id": "R14",
+      "cwd_relative_to_supplement": "constructions",
+      "argv": [
+        "python3",
+        "extend_and_verify.py"
+      ],
+      "expected": "CERTIFIED; widths256 and512 with 16641 and66049 sorted-half binary merge inputs respectively.",
+      "status": "PASS",
+      "log": "replay-log.txt"
+    },
+    {
+      "id": "L01",
+      "cwd_relative_to_supplement": "lean",
+      "argv": [
+        "lake",
+        "build"
+      ],
+      "expected": "Exit zero; build completed successfully. Deprecation/linter warnings do not change acceptance.",
+      "status": "PASS",
+      "log": "lean/lean-build.log"
+    },
+    {
+      "id": "L02",
+      "cwd_relative_to_supplement": "lean",
+      "argv": [
+        "lake",
+        "env",
+        "lean",
+        "SortingDepth.lean"
+      ],
+      "expected": "Exit zero; both named theorems depend on exactly propext, Classical.choice, Quot.sound; no sorryAx.",
+      "status": "PASS",
+      "log": "lean/lean-source-check.log"
+    },
+    {
+      "id": "H01",
+      "cwd_relative_to_supplement": ".",
+      "argv": [
+        "python3",
+        "audit_package.py"
+      ],
+      "expected": "All frozen source hashes and all seven result/CNF/proof/checker-log bundles match, including three complete-cover hashes. No DRAT checker is run.",
+      "status": "PASS",
+      "log": "package-audit.json"
+    }
+  ],
+  "whole_case_certificates": [
+    {
+      "case_id": "n13-r0000",
+      "scope": "Probe positions only; no data comparisons in the ending",
+      "files": {
+        "result": {
+          "path": "research/d18-search/results/probe-frontier13-r0000-route-checked.json",
+          "sha256": "09c07e48afa48abc99be24db86c11dad950ec241e3eb60ad01369d360227c36c",
+          "bytes": 1333
+        },
+        "cnf": {
+          "path": "research/d18-search/results/probe-frontier13-r0000-route-checked/problem.cnf",
+          "sha256": "16ac515267bb30770e2dbd9395c865cd50e5444e003a589cfc80605acc3d7eb7",
+          "bytes": 3532353
+        },
+        "proof": {
+          "path": "research/d18-search/results/probe-frontier13-r0000-route-checked/proof.drat",
+          "sha256": "9c50cdd1b02d36d98eb23f0e932c8ce9805d7370ec79390f2e7253de4df5f746",
+          "bytes": 28485486
+        },
+        "checker_log": {
+          "path": "research/d18-search/results/probe-frontier13-r0000-route-checked/check.log",
+          "sha256": "74ff23ac880106c659358c7626488aaf2d032838afa30396b524c2c6669c92cc",
+          "bytes": 394
+        }
+      },
+      "fresh_drat_run": false
+    },
+    {
+      "case_id": "n13-r0058",
+      "scope": "All four-layer continuations of this complete-cover prefix; cut6 interval bounds, optional common ending routing",
+      "files": {
+        "result": {
+          "path": "research/d18-search/results/d13_feedback_round2-r0058-wire.json",
+          "sha256": "31a9e61a79a7c0dfc7fb20ce9f379b8b386c02ea2ca307c5a773731c5d93d425",
+          "bytes": 3341
+        },
+        "cnf": {
+          "path": "research/d18-search/results/d13_feedback_round2-r0058-wire/problem.cnf",
+          "sha256": "d12292b5719543b866c1ac8b015161e635cac2317d5ffd2dc2b126b3c2bab216",
+          "bytes": 5003422
+        },
+        "proof": {
+          "path": "research/d18-search/results/d13_feedback_round2-r0058-wire/proof.drat",
+          "sha256": "9418ce8bd6c80fe0fe03628e65005c6dd6251310ed3dd36bf3d4b09501394cf8",
+          "bytes": 54626533
+        },
+        "checker_log": {
+          "path": "research/d18-search/results/d13_feedback_round2-r0058-wire/check.log",
+          "sha256": "b88919ec5bc6d177ddbcbd7fb50fc7274ebbb4b681f205f05400e0ae9ceea21d",
+          "bytes": 282780
+        }
+      },
+      "fresh_drat_run": false
+    },
+    {
+      "case_id": "n13-r0115",
+      "scope": "All four-layer continuations of this complete-cover prefix; cut6 interval bounds, optional common ending routing",
+      "files": {
+        "result": {
+          "path": "research/d18-search/results/d13_feedback_round2-r0115-wire-central6.json",
+          "sha256": "b301b8e8d732cda540742a20320d007fc333ed05ba54348aeb3788a373cc11c3",
+          "bytes": 3158
+        },
+        "cnf": {
+          "path": "research/d18-search/results/d13_feedback_round2-r0115-wire-central6/problem.cnf",
+          "sha256": "cd742db573a80c14e10ea55ac58dbe8c86b910d1c4748296b48d061d81d2ca48",
+          "bytes": 6824959
+        },
+        "proof": {
+          "path": "research/d18-search/results/d13_feedback_round2-r0115-wire-central6/proof.drat",
+          "sha256": "1571d541c2b7418ea78c02157e33845bf0768b00643a60516de008720ab5a28e",
+          "bytes": 68324614
+        },
+        "checker_log": {
+          "path": "research/d18-search/results/d13_feedback_round2-r0115-wire-central6/check.log",
+          "sha256": "dc26e61136c3e83fba23d453f586c429fdd4f19589b169eefbdb0a6b7fc3b131",
+          "bytes": 301011
+        }
+      },
+      "fresh_drat_run": false
+    },
+    {
+      "case_id": "n13-r0116",
+      "scope": "Every four-layer continuation of the fixed relabelled prefix; cut6 endpoint bounds only, no common-ending routing",
+      "files": {
+        "result": {
+          "path": "research/d18-search/results/d13-hand-next-endpoints-central-checked.json",
+          "sha256": "6ba2d2c4d350577ebe8a49701a1629b574cacbc8d3f4a4274d4780872a118465",
+          "bytes": 2043
+        },
+        "cnf": {
+          "path": "research/d18-search/results/d13-hand-next-endpoints-central-checked/problem.cnf",
+          "sha256": "6f91e9a5c61edf25529aebd26bd42dc4622fefa892deaeeac672b9265e540fd5",
+          "bytes": 6803468
+        },
+        "proof": {
+          "path": "research/d18-search/results/d13-hand-next-endpoints-central-checked/proof.drat",
+          "sha256": "9fa04916850bd51e497b13eec6b4c8476a4656f7a3c5aa4b1bcce0bbd34ddd1d",
+          "bytes": 49301814
+        },
+        "checker_log": {
+          "path": "research/d18-search/results/d13-hand-next-endpoints-central-checked/check.log",
+          "sha256": "e9a74e74960d518d341f8554aa5d2b8b308610b70f4bbbbdd5373fb13772ae24",
+          "bytes": 315555
+        }
+      },
+      "fresh_drat_run": false
+    },
+    {
+      "case_id": "n17-r0606",
+      "scope": "Necessary H9 first-two-layer profiles for all half-blind nine-real restrictions",
+      "files": {
+        "result": {
+          "path": "research/d18-search/results/d17-feedback-defects-r0606/result.json",
+          "sha256": "cd719d6fd1e34c0b72d2f4f9d03518dcadbea298ab8fdab6e1b3895fd7a1637d",
+          "bytes": 828
+        },
+        "cnf": {
+          "path": "research/d18-search/results/d17-feedback-defects-r0606/result/problem.cnf",
+          "sha256": "7e449d18b5245acbf89187b0a323d797f07e648671ff348771a67f9304770219",
+          "bytes": 431128
+        },
+        "proof": {
+          "path": "research/d18-search/results/d17-feedback-defects-r0606/result/proof.drat",
+          "sha256": "19606898ddc86bb10e44c44cdf00c49b35f94a8e9650f372122a3109d0dad2aa",
+          "bytes": 98263524
+        },
+        "checker_log": {
+          "path": "research/d18-search/results/d17-feedback-defects-r0606/result/check/check.log",
+          "sha256": "b81bd85b49619f23c8396c8b73bde1a63e48d3023a9a89d2f1d71ca44f0f398c",
+          "bytes": 394
+        }
+      },
+      "fresh_drat_run": false
+    },
+    {
+      "case_id": "n17-r0607",
+      "scope": "Necessary H9 first-two-layer profiles for all half-blind nine-real restrictions",
+      "files": {
+        "result": {
+          "path": "research/d18-search/results/d17-feedback-defects-r0607/result.json",
+          "sha256": "c6c504cd0d55a93b2b438625ca794fbea8b75b9a2ae377060455f6a3aec9c99e",
+          "bytes": 827
+        },
+        "cnf": {
+          "path": "research/d18-search/results/d17-feedback-defects-r0607/result/problem.cnf",
+          "sha256": "001dff66b13b22e8e585cf7e89ee96c483e1b1730d375b4903c3234f92684f2e",
+          "bytes": 430274
+        },
+        "proof": {
+          "path": "research/d18-search/results/d17-feedback-defects-r0607/result/proof.drat",
+          "sha256": "e9af4a557bf921b157d5d325c9491945b68db4f2f50fe7a2d7bdd5efafb335b7",
+          "bytes": 79331383
+        },
+        "checker_log": {
+          "path": "research/d18-search/results/d17-feedback-defects-r0607/result/check/check.log",
+          "sha256": "ba659430c48411232ba2be86e51395aed800573ddc5721c01ab76925d1946686",
+          "bytes": 393
+        }
+      },
+      "fresh_drat_run": false
+    },
+    {
+      "case_id": "n17-r0608",
+      "scope": "Necessary H9 first-two-layer profiles for all half-blind nine-real restrictions",
+      "files": {
+        "result": {
+          "path": "research/d18-search/results/d17-feedback-defects-r0608/result.json",
+          "sha256": "7107c0cdb5719e645796fd80abf5956ef6c17e9a60469983a1de7325cfb0b0a3",
+          "bytes": 825
+        },
+        "cnf": {
+          "path": "research/d18-search/results/d17-feedback-defects-r0608/result/problem.cnf",
+          "sha256": "a2a078a9764b86e12bf9dcc37e767b14494502aedf12f7a22682243b2220be23",
+          "bytes": 431408
+        },
+        "proof": {
+          "path": "research/d18-search/results/d17-feedback-defects-r0608/result/proof.drat",
+          "sha256": "3d2d44b0fccd85077a48b4d5f08428b2366f838f9e3ba8c5039c0ea16f26d4f1",
+          "bytes": 52813633
+        },
+        "checker_log": {
+          "path": "research/d18-search/results/d17-feedback-defects-r0608/result/check.log",
+          "sha256": "5dcf34bde6ba115da9de57ccce41923d75b114167a7333a06fc3d462ddd7212a",
+          "bytes": 392
+        }
+      },
+      "fresh_drat_run": false
+    }
+  ],
+  "cover_hashes": {
+    "13": {
+      "closed": [
+        "n13-r0000",
+        "n13-r0058",
+        "n13-r0115",
+        "n13-r0116"
+      ],
+      "closed_count": 4,
+      "cover_size": 117,
+      "cover_sha256": "2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406"
+    },
+    "17": {
+      "closed": [
+        "n17-r0606",
+        "n17-r0607",
+        "n17-r0608"
+      ],
+      "closed_count": 3,
+      "cover_size": 609,
+      "cover_sha256": "711b620bb298deee98e5520595cfb341a13cf3600f4297dd35f3b38cb11d2100"
+    },
+    "18": {
+      "closed": [],
+      "closed_count": 0,
+      "cover_size": 411,
+      "cover_sha256": "3479c72a3dce2fe1d58d0fa80e11ccbdf9286c00b8585b1a15f23e325cb55ed2"
+    }
+  },
+  "interpretation": "Dependency edges identify mathematical premises, not mere corroboration. Hashes bind bytes, not truth. Status applies only to the exact statement and scope in each record."
+}

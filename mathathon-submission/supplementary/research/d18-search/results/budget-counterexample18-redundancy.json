@@ -1,0 +1,44 @@
+{
+  "r": 9,
+  "binary_assignments": 512,
+  "raw_profile": [
+    2,
+    3,
+    2,
+    2,
+    3,
+    2,
+    2,
+    4,
+    2,
+    3
+  ],
+  "irredundant_profile": [
+    2,
+    3,
+    2,
+    2,
+    3,
+    2,
+    2,
+    4,
+    1,
+    2
+  ],
+  "never_swapping_comparators": [
+    {
+      "layer": 9,
+      "comparator": [
+        8,
+        10
+      ]
+    },
+    {
+      "layer": 10,
+      "comparator": [
+        9,
+        10
+      ]
+    }
+  ]
+}

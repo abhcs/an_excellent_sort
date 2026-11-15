@@ -1,0 +1,30 @@
+{
+  "status": "HAND_PROOF_COMPLETE",
+  "scope": "Signed-fork two-layer obstruction for every R>=7 real coordinates, arbitrary fixed B signs, arbitrary common reals and fixed sentinels; full D17 and D18 lower bounds remain open",
+  "proof_cases": {
+    "0_to_3": "d17_hand_defects_twelve_cross.md",
+    "4_and_6": "d17_feedback_twelve_structure.md",
+    "5": "d17_hand_defects_twelve_five.md"
+  },
+  "sat_is_a_proof_premise": false,
+  "full_first_matching_enumeration_is_a_proof_premise": false,
+  "independent_finite_corroboration": "results/d12-triangle-proof-audit.json",
+  "sha256": {
+    "d17_hand_defects_twelve_cross.md": "88e0878cb65f63015674c70ad5b03c54c9541b12b0383660ea3fc813d15e5fd7",
+    "d17_feedback_twelve_structure.md": "9def58a7325a4727ceefa80c5484ca1a064dfe2d856b6779bbcdba7018855d53",
+    "d17_hand_defects_twelve_five.md": "d0e3072386c116abcf97377262a9a01b47bc66b64cb2680c72afd89724f3fae0",
+    "d17_hand_defects_twelve_cross_verify.py": "15c76f86fdd4b28f05c190e578f70e3e204f9190df230ff2b8c4f192cf4e6f62",
+    "d17_feedback_twelve_structure_verify.py": "b6c0d7bf1124bbf6bcf1549faddbc79947ae770e14ed3c0472fcd56f3cc41c7c",
+    "d17_hand_defects_twelve_five_verify.py": "e47bd71d8e0c8295458ce050e71172742f8fec77e6e582fb45607dbcf1bfdea0",
+    "results/d17-hand-defects-twelve-cross-safe.json": "a3cc3ff47e7bad799c38142de4ec78202e928fbe31361a8a5181b661ebb62fe7",
+    "d17_feedback_twelve_structure_verified.json": "4aa803b9759d5e621e0a2dd075b809102ef4784173a94a5aae3f8612c656703d",
+    "results/d17-hand-defects-twelve-five-local.json": "c3fd342eeab9d931386a12a2e212eb9940d7f6ef4456c43049942889341b74b9",
+    "fixed-sentinel-obstruction.md": "85e87e7ee55abbe46318b1bb1bf8c919ac347bffb0ff2976126fa2356ac52001",
+    "fixed_sentinel_pruning.py": "4d15d3fb333104b4fff6d2fdd40293d5ff1320ebf90411bd0397e2a37b9ea6f8",
+    "results/fixed-sentinel-pruning.json": "c94a0ee6f36a80abb04bee334ec8f61a5e765e5a4984177e33e33d77573f27bd",
+    "d12_triangle_lemmas_complete.md": "83ba264f8853f289b04162f4cfe120787bab47f0feb092e76f56206f6f46859c",
+    "results/d12_triangle_lemmas_allfour.json": "72b45ffaa19a68d79cfa79bf3f6d8a6bedeb3dbfeb04ac8a9ef8e43471246bec",
+    "d12_triangle_lemmas_width.md": "612b139826391f6e34036bbd5f845b3b042473a5da99477a7068401838bb7010"
+  },
+  "general_width_proof": "d12_triangle_lemmas_width.md"
+}

@@ -1,0 +1,94 @@
+{
+  "status": "PARTIAL_HAND_PROGRESS",
+  "full_case606_hand_proof": false,
+  "full_case608_hand_proof": false,
+  "new_hand_lemmas": [
+    "Exact static five-column pair classification for606 and608",
+    "Case606 B transport has only3 nontrivial comparisons, sharing one endpoint",
+    "Only critical B gate dc, original(10,13), permits common A-sentinel pair bypass",
+    "Without criticalgate, every fully-required Arow forces its transported A pair into N"
+  ],
+  "conditional_branches_remaining": [
+    "First matchings containing critical B edge(10,13)",
+    "First matchings whose fully-required Arows do not yield incident folded edges"
+  ],
+  "note": "d18-search/d17_feedback_fourteen_hand_Blemma.md",
+  "note_sha256": "1505ee6eff3c8be6d5cb414af2d36f37c341e5f3eb8613469d99cfdebbbe42f5",
+  "verifier": "d18-search/d17_feedback_fourteen_hand_Bverify.py",
+  "verifier_sha256": "0b4f7fe24896e8d1c9f704ce922280e3b17260f86efb7da3e1cee754c7f65dc9",
+  "local_verification": "d18-search/results/d17-feedback-fourteen-hand-Blemma-verified.json",
+  "local_checks": {
+    "B_matchings": 232,
+    "critical_B_matchings": 26,
+    "static_matchings_per_canonical_family": 2620,
+    "canonical_606_families": 4,
+    "static_608_classification": true
+  },
+  "subset_probes": [
+    {
+      "case": 606,
+      "status": "SURVIVOR",
+      "seconds": 0.1539,
+      "external_wall_limit_seconds": 120,
+      "indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        19
+      ],
+      "failing_full_family_indices": [
+        3,
+        8,
+        13,
+        18
+      ],
+      "terminal": "d18-search/results/d17-feedback-fourteen-hand-fourbyfour606/terminal.json"
+    },
+    {
+      "case": 608,
+      "status": "SURVIVOR",
+      "seconds": 0.7998,
+      "external_wall_limit_seconds": 120,
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16,
+        17,
+        18
+      ],
+      "failing_full_family_indices": [
+        4,
+        9,
+        14,
+        19
+      ],
+      "terminal": "d18-search/results/d17-feedback-fourteen-hand-fourbyfour608/terminal.json"
+    }
+  ],
+  "all_processes_terminal": true,
+  "active_sat_processes": 0,
+  "exploratory608_normalizations": "results/d17-feedback-fourteen-hand608-canonical.json; finite exploratory table only, not used as a universal proof premise"
+}

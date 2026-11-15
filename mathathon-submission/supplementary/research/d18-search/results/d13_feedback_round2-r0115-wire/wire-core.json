@@ -1,0 +1,94 @@
+{
+  "case_id": "n13-r0115",
+  "retained_bounds": [
+    {
+      "kind": "wire",
+      "index": 2,
+      "selector": 1253,
+      "clause_start": 6116,
+      "clause_stop": 6125
+    },
+    {
+      "kind": "wire",
+      "index": 3,
+      "selector": 1254,
+      "clause_start": 6125,
+      "clause_stop": 6134
+    },
+    {
+      "kind": "wire",
+      "index": 4,
+      "selector": 1255,
+      "clause_start": 6134,
+      "clause_stop": 6143
+    },
+    {
+      "kind": "wire",
+      "index": 5,
+      "selector": 1256,
+      "clause_start": 6143,
+      "clause_stop": 6152
+    },
+    {
+      "kind": "wire",
+      "index": 6,
+      "selector": 1257,
+      "clause_start": 6152,
+      "clause_stop": 6161
+    },
+    {
+      "kind": "wire",
+      "index": 7,
+      "selector": 1258,
+      "clause_start": 6161,
+      "clause_stop": 6170
+    },
+    {
+      "kind": "wire",
+      "index": 8,
+      "selector": 1259,
+      "clause_start": 6170,
+      "clause_stop": 6179
+    },
+    {
+      "kind": "wire",
+      "index": 9,
+      "selector": 1260,
+      "clause_start": 6179,
+      "clause_stop": 6188
+    },
+    {
+      "kind": "wire",
+      "index": 10,
+      "selector": 1261,
+      "clause_start": 6188,
+      "clause_stop": 6197
+    },
+    {
+      "kind": "wire",
+      "index": 11,
+      "selector": 1262,
+      "clause_start": 6197,
+      "clause_stop": 6206
+    }
+  ],
+  "omitted_bound_units": [
+    1251,
+    1252,
+    1263
+  ],
+  "original_clauses": 341375,
+  "reduced_clauses": 341372,
+  "deletion_minimal": false,
+  "note": "Only unused bound units removed; omitted selectors are unconstrained and can be false",
+  "wall_cap_seconds": 60,
+  "terminal": "EXITED",
+  "returncode": 0,
+  "verified": true,
+  "seconds": 15.258973750052974,
+  "sha256": {
+    "wire-core.cnf": "3766417a7c8982b0eb653dacf42f64acab68e4eca7565ef2e1eccf49b1aa0f6c",
+    "core-proof.drat": "787fd35bb85f1fcc95cf37c782ef0d354995d9146837219c5a5ce50c4edaec33",
+    "d13_feedback_round2_trim.py": "7d15d2665fdeb0b3eb641764a42850c02b8eac7992dccfbd478f895c502db391"
+  }
+}

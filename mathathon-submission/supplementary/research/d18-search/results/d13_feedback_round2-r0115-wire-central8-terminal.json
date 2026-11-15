@@ -1,0 +1,8 @@
+{
+  "terminal": "EXITED",
+  "returncode": 0,
+  "wall_cap_seconds": 60,
+  "seconds": 29.61951958294958,
+  "stdout": "{\"case_id\": \"n13-r0115\", \"depth\": 8, \"cut\": 6, \"mode\": \"wire\", \"inputs\": 720, \"wires\": [3, 4, 5, 6, 7, 8, 9, 10], \"ranks\": [], \"variables\": 23461, \"clauses\": 341325, \"original_window_cost\": 38577, \"window_cost\": 26374, \"scope\": \"All four-layer continuations of this complete-cover prefix; cut6 interval bounds, optional common ending routing\", \"source_sha256\": \"1edeefc7a23a3ffcb8a7b6b141f9abab8137724a4be6f1ea3e34b09abff63f06\", \"cover_sha256\": \"2e3dec7b0d501a15ed9871a024d647c89526945f3ad263d3360ce983279f8406\", \"status\": \"BUILT\", \"independently_proof_checked\": false, \"build_seconds\": 0.3485057500656694}\nUNSAT 29.501353666069917\n",
+  "stderr": ""
+}

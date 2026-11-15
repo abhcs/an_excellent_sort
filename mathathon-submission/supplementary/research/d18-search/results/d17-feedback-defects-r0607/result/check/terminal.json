@@ -1,0 +1,16 @@
+{
+  "status": "EXITED",
+  "returncode": 0,
+  "wall_seconds": 7.621,
+  "wall_limit_seconds": 120,
+  "command": [
+    "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+    "d18-search/d17_feedback_certificate.py",
+    "--certificate",
+    "d18-search/results/d17-feedback-defects-r0607/result",
+    "--out",
+    "d18-search/results/d17-feedback-defects-r0607/result/check",
+    "--checker",
+    "/private/tmp/d18-structural-drat-trim/drat-trim"
+  ]
+}

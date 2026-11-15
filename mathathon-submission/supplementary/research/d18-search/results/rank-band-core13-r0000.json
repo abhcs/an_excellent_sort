@@ -1,0 +1,334 @@
+{
+  "case_id": "n13-r0000",
+  "n": 13,
+  "depth": 8,
+  "prefix": [
+    [
+      [
+        0,
+        9
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        8,
+        10
+      ]
+    ],
+    [
+      [
+        0,
+        8
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        5,
+        12
+      ],
+      [
+        9,
+        10
+      ]
+    ]
+  ],
+  "records": [
+    {
+      "name": "central-six-levels",
+      "weights": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "LIMIT",
+      "seconds": 11.434
+    },
+    {
+      "name": "all-levels",
+      "weights": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "status": "UNSAT",
+      "seconds": 9.567,
+      "core_weights": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "name": "delete-1",
+      "weights": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "status": "UNSAT",
+      "seconds": 7.199,
+      "core_weights": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "name": "delete-12",
+      "weights": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "status": "UNSAT",
+      "seconds": 5.699,
+      "core_weights": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "name": "delete-2",
+      "weights": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "status": "UNSAT",
+      "seconds": 6.881,
+      "core_weights": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "name": "delete-11",
+      "weights": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "status": "UNSAT",
+      "seconds": 7.754,
+      "core_weights": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "name": "delete-3",
+      "weights": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "status": "LIMIT",
+      "seconds": 12.076
+    },
+    {
+      "name": "delete-10",
+      "weights": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "LIMIT",
+      "seconds": 13.248
+    },
+    {
+      "name": "delete-4",
+      "weights": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "status": "LIMIT",
+      "seconds": 11.92
+    },
+    {
+      "name": "delete-9",
+      "weights": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10
+      ],
+      "status": "LIMIT",
+      "seconds": 12.147
+    },
+    {
+      "name": "delete-5",
+      "weights": [
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "status": "LIMIT",
+      "seconds": 11.671
+    },
+    {
+      "name": "delete-8",
+      "weights": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "status": "LIMIT",
+      "seconds": 12.356
+    },
+    {
+      "name": "delete-6",
+      "weights": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "status": "LIMIT",
+      "seconds": 10.556
+    },
+    {
+      "name": "delete-7",
+      "weights": [
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10
+      ],
+      "status": "LIMIT",
+      "seconds": 12.342
+    }
+  ],
+  "normal_forms": "full-image redundancy and phi1..4",
+  "independently_proof_checked": false,
+  "source_sha256": "7d674b700cca8f97f7c53b3ad58d513ffbc7f2dbfac60f167e1fd10abaf98b37"
+}

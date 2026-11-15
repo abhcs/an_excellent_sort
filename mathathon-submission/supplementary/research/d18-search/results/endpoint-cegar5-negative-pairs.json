@@ -1,0 +1,122 @@
+{
+  "case_id": "n5-negative-control",
+  "n": 5,
+  "depth": 2,
+  "cut": 1,
+  "prefix": [],
+  "wires": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "cap": 2,
+  "mode": "pairs",
+  "scope": "All continuations of fixed prefix; selected wire intervals only",
+  "source_sha256": "22768b03673525e930c722acde18c6d4c77049a0e1e6f16615801908b1e39aa1",
+  "status": "UNSAT",
+  "independently_proof_checked": true,
+  "universe_size": 32,
+  "iterations": [
+    {
+      "iteration": 0,
+      "solve_seconds": 1.5458092093467712e-05,
+      "oracle_seconds": 1.4874967746436596e-05,
+      "violated_wires": 5,
+      "input_count": 0,
+      "maximum_width": 5,
+      "added_witnesses": [
+        {
+          "wire": 0,
+          "lo": 0,
+          "hi": 4,
+          "width": 5,
+          "zero_witness": 30,
+          "one_witness": 1
+        },
+        {
+          "wire": 1,
+          "lo": 0,
+          "hi": 4,
+          "width": 5,
+          "zero_witness": 29,
+          "one_witness": 2
+        },
+        {
+          "wire": 2,
+          "lo": 0,
+          "hi": 4,
+          "width": 5,
+          "zero_witness": 27,
+          "one_witness": 4
+        },
+        {
+          "wire": 3,
+          "lo": 0,
+          "hi": 4,
+          "width": 5,
+          "zero_witness": 23,
+          "one_witness": 8
+        },
+        {
+          "wire": 4,
+          "lo": 0,
+          "hi": 4,
+          "width": 5,
+          "zero_witness": 15,
+          "one_witness": 16
+        }
+      ]
+    },
+    {
+      "iteration": 1,
+      "status": "UNSAT",
+      "solve_seconds": 5.2458024583756924e-05
+    }
+  ],
+  "seconds": 0.0015130409738048911,
+  "variables": 54,
+  "clauses": 182,
+  "input_count": 10,
+  "pair_count": 5,
+  "selected_inputs": [
+    1,
+    2,
+    4,
+    8,
+    15,
+    16,
+    23,
+    27,
+    29,
+    30
+  ],
+  "certificate_directory": "d18-search/results/endpoint-cegar5-negative-pairs",
+  "cnf_sha256": "3f5bd03da116b0e7e77c8e5da774312f6126793cc44af34d5a9a2d29d5f6cd98",
+  "proof_sha256": "01061310fb77c53f1988abca1347a7a9227b2a8e3a54c8e523f1d28e1a625172",
+  "checker_returncode": 0,
+  "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d",
+  "check_seconds": 0.02084220794495195,
+  "worker_terminal": {
+    "command": [
+      "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+      "/private/tmp/an_excellent_sort-d18-structural-20261115/d18-search/endpoint_cegar.py",
+      "--out",
+      "d18-search/results/endpoint-cegar5-negative-pairs.json",
+      "--seconds",
+      "12.0",
+      "--seed",
+      "d18-search/results/endpoint-cegar5-negative-seed.json",
+      "--cut",
+      "1",
+      "--mode",
+      "pairs",
+      "--proof"
+    ],
+    "wall_cap_seconds": 15.0,
+    "terminal": "EXITED",
+    "returncode": 0,
+    "wall_seconds": 0.07591245893854648
+  }
+}
