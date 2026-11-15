@@ -120,83 +120,310 @@
 
 % ======================= 2. Sequential sorting =======================
 \begingroup\altstyle
-\begin{frame}{One comparison at a time, sorting is solved}{Background \textperiodcentered\ Sequential sorting}
+\begin{frame}{Classical Sorting}{Background \textperiodcentered\ Sequential sorting}
 \begin{columns}[c]
 \begin{column}{0.42\textwidth}
 \bigmath{\fontsize{36}{40}\selectfont $\Theta(n\log n)$}\par\vspace{0.2cm}
 comparisons are necessary and sufficient to sort $n$ items.
 \end{column}
 \begin{column}{0.54\textwidth}
-\begin{card}{Lower bound}
-For distinct items, comparisons distinguish $n!$ possible orderings. A decision tree therefore needs depth at least $\lceil\log_2(n!)\rceil$.
-\end{card}
-\begin{card}{Matching algorithms}
-Mergesort and heapsort achieve $O(n\log n)$ comparisons in the worst case.
+\begin{card}{}
+Classical sorting algorithms like mergesort and heapsort use $O(n\log n)$ comparisons in the worst case.
 \end{card}
 \end{column}
 \end{columns}
-\vspace{0.4cm}
-{\color{navy}The open questions start when comparisons can be made \textbf{in parallel}.}
-\note{0:35. Report Appendix G. The decision-tree lower bound and standard comparison-sorting algorithms are background, credited to Knuth. With at most floor(n/2) gates per layer, the counting bound also gives a logarithmic depth lower bound.}
+\vspace{1cm}
+Can we get faster algorithms by doing comparisons and swaps in parallel?
 \end{frame}
 \endgroup
 
 % ======================= 3. Sorting networks =======================
-\begin{frame}{A sorting network is a fixed circuit of comparisons}{Background}
+% ======================= 3a. Bare sorting network =======================
+\begin{frame}{A sorting network is a fixed circuit of comparisons}{Background \textperiodcentered\ Sorting networks}
 \begin{columns}[c]
-\begin{column}{0.48\textwidth}
+\begin{column}{0.60\textwidth}
+\vspace{0.1cm}
+\resizebox{\linewidth}{!}{%
 \begin{tikzpicture}[pxgrid]
-  \foreach \y in {50,130,210,290,370} \draw[navy, line width=3\px] (30,\y) -- (730,\y);
-  \begin{scope}[rust]
-    \cmp{110}{50}{130} \cmp{195}{130}{210} \cmp{280}{210}{290} \cmp{280}{50}{130}
-    \cmp{365}{290}{370} \cmp{365}{130}{210} \cmp{450}{210}{290} \cmp{450}{50}{130}
-    \cmp{535}{130}{210} \cmp{620}{50}{130}
-  \end{scope}
-\end{tikzpicture}\par\vspace{0.15cm}
-{\scriptsize\color{muted}Bubble sort on 5 wires: 10 comparators, but only 7 parallel layers ($2n-3$).}
+\useasboundingbox (0,0) rectangle (1120,580);
+\foreach \y in {40,150,260,370,480} \draw[navy, line width=3\px] (60,\y) -- (1100,\y);
+\begin{scope}[rust]
+\cmp{200}{40}{150}
+\cmp{330}{150}{260}
+\cmp{460}{260}{370}
+\cmp{460}{40}{150}
+\cmp{590}{370}{480}
+\cmp{590}{150}{260}
+\cmp{720}{260}{370}
+\cmp{720}{40}{150}
+\cmp{850}{150}{260}
+\cmp{980}{40}{150}
+\end{scope}
+\node[anchor=west, text=muted, font=\large] at (0,550) {Layer};
+\node[text=muted, font=\large] at (200,550) {1};
+\node[text=muted, font=\large] at (330,550) {2};
+\node[text=muted, font=\large] at (460,550) {3};
+\node[text=muted, font=\large] at (590,550) {4};
+\node[text=muted, font=\large] at (720,550) {5};
+\node[text=muted, font=\large] at (850,550) {6};
+\node[text=muted, font=\large] at (980,550) {7};
+\end{tikzpicture}}
 \end{column}
-\begin{column}{0.48\textwidth}
-\textbf{Wires} carry items left to right.\par\medskip
-\textbf{Comparators} put the smaller item on the upper wire and the larger on the lower one.\par\medskip
-\textbf{Layers} are comparators on disjoint wires, run at the same time.\par\medskip
-\textbf{Depth} is the number of layers. $D(n)$ is the least depth that sorts every input of size $n$.
+\begin{column}{0.36\textwidth}
+\textbf{Wires} carry values from left to right.\par\medskip
+\textbf{Comparators} look at two wires and put the smaller value on the upper one.\par\medskip
+\textbf{Layers} are comparators on disjoint wires, so they run at the same time.\par\medskip
+\textbf{Depth} is the number of layers: here 7, although there are 10 comparators.
 \end{column}
 \end{columns}
-\note{0:40. Report Section 2 and Appendix G. This five-wire illustration has ten comparisons in seven layers. It is a simple example, not an optimal network. The zero-one principle justifies binary verification.}
+\note{0:40. Report Section 2 and Appendix G. This five-wire illustration has ten comparisons in seven layers. It is a simple example, not an optimal network. The zero-one principle justifies binary verification. The next slides push the input 5, 3, 1, 4, 2 through it one layer at a time.}
 \end{frame}
+
+% ======================= 3. Sorting networks (8 overlay scenes) =======================
+\begin{frame}{A sorting network is a fixed circuit of comparisons}{Background \textperiodcentered\ Sorting networks}
+\begin{columns}[t]
+\begin{column}{0.60\textwidth}
+\vspace{0.1cm}
+\only<1>{\resizebox{\linewidth}{!}{%
+\begin{tikzpicture}[pxgrid]
+\useasboundingbox (0,0) rectangle (1120,520);
+\foreach \y in {40,150,260,370,480} \draw[navy, line width=3\px] (60,\y) -- (1100,\y);
+\begin{scope}[mist, opacity=1]\cmp{200}{40}{150}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{330}{150}{260}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{460}{260}{370}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{460}{40}{150}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{590}{370}{480}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{590}{150}{260}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{720}{260}{370}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{720}{40}{150}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{850}{150}{260}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{980}{40}{150}\end{scope}
+\node[circle, fill=navy, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (125,40) {5};
+\node[circle, fill=navy, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (125,150) {3};
+\node[circle, fill=navy, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (125,260) {1};
+\node[circle, fill=navy, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (125,370) {4};
+\node[circle, fill=navy, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (125,480) {2};
+\end{tikzpicture}}}%
+\only<2>{\resizebox{\linewidth}{!}{%
+\begin{tikzpicture}[pxgrid]
+\useasboundingbox (0,0) rectangle (1120,520);
+\fill[hl, rounded corners=10\px] (160,5) rectangle (240,515);
+\foreach \y in {40,150,260,370,480} \draw[navy, line width=3\px] (60,\y) -- (1100,\y);
+\begin{scope}[rust, opacity=1]\cmp{200}{40}{150}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{330}{150}{260}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{460}{260}{370}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{460}{40}{150}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{590}{370}{480}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{590}{150}{260}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{720}{260}{370}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{720}{40}{150}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{850}{150}{260}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{980}{40}{150}\end{scope}
+\node[circle, fill=rust, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (265,40) {3};
+\node[circle, fill=rust, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (265,150) {5};
+\node[circle, fill=navy, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (265,260) {1};
+\node[circle, fill=navy, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (265,370) {4};
+\node[circle, fill=navy, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (265,480) {2};
+\end{tikzpicture}}}%
+\only<3>{\resizebox{\linewidth}{!}{%
+\begin{tikzpicture}[pxgrid]
+\useasboundingbox (0,0) rectangle (1120,520);
+\fill[hl, rounded corners=10\px] (290,5) rectangle (370,515);
+\foreach \y in {40,150,260,370,480} \draw[navy, line width=3\px] (60,\y) -- (1100,\y);
+\begin{scope}[navy, opacity=0.45]\cmp{200}{40}{150}\end{scope}
+\begin{scope}[rust, opacity=1]\cmp{330}{150}{260}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{460}{260}{370}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{460}{40}{150}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{590}{370}{480}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{590}{150}{260}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{720}{260}{370}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{720}{40}{150}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{850}{150}{260}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{980}{40}{150}\end{scope}
+\node[circle, fill=navy, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (395,40) {3};
+\node[circle, fill=rust, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (395,150) {1};
+\node[circle, fill=rust, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (395,260) {5};
+\node[circle, fill=navy, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (395,370) {4};
+\node[circle, fill=navy, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (395,480) {2};
+\end{tikzpicture}}}%
+\only<4>{\resizebox{\linewidth}{!}{%
+\begin{tikzpicture}[pxgrid]
+\useasboundingbox (0,0) rectangle (1120,520);
+\fill[hl, rounded corners=10\px] (420,5) rectangle (500,515);
+\foreach \y in {40,150,260,370,480} \draw[navy, line width=3\px] (60,\y) -- (1100,\y);
+\begin{scope}[navy, opacity=0.45]\cmp{200}{40}{150}\end{scope}
+\begin{scope}[navy, opacity=0.45]\cmp{330}{150}{260}\end{scope}
+\begin{scope}[rust, opacity=1]\cmp{460}{260}{370}\end{scope}
+\begin{scope}[rust, opacity=1]\cmp{460}{40}{150}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{590}{370}{480}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{590}{150}{260}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{720}{260}{370}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{720}{40}{150}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{850}{150}{260}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{980}{40}{150}\end{scope}
+\node[circle, fill=rust, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (525,40) {1};
+\node[circle, fill=rust, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (525,150) {3};
+\node[circle, fill=rust, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (525,260) {4};
+\node[circle, fill=rust, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (525,370) {5};
+\node[circle, fill=navy, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (525,480) {2};
+\end{tikzpicture}}}%
+\only<5>{\resizebox{\linewidth}{!}{%
+\begin{tikzpicture}[pxgrid]
+\useasboundingbox (0,0) rectangle (1120,520);
+\fill[hl, rounded corners=10\px] (550,5) rectangle (630,515);
+\foreach \y in {40,150,260,370,480} \draw[navy, line width=3\px] (60,\y) -- (1100,\y);
+\begin{scope}[navy, opacity=0.45]\cmp{200}{40}{150}\end{scope}
+\begin{scope}[navy, opacity=0.45]\cmp{330}{150}{260}\end{scope}
+\begin{scope}[navy, opacity=0.45]\cmp{460}{260}{370}\end{scope}
+\begin{scope}[navy, opacity=0.45]\cmp{460}{40}{150}\end{scope}
+\begin{scope}[rust, opacity=1]\cmp{590}{370}{480}\end{scope}
+\begin{scope}[steel, opacity=1]\cmp{590}{150}{260}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{720}{260}{370}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{720}{40}{150}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{850}{150}{260}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{980}{40}{150}\end{scope}
+\node[circle, fill=navy, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (655,40) {1};
+\node[circle, fill=navy, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (655,150) {3};
+\node[circle, fill=navy, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (655,260) {4};
+\node[circle, fill=rust, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (655,370) {2};
+\node[circle, fill=rust, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (655,480) {5};
+\end{tikzpicture}}}%
+\only<6>{\resizebox{\linewidth}{!}{%
+\begin{tikzpicture}[pxgrid]
+\useasboundingbox (0,0) rectangle (1120,520);
+\fill[hl, rounded corners=10\px] (680,5) rectangle (760,515);
+\foreach \y in {40,150,260,370,480} \draw[navy, line width=3\px] (60,\y) -- (1100,\y);
+\begin{scope}[navy, opacity=0.45]\cmp{200}{40}{150}\end{scope}
+\begin{scope}[navy, opacity=0.45]\cmp{330}{150}{260}\end{scope}
+\begin{scope}[navy, opacity=0.45]\cmp{460}{260}{370}\end{scope}
+\begin{scope}[navy, opacity=0.45]\cmp{460}{40}{150}\end{scope}
+\begin{scope}[navy, opacity=0.45]\cmp{590}{370}{480}\end{scope}
+\begin{scope}[navy, opacity=0.45]\cmp{590}{150}{260}\end{scope}
+\begin{scope}[rust, opacity=1]\cmp{720}{260}{370}\end{scope}
+\begin{scope}[steel, opacity=1]\cmp{720}{40}{150}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{850}{150}{260}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{980}{40}{150}\end{scope}
+\node[circle, fill=navy, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (785,40) {1};
+\node[circle, fill=navy, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (785,150) {3};
+\node[circle, fill=rust, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (785,260) {2};
+\node[circle, fill=rust, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (785,370) {4};
+\node[circle, fill=navy, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (785,480) {5};
+\end{tikzpicture}}}%
+\only<7>{\resizebox{\linewidth}{!}{%
+\begin{tikzpicture}[pxgrid]
+\useasboundingbox (0,0) rectangle (1120,520);
+\fill[hl, rounded corners=10\px] (810,5) rectangle (890,515);
+\foreach \y in {40,150,260,370,480} \draw[navy, line width=3\px] (60,\y) -- (1100,\y);
+\begin{scope}[navy, opacity=0.45]\cmp{200}{40}{150}\end{scope}
+\begin{scope}[navy, opacity=0.45]\cmp{330}{150}{260}\end{scope}
+\begin{scope}[navy, opacity=0.45]\cmp{460}{260}{370}\end{scope}
+\begin{scope}[navy, opacity=0.45]\cmp{460}{40}{150}\end{scope}
+\begin{scope}[navy, opacity=0.45]\cmp{590}{370}{480}\end{scope}
+\begin{scope}[navy, opacity=0.45]\cmp{590}{150}{260}\end{scope}
+\begin{scope}[navy, opacity=0.45]\cmp{720}{260}{370}\end{scope}
+\begin{scope}[navy, opacity=0.45]\cmp{720}{40}{150}\end{scope}
+\begin{scope}[rust, opacity=1]\cmp{850}{150}{260}\end{scope}
+\begin{scope}[mist, opacity=1]\cmp{980}{40}{150}\end{scope}
+\node[circle, fill=navy, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (915,40) {1};
+\node[circle, fill=rust, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (915,150) {2};
+\node[circle, fill=rust, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (915,260) {3};
+\node[circle, fill=navy, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (915,370) {4};
+\node[circle, fill=navy, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (915,480) {5};
+\end{tikzpicture}}}%
+\only<8>{\resizebox{\linewidth}{!}{%
+\begin{tikzpicture}[pxgrid]
+\useasboundingbox (0,0) rectangle (1120,520);
+\fill[hl, rounded corners=10\px] (940,5) rectangle (1020,515);
+\foreach \y in {40,150,260,370,480} \draw[navy, line width=3\px] (60,\y) -- (1100,\y);
+\begin{scope}[navy, opacity=0.45]\cmp{200}{40}{150}\end{scope}
+\begin{scope}[navy, opacity=0.45]\cmp{330}{150}{260}\end{scope}
+\begin{scope}[navy, opacity=0.45]\cmp{460}{260}{370}\end{scope}
+\begin{scope}[navy, opacity=0.45]\cmp{460}{40}{150}\end{scope}
+\begin{scope}[navy, opacity=0.45]\cmp{590}{370}{480}\end{scope}
+\begin{scope}[navy, opacity=0.45]\cmp{590}{150}{260}\end{scope}
+\begin{scope}[navy, opacity=0.45]\cmp{720}{260}{370}\end{scope}
+\begin{scope}[navy, opacity=0.45]\cmp{720}{40}{150}\end{scope}
+\begin{scope}[navy, opacity=0.45]\cmp{850}{150}{260}\end{scope}
+\begin{scope}[steel, opacity=1]\cmp{980}{40}{150}\end{scope}
+\node[circle, fill=navy, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (1045,40) {1};
+\node[circle, fill=navy, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (1045,150) {2};
+\node[circle, fill=navy, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (1045,260) {3};
+\node[circle, fill=navy, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (1045,370) {4};
+\node[circle, fill=navy, text=paper, font=\bfseries\large, minimum size=64\px, inner sep=0pt] at (1045,480) {5};
+\end{tikzpicture}}}%
+\end{column}
+\begin{column}{0.36\textwidth}
+\vspace{0.2cm}
+\only<1>{{\rmfamily\bfseries\Large\color{navy}Input\par}\medskip
+\textbf{Values} 5, 3, 1, 4, 2 enter on the left, one value per wire.\par\medskip
+\textbf{Next}: follow them through the network one layer at a time.}
+\only<2>{{\rmfamily\bfseries\Large\color{navy}Layer 1\par}\medskip
+\textbf{5 and 3} meet: swapped.\par\medskip
+\textbf{Now}: 3, 5, 1, 4, 2.}
+\only<3>{{\rmfamily\bfseries\Large\color{navy}Layer 2\par}\medskip
+\textbf{5 and 1} meet: swapped.\par\medskip
+\textbf{Now}: 3, 1, 5, 4, 2.}
+\only<4>{{\rmfamily\bfseries\Large\color{navy}Layer 3\par}\medskip
+\textbf{5 and 4} meet: swapped.\par\medskip
+\textbf{3 and 1} meet: swapped.\par\medskip
+\textbf{Now}: 1, 3, 4, 5, 2.}
+\only<5>{{\rmfamily\bfseries\Large\color{navy}Layer 4\par}\medskip
+\textbf{5 and 2} meet: swapped.\par\medskip
+\textbf{3 and 4} meet: already in order.\par\medskip
+\textbf{Now}: 1, 3, 4, 2, 5.}
+\only<6>{{\rmfamily\bfseries\Large\color{navy}Layer 5\par}\medskip
+\textbf{4 and 2} meet: swapped.\par\medskip
+\textbf{1 and 3} meet: already in order.\par\medskip
+\textbf{Now}: 1, 3, 2, 4, 5.}
+\only<7>{{\rmfamily\bfseries\Large\color{navy}Layer 6\par}\medskip
+\textbf{3 and 2} meet: swapped.\par\medskip
+\textbf{Now}: 1, 2, 3, 4, 5.}
+\only<8>{{\rmfamily\bfseries\Large\color{navy}Output\par}\medskip
+\textbf{1 and 2} meet: already in order.\par\medskip
+\textbf{Sorted} after 7 layers. Depth 7 = 2n $-$ 3, using 10 comparators. D(n) is the least depth that sorts every input.}
+\end{column}
+\end{columns}
+\note{We follow one input, 5, 3, 1, 4, 2, through the bubble-sort network, one layer per overlay. Each comparator puts the smaller value on top; red comparators swapped their values, blue ones found them already in order. After 7 layers the values are sorted. The comparisons were fixed in advance, so the same network sorts every input. Its depth is 7 = 2n - 3 although it has 10 comparators.}
+\end{frame}
+
+% ======================= 3b. Parallel sorting question =======================
+\begingroup\darkstyle
+\begin{frame}[c]
+\centering
+{\rmfamily\bfseries\fontsize{30}{36}\selectfont\color{paper}How quickly can we sort in parallel?\par}
+\end{frame}
+\endgroup
 
 % ======================= 4. Batcher =======================
 \begingroup\altstyle
-\begin{frame}{Divide and conquer with an exact halving step}{Background \textperiodcentered\ Batcher's sort}
+\begin{frame}{A Simple Efficient Sorting Network}{Background \textperiodcentered\ Batcher's sort}
 \begin{columns}[c]
 \begin{column}{0.46\textwidth}
 \begin{tikzpicture}[pxgrid]
-  \fill[mist, rounded corners=10\px] (20,20) rectangle (190,210);
-  \fill[mist, rounded corners=10\px] (20,230) rectangle (190,420);
+  \fill[steel, rounded corners=10\px] (20,20) rectangle (190,210);
+  \fill[steel, rounded corners=10\px] (20,230) rectangle (190,420);
   \fill[hl, rounded corners=10\px] (225,10) rectangle (355,430);
   \foreach \y in {45,95,145,195,245,295,345,395} \draw[navy, line width=3\px] (190,\y) -- (700,\y);
   \begin{scope}[rust]
-    \cmp[9]{250}{45}{245} \cmp[9]{275}{95}{295} \cmp[9]{300}{145}{345} \cmp[9]{325}{195}{395}
+    \cmp[9]{250}{45}{395} \cmp[9]{275}{95}{345} \cmp[9]{300}{145}{295} \cmp[9]{325}{195}{245}
   \end{scope}
-  \begin{scope}[steel]
-    \cmp[9]{420}{45}{145} \cmp[9]{445}{95}{195} \cmp[9]{420}{245}{345} \cmp[9]{445}{295}{395}
-    \cmp[9]{540}{45}{95} \cmp[9]{540}{145}{195} \cmp[9]{540}{245}{295} \cmp[9]{540}{345}{395}
-  \end{scope}
+  \fill[mist, rounded corners=10\px] (400,20) rectangle (590,210);
+  \fill[mist, rounded corners=10\px] (400,230) rectangle (590,420);
 \end{tikzpicture}\par\vspace{0.1cm}
-{\scriptsize\textcolor{steel}{\textbf{Grey:} sort halves}\quad \textcolor{rust}{\textbf{Red:} halving layer}\quad \textcolor{muted}{\textbf{Blue:} recurse}}
+{\scriptsize\textcolor{rust}{\textbf{Red:} halving layer}\quad \textcolor{steel}{\textbf{Dark blue:} sorters}\quad \textcolor{muted}{\textbf{Light blue:} mergers}}
 \end{column}
 \begin{column}{0.50\textwidth}
-\textbf{1.} Sort the two halves in parallel, one ascending and one descending.\par\medskip
-\textbf{2.} One layer comparing wire $i$ with wire $i+n/2$ now \textbf{exactly halves} the items: every item on top is smaller than every item below.\par\medskip
-\textbf{3.} Recurse on each half. Merging costs $\log_2 n$ layers, so sorting costs $\tfrac12\log_2 n\,(\log_2 n+1)$.
+The dark blue boxes are smaller sorting networks.\par\medskip
+The light blue boxes only need to be \textbf{mergers}: each half arrives changing direction only once (it is \emph{bitonic}), and $\log_2(n/2)$ layers sort it.\par\medskip
+Depth: $D(n)=D(n/2)+\log_2 n$, so $D(n)=\tfrac12\log_2 n\,(\log_2 n+1)$.
 \end{column}
 \end{columns}
-\note{0:45. Report Appendix G. This is Batcher bitonic sorting on a power-of-two width. Sort halves in opposite directions before applying the exact split. The recursive merge costs log2 n layers, and the sorter has triangular depth.}
+\note{0:45. Report Appendix G. This is Batcher bitonic sorting on a power-of-two width, drawn with standard comparators only. Sort both halves in increasing order; a funnel layer comparing the first wire with the last, the second with the second-to-last, and so on, then performs the exact split. Sorting one half in decreasing order, as textbooks often do, is only a convenience. The right-hand boxes are mergers, not sorters: each half is already bitonic, so log2(n/2) layers suffice. If they were full sorters the recurrence would be D(n) = 2D(n/2) + 1, which is linear. The recursive merge costs log2 n layers, and the sorter has triangular depth.}
 \end{frame}
 \endgroup
 
 % ======================= 5. epsilon-halver =======================
-\begin{frame}{AKS halves cheaply and corrects the errors}{Background \textperiodcentered\ The AKS idea}
+\begin{frame}{A Complex Efficient Sorting Network}{Background \textperiodcentered\ The AKS idea}
 \begin{columns}[c]
 \begin{column}{0.42\textwidth}
 \begin{tikzpicture}[pxgrid]
@@ -250,17 +477,17 @@ Mergesort and heapsort achieve $O(n\log n)$ comparisons in the worst case.
 
 % ======================= 7. Landscape =======================
 \begingroup\altstyle
-\begin{frame}{The logarithmic-depth gap}{Background}
+\begin{frame}{Best Known Results}{Background}
 \small
 \begin{tabular}{p{0.36\textwidth}p{0.30\textwidth}p{0.23\textwidth}}
 \toprule
 \textbf{Result} & \textbf{Depth} & \textbf{Comment}\\
 \midrule
 Batcher (1968) & $\tfrac12\log_2 n(\log_2 n+1)$ & Simple construction\\
-\rowcolor{hl} Ajtai, Koml\'os, Szemer\'edi (1983) & $O(\log n)$ & Large constant\\
+Ajtai, Koml\'os, Szemer\'edi (1983) & $O(\log n)$ & Large constant\\
 Chv\'atal (1992) & $1830\log_2 n-58657$ & $n\ge 2^{78}$\\
 Exact values of $D(n)$ & Known through 17 wires & Prior work\\
-First unresolved width & $10\le D(18)\le11$ & One-layer gap\\
+Exact known values of $D$ & $D(1),\dots,D(17)$ & $10\le D(18)\le 11$\\
 \bottomrule
 \end{tabular}\par\vspace{0.4cm}
 {\color{navy}We seek simpler constructions and proofs that explain what forces another layer. The numerical small-width optima are prior work.}
@@ -268,21 +495,24 @@ First unresolved width & $10\le D(18)\le11$ & One-layer gap\\
 \end{frame}
 \endgroup
 
+% ======================= 7b. AI question =======================
+\begingroup\darkstyle
+\begin{frame}[c]
+\centering
+{\rmfamily\bfseries\fontsize{30}{36}\selectfont\color{paper}What Can AI Tell Us?\par}
+\end{frame}
+\endgroup
+
 % ======================= 8. Purpose =======================
 \begin{frame}{Use AI agents to understand shallow sorting networks better}{Purpose of this effort}
 \begin{columns}[T]
-\begin{column}{0.48\textwidth}
-\begin{card}{AKS analysis}A simpler, clearer account of why the AKS network works\end{card}
-\begin{card}{Lower bounds}Extract structural obstructions and give human-understandable proofs of known bounds\end{card}
-\end{column}
-\begin{column}{0.48\textwidth}
-\begin{card}{New constructions}$O(\log n)$-depth networks that are simpler or connect to other mathematics\end{card}
-\begin{card}{Fixed $n$}Find shallower sorting networks for specific values of $n$\end{card}
-\end{column}
+\begin{column}{0.31\textwidth}\begin{card}{Lower bounds}Extract structural obstructions and give human-understandable proofs of known bounds\end{card}\end{column}
+\begin{column}{0.31\textwidth}\begin{card}{New constructions}$O(\log n)$-depth networks that are simpler or connect to other mathematics\end{card}\end{column}
+\begin{column}{0.31\textwidth}\begin{card}{Fixed $n$}Find shallower sorting networks for specific values of $n$\end{card}\end{column}
 \end{columns}
 \vspace{0.2cm}
 {\scriptsize\color{muted}Claude and Codex: main research and writing. DeepSeek V4.1 Flash and KimiK3.1 Pro: initial analysis.}
-\note{0:45. Report Sections 1, 8 and 11. The four directions are research objectives, not claims that all were achieved. SAT supplies examples and constraints; LLM-assisted analysis helps search for proofs. Model-specific contributions are not inferred solely from branch names.}
+\note{0:45. Report Sections 1, 8 and 11. The three directions are research objectives, not claims that all were achieved. SAT supplies examples and constraints; LLM-assisted analysis helps search for proofs. Model-specific contributions are not inferred solely from branch names.}
 \end{frame}
 
 % ======================= 9. Outcomes =======================
@@ -308,18 +538,27 @@ Verified depths 26, 34, 43 and 52 at 128, 256, 512 and 1024 wires. These improve
 \end{frame}
 \endgroup
 
-% ======================= 10. Halving lemma statement =======================
+% ======================= 9b. Lower bounds section =======================
 \begingroup\darkstyle
-\begin{frame}{The halving lemma}{Outcome 1 \textperiodcentered\ Lower bounds for small $n$}
-\vspace{0.35cm}
-{\color{paper}\fontsize{32}{36}\selectfont $D(n)\;\ge\; D(\lceil n/2\rceil)+2$\par}
-\vspace{0.45cm}
-{\Large\color{mist}For $n\ge3$, sorting $n$ items needs at least two more layers than sorting half of them.\par}
-\vspace{0.4cm}
-{\color{rustlight}The two-layer removal and this recurrence are verified in Lean.}
-\note{1:00. Report Section 2.1 and Appendix E.4. The hypothesis n at least three matters. For n=2 the formula is false. Lean checks only the two-layer removal and halving recurrence, not all the report theorems. Larger consequences can use published small-width depths, but those are separate premises.}
+\begin{frame}[c]
+\centering
+{\rmfamily\bfseries\fontsize{30}{36}\selectfont\color{paper}Lower Bounds\par}
 \end{frame}
 \endgroup
+
+% ======================= 10. Halving lemma statement =======================
+\begin{frame}{The halving lemma}{Outcome 1 \textperiodcentered\ Lower bounds for small $n$}
+\vspace{0.4cm}
+\begin{statement}
+{\color{navy}\textbf{Theorem (Halving Lemma).} For every $n\ge 3$,\par\medskip
+{\centering\Huge $D(n)\;\ge\; D(\lceil n/2\rceil)+2.$\par}}
+\end{statement}
+\vspace{0.4cm}
+{\large Sorting $n$ items needs at least two more layers than sorting half of them.\par}
+\vspace{0.4cm}
+{\color{rust}The two-layer removal and this recurrence are verified in Lean.}
+\note{1:00. Report Section 2.1 and Appendix E.4. The hypothesis n at least three matters. For n=2 the formula is false. Lean checks only the two-layer removal and halving recurrence, not all the report theorems. Larger consequences can use published small-width depths, but those are separate premises.}
+\end{frame}
 
 % ======================= 11. Halving proof =======================
 \begin{frame}{Freeze half the wires for two layers}{Outcome 1 \textperiodcentered\ Proof idea}
@@ -387,9 +626,17 @@ SAT identifies constrained cases. We use LLM-assisted analysis to look for a rea
 \note{1:20. Report Sections 6 and 7, Appendix F. In the nine-wire cycle case, opposite-sign sentinel placements remain disjoint, so their six-real sets always overlap in three wires. A matching cannot pair both sets internally. This forces a small family, eliminated by nine rows. Full H9 still has computational dependencies in 24 classes. Selected D18 prefix exclusions do not close any of the 411 full two-layer cases.}
 \end{frame}
 
+% ======================= 14b. Large-n constructions section =======================
+\begingroup\darkstyle
+\begin{frame}[c]
+\centering
+{\rmfamily\bfseries\fontsize{30}{36}\selectfont\color{paper}Better Constructions for Large $n$\par}
+\end{frame}
+\endgroup
+
 % ======================= 15. Constants =======================
 \begingroup\altstyle
-\begin{frame}{Comparing constants in the same units}{Outcome 2 \textperiodcentered\ Constants}
+\begin{frame}{Improved Constants for AKS-type Networks}{Outcome 2 \textperiodcentered\ Constants}
 \begin{columns}[T]
 \begin{column}{0.54\textwidth}
 \small
@@ -417,6 +664,12 @@ for $n\ge2^{79}$. The leading coefficient is about 4.63\% below Chv\'atal's.\end
 \end{frame}
 \endgroup
 
+% ======================= 15b. Fixed-n constructions section =======================
+\begingroup\darkstyle
+\begin{frame}[c]
+\centering
+{\rmfamily\bfseries\fontsize{30}{36}\selectfont\color{paper}Better Constructions for Fixed $n$\par}
+\end{frame}
 \endgroup
 
 % ======================= 17. Depths =======================
