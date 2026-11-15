@@ -2,7 +2,7 @@
 % Retains the original deck sequence, palette and diagrams with claims aligned to the report.
 % Diagrams are drawn in TikZ using the HTML deck's pixel coordinates (1920 x 1080 canvas = 16cm x 9cm).
 % Revised against the integrated report. Compile with: pdflatex slides.tex
-% The 21-slide structure, palette, typography and existing TikZ illustrations are retained.
+% The existing palette, typography and TikZ illustrations are retained; bound comparisons are added.
 % Speaker notes are included with \note{}; to show them, add \setbeameroption{show notes on second screen=right}.
 \documentclass[aspectratio=169,9pt,xcolor=table]{beamer}
 
@@ -292,8 +292,8 @@ First unresolved width & $10\le D(18)\le11$ & One-layer gap\\
 \begin{frame}{Three concrete outcomes}{Statement of outcomes}
 \begin{columns}[T]
 \begin{column}{0.31\textwidth}
-\begin{card}{Lower bounds}{\rmfamily\bfseries\large\color{navy}Proofs through ten wires\par}\smallskip
-Human-understandable arguments for every optimal lower bound through $D(10)$. SAT-guided work also yields short structural proofs.\end{card}
+\begin{card}{Lower bounds}{\rmfamily\bfseries\large\color{navy}Raised known bounds\par}\smallskip
+One recurrence, $D(n)\ge D(\lceil n/2\rceil)+2$, adds one or two layers to the catalogued lower bounds for 25 to 64 wires.\end{card}
 \end{column}
 \begin{column}{0.31\textwidth}
 \begin{card}{AKS analysis}{\rmfamily\bfseries\large\color{navy}A smaller coefficient\par}\smallskip
@@ -306,7 +306,7 @@ Verified depths 26, 34, 43 and 52 at 128, 256, 512 and 1024 wires. These improve
 \end{columns}
 \vspace{0.3cm}
 {\color{muted}A simpler logarithmic-depth construction remains an objective.}
-\note{1:00. Report Sections 1, 2, 9 and 10.1. Separate completed explanatory progress at small widths, the explicit parameter theorem, and verified finite constructions. The lower-bound values and the AKS architecture themselves are prior work. A simpler logarithmic-depth architecture remains open.}
+\note{1:00. Report Sections 1, 2, 9 and 10.1. Separate the raised lower bounds, the explicit parameter theorem, and verified finite constructions. The bounds for 25 to 64 wires improve on those listed in Dobbelaere's catalogue (checked 15 November 2026); priority in the wider literature is not established. The small-width optimal depths and the AKS architecture are prior work. A simpler logarithmic-depth architecture remains open.}
 \end{frame}
 \endgroup
 
@@ -373,6 +373,74 @@ Verified depths 26, 34, 43 and 52 at 128, 256, 512 and 1024 wires. These improve
 \end{column}
 \end{columns}
 \note{1:10. Report Section 2, Corollary 2.2, and Appendix A. Our starting point lacked a complete human proof of these small lower bounds. The seven-wire case uses a five-wire thin-layer obstruction; the nine-wire case follows from the recurrence. Known constructions provide the upper bounds. The D(32) consequence depends on the published D(16)=9 and has no priority claim.}
+\end{frame}
+\endgroup
+
+% ======================= Current published lower bounds =======================
+\begin{frame}{Published depth bounds: the starting point}{Outcome 1 \textperiodcentered\ Current catalogue}
+\begin{columns}[T]
+\begin{column}{0.53\textwidth}
+\begin{tabular}{ccc}
+\toprule
+\textbf{Wires $n$} & \textbf{Lower bound} & \textbf{Status}\\
+\midrule
+11--12 & 8 & Exact\\
+13--16 & 9 & Exact\\
+17 & 10 & Exact\\
+18--20 & 10 & Upper bound 11\\
+21--24 & 10 & Upper bound 12\\
+25--28 & 10 & Upper bound 13\\
+29--32 & 10 & Upper bound 14\\
+\bottomrule
+\end{tabular}
+\end{column}
+\begin{column}{0.43\textwidth}
+\begin{card}{Published optimality results}
+Bundala--Z\'avodn\'y (BZ14) establish the depths for 11--16 wires. Codish et al.\ (CCEMS16) establish the 17-wire optimum.
+\end{card}
+\begin{caveat}
+At 18 wires, $10\le D(18)\le11$ remains open. Our selected-prefix exclusions do not prove $D(18)\ge11$.
+\end{caveat}
+\end{column}
+\end{columns}
+\vspace{0.25cm}
+{\scriptsize\color{muted}Source: \href{https://bertdobbelaere.github.io/sorting_networks.html\#BZ14}{Bert Dobbelaere's sorting-network catalogue, including BZ14 and CCEMS16}. Checked 15 November 2026. Depth counts layers, not comparators.}
+\note{0:45. Published baseline from the linked catalogue, checked 15 November 2026. BZ14 is Bundala and Zavodny, Optimal sorting networks, LATA 2014. CCEMS16 is Codish, Cruz-Filipe, Ehlers, Muller and Schneider-Kamp, Sorting networks: To the end and back again, 2016. Exact means matching upper and lower depth bounds, independently of size optimality. Our small-width hand proofs recover known values. The first open width is 18. Report Section 1 supplies the published premises and the unresolved D(18) interval.}
+\end{frame}
+
+% ======================= Lower bounds from our transfer theorem =======================
+\begingroup\altstyle
+\begin{frame}{Our transfer theorem raises the listed lower bounds}{Outcome 1 \textperiodcentered\ New consequences}
+\begin{columns}[T]
+\begin{column}{0.51\textwidth}
+\begin{tabular}{cccc}
+\toprule
+\textbf{Wires $n$} & \textbf{Catalogue} & \textbf{Ours} & \textbf{Gain}\\
+\midrule
+\rowcolor{hl}25--32 & 10 & \textbf{11} & +1\\
+33--38 & 10 & \textbf{12} & +2\\
+39--48 & 11 & \textbf{12} & +1\\
+49--54 & 11 & \textbf{13} & +2\\
+55--64 & 12 & \textbf{13} & +1\\
+\bottomrule
+\end{tabular}\par\vspace{0.2cm}
+{\scriptsize\color{muted}All entries are lower bounds on $D(n)$; they do not establish optimal depths.}
+\end{column}
+\begin{column}{0.45\textwidth}
+\begin{card}[rust]{One recurrence, three intervals}
+$D(n)\ge D(\lceil n/2\rceil)+2$ for $n\ge3$.\par\smallskip
+$D(13)=9\ \Rightarrow\ D(25\text{--}32)\ge11$.\par\smallskip
+$D(17)=10\ \Rightarrow\ D(33\text{--}48)\ge12$.\par\smallskip
+Apply it again: $D(49\text{--}64)\ge13$.
+\end{card}
+\begin{caveat}
+These consequences use published small-width optima. They improve the catalogue's listed bounds; priority in the wider literature is not established.
+\end{caveat}
+\end{column}
+\end{columns}
+\vspace{0.2cm}
+{\scriptsize\color{muted}Our result: report, Corollary 2.2. Baseline: \href{https://bertdobbelaere.github.io/sorting_networks.html}{Dobbelaere, up to 32 wires} and \href{https://bertdobbelaere.github.io/sorting_networks_extended.html}{extended catalogue, up to 64 wires}; checked 15 November 2026.}
+\note{1:00. Report Section 2, Corollary 2.2. By monotonicity, widths 25 through 32 halve to at least 13, giving 9+2=11. Widths 33 through 48 halve to at least 17, giving 10+2=12. Widths 49 through 64 halve to 25 through 32, giving 11+2=13. The catalogue lists 10 through width 38, 11 at widths 39 through 54, and 12 at widths 55 through 64. These are improvements over that table, not a claim of first discovery across the literature. In particular, 11 <= D(32) <= 14 follows; D(32)=11 and D(32)>=12 do not.}
 \end{frame}
 \endgroup
 
