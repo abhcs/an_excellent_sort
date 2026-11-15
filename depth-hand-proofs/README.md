@@ -246,7 +246,12 @@ Theorem 2 gives $D(11)\ge D(6)+2=7$, one short. Two natural extensions both fail
 
 The pattern behind §4: for odd $n$, $D(n+2)\ge D(n)+1$ follows from "no depth-$D(n)$ sorter on $n$
 channels has two thin first layers" (thin = one comparator short of maximal). It holds at $n=5$
-(Lemma 3) and must fail at $n=13$, since $D(15)=D(13)=9$.
+(Lemma 3), and at $n=7$ and $n=9$ by computer ([`h9.md`](h9.md) §8 and (H9)). It already fails at
+$n=11$: an 8-layer sorter on 11 channels with four comparators in each of its first two layers exists
+(`h9.md` §9). So this route stops at $D(11)\ge8$. `h9.md` §9 also finds that the route through (P7),
+three layers of blinding with one leak allowed, fails on 12% of the 13-channel prefixes. By hand these
+methods give only $D(13)\ge8$. [`d13.md`](d13.md) records a third route, through probes and the median,
+and where it stops.
 
 ---
 
@@ -314,9 +319,9 @@ and T3's proof does not settle it.
 
 ## 9. Verification
 
-`verify/verify.sh` re-runs everything in about 15 seconds (needs `cc` and `python3`). If
-`verify/.venv` has python-sat installed, it also runs the SAT-based checks of [`h9.md`](h9.md), about 40
-seconds more.
+`verify/verify.sh` re-runs everything in about 75 seconds (needs `cc` and `python3`). If
+`verify/.venv` has python-sat installed, it also runs the SAT-based checks of [`h9.md`](h9.md) and
+[`d13.md`](d13.md), about a minute more.
 
 | script | checks |
 |---|---|
@@ -326,7 +331,9 @@ seconds more.
 | `lemma4_two_sentinels.py` | Lemma 4's choice of $(i,j)$ exists for all 232 second layers on 7 channels |
 | `mechanism.py` | Theorem 2 and Lemma 4 run on 300 relabelled Batcher networks ($n=3..12$), 201 networks on 7 channels and Dobbelaere's depth-optimal networks for $n=5..9$. Brute force over the reals confirms each network still sorts with the infinities in place, the reals never meet where the proofs say they don't, and they meet in at most $d-2$ layers |
 | `t3_counterexample.py` | both counterexamples of §8, the failed monotonicity, and the random-insertion count |
-| `h9_tree.c`, `h9_blind.c`, `h9_hand.c`, `h9_p7.c`, `h9_*.py`, `satnet.py` | (H9) and the data of §6: see [`h9.md`](h9.md) §9 (the Python scripts other than `h9_p7_proof.py` need python-sat) |
+| `h9_tree.c`, `h9_blind.c`, `h9_hand.c`, `h9_p7.c`, `h9_*.py`, `satnet.py` | (H9) and the data of §6: see [`h9.md`](h9.md) §10 (the Python scripts other than `h9_p7_proof.py` need python-sat) |
+| `leak_blinding.c`, `d13_networks.py`, `h11_sat.py` | $D(13)$: where these methods stop ([`h9.md`](h9.md) §9) |
+| `probe_condition.c`, `witness_game.c`, `guarantee_games.py`, `median_networks.py`, `median_sat.py` | $D(13)$: probes, forcing sets and the median ([`d13.md`](d13.md) §6; `median_sat.py` needs python-sat) |
 
 The heavier run `./blinding 9 4 6` (about 2 minutes) shows that six infinities keep three reals apart
 through four layers on 9 channels for every prefix. That is a second, computer-checked route to

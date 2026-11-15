@@ -1,6 +1,6 @@
 #!/bin/sh
-# Re-run every check behind depth-hand-proofs/README.md and h9.md (needs cc and python3; the
-# python-sat checks of h9.md run too when .venv exists, adding about half a minute).
+# Re-run every check behind depth-hand-proofs/README.md, h9.md and d13.md (needs cc and python3;
+# the python-sat checks run too when .venv exists, adding about a minute).
 set -e
 cd "$(dirname "$0")"
 cc -O2 -o small_facts small_facts.c
@@ -33,11 +33,39 @@ cc -O2 -o h9_p7 h9_p7.c
 ./h9_hand
 ./h9_p7
 python3 h9_p7_proof.py
+echo "== beyond (H9): D(13) (h9.md section 9)"
+cc -O2 -o leak_blinding leak_blinding.c
+./leak_blinding 11 6 0       # reproduces the 11-channel count of section 6
+./leak_blinding 13 6 0       # three blind layers, what D(7) >= 6 needs
+./leak_blinding 13 6 1       # at most one leak, what (P7) needs
+python3 d13_networks.py
+echo "== D(13): probes, forcing sets and the median (d13.md)"
+cc -O2 -o probe_condition probe_condition.c
+cc -O2 -o witness_game witness_game.c
+# n d mode expect: the first layer no prefix survives (0: some network survives every layer)
+./probe_condition 5 4 1 3
+./probe_condition 5 4 2 3
+./probe_condition 6 4 1 2
+./probe_condition 6 4 2 3
+./probe_condition 7 5 1 3
+./probe_condition 7 5 2 4
+./probe_condition 8 5 1 3
+./probe_condition 8 5 2 4
+./probe_condition 7 6 1 0     # control: exactly the 3522 sorting networks pass
+./witness_game 5 4 3
+./witness_game 6 4 2
+./witness_game 7 5 check 3
+./witness_game 8 5 3
+./witness_game 9 6 4
+python3 guarantee_games.py
+python3 median_networks.py
 if [ -x .venv/bin/python ]; then
     echo "== (H9): SAT encoding and certificate checks (h9.md sections 3-4; uses .venv with python-sat)"
     .venv/bin/python h9_validate.py
     .venv/bin/python h9_certs_check.py 10
+    echo "== D(13): the 4-layer network attaining h + l = 6 (d13.md Proposition 18)"
+    .venv/bin/python median_sat.py 4 6
 else
-    echo "(skipping the python-sat checks of h9.md: no .venv; see h9.md section 9)"
+    echo "(skipping the python-sat checks of h9.md and d13.md: no .venv; see h9.md section 10)"
 fi
 echo "all checks passed"
