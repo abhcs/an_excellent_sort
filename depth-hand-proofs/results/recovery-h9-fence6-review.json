@@ -1,0 +1,53 @@
+{
+  "status": "ACCEPTED_AFTER_INDEPENDENT_REVIEW",
+  "date": "2026-11-16",
+  "scope": "Two H9 classes after first layer 01 23 45: second layers 03 14 67 and 03 16 27. These add two hand cases to the checkpoint's accepted 30/50, yielding 32/50; this does not prove full H9 or the D(18) lower bound.",
+  "checkpoint": "6ebff9d6ec1a2d1a4249932fca2dd83429fddad5",
+  "review": {
+    "exact_images": "Both explicit preimages satisfy the first-layer pair inequalities and produce the target six-vertex fence image. The fixed coordinate map identifies all five poset relations and the independent sorted pair.",
+    "image_transfer": "Conjugating the suffix gives generalized comparator orientations and a fixed output permutation. Prepending the ascending canonical prefix and untangling only the suffix preserves its first two layers; increasing inputs force the final permutation to be identity.",
+    "third_layer_reduction": "The three signed seven-real restrictions collapse the first two layers to two disjoint retained gates. H7 forces three surviving third-layer gates after deleting each edge of path 0-1-3-4. The elementary matching argument forces four gates, with idle 1 and gate 34, or idle 3 and gate 01. Image duality identifies the alternatives. Excluding universally ordered gate 67 leaves twelve third layers.",
+    "signed_demands": "Every listed five-real restriction through layer three has exactly 3-d retained gates, d in {1,2}. If layer four contributed fewer than d, the at-most-two retained gates through layer four could be serialized into two layers before the final three, contradicting the five-wire thin lemma.",
+    "fourth_layer_coverage": "Reviewed the extension, shared-pair and shared-triangle arguments and each of the twelve prose branches against their demand sets and forbidden pairs. Case 10 exhausts only twelve two-edge bases and local one-edge intersections; case 12 uses its forced triangle edge and three collisions. Optional nonmaximal matchings are retained.",
+    "rank_endings": "The attainable-rank interval lemma and remaining-cone bound justify both threshold directions. Reciprocal guard exclusions are necessary for every possible fifth-layer edge, whether or not the partner is mandatory. Thirty forms have an isolated mandatory pivot; the other three have two mandatory pivots sharing only partner 2.",
+    "dependencies": [
+      "The established hand H7 early-profile theorem",
+      "The five-wire thin-layer lemma",
+      "The attainable-rank interval and threshold-partner lemmas",
+      "Fixed finite rank-input and signed-restriction tables"
+    ],
+    "solver_premise": false,
+    "new_sat_runs": 0,
+    "global_nine_wire_matching_scan": false
+  },
+  "replay": {
+    "command": "python3 with importlib loading verify/h9_feedback_round9_proof.py and unittest.mock.patch.object(pathlib.Path, 'write_text', capture), followed by main()",
+    "mode": "Read-only replay of the unchanged fixed checker. Only final audit-file output was captured in memory; assertions, certificate input, theorem checks and printed tables were unmodified.",
+    "reason": "Direct invocation passed all assertions but its final audit-file write was denied by filesystem sandboxing in the managed worktree.",
+    "status": "VERIFIED",
+    "core_order_replays": 1440,
+    "core_image_sizes": [61, 61],
+    "signed_restriction_order_replays": 23040,
+    "third_layer_forms": 12,
+    "fourth_counts": [1, 2, 1, 2, 9, 6, 6, 4, 1, 0, 1, 0],
+    "fourth_layer_forms": 33,
+    "rank_inputs": 17,
+    "distinct_prefix_input_runs": 561,
+    "own_threshold_guards": 107,
+    "reciprocal_guards": 62,
+    "isolated_forms": 30,
+    "hall_forms": [[3, 1], [4, 1], [4, 2]],
+    "elapsed_seconds": 0.04288966699999719
+  },
+  "sha256": {
+    "certificate": "a2515ba6952a2e01125fa5f43eb5f12c27ad117c8f2232e822ae160b1a312a85",
+    "proof_note": "d0864b87592e362e42dd83d76cdfcd510f788d5326e83c46a5f7812da9e04174",
+    "tables": "38c083eb7f810e9e98a3550f0a1133c93ffbb196b4aa21f29901af4343e516f0",
+    "checker": "9037f90fc3e94842f607bb905b263447df2cece48f9dcb00934bc1bd8a6d9672"
+  },
+  "limitations": [
+    "This is a mathematical review plus independent replay of fixed finite premises, not a formal proof-assistant verification.",
+    "Earlier H7 and five-wire base theorems were read as established dependencies; this review does not rerun their entire historical verification chains.",
+    "No changes were made to the hand-proof overview, accepted-count status files, proof text, original certificate, or original shared checkout."
+  ]
+}

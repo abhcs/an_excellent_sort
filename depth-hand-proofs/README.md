@@ -28,11 +28,22 @@ The [five-unused-wire and rank-partner proof](h9_feedback_round6_031647.md)
 raises coverage to 29 classes: six third-layer forms reduce to
 51 fourth-layer forms, excluded by nineteen explicit real inputs.
 The [opposite-fork proof](h9_feedback_round7_031657.md) raises coverage
-to **30 of 50 classes**, using a shared-triangle rule, two sink
+to 30 of 50 classes, using a shared-triangle rule, two sink
 reschedulings, and sixteen rank obstructions. These two cases yield a
 [nine-real poset obstruction](h9_feedback_round8_poset.md) with five
 layers remaining, valid inside a genuine signed restriction at arbitrary
 ambient width. Its bounded recognition trials add no D18 exclusion.
+The [fence-image proof](h9_feedback_round9_fence6.md) adds the two
+classes `03 14 67` and `03 16 27`, raising accepted hand coverage to
+**32 of 50 classes**. Its independent
+[recovery review](results/recovery-h9-fence6-review.json) checks the
+hand reductions and replays all 33 fourth-layer forms. A full hand
+proof of H9, and therefore this hand route to D(11)>=8, remains open.
+The [poset image closure theorem](../d18-search/height-two-image-closure.md)
+preserves full height-two reachable families through compatible layers
+at arbitrary width. Antichains then give lower bounds on the remaining
+depth and necessary conditions on the next matching. It excludes
+conditional D18 prefix families, not a complete two-layer cover case.
 The companion [three-triple theorem](h9_feedback_round3_merge333.md)
 and [four-four-one theorem](../d18-search/d13_feedback_round3_merger441.md)
 prove the same merger lower bound for (3,3,3) and (4,4,1). Together they imply
@@ -349,7 +360,7 @@ Theorem 2 gives $D(11)\ge D(6)+2=7$, one short. Two natural extensions both fail
   lemma (`h9.md` §4.1), with no search over the final two layers. A pair-index
   bug in the tree was corrected and the enumeration rerun; the current
   counts and validation are recorded in `h9.md` §4. Hence $D(11)\ge8$ and
-  $D(12)\ge8$, computer-assisted. (H9) is proved by hand for 25
+  $D(12)\ge8$, computer-assisted. (H9) is proved by hand for 32
   of its 50 cases, one per class of second layers (`h9.md` §7). Nine use three lemmas about
   infinities, and the [six-cycle case](h9-cycle-case.md) uses a joint sentinel invariant and a
   nine-row table. Three more follow by [commuting retained gates](h9_feedback_commute.md),
@@ -358,6 +369,8 @@ Theorem 2 gives $D(11)\ge D(6)+2=7$, one short. Two natural extensions both fail
   and incompatible six-real pairings.
   Two more use a [six-real first-layer bound](h9_feedback_next_case.md) and
   [price, parity and sink-contact arguments](h9_feedback_next_078.md).
+  The subsequent proof packages linked at the beginning of this file
+  add seven more classes, including the two fence-image cases.
   Eight follow from a 7-channel statement, (P7): no sorter on 7 channels with at most 6
   layers has at most one comparator in its first layer. (P7) is tight, and `h9.md` §7.5 proves it by
   hand: infinities fix the first three layers up to six cases, and pairs of inputs that differ in one

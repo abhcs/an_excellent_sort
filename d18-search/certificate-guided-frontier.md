@@ -1,5 +1,13 @@
 # Structural conditions that actually eliminate D(13) prefix cases
 
+**Recovery update, 2026-11-16.** The new
+[poset image closure and antichain theorem](height-two-image-closure.md)
+applies at arbitrary width and rules out conditional D18 prefix
+families. It adds no whole-cover exclusion. Work now uses the durable
+branch `codex/d18-structural-resume`; the [recovery record](../RECOVERY.md)
+distinguishes retained certificates from missing uncommitted packages.
+The status and scope records below describe the saved historical runs.
+
 **Status, 2026-11-15:** fifteen of117 complete-cover D13 cases are excluded
 by structural conditions with independently checked DRAT certificates:
 0,1,2,3,4,55,56,57,58,111,112,113,114,115,116. The latest exact-endpoint

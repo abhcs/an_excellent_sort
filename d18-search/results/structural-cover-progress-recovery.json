@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-16",
+  "scope": "Recovered checkpoint artifacts plus reviewed hand structural theorem; no full D18 verification.",
+  "base_checkpoint": "6ebff9d6ec1a2d1a4249932fca2dd83429fddad5",
+  "branch": "codex/d18-structural-resume",
+  "h9_hand": {
+    "accepted_classes": 32,
+    "total_classes": 50,
+    "complete_hand_proof": false,
+    "recovered_review": "../../depth-hand-proofs/results/recovery-h9-fence6-review.json"
+  },
+  "d11": {
+    "lower_bound": 8,
+    "complete_computer_assisted_proof": true,
+    "complete_hand_proof": false,
+    "reference": "../../depth-hand-proofs/h9.md"
+  },
+  "d13": {
+    "accepted_complete_cover_cases": [0,1,2,3,4,55,56,57,58,111,112,113,114,115,116],
+    "total_cover_cases": 117,
+    "recovery_reverification": "Historical checkpoint audit retained; not rerun in this recovery unit."
+  },
+  "d17": {
+    "accepted_complete_cover_cases": [604,605,606,607,608],
+    "total_cover_cases": 609,
+    "recovered_review": "recovery-d17-first3-review.json",
+    "dependency": "Full established computer-assisted H9 remains explicit.",
+    "missing_later_case_artifacts": [482,603],
+    "fresh_drat_runs": 0
+  },
+  "d18": {
+    "accepted_complete_cover_cases": [],
+    "total_cover_cases": 411,
+    "lower_bound_11_resolved": false,
+    "full_verification_running": false
+  },
+  "new_structural_result": {
+    "note": "../height-two-image-closure.md",
+    "review": "height-two-recovery-review.json",
+    "cover_census": "height-two-cover-recovery-census.json",
+    "conditional_prefix_family_only": true,
+    "valid_at_arbitrary_width": true,
+    "sat_premise": false,
+    "complete_cover_exclusions_added": 0
+  },
+  "new_sat_runs": 0,
+  "recovery_limitation": "The former temporary worktree is missing. Later uncommitted artifacts described in conversation history have not been recovered and are not counted as available proof evidence."
+}

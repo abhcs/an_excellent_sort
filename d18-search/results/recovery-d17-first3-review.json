@@ -1,0 +1,90 @@
+{
+  "status": "ACCEPTED_AFTER_INDEPENDENT_RECOVERY_REVIEW",
+  "date": "2026-11-16",
+  "checkpoint": "6ebff9d6ec1a2d1a4249932fca2dd83429fddad5",
+  "scope": "Restore acceptance of complete D17 cover exclusions 604 and 605 using the saved round-ten first-retained-layer-at-least-three theorem and certificates. Combined with previously accepted cases 606,607,608, this supports 5/609; it does not establish the full D17 bound, a pure hand proof, or any D18 complete-cover exclusion.",
+  "mathematical_review": {
+    "four_wire_images": "The displayed inverse inputs prove exact real images for the 1+2 and 2+1 N-poset schedules, including equal values. Their fixed coordinate permutation identifies all three order relations. Arbitrary orientations can be absorbed into fixed output labels.",
+    "hand_product_obstruction": "The established hand class 01 23 45 | 03 46 57 has independent N4, N4 and singleton components. Its image therefore forbids a five-layer completion of that product. The generalized-suffix relabeling and untangling argument preserves the canonical prefix; increasing inputs force the final fixed output permutation to be identity.",
+    "first_layer_bound": "For a nine-real depth-seven sorter with first size at most two, second size at most three is excluded by full H9. If the second size is four and a gate avoids the first support, commuting it backward yields first and second sizes at most three. If no gate avoids a two-gate first support, the four second gates each meet exactly one of its four vertices, leaving two independent N4 components and a singleton. The hand product obstruction excludes the last case. Repeated gates force a free second gate and cause no exception.",
+    "signed_restriction": "Each half-blind restriction fixes eight signed sentinels and leaves exactly nine independent real inputs; both fixed prefix layers have no real-real gate. Sentinel routing is value-independent, so seven remaining layers prune and untangle to a nine-real sorting network with the same retained first-layer size.",
+    "full_H9_is_explicit_dependency": true,
+    "complete_two_layer_cover_theorem_is_prior_dependency": true
+  },
+  "encoder_review": {
+    "matching": "Master encodes arbitrary physical third/fourth matchings, with exact used indicators. There is no requirement that these matchings be perfect, adjacent, self-dual, or endpoint-normalized.",
+    "no_repeat": "Deleting an immediately repeated comparator in layer three or four preserves the fixed first two layers and sorting behavior; the no-repeat clauses are compatible with the cover.",
+    "first_count": "A sequential-counter at-least-three constraint is imposed on the 36 real-real eligible first-matching edges for each nine-real state.",
+    "peak": "The first-peak branch requires at most one real vertex lacking a real-real first-layer partner. The other branch requires at most one real vertex idle or paired with a sentinel in the second layer. For nine reals each condition is equivalent to four retained matching edges.",
+    "transport": "The two threshold bits encode negative sentinel, real and positive sentinel as 00,10,11. Guarded comparator AND/OR and idle equalities determine the next type state exactly under each matching.",
+    "lazy_refinements": "Both saved refutations finish at iteration one. Their rebuilt CNFs contain no second-layer-nonemptiness refinement, so acceptance does not depend on the lazy-refinement path.",
+    "state_family_comparison": {"cover_cases": 609, "signed_states": 1967, "result": "Every emitted state family equals independently reconstructed states_of(case); every state has exactly nine reals."}
+  },
+  "replay": {
+    "python": "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+    "pysat_version": "1.9.dev22",
+    "procedure": "Imported the unchanged round-ten checker's local_images and rebuild functions. rebuild intercepts Solver construction before solving and writes only temporary build metadata in TemporaryDirectory. Replayed the saved positive gzip directly using independently enumerated signed states. Bound persisted CNF, proof, encoder and cover hashes to each saved manifest, result and VERIFIED checker log.",
+    "local_image_order_types": 5,
+    "four_gate_second_matchings": 945,
+    "commuting_matchings": 825,
+    "two_N4_component_matchings": 120,
+    "positive_cases": 604,
+    "positive_case_range": [0, 603],
+    "positive_restrictions": 1875,
+    "positive_profiles": "First retained count at least three; second count at least one; peak four; legal matchings and no immediate physical gate repeats. These are relaxation witnesses, not sorting suffixes.",
+    "positive_witness_sha256": "f8451fba48322139ddbddfa17feabfea704ed6e28917686cae193ca2b3f88187",
+    "cover_sha256": "711b620bb298deee98e5520595cfb341a13cf3600f4297dd35f3b38cb11d2100",
+    "image_replay_positive_models_and_cnf_rebuild_seconds": 0.38231520900001215,
+    "new_sat_runs": 0,
+    "new_drat_runs": 0
+  },
+  "certificate_bindings": [
+    {
+      "case": 604,
+      "variables": 3778,
+      "clauses": 26672,
+      "variables_added_to_old_encoder": 1584,
+      "clauses_added_to_old_encoder": 2672,
+      "rebuilt_and_saved_cnf_sha256": "a36293288bc4cec3732de72f506fe6903b6dd832a2221967e4e040e019260dcc",
+      "proof_sha256": "b5759bbe241a68d16fb880cb3ec00df3ef8023a2cded25ad4a302ba3d11a8a23",
+      "historical_solve_seconds": 4.1814,
+      "historical_check_seconds": 3.207,
+      "historical_check_status": "VERIFIED",
+      "historical_check_returncode": 0,
+      "check_log_sha256": "d490a41ee0f5239e5fb2acded643fc780a90e37a6267606519dffaea5c9fc84b",
+      "check_manifest_sha256": "786038b672b3db643b84136158494469b0af78140de36d43cc95585cbc193342"
+    },
+    {
+      "case": 605,
+      "variables": 3778,
+      "clauses": 26576,
+      "variables_added_to_old_encoder": 1584,
+      "clauses_added_to_old_encoder": 2672,
+      "rebuilt_and_saved_cnf_sha256": "691d94bd2774516df0dc09771f788162dc732f366076bb44304b4b9a11dcff40",
+      "proof_sha256": "47bbdb66ad596a8ad8fe45ce7d40968485321e72613d88169c9726a9eba3b963",
+      "historical_solve_seconds": 4.474,
+      "historical_check_seconds": 3.3639,
+      "historical_check_status": "VERIFIED",
+      "historical_check_returncode": 0,
+      "check_log_sha256": "87258353a752ce3ff270202d3462971bf2e547bd927d1f8f16536ff75ddd41fa",
+      "check_manifest_sha256": "b8b97803748009bad5f76e3045d92887c5787f0f784543d5e15b3e24b6a756af"
+    }
+  ],
+  "persisted_drat_checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d",
+  "source_sha256": {
+    "d18-search/d17_feedback_round10_order.md": "e03bf6b5cf51e3380bbd5b33b5594833a91fc114ce3cd56463cb14b783d3ce6d",
+    "d18-search/d17_feedback_round10_profile.py": "25b3b9e68b90d014df834848dc410f3fab4b0624c65c353f9d7323089b45fa13",
+    "d18-search/d17_feedback_round10_check.py": "28656eee5e717ebb2d8716e64f32e2220a894c73387554e0596f3bfcff113331",
+    "d18-search/d17_feedback_round9_check.py": "974d8d5e43058bfa312ea1261c15294f853873c25447ebe58f91e14791250e27",
+    "d18-search/two_layer_cover.py": "414269d87ab42e839f8d1ae9411de67e14b80bb9ed47c7145c08d9c0e979e83b",
+    "depth-hand-proofs/verify/sentinel_cegar.py": "89d66187f1118a86e8adcfd9c5f1aa9ab90a0ef4a0f4290d05c410bdfca696f3",
+    "depth-hand-proofs/h9_feedback_commute.md": "8e4d5ae1ab69555960ac806148b90dfe67a85cc878cf2cb9ebe19a046c03108a",
+    "depth-hand-proofs/results/h9-feedback-commute-proof.json": "24ac61f8137af0ad2194c89a53ad52abfafa597159656d9e3b25b0b93e4430cd"
+  },
+  "limitations": [
+    "No fresh DRAT check was run. The historical checker binary from the missing temporary directory was not assumed to exist, and its persisted hash was not freshly rebound to an executable.",
+    "The mathematical argument retains full computer-assisted H9 and the earlier complete-cover theorem as explicit dependencies; this review does not re-prove those global results.",
+    "This is an independent mathematical/source review, positive-model replay and exact artifact binding, not formal proof-assistant verification.",
+    "Only the two saved round-ten refutations are recovered here. Missing later artifacts for cases 482 and 603 are not counted."
+  ]
+}

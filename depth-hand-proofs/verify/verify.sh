@@ -48,6 +48,7 @@ python3 h9_feedback_round4_proof.py
 python3 h9_feedback_round5_proof.py
 python3 h9_feedback_round6_proof.py
 python3 h9_feedback_round7_proof.py
+python3 h9_feedback_round9_proof.py
 echo "== beyond (H9): D(13) (h9.md section 9)"
 cc -O2 -o leak_blinding leak_blinding.c
 ./leak_blinding 11 6 0       # reproduces the 11-channel count of section 6

@@ -1,0 +1,341 @@
+{
+  "status": "VERIFIED_FINITE_CONTROLS",
+  "scope": "Universal result requires the separate hand proof; finite controls alone are not a proof.",
+  "height_two": [
+    {
+      "n": 1,
+      "posets": 1,
+      "compatible_pairs": 1,
+      "input_image_vectors": 2,
+      "fixed_preimage_checks": 2,
+      "reversed_pairs": 0,
+      "repeated_comparators": 0
+    },
+    {
+      "n": 2,
+      "posets": 3,
+      "compatible_pairs": 6,
+      "input_image_vectors": 20,
+      "fixed_preimage_checks": 19,
+      "reversed_pairs": 1,
+      "repeated_comparators": 2
+    },
+    {
+      "n": 3,
+      "posets": 13,
+      "compatible_pairs": 46,
+      "input_image_vectors": 266,
+      "fixed_preimage_checks": 248,
+      "reversed_pairs": 15,
+      "repeated_comparators": 18
+    },
+    {
+      "n": 4,
+      "posets": 87,
+      "compatible_pairs": 648,
+      "input_image_vectors": 6202,
+      "fixed_preimage_checks": 5581,
+      "reversed_pairs": 348,
+      "repeated_comparators": 384
+    },
+    {
+      "n": 5,
+      "posets": 841,
+      "compatible_pairs": 12966,
+      "input_image_vectors": 202722,
+      "fixed_preimage_checks": 179652,
+      "reversed_pairs": 9020,
+      "repeated_comparators": 9480
+    }
+  ],
+  "arbitrary_posets": [
+    {
+      "n": 1,
+      "posets": 1,
+      "compatible_pairs": 1,
+      "input_image_vectors": 2,
+      "fixed_preimage_checks": 2,
+      "reversed_pairs": 0,
+      "repeated_comparators": 0
+    },
+    {
+      "n": 2,
+      "posets": 3,
+      "compatible_pairs": 6,
+      "input_image_vectors": 20,
+      "fixed_preimage_checks": 19,
+      "reversed_pairs": 1,
+      "repeated_comparators": 2
+    },
+    {
+      "n": 3,
+      "posets": 19,
+      "compatible_pairs": 58,
+      "input_image_vectors": 314,
+      "fixed_preimage_checks": 296,
+      "reversed_pairs": 18,
+      "repeated_comparators": 24
+    },
+    {
+      "n": 4,
+      "posets": 219,
+      "compatible_pairs": 1032,
+      "input_image_vectors": 8794,
+      "fixed_preimage_checks": 8125,
+      "reversed_pairs": 474,
+      "repeated_comparators": 588
+    }
+  ],
+  "mathematical_review": {
+    "status": "ACCEPTED_WITH_STATED_SCOPE",
+    "reviewed_note": "height-two-image-closure.md",
+    "note_sha256": "de474c34b8bc5a4aa8d26cc7b973707b0e8adfebd57992f3ae9ec726bd35d172",
+    "accepted_claims": [
+      "Exact fixed-permutation preimage for arbitrary-degree height-two posets and compatible matchings.",
+      "Generalization to minimal/maximal comparisons in arbitrary posets with other vertices idle.",
+      "Propagation of a contained full poset family, including ties and arbitrary physical comparator orientation.",
+      "Antichain freezing with fixed signed sentinels and standard untangling gives D(width(P)) remaining layers.",
+      "Independence in the full comparability graph union the next matching gives one additional blind layer.",
+      "At the stated18-wire cut, alpha<=8, odd cycle necessity, and per-bipartition internal-edge counts.",
+      "Four-layer18-wire circulant is excluded from depth ten, conditional on established D(9)=7."
+    ],
+    "scope_limits": [
+      "Known inequalities alone put the image inside a poset family and do not imply the required containment.",
+      "For general posets use all comparable pairs, not only Hasse edges, in the independent-set statement.",
+      "Every bipartition includes component flips and arbitrary placement of isolated vertices.",
+      "No whole D18 two-layer cover case or global lower bound is claimed."
+    ]
+  },
+  "incompatible_control": {
+    "input_poset": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "layer": [
+      [
+        0,
+        2
+      ]
+    ],
+    "pairwise_order_hull": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "unreachable_hull_vector": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "image_size": 8,
+    "hull_size": 9,
+    "conclusion": "same-role comparison may have non-poset image"
+  },
+  "signed_next_layer_control": {
+    "n": 4,
+    "poset_matching_pairs": 2190,
+    "independent_sets": 15367,
+    "binary_family_replays": 38350
+  },
+  "eighteen_circulant_control": {
+    "n": 18,
+    "layers": [
+      [
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          2,
+          11
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          4,
+          13
+        ],
+        [
+          5,
+          14
+        ],
+        [
+          6,
+          15
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          8,
+          17
+        ]
+      ],
+      [
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          3,
+          13
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          6,
+          16
+        ],
+        [
+          7,
+          17
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      [
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          3,
+          14
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          5,
+          16
+        ],
+        [
+          6,
+          17
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10
+        ]
+      ],
+      [
+        [
+          0,
+          12
+        ],
+        [
+          1,
+          13
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          3,
+          15
+        ],
+        [
+          4,
+          16
+        ],
+        [
+          5,
+          17
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          8,
+          11
+        ]
+      ]
+    ],
+    "relations": 36,
+    "free_antichain": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "fixed_sentinels": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "sentinel_value": 2,
+    "binary_preimage_replays": 512,
+    "scope": "This four-layer family needs at least seven further layers, conditional on D(9)=7; not a complete D(18) proof."
+  },
+  "elapsed_seconds": 0.36798041600002307,
+  "source_sha256": "144095030a05f4c7c8b798f3c260ea507cacdb0381586678265dc84dc7ca86ea"
+}

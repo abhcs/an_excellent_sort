@@ -1,0 +1,4518 @@
+{
+  "status": "VERIFIED_CENSUS",
+  "scope": "These are compatible-prefix recognitions, not complete-cover exclusions. Failure of this sufficient invariant does not rule out another poset-image representation or a signed restriction.",
+  "covers": [
+    {
+      "n": 18,
+      "source": "prefixes/complete18.jsonl",
+      "source_sha256": "3479c72a3dce2fe1d58d0fa80e11ccbdf9286c00b8585b1a15f23e325cb55ed2",
+      "cover_count": 411,
+      "compatible_count": 15,
+      "compatible_indices": [
+        49,
+        74,
+        89,
+        111,
+        118,
+        127,
+        161,
+        169,
+        178,
+        199,
+        205,
+        216,
+        340,
+        346,
+        381
+      ],
+      "incompatible_layer_counts": {
+        "2": 396
+      },
+      "component_count_distribution": {
+        "1": 1,
+        "2": 4,
+        "3": 6,
+        "4": 3,
+        "5": 1
+      },
+      "width_distribution": {
+        "9": 15
+      },
+      "compatible_cases": [
+        {
+          "index": 49,
+          "case_id": "n18-r0049",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              16
+            ],
+            [
+              15,
+              17
+            ]
+          ],
+          "component_count": 1,
+          "component_sizes": [
+            18
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              17
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              16
+            ],
+            [
+              15,
+              16
+            ],
+            [
+              15,
+              17
+            ]
+          ]
+        },
+        {
+          "index": 74,
+          "case_id": "n18-r0074",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              8,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              16
+            ],
+            [
+              15,
+              17
+            ]
+          ],
+          "component_count": 2,
+          "component_sizes": [
+            8,
+            10
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              8,
+              10
+            ],
+            [
+              8,
+              17
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              16
+            ],
+            [
+              15,
+              16
+            ],
+            [
+              15,
+              17
+            ]
+          ]
+        },
+        {
+          "index": 89,
+          "case_id": "n18-r0089",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              6,
+              8
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              16
+            ],
+            [
+              15,
+              17
+            ]
+          ],
+          "component_count": 2,
+          "component_sizes": [
+            6,
+            12
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              6,
+              8
+            ],
+            [
+              6,
+              17
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              16
+            ],
+            [
+              15,
+              16
+            ],
+            [
+              15,
+              17
+            ]
+          ]
+        },
+        {
+          "index": 111,
+          "case_id": "n18-r0111",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              12,
+              14
+            ],
+            [
+              13,
+              16
+            ],
+            [
+              15,
+              17
+            ]
+          ],
+          "component_count": 3,
+          "component_sizes": [
+            6,
+            6,
+            6
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              6,
+              8
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              12,
+              14
+            ],
+            [
+              12,
+              17
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              16
+            ],
+            [
+              15,
+              16
+            ],
+            [
+              15,
+              17
+            ]
+          ]
+        },
+        {
+          "index": 118,
+          "case_id": "n18-r0118",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              16
+            ],
+            [
+              15,
+              17
+            ]
+          ],
+          "component_count": 2,
+          "component_sizes": [
+            4,
+            14
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              17
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              16
+            ],
+            [
+              15,
+              16
+            ],
+            [
+              15,
+              17
+            ]
+          ]
+        },
+        {
+          "index": 127,
+          "case_id": "n18-r0127",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              7,
+              9
+            ],
+            [
+              10,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              16
+            ],
+            [
+              15,
+              17
+            ]
+          ],
+          "component_count": 3,
+          "component_sizes": [
+            4,
+            6,
+            8
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              9
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              9
+            ],
+            [
+              10,
+              12
+            ],
+            [
+              10,
+              17
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              16
+            ],
+            [
+              15,
+              16
+            ],
+            [
+              15,
+              17
+            ]
+          ]
+        },
+        {
+          "index": 161,
+          "case_id": "n18-r0161",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              8,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              16
+            ],
+            [
+              15,
+              17
+            ]
+          ],
+          "component_count": 3,
+          "component_sizes": [
+            4,
+            4,
+            10
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              8,
+              10
+            ],
+            [
+              8,
+              17
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              16
+            ],
+            [
+              15,
+              16
+            ],
+            [
+              15,
+              17
+            ]
+          ]
+        },
+        {
+          "index": 169,
+          "case_id": "n18-r0169",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              8,
+              11
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              12,
+              14
+            ],
+            [
+              13,
+              16
+            ],
+            [
+              15,
+              17
+            ]
+          ],
+          "component_count": 4,
+          "component_sizes": [
+            4,
+            4,
+            4,
+            6
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              8,
+              10
+            ],
+            [
+              8,
+              11
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              12,
+              14
+            ],
+            [
+              12,
+              17
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              16
+            ],
+            [
+              15,
+              16
+            ],
+            [
+              15,
+              17
+            ]
+          ]
+        },
+        {
+          "index": 178,
+          "case_id": "n18-r0178",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              15
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              16,
+              17
+            ]
+          ],
+          "component_count": 2,
+          "component_sizes": [
+            2,
+            16
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              15
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              15
+            ],
+            [
+              16,
+              17
+            ]
+          ]
+        },
+        {
+          "index": 199,
+          "case_id": "n18-r0199",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              8,
+              15
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              16,
+              17
+            ]
+          ],
+          "component_count": 3,
+          "component_sizes": [
+            2,
+            8,
+            8
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              8,
+              10
+            ],
+            [
+              8,
+              15
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              15
+            ],
+            [
+              16,
+              17
+            ]
+          ]
+        },
+        {
+          "index": 205,
+          "case_id": "n18-r0205",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              6,
+              15
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              16,
+              17
+            ]
+          ],
+          "component_count": 3,
+          "component_sizes": [
+            2,
+            6,
+            10
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              6,
+              8
+            ],
+            [
+              6,
+              15
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              15
+            ],
+            [
+              16,
+              17
+            ]
+          ]
+        },
+        {
+          "index": 216,
+          "case_id": "n18-r0216",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              4,
+              15
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              16,
+              17
+            ]
+          ],
+          "component_count": 3,
+          "component_sizes": [
+            2,
+            4,
+            12
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              15
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              15
+            ],
+            [
+              16,
+              17
+            ]
+          ]
+        },
+        {
+          "index": 340,
+          "case_id": "n18-r0340",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              7,
+              9
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              16,
+              17
+            ]
+          ],
+          "component_count": 4,
+          "component_sizes": [
+            2,
+            4,
+            6,
+            6
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              9
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              9
+            ],
+            [
+              10,
+              12
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              15
+            ],
+            [
+              16,
+              17
+            ]
+          ]
+        },
+        {
+          "index": 346,
+          "case_id": "n18-r0346",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              8,
+              15
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              16,
+              17
+            ]
+          ],
+          "component_count": 4,
+          "component_sizes": [
+            2,
+            4,
+            4,
+            8
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              8,
+              10
+            ],
+            [
+              8,
+              15
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              15
+            ],
+            [
+              16,
+              17
+            ]
+          ]
+        },
+        {
+          "index": 381,
+          "case_id": "n18-r0381",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              8,
+              11
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              12,
+              15
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              16,
+              17
+            ]
+          ],
+          "component_count": 5,
+          "component_sizes": [
+            2,
+            4,
+            4,
+            4,
+            4
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              8,
+              10
+            ],
+            [
+              8,
+              11
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              12,
+              14
+            ],
+            [
+              12,
+              15
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              15
+            ],
+            [
+              16,
+              17
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "source": "prefixes/complete17.jsonl",
+      "source_sha256": "711b620bb298deee98e5520595cfb341a13cf3600f4297dd35f3b38cb11d2100",
+      "cover_count": 609,
+      "compatible_count": 22,
+      "compatible_indices": [
+        114,
+        242,
+        258,
+        284,
+        300,
+        332,
+        338,
+        348,
+        355,
+        387,
+        393,
+        411,
+        422,
+        430,
+        434,
+        451,
+        457,
+        465,
+        469,
+        476,
+        479,
+        482
+      ],
+      "incompatible_layer_counts": {
+        "2": 587
+      },
+      "component_count_distribution": {
+        "1": 1,
+        "2": 7,
+        "3": 9,
+        "4": 4,
+        "5": 1
+      },
+      "width_distribution": {
+        "9": 22
+      },
+      "compatible_cases": [
+        {
+          "index": 114,
+          "case_id": "n17-r0114",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              16
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              13,
+              14
+            ]
+          ],
+          "component_count": 1,
+          "component_sizes": [
+            17
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              16
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              15
+            ]
+          ]
+        },
+        {
+          "index": 242,
+          "case_id": "n17-r0242",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              7,
+              9
+            ],
+            [
+              10,
+              16
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              13,
+              14
+            ]
+          ],
+          "component_count": 2,
+          "component_sizes": [
+            7,
+            10
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              9
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              9
+            ],
+            [
+              10,
+              12
+            ],
+            [
+              10,
+              16
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              15
+            ]
+          ]
+        },
+        {
+          "index": 258,
+          "case_id": "n17-r0258",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              8,
+              16
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              13,
+              14
+            ]
+          ],
+          "component_count": 2,
+          "component_sizes": [
+            8,
+            9
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              8,
+              10
+            ],
+            [
+              8,
+              16
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              15
+            ]
+          ]
+        },
+        {
+          "index": 284,
+          "case_id": "n17-r0284",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              11
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              12,
+              16
+            ],
+            [
+              13,
+              14
+            ]
+          ],
+          "component_count": 2,
+          "component_sizes": [
+            5,
+            12
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              11
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              12,
+              14
+            ],
+            [
+              12,
+              16
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              15
+            ]
+          ]
+        },
+        {
+          "index": 300,
+          "case_id": "n17-r0300",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              6,
+              16
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              13,
+              14
+            ]
+          ],
+          "component_count": 2,
+          "component_sizes": [
+            6,
+            11
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              6,
+              8
+            ],
+            [
+              6,
+              16
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              15
+            ]
+          ]
+        },
+        {
+          "index": 332,
+          "case_id": "n17-r0332",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              12,
+              16
+            ],
+            [
+              13,
+              14
+            ]
+          ],
+          "component_count": 3,
+          "component_sizes": [
+            5,
+            6,
+            6
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              6,
+              8
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              12,
+              14
+            ],
+            [
+              12,
+              16
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              15
+            ]
+          ]
+        },
+        {
+          "index": 338,
+          "case_id": "n17-r0338",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              13
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "component_count": 2,
+          "component_sizes": [
+            3,
+            14
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              13
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              13
+            ],
+            [
+              14,
+              15
+            ],
+            [
+              14,
+              16
+            ]
+          ]
+        },
+        {
+          "index": 348,
+          "case_id": "n17-r0348",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              6,
+              8
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              13
+            ],
+            [
+              14,
+              16
+            ]
+          ],
+          "component_count": 3,
+          "component_sizes": [
+            3,
+            6,
+            8
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              6,
+              8
+            ],
+            [
+              6,
+              13
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              13
+            ],
+            [
+              14,
+              15
+            ],
+            [
+              14,
+              16
+            ]
+          ]
+        },
+        {
+          "index": 355,
+          "case_id": "n17-r0355",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              4,
+              16
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              13,
+              14
+            ]
+          ],
+          "component_count": 2,
+          "component_sizes": [
+            4,
+            13
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              16
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              15
+            ]
+          ]
+        },
+        {
+          "index": 387,
+          "case_id": "n17-r0387",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              4,
+              11
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              12,
+              16
+            ],
+            [
+              13,
+              14
+            ]
+          ],
+          "component_count": 3,
+          "component_sizes": [
+            4,
+            5,
+            8
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              11
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              12,
+              14
+            ],
+            [
+              12,
+              16
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              15
+            ]
+          ]
+        },
+        {
+          "index": 393,
+          "case_id": "n17-r0393",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              7,
+              9
+            ],
+            [
+              10,
+              16
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              13,
+              14
+            ]
+          ],
+          "component_count": 3,
+          "component_sizes": [
+            4,
+            6,
+            7
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              9
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              9
+            ],
+            [
+              10,
+              12
+            ],
+            [
+              10,
+              16
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              15
+            ]
+          ]
+        },
+        {
+          "index": 411,
+          "case_id": "n17-r0411",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              13
+            ],
+            [
+              14,
+              15
+            ]
+          ],
+          "component_count": 3,
+          "component_sizes": [
+            3,
+            4,
+            10
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              13
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              13
+            ],
+            [
+              14,
+              15
+            ],
+            [
+              14,
+              16
+            ]
+          ]
+        },
+        {
+          "index": 422,
+          "case_id": "n17-r0422",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              8,
+              16
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              13,
+              14
+            ]
+          ],
+          "component_count": 3,
+          "component_sizes": [
+            4,
+            4,
+            9
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              8,
+              10
+            ],
+            [
+              8,
+              16
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              15
+            ]
+          ]
+        },
+        {
+          "index": 430,
+          "case_id": "n17-r0430",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              8,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              13
+            ],
+            [
+              14,
+              15
+            ]
+          ],
+          "component_count": 4,
+          "component_sizes": [
+            3,
+            4,
+            4,
+            6
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              8,
+              10
+            ],
+            [
+              8,
+              13
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              13
+            ],
+            [
+              14,
+              15
+            ],
+            [
+              14,
+              16
+            ]
+          ]
+        },
+        {
+          "index": 434,
+          "case_id": "n17-r0434",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              15
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              13,
+              14
+            ]
+          ],
+          "component_count": 2,
+          "component_sizes": [
+            1,
+            16
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              15
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              15
+            ]
+          ]
+        },
+        {
+          "index": 451,
+          "case_id": "n17-r0451",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              8,
+              15
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              13,
+              14
+            ]
+          ],
+          "component_count": 3,
+          "component_sizes": [
+            1,
+            8,
+            8
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              8,
+              10
+            ],
+            [
+              8,
+              15
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              15
+            ]
+          ]
+        },
+        {
+          "index": 457,
+          "case_id": "n17-r0457",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              6,
+              15
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              13,
+              14
+            ]
+          ],
+          "component_count": 3,
+          "component_sizes": [
+            1,
+            6,
+            10
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              6,
+              8
+            ],
+            [
+              6,
+              15
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              15
+            ]
+          ]
+        },
+        {
+          "index": 465,
+          "case_id": "n17-r0465",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              8,
+              11
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              12,
+              16
+            ],
+            [
+              13,
+              14
+            ]
+          ],
+          "component_count": 4,
+          "component_sizes": [
+            4,
+            4,
+            4,
+            5
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              8,
+              10
+            ],
+            [
+              8,
+              11
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              12,
+              14
+            ],
+            [
+              12,
+              16
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              15
+            ]
+          ]
+        },
+        {
+          "index": 469,
+          "case_id": "n17-r0469",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              4,
+              15
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              13,
+              14
+            ]
+          ],
+          "component_count": 3,
+          "component_sizes": [
+            1,
+            4,
+            12
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              15
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              15
+            ]
+          ]
+        },
+        {
+          "index": 476,
+          "case_id": "n17-r0476",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              7,
+              9
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              13,
+              14
+            ]
+          ],
+          "component_count": 4,
+          "component_sizes": [
+            1,
+            4,
+            6,
+            6
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              9
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              9
+            ],
+            [
+              10,
+              12
+            ],
+            [
+              10,
+              15
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              15
+            ]
+          ]
+        },
+        {
+          "index": 479,
+          "case_id": "n17-r0479",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              8,
+              15
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              13,
+              14
+            ]
+          ],
+          "component_count": 4,
+          "component_sizes": [
+            1,
+            4,
+            4,
+            8
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              8,
+              10
+            ],
+            [
+              8,
+              15
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              12
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              15
+            ]
+          ]
+        },
+        {
+          "index": 482,
+          "case_id": "n17-r0482",
+          "compatible": true,
+          "layers_checked": 2,
+          "width": 9,
+          "width_method": "n minus maximum bipartite matching in height-two relation graph",
+          "maximum_matching": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              8,
+              11
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              12,
+              15
+            ],
+            [
+              13,
+              14
+            ]
+          ],
+          "component_count": 5,
+          "component_sizes": [
+            1,
+            4,
+            4,
+            4,
+            4
+          ],
+          "relations": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              8,
+              10
+            ],
+            [
+              8,
+              11
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              12,
+              14
+            ],
+            [
+              12,
+              15
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              15
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "sampled_prefix_source": "results/rank-layer-round6-hand-certificate.json",
+  "sampled_prefix_source_sha256": "3d662a0b4ee885426c51ae7109cb5fc57f9818f4d9e684e1dc0612afaf8ff787",
+  "sampled_prefixes": [
+    {
+      "name": "beam00",
+      "prefix_depth": 4,
+      "compatible": false,
+      "first_incompatible_layer": 2
+    },
+    {
+      "name": "beam00",
+      "prefix_depth": 5,
+      "compatible": false,
+      "first_incompatible_layer": 2
+    },
+    {
+      "name": "beam00",
+      "prefix_depth": 6,
+      "compatible": false,
+      "first_incompatible_layer": 2
+    },
+    {
+      "name": "beam16",
+      "prefix_depth": 4,
+      "compatible": false,
+      "first_incompatible_layer": 2
+    },
+    {
+      "name": "beam16",
+      "prefix_depth": 5,
+      "compatible": false,
+      "first_incompatible_layer": 2
+    },
+    {
+      "name": "beam16",
+      "prefix_depth": 6,
+      "compatible": false,
+      "first_incompatible_layer": 2
+    },
+    {
+      "name": "beam32",
+      "prefix_depth": 4,
+      "compatible": false,
+      "first_incompatible_layer": 2
+    },
+    {
+      "name": "beam32",
+      "prefix_depth": 5,
+      "compatible": false,
+      "first_incompatible_layer": 2
+    },
+    {
+      "name": "beam32",
+      "prefix_depth": 6,
+      "compatible": false,
+      "first_incompatible_layer": 2
+    }
+  ],
+  "source_sha256": "170bd98060eba113f4f6c78f3d28cdd0fc2959d560444d626d0af49a8483e32b",
+  "transform_source_sha256": "144095030a05f4c7c8b798f3c260ea507cacdb0381586678265dc84dc7ca86ea",
+  "elapsed_seconds": 0.006857208000042192
+}

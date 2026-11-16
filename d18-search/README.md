@@ -6,8 +6,24 @@ Al-Haj Baddar & Batcher's 11-layer network (2009). A depth-10 network on 18 chan
 D(18) = 10. C. Wang ([arXiv 2511.04107](https://arxiv.org/abs/2511.04107), Nov 2025) reports
 trying the same and failing.
 
-**Status.** D(18) remains unresolved. Work continues on branch `codex/d18-structural`
-in an isolated worktree. The latest [rank-profile results](two-layer-capacity-proofs.md)
+**Recovery update, 2026-11-16.** Work resumed from the pushed checkpoint
+`6ebff9d` in a durable managed worktree on `codex/d18-structural-resume`.
+The former temporary worktree is missing; see [the recovery record](../RECOVERY.md)
+for available and unavailable artifacts. The new
+[poset image closure theorem](height-two-image-closure.md) gives hand
+obstructions at arbitrary width. Four compatible layers on eighteen
+wires require at least eleven total layers; after three such layers,
+the next matching must destroy all independent sets of size nine.
+Independent mathematical review and finite controls pass, including
+512 preimage checks on an explicit eighteen-wire family. This adds no
+complete-cover exclusion. The
+[cover census](results/height-two-cover-recovery-census.json) recognizes
+15/411 D18 and 22/609 D17 first-two-layer images. H9 hand coverage has
+been restored to 32/50; the
+[D17 recovery review](results/recovery-d17-first3-review.json) restores
+five supported complete-cover exclusions, retaining the computed H9 premise.
+
+**Status.** D(18) remains unresolved. The saved [rank-profile results](two-layer-capacity-proofs.md)
 give the sharp normalized-ending capacity bound floor(7n/2)-3 for n>=17
 and an exact O(n |U|) test for two-layer completion once the prefix image U
 is known. Six-run and ten-run hand certificates exclude example prefixes.
