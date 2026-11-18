@@ -1,0 +1,310 @@
+{
+  "scope": "Positive sorting networks; these disprove stronger universal first-two count bounds.",
+  "all_jobs_terminal": true,
+  "records": [
+    {
+      "profile": "34",
+      "terminal": {
+        "terminal": true,
+        "timeout": false,
+        "returncode": 0,
+        "wall_seconds": 0.359000541000114,
+        "cap_seconds": 10,
+        "command": [
+          "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+          "/Users/abhishek/.codex/worktrees/d18-structural-resume/an_excellent_sort/d18-search/nine_profile_sharpness_recovery.py",
+          "--worker",
+          "34",
+          "--out",
+          "/Users/abhishek/.codex/worktrees/d18-structural-resume/an_excellent_sort/d18-search/results/nine-profile-sharpness-recovery-34/result.json"
+        ]
+      },
+      "result": {
+        "profile": [
+          3,
+          4
+        ],
+        "n": 9,
+        "depth": 7,
+        "solve_seconds": 0.26967562499999076,
+        "status": "SAT",
+        "source_sha256": "a920b56f57e0e925ba01bfd71a82be09e6af3f2ed258ea842b0c2c65e8216350",
+        "network": [
+          [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              7,
+              8
+            ]
+          ],
+          [
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              8
+            ],
+            [
+              3,
+              7
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          [
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              7,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        ],
+        "direct_binary_runs": 512
+      }
+    },
+    {
+      "profile": "43",
+      "terminal": {
+        "terminal": true,
+        "timeout": false,
+        "returncode": 0,
+        "wall_seconds": 0.5520300000000589,
+        "cap_seconds": 10,
+        "command": [
+          "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+          "/Users/abhishek/.codex/worktrees/d18-structural-resume/an_excellent_sort/d18-search/nine_profile_sharpness_recovery.py",
+          "--worker",
+          "43",
+          "--out",
+          "/Users/abhishek/.codex/worktrees/d18-structural-resume/an_excellent_sort/d18-search/results/nine-profile-sharpness-recovery-43/result.json"
+        ]
+      },
+      "result": {
+        "profile": [
+          4,
+          3
+        ],
+        "n": 9,
+        "depth": 7,
+        "solve_seconds": 0.4752570420000666,
+        "status": "SAT",
+        "source_sha256": "a920b56f57e0e925ba01bfd71a82be09e6af3f2ed258ea842b0c2c65e8216350",
+        "network": [
+          [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              7
+            ]
+          ],
+          [
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              7,
+              8
+            ]
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          [
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              8
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        ],
+        "direct_binary_runs": 512
+      }
+    }
+  ]
+}

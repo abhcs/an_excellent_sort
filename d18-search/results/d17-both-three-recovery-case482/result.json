@@ -1,0 +1,19 @@
+{
+  "case_id": "n17-r0482",
+  "family_size": 16,
+  "scope": "Necessary first>=3, second>=3, no-repeat, and H9 peak4 conditions on all half-blind nine-real restrictions",
+  "cover_sha256": "711b620bb298deee98e5520595cfb341a13cf3600f4297dd35f3b38cb11d2100",
+  "source_sha256": "1a5f60fe903e09921e5f8f04a823eba14e2a08c588107209393c57587449cf24",
+  "status": "UNSAT",
+  "variables": 12338,
+  "clauses": 46034,
+  "independently_proof_checked": true,
+  "iterations": 1,
+  "certificate_directory": "/Users/abhishek/.codex/worktrees/d18-structural-resume/an_excellent_sort/d18-search/results/d17-both-three-recovery-case482/result",
+  "cnf_sha256": "0d52175efe0b852602f4e6b438501b80bfe5eabcd5f569ed08d72b8102f2eb08",
+  "proof_sha256": "21588810a1f16e5f3430f450b9322527e4e65c89f9dbae0379e96d700f7940db",
+  "seconds": 25.6377,
+  "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d",
+  "check_log_sha256": "fc8cad95353006a7ed8b0fa4db0de525dcceddbe45ccb2f771fdea0a1f648704",
+  "proof_gzip_sha256": "eeb092bc5fd00e56ab7450ef101c987b5f881e7297b636ae345eab04ff18a709"
+}

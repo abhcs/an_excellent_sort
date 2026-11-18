@@ -6,6 +6,8 @@ applies at arbitrary width and rules out conditional D18 prefix
 families. It adds no whole-cover exclusion. Work now uses the durable
 branch `codex/d18-structural-resume`; the [recovery record](../RECOVERY.md)
 distinguishes retained certificates from missing uncommitted packages.
+The [recovered second-layer theorem](d17-both-three-recovery.md) and
+fresh checked refutations restore D17 coverage to seven of609 cases.
 The status and scope records below describe the saved historical runs.
 
 **Status, 2026-11-15:** fifteen of117 complete-cover D13 cases are excluded

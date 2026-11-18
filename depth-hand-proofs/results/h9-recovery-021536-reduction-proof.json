@@ -1,0 +1,14 @@
+{
+  "status": "VERIFIED_REDUCTION_ONLY",
+  "solver_free": true,
+  "accepted_new_H9_classes": 0,
+  "third_layer_representatives": 18,
+  "idle_five_crosscheck_forms": 63,
+  "exchange_crosschecks": {"AB": 18, "AC": 25},
+  "all_cross_blind_forms": 14,
+  "paired_rescheduling_forms": 6,
+  "direct_order_replays": 103920,
+  "source_sha256": "7e26ea93f4ada3744f964700cf118b7d242c361db865849d208027013c9f00b9",
+  "note_sha256": "28aa0a2b9a202a0c2f65527359aea127c101f057590facd5aab94dbf01b749d2",
+  "elapsed_seconds": 0.21731508399989252
+}

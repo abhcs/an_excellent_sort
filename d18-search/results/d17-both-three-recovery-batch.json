@@ -1,0 +1,112 @@
+{
+  "scope": "Two complete D17 cover cases only; no D18 solve.",
+  "source_sha256": "1a5f60fe903e09921e5f8f04a823eba14e2a08c588107209393c57587449cf24",
+  "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d",
+  "cases": [
+    {
+      "case": 482,
+      "solve_terminal": {
+        "terminal": true,
+        "timeout": false,
+        "returncode": 0,
+        "wall_seconds": 25.707119250000005,
+        "cap_seconds": 60,
+        "command": [
+          "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+          "/Users/abhishek/.codex/worktrees/d18-structural-resume/an_excellent_sort/d18-search/d17_both_three_recovery_profile.py",
+          "--case",
+          "482",
+          "--out",
+          "/Users/abhishek/.codex/worktrees/d18-structural-resume/an_excellent_sort/d18-search/results/d17-both-three-recovery-case482/result.json",
+          "--proof"
+        ]
+      },
+      "check_terminal": {
+        "terminal": true,
+        "timeout": false,
+        "returncode": 0,
+        "wall_seconds": 21.582258124999953,
+        "cap_seconds": 60,
+        "command": [
+          "/Users/abhishek/.codex/worktrees/d18-structural-resume/an_excellent_sort/build/drat-trim/drat-trim",
+          "/Users/abhishek/.codex/worktrees/d18-structural-resume/an_excellent_sort/d18-search/results/d17-both-three-recovery-case482/result/problem.cnf",
+          "/Users/abhishek/.codex/worktrees/d18-structural-resume/an_excellent_sort/d18-search/results/d17-both-three-recovery-case482/result/proof.drat",
+          "-t",
+          "60"
+        ]
+      },
+      "checked_unsat": true,
+      "result": {
+        "case_id": "n17-r0482",
+        "family_size": 16,
+        "scope": "Necessary first>=3, second>=3, no-repeat, and H9 peak4 conditions on all half-blind nine-real restrictions",
+        "cover_sha256": "711b620bb298deee98e5520595cfb341a13cf3600f4297dd35f3b38cb11d2100",
+        "source_sha256": "1a5f60fe903e09921e5f8f04a823eba14e2a08c588107209393c57587449cf24",
+        "status": "UNSAT",
+        "variables": 12338,
+        "clauses": 46034,
+        "independently_proof_checked": true,
+        "iterations": 1,
+        "certificate_directory": "/Users/abhishek/.codex/worktrees/d18-structural-resume/an_excellent_sort/d18-search/results/d17-both-three-recovery-case482/result",
+        "cnf_sha256": "0d52175efe0b852602f4e6b438501b80bfe5eabcd5f569ed08d72b8102f2eb08",
+        "proof_sha256": "21588810a1f16e5f3430f450b9322527e4e65c89f9dbae0379e96d700f7940db",
+        "seconds": 25.6377,
+        "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d",
+        "check_log_sha256": "fc8cad95353006a7ed8b0fa4db0de525dcceddbe45ccb2f771fdea0a1f648704"
+      }
+    },
+    {
+      "case": 603,
+      "solve_terminal": {
+        "terminal": true,
+        "timeout": false,
+        "returncode": 0,
+        "wall_seconds": 12.912084041999833,
+        "cap_seconds": 60,
+        "command": [
+          "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+          "/Users/abhishek/.codex/worktrees/d18-structural-resume/an_excellent_sort/d18-search/d17_both_three_recovery_profile.py",
+          "--case",
+          "603",
+          "--out",
+          "/Users/abhishek/.codex/worktrees/d18-structural-resume/an_excellent_sort/d18-search/results/d17-both-three-recovery-case603/result.json",
+          "--proof"
+        ]
+      },
+      "check_terminal": {
+        "terminal": true,
+        "timeout": false,
+        "returncode": 0,
+        "wall_seconds": 9.873353167000005,
+        "cap_seconds": 60,
+        "command": [
+          "/Users/abhishek/.codex/worktrees/d18-structural-resume/an_excellent_sort/build/drat-trim/drat-trim",
+          "/Users/abhishek/.codex/worktrees/d18-structural-resume/an_excellent_sort/d18-search/results/d17-both-three-recovery-case603/result/problem.cnf",
+          "/Users/abhishek/.codex/worktrees/d18-structural-resume/an_excellent_sort/d18-search/results/d17-both-three-recovery-case603/result/proof.drat",
+          "-t",
+          "60"
+        ]
+      },
+      "checked_unsat": true,
+      "result": {
+        "case_id": "n17-r0603",
+        "family_size": 16,
+        "scope": "Necessary first>=3, second>=3, no-repeat, and H9 peak4 conditions on all half-blind nine-real restrictions",
+        "cover_sha256": "711b620bb298deee98e5520595cfb341a13cf3600f4297dd35f3b38cb11d2100",
+        "source_sha256": "1a5f60fe903e09921e5f8f04a823eba14e2a08c588107209393c57587449cf24",
+        "status": "UNSAT",
+        "variables": 12338,
+        "clauses": 46017,
+        "independently_proof_checked": true,
+        "iterations": 1,
+        "certificate_directory": "/Users/abhishek/.codex/worktrees/d18-structural-resume/an_excellent_sort/d18-search/results/d17-both-three-recovery-case603/result",
+        "cnf_sha256": "7371a18cc26d786c3614a93dd406302d077d7aa9ddb28e44e2c4fd24391acd53",
+        "proof_sha256": "b1077eb522bf15435cb01ca12e3b8108355a748354890e2d3b5e627474e89413",
+        "seconds": 12.8409,
+        "checker_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d",
+        "check_log_sha256": "9f648c830c152ea6c23e0a857a2b02e56afbce506b72f1affcad78897f8a5ace"
+      }
+    }
+  ],
+  "all_jobs_terminal": true
+}

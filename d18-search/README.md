@@ -20,8 +20,11 @@ complete-cover exclusion. The
 [cover census](results/height-two-cover-recovery-census.json) recognizes
 15/411 D18 and 22/609 D17 first-two-layer images. H9 hand coverage has
 been restored to 32/50; the
-[D17 recovery review](results/recovery-d17-first3-review.json) restores
-five supported complete-cover exclusions, retaining the computed H9 premise.
+[D17 first-layer recovery review](results/recovery-d17-first3-review.json)
+restores five supported complete-cover exclusions. The subsequent
+[second-layer recovery](d17-both-three-recovery.md) closes cases 482 and
+603 with fresh checked certificates, bringing the supported total to
+**seven of 609**. Full computed H9 remains an explicit premise.
 
 **Status.** D(18) remains unresolved. The saved [rank-profile results](two-layer-capacity-proofs.md)
 give the sharp normalized-ending capacity bound floor(7n/2)-3 for n>=17

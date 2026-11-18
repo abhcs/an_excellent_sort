@@ -1,0 +1,14 @@
+{
+  "terminal": true,
+  "timeout": false,
+  "returncode": 0,
+  "wall_seconds": 21.582258124999953,
+  "cap_seconds": 60,
+  "command": [
+    "/Users/abhishek/.codex/worktrees/d18-structural-resume/an_excellent_sort/build/drat-trim/drat-trim",
+    "/Users/abhishek/.codex/worktrees/d18-structural-resume/an_excellent_sort/d18-search/results/d17-both-three-recovery-case482/result/problem.cnf",
+    "/Users/abhishek/.codex/worktrees/d18-structural-resume/an_excellent_sort/d18-search/results/d17-both-three-recovery-case482/result/proof.drat",
+    "-t",
+    "60"
+  ]
+}

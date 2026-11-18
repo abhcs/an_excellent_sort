@@ -1,0 +1,15 @@
+{
+  "terminal": true,
+  "timeout": false,
+  "returncode": 0,
+  "wall_seconds": 0.5520300000000589,
+  "cap_seconds": 10,
+  "command": [
+    "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+    "/Users/abhishek/.codex/worktrees/d18-structural-resume/an_excellent_sort/d18-search/nine_profile_sharpness_recovery.py",
+    "--worker",
+    "43",
+    "--out",
+    "/Users/abhishek/.codex/worktrees/d18-structural-resume/an_excellent_sort/d18-search/results/nine-profile-sharpness-recovery-43/result.json"
+  ]
+}

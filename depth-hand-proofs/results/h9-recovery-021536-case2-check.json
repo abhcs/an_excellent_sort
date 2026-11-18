@@ -1,0 +1,15 @@
+{
+  "status": "VERIFIED",
+  "scope": "Excludes third-layer form2 after fixed H9firsttwo layers; other forms need separate proofs.",
+  "fixed_inputs": 11,
+  "individual_local_modes": 585,
+  "compressed_guards": 140,
+  "idle_N_wire_cases": 9,
+  "Q_modes_per_idle_wire": 9,
+  "uses_sat": false,
+  "matching_enumeration": false,
+  "certificate_sha256": "a79f54ef1e26d47b7e11679506d0c9bff2be8175e641b7c4c04d95df5a847808",
+  "checker_sha256": "9e685cce5a5e62a56f82daec1e9f76d99e15ce86a44739e5f954a629c413d7f4",
+  "proof_note_sha256": "af0afa7761ef8739ecaf30cc1f5bda15900c7a353b2b84c9bfbc6a7d6b887269",
+  "seconds": 0.003909791000296536
+}

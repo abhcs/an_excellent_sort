@@ -1,0 +1,3363 @@
+{
+  "status": "FIXED_ENDPOINT_CERTIFICATE",
+  "first": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "second": [
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      3,
+      6
+    ]
+  ],
+  "rank_inputs": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      7,
+      8,
+      5,
+      6
+    ],
+    [
+      0,
+      1,
+      4,
+      5,
+      2,
+      3,
+      6,
+      7,
+      8
+    ],
+    [
+      0,
+      1,
+      5,
+      6,
+      2,
+      3,
+      4,
+      7,
+      8
+    ],
+    [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      1,
+      8
+    ],
+    [
+      0,
+      5,
+      1,
+      6,
+      2,
+      7,
+      8,
+      3,
+      4
+    ],
+    [
+      0,
+      6,
+      1,
+      2,
+      3,
+      7,
+      4,
+      8,
+      5
+    ],
+    [
+      2,
+      3,
+      4,
+      5,
+      0,
+      6,
+      7,
+      8,
+      1
+    ],
+    [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      0,
+      1
+    ],
+    [
+      3,
+      4,
+      5,
+      6,
+      0,
+      7,
+      8,
+      1,
+      2
+    ],
+    [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      0,
+      1,
+      2
+    ],
+    [
+      4,
+      5,
+      0,
+      1,
+      6,
+      7,
+      2,
+      8,
+      3
+    ],
+    [
+      4,
+      5,
+      6,
+      7,
+      0,
+      1,
+      2,
+      8,
+      3
+    ],
+    [
+      4,
+      5,
+      6,
+      7,
+      0,
+      1,
+      8,
+      2,
+      3
+    ],
+    [
+      5,
+      6,
+      0,
+      1,
+      7,
+      8,
+      2,
+      3,
+      4
+    ],
+    [
+      5,
+      6,
+      7,
+      8,
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      6,
+      7,
+      0,
+      1,
+      2,
+      8,
+      3,
+      4,
+      5
+    ]
+  ],
+  "records": [
+    {
+      "case": 1,
+      "number": 1,
+      "third": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "fourth": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "kind": "isolated",
+      "pivots": [
+        {
+          "pivot": 4,
+          "low": 0,
+          "high": 5,
+          "low_input": 7,
+          "high_input": 1,
+          "guards": [
+            {
+              "input": 0,
+              "kind": "high",
+              "excluded": [
+                5,
+                6,
+                7,
+                8
+              ]
+            },
+            {
+              "input": 1,
+              "kind": "high",
+              "excluded": [
+                3,
+                6,
+                7,
+                8
+              ]
+            },
+            {
+              "input": 3,
+              "kind": "low",
+              "excluded": [
+                0
+              ]
+            },
+            {
+              "input": 6,
+              "kind": "low",
+              "excluded": [
+                2
+              ]
+            }
+          ],
+          "remaining": [
+            1
+          ],
+          "reciprocal": [
+            {
+              "pivot": 1,
+              "low": 1,
+              "high": 6,
+              "low_input": 0,
+              "high_input": 15,
+              "guard": {
+                "input": 3,
+                "kind": "low",
+                "excluded": [
+                  0,
+                  4
+                ]
+              }
+            }
+          ],
+          "allowed_before_parity": [],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": null
+    },
+    {
+      "case": 1,
+      "number": 2,
+      "third": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "fourth": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "kind": "isolated",
+      "pivots": [
+        {
+          "pivot": 5,
+          "low": 0,
+          "high": 5,
+          "low_input": 7,
+          "high_input": 0,
+          "guards": [
+            {
+              "input": 0,
+              "kind": "high",
+              "excluded": [
+                4,
+                6,
+                7,
+                8
+              ]
+            },
+            {
+              "input": 3,
+              "kind": "low",
+              "excluded": [
+                0
+              ]
+            },
+            {
+              "input": 5,
+              "kind": "high",
+              "excluded": [
+                3,
+                6,
+                7,
+                8
+              ]
+            },
+            {
+              "input": 6,
+              "kind": "low",
+              "excluded": [
+                2
+              ]
+            }
+          ],
+          "remaining": [
+            1
+          ],
+          "reciprocal": [
+            {
+              "pivot": 1,
+              "low": 1,
+              "high": 6,
+              "low_input": 0,
+              "high_input": 15,
+              "guard": {
+                "input": 3,
+                "kind": "low",
+                "excluded": [
+                  0,
+                  5
+                ]
+              }
+            }
+          ],
+          "allowed_before_parity": [],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": null
+    },
+    {
+      "case": 1,
+      "number": 3,
+      "third": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "fourth": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "kind": "isolated",
+      "pivots": [
+        {
+          "pivot": 7,
+          "low": 2,
+          "high": 7,
+          "low_input": 3,
+          "high_input": 1,
+          "guards": [
+            {
+              "input": 1,
+              "kind": "high",
+              "excluded": [
+                6,
+                8
+              ]
+            },
+            {
+              "input": 3,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "input": 4,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                3
+              ]
+            },
+            {
+              "input": 7,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                4
+              ]
+            },
+            {
+              "input": 15,
+              "kind": "high",
+              "excluded": [
+                5,
+                6
+              ]
+            }
+          ],
+          "remaining": [],
+          "reciprocal": [],
+          "allowed_before_parity": [],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": null
+    },
+    {
+      "case": 1,
+      "number": 4,
+      "third": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "fourth": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "kind": "hall_with_parity",
+      "pivots": [
+        {
+          "pivot": 1,
+          "low": 1,
+          "high": 5,
+          "low_input": 0,
+          "high_input": 15,
+          "guards": [
+            {
+              "input": 0,
+              "kind": "low",
+              "excluded": [
+                0
+              ]
+            },
+            {
+              "input": 7,
+              "kind": "low",
+              "excluded": [
+                4
+              ]
+            },
+            {
+              "input": 15,
+              "kind": "high",
+              "excluded": [
+                5,
+                6,
+                8
+              ]
+            }
+          ],
+          "remaining": [
+            2,
+            3,
+            7
+          ],
+          "reciprocal": [
+            {
+              "pivot": 2,
+              "low": 2,
+              "high": 6,
+              "low_input": 0,
+              "high_input": 14,
+              "guard": {
+                "input": 0,
+                "kind": "low",
+                "excluded": [
+                  0,
+                  1
+                ]
+              }
+            },
+            {
+              "pivot": 7,
+              "low": 3,
+              "high": 7,
+              "low_input": 11,
+              "high_input": 1,
+              "guard": {
+                "input": 11,
+                "kind": "low",
+                "excluded": [
+                  0,
+                  1,
+                  4
+                ]
+              }
+            }
+          ],
+          "allowed_before_parity": [
+            3
+          ],
+          "allowed_after_parity": [
+            3
+          ]
+        },
+        {
+          "pivot": 4,
+          "low": 0,
+          "high": 5,
+          "low_input": 7,
+          "high_input": 1,
+          "guards": [
+            {
+              "input": 0,
+              "kind": "high",
+              "excluded": [
+                5,
+                6,
+                7,
+                8
+              ]
+            },
+            {
+              "input": 3,
+              "kind": "low",
+              "excluded": [
+                0
+              ]
+            },
+            {
+              "input": 7,
+              "kind": "low",
+              "excluded": [
+                1
+              ]
+            }
+          ],
+          "remaining": [
+            2,
+            3
+          ],
+          "reciprocal": [],
+          "allowed_before_parity": [
+            2,
+            3
+          ],
+          "allowed_after_parity": [
+            3
+          ]
+        }
+      ],
+      "parity": {
+        "edge": [
+          2,
+          4
+        ],
+        "ranges": [
+          {
+            "output": "min",
+            "low": 0,
+            "high": 3,
+            "low_input": 7,
+            "high_input": 1
+          },
+          {
+            "output": "max",
+            "low": 3,
+            "high": 6,
+            "low_input": 3,
+            "high_input": 14
+          }
+        ],
+        "odd_intersection": [
+          3
+        ]
+      }
+    },
+    {
+      "case": 1,
+      "number": 5,
+      "third": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "fourth": [
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "kind": "isolated",
+      "pivots": [
+        {
+          "pivot": 0,
+          "low": 0,
+          "high": 5,
+          "low_input": 0,
+          "high_input": 14,
+          "guards": [
+            {
+              "input": 0,
+              "kind": "low",
+              "excluded": [
+                1
+              ]
+            },
+            {
+              "input": 10,
+              "kind": "low",
+              "excluded": [
+                3
+              ]
+            },
+            {
+              "input": 11,
+              "kind": "high",
+              "excluded": [
+                2,
+                5,
+                6,
+                8
+              ]
+            }
+          ],
+          "remaining": [
+            4,
+            7
+          ],
+          "reciprocal": [
+            {
+              "pivot": 4,
+              "low": 1,
+              "high": 6,
+              "low_input": 7,
+              "high_input": 10,
+              "guard": {
+                "input": 7,
+                "kind": "low",
+                "excluded": [
+                  0,
+                  1
+                ]
+              }
+            },
+            {
+              "pivot": 7,
+              "low": 2,
+              "high": 7,
+              "low_input": 3,
+              "high_input": 1,
+              "guard": {
+                "input": 3,
+                "kind": "low",
+                "excluded": [
+                  0,
+                  1,
+                  2
+                ]
+              }
+            }
+          ],
+          "allowed_before_parity": [],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": null
+    },
+    {
+      "case": 1,
+      "number": 6,
+      "third": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "fourth": [
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "kind": "isolated",
+      "pivots": [
+        {
+          "pivot": 0,
+          "low": 0,
+          "high": 5,
+          "low_input": 0,
+          "high_input": 14,
+          "guards": [
+            {
+              "input": 0,
+              "kind": "low",
+              "excluded": [
+                1
+              ]
+            },
+            {
+              "input": 3,
+              "kind": "low",
+              "excluded": [
+                4
+              ]
+            },
+            {
+              "input": 10,
+              "kind": "low",
+              "excluded": [
+                3
+              ]
+            },
+            {
+              "input": 11,
+              "kind": "high",
+              "excluded": [
+                2,
+                5,
+                6,
+                8
+              ]
+            },
+            {
+              "input": 12,
+              "kind": "high",
+              "excluded": [
+                2,
+                5,
+                6,
+                7
+              ]
+            }
+          ],
+          "remaining": [],
+          "reciprocal": [],
+          "allowed_before_parity": [],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": null
+    },
+    {
+      "case": 5,
+      "number": 1,
+      "third": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "fourth": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "kind": "isolated",
+      "pivots": [
+        {
+          "pivot": 7,
+          "low": 1,
+          "high": 7,
+          "low_input": 6,
+          "high_input": 1,
+          "guards": [
+            {
+              "input": 0,
+              "kind": "high",
+              "excluded": [
+                5,
+                6,
+                8
+              ]
+            },
+            {
+              "input": 3,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "input": 13,
+              "kind": "high",
+              "excluded": [
+                3,
+                4,
+                6
+              ]
+            }
+          ],
+          "remaining": [],
+          "reciprocal": [],
+          "allowed_before_parity": [],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": null
+    },
+    {
+      "case": 5,
+      "number": 2,
+      "third": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "fourth": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "kind": "isolated",
+      "pivots": [
+        {
+          "pivot": 7,
+          "low": 1,
+          "high": 7,
+          "low_input": 6,
+          "high_input": 2,
+          "guards": [
+            {
+              "input": 0,
+              "kind": "high",
+              "excluded": [
+                5,
+                6,
+                8
+              ]
+            },
+            {
+              "input": 2,
+              "kind": "high",
+              "excluded": [
+                4,
+                6,
+                8
+              ]
+            },
+            {
+              "input": 3,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "input": 11,
+              "kind": "low",
+              "excluded": [
+                0,
+                2,
+                3
+              ]
+            }
+          ],
+          "remaining": [],
+          "reciprocal": [],
+          "allowed_before_parity": [],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": null
+    },
+    {
+      "case": 5,
+      "number": 3,
+      "third": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "fourth": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "kind": "isolated",
+      "pivots": [
+        {
+          "pivot": 7,
+          "low": 1,
+          "high": 7,
+          "low_input": 6,
+          "high_input": 1,
+          "guards": [
+            {
+              "input": 1,
+              "kind": "high",
+              "excluded": [
+                3,
+                6,
+                8
+              ]
+            },
+            {
+              "input": 3,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "input": 9,
+              "kind": "high",
+              "excluded": [
+                4,
+                5,
+                6
+              ]
+            }
+          ],
+          "remaining": [],
+          "reciprocal": [],
+          "allowed_before_parity": [],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": null
+    },
+    {
+      "case": 5,
+      "number": 4,
+      "third": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "fourth": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "kind": "isolated",
+      "pivots": [
+        {
+          "pivot": 8,
+          "low": 2,
+          "high": 8,
+          "low_input": 8,
+          "high_input": 5,
+          "guards": [
+            {
+              "input": 0,
+              "kind": "high",
+              "excluded": [
+                6,
+                7
+              ]
+            },
+            {
+              "input": 4,
+              "kind": "low",
+              "excluded": [
+                0,
+                2,
+                3,
+                5
+              ]
+            },
+            {
+              "input": 5,
+              "kind": "high",
+              "excluded": [
+                4,
+                6
+              ]
+            },
+            {
+              "input": 7,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                2,
+                5
+              ]
+            }
+          ],
+          "remaining": [],
+          "reciprocal": [],
+          "allowed_before_parity": [],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": null
+    },
+    {
+      "case": 5,
+      "number": 5,
+      "third": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "fourth": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "kind": "isolated",
+      "pivots": [
+        {
+          "pivot": 8,
+          "low": 2,
+          "high": 8,
+          "low_input": 8,
+          "high_input": 1,
+          "guards": [
+            {
+              "input": 0,
+              "kind": "high",
+              "excluded": [
+                5,
+                6
+              ]
+            },
+            {
+              "input": 1,
+              "kind": "high",
+              "excluded": [
+                6,
+                7
+              ]
+            },
+            {
+              "input": 7,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                2,
+                4
+              ]
+            },
+            {
+              "input": 14,
+              "kind": "low",
+              "excluded": [
+                0,
+                2,
+                3,
+                4
+              ]
+            }
+          ],
+          "remaining": [],
+          "reciprocal": [],
+          "allowed_before_parity": [],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": null
+    },
+    {
+      "case": 5,
+      "number": 6,
+      "third": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "fourth": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "kind": "isolated",
+      "pivots": [
+        {
+          "pivot": 8,
+          "low": 2,
+          "high": 8,
+          "low_input": 8,
+          "high_input": 1,
+          "guards": [
+            {
+              "input": 0,
+              "kind": "high",
+              "excluded": [
+                5,
+                6
+              ]
+            },
+            {
+              "input": 1,
+              "kind": "high",
+              "excluded": [
+                6,
+                7
+              ]
+            },
+            {
+              "input": 4,
+              "kind": "low",
+              "excluded": [
+                0,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "input": 7,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                2,
+                3
+              ]
+            }
+          ],
+          "remaining": [],
+          "reciprocal": [],
+          "allowed_before_parity": [],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": null
+    },
+    {
+      "case": 5,
+      "number": 7,
+      "third": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "fourth": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "kind": "isolated",
+      "pivots": [
+        {
+          "pivot": 7,
+          "low": 1,
+          "high": 7,
+          "low_input": 9,
+          "high_input": 1,
+          "guards": [
+            {
+              "input": 0,
+              "kind": "high",
+              "excluded": [
+                5,
+                6,
+                8
+              ]
+            },
+            {
+              "input": 1,
+              "kind": "high",
+              "excluded": [
+                4,
+                6,
+                8
+              ]
+            },
+            {
+              "input": 3,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "input": 11,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                3
+              ]
+            }
+          ],
+          "remaining": [],
+          "reciprocal": [],
+          "allowed_before_parity": [],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": null
+    },
+    {
+      "case": 5,
+      "number": 8,
+      "third": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "fourth": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "kind": "isolated",
+      "pivots": [
+        {
+          "pivot": 7,
+          "low": 1,
+          "high": 7,
+          "low_input": 9,
+          "high_input": 2,
+          "guards": [
+            {
+              "input": 2,
+              "kind": "high",
+              "excluded": [
+                4,
+                6,
+                8
+              ]
+            },
+            {
+              "input": 3,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "input": 4,
+              "kind": "high",
+              "excluded": [
+                3,
+                5,
+                6
+              ]
+            }
+          ],
+          "remaining": [],
+          "reciprocal": [],
+          "allowed_before_parity": [],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": null
+    },
+    {
+      "case": 5,
+      "number": 9,
+      "third": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "fourth": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "kind": "isolated",
+      "pivots": [
+        {
+          "pivot": 7,
+          "low": 1,
+          "high": 7,
+          "low_input": 9,
+          "high_input": 1,
+          "guards": [
+            {
+              "input": 0,
+              "kind": "high",
+              "excluded": [
+                5,
+                6,
+                8
+              ]
+            },
+            {
+              "input": 1,
+              "kind": "high",
+              "excluded": [
+                3,
+                6,
+                8
+              ]
+            },
+            {
+              "input": 3,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "input": 10,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                4
+              ]
+            }
+          ],
+          "remaining": [],
+          "reciprocal": [],
+          "allowed_before_parity": [],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": null
+    },
+    {
+      "case": 5,
+      "number": 10,
+      "third": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "fourth": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "kind": "isolated",
+      "pivots": [
+        {
+          "pivot": 8,
+          "low": 2,
+          "high": 8,
+          "low_input": 9,
+          "high_input": 5,
+          "guards": [
+            {
+              "input": 0,
+              "kind": "high",
+              "excluded": [
+                6,
+                7
+              ]
+            },
+            {
+              "input": 5,
+              "kind": "high",
+              "excluded": [
+                4,
+                6
+              ]
+            },
+            {
+              "input": 7,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                2,
+                5
+              ]
+            },
+            {
+              "input": 9,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                3,
+                5
+              ]
+            }
+          ],
+          "remaining": [],
+          "reciprocal": [],
+          "allowed_before_parity": [],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": null
+    },
+    {
+      "case": 5,
+      "number": 11,
+      "third": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "fourth": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "kind": "isolated",
+      "pivots": [
+        {
+          "pivot": 8,
+          "low": 2,
+          "high": 8,
+          "low_input": 9,
+          "high_input": 1,
+          "guards": [
+            {
+              "input": 0,
+              "kind": "high",
+              "excluded": [
+                5,
+                6
+              ]
+            },
+            {
+              "input": 1,
+              "kind": "high",
+              "excluded": [
+                6,
+                7
+              ]
+            },
+            {
+              "input": 7,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                2,
+                4
+              ]
+            },
+            {
+              "input": 9,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                3,
+                4
+              ]
+            }
+          ],
+          "remaining": [],
+          "reciprocal": [],
+          "allowed_before_parity": [],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": null
+    },
+    {
+      "case": 5,
+      "number": 12,
+      "third": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "fourth": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "kind": "isolated",
+      "pivots": [
+        {
+          "pivot": 8,
+          "low": 2,
+          "high": 8,
+          "low_input": 9,
+          "high_input": 1,
+          "guards": [
+            {
+              "input": 0,
+              "kind": "high",
+              "excluded": [
+                5,
+                6
+              ]
+            },
+            {
+              "input": 1,
+              "kind": "high",
+              "excluded": [
+                6,
+                7
+              ]
+            },
+            {
+              "input": 7,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "input": 13,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                3,
+                4
+              ]
+            }
+          ],
+          "remaining": [],
+          "reciprocal": [],
+          "allowed_before_parity": [],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": null
+    },
+    {
+      "case": 5,
+      "number": 13,
+      "third": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "fourth": [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "kind": "isolated",
+      "pivots": [
+        {
+          "pivot": 7,
+          "low": 1,
+          "high": 7,
+          "low_input": 3,
+          "high_input": 1,
+          "guards": [
+            {
+              "input": 0,
+              "kind": "high",
+              "excluded": [
+                5,
+                6,
+                8
+              ]
+            },
+            {
+              "input": 1,
+              "kind": "high",
+              "excluded": [
+                4,
+                6,
+                8
+              ]
+            },
+            {
+              "input": 3,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "input": 4,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                3
+              ]
+            }
+          ],
+          "remaining": [],
+          "reciprocal": [],
+          "allowed_before_parity": [],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": null
+    },
+    {
+      "case": 5,
+      "number": 14,
+      "third": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "fourth": [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "kind": "isolated",
+      "pivots": [
+        {
+          "pivot": 7,
+          "low": 1,
+          "high": 7,
+          "low_input": 3,
+          "high_input": 2,
+          "guards": [
+            {
+              "input": 0,
+              "kind": "high",
+              "excluded": [
+                5,
+                6,
+                8
+              ]
+            },
+            {
+              "input": 2,
+              "kind": "high",
+              "excluded": [
+                4,
+                6,
+                8
+              ]
+            },
+            {
+              "input": 3,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "input": 10,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                3
+              ]
+            }
+          ],
+          "remaining": [],
+          "reciprocal": [],
+          "allowed_before_parity": [],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": null
+    },
+    {
+      "case": 5,
+      "number": 15,
+      "third": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "fourth": [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "kind": "isolated",
+      "pivots": [
+        {
+          "pivot": 7,
+          "low": 1,
+          "high": 7,
+          "low_input": 3,
+          "high_input": 1,
+          "guards": [
+            {
+              "input": 1,
+              "kind": "high",
+              "excluded": [
+                3,
+                6,
+                8
+              ]
+            },
+            {
+              "input": 3,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "input": 14,
+              "kind": "high",
+              "excluded": [
+                4,
+                5,
+                6
+              ]
+            }
+          ],
+          "remaining": [],
+          "reciprocal": [],
+          "allowed_before_parity": [],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": null
+    },
+    {
+      "case": 5,
+      "number": 16,
+      "third": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "fourth": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "kind": "isolated",
+      "pivots": [
+        {
+          "pivot": 8,
+          "low": 2,
+          "high": 8,
+          "low_input": 7,
+          "high_input": 5,
+          "guards": [
+            {
+              "input": 0,
+              "kind": "high",
+              "excluded": [
+                6,
+                7
+              ]
+            },
+            {
+              "input": 4,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                3,
+                5
+              ]
+            },
+            {
+              "input": 5,
+              "kind": "high",
+              "excluded": [
+                4,
+                6
+              ]
+            },
+            {
+              "input": 7,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                2,
+                5
+              ]
+            }
+          ],
+          "remaining": [],
+          "reciprocal": [],
+          "allowed_before_parity": [],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": null
+    },
+    {
+      "case": 5,
+      "number": 17,
+      "third": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "fourth": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "kind": "isolated",
+      "pivots": [
+        {
+          "pivot": 8,
+          "low": 2,
+          "high": 8,
+          "low_input": 7,
+          "high_input": 1,
+          "guards": [
+            {
+              "input": 0,
+              "kind": "high",
+              "excluded": [
+                5,
+                6
+              ]
+            },
+            {
+              "input": 1,
+              "kind": "high",
+              "excluded": [
+                6,
+                7
+              ]
+            },
+            {
+              "input": 7,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                2,
+                4
+              ]
+            },
+            {
+              "input": 9,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                3,
+                4
+              ]
+            }
+          ],
+          "remaining": [],
+          "reciprocal": [],
+          "allowed_before_parity": [],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": null
+    },
+    {
+      "case": 5,
+      "number": 18,
+      "third": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "fourth": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "kind": "isolated",
+      "pivots": [
+        {
+          "pivot": 8,
+          "low": 2,
+          "high": 8,
+          "low_input": 7,
+          "high_input": 1,
+          "guards": [
+            {
+              "input": 0,
+              "kind": "high",
+              "excluded": [
+                5,
+                6
+              ]
+            },
+            {
+              "input": 1,
+              "kind": "high",
+              "excluded": [
+                6,
+                7
+              ]
+            },
+            {
+              "input": 4,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                3,
+                4
+              ]
+            },
+            {
+              "input": 7,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                2,
+                3
+              ]
+            }
+          ],
+          "remaining": [],
+          "reciprocal": [],
+          "allowed_before_parity": [],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": null
+    },
+    {
+      "case": 8,
+      "number": 1,
+      "third": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "fourth": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "kind": "isolated",
+      "pivots": [
+        {
+          "pivot": 8,
+          "low": 2,
+          "high": 8,
+          "low_input": 8,
+          "high_input": 1,
+          "guards": [
+            {
+              "input": 0,
+              "kind": "high",
+              "excluded": [
+                5,
+                6
+              ]
+            },
+            {
+              "input": 1,
+              "kind": "high",
+              "excluded": [
+                6,
+                7
+              ]
+            },
+            {
+              "input": 6,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                2,
+                4
+              ]
+            },
+            {
+              "input": 14,
+              "kind": "low",
+              "excluded": [
+                0,
+                2,
+                3,
+                4
+              ]
+            }
+          ],
+          "remaining": [],
+          "reciprocal": [],
+          "allowed_before_parity": [],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": null
+    },
+    {
+      "case": 8,
+      "number": 2,
+      "third": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "fourth": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "kind": "isolated_with_parity",
+      "pivots": [
+        {
+          "pivot": 8,
+          "low": 3,
+          "high": 8,
+          "low_input": 11,
+          "high_input": 1,
+          "guards": [
+            {
+              "input": 1,
+              "kind": "high",
+              "excluded": [
+                7
+              ]
+            },
+            {
+              "input": 3,
+              "kind": "high",
+              "excluded": [
+                6
+              ]
+            },
+            {
+              "input": 11,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                3,
+                4
+              ]
+            }
+          ],
+          "remaining": [
+            2,
+            5
+          ],
+          "reciprocal": [
+            {
+              "pivot": 2,
+              "low": 1,
+              "high": 6,
+              "low_input": 3,
+              "high_input": 11,
+              "guard": {
+                "input": 2,
+                "kind": "high",
+                "excluded": [
+                  6,
+                  7,
+                  8
+                ]
+              }
+            }
+          ],
+          "allowed_before_parity": [
+            5
+          ],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": {
+        "edge": [
+          5,
+          8
+        ],
+        "ranges": [
+          {
+            "output": "min",
+            "low": 2,
+            "high": 5,
+            "low_input": 10,
+            "high_input": 0
+          },
+          {
+            "output": "max",
+            "low": 5,
+            "high": 8,
+            "low_input": 11,
+            "high_input": 1
+          }
+        ],
+        "odd_intersection": [
+          5
+        ]
+      }
+    },
+    {
+      "case": 9,
+      "number": 1,
+      "third": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "fourth": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "kind": "isolated_with_parity",
+      "pivots": [
+        {
+          "pivot": 7,
+          "low": 1,
+          "high": 7,
+          "low_input": 6,
+          "high_input": 1,
+          "guards": [
+            {
+              "input": 0,
+              "kind": "high",
+              "excluded": [
+                5,
+                6,
+                8
+              ]
+            },
+            {
+              "input": 3,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "input": 5,
+              "kind": "high",
+              "excluded": [
+                4,
+                6,
+                8
+              ]
+            }
+          ],
+          "remaining": [
+            3
+          ],
+          "reciprocal": [],
+          "allowed_before_parity": [
+            3
+          ],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": {
+        "edge": [
+          3,
+          7
+        ],
+        "ranges": [
+          {
+            "output": "min",
+            "low": 1,
+            "high": 4,
+            "low_input": 6,
+            "high_input": 9
+          },
+          {
+            "output": "max",
+            "low": 4,
+            "high": 7,
+            "low_input": 3,
+            "high_input": 1
+          }
+        ],
+        "odd_intersection": [
+          4
+        ]
+      }
+    },
+    {
+      "case": 9,
+      "number": 2,
+      "third": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "fourth": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "kind": "isolated",
+      "pivots": [
+        {
+          "pivot": 0,
+          "low": 0,
+          "high": 4,
+          "low_input": 0,
+          "high_input": 12,
+          "guards": [
+            {
+              "input": 12,
+              "kind": "high",
+              "excluded": [
+                2,
+                3,
+                5,
+                6
+              ]
+            }
+          ],
+          "remaining": [
+            1,
+            4,
+            7,
+            8
+          ],
+          "reciprocal": [
+            {
+              "pivot": 1,
+              "low": 0,
+              "high": 5,
+              "low_input": 6,
+              "high_input": 10,
+              "guard": {
+                "input": 0,
+                "kind": "low",
+                "excluded": [
+                  0
+                ]
+              }
+            },
+            {
+              "pivot": 4,
+              "low": 0,
+              "high": 5,
+              "low_input": 7,
+              "high_input": 5,
+              "guard": {
+                "input": 3,
+                "kind": "low",
+                "excluded": [
+                  0
+                ]
+              }
+            },
+            {
+              "pivot": 7,
+              "low": 2,
+              "high": 7,
+              "low_input": 12,
+              "high_input": 1,
+              "guard": {
+                "input": 6,
+                "kind": "low",
+                "excluded": [
+                  0,
+                  1,
+                  4
+                ]
+              }
+            },
+            {
+              "pivot": 8,
+              "low": 2,
+              "high": 8,
+              "low_input": 8,
+              "high_input": 1,
+              "guard": {
+                "input": 4,
+                "kind": "low",
+                "excluded": [
+                  0,
+                  1,
+                  2,
+                  4
+                ]
+              }
+            }
+          ],
+          "allowed_before_parity": [],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": null
+    },
+    {
+      "case": 14,
+      "number": 1,
+      "third": [
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "fourth": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "kind": "isolated_with_parity",
+      "pivots": [
+        {
+          "pivot": 7,
+          "low": 1,
+          "high": 7,
+          "low_input": 6,
+          "high_input": 1,
+          "guards": [
+            {
+              "input": 0,
+              "kind": "high",
+              "excluded": [
+                5,
+                6,
+                8
+              ]
+            },
+            {
+              "input": 3,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "input": 5,
+              "kind": "high",
+              "excluded": [
+                4,
+                6,
+                8
+              ]
+            }
+          ],
+          "remaining": [
+            3
+          ],
+          "reciprocal": [],
+          "allowed_before_parity": [
+            3
+          ],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": {
+        "edge": [
+          3,
+          7
+        ],
+        "ranges": [
+          {
+            "output": "min",
+            "low": 1,
+            "high": 4,
+            "low_input": 6,
+            "high_input": 4
+          },
+          {
+            "output": "max",
+            "low": 4,
+            "high": 7,
+            "low_input": 3,
+            "high_input": 1
+          }
+        ],
+        "odd_intersection": [
+          4
+        ]
+      }
+    },
+    {
+      "case": 16,
+      "number": 1,
+      "third": [
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "fourth": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "kind": "isolated",
+      "pivots": [
+        {
+          "pivot": 8,
+          "low": 2,
+          "high": 8,
+          "low_input": 9,
+          "high_input": 1,
+          "guards": [
+            {
+              "input": 0,
+              "kind": "high",
+              "excluded": [
+                5,
+                6
+              ]
+            },
+            {
+              "input": 1,
+              "kind": "high",
+              "excluded": [
+                6,
+                7
+              ]
+            },
+            {
+              "input": 11,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "input": 13,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                3,
+                4
+              ]
+            }
+          ],
+          "remaining": [],
+          "reciprocal": [],
+          "allowed_before_parity": [],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": null
+    },
+    {
+      "case": 16,
+      "number": 2,
+      "third": [
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "fourth": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "kind": "isolated_with_parity",
+      "pivots": [
+        {
+          "pivot": 8,
+          "low": 3,
+          "high": 8,
+          "low_input": 10,
+          "high_input": 1,
+          "guards": [
+            {
+              "input": 0,
+              "kind": "high",
+              "excluded": [
+                6
+              ]
+            },
+            {
+              "input": 1,
+              "kind": "high",
+              "excluded": [
+                7
+              ]
+            },
+            {
+              "input": 10,
+              "kind": "low",
+              "excluded": [
+                0,
+                1,
+                3,
+                5
+              ]
+            }
+          ],
+          "remaining": [
+            2,
+            4
+          ],
+          "reciprocal": [
+            {
+              "pivot": 2,
+              "low": 1,
+              "high": 6,
+              "low_input": 8,
+              "high_input": 5,
+              "guard": {
+                "input": 5,
+                "kind": "high",
+                "excluded": [
+                  6,
+                  7,
+                  8
+                ]
+              }
+            }
+          ],
+          "allowed_before_parity": [
+            4
+          ],
+          "allowed_after_parity": []
+        }
+      ],
+      "parity": {
+        "edge": [
+          4,
+          8
+        ],
+        "ranges": [
+          {
+            "output": "min",
+            "low": 2,
+            "high": 5,
+            "low_input": 3,
+            "high_input": 2
+          },
+          {
+            "output": "max",
+            "low": 5,
+            "high": 8,
+            "low_input": 5,
+            "high_input": 1
+          }
+        ],
+        "odd_intersection": [
+          5
+        ]
+      }
+    }
+  ],
+  "discovery_sha256": "2fb5ddec59b2771c0775a83d62a1c0a0be2324f4cd6066c64ba66ed8b4dc9f68",
+  "scope": "These certificates exclude the31 listed four-layer prefixes; separate hand arguments must prove their coverage.",
+  "no_sat_premise": true
+}

@@ -1,0 +1,58 @@
+{
+  "case": "UU",
+  "n": 9,
+  "prefix": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    [
+      [
+        0,
+        2
+      ],
+      [
+        4,
+        6
+      ]
+    ]
+  ],
+  "suffix_depth": 5,
+  "unsorted_image_count": 118,
+  "variables": 3347,
+  "clauses": 35837,
+  "solver": "cadical195",
+  "options": {
+    "phi": true,
+    "sym": false,
+    "cosat": false,
+    "nored0": false,
+    "lex": false
+  },
+  "cnf_sha256": "039d141262d5bea062a8edbb397f5ced760d57627660ef9db3146f66bfeec4a9",
+  "source_sha256": "0ec9a93e7d36cddf433bb4c7fd775dd61d98e87f277455c6b241524a75901d33",
+  "encoder_sha256": "960667c89cef7c433a64c8ec422898f55133309580e4b67ea07014e43d3571a3",
+  "status": "UNSAT_CHECKED",
+  "independently_proof_checked": true,
+  "solve_seconds": 0.20372270899997602,
+  "proof_sha256": "0f033662c84714c9c2a302b6c1edd2d462a7e0210acc8ea71f982a7263635f62",
+  "checker_upstream": "https://github.com/marijnheule/drat-trim.git",
+  "checker_commit": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985",
+  "checker_binary_sha256": "86a8209e667de72bc68ba43575faff85ecdfc2afa45d14d04cfd57df0d701e1d",
+  "checker_source_sha256": "d834b649f437e091597f5347f259b9f681087f89ca0844d0cee250a1a1a0c2ee",
+  "check_seconds": 0.42671533299994735
+}

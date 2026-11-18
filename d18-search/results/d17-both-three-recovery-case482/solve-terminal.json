@@ -1,0 +1,16 @@
+{
+  "terminal": true,
+  "timeout": false,
+  "returncode": 0,
+  "wall_seconds": 25.707119250000005,
+  "cap_seconds": 60,
+  "command": [
+    "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+    "/Users/abhishek/.codex/worktrees/d18-structural-resume/an_excellent_sort/d18-search/d17_both_three_recovery_profile.py",
+    "--case",
+    "482",
+    "--out",
+    "/Users/abhishek/.codex/worktrees/d18-structural-resume/an_excellent_sort/d18-search/results/d17-both-three-recovery-case482/result.json",
+    "--proof"
+  ]
+}

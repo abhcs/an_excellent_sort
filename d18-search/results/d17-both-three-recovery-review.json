@@ -1,0 +1,88 @@
+{
+  "mathematical_review": "ACCEPTED_NECESSARY_RELAXATION_FOR_COMPLETE_FIXED_PREFIX_CASES",
+  "reviewed_implication": "A depth-nine sorter with the fixed two-layer cover prefix has an assignment satisfying this CNF after deleting immediately repeated later gates. Therefore checked UNSAT excludes all its continuations.",
+  "necessary_premises": [
+    "Every selected state is obtained by a genuine signed restriction blinding the fixed first two layers and leaving nine arbitrary real inputs.",
+    "The first retained layer has at least three gates, by H9 plus the accepted N4 image rescheduling theorem.",
+    "The second retained layer has at least three gates, by H9, N4 rescheduling, and the two checked UU/UD residuals.",
+    "H9 forces at least one of the two retained layers to have four gates.",
+    "Immediate repeated physical comparators can be deleted without changing the fixed prefix or the computed function."
+  ],
+  "source_review": [
+    "Each physical later layer remains an arbitrary matching; no self-duality, co-saturation, or ending restriction is imposed.",
+    "Two threshold bits propagate signed types exactly under a selected comparator; unused-wire identities are guarded by the exact used indicator.",
+    "A second-edge indicator is exactly its physical gate AND its two transported real markers; the at-least-three cardinality counts retained gates.",
+    "The peak selector encodes a necessary disjunction of first-four or second-four; at most one unmatched real among nine is equivalent to four RR gates.",
+    "The legacy second-nonempty refinement branch is unreachable after the new min(profile)>=3 assertion and introduces no premise in first-iteration UNSAT."
+  ],
+  "local_truth_tables": {
+    "three_way_RR_indicator_assignments": 16,
+    "real_marker_assignments": 8,
+    "guarded_comparator_assignments": 32,
+    "guarded_idle_assignments": 8,
+    "used_indicator_assignments": 16
+  },
+  "cardinality_truth_tables": [
+    {
+      "input_count": 4,
+      "all_variable_assignments": 128,
+      "accepted_primary_assignments": 5
+    },
+    {
+      "input_count": 5,
+      "all_variable_assignments": 2048,
+      "accepted_primary_assignments": 16
+    },
+    {
+      "input_count": 6,
+      "all_variable_assignments": 32768,
+      "accepted_primary_assignments": 42
+    }
+  ],
+  "transport_controls": [
+    {
+      "case": 482,
+      "independently_rebuilt_states": 16,
+      "signed_binary_transport_replays": 49152,
+      "RR_count_controls": 576
+    },
+    {
+      "case": 603,
+      "independently_rebuilt_states": 16,
+      "signed_binary_transport_replays": 49152,
+      "RR_count_controls": 576
+    }
+  ],
+  "certificate_bindings": [
+    {
+      "case": 482,
+      "variables": 12338,
+      "clauses": 46034,
+      "rebuilt_cnf_sha256": "0d52175efe0b852602f4e6b438501b80bfe5eabcd5f569ed08d72b8102f2eb08",
+      "certificate_status": "VERIFIED_BOUND",
+      "proof_sha256": "21588810a1f16e5f3430f450b9322527e4e65c89f9dbae0379e96d700f7940db",
+      "check_log_sha256": "fc8cad95353006a7ed8b0fa4db0de525dcceddbe45ccb2f771fdea0a1f648704",
+      "iterations": 1
+    },
+    {
+      "case": 603,
+      "variables": 12338,
+      "clauses": 46017,
+      "rebuilt_cnf_sha256": "7371a18cc26d786c3614a93dd406302d077d7aa9ddb28e44e2c4fd24391acd53",
+      "certificate_status": "VERIFIED_BOUND",
+      "proof_sha256": "b1077eb522bf15435cb01ca12e3b8108355a748354890e2d3b5e627474e89413",
+      "check_log_sha256": "9f648c830c152ea6c23e0a857a2b02e56afbce506b72f1affcad78897f8a5ace",
+      "iterations": 1
+    }
+  ],
+  "source_sha256": "1a5f60fe903e09921e5f8f04a823eba14e2a08c588107209393c57587449cf24",
+  "review_script_sha256": "e0c655f0dc963ca8f872ef2a62dbd4a20305e12a5c2345f2702acac8699bfee6",
+  "cover_sha256": "711b620bb298deee98e5520595cfb341a13cf3600f4297dd35f3b38cb11d2100",
+  "master_source_sha256": "89d66187f1118a86e8adcfd9c5f1aa9ab90a0ef4a0f4290d05c410bdfca696f3",
+  "first_theorem_note_sha256": "e03bf6b5cf51e3380bbd5b33b5594833a91fc114ce3cd56463cb14b783d3ce6d",
+  "second_theorem_note_sha256": "03f87688d72450eae8ad1aafa4cde7825b8096e4c4dd5d28fea8e571b5fe57ec",
+  "second_theorem_check_sha256": "8941b51c35f168d4bfdf41faeadae7eca38aa4fad8ca273d82dfd327a5a1535d",
+  "new_SAT_calls": 0,
+  "elapsed_seconds": 0.48536020800020196,
+  "all_requested_certificates_bound": true
+}

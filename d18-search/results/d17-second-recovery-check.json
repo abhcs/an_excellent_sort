@@ -1,0 +1,667 @@
+{
+  "status": "VERIFIED",
+  "scope": "Finite replay and certificate binding; universal reduction is in the accompanying hand proof. Full H9 and the established ending normal form remain premises.",
+  "images": {
+    "domain_checks": 210,
+    "inverse_checks": 68,
+    "duality_checks": 105,
+    "nine_wire_product_binary_checks": 1024
+  },
+  "classification": {
+    "second_matchings": 415,
+    "branches": {
+      "at_most_one_second_gate": 37,
+      "free_first_gate": 330,
+      "opposite_role_rescheduling": 36,
+      "DD": 3,
+      "UD": 6,
+      "UU": 3
+    },
+    "commutation_binary_replays": 187904,
+    "exceptional_path_rows": [
+      {
+        "second": [
+          [
+            1,
+            2
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            1,
+            2
+          ],
+          [
+            5,
+            7
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            6
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            7
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            1,
+            3
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            1,
+            3
+          ],
+          [
+            5,
+            7
+          ]
+        ],
+        "branch": "DD"
+      },
+      {
+        "second": [
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            6
+          ]
+        ],
+        "branch": "UD"
+      },
+      {
+        "second": [
+          [
+            1,
+            3
+          ],
+          [
+            4,
+            7
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            1,
+            5
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            1,
+            5
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "branch": "DD"
+      },
+      {
+        "second": [
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "branch": "UD"
+      },
+      {
+        "second": [
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            1,
+            6
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            1,
+            6
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            1,
+            7
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "branch": "DD"
+      },
+      {
+        "second": [
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "branch": "UD"
+      },
+      {
+        "second": [
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            0,
+            2
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            0,
+            2
+          ],
+          [
+            5,
+            7
+          ]
+        ],
+        "branch": "UD"
+      },
+      {
+        "second": [
+          [
+            0,
+            2
+          ],
+          [
+            4,
+            6
+          ]
+        ],
+        "branch": "UU"
+      },
+      {
+        "second": [
+          [
+            0,
+            2
+          ],
+          [
+            4,
+            7
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            0,
+            3
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            0,
+            3
+          ],
+          [
+            5,
+            7
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            0,
+            3
+          ],
+          [
+            4,
+            6
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            0,
+            3
+          ],
+          [
+            4,
+            7
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            0,
+            4
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            0,
+            4
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "branch": "UD"
+      },
+      {
+        "second": [
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "branch": "UU"
+      },
+      {
+        "second": [
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            0,
+            5
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            0,
+            5
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            0,
+            5
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            0,
+            5
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            0,
+            6
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            0,
+            6
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "branch": "UD"
+      },
+      {
+        "second": [
+          [
+            0,
+            6
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "branch": "UU"
+      },
+      {
+        "second": [
+          [
+            0,
+            6
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            0,
+            7
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            0,
+            7
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            0,
+            7
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      },
+      {
+        "second": [
+          [
+            0,
+            7
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "branch": "opposite_role_rescheduling"
+      }
+    ]
+  },
+  "certificates": [
+    {
+      "case": "UU",
+      "cnf_rebuilt_identically": true,
+      "cnf_sha256": "039d141262d5bea062a8edbb397f5ced760d57627660ef9db3146f66bfeec4a9",
+      "proof_sha256": "0f033662c84714c9c2a302b6c1edd2d462a7e0210acc8ea71f982a7263635f62",
+      "check_log_sha256": "c4e96924f9a99800bbecb6fe944714f2bf4d72a6b2ffd33af8fa9f40a53171ca"
+    },
+    {
+      "case": "UD",
+      "cnf_rebuilt_identically": true,
+      "cnf_sha256": "818b7921d971904d3289c9f603eb14fa3ca1df4f7ca1ebfb22d55548d707feda",
+      "proof_sha256": "6bd9c19707dad8de128eb1b6a166e7db1b2e0c6ea8c0e1c6895224e21cd28873",
+      "check_log_sha256": "9234d6a698317b2cac20f4c64bed99b79023f1504bdb6043c57715ca5969a762"
+    }
+  ],
+  "source_sha256": "8052797dadddd65198cb0b171c4af0318b4cda9ed8443bb05319dd4976642052",
+  "note_sha256": "03f87688d72450eae8ad1aafa4cde7825b8096e4c4dd5d28fea8e571b5fe57ec",
+  "elapsed_seconds": 0.19358804200010127
+}

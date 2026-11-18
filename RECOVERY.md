@@ -30,8 +30,10 @@ byte-identical CNF reconstructions, and historical proof-check records
 restores **5/609 accepted D17 exclusions**, cases 604 through 608. See
 [the review](d18-search/results/recovery-d17-first3-review.json); no
 fresh SAT or DRAT runs were needed. Full computed H9 remains an explicit
-premise. A later historical 7/609 count depended on artifacts absent from
-this checkout. D18 remains **0/411 complete
+premise. The subsequent [second-layer reconstruction](d18-search/d17-both-three-recovery.md)
+has now regenerated and independently checked the missing cases 482 and
+603, restoring **7/609** with available sources and proof artifacts.
+D18 remains **0/411 complete
 cover exclusions**, with D(18)>=11 unresolved. Partial prefix exclusions
 and general matching/merger theorems survive in the checkpoint.
 
@@ -46,4 +48,6 @@ where the theorem can constrain subsequent matchings; it does not
 refute any of these cases.
 
 At recovery no prior subagents were running, and no full D18 SAT solve
-was launched. New work has used proof review and bounded finite checks.
+was launched. The later nine-wire residual solves each took less than a
+second; the two complete D17 solves and checks each finished within
+their separate sixty-second limits.

@@ -31,6 +31,9 @@ target/
 /depth-hand-proofs/verify/h9_tree_checked
 /depth-hand-proofs/verify/h9_tree_ubsan
 
+# Large checked proofs are checkpointed as lossless gzip archives.
+/d18-search/results/d17-both-three-recovery-case*/result/proof.drat
+
 # Local secrets and per-user Claude Code settings
 .env
 .claude/settings.local.json

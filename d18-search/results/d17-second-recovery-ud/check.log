@@ -1,0 +1,198 @@
+
+c parsing input formula with 3299 variables and 34895 clauses
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -288 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -342 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -368 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -398 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -427 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -458 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -535 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 543 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -580 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -612 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -638 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -668 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -697 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -728 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 735 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -763 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 771 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -816 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -848 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 855 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -904 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 911 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 939 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 971 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 1007 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -1048 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -1080 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 1087 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -1136 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 1143 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 1171 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 1203 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 1239 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -1284 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 1291 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 1323 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 1347 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 1379 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 1407 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 1439 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 1475 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -1512 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -1544 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 1551 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -1600 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 1607 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 1635 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 1667 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 1703 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -1744 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 1751 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 1783 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 1807 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 1839 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 1867 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 1899 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 1935 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 1955 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 1987 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 2019 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 2043 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 2075 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 2103 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 2135 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 2171 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -2193 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -2221 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -2243 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -2269 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -2294 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -2321 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -2352 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 2359 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -2378 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -2402 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -2442 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 2519 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -2550 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 2663 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 2691 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -2718 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 2831 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 2859 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 2919 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 2959 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 2979 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 3003 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 3031 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] -3047 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 3163 0
+
+c WARNING: backward mode ignores deletion of (pseudo) unit clause [0] 3267 0
+
+c finished parsing
+
+c detected empty clause; start verification via backward checking
+
+c 7376 of 34895 clauses in core                            
+
+c 4042 of 9435 lemmas in core using 183718 resolution steps
+
+c 0 RAT lemmas in core; 2059 redundant literals in core lemmas
+
+s VERIFIED
+
+c verification time: 0.160 seconds

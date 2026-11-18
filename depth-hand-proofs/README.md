@@ -69,8 +69,14 @@ Reviewed block-capacity and exact-endpoint clauses add cases3,4,55,56,111,112;
 the [latest scope record](../d18-search/results/structural-cover-progress-round9.json)
 links their independent encoder and certificate reviews.
 The full D(13), D(17) and D(18) goals remain unfinished.
-The [D(17) defect screen](../d18-search/d17_feedback_results.md) now excludes
-three of its 609 prefix cases. A [twelve-wire signed pattern](../d18-search/fixed-sentinel-obstruction.md)
+The [D(17) defect screen](../d18-search/d17_feedback_results.md) excludes
+three prefix cases. The recovered
+[first/second-layer count theorem](../d18-search/d17-both-three-recovery.md)
+raises the supported total to **seven of 609**: 482 and 603 through 608.
+The last two complete-case solves take about 26 and 13 seconds, with
+independent checks in 22 and 10 seconds. The argument retains full
+computed H9 and two small checked nine-wire residuals as premises.
+A [twelve-wire signed pattern](../d18-search/fixed-sentinel-obstruction.md)
 now has a complete hand proof of its two-layer obstruction, including
 the final [five-gate case](../d18-search/d17_hand_defects_twelve_five.md),
 and lifts by hand to arbitrary larger widths with fixed auxiliary

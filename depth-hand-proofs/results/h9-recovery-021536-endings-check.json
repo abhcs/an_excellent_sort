@@ -1,0 +1,22 @@
+{
+  "status": "VERIFIED",
+  "scope": "31 listed fourth-layer prefixes only; coverage must be proved independently.",
+  "fixed_inputs": 16,
+  "prefixes": 31,
+  "input_runs": 496,
+  "mandatory_pivot_rows": 32,
+  "own_guards": 116,
+  "reciprocal_guards": 12,
+  "saturated_cone_parity_exclusions": 5,
+  "conclusions": {
+    "isolated": 26,
+    "hall_with_parity": 1,
+    "isolated_with_parity": 4
+  },
+  "uses_sat": false,
+  "global_matching_scan": false,
+  "certificate_sha256": "297a617997cc977dcf284a76b504ef6fda71c83359750d9450470d0be3cb9065",
+  "checker_sha256": "01dfb534e615b8acf5d7b345b5b7dc1c696f64f9427742939bfaf2e168df7eaf",
+  "proof_note_sha256": "ffb553de3a2b44d2d649e8abff08b4a87b94881e091d5c28c644bcbd948dc859",
+  "seconds": 0.001527916999975787
+}

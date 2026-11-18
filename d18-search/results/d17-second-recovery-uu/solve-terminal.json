@@ -1,0 +1,15 @@
+{
+  "terminal": true,
+  "timeout": false,
+  "returncode": 0,
+  "wall_seconds": 0.34548170899984143,
+  "cap_seconds": 10,
+  "command": [
+    "/Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/bin/python",
+    "/Users/abhishek/.codex/worktrees/d18-structural-resume/an_excellent_sort/d18-search/d17_second_recovery_exact.py",
+    "--worker",
+    "UU",
+    "--out",
+    "/Users/abhishek/.codex/worktrees/d18-structural-resume/an_excellent_sort/d18-search/results/d17-second-recovery-uu"
+  ]
+}
