@@ -1,0 +1,7 @@
+14:37:14 store 469458 facts
+14:37:16 class 1 11:376b58516f5792799546 (covers 71 open children): r=11 h=2 sentinels {2: '+', 3: '-', 6: '+'} |X|=384 prefix [[(2, 3), (5, 6), (7, 8)], [(0, 1), (4, 5)], [(0, 7), (2, 3), (6, 10)]]; SAT UNKNOWN (2s)
+14:40:25 class 1: NO (189s) fact 20261121-143707-99882-3178 new facts 1651 nodes 1251
+14:40:26 class 7 11:d1a0b0fe2adaccaffd88 (covers 27 open children): r=11 h=3 sentinels {0: '-', 2: '+', 10: '+'} |X|=300 prefix [[(2, 3), (4, 5), (6, 7)], [(1, 2), (4, 6), (5, 7)], [(0, 9), (5, 8)]]; SAT UNKNOWN (1s)
+14:55:26 class 7: OPEN (900s) fact None new facts 20447 nodes 17677
+14:55:28 class 13 11:58a9f02fb68aaf4ff172 (covers 14 open children): r=11 h=3 sentinels {0: '+', 2: '-', 6: '+'} |X|=336 prefix [[(2, 3), (5, 6), (7, 8)], [(1, 3), (4, 5)], [(1, 9), (6, 8), (5, 10)]]; SAT UNKNOWN (2s)
+exit 143

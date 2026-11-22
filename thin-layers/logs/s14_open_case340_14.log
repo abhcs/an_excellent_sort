@@ -1,0 +1,2 @@
+13:39:30 case 340 layer [(0, 4), (6, 10), (9, 11)] |X|=1260: NO by sent (313s) fact 20261121-133358-98628-7 new facts 4 {'nodes': 1, 'hits': 1, 'quick': 0, 'lemma': 0, 'sent': 1, 'reuse': 0, 'sub': 0, 'absorb': 0, 'split': 0, 'yes': 0, 'oracle': 0, 'guide': 30, 'shared': 0, 'sym': 0}
+exit 0

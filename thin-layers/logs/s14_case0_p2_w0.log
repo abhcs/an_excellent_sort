@@ -1,0 +1,8 @@
+11-22 08:43:37 case 0 pass 2 worker 0: 17881 children, cap 600s; store 587423 facts
+11-22 08:43:37 child 2042: HIT by None 0.0s nodes 0 new facts 0 |X|=742 layer [(0, 2), (1, 7), (3, 6), (4, 12), (8, 10)]
+11-22 08:43:37 child 13959: HIT by None 0.0s nodes 0 new facts 0 |X|=708 layer [(0, 5), (1, 2), (3, 7), (6, 11), (12, 13)]
+11-22 08:43:37 child 17208: HIT by None 0.0s nodes 0 new facts 0 |X|=752 layer [(0, 11), (2, 9), (3, 12), (4, 13), (5, 6)]
+11-22 08:53:37 child 10890: OPEN by None 600.0s nodes 11781 new facts 84792 |X|=612 layer [(0, 3), (1, 11), (7, 8), (9, 12), (10, 13)]
+11-22 09:03:37 child 4568: OPEN by None 600.1s nodes 4475 new facts 59381 |X|=648 layer [(0, 2), (1, 12), (3, 7), (8, 11), (10, 13)]
+11-22 09:03:37 child 2433: HIT by None 0.0s nodes 0 new facts 0 |X|=856 layer [(0, 2), (1, 7), (3, 11), (5, 12)]
+11-22 09:13:37 child 2544: OPEN by None 600.3s nodes 1619 new facts 61423 |X|=648 layer [(0, 2), (1, 7), (3, 12), (8, 11), (10, 13)]

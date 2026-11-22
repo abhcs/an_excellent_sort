@@ -1,0 +1,565 @@
+00:13:38 D(r) proved for r <= 10
+00:13:38 SS:7,6,1,2: PROVED (0s), proof DAG 4 nodes {'split': 1, 'sent': 1, 'quick': 2}; stats {'nodes': 243, 'memo': 419, 'sent_quick': 122, 'sent_rec': 8, 'split_no': 8, 'yes': 105, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0}
+00:13:38 TRACE split of the traced node: 2 cases (+ empty layer)
+00:13:38 TRACE case 1/2 closed (0s, nodes 262): layer [(2, 3)]
+00:13:38 TRACE case 2/2 closed (0s, nodes 263): layer [(0, 2)]
+00:13:38 SS:7,7,1,3: PROVED (0s), proof DAG 52 nodes {'sent': 4, 'quick': 42, 'split': 6}; stats {'nodes': 263, 'memo': 452, 'sent_quick': 126, 'sent_rec': 9, 'split_no': 10, 'yes': 118, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0}
+00:13:38 TRACE split of the traced node: 12 cases (+ empty layer)
+00:13:38 TRACE case 1/12 closed (0s, nodes 265): layer [(0, 2), (1, 3)]
+00:13:38 TRACE case 2/12 closed (0s, nodes 266): layer [(0, 2), (4, 5)]
+00:13:38 TRACE case 3/12 closed (0s, nodes 267): layer [(0, 3), (4, 5)]
+00:13:38 TRACE case 4/12 closed (0s, nodes 268): layer [(0, 4), (2, 5)]
+00:13:38 TRACE case 5/12 closed (0s, nodes 269): layer [(0, 4), (3, 5)]
+00:13:38 TRACE case 6/12 closed (0s, nodes 270): layer [(0, 2), (1, 4)]
+00:13:38 TRACE case 7/12 closed (0s, nodes 271): layer [(0, 3), (1, 4)]
+00:13:38 TRACE case 8/12 closed (0s, nodes 272): layer [(4, 5)]
+00:13:38 TRACE case 9/12 closed (0s, nodes 273): layer [(0, 3), (1, 2)]
+00:13:38 TRACE case 10/12 closed (0s, nodes 274): layer [(0, 4)]
+00:13:38 TRACE case 11/12 closed (0s, nodes 275): layer [(0, 2)]
+00:13:38 TRACE case 12/12 closed (0s, nodes 276): layer [(0, 3)]
+00:13:38 SS:6,5,2,3: PROVED (0s), proof DAG 32 nodes {'quick': 25, 'split': 3, 'sent': 4}; stats {'nodes': 277, 'memo': 459, 'sent_quick': 135, 'sent_rec': 13, 'split_no': 11, 'yes': 118, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0}
+00:13:39 SS:8,8,1,4: PROVED (0s), proof DAG 56 nodes {'sent': 6, 'quick': 42, 'split': 8}; stats {'nodes': 284, 'memo': 476, 'sent_quick': 135, 'sent_rec': 15, 'split_no': 13, 'yes': 121, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0}
+00:13:39 TRACE split of the traced node: 14 cases (+ empty layer)
+00:13:40   progress: {'nodes': 500, 'memo': 898, 'sent_quick': 262, 'sent_rec': 39, 'split_no': 20, 'yes': 174, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0} memo=495
+00:13:40 TRACE case 1/14 closed (1s, nodes 586): layer [(4, 5), (6, 7)]
+00:13:40 TRACE case 2/14 closed (1s, nodes 595): layer [(0, 4), (5, 6)]
+00:13:40 TRACE case 3/14 closed (1s, nodes 631): layer [(0, 2), (1, 3)]
+00:13:40 TRACE case 4/14 closed (1s, nodes 632): layer [(0, 2), (4, 5)]
+00:13:40 TRACE case 5/14 closed (1s, nodes 633): layer [(0, 3), (4, 5)]
+00:13:41 TRACE case 6/14 closed (2s, nodes 665): layer [(0, 4), (2, 5)]
+00:13:41 TRACE case 7/14 closed (2s, nodes 666): layer [(0, 4), (3, 5)]
+00:13:41 TRACE case 8/14 closed (2s, nodes 667): layer [(0, 2), (1, 4)]
+00:13:41 TRACE case 9/14 closed (2s, nodes 668): layer [(0, 3), (1, 4)]
+00:13:41 TRACE case 10/14 closed (2s, nodes 669): layer [(4, 5)]
+00:13:41 TRACE case 11/14 closed (2s, nodes 670): layer [(0, 3), (1, 2)]
+00:13:41 TRACE case 12/14 closed (2s, nodes 671): layer [(0, 4)]
+00:13:41 TRACE case 13/14 closed (2s, nodes 674): layer [(0, 2)]
+00:13:41 TRACE case 14/14 closed (2s, nodes 675): layer [(0, 3)]
+00:13:41 SS:8,7,2,3: PROVED (2s), proof DAG 348 nodes {'quick': 280, 'sent': 49, 'split': 19}; stats {'nodes': 676, 'memo': 1316, 'sent_quick': 385, 'sent_rec': 68, 'split_no': 29, 'yes': 194, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0}
+00:13:43 TRACE split of the traced node: 14 cases (+ empty layer)
+00:13:43 TRACE case 1/14 closed (0s, nodes 769): layer [(4, 5), (6, 7)]
+00:13:43 TRACE case 2/14 closed (0s, nodes 770): layer [(0, 4), (5, 6)]
+00:13:43 TRACE case 3/14 closed (1s, nodes 774): layer [(0, 2), (1, 3)]
+00:13:43 TRACE case 4/14 closed (1s, nodes 775): layer [(0, 2), (4, 5)]
+00:13:43 TRACE case 5/14 closed (1s, nodes 776): layer [(0, 3), (4, 5)]
+00:13:43 TRACE case 6/14 closed (1s, nodes 777): layer [(0, 4), (2, 5)]
+00:13:43 TRACE case 7/14 closed (1s, nodes 778): layer [(0, 4), (3, 5)]
+00:13:43 TRACE case 8/14 closed (1s, nodes 779): layer [(0, 2), (1, 4)]
+00:13:43 TRACE case 9/14 closed (1s, nodes 780): layer [(0, 3), (1, 4)]
+00:13:43 TRACE case 10/14 closed (1s, nodes 781): layer [(4, 5)]
+00:13:43 TRACE case 11/14 closed (1s, nodes 782): layer [(0, 3), (1, 2)]
+00:13:43 TRACE case 12/14 closed (1s, nodes 783): layer [(0, 4)]
+00:13:43 TRACE case 13/14 closed (1s, nodes 784): layer [(0, 2)]
+00:13:43 TRACE case 14/14 closed (1s, nodes 785): layer [(0, 3)]
+00:13:43 SS:9,8,2,4: PROVED (3s), proof DAG 385 nodes {'sent': 59, 'quick': 281, 'lemma': 22, 'split': 23}; stats {'nodes': 786, 'memo': 1726, 'sent_quick': 394, 'sent_rec': 82, 'split_no': 33, 'yes': 254, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 23}
+00:13:46 TRACE split of the traced node: 46 cases (+ empty layer)
+00:13:48   progress: {'nodes': 1000, 'memo': 2743, 'sent_quick': 440, 'sent_rec': 93, 'split_no': 33, 'yes': 376, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 52} memo=994
+00:13:57   progress: {'nodes': 1500, 'memo': 3419, 'sent_quick': 824, 'sent_rec': 156, 'split_no': 35, 'yes': 401, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 80} memo=1496
+00:14:02   progress: {'nodes': 2000, 'memo': 4161, 'sent_quick': 1109, 'sent_rec': 200, 'split_no': 41, 'yes': 430, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 216} memo=1996
+00:14:08   progress: {'nodes': 2500, 'memo': 4298, 'sent_quick': 1502, 'sent_rec': 223, 'split_no': 41, 'yes': 430, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 300} memo=2496
+00:14:14   progress: {'nodes': 3000, 'memo': 4655, 'sent_quick': 1730, 'sent_rec': 257, 'split_no': 43, 'yes': 438, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 528} memo=2996
+00:14:20   progress: {'nodes': 3500, 'memo': 5035, 'sent_quick': 2097, 'sent_rec': 295, 'split_no': 45, 'yes': 444, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 615} memo=3496
+00:14:27   progress: {'nodes': 4000, 'memo': 5140, 'sent_quick': 2551, 'sent_rec': 315, 'split_no': 45, 'yes': 444, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 641} memo=3996
+00:14:34   progress: {'nodes': 4500, 'memo': 5468, 'sent_quick': 2907, 'sent_rec': 364, 'split_no': 46, 'yes': 445, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 734} memo=4496
+00:14:39   progress: {'nodes': 5000, 'memo': 5536, 'sent_quick': 3283, 'sent_rec': 384, 'split_no': 46, 'yes': 445, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 838} memo=4996
+00:14:46   progress: {'nodes': 5500, 'memo': 6131, 'sent_quick': 3667, 'sent_rec': 434, 'split_no': 52, 'yes': 454, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 889} memo=5496
+00:14:51   progress: {'nodes': 6000, 'memo': 6451, 'sent_quick': 4033, 'sent_rec': 451, 'split_no': 55, 'yes': 459, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 998} memo=5996
+00:15:02   progress: {'nodes': 6500, 'memo': 7192, 'sent_quick': 4407, 'sent_rec': 494, 'split_no': 56, 'yes': 461, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 1077} memo=6495
+00:15:11 TRACE case 1/46 closed (86s, nodes 6667): layer [(0, 2), (1, 3), (6, 7)]
+00:15:15   progress: {'nodes': 7000, 'memo': 8864, 'sent_quick': 4656, 'sent_rec': 604, 'split_no': 60, 'yes': 510, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 1165} memo=6995
+00:15:23   progress: {'nodes': 7500, 'memo': 9086, 'sent_quick': 5112, 'sent_rec': 631, 'split_no': 61, 'yes': 510, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 1182} memo=7496
+00:15:30   progress: {'nodes': 8000, 'memo': 9268, 'sent_quick': 5575, 'sent_rec': 652, 'split_no': 62, 'yes': 510, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 1197} memo=7996
+00:15:39   progress: {'nodes': 8500, 'memo': 9538, 'sent_quick': 6023, 'sent_rec': 685, 'split_no': 63, 'yes': 512, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 1213} memo=8496
+00:15:44   progress: {'nodes': 9000, 'memo': 9806, 'sent_quick': 6428, 'sent_rec': 695, 'split_no': 64, 'yes': 521, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 1287} memo=8995
+00:15:55   progress: {'nodes': 9500, 'memo': 10444, 'sent_quick': 6839, 'sent_rec': 742, 'split_no': 66, 'yes': 522, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 1327} memo=9496
+00:16:00   progress: {'nodes': 10000, 'memo': 10795, 'sent_quick': 7240, 'sent_rec': 776, 'split_no': 67, 'yes': 522, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 1390} memo=9995
+00:16:03   progress: {'nodes': 10500, 'memo': 11462, 'sent_quick': 7659, 'sent_rec': 848, 'split_no': 70, 'yes': 527, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 1390} memo=10494
+00:16:11   progress: {'nodes': 11000, 'memo': 11917, 'sent_quick': 8125, 'sent_rec': 874, 'split_no': 70, 'yes': 535, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 1392} memo=10996
+00:16:19   progress: {'nodes': 11500, 'memo': 12313, 'sent_quick': 8570, 'sent_rec': 903, 'split_no': 71, 'yes': 535, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 1417} memo=11496
+00:16:23   progress: {'nodes': 12000, 'memo': 12346, 'sent_quick': 8966, 'sent_rec': 905, 'split_no': 71, 'yes': 535, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 1519} memo=11996
+00:16:29   progress: {'nodes': 12500, 'memo': 12668, 'sent_quick': 9185, 'sent_rec': 919, 'split_no': 73, 'yes': 535, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 1783} memo=12495
+00:16:32   progress: {'nodes': 13000, 'memo': 12719, 'sent_quick': 9424, 'sent_rec': 920, 'split_no': 74, 'yes': 535, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2042} memo=12995
+00:16:38   progress: {'nodes': 13500, 'memo': 12935, 'sent_quick': 9822, 'sent_rec': 953, 'split_no': 75, 'yes': 535, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2111} memo=13496
+00:16:43   progress: {'nodes': 14000, 'memo': 12954, 'sent_quick': 10213, 'sent_rec': 954, 'split_no': 75, 'yes': 535, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2219} memo=13996
+00:16:52   progress: {'nodes': 14500, 'memo': 13340, 'sent_quick': 10646, 'sent_rec': 1006, 'split_no': 76, 'yes': 536, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2232} memo=14496
+00:16:56   progress: {'nodes': 15000, 'memo': 13702, 'sent_quick': 11037, 'sent_rec': 1054, 'split_no': 77, 'yes': 536, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2291} memo=14995
+00:17:04   progress: {'nodes': 15500, 'memo': 14074, 'sent_quick': 11464, 'sent_rec': 1099, 'split_no': 78, 'yes': 536, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2319} memo=15496
+00:17:12   progress: {'nodes': 16000, 'memo': 14379, 'sent_quick': 11908, 'sent_rec': 1133, 'split_no': 79, 'yes': 536, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2340} memo=15996
+00:17:16   progress: {'nodes': 16500, 'memo': 14386, 'sent_quick': 12368, 'sent_rec': 1136, 'split_no': 79, 'yes': 536, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2377} memo=16496
+00:17:23   progress: {'nodes': 17000, 'memo': 14624, 'sent_quick': 12814, 'sent_rec': 1156, 'split_no': 80, 'yes': 542, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2404} memo=16996
+00:17:27   progress: {'nodes': 17500, 'memo': 14645, 'sent_quick': 13254, 'sent_rec': 1156, 'split_no': 80, 'yes': 542, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2464} memo=17496
+00:17:34   progress: {'nodes': 18000, 'memo': 15008, 'sent_quick': 13708, 'sent_rec': 1182, 'split_no': 81, 'yes': 542, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2483} memo=17996
+00:17:41   progress: {'nodes': 18500, 'memo': 15307, 'sent_quick': 14121, 'sent_rec': 1214, 'split_no': 82, 'yes': 542, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2537} memo=18496
+00:17:45   progress: {'nodes': 19000, 'memo': 15400, 'sent_quick': 14570, 'sent_rec': 1217, 'split_no': 82, 'yes': 542, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2585} memo=18996
+00:17:53   progress: {'nodes': 19500, 'memo': 15613, 'sent_quick': 15029, 'sent_rec': 1239, 'split_no': 83, 'yes': 542, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2603} memo=19496
+00:17:58   progress: {'nodes': 20000, 'memo': 15817, 'sent_quick': 15453, 'sent_rec': 1251, 'split_no': 84, 'yes': 544, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2663} memo=19995
+00:18:06   progress: {'nodes': 20500, 'memo': 16066, 'sent_quick': 15799, 'sent_rec': 1285, 'split_no': 85, 'yes': 544, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2783} memo=20496
+00:18:11   progress: {'nodes': 21000, 'memo': 16138, 'sent_quick': 16257, 'sent_rec': 1290, 'split_no': 85, 'yes': 544, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2820} memo=20996
+00:18:19   progress: {'nodes': 21500, 'memo': 16495, 'sent_quick': 16684, 'sent_rec': 1339, 'split_no': 86, 'yes': 544, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2843} memo=21496
+00:18:24   progress: {'nodes': 22000, 'memo': 16596, 'sent_quick': 17133, 'sent_rec': 1347, 'split_no': 87, 'yes': 544, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2885} memo=21996
+00:18:31   progress: {'nodes': 22500, 'memo': 16673, 'sent_quick': 17606, 'sent_rec': 1366, 'split_no': 87, 'yes': 544, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2893} memo=22496
+00:18:36   progress: {'nodes': 23000, 'memo': 16803, 'sent_quick': 18055, 'sent_rec': 1376, 'split_no': 88, 'yes': 544, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2933} memo=22996
+00:18:42   progress: {'nodes': 23500, 'memo': 17026, 'sent_quick': 18533, 'sent_rec': 1389, 'split_no': 88, 'yes': 544, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2942} memo=23496
+00:18:50   progress: {'nodes': 24000, 'memo': 17414, 'sent_quick': 18983, 'sent_rec': 1413, 'split_no': 89, 'yes': 545, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2966} memo=23996
+00:19:01   progress: {'nodes': 24500, 'memo': 18147, 'sent_quick': 19382, 'sent_rec': 1466, 'split_no': 90, 'yes': 549, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 3009} memo=24496
+00:19:06   progress: {'nodes': 25000, 'memo': 18196, 'sent_quick': 19836, 'sent_rec': 1470, 'split_no': 90, 'yes': 549, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 3051} memo=24996
+00:19:16   progress: {'nodes': 25500, 'memo': 18813, 'sent_quick': 20259, 'sent_rec': 1512, 'split_no': 91, 'yes': 549, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 3085} memo=25496
+00:19:21   progress: {'nodes': 26000, 'memo': 18988, 'sent_quick': 20629, 'sent_rec': 1518, 'split_no': 92, 'yes': 549, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 3207} memo=25995
+00:19:36   progress: {'nodes': 26500, 'memo': 20406, 'sent_quick': 21027, 'sent_rec': 1584, 'split_no': 93, 'yes': 551, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 3241} memo=26496
+00:19:39   progress: {'nodes': 27000, 'memo': 20523, 'sent_quick': 21340, 'sent_rec': 1584, 'split_no': 93, 'yes': 551, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 3428} memo=26996
+00:19:48   progress: {'nodes': 27500, 'memo': 21132, 'sent_quick': 21738, 'sent_rec': 1610, 'split_no': 94, 'yes': 551, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 3503} memo=27496
+00:20:11   progress: {'nodes': 28000, 'memo': 23312, 'sent_quick': 22013, 'sent_rec': 1693, 'split_no': 95, 'yes': 554, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 3642} memo=27997
+00:20:24 TRACE case 2/46 closed (399s, nodes 28298): layer [(0, 2), (1, 6), (7, 8)]
+00:20:30   progress: {'nodes': 28500, 'memo': 24917, 'sent_quick': 22335, 'sent_rec': 1760, 'split_no': 96, 'yes': 578, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 3727} memo=28496
+00:20:34   progress: {'nodes': 29000, 'memo': 24929, 'sent_quick': 22751, 'sent_rec': 1761, 'split_no': 96, 'yes': 578, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 3810} memo=28996
+00:20:42   progress: {'nodes': 29500, 'memo': 25344, 'sent_quick': 23105, 'sent_rec': 1811, 'split_no': 97, 'yes': 578, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 3905} memo=29496
+00:20:47   progress: {'nodes': 30000, 'memo': 25471, 'sent_quick': 23474, 'sent_rec': 1819, 'split_no': 98, 'yes': 578, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 4027} memo=29996
+00:20:54   progress: {'nodes': 30500, 'memo': 25758, 'sent_quick': 23842, 'sent_rec': 1856, 'split_no': 99, 'yes': 578, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 4121} memo=30496
+00:21:00   progress: {'nodes': 31000, 'memo': 25921, 'sent_quick': 24288, 'sent_rec': 1876, 'split_no': 99, 'yes': 579, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 4154} memo=30996
+00:21:08   progress: {'nodes': 31500, 'memo': 26514, 'sent_quick': 24604, 'sent_rec': 1901, 'split_no': 101, 'yes': 580, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 4309} memo=31495
+00:21:14   progress: {'nodes': 32000, 'memo': 26645, 'sent_quick': 24975, 'sent_rec': 1912, 'split_no': 102, 'yes': 580, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 4427} memo=31996
+00:21:23   progress: {'nodes': 32500, 'memo': 27096, 'sent_quick': 25383, 'sent_rec': 1966, 'split_no': 103, 'yes': 580, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 4464} memo=32496
+00:21:33   progress: {'nodes': 33000, 'memo': 27942, 'sent_quick': 25736, 'sent_rec': 2001, 'split_no': 104, 'yes': 580, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 4575} memo=32996
+00:21:40   progress: {'nodes': 33500, 'memo': 28044, 'sent_quick': 26198, 'sent_rec': 2015, 'split_no': 104, 'yes': 580, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 4599} memo=33496
+00:21:46   progress: {'nodes': 34000, 'memo': 28215, 'sent_quick': 26597, 'sent_rec': 2026, 'split_no': 105, 'yes': 580, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 4688} memo=33996
+00:21:50   progress: {'nodes': 34500, 'memo': 28359, 'sent_quick': 27030, 'sent_rec': 2027, 'split_no': 105, 'yes': 580, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 4754} memo=34496
+00:22:02   progress: {'nodes': 35000, 'memo': 29007, 'sent_quick': 27453, 'sent_rec': 2070, 'split_no': 106, 'yes': 580, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 4787} memo=34996
+00:22:16   progress: {'nodes': 35500, 'memo': 30161, 'sent_quick': 27803, 'sent_rec': 2113, 'split_no': 107, 'yes': 580, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 4894} memo=35497
+00:22:23 TRACE case 3/46 closed (517s, nodes 35668): layer [(0, 3), (1, 6), (7, 8)]
+00:22:28   progress: {'nodes': 36000, 'memo': 31922, 'sent_quick': 28130, 'sent_rec': 2151, 'split_no': 116, 'yes': 650, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 4947} memo=35994
+00:22:36   progress: {'nodes': 36500, 'memo': 32407, 'sent_quick': 28513, 'sent_rec': 2187, 'split_no': 120, 'yes': 657, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 5019} memo=36496
+00:22:42   progress: {'nodes': 37000, 'memo': 32598, 'sent_quick': 28783, 'sent_rec': 2208, 'split_no': 121, 'yes': 660, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 5224} memo=36996
+00:22:46   progress: {'nodes': 37500, 'memo': 33012, 'sent_quick': 29033, 'sent_rec': 2231, 'split_no': 124, 'yes': 665, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 5443} memo=37496
+00:22:51   progress: {'nodes': 38000, 'memo': 33054, 'sent_quick': 29339, 'sent_rec': 2241, 'split_no': 124, 'yes': 665, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 5627} memo=37996
+00:22:57   progress: {'nodes': 38500, 'memo': 33277, 'sent_quick': 29639, 'sent_rec': 2259, 'split_no': 125, 'yes': 665, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 5808} memo=38496
+00:23:01   progress: {'nodes': 39000, 'memo': 33661, 'sent_quick': 29862, 'sent_rec': 2276, 'split_no': 128, 'yes': 672, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 6058} memo=38996
+00:23:06   progress: {'nodes': 39500, 'memo': 33824, 'sent_quick': 30206, 'sent_rec': 2286, 'split_no': 129, 'yes': 675, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 6200} memo=39496
+00:23:10   progress: {'nodes': 40000, 'memo': 33957, 'sent_quick': 30515, 'sent_rec': 2296, 'split_no': 130, 'yes': 675, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 6379} memo=39995
+00:23:16   progress: {'nodes': 40500, 'memo': 34484, 'sent_quick': 30726, 'sent_rec': 2313, 'split_no': 131, 'yes': 675, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 6651} memo=40496
+00:23:20   progress: {'nodes': 41000, 'memo': 34614, 'sent_quick': 30943, 'sent_rec': 2325, 'split_no': 132, 'yes': 675, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 6921} memo=40996
+00:23:25 TRACE case 4/46 closed (580s, nodes 41339): layer [(0, 2), (1, 3), (4, 6)]
+00:23:31   progress: {'nodes': 41500, 'memo': 35968, 'sent_quick': 31078, 'sent_rec': 2375, 'split_no': 134, 'yes': 713, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 7196} memo=41496
+00:23:44   progress: {'nodes': 42000, 'memo': 36765, 'sent_quick': 31438, 'sent_rec': 2459, 'split_no': 135, 'yes': 713, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 7251} memo=41996
+00:23:50   progress: {'nodes': 42500, 'memo': 37038, 'sent_quick': 31797, 'sent_rec': 2475, 'split_no': 136, 'yes': 713, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 7374} memo=42495
+00:23:57   progress: {'nodes': 43000, 'memo': 37370, 'sent_quick': 32012, 'sent_rec': 2521, 'split_no': 137, 'yes': 713, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 7613} memo=42996
+00:24:05   progress: {'nodes': 43500, 'memo': 37760, 'sent_quick': 32356, 'sent_rec': 2576, 'split_no': 137, 'yes': 713, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 7714} memo=43496
+00:24:10   progress: {'nodes': 44000, 'memo': 37960, 'sent_quick': 32604, 'sent_rec': 2583, 'split_no': 138, 'yes': 716, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 7954} memo=43995
+00:24:19   progress: {'nodes': 44500, 'memo': 38562, 'sent_quick': 32922, 'sent_rec': 2626, 'split_no': 139, 'yes': 717, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 8092} memo=44496
+00:24:26   progress: {'nodes': 45000, 'memo': 38806, 'sent_quick': 33343, 'sent_rec': 2645, 'split_no': 140, 'yes': 717, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 8150} memo=44995
+00:24:35   progress: {'nodes': 45500, 'memo': 39212, 'sent_quick': 33583, 'sent_rec': 2711, 'split_no': 141, 'yes': 717, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 8344} memo=45496
+00:24:39   progress: {'nodes': 46000, 'memo': 39280, 'sent_quick': 33938, 'sent_rec': 2717, 'split_no': 141, 'yes': 717, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 8483} memo=45996
+00:24:48   progress: {'nodes': 46500, 'memo': 39765, 'sent_quick': 34304, 'sent_rec': 2767, 'split_no': 142, 'yes': 717, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 8566} memo=46496
+00:24:56   progress: {'nodes': 47000, 'memo': 40263, 'sent_quick': 34658, 'sent_rec': 2795, 'split_no': 143, 'yes': 717, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 8683} memo=46996
+00:25:06   progress: {'nodes': 47500, 'memo': 40971, 'sent_quick': 35043, 'sent_rec': 2833, 'split_no': 144, 'yes': 717, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 8759} memo=47496
+00:25:13   progress: {'nodes': 48000, 'memo': 41527, 'sent_quick': 35414, 'sent_rec': 2849, 'split_no': 146, 'yes': 717, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 8869} memo=47995
+00:25:19   progress: {'nodes': 48500, 'memo': 41783, 'sent_quick': 35795, 'sent_rec': 2864, 'split_no': 147, 'yes': 717, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 8973} memo=48496
+00:25:28   progress: {'nodes': 49000, 'memo': 42255, 'sent_quick': 36160, 'sent_rec': 2902, 'split_no': 149, 'yes': 717, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 9068} memo=48996
+00:25:36   progress: {'nodes': 49500, 'memo': 42735, 'sent_quick': 36483, 'sent_rec': 2949, 'split_no': 150, 'yes': 717, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 9197} memo=49496
+00:25:41   progress: {'nodes': 50000, 'memo': 42976, 'sent_quick': 36810, 'sent_rec': 2960, 'split_no': 151, 'yes': 717, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 9358} memo=49996
+00:25:47   progress: {'nodes': 50500, 'memo': 43103, 'sent_quick': 37187, 'sent_rec': 2967, 'split_no': 152, 'yes': 717, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 9473} memo=50496
+00:25:56   progress: {'nodes': 51000, 'memo': 43406, 'sent_quick': 37596, 'sent_rec': 2985, 'split_no': 153, 'yes': 717, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 9545} memo=50996
+00:26:01   progress: {'nodes': 51500, 'memo': 43614, 'sent_quick': 37950, 'sent_rec': 2993, 'split_no': 154, 'yes': 717, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 9682} memo=51496
+00:26:06   progress: {'nodes': 52000, 'memo': 44019, 'sent_quick': 38210, 'sent_rec': 3000, 'split_no': 156, 'yes': 717, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 9912} memo=51995
+00:26:15   progress: {'nodes': 52500, 'memo': 44465, 'sent_quick': 38678, 'sent_rec': 3024, 'split_no': 157, 'yes': 717, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 9920} memo=52496
+00:26:22   progress: {'nodes': 53000, 'memo': 44733, 'sent_quick': 39099, 'sent_rec': 3045, 'split_no': 158, 'yes': 717, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 9977} memo=52996
+00:26:27   progress: {'nodes': 53500, 'memo': 45099, 'sent_quick': 39351, 'sent_rec': 3057, 'split_no': 159, 'yes': 717, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 10211} memo=53495
+00:26:34   progress: {'nodes': 54000, 'memo': 45416, 'sent_quick': 39691, 'sent_rec': 3074, 'split_no': 160, 'yes': 717, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 10354} memo=53996
+00:26:41   progress: {'nodes': 54500, 'memo': 45859, 'sent_quick': 40045, 'sent_rec': 3101, 'split_no': 161, 'yes': 719, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 10470} memo=54496
+00:26:48   progress: {'nodes': 55000, 'memo': 45994, 'sent_quick': 40470, 'sent_rec': 3115, 'split_no': 161, 'yes': 719, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 10531} memo=54996
+00:26:58   progress: {'nodes': 55500, 'memo': 46408, 'sent_quick': 40858, 'sent_rec': 3143, 'split_no': 162, 'yes': 719, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 10614} memo=55496
+00:27:03   progress: {'nodes': 56000, 'memo': 46437, 'sent_quick': 41192, 'sent_rec': 3144, 'split_no': 162, 'yes': 719, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 10779} memo=55996
+00:27:12   progress: {'nodes': 56500, 'memo': 46652, 'sent_quick': 41602, 'sent_rec': 3163, 'split_no': 163, 'yes': 721, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 10847} memo=56496
+00:27:19   progress: {'nodes': 57000, 'memo': 46887, 'sent_quick': 41969, 'sent_rec': 3171, 'split_no': 164, 'yes': 725, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 10967} memo=56996
+00:27:26   progress: {'nodes': 57500, 'memo': 47192, 'sent_quick': 42355, 'sent_rec': 3186, 'split_no': 165, 'yes': 725, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 11065} memo=57496
+00:27:34   progress: {'nodes': 58000, 'memo': 47552, 'sent_quick': 42723, 'sent_rec': 3212, 'split_no': 166, 'yes': 725, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 11170} memo=57996
+00:27:40   progress: {'nodes': 58500, 'memo': 47820, 'sent_quick': 43046, 'sent_rec': 3227, 'split_no': 167, 'yes': 725, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 11331} memo=58496
+00:27:49   progress: {'nodes': 59000, 'memo': 48396, 'sent_quick': 43465, 'sent_rec': 3249, 'split_no': 168, 'yes': 725, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 11389} memo=58996
+00:28:00   progress: {'nodes': 59500, 'memo': 49066, 'sent_quick': 43812, 'sent_rec': 3289, 'split_no': 169, 'yes': 725, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 11501} memo=59496
+00:28:03   progress: {'nodes': 60000, 'memo': 49423, 'sent_quick': 44031, 'sent_rec': 3290, 'split_no': 169, 'yes': 725, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 11781} memo=59996
+00:28:12   progress: {'nodes': 60500, 'memo': 50369, 'sent_quick': 44363, 'sent_rec': 3310, 'split_no': 170, 'yes': 725, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 11928} memo=60496
+00:28:16   progress: {'nodes': 61000, 'memo': 50841, 'sent_quick': 44648, 'sent_rec': 3316, 'split_no': 172, 'yes': 727, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 12134} memo=60997
+00:28:26 TRACE case 5/46 closed (880s, nodes 61277): layer [(0, 2), (4, 6), (7, 8)]
+00:28:33   progress: {'nodes': 61500, 'memo': 52388, 'sent_quick': 44857, 'sent_rec': 3382, 'split_no': 173, 'yes': 755, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 12329} memo=61496
+00:28:37   progress: {'nodes': 62000, 'memo': 52686, 'sent_quick': 45176, 'sent_rec': 3395, 'split_no': 174, 'yes': 755, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 12496} memo=61996
+00:28:43   progress: {'nodes': 62500, 'memo': 53055, 'sent_quick': 45533, 'sent_rec': 3413, 'split_no': 174, 'yes': 755, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 12621} memo=62496
+00:28:55   progress: {'nodes': 63000, 'memo': 53847, 'sent_quick': 45869, 'sent_rec': 3478, 'split_no': 175, 'yes': 756, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 12718} memo=62996
+00:29:03   progress: {'nodes': 63500, 'memo': 54201, 'sent_quick': 46264, 'sent_rec': 3511, 'split_no': 176, 'yes': 756, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 12789} memo=63496
+00:29:09   progress: {'nodes': 64000, 'memo': 54577, 'sent_quick': 46619, 'sent_rec': 3515, 'split_no': 177, 'yes': 757, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 12928} memo=63996
+00:29:19   progress: {'nodes': 64500, 'memo': 55119, 'sent_quick': 47043, 'sent_rec': 3565, 'split_no': 178, 'yes': 757, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 12953} memo=64496
+00:29:27   progress: {'nodes': 65000, 'memo': 55459, 'sent_quick': 47399, 'sent_rec': 3594, 'split_no': 179, 'yes': 757, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 13067} memo=64996
+00:29:33   progress: {'nodes': 65500, 'memo': 55790, 'sent_quick': 47736, 'sent_rec': 3610, 'split_no': 180, 'yes': 757, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 13213} memo=65496
+00:29:38   progress: {'nodes': 66000, 'memo': 55990, 'sent_quick': 48074, 'sent_rec': 3614, 'split_no': 180, 'yes': 757, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 13371} memo=65996
+00:29:46   progress: {'nodes': 66500, 'memo': 56528, 'sent_quick': 48435, 'sent_rec': 3642, 'split_no': 181, 'yes': 757, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 13481} memo=66496
+00:29:54   progress: {'nodes': 67000, 'memo': 57053, 'sent_quick': 48783, 'sent_rec': 3666, 'split_no': 182, 'yes': 757, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 13608} memo=66996
+00:30:02   progress: {'nodes': 67500, 'memo': 57419, 'sent_quick': 49125, 'sent_rec': 3683, 'split_no': 183, 'yes': 757, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 13748} memo=67496
+00:30:08   progress: {'nodes': 68000, 'memo': 57553, 'sent_quick': 49571, 'sent_rec': 3691, 'split_no': 183, 'yes': 757, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 13794} memo=67996
+00:30:15   progress: {'nodes': 68500, 'memo': 57798, 'sent_quick': 49981, 'sent_rec': 3707, 'split_no': 184, 'yes': 757, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 13867} memo=68496
+00:30:22   progress: {'nodes': 69000, 'memo': 58127, 'sent_quick': 50369, 'sent_rec': 3730, 'split_no': 185, 'yes': 757, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 13955} memo=68996
+00:30:30   progress: {'nodes': 69500, 'memo': 58250, 'sent_quick': 50848, 'sent_rec': 3743, 'split_no': 185, 'yes': 757, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 13963} memo=69496
+00:30:36   progress: {'nodes': 70000, 'memo': 58481, 'sent_quick': 51235, 'sent_rec': 3753, 'split_no': 186, 'yes': 757, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 14065} memo=69996
+00:30:43   progress: {'nodes': 70500, 'memo': 58774, 'sent_quick': 51620, 'sent_rec': 3765, 'split_no': 187, 'yes': 757, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 14167} memo=70496
+00:30:52   progress: {'nodes': 71000, 'memo': 59390, 'sent_quick': 51998, 'sent_rec': 3785, 'split_no': 188, 'yes': 757, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 14268} memo=70996
+00:30:57   progress: {'nodes': 71500, 'memo': 59452, 'sent_quick': 52348, 'sent_rec': 3785, 'split_no': 188, 'yes': 757, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 14418} memo=71496
+00:31:02   progress: {'nodes': 72000, 'memo': 59570, 'sent_quick': 52714, 'sent_rec': 3787, 'split_no': 189, 'yes': 757, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 14549} memo=71996
+00:31:06   progress: {'nodes': 72500, 'memo': 59706, 'sent_quick': 53021, 'sent_rec': 3788, 'split_no': 190, 'yes': 757, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 14740} memo=72496
+00:31:13   progress: {'nodes': 73000, 'memo': 59983, 'sent_quick': 53383, 'sent_rec': 3797, 'split_no': 191, 'yes': 757, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 14868} memo=72996
+00:31:20   progress: {'nodes': 73500, 'memo': 60544, 'sent_quick': 53804, 'sent_rec': 3809, 'split_no': 192, 'yes': 757, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 14934} memo=73496
+00:31:26   progress: {'nodes': 74000, 'memo': 60658, 'sent_quick': 54181, 'sent_rec': 3815, 'split_no': 192, 'yes': 757, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 15051} memo=73996
+00:31:36   progress: {'nodes': 74500, 'memo': 61369, 'sent_quick': 54501, 'sent_rec': 3841, 'split_no': 193, 'yes': 757, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 15204} memo=74496
+00:31:38   progress: {'nodes': 75000, 'memo': 61578, 'sent_quick': 54760, 'sent_rec': 3841, 'split_no': 193, 'yes': 757, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 15445} memo=74996
+00:31:43 TRACE case 6/46 closed (1078s, nodes 75245): layer [(0, 2), (5, 6), (7, 8)]
+00:31:52   progress: {'nodes': 75500, 'memo': 62644, 'sent_quick': 55026, 'sent_rec': 3885, 'split_no': 195, 'yes': 768, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 15622} memo=75496
+00:31:57   progress: {'nodes': 76000, 'memo': 62841, 'sent_quick': 55390, 'sent_rec': 3887, 'split_no': 196, 'yes': 768, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 15755} memo=75996
+00:32:04   progress: {'nodes': 76500, 'memo': 63036, 'sent_quick': 55831, 'sent_rec': 3901, 'split_no': 196, 'yes': 768, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 15800} memo=76496
+00:32:16   progress: {'nodes': 77000, 'memo': 63951, 'sent_quick': 56157, 'sent_rec': 3941, 'split_no': 197, 'yes': 768, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 15933} memo=76996
+00:32:21   progress: {'nodes': 77500, 'memo': 63991, 'sent_quick': 56575, 'sent_rec': 3941, 'split_no': 197, 'yes': 768, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 16015} memo=77496
+00:32:33   progress: {'nodes': 78000, 'memo': 64671, 'sent_quick': 56950, 'sent_rec': 3972, 'split_no': 198, 'yes': 768, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 16108} memo=77996
+00:32:37   progress: {'nodes': 78500, 'memo': 64721, 'sent_quick': 57304, 'sent_rec': 3972, 'split_no': 198, 'yes': 768, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 16254} memo=78496
+00:32:55 TRACE case 7/46 closed (1149s, nodes 78903): layer [(0, 3), (4, 6), (7, 8)]
+00:32:59   progress: {'nodes': 79000, 'memo': 66711, 'sent_quick': 57519, 'sent_rec': 4053, 'split_no': 200, 'yes': 768, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 16456} memo=78996
+00:33:05   progress: {'nodes': 79500, 'memo': 66876, 'sent_quick': 57855, 'sent_rec': 4066, 'split_no': 201, 'yes': 769, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 16605} memo=79496
+00:33:08   progress: {'nodes': 80000, 'memo': 66932, 'sent_quick': 58095, 'sent_rec': 4071, 'split_no': 201, 'yes': 769, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 16860} memo=79996
+00:33:12   progress: {'nodes': 80500, 'memo': 67167, 'sent_quick': 58338, 'sent_rec': 4071, 'split_no': 202, 'yes': 769, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 17116} memo=80496
+00:33:16   progress: {'nodes': 81000, 'memo': 67641, 'sent_quick': 58532, 'sent_rec': 4104, 'split_no': 203, 'yes': 771, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 17385} memo=80995
+00:33:17 TRACE case 8/46 closed (1172s, nodes 81254): layer [(0, 6), (2, 7), (4, 8)]
+00:33:23   progress: {'nodes': 81500, 'memo': 68034, 'sent_quick': 58945, 'sent_rec': 4130, 'split_no': 205, 'yes': 771, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 17445} memo=81496
+00:33:29   progress: {'nodes': 82000, 'memo': 68267, 'sent_quick': 59289, 'sent_rec': 4150, 'split_no': 206, 'yes': 771, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 17580} memo=81996
+00:33:32   progress: {'nodes': 82500, 'memo': 68405, 'sent_quick': 59515, 'sent_rec': 4153, 'split_no': 207, 'yes': 771, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 17850} memo=82496
+00:33:36   progress: {'nodes': 83000, 'memo': 68602, 'sent_quick': 59823, 'sent_rec': 4156, 'split_no': 207, 'yes': 771, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 18039} memo=82996
+00:33:40   progress: {'nodes': 83500, 'memo': 68805, 'sent_quick': 60068, 'sent_rec': 4164, 'split_no': 208, 'yes': 771, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 18285} memo=83496
+00:33:43   progress: {'nodes': 84000, 'memo': 68846, 'sent_quick': 60306, 'sent_rec': 4164, 'split_no': 208, 'yes': 771, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 18547} memo=83996
+00:33:45 TRACE case 9/46 closed (1199s, nodes 84177): layer [(0, 6), (2, 7), (5, 8)]
+00:33:52   progress: {'nodes': 84500, 'memo': 69871, 'sent_quick': 60552, 'sent_rec': 4197, 'split_no': 211, 'yes': 805, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 18731} memo=84496
+00:33:59   progress: {'nodes': 85000, 'memo': 70485, 'sent_quick': 60946, 'sent_rec': 4219, 'split_no': 212, 'yes': 805, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 18814} memo=84996
+00:34:05   progress: {'nodes': 85500, 'memo': 70702, 'sent_quick': 61313, 'sent_rec': 4231, 'split_no': 212, 'yes': 805, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 18935} memo=85496
+00:34:11   progress: {'nodes': 86000, 'memo': 71019, 'sent_quick': 61621, 'sent_rec': 4252, 'split_no': 213, 'yes': 805, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 19105} memo=85996
+00:34:18   progress: {'nodes': 86500, 'memo': 71419, 'sent_quick': 61944, 'sent_rec': 4279, 'split_no': 214, 'yes': 805, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 19254} memo=86496
+00:34:22   progress: {'nodes': 87000, 'memo': 71450, 'sent_quick': 62295, 'sent_rec': 4279, 'split_no': 214, 'yes': 805, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 19403} memo=86996
+00:34:30   progress: {'nodes': 87500, 'memo': 71820, 'sent_quick': 62667, 'sent_rec': 4301, 'split_no': 215, 'yes': 805, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 19508} memo=87496
+00:34:37   progress: {'nodes': 88000, 'memo': 72363, 'sent_quick': 62973, 'sent_rec': 4323, 'split_no': 216, 'yes': 805, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 19679} memo=87996
+00:34:44   progress: {'nodes': 88500, 'memo': 72829, 'sent_quick': 63314, 'sent_rec': 4334, 'split_no': 217, 'yes': 805, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 19826} memo=88496
+00:34:49   progress: {'nodes': 89000, 'memo': 72900, 'sent_quick': 63695, 'sent_rec': 4336, 'split_no': 217, 'yes': 805, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 19943} memo=88996
+00:34:55   progress: {'nodes': 89500, 'memo': 73153, 'sent_quick': 64005, 'sent_rec': 4355, 'split_no': 218, 'yes': 805, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 20113} memo=89496
+00:34:58   progress: {'nodes': 90000, 'memo': 73193, 'sent_quick': 64314, 'sent_rec': 4355, 'split_no': 218, 'yes': 805, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 20304} memo=89996
+00:35:05   progress: {'nodes': 90500, 'memo': 73424, 'sent_quick': 64694, 'sent_rec': 4378, 'split_no': 219, 'yes': 805, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 20400} memo=90496
+00:35:11   progress: {'nodes': 91000, 'memo': 73798, 'sent_quick': 65029, 'sent_rec': 4390, 'split_no': 220, 'yes': 805, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 20552} memo=90996
+00:35:15   progress: {'nodes': 91500, 'memo': 73990, 'sent_quick': 65374, 'sent_rec': 4391, 'split_no': 220, 'yes': 805, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 20706} memo=91496
+00:35:26   progress: {'nodes': 92000, 'memo': 75211, 'sent_quick': 65693, 'sent_rec': 4427, 'split_no': 222, 'yes': 805, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 20849} memo=91996
+00:35:36   progress: {'nodes': 92500, 'memo': 75926, 'sent_quick': 65979, 'sent_rec': 4457, 'split_no': 223, 'yes': 805, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 21032} memo=92496
+00:35:42   progress: {'nodes': 93000, 'memo': 76033, 'sent_quick': 66392, 'sent_rec': 4463, 'split_no': 223, 'yes': 805, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 21113} memo=92996
+00:35:48   progress: {'nodes': 93500, 'memo': 76304, 'sent_quick': 66718, 'sent_rec': 4479, 'split_no': 224, 'yes': 805, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 21270} memo=93496
+00:35:52   progress: {'nodes': 94000, 'memo': 76513, 'sent_quick': 67006, 'sent_rec': 4482, 'split_no': 225, 'yes': 805, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 21478} memo=93996
+00:35:57   progress: {'nodes': 94500, 'memo': 76656, 'sent_quick': 67417, 'sent_rec': 4482, 'split_no': 225, 'yes': 805, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 21567} memo=94496
+00:36:03   progress: {'nodes': 95000, 'memo': 76857, 'sent_quick': 67751, 'sent_rec': 4489, 'split_no': 226, 'yes': 805, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 21725} memo=94996
+00:36:05   progress: {'nodes': 95500, 'memo': 76920, 'sent_quick': 68067, 'sent_rec': 4489, 'split_no': 226, 'yes': 805, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 21909} memo=95496
+00:36:37   progress: {'nodes': 96000, 'memo': 80048, 'sent_quick': 68330, 'sent_rec': 4608, 'split_no': 227, 'yes': 805, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 22027} memo=95997
+00:36:38 TRACE case 10/46 closed (1373s, nodes 96388): layer [(0, 2), (1, 4), (6, 7)]
+00:36:41   progress: {'nodes': 96500, 'memo': 80821, 'sent_quick': 68427, 'sent_rec': 4622, 'split_no': 228, 'yes': 843, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 22376} memo=96496
+00:36:47   progress: {'nodes': 97000, 'memo': 80998, 'sent_quick': 68727, 'sent_rec': 4636, 'split_no': 228, 'yes': 843, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 22562} memo=96996
+00:36:53   progress: {'nodes': 97500, 'memo': 81318, 'sent_quick': 69078, 'sent_rec': 4660, 'split_no': 229, 'yes': 843, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 22686} memo=97496
+00:36:58   progress: {'nodes': 98000, 'memo': 81501, 'sent_quick': 69258, 'sent_rec': 4671, 'split_no': 230, 'yes': 843, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 22993} memo=97995
+00:37:05   progress: {'nodes': 98500, 'memo': 81735, 'sent_quick': 69642, 'sent_rec': 4703, 'split_no': 231, 'yes': 843, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 23077} memo=98496
+00:37:11   progress: {'nodes': 99000, 'memo': 81989, 'sent_quick': 69974, 'sent_rec': 4727, 'split_no': 232, 'yes': 843, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 23220} memo=98996
+00:37:15   progress: {'nodes': 99500, 'memo': 82043, 'sent_quick': 70261, 'sent_rec': 4728, 'split_no': 232, 'yes': 843, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 23432} memo=99496
+00:37:22   progress: {'nodes': 100000, 'memo': 82606, 'sent_quick': 70636, 'sent_rec': 4750, 'split_no': 233, 'yes': 843, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 23534} memo=99996
+00:37:31   progress: {'nodes': 100500, 'memo': 83119, 'sent_quick': 70999, 'sent_rec': 4775, 'split_no': 234, 'yes': 843, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 23645} memo=100496
+00:37:39   progress: {'nodes': 101000, 'memo': 83894, 'sent_quick': 71423, 'sent_rec': 4800, 'split_no': 235, 'yes': 843, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 23695} memo=100996
+00:37:47   progress: {'nodes': 101500, 'memo': 84388, 'sent_quick': 71833, 'sent_rec': 4825, 'split_no': 236, 'yes': 843, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 23759} memo=101496
+00:37:50   progress: {'nodes': 102000, 'memo': 84419, 'sent_quick': 72174, 'sent_rec': 4825, 'split_no': 236, 'yes': 843, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 23918} memo=101996
+00:37:57   progress: {'nodes': 102500, 'memo': 84849, 'sent_quick': 72585, 'sent_rec': 4844, 'split_no': 237, 'yes': 843, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 23987} memo=102496
+00:38:04   progress: {'nodes': 103000, 'memo': 85213, 'sent_quick': 72952, 'sent_rec': 4872, 'split_no': 238, 'yes': 844, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 24090} memo=102996
+00:38:11   progress: {'nodes': 103500, 'memo': 85563, 'sent_quick': 73315, 'sent_rec': 4896, 'split_no': 239, 'yes': 844, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 24202} memo=103496
+00:38:16   progress: {'nodes': 104000, 'memo': 85685, 'sent_quick': 73677, 'sent_rec': 4918, 'split_no': 239, 'yes': 844, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 24318} memo=103996
+00:38:22   progress: {'nodes': 104500, 'memo': 85855, 'sent_quick': 74006, 'sent_rec': 4936, 'split_no': 240, 'yes': 844, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 24470} memo=104496
+00:38:26   progress: {'nodes': 105000, 'memo': 85964, 'sent_quick': 74354, 'sent_rec': 4939, 'split_no': 240, 'yes': 844, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 24619} memo=104996
+00:38:38   progress: {'nodes': 105500, 'memo': 86723, 'sent_quick': 74755, 'sent_rec': 4975, 'split_no': 241, 'yes': 844, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 24681} memo=105496
+00:38:45   progress: {'nodes': 106000, 'memo': 87185, 'sent_quick': 75033, 'sent_rec': 4995, 'split_no': 242, 'yes': 844, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 24882} memo=105996
+00:38:49   progress: {'nodes': 106500, 'memo': 87372, 'sent_quick': 75301, 'sent_rec': 5002, 'split_no': 242, 'yes': 844, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 25107} memo=106496
+00:38:54   progress: {'nodes': 107000, 'memo': 87731, 'sent_quick': 75530, 'sent_rec': 5012, 'split_no': 243, 'yes': 844, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 25367} memo=106996
+00:38:57   progress: {'nodes': 107500, 'memo': 87942, 'sent_quick': 75769, 'sent_rec': 5013, 'split_no': 243, 'yes': 844, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 25627} memo=107496
+00:39:02   progress: {'nodes': 108000, 'memo': 88330, 'sent_quick': 76074, 'sent_rec': 5018, 'split_no': 244, 'yes': 844, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 25816} memo=107996
+00:39:08   progress: {'nodes': 108500, 'memo': 88969, 'sent_quick': 76310, 'sent_rec': 5027, 'split_no': 245, 'yes': 844, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 26070} memo=108496
+00:39:17   progress: {'nodes': 109000, 'memo': 89958, 'sent_quick': 76497, 'sent_rec': 5057, 'split_no': 246, 'yes': 847, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 26350} memo=108997
+00:39:23 TRACE case 11/46 closed (1537s, nodes 109337): layer [(0, 2), (1, 5), (6, 7)]
+00:39:27   progress: {'nodes': 109500, 'memo': 90923, 'sent_quick': 76696, 'sent_rec': 5095, 'split_no': 247, 'yes': 862, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 26596} memo=109496
+00:39:32   progress: {'nodes': 110000, 'memo': 91002, 'sent_quick': 77111, 'sent_rec': 5095, 'split_no': 247, 'yes': 862, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 26681} memo=109996
+00:39:38   progress: {'nodes': 110500, 'memo': 91284, 'sent_quick': 77514, 'sent_rec': 5108, 'split_no': 248, 'yes': 862, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 26764} memo=110496
+00:39:44   progress: {'nodes': 111000, 'memo': 91484, 'sent_quick': 77915, 'sent_rec': 5122, 'split_no': 249, 'yes': 862, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 26848} memo=110996
+00:40:02   progress: {'nodes': 111500, 'memo': 93023, 'sent_quick': 78293, 'sent_rec': 5180, 'split_no': 250, 'yes': 864, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 26909} memo=111496
+00:40:07   progress: {'nodes': 112000, 'memo': 93148, 'sent_quick': 78717, 'sent_rec': 5187, 'split_no': 250, 'yes': 864, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 26978} memo=111996
+00:40:11   progress: {'nodes': 112500, 'memo': 93371, 'sent_quick': 79022, 'sent_rec': 5187, 'split_no': 251, 'yes': 864, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 27172} memo=112496
+00:40:16   progress: {'nodes': 113000, 'memo': 93822, 'sent_quick': 79282, 'sent_rec': 5199, 'split_no': 252, 'yes': 864, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 27400} memo=112997
+00:40:17 TRACE case 12/46 closed (1591s, nodes 113253): layer [(0, 2), (1, 6), (3, 7)]
+00:40:23   progress: {'nodes': 113500, 'memo': 94122, 'sent_quick': 79532, 'sent_rec': 5207, 'split_no': 253, 'yes': 874, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 27630} memo=113496
+00:40:28   progress: {'nodes': 114000, 'memo': 94187, 'sent_quick': 79985, 'sent_rec': 5208, 'split_no': 253, 'yes': 874, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 27676} memo=113996
+00:40:35 TRACE case 13/46 closed (1610s, nodes 114206): layer [(0, 3), (1, 2), (6, 7)]
+00:40:58   progress: {'nodes': 114500, 'memo': 97627, 'sent_quick': 80201, 'sent_rec': 5323, 'split_no': 255, 'yes': 896, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 27822} memo=114497
+00:40:58 TRACE case 14/46 closed (1633s, nodes 114561): layer [(0, 3), (1, 4), (6, 7)]
+00:41:06   progress: {'nodes': 115000, 'memo': 98313, 'sent_quick': 80522, 'sent_rec': 5344, 'split_no': 256, 'yes': 907, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 27967} memo=114996
+00:41:12   progress: {'nodes': 115500, 'memo': 98760, 'sent_quick': 80870, 'sent_rec': 5353, 'split_no': 257, 'yes': 907, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 28109} memo=115496
+00:41:19   progress: {'nodes': 116000, 'memo': 99174, 'sent_quick': 81247, 'sent_rec': 5377, 'split_no': 258, 'yes': 907, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 28207} memo=115996
+00:41:26   progress: {'nodes': 116500, 'memo': 99480, 'sent_quick': 81562, 'sent_rec': 5396, 'split_no': 259, 'yes': 907, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 28372} memo=116496
+00:41:33   progress: {'nodes': 117000, 'memo': 99795, 'sent_quick': 81898, 'sent_rec': 5420, 'split_no': 260, 'yes': 907, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 28511} memo=116996
+00:41:41   progress: {'nodes': 117500, 'memo': 100335, 'sent_quick': 82263, 'sent_rec': 5442, 'split_no': 261, 'yes': 907, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 28623} memo=117496
+00:41:47   progress: {'nodes': 118000, 'memo': 100696, 'sent_quick': 82653, 'sent_rec': 5450, 'split_no': 262, 'yes': 907, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 28724} memo=117996
+00:41:52   progress: {'nodes': 118500, 'memo': 100922, 'sent_quick': 82978, 'sent_rec': 5456, 'split_no': 263, 'yes': 907, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 28892} memo=118496
+00:41:57   progress: {'nodes': 119000, 'memo': 101084, 'sent_quick': 83286, 'sent_rec': 5461, 'split_no': 264, 'yes': 907, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 29078} memo=118996
+00:42:02   progress: {'nodes': 119500, 'memo': 101180, 'sent_quick': 83659, 'sent_rec': 5466, 'split_no': 264, 'yes': 907, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 29200} memo=119496
+00:42:09   progress: {'nodes': 120000, 'memo': 101459, 'sent_quick': 84022, 'sent_rec': 5476, 'split_no': 265, 'yes': 907, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 29326} memo=119996
+00:42:16   progress: {'nodes': 120500, 'memo': 101876, 'sent_quick': 84350, 'sent_rec': 5498, 'split_no': 266, 'yes': 907, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 29475} memo=120496
+00:42:21   progress: {'nodes': 121000, 'memo': 101988, 'sent_quick': 84742, 'sent_rec': 5500, 'split_no': 266, 'yes': 907, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 29581} memo=120996
+00:42:28   progress: {'nodes': 121500, 'memo': 102199, 'sent_quick': 85109, 'sent_rec': 5516, 'split_no': 267, 'yes': 907, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 29697} memo=121496
+00:42:34   progress: {'nodes': 122000, 'memo': 102566, 'sent_quick': 85429, 'sent_rec': 5527, 'split_no': 268, 'yes': 907, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 29865} memo=121996
+00:42:39   progress: {'nodes': 122500, 'memo': 102947, 'sent_quick': 85717, 'sent_rec': 5533, 'split_no': 269, 'yes': 907, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 30070} memo=122496
+00:42:47   progress: {'nodes': 123000, 'memo': 103060, 'sent_quick': 86127, 'sent_rec': 5538, 'split_no': 269, 'yes': 907, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 30155} memo=122996
+00:42:56   progress: {'nodes': 123500, 'memo': 103700, 'sent_quick': 86469, 'sent_rec': 5561, 'split_no': 270, 'yes': 907, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 30289} memo=123496
+00:42:59   progress: {'nodes': 124000, 'memo': 103812, 'sent_quick': 86757, 'sent_rec': 5561, 'split_no': 270, 'yes': 907, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 30501} memo=123996
+00:43:06   progress: {'nodes': 124500, 'memo': 103997, 'sent_quick': 87172, 'sent_rec': 5570, 'split_no': 271, 'yes': 908, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 30575} memo=124496
+00:43:11   progress: {'nodes': 125000, 'memo': 104196, 'sent_quick': 87483, 'sent_rec': 5577, 'split_no': 272, 'yes': 908, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 30756} memo=124996
+00:43:15   progress: {'nodes': 125500, 'memo': 104340, 'sent_quick': 87771, 'sent_rec': 5577, 'split_no': 272, 'yes': 908, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 30968} memo=125496
+00:43:25 TRACE case 15/46 closed (1780s, nodes 125956): layer [(0, 2), (4, 6), (5, 7)]
+00:43:30   progress: {'nodes': 126000, 'memo': 105955, 'sent_quick': 87925, 'sent_rec': 5632, 'split_no': 274, 'yes': 909, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 31257} memo=125997
+00:43:32 TRACE case 16/46 closed (1786s, nodes 126089): layer [(0, 3), (4, 6), (5, 7)]
+00:43:33   progress: {'nodes': 126500, 'memo': 106641, 'sent_quick': 88279, 'sent_rec': 5681, 'split_no': 276, 'yes': 915, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 31344} memo=126495
+00:43:36 TRACE case 17/46 closed (1790s, nodes 126940): layer [(0, 2), (1, 6), (4, 7)]
+00:43:36 TRACE case 18/46 closed (1790s, nodes 126941): layer [(0, 2), (1, 6), (5, 7)]
+00:43:41   progress: {'nodes': 127000, 'memo': 107956, 'sent_quick': 88619, 'sent_rec': 5754, 'split_no': 279, 'yes': 932, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 31412} memo=126996
+00:43:45   progress: {'nodes': 127500, 'memo': 108037, 'sent_quick': 88930, 'sent_rec': 5757, 'split_no': 279, 'yes': 932, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 31598} memo=127496
+00:43:50   progress: {'nodes': 128000, 'memo': 108265, 'sent_quick': 89195, 'sent_rec': 5771, 'split_no': 280, 'yes': 932, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 31818} memo=127996
+00:43:58   progress: {'nodes': 128500, 'memo': 108929, 'sent_quick': 89395, 'sent_rec': 5796, 'split_no': 281, 'yes': 932, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 32093} memo=128497
+00:43:59 TRACE case 19/46 closed (1813s, nodes 128614): layer [(0, 3), (1, 6), (4, 7)]
+00:44:06   progress: {'nodes': 129000, 'memo': 109729, 'sent_quick': 89697, 'sent_rec': 5811, 'split_no': 282, 'yes': 940, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 32266} memo=128996
+00:44:11   progress: {'nodes': 129500, 'memo': 110031, 'sent_quick': 89986, 'sent_rec': 5818, 'split_no': 283, 'yes': 940, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 32469} memo=129496
+00:44:19   progress: {'nodes': 130000, 'memo': 110717, 'sent_quick': 90263, 'sent_rec': 5835, 'split_no': 284, 'yes': 940, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 32674} memo=129996
+00:44:23   progress: {'nodes': 130500, 'memo': 111155, 'sent_quick': 90406, 'sent_rec': 5844, 'split_no': 285, 'yes': 940, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 33022} memo=130497
+00:44:23 TRACE case 20/46 closed (1837s, nodes 130512): layer [(0, 3), (1, 6), (5, 7)]
+00:44:24 TRACE case 21/46 closed (1838s, nodes 130517): layer [(0, 6), (7, 8)]
+00:44:24 TRACE case 22/46 closed (1838s, nodes 130523): layer [(0, 2), (1, 4), (3, 6)]
+00:44:24 TRACE case 23/46 closed (1838s, nodes 130528): layer [(0, 2), (1, 4), (5, 6)]
+00:44:24 TRACE case 24/46 closed (1838s, nodes 130531): layer [(0, 2), (1, 5), (3, 6)]
+00:44:34 TRACE case 25/46 closed (1849s, nodes 130739): layer [(0, 3), (1, 4), (2, 6)]
+00:44:40 TRACE case 26/46 closed (1854s, nodes 130833): layer [(0, 3), (1, 2), (4, 6)]
+00:44:40 TRACE case 27/46 closed (1854s, nodes 130835): layer [(0, 2), (1, 3)]
+00:44:40 TRACE case 28/46 closed (1854s, nodes 130845): layer [(0, 2), (1, 4), (3, 5)]
+00:44:41 TRACE case 29/46 closed (1856s, nodes 130883): layer [(0, 2), (6, 7)]
+00:44:44 TRACE case 30/46 closed (1858s, nodes 130933): layer [(0, 3), (1, 4), (2, 5)]
+00:44:45 TRACE case 31/46 closed (1860s, nodes 130940): layer [(0, 3), (6, 7)]
+00:44:45 TRACE case 32/46 closed (1860s, nodes 130941): layer [(0, 6), (2, 7)]
+00:44:45 TRACE case 33/46 closed (1860s, nodes 130942): layer [(0, 6), (3, 7)]
+00:44:45 TRACE case 34/46 closed (1860s, nodes 130943): layer [(0, 2), (1, 6)]
+00:44:45 TRACE case 35/46 closed (1860s, nodes 130944): layer [(0, 3), (1, 6)]
+00:44:45 TRACE case 36/46 closed (1860s, nodes 130945): layer [(0, 2), (4, 6)]
+00:44:45 TRACE case 37/46 closed (1860s, nodes 130946): layer [(0, 2), (5, 6)]
+00:44:45 TRACE case 38/46 closed (1860s, nodes 130947): layer [(0, 3), (4, 6)]
+00:44:45 TRACE case 39/46 closed (1860s, nodes 130947): layer [(6, 7)]
+00:44:45 TRACE case 40/46 closed (1860s, nodes 130948): layer [(0, 2), (1, 4)]
+00:44:45 TRACE case 41/46 closed (1860s, nodes 130949): layer [(0, 2), (1, 5)]
+00:44:45 TRACE case 42/46 closed (1860s, nodes 130950): layer [(0, 3), (1, 2)]
+00:44:45 TRACE case 43/46 closed (1860s, nodes 130951): layer [(0, 3), (1, 4)]
+00:44:45 TRACE case 44/46 closed (1860s, nodes 130952): layer [(0, 6)]
+00:44:45 TRACE case 45/46 closed (1860s, nodes 130953): layer [(0, 2)]
+00:44:45 TRACE case 46/46 closed (1860s, nodes 130954): layer [(0, 3)]
+00:44:45 SS:9,7,3,2: PROVED (1862s), proof DAG 129701 nodes {'quick': 90373, 'lemma': 33208, 'sent': 5836, 'split': 284}; stats {'nodes': 130955, 'memo': 114757, 'sent_quick': 90477, 'sent_rec': 5931, 'split_no': 295, 'yes': 1012, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 33240}
+00:44:52   progress: {'nodes': 131000, 'memo': 115119, 'sent_quick': 90483, 'sent_rec': 5953, 'split_no': 295, 'yes': 1023, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 33240} memo=130994
+00:45:10   progress: {'nodes': 131500, 'memo': 115823, 'sent_quick': 90722, 'sent_rec': 6073, 'split_no': 298, 'yes': 1034, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 33367} memo=131494
+00:45:24   progress: {'nodes': 132000, 'memo': 116621, 'sent_quick': 90928, 'sent_rec': 6158, 'split_no': 300, 'yes': 1035, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 33574} memo=131995
+00:45:39   progress: {'nodes': 132500, 'memo': 116998, 'sent_quick': 91250, 'sent_rec': 6218, 'split_no': 303, 'yes': 1035, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 33689} memo=132495
+00:45:54   progress: {'nodes': 133000, 'memo': 117486, 'sent_quick': 91539, 'sent_rec': 6300, 'split_no': 304, 'yes': 1035, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 33817} memo=132995
+00:46:04   progress: {'nodes': 133500, 'memo': 117880, 'sent_quick': 91769, 'sent_rec': 6327, 'split_no': 306, 'yes': 1035, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 34057} memo=133494
+00:46:13   progress: {'nodes': 134000, 'memo': 118165, 'sent_quick': 91908, 'sent_rec': 6355, 'split_no': 308, 'yes': 1036, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 34387} memo=133994
+00:46:29   progress: {'nodes': 134500, 'memo': 119507, 'sent_quick': 92087, 'sent_rec': 6468, 'split_no': 311, 'yes': 1037, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 34592} memo=134495
+00:46:43   progress: {'nodes': 135000, 'memo': 120179, 'sent_quick': 92447, 'sent_rec': 6524, 'split_no': 312, 'yes': 1037, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 34674} memo=134994
+00:46:56   progress: {'nodes': 135500, 'memo': 120721, 'sent_quick': 92708, 'sent_rec': 6589, 'split_no': 313, 'yes': 1037, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 34848} memo=135495
+00:47:09   progress: {'nodes': 136000, 'memo': 121384, 'sent_quick': 92981, 'sent_rec': 6627, 'split_no': 315, 'yes': 1037, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 35035} memo=135995
+00:47:21   progress: {'nodes': 136500, 'memo': 121978, 'sent_quick': 93229, 'sent_rec': 6680, 'split_no': 317, 'yes': 1041, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 35227} memo=136494
+00:48:03   progress: {'nodes': 137000, 'memo': 123120, 'sent_quick': 93381, 'sent_rec': 6910, 'split_no': 319, 'yes': 1052, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 35333} memo=136995
+00:48:40   progress: {'nodes': 137500, 'memo': 123770, 'sent_quick': 93381, 'sent_rec': 7270, 'split_no': 319, 'yes': 1052, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 35473} memo=137495
+00:49:02   progress: {'nodes': 138000, 'memo': 124043, 'sent_quick': 93404, 'sent_rec': 7468, 'split_no': 319, 'yes': 1052, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 35752} memo=137995
+00:49:28   progress: {'nodes': 138500, 'memo': 124509, 'sent_quick': 93428, 'sent_rec': 7695, 'split_no': 320, 'yes': 1052, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 36000} memo=138495
+00:49:58   progress: {'nodes': 139000, 'memo': 125039, 'sent_quick': 93450, 'sent_rec': 7976, 'split_no': 320, 'yes': 1052, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 36197} memo=138995
+00:50:21   progress: {'nodes': 139500, 'memo': 125353, 'sent_quick': 93473, 'sent_rec': 8177, 'split_no': 320, 'yes': 1052, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 36473} memo=139495
+00:50:29   progress: {'nodes': 140000, 'memo': 125452, 'sent_quick': 93480, 'sent_rec': 8254, 'split_no': 320, 'yes': 1052, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 36889} memo=139995
+00:51:02   progress: {'nodes': 140500, 'memo': 126345, 'sent_quick': 93499, 'sent_rec': 8549, 'split_no': 321, 'yes': 1054, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 37072} memo=140495
+00:51:31   progress: {'nodes': 141000, 'memo': 126902, 'sent_quick': 93525, 'sent_rec': 8788, 'split_no': 322, 'yes': 1062, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 37297} memo=140994
+00:52:11   progress: {'nodes': 141500, 'memo': 127818, 'sent_quick': 93559, 'sent_rec': 9136, 'split_no': 323, 'yes': 1062, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 37415} memo=141495
+00:52:44   progress: {'nodes': 142000, 'memo': 128413, 'sent_quick': 93578, 'sent_rec': 9398, 'split_no': 324, 'yes': 1066, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 37628} memo=141994
+00:53:47 TRACE split of the traced node: 178 cases (+ empty layer)
+00:53:47 TRACE case 1/178 closed (0s, nodes 142115): layer [(0, 2), (1, 3), (4, 6), (5, 7), (8, 10)]
+00:53:47 TRACE case 2/178 closed (0s, nodes 142116): layer [(0, 2), (1, 3), (4, 6), (5, 8), (7, 10)]
+00:53:47 TRACE case 3/178 closed (0s, nodes 142117): layer [(0, 2), (1, 3), (4, 6), (5, 8), (9, 10)]
+00:53:47 TRACE case 4/178 closed (0s, nodes 142118): layer [(0, 2), (1, 3), (4, 6), (5, 9), (7, 10)]
+00:53:47 TRACE case 5/178 closed (0s, nodes 142119): layer [(0, 2), (1, 3), (4, 7), (5, 8), (6, 10)]
+00:53:47 TRACE case 6/178 closed (0s, nodes 142120): layer [(0, 2), (1, 3), (4, 7), (5, 6), (8, 10)]
+00:53:47 TRACE case 7/178 closed (0s, nodes 142121): layer [(0, 2), (1, 3), (4, 6), (5, 7)]
+00:53:47 TRACE case 8/178 closed (0s, nodes 142122): layer [(0, 2), (1, 3), (4, 6), (5, 8), (7, 9)]
+00:53:47 TRACE case 9/178 closed (0s, nodes 142123): layer [(0, 2), (1, 3), (4, 7), (5, 8), (6, 9)]
+00:53:47 TRACE case 10/178 closed (0s, nodes 142124): layer [(0, 2), (1, 5), (3, 7), (4, 6), (8, 10)]
+00:53:47 TRACE case 11/178 closed (0s, nodes 142125): layer [(0, 2), (1, 4), (3, 6), (5, 8), (7, 10)]
+00:53:47 TRACE case 12/178 closed (0s, nodes 142126): layer [(0, 2), (1, 4), (3, 6), (5, 8), (9, 10)]
+00:53:47 TRACE case 13/178 closed (0s, nodes 142127): layer [(0, 2), (1, 4), (3, 6), (5, 9), (7, 10)]
+00:53:47 TRACE case 14/178 closed (0s, nodes 142128): layer [(0, 2), (1, 4), (3, 6), (5, 9), (8, 10)]
+00:53:47 TRACE case 15/178 closed (0s, nodes 142129): layer [(0, 2), (1, 4), (3, 7), (5, 8), (6, 10)]
+00:53:47 TRACE case 16/178 closed (0s, nodes 142130): layer [(0, 2), (1, 4), (3, 7), (5, 8), (9, 10)]
+00:53:47 TRACE case 17/178 closed (0s, nodes 142131): layer [(0, 2), (1, 4), (3, 7), (5, 9), (6, 10)]
+00:53:47 TRACE case 18/178 closed (0s, nodes 142132): layer [(0, 2), (1, 4), (3, 7), (5, 9), (8, 10)]
+00:53:47 TRACE case 19/178 closed (0s, nodes 142133): layer [(0, 2), (1, 4), (3, 7), (5, 10), (6, 8)]
+00:53:47 TRACE case 20/178 closed (0s, nodes 142134): layer [(0, 2), (1, 4), (3, 7), (5, 10), (6, 9)]
+00:53:47 TRACE case 21/178 closed (0s, nodes 142135): layer [(0, 2), (1, 4), (3, 7), (6, 8), (9, 10)]
+00:53:47 TRACE case 22/178 closed (0s, nodes 142136): layer [(0, 2), (1, 4), (3, 10), (5, 6), (7, 8)]
+00:53:47 TRACE case 23/178 closed (0s, nodes 142137): layer [(0, 2), (1, 4), (3, 10), (5, 6), (7, 9)]
+00:53:47 TRACE case 24/178 closed (0s, nodes 142138): layer [(0, 2), (1, 4), (5, 6), (7, 8), (9, 10)]
+00:53:47 TRACE case 25/178 closed (0s, nodes 142139): layer [(0, 2), (1, 5), (3, 7), (4, 8), (6, 10)]
+00:53:47 TRACE case 26/178 closed (0s, nodes 142140): layer [(0, 3), (1, 4), (2, 7), (5, 8), (6, 10)]
+00:53:47 TRACE case 27/178 closed (0s, nodes 142141): layer [(0, 2), (1, 3), (4, 6), (5, 10)]
+00:53:47 TRACE case 28/178 closed (0s, nodes 142142): layer [(0, 2), (1, 3), (4, 7), (5, 10)]
+00:53:47 TRACE case 29/178 closed (0s, nodes 142143): layer [(0, 2), (1, 4), (3, 5), (6, 8), (7, 10)]
+00:53:47 TRACE case 30/178 closed (0s, nodes 142144): layer [(0, 2), (1, 4), (3, 5), (6, 9), (7, 10)]
+00:53:47 TRACE case 31/178 closed (0s, nodes 142145): layer [(0, 2), (1, 10), (4, 7), (5, 8), (6, 9)]
+00:53:47 TRACE case 32/178 closed (0s, nodes 142146): layer [(0, 3), (1, 4), (2, 5), (6, 9), (7, 10)]
+00:53:47 TRACE case 33/178 closed (0s, nodes 142147): layer [(0, 2), (1, 4), (3, 6), (5, 7), (8, 10)]
+00:53:47 TRACE case 34/178 closed (0s, nodes 142148): layer [(0, 2), (1, 4), (3, 7), (5, 6), (8, 10)]
+00:53:47 TRACE case 35/178 closed (0s, nodes 142149): layer [(0, 3), (1, 4), (2, 7), (5, 6), (8, 10)]
+00:53:47 TRACE case 36/178 closed (0s, nodes 142150): layer [(0, 2), (1, 4), (3, 10), (6, 9), (7, 8)]
+00:53:47 TRACE case 37/178 closed (0s, nodes 142151): layer [(0, 2), (1, 4), (5, 10), (6, 9), (7, 8)]
+00:53:47 TRACE case 38/178 closed (0s, nodes 142152): layer [(0, 2), (1, 5), (3, 10), (6, 9), (7, 8)]
+00:53:47 TRACE case 39/178 closed (0s, nodes 142153): layer [(0, 3), (1, 2), (4, 7), (5, 8), (6, 10)]
+00:53:47 TRACE case 40/178 closed (0s, nodes 142154): layer [(0, 2), (1, 3), (4, 6), (8, 10)]
+00:53:47 TRACE case 41/178 closed (0s, nodes 142155): layer [(0, 2), (1, 3), (4, 6), (9, 10)]
+00:53:47 TRACE case 42/178 closed (0s, nodes 142156): layer [(0, 2), (1, 3), (4, 7), (8, 10)]
+00:53:47 TRACE case 43/178 closed (0s, nodes 142157): layer [(0, 3), (1, 2), (4, 7), (5, 6), (8, 10)]
+00:53:47 TRACE case 44/178 closed (0s, nodes 142158): layer [(0, 2), (1, 4), (3, 6), (5, 8), (7, 9)]
+00:53:47 TRACE case 45/178 closed (0s, nodes 142159): layer [(0, 2), (1, 4), (3, 7), (5, 8), (6, 9)]
+00:53:47 TRACE case 46/178 closed (0s, nodes 142160): layer [(0, 2), (1, 4), (3, 7), (5, 9), (6, 8)]
+00:53:47 TRACE case 47/178 closed (0s, nodes 142161): layer [(0, 3), (1, 4), (2, 7), (5, 8), (6, 9)]
+00:53:47 TRACE case 48/178 closed (0s, nodes 142162): layer [(0, 2), (1, 3), (4, 6), (5, 8)]
+00:53:47 TRACE case 49/178 closed (0s, nodes 142163): layer [(0, 2), (1, 3), (4, 6), (5, 9)]
+00:53:47 TRACE case 50/178 closed (0s, nodes 142164): layer [(0, 2), (1, 3), (4, 7), (5, 6)]
+00:53:47 TRACE case 51/178 closed (0s, nodes 142165): layer [(0, 2), (1, 3), (4, 7), (5, 8)]
+00:53:47 TRACE case 52/178 closed (0s, nodes 142166): layer [(0, 2), (1, 4), (3, 5), (6, 9), (7, 8)]
+00:53:47 TRACE case 53/178 closed (0s, nodes 142167): layer [(0, 3), (1, 2), (4, 7), (5, 8), (6, 9)]
+00:53:47 TRACE case 54/178 closed (0s, nodes 142168): layer [(0, 2), (1, 4), (3, 6), (5, 10)]
+00:53:47 TRACE case 55/178 closed (0s, nodes 142169): layer [(0, 2), (1, 4), (3, 7), (5, 10)]
+00:53:47 TRACE case 56/178 closed (0s, nodes 142170): layer [(0, 2), (1, 4), (3, 7), (6, 10)]
+00:53:47 TRACE case 57/178 closed (0s, nodes 142171): layer [(0, 2), (1, 4), (3, 10), (5, 6)]
+00:53:47 TRACE case 58/178 closed (0s, nodes 142172): layer [(0, 2), (1, 4), (3, 10), (5, 7)]
+00:53:47 TRACE case 59/178 closed (0s, nodes 142173): layer [(0, 2), (1, 4), (5, 6), (7, 10)]
+00:53:47 TRACE case 60/178 closed (0s, nodes 142174): layer [(0, 2), (1, 5), (3, 7), (4, 10)]
+00:53:47 TRACE case 61/178 closed (0s, nodes 142175): layer [(0, 3), (1, 4), (2, 7), (5, 10)]
+00:53:47 TRACE case 62/178 closed (0s, nodes 142176): layer [(0, 2), (1, 3), (4, 10)]
+00:53:47 TRACE case 63/178 closed (0s, nodes 142177): layer [(0, 2), (1, 4), (3, 5), (6, 10)]
+00:53:47 TRACE case 64/178 closed (0s, nodes 142178): layer [(0, 3), (1, 4), (2, 5), (6, 10)]
+00:53:47 TRACE case 65/178 closed (0s, nodes 142179): layer [(0, 2), (1, 4), (3, 10), (6, 8)]
+00:53:47 TRACE case 66/178 closed (0s, nodes 142180): layer [(0, 2), (1, 4), (3, 10), (6, 9)]
+00:53:47 TRACE case 67/178 closed (0s, nodes 142181): layer [(0, 2), (1, 4), (3, 10), (7, 9)]
+00:53:47 TRACE case 68/178 closed (0s, nodes 142182): layer [(0, 2), (1, 4), (5, 10), (6, 8)]
+00:53:47 TRACE case 69/178 closed (0s, nodes 142183): layer [(0, 2), (1, 4), (5, 10), (6, 9)]
+00:53:47 TRACE case 70/178 closed (0s, nodes 142184): layer [(0, 2), (1, 4), (5, 10), (7, 9)]
+00:53:47 TRACE case 71/178 closed (0s, nodes 142185): layer [(0, 2), (1, 5), (3, 10), (6, 8)]
+00:53:47 TRACE case 72/178 closed (0s, nodes 142186): layer [(0, 2), (1, 5), (3, 10), (6, 9)]
+00:53:47 TRACE case 73/178 closed (0s, nodes 142187): layer [(0, 2), (1, 5), (3, 10), (7, 9)]
+00:53:47 TRACE case 74/178 closed (0s, nodes 142188): layer [(0, 2), (4, 7), (5, 8), (6, 10)]
+00:53:47 TRACE case 75/178 closed (0s, nodes 142189): layer [(0, 2), (4, 7), (5, 8), (9, 10)]
+00:53:47 TRACE case 76/178 closed (0s, nodes 142190): layer [(0, 3), (1, 4), (2, 10), (6, 9)]
+00:53:47 TRACE case 77/178 closed (0s, nodes 142191): layer [(0, 2), (1, 4), (6, 8), (7, 10)]
+00:53:47 TRACE case 78/178 closed (0s, nodes 142192): layer [(0, 2), (1, 4), (6, 9), (7, 10)]
+00:53:47 TRACE case 79/178 closed (0s, nodes 142193): layer [(0, 2), (1, 4), (6, 9), (8, 10)]
+00:53:47 TRACE case 80/178 closed (0s, nodes 142194): layer [(0, 2), (1, 4), (6, 10), (7, 9)]
+00:53:47 TRACE case 81/178 closed (0s, nodes 142195): layer [(0, 2), (1, 5), (6, 8), (7, 10)]
+00:53:47 TRACE case 82/178 closed (0s, nodes 142196): layer [(0, 2), (1, 5), (6, 9), (7, 10)]
+00:53:47 TRACE case 83/178 closed (0s, nodes 142197): layer [(0, 2), (1, 10), (4, 7), (5, 6)]
+00:53:47 TRACE case 84/178 closed (0s, nodes 142198): layer [(0, 2), (1, 10), (4, 7), (5, 8)]
+00:53:47 TRACE case 85/178 closed (0s, nodes 142199): layer [(0, 3), (1, 2), (4, 7), (5, 10)]
+00:53:47 TRACE case 86/178 closed (0s, nodes 142200): layer [(0, 3), (1, 4), (6, 9), (7, 10)]
+00:53:47 TRACE case 87/178 closed (0s, nodes 142201): layer [(0, 2), (1, 4), (3, 6), (8, 10)]
+00:53:47 TRACE case 88/178 closed (0s, nodes 142202): layer [(0, 2), (1, 4), (3, 6), (9, 10)]
+00:53:47 TRACE case 89/178 closed (0s, nodes 142203): layer [(0, 2), (1, 4), (3, 7), (8, 10)]
+00:53:47 TRACE case 90/178 closed (0s, nodes 142204): layer [(0, 2), (1, 4), (3, 7), (9, 10)]
+00:53:47 TRACE case 91/178 closed (0s, nodes 142205): layer [(0, 2), (1, 4), (5, 6), (8, 10)]
+00:53:47 TRACE case 92/178 closed (0s, nodes 142206): layer [(0, 2), (1, 4), (5, 6), (9, 10)]
+00:53:47 TRACE case 93/178 closed (0s, nodes 142207): layer [(0, 2), (1, 4), (5, 7), (8, 10)]
+00:53:47 TRACE case 94/178 closed (0s, nodes 142208): layer [(0, 2), (1, 5), (3, 7), (8, 10)]
+00:53:47 TRACE case 95/178 closed (0s, nodes 142209): layer [(0, 2), (1, 5), (3, 7), (9, 10)]
+00:53:47 TRACE case 96/178 closed (0s, nodes 142210): layer [(0, 3), (1, 4), (2, 7), (8, 10)]
+00:53:47 TRACE case 97/178 closed (0s, nodes 142211): layer [(0, 2), (1, 5), (3, 7), (4, 6)]
+00:53:47 TRACE case 98/178 closed (0s, nodes 142212): layer [(0, 2), (4, 7), (5, 6), (8, 10)]
+00:53:47 TRACE case 99/178 closed (0s, nodes 142213): layer [(0, 2), (4, 7), (5, 6), (9, 10)]
+00:53:47 TRACE case 100/178 closed (0s, nodes 142214): layer [(0, 3), (1, 2), (4, 7), (8, 10)]
+00:53:47 TRACE case 101/178 closed (0s, nodes 142215): layer [(0, 2), (1, 4), (3, 6), (5, 7)]
+00:53:47 TRACE case 102/178 closed (0s, nodes 142216): layer [(0, 2), (1, 4), (3, 7), (5, 6)]
+00:53:47 TRACE case 103/178 closed (0s, nodes 142217): layer [(0, 3), (1, 4), (2, 7), (5, 6)]
+00:53:47 TRACE case 104/178 closed (0s, nodes 142218): layer [(0, 2), (1, 3), (4, 6)]
+00:53:47 TRACE case 105/178 closed (0s, nodes 142219): layer [(0, 2), (1, 3), (4, 7)]
+00:53:47 TRACE case 106/178 closed (0s, nodes 142220): layer [(0, 2), (1, 4), (3, 5), (6, 8)]
+00:53:47 TRACE case 107/178 closed (0s, nodes 142221): layer [(0, 2), (1, 4), (3, 5), (6, 9)]
+00:53:47 TRACE case 108/178 closed (0s, nodes 142222): layer [(0, 2), (1, 4), (3, 6), (5, 8)]
+00:53:47 TRACE case 109/178 closed (0s, nodes 142223): layer [(0, 2), (1, 4), (3, 6), (5, 9)]
+00:53:47 TRACE case 110/178 closed (0s, nodes 142224): layer [(0, 2), (1, 4), (3, 7), (5, 8)]
+00:53:47 TRACE case 111/178 closed (0s, nodes 142225): layer [(0, 2), (1, 4), (3, 7), (5, 9)]
+00:53:47 TRACE case 112/178 closed (0s, nodes 142226): layer [(0, 2), (1, 4), (3, 7), (6, 8)]
+00:53:47 TRACE case 113/178 closed (0s, nodes 142227): layer [(0, 2), (1, 4), (3, 7), (6, 9)]
+00:53:47 TRACE case 114/178 closed (0s, nodes 142228): layer [(0, 2), (1, 4), (5, 6), (7, 8)]
+00:53:47 TRACE case 115/178 closed (0s, nodes 142229): layer [(0, 2), (1, 4), (5, 6), (7, 9)]
+00:53:47 TRACE case 116/178 closed (0s, nodes 142230): layer [(0, 2), (1, 5), (3, 7), (4, 8)]
+00:53:47 TRACE case 117/178 closed (0s, nodes 142231): layer [(0, 2), (4, 7), (5, 8), (6, 9)]
+00:53:47 TRACE case 118/178 closed (0s, nodes 142232): layer [(0, 3), (1, 4), (2, 5), (6, 9)]
+00:53:47 TRACE case 119/178 closed (0s, nodes 142233): layer [(0, 3), (1, 4), (2, 7), (5, 8)]
+00:53:47 TRACE case 120/178 closed (0s, nodes 142234): layer [(0, 2), (1, 4), (6, 9), (7, 8)]
+00:53:47 TRACE case 121/178 closed (0s, nodes 142235): layer [(0, 2), (1, 5), (6, 9), (7, 8)]
+00:53:47 TRACE case 122/178 closed (0s, nodes 142236): layer [(0, 3), (1, 2), (4, 7), (5, 6)]
+00:53:47 TRACE case 123/178 closed (0s, nodes 142237): layer [(0, 3), (1, 2), (4, 7), (5, 8)]
+00:53:47 TRACE case 124/178 closed (0s, nodes 142238): layer [(0, 2), (1, 4), (3, 10)]
+00:53:47 TRACE case 125/178 closed (0s, nodes 142239): layer [(0, 2), (1, 4), (5, 10)]
+00:53:47 TRACE case 126/178 closed (0s, nodes 142240): layer [(0, 2), (1, 5), (3, 10)]
+00:53:47 TRACE case 127/178 closed (0s, nodes 142241): layer [(0, 3), (1, 4), (2, 10)]
+00:53:47 TRACE case 128/178 closed (0s, nodes 142242): layer [(0, 2), (1, 10), (4, 6)]
+00:53:47 TRACE case 129/178 closed (0s, nodes 142243): layer [(0, 2), (1, 10), (4, 7)]
+00:53:47 TRACE case 130/178 closed (0s, nodes 142244): layer [(0, 2), (1, 10), (5, 7)]
+00:53:47 TRACE case 131/178 closed (0s, nodes 142245): layer [(0, 2), (4, 7), (5, 10)]
+00:53:47 TRACE case 132/178 closed (0s, nodes 142246): layer [(0, 2), (4, 7), (6, 10)]
+00:53:47 TRACE case 133/178 closed (0s, nodes 142247): layer [(0, 3), (1, 10), (4, 7)]
+00:53:47 TRACE case 134/178 closed (0s, nodes 142248): layer [(0, 2), (1, 4), (6, 10)]
+00:53:47 TRACE case 135/178 closed (0s, nodes 142249): layer [(0, 2), (1, 4), (7, 10)]
+00:53:47 TRACE case 136/178 closed (0s, nodes 142250): layer [(0, 2), (1, 5), (6, 10)]
+00:53:47 TRACE case 137/178 closed (0s, nodes 142251): layer [(0, 3), (1, 2), (4, 10)]
+00:53:47 TRACE case 138/178 closed (0s, nodes 142252): layer [(0, 3), (1, 4), (6, 10)]
+00:53:47 TRACE case 139/178 closed (0s, nodes 142253): layer [(0, 2), (4, 6), (8, 10)]
+00:53:47 TRACE case 140/178 closed (0s, nodes 142254): layer [(0, 2), (4, 6), (9, 10)]
+00:53:47 TRACE case 141/178 closed (0s, nodes 142255): layer [(0, 2), (4, 7), (8, 10)]
+00:53:47 TRACE case 142/178 closed (0s, nodes 142256): layer [(0, 2), (4, 7), (9, 10)]
+00:53:47 TRACE case 143/178 closed (0s, nodes 142257): layer [(0, 2), (4, 10), (7, 9)]
+00:53:47 TRACE case 144/178 closed (0s, nodes 142258): layer [(0, 3), (4, 7), (8, 10)]
+00:53:47 TRACE case 145/178 closed (0s, nodes 142259): layer [(0, 2), (1, 3)]
+00:53:47 TRACE case 146/178 closed (0s, nodes 142260): layer [(0, 2), (1, 4), (3, 5)]
+00:53:47 TRACE case 147/178 closed (0s, nodes 142261): layer [(0, 3), (1, 4), (2, 5)]
+00:53:47 TRACE case 148/178 closed (0s, nodes 142262): layer [(0, 2), (1, 4), (3, 6)]
+00:53:47 TRACE case 149/178 closed (0s, nodes 142263): layer [(0, 2), (1, 4), (3, 7)]
+00:53:47 TRACE case 150/178 closed (0s, nodes 142264): layer [(0, 2), (1, 4), (5, 6)]
+00:53:47 TRACE case 151/178 closed (0s, nodes 142265): layer [(0, 2), (1, 4), (5, 7)]
+00:53:47 TRACE case 152/178 closed (0s, nodes 142266): layer [(0, 2), (1, 5), (3, 7)]
+00:53:47 TRACE case 153/178 closed (0s, nodes 142267): layer [(0, 3), (1, 4), (2, 7)]
+00:53:47 TRACE case 154/178 closed (0s, nodes 142268): layer [(0, 2), (1, 4), (6, 8)]
+00:53:47 TRACE case 155/178 closed (0s, nodes 142269): layer [(0, 2), (1, 4), (6, 9)]
+00:53:47 TRACE case 156/178 closed (0s, nodes 142270): layer [(0, 2), (1, 4), (7, 9)]
+00:53:47 TRACE case 157/178 closed (0s, nodes 142271): layer [(0, 2), (1, 5), (6, 8)]
+00:53:47 TRACE case 158/178 closed (0s, nodes 142272): layer [(0, 2), (1, 5), (6, 9)]
+00:53:47 TRACE case 159/178 closed (0s, nodes 142273): layer [(0, 2), (4, 7), (5, 6)]
+00:53:47 TRACE case 160/178 closed (0s, nodes 142274): layer [(0, 2), (4, 7), (5, 8)]
+00:53:47 TRACE case 161/178 closed (0s, nodes 142275): layer [(0, 3), (1, 2), (4, 7)]
+00:53:47 TRACE case 162/178 closed (0s, nodes 142276): layer [(0, 3), (1, 4), (6, 9)]
+00:53:47 TRACE case 163/178 closed (0s, nodes 142277): layer [(0, 2), (1, 10)]
+00:53:47 TRACE case 164/178 closed (0s, nodes 142278): layer [(0, 3), (1, 10)]
+00:53:47 TRACE case 165/178 closed (0s, nodes 142279): layer [(0, 2), (4, 10)]
+00:53:47 TRACE case 166/178 closed (0s, nodes 142280): layer [(0, 2), (5, 10)]
+00:53:47 TRACE case 167/178 closed (0s, nodes 142281): layer [(0, 3), (4, 10)]
+00:53:47 TRACE case 168/178 closed (0s, nodes 142282): layer [(0, 2), (1, 4)]
+00:53:47 TRACE case 169/178 closed (0s, nodes 142283): layer [(0, 2), (1, 5)]
+00:53:47 TRACE case 170/178 closed (0s, nodes 142284): layer [(0, 3), (1, 2)]
+00:53:47 TRACE case 171/178 closed (0s, nodes 142285): layer [(0, 3), (1, 4)]
+00:53:47 TRACE case 172/178 closed (0s, nodes 142286): layer [(0, 2), (4, 6)]
+00:53:47 TRACE case 173/178 closed (0s, nodes 142287): layer [(0, 2), (4, 7)]
+00:53:47 TRACE case 174/178 closed (0s, nodes 142288): layer [(0, 2), (5, 7)]
+00:53:47 TRACE case 175/178 closed (0s, nodes 142289): layer [(0, 3), (4, 7)]
+00:53:47 TRACE case 176/178 closed (0s, nodes 142290): layer [(0, 10)]
+00:53:47 TRACE case 177/178 closed (0s, nodes 142291): layer [(0, 2)]
+00:53:47 TRACE case 178/178 closed (0s, nodes 142292): layer [(0, 3)]
+00:53:47 D:11: PROVED (540s), proof DAG 129881 nodes {'quick': 90387, 'lemma': 33373, 'sent': 5836, 'split': 285}; stats {'nodes': 142293, 'memo': 128634, 'sent_quick': 93598, 'sent_rec': 9416, 'split_no': 326, 'yes': 1079, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 37874}

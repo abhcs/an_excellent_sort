@@ -1,0 +1,2 @@
+129925 nodes checked, 0 failed
+nice -n 5 python3 check_sentinel_proof.py    2097.97s user 5.49s system 98% cpu 35:29.39 total

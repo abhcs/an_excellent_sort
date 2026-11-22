@@ -1,0 +1,21 @@
+12:59:42 SS(12,9,3,3) worker 2/3: 58 cases; store 980895 facts
+13:00:42 case 2: OPEN by None (60.1s) |L2|=3 |X|=864 nodes 220
+13:01:42 case 5: OPEN by None (60.0s) |L2|=3 |X|=864 nodes 958
+13:02:22 case 8: NO by sent (40.4s) |L2|=3 |X|=936 nodes 18
+13:03:22 case 11: OPEN by None (60.0s) |L2|=3 |X|=960 nodes 688
+13:04:22 case 14: OPEN by None (60.0s) |L2|=3 |X|=960 nodes 499
+13:05:23 case 17: OPEN by None (60.1s) |L2|=3 |X|=1000 nodes 272
+13:06:23 case 20: OPEN by None (60.0s) |L2|=3 |X|=1008 nodes 922
+13:07:23 case 23: OPEN by None (60.0s) |L2|=3 |X|=1008 nodes 621
+13:08:23 case 26: OPEN by None (60.0s) |L2|=3 |X|=1040 nodes 344
+13:09:23 case 29: OPEN by None (60.0s) |L2|=3 |X|=1040 nodes 351
+13:10:23 case 32: OPEN by None (60.0s) |L2|=3 |X|=1088 nodes 298
+13:11:23 case 35: OPEN by None (60.0s) |L2|=3 |X|=1120 nodes 1584
+13:11:34 case 38: NO by sent (10.9s) |L2|=2 |X|=1152 nodes 1
+13:12:31 case 41: NO by sent (57.5s) |L2|=3 |X|=1152 nodes 47
+13:12:40 case 44: NO by sent (8.5s) |L2|=2 |X|=1248 nodes 1
+13:12:48 case 47: NO by sent (8.8s) |L2|=2 |X|=1280 nodes 1
+13:12:57 case 50: NO by sent (8.6s) |L2|=2 |X|=1344 nodes 1
+13:13:02 case 53: NO by sent (5.4s) |L2|=2 |X|=1344 nodes 1
+13:13:07 case 56: NO by sent (4.1s) |L2|=1 |X|=1536 nodes 1
+13:13:07 worker done

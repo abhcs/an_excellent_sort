@@ -1,0 +1,2 @@
+11:19:50 worker 82/164: loaded 5363 facts; 164 cases, mine: 1
+11:22:41   progress {'nodes': 1000, 'hits': 22521, 'quick': 44, 'lemma': 99, 'sent': 353, 'reuse': 289, 'sub': 25, 'absorb': 101, 'split': 42, 'yes': 312, 'oracle': 16} facts=6356

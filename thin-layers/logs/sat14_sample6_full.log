@@ -1,0 +1,6 @@
+0 9152 --full	184.2s	RESULT case 0 child 9152 UNSAT 182.1s solver cadical195 cosat False full True init 300
+0 17554 --full	373.3s	RESULT case 0 child 17554 UNSAT 371.2s solver cadical195 cosat False full True init 300
+0 5167 --full	333.4s	RESULT case 0 child 5167 UNSAT 331.4s solver cadical195 cosat False full True init 300
+0 9859 --full	154.1s	RESULT case 0 child 9859 UNSAT 152.0s solver cadical195 cosat False full True init 300
+0 11559 --full	215.2s	RESULT case 0 child 11559 UNSAT 213.0s solver cadical195 cosat False full True init 300
+0 1977 --full	160.3s	RESULT case 0 child 1977 UNSAT 158.2s solver cadical195 cosat False full True init 300

@@ -1,0 +1,364 @@
+# irreducible.py (2026-11-20 version: node itself, residual sentinels, tracked sentinels, one fixed value with the channel kept)
+# on the nodes the S11 workers were stuck in (run of 2026-11-19 14:10-21:20)
+# P1
+node: n=10 t=5 prefix=[[[0, 1], [3, 4], [5, 6]], [[0, 2], [1, 3], [8, 9]], [[2, 3], [4, 7], [5, 8], [6, 9]]]; 108 outputs, 97 unsorted
+  node itself: NO (NO = no 5-layer completion)
+  residual sentinels (1..7): 0 residuals without completion, 1160 with, 0 unknown, 40224 skipped (t >= D(r)) (1s)
+  tracked sentinels (1, all 10 channels kept): 6 without a sorter, 14 with, 0 unknown (1s)
+    no sorter: 0+ ends the prefix on channel 3, 6 channels from its target (90 vectors)
+    no sorter: 1+ ends the prefix on channel 3, 6 channels from its target (90 vectors)
+    no sorter: 5- ends the prefix on channel 5, 5 channels from its target (90 vectors)
+    no sorter: 6- ends the prefix on channel 5, 5 channels from its target (90 vectors)
+    no sorter: 8- ends the prefix on channel 5, 5 channels from its target (90 vectors)
+    no sorter: 9- ends the prefix on channel 5, 5 channels from its target (90 vectors)
+  one value fixed after the prefix (channel kept): 2 without a sorter, 18 with, 0 unknown (2s)
+    no sorter: x_3 = 1 (90 vectors)
+    no sorter: x_5 = 0 (90 vectors)
+  verdict: reducible when tracked
+  deletion-minimal unsortable core: 55 of 97 unsorted outputs (19s)
+    1111000100 0111100100 1111100100 0011001001 1011001001 1011000101 0111000101 1111000101 0001100101 1011100101 0111100101 1111100101 0001001101 0101001101 0011001101 1011001101 0111001101 0000101101 0001101101 0101101101 0011101101 1011101101 0111101101 0011000011 1011000011 0000001011 0011001011 1011001011 0001011011 0011011011 1011011011 0001000111 0101000111 0011000111 1011000111 0111000111 0000100111 0001100111 0101100111 0011100111 1011100111 0111100111 0101001111 0011001111 1011001111 0111001111 0000101111 0001101111 0101101111 0011101111 0001011111 0101011111 0011011111 0111011111 0101111111
+# P2
+node: n=10 t=5 prefix=[[[0, 1], [3, 4], [5, 6]], [[0, 2], [1, 3], [8, 9]], [[0, 1], [2, 7], [5, 8], [6, 9]]]; 114 outputs, 103 unsorted
+  node itself: NO (NO = no 5-layer completion)
+  residual sentinels (1..7): 6 residuals without completion, 1154 with, 0 unknown, 40224 skipped (t >= D(r)) (1s)
+    reduces: S={3: '-'} -> 9 channels, height 3
+    reduces: S={4: '-'} -> 9 channels, height 3
+    reduces: S={5: '+'} -> 9 channels, height 3
+    reduces: S={6: '+'} -> 9 channels, height 3
+    reduces: S={8: '+'} -> 9 channels, height 3
+    reduces: S={9: '+'} -> 9 channels, height 3
+  tracked sentinels (1, all 10 channels kept): 6 without a sorter, 14 with, 0 unknown (1s)
+    no sorter: 3- ends the prefix on channel 0, 0 channels from its target (96 vectors)
+    no sorter: 4- ends the prefix on channel 0, 0 channels from its target (96 vectors)
+    no sorter: 5+ ends the prefix on channel 9, 0 channels from its target (95 vectors)
+    no sorter: 6+ ends the prefix on channel 9, 0 channels from its target (95 vectors)
+    no sorter: 8+ ends the prefix on channel 9, 0 channels from its target (95 vectors)
+    no sorter: 9+ ends the prefix on channel 9, 0 channels from its target (95 vectors)
+  one value fixed after the prefix (channel kept): 2 without a sorter, 18 with, 0 unknown (1s)
+    no sorter: x_0 = 0 (102 vectors)
+    no sorter: x_9 = 1 (95 vectors)
+  verdict: reducible
+  deletion-minimal unsortable core: 55 of 103 unsorted outputs (10s)
+    0101100001 0001101001 0101101001 0111000101 0010100101 0001100101 1101100101 0011100101 0111100101 1111100101 0010001101 0001001101 0101001101 0111001101 0000101101 0010101101 0001101101 0101101101 1101101101 0011101101 0111101101 0001100011 0101100011 0000001011 0001001011 0000101011 0001101011 0000011011 0001011011 0000111011 0101111011 0010000111 0001000111 0101000111 0011000111 0111000111 0000100111 0010100111 0001100111 0101100111 1101100111 0011100111 0001001111 0011001111 0111001111 0000101111 0010101111 0101101111 0011101111 0010011111 0001011111 0101011111 0011011111 0111011111 0010111111
+# R2: P2's residual after the sentinel 3-
+node: n=9 t=5 prefix=[[[0, 1], [4, 5]], [[0, 2], [7, 8]], [[2, 6], [4, 7], [5, 8]]]; 96 outputs, 86 unsorted
+  node itself: NO (NO = no 5-layer completion)
+  residual sentinels (1..6): 0 residuals without completion, 162 with, 0 unknown, 12096 skipped (t >= D(r)) (0s)
+  tracked sentinels (1, all 9 channels kept): 0 without a sorter, 18 with, 0 unknown (0s)
+  one value fixed after the prefix (channel kept): 0 without a sorter, 18 with, 0 unknown (0s)
+  verdict: IRREDUCIBLE
+  deletion-minimal unsortable core: 54 of 86 unsorted outputs (6s)
+    111000100 110100100 001100100 111100100 000100001 010100001 010001001 000101001 010101001 010000101 110000101 111000101 010100101 110100101 011100101 111100101 010001101 110001101 011001101 111001101 000101101 010101101 110101101 001101101 011101101 010000011 000100011 010100011 010001011 000101011 010101011 000011011 010011011 000111011 010111011 010000111 110000111 011000111 111000111 000100111 010100111 110100111 001100111 011100111 010001111 110001111 011001111 111001111 001101111 010011111 110011111 001011111 011011111 010111111
+# all 19 distinct 3-layer prefixes under which a worker stored >= 40,000 facts
+node: n=10 t=5 prefix=[[[0, 1], [2, 3], [4, 5]], [[0, 2], [1, 3], [4, 7], [8, 9]], [[1, 2], [5, 7], [6, 8]]]; 100 outputs, 89 unsorted
+  node itself: YES (NO = no 5-layer completion)
+  verdict: extends
+node: n=10 t=5 prefix=[[[0, 1], [2, 3], [4, 5]], [[0, 2], [1, 3], [4, 7], [8, 9]], [[1, 5], [2, 7], [6, 8]]]; 115 outputs, 104 unsorted
+  node itself: YES (NO = no 5-layer completion)
+  verdict: extends
+node: n=10 t=5 prefix=[[[0, 1], [2, 3], [4, 5]], [[0, 2], [1, 3], [4, 7], [8, 9]], [[1, 5], [2, 7], [6, 9]]]; 115 outputs, 104 unsorted
+  node itself: YES (NO = no 5-layer completion)
+  verdict: extends
+node: n=10 t=5 prefix=[[[0, 1], [2, 3], [5, 6]], [[0, 2], [1, 3], [4, 6], [7, 8]], [[1, 2], [4, 7], [5, 9]]]; 105 outputs, 94 unsorted
+  node itself: YES (NO = no 5-layer completion)
+  verdict: extends
+node: n=10 t=5 prefix=[[[0, 1], [2, 3], [5, 6]], [[0, 2], [1, 3], [4, 7], [8, 9]], [[1, 2], [4, 5], [7, 8]]]; 105 outputs, 94 unsorted
+  node itself: YES (NO = no 5-layer completion)
+  verdict: extends
+node: n=10 t=5 prefix=[[[0, 1], [3, 4], [5, 6]], [[0, 2], [1, 3], [8, 9]], [[0, 1], [2, 7], [5, 8], [6, 9]]]; 114 outputs, 103 unsorted
+  node itself: NO (NO = no 5-layer completion)
+  residual sentinels (1..7): 6 residuals without completion, 1154 with, 0 unknown, 40224 skipped (t >= D(r)) (1s)
+    reduces: S={3: '-'} -> 9 channels, height 3
+    reduces: S={4: '-'} -> 9 channels, height 3
+    reduces: S={5: '+'} -> 9 channels, height 3
+    reduces: S={6: '+'} -> 9 channels, height 3
+    reduces: S={8: '+'} -> 9 channels, height 3
+    reduces: S={9: '+'} -> 9 channels, height 3
+  tracked sentinels (1, all 10 channels kept): 6 without a sorter, 14 with, 0 unknown (1s)
+    no sorter: 3- ends the prefix on channel 0, 0 channels from its target (96 vectors)
+    no sorter: 4- ends the prefix on channel 0, 0 channels from its target (96 vectors)
+    no sorter: 5+ ends the prefix on channel 9, 0 channels from its target (95 vectors)
+    no sorter: 6+ ends the prefix on channel 9, 0 channels from its target (95 vectors)
+    no sorter: 8+ ends the prefix on channel 9, 0 channels from its target (95 vectors)
+    no sorter: 9+ ends the prefix on channel 9, 0 channels from its target (95 vectors)
+  one value fixed after the prefix (channel kept): 2 without a sorter, 18 with, 0 unknown (1s)
+    no sorter: x_0 = 0 (102 vectors)
+    no sorter: x_9 = 1 (95 vectors)
+  verdict: reducible
+node: n=10 t=5 prefix=[[[0, 1], [3, 4], [5, 6]], [[0, 2], [1, 3], [8, 9]], [[2, 3], [4, 7], [5, 8], [6, 9]]]; 108 outputs, 97 unsorted
+  node itself: NO (NO = no 5-layer completion)
+  residual sentinels (1..7): 0 residuals without completion, 1160 with, 0 unknown, 40224 skipped (t >= D(r)) (1s)
+  tracked sentinels (1, all 10 channels kept): 6 without a sorter, 14 with, 0 unknown (1s)
+    no sorter: 0+ ends the prefix on channel 3, 6 channels from its target (90 vectors)
+    no sorter: 1+ ends the prefix on channel 3, 6 channels from its target (90 vectors)
+    no sorter: 5- ends the prefix on channel 5, 5 channels from its target (90 vectors)
+    no sorter: 6- ends the prefix on channel 5, 5 channels from its target (90 vectors)
+    no sorter: 8- ends the prefix on channel 5, 5 channels from its target (90 vectors)
+    no sorter: 9- ends the prefix on channel 5, 5 channels from its target (90 vectors)
+  one value fixed after the prefix (channel kept): 2 without a sorter, 18 with, 0 unknown (2s)
+    no sorter: x_3 = 1 (90 vectors)
+    no sorter: x_5 = 0 (90 vectors)
+  verdict: reducible when tracked
+node: n=10 t=5 prefix=[[[0, 1], [3, 4], [5, 6]], [[1, 3], [4, 7], [8, 9]], [[0, 1], [2, 4], [5, 8], [6, 9]]]; 108 outputs, 97 unsorted
+  node itself: NO (NO = no 5-layer completion)
+  residual sentinels (1..7): 0 residuals without completion, 1160 with, 0 unknown, 40224 skipped (t >= D(r)) (1s)
+  tracked sentinels (1, all 10 channels kept): 0 without a sorter, 20 with, 0 unknown (1s)
+  one value fixed after the prefix (channel kept): 0 without a sorter, 20 with, 0 unknown (1s)
+  verdict: IRREDUCIBLE
+node: n=10 t=5 prefix=[[[0, 1], [3, 4], [5, 6]], [[1, 3], [4, 7], [8, 9]], [[0, 1], [2, 7], [5, 8], [6, 9]]]; 114 outputs, 103 unsorted
+  node itself: NO (NO = no 5-layer completion)
+  residual sentinels (1..7): 6 residuals without completion, 1154 with, 0 unknown, 40224 skipped (t >= D(r)) (1s)
+    reduces: S={3: '+'} -> 9 channels, height 3
+    reduces: S={4: '+'} -> 9 channels, height 3
+    reduces: S={5: '-'} -> 9 channels, height 3
+    reduces: S={6: '-'} -> 9 channels, height 3
+    reduces: S={8: '-'} -> 9 channels, height 3
+    reduces: S={9: '-'} -> 9 channels, height 3
+  tracked sentinels (1, all 10 channels kept): 6 without a sorter, 14 with, 0 unknown (1s)
+    no sorter: 3+ ends the prefix on channel 7, 2 channels from its target (96 vectors)
+    no sorter: 4+ ends the prefix on channel 7, 2 channels from its target (96 vectors)
+    no sorter: 5- ends the prefix on channel 5, 5 channels from its target (95 vectors)
+    no sorter: 6- ends the prefix on channel 5, 5 channels from its target (95 vectors)
+    no sorter: 8- ends the prefix on channel 5, 5 channels from its target (95 vectors)
+    no sorter: 9- ends the prefix on channel 5, 5 channels from its target (95 vectors)
+  one value fixed after the prefix (channel kept): 2 without a sorter, 18 with, 0 unknown (2s)
+    no sorter: x_5 = 0 (95 vectors)
+    no sorter: x_7 = 1 (96 vectors)
+  verdict: reducible
+node: n=10 t=5 prefix=[[[1, 2], [3, 4], [5, 6]], [[0, 1], [3, 5], [7, 8]], [[1, 5], [2, 8], [4, 6]]]; 136 outputs, 125 unsorted
+  node itself: NO (NO = no 5-layer completion)
+  residual sentinels (1..7): 12 residuals without completion, 1148 with, 0 unknown, 40224 skipped (t >= D(r)) (1s)
+    reduces: S={1: '-'} -> 9 channels, height 3
+    reduces: S={2: '-'} -> 9 channels, height 3
+    reduces: S={3: '+'} -> 9 channels, height 3
+    reduces: S={3: '-'} -> 9 channels, height 3
+    reduces: S={4: '+'} -> 9 channels, height 3
+    reduces: S={4: '-'} -> 9 channels, height 3
+    reduces: S={5: '+'} -> 9 channels, height 3
+    reduces: S={5: '-'} -> 9 channels, height 3
+    reduces: S={6: '+'} -> 9 channels, height 3
+    reduces: S={6: '-'} -> 9 channels, height 3
+    reduces: S={7: '+'} -> 9 channels, height 3
+    reduces: S={8: '+'} -> 9 channels, height 3
+  tracked sentinels (1, all 10 channels kept): 12 without a sorter, 8 with, 0 unknown (2s)
+    no sorter: 1- ends the prefix on channel 0, 0 channels from its target (100 vectors)
+    no sorter: 2- ends the prefix on channel 0, 0 channels from its target (100 vectors)
+    no sorter: 3+ ends the prefix on channel 6, 3 channels from its target (110 vectors)
+    no sorter: 3- ends the prefix on channel 3, 3 channels from its target (110 vectors)
+    no sorter: 4+ ends the prefix on channel 6, 3 channels from its target (110 vectors)
+    no sorter: 4- ends the prefix on channel 3, 3 channels from its target (110 vectors)
+    no sorter: 5+ ends the prefix on channel 6, 3 channels from its target (110 vectors)
+    no sorter: 5- ends the prefix on channel 3, 3 channels from its target (110 vectors)
+    no sorter: 6+ ends the prefix on channel 6, 3 channels from its target (110 vectors)
+    no sorter: 6- ends the prefix on channel 3, 3 channels from its target (110 vectors)
+    no sorter: 7+ ends the prefix on channel 8, 1 channels from its target (104 vectors)
+    no sorter: 8+ ends the prefix on channel 8, 1 channels from its target (104 vectors)
+  one value fixed after the prefix (channel kept): 5 without a sorter, 15 with, 0 unknown (3s)
+    no sorter: x_0 = 0 (100 vectors)
+    no sorter: x_3 = 0 (110 vectors)
+    no sorter: x_5 = 1 (106 vectors)
+    no sorter: x_6 = 1 (110 vectors)
+    no sorter: x_8 = 1 (116 vectors)
+  verdict: reducible
+node: n=10 t=5 prefix=[[[1, 2], [3, 4], [5, 6]], [[0, 1], [3, 5], [7, 8]], [[1, 5], [2, 9], [4, 6]]]; 126 outputs, 115 unsorted
+  node itself: NO (NO = no 5-layer completion)
+  residual sentinels (1..7): 8 residuals without completion, 1152 with, 0 unknown, 40224 skipped (t >= D(r)) (1s)
+    reduces: S={3: '+'} -> 9 channels, height 3
+    reduces: S={3: '-'} -> 9 channels, height 3
+    reduces: S={4: '+'} -> 9 channels, height 3
+    reduces: S={4: '-'} -> 9 channels, height 3
+    reduces: S={5: '+'} -> 9 channels, height 3
+    reduces: S={5: '-'} -> 9 channels, height 3
+    reduces: S={6: '+'} -> 9 channels, height 3
+    reduces: S={6: '-'} -> 9 channels, height 3
+  tracked sentinels (1, all 10 channels kept): 9 without a sorter, 11 with, 0 unknown (2s)
+    no sorter: 0+ ends the prefix on channel 5, 4 channels from its target (90 vectors)
+    no sorter: 3+ ends the prefix on channel 6, 3 channels from its target (102 vectors)
+    no sorter: 3- ends the prefix on channel 3, 3 channels from its target (102 vectors)
+    no sorter: 4+ ends the prefix on channel 6, 3 channels from its target (102 vectors)
+    no sorter: 4- ends the prefix on channel 3, 3 channels from its target (102 vectors)
+    no sorter: 5+ ends the prefix on channel 6, 3 channels from its target (102 vectors)
+    no sorter: 5- ends the prefix on channel 3, 3 channels from its target (102 vectors)
+    no sorter: 6+ ends the prefix on channel 6, 3 channels from its target (102 vectors)
+    no sorter: 6- ends the prefix on channel 3, 3 channels from its target (102 vectors)
+  one value fixed after the prefix (channel kept): 3 without a sorter, 17 with, 0 unknown (2s)
+    no sorter: x_3 = 0 (102 vectors)
+    no sorter: x_5 = 1 (99 vectors)
+    no sorter: x_6 = 1 (102 vectors)
+  verdict: reducible
+node: n=10 t=5 prefix=[[[1, 2], [3, 4], [5, 6]], [[0, 1], [3, 5], [7, 8]], [[1, 5], [4, 6], [7, 9]]]; 130 outputs, 119 unsorted
+  node itself: NO (NO = no 5-layer completion)
+  residual sentinels (1..7): 12 residuals without completion, 1148 with, 0 unknown, 40224 skipped (t >= D(r)) (1s)
+    reduces: S={1: '-'} -> 9 channels, height 3
+    reduces: S={2: '-'} -> 9 channels, height 3
+    reduces: S={3: '+'} -> 9 channels, height 3
+    reduces: S={3: '-'} -> 9 channels, height 3
+    reduces: S={4: '+'} -> 9 channels, height 3
+    reduces: S={4: '-'} -> 9 channels, height 3
+    reduces: S={5: '+'} -> 9 channels, height 3
+    reduces: S={5: '-'} -> 9 channels, height 3
+    reduces: S={6: '+'} -> 9 channels, height 3
+    reduces: S={6: '-'} -> 9 channels, height 3
+    reduces: S={7: '-'} -> 9 channels, height 3
+    reduces: S={8: '-'} -> 9 channels, height 3
+  tracked sentinels (1, all 10 channels kept): 12 without a sorter, 8 with, 0 unknown (2s)
+    no sorter: 1- ends the prefix on channel 0, 0 channels from its target (100 vectors)
+    no sorter: 2- ends the prefix on channel 0, 0 channels from its target (100 vectors)
+    no sorter: 3+ ends the prefix on channel 6, 3 channels from its target (105 vectors)
+    no sorter: 3- ends the prefix on channel 3, 3 channels from its target (105 vectors)
+    no sorter: 4+ ends the prefix on channel 6, 3 channels from its target (105 vectors)
+    no sorter: 4- ends the prefix on channel 3, 3 channels from its target (105 vectors)
+    no sorter: 5+ ends the prefix on channel 6, 3 channels from its target (105 vectors)
+    no sorter: 5- ends the prefix on channel 3, 3 channels from its target (105 vectors)
+    no sorter: 6+ ends the prefix on channel 6, 3 channels from its target (105 vectors)
+    no sorter: 6- ends the prefix on channel 3, 3 channels from its target (105 vectors)
+    no sorter: 7- ends the prefix on channel 7, 7 channels from its target (104 vectors)
+    no sorter: 8- ends the prefix on channel 7, 7 channels from its target (104 vectors)
+  one value fixed after the prefix (channel kept): 5 without a sorter, 15 with, 0 unknown (4s)
+    no sorter: x_0 = 0 (100 vectors)
+    no sorter: x_3 = 0 (105 vectors)
+    no sorter: x_5 = 1 (100 vectors)
+    no sorter: x_6 = 1 (105 vectors)
+    no sorter: x_7 = 0 (104 vectors)
+  verdict: reducible
+node: n=10 t=5 prefix=[[[1, 2], [3, 4], [5, 6]], [[0, 1], [3, 5], [7, 8]], [[1, 5], [4, 6], [8, 9]]]; 130 outputs, 119 unsorted
+  node itself: NO (NO = no 5-layer completion)
+  residual sentinels (1..7): 12 residuals without completion, 1148 with, 0 unknown, 40224 skipped (t >= D(r)) (1s)
+    reduces: S={1: '-'} -> 9 channels, height 3
+    reduces: S={2: '-'} -> 9 channels, height 3
+    reduces: S={3: '+'} -> 9 channels, height 3
+    reduces: S={3: '-'} -> 9 channels, height 3
+    reduces: S={4: '+'} -> 9 channels, height 3
+    reduces: S={4: '-'} -> 9 channels, height 3
+    reduces: S={5: '+'} -> 9 channels, height 3
+    reduces: S={5: '-'} -> 9 channels, height 3
+    reduces: S={6: '+'} -> 9 channels, height 3
+    reduces: S={6: '-'} -> 9 channels, height 3
+    reduces: S={7: '+'} -> 9 channels, height 3
+    reduces: S={8: '+'} -> 9 channels, height 3
+  tracked sentinels (1, all 10 channels kept): 13 without a sorter, 7 with, 0 unknown (2s)
+    no sorter: 0+ ends the prefix on channel 5, 4 channels from its target (90 vectors)
+    no sorter: 1- ends the prefix on channel 0, 0 channels from its target (100 vectors)
+    no sorter: 2- ends the prefix on channel 0, 0 channels from its target (100 vectors)
+    no sorter: 3+ ends the prefix on channel 6, 3 channels from its target (105 vectors)
+    no sorter: 3- ends the prefix on channel 3, 3 channels from its target (105 vectors)
+    no sorter: 4+ ends the prefix on channel 6, 3 channels from its target (105 vectors)
+    no sorter: 4- ends the prefix on channel 3, 3 channels from its target (105 vectors)
+    no sorter: 5+ ends the prefix on channel 6, 3 channels from its target (105 vectors)
+    no sorter: 5- ends the prefix on channel 3, 3 channels from its target (105 vectors)
+    no sorter: 6+ ends the prefix on channel 6, 3 channels from its target (105 vectors)
+    no sorter: 6- ends the prefix on channel 3, 3 channels from its target (105 vectors)
+    no sorter: 7+ ends the prefix on channel 9, 0 channels from its target (104 vectors)
+    no sorter: 8+ ends the prefix on channel 9, 0 channels from its target (104 vectors)
+  one value fixed after the prefix (channel kept): 5 without a sorter, 15 with, 0 unknown (3s)
+    no sorter: x_0 = 0 (100 vectors)
+    no sorter: x_3 = 0 (105 vectors)
+    no sorter: x_5 = 1 (100 vectors)
+    no sorter: x_6 = 1 (105 vectors)
+    no sorter: x_9 = 1 (104 vectors)
+  verdict: reducible
+node: n=10 t=5 prefix=[[[1, 2], [3, 4], [5, 6]], [[0, 1], [3, 5], [7, 8]], [[1, 9], [4, 6], [5, 7]]]; 128 outputs, 117 unsorted
+  node itself: NO (NO = no 5-layer completion)
+  residual sentinels (1..7): 10 residuals without completion, 1150 with, 0 unknown, 40224 skipped (t >= D(r)) (1s)
+    reduces: S={3: '+'} -> 9 channels, height 3
+    reduces: S={3: '-'} -> 9 channels, height 3
+    reduces: S={4: '+'} -> 9 channels, height 3
+    reduces: S={4: '-'} -> 9 channels, height 3
+    reduces: S={5: '+'} -> 9 channels, height 3
+    reduces: S={5: '-'} -> 9 channels, height 3
+    reduces: S={6: '+'} -> 9 channels, height 3
+    reduces: S={6: '-'} -> 9 channels, height 3
+    reduces: S={7: '-'} -> 9 channels, height 3
+    reduces: S={8: '-'} -> 9 channels, height 3
+  tracked sentinels (1, all 10 channels kept): 10 without a sorter, 10 with, 0 unknown (2s)
+    no sorter: 3+ ends the prefix on channel 6, 3 channels from its target (104 vectors)
+    no sorter: 3- ends the prefix on channel 3, 3 channels from its target (104 vectors)
+    no sorter: 4+ ends the prefix on channel 6, 3 channels from its target (104 vectors)
+    no sorter: 4- ends the prefix on channel 3, 3 channels from its target (104 vectors)
+    no sorter: 5+ ends the prefix on channel 6, 3 channels from its target (104 vectors)
+    no sorter: 5- ends the prefix on channel 3, 3 channels from its target (104 vectors)
+    no sorter: 6+ ends the prefix on channel 6, 3 channels from its target (104 vectors)
+    no sorter: 6- ends the prefix on channel 3, 3 channels from its target (104 vectors)
+    no sorter: 7- ends the prefix on channel 5, 5 channels from its target (96 vectors)
+    no sorter: 8- ends the prefix on channel 5, 5 channels from its target (96 vectors)
+  one value fixed after the prefix (channel kept): 3 without a sorter, 17 with, 0 unknown (2s)
+    no sorter: x_3 = 0 (104 vectors)
+    no sorter: x_5 = 0 (104 vectors)
+    no sorter: x_6 = 1 (104 vectors)
+  verdict: reducible
+node: n=10 t=5 prefix=[[[1, 2], [3, 4], [5, 6]], [[0, 1], [3, 7], [5, 8]], [[0, 3], [1, 2], [4, 9], [6, 8]]]; 120 outputs, 109 unsorted
+  node itself: NO (NO = no 5-layer completion)
+  residual sentinels (1..7): 5 residuals without completion, 1155 with, 0 unknown, 40224 skipped (t >= D(r)) (1s)
+    reduces: S={0: '-'} -> 9 channels, height 3
+    reduces: S={1: '-'} -> 9 channels, height 3
+    reduces: S={2: '-'} -> 9 channels, height 3
+    reduces: S={3: '-'} -> 9 channels, height 3
+    reduces: S={4: '-'} -> 9 channels, height 3
+  tracked sentinels (1, all 10 channels kept): 5 without a sorter, 15 with, 0 unknown (1s)
+    no sorter: 0- ends the prefix on channel 0, 0 channels from its target (96 vectors)
+    no sorter: 1- ends the prefix on channel 0, 0 channels from its target (96 vectors)
+    no sorter: 2- ends the prefix on channel 0, 0 channels from its target (96 vectors)
+    no sorter: 3- ends the prefix on channel 0, 0 channels from its target (96 vectors)
+    no sorter: 4- ends the prefix on channel 0, 0 channels from its target (96 vectors)
+  one value fixed after the prefix (channel kept): 1 without a sorter, 19 with, 0 unknown (1s)
+    no sorter: x_0 = 0 (112 vectors)
+  verdict: reducible
+node: n=10 t=5 prefix=[[[1, 2], [3, 4], [5, 6]], [[0, 1], [3, 7], [5, 8]], [[0, 3], [1, 4], [2, 7], [6, 8]]]; 112 outputs, 101 unsorted
+  node itself: NO (NO = no 5-layer completion)
+  residual sentinels (1..7): 4 residuals without completion, 1156 with, 0 unknown, 40224 skipped (t >= D(r)) (1s)
+    reduces: S={1: '-'} -> 9 channels, height 3
+    reduces: S={2: '-'} -> 9 channels, height 3
+    reduces: S={3: '-'} -> 9 channels, height 3
+    reduces: S={4: '-'} -> 9 channels, height 3
+  tracked sentinels (1, all 10 channels kept): 4 without a sorter, 16 with, 0 unknown (1s)
+    no sorter: 1- ends the prefix on channel 0, 0 channels from its target (104 vectors)
+    no sorter: 2- ends the prefix on channel 0, 0 channels from its target (104 vectors)
+    no sorter: 3- ends the prefix on channel 0, 0 channels from its target (104 vectors)
+    no sorter: 4- ends the prefix on channel 0, 0 channels from its target (104 vectors)
+  one value fixed after the prefix (channel kept): 1 without a sorter, 19 with, 0 unknown (2s)
+    no sorter: x_0 = 0 (104 vectors)
+  verdict: reducible
+node: n=10 t=5 prefix=[[[1, 2], [3, 4], [5, 6]], [[0, 1], [3, 7], [5, 8]], [[0, 3], [1, 4], [2, 7], [6, 9]]]; 112 outputs, 101 unsorted
+  node itself: NO (NO = no 5-layer completion)
+  residual sentinels (1..7): 4 residuals without completion, 1156 with, 0 unknown, 40224 skipped (t >= D(r)) (1s)
+    reduces: S={1: '-'} -> 9 channels, height 3
+    reduces: S={2: '-'} -> 9 channels, height 3
+    reduces: S={3: '-'} -> 9 channels, height 3
+    reduces: S={4: '-'} -> 9 channels, height 3
+  tracked sentinels (1, all 10 channels kept): 7 without a sorter, 13 with, 0 unknown (1s)
+    no sorter: 0+ ends the prefix on channel 4, 5 channels from its target (88 vectors)
+    no sorter: 1- ends the prefix on channel 0, 0 channels from its target (104 vectors)
+    no sorter: 2- ends the prefix on channel 0, 0 channels from its target (104 vectors)
+    no sorter: 3+ ends the prefix on channel 4, 5 channels from its target (88 vectors)
+    no sorter: 3- ends the prefix on channel 0, 0 channels from its target (104 vectors)
+    no sorter: 4+ ends the prefix on channel 4, 5 channels from its target (88 vectors)
+    no sorter: 4- ends the prefix on channel 0, 0 channels from its target (104 vectors)
+  one value fixed after the prefix (channel kept): 2 without a sorter, 18 with, 0 unknown (1s)
+    no sorter: x_0 = 0 (104 vectors)
+    no sorter: x_4 = 1 (88 vectors)
+  verdict: reducible
+node: n=10 t=5 prefix=[[[1, 2], [3, 4], [5, 6]], [[0, 1], [3, 7], [6, 8]], [[1, 2], [4, 5], [6, 9], [7, 8]]]; 120 outputs, 109 unsorted
+  node itself: NO (NO = no 5-layer completion)
+  residual sentinels (1..7): 2 residuals without completion, 1158 with, 0 unknown, 40224 skipped (t >= D(r)) (1s)
+    reduces: S={5: '+'} -> 9 channels, height 3
+    reduces: S={6: '+'} -> 9 channels, height 3
+  tracked sentinels (1, all 10 channels kept): 2 without a sorter, 18 with, 0 unknown (1s)
+    no sorter: 5+ ends the prefix on channel 8, 1 channels from its target (96 vectors)
+    no sorter: 6+ ends the prefix on channel 8, 1 channels from its target (96 vectors)
+  one value fixed after the prefix (channel kept): 1 without a sorter, 19 with, 0 unknown (2s)
+    no sorter: x_8 = 1 (104 vectors)
+  verdict: reducible
+node: n=10 t=5 prefix=[[[1, 2], [3, 4], [5, 6]], [[0, 1], [3, 7], [6, 8]], [[1, 4], [2, 8], [5, 6], [7, 9]]]; 123 outputs, 112 unsorted
+  node itself: NO (NO = no 5-layer completion)
+  residual sentinels (1..7): 3 residuals without completion, 1157 with, 0 unknown, 40224 skipped (t >= D(r)) (1s)
+    reduces: S={5: '+'} -> 9 channels, height 3
+    reduces: S={6: '+'} -> 9 channels, height 3
+    reduces: S={8: '+'} -> 9 channels, height 3
+  tracked sentinels (1, all 10 channels kept): 3 without a sorter, 17 with, 0 unknown (1s)
+    no sorter: 5+ ends the prefix on channel 8, 1 channels from its target (102 vectors)
+    no sorter: 6+ ends the prefix on channel 8, 1 channels from its target (102 vectors)
+    no sorter: 8+ ends the prefix on channel 8, 1 channels from its target (102 vectors)
+  one value fixed after the prefix (channel kept): 2 without a sorter, 18 with, 0 unknown (2s)
+    no sorter: x_4 = 1 (102 vectors)
+    no sorter: x_8 = 1 (110 vectors)
+  verdict: reducible

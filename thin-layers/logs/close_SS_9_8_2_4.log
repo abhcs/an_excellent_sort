@@ -1,0 +1,14 @@
+class 4/16 done: 172225 prefixes, 0 uncertified, 45s
+class 5/16 done: 344450 prefixes, 129 uncertified, 156s
+class 6/16 done: 516675 prefixes, 327 uncertified, 303s
+class 7/16 done: 688900 prefixes, 327 uncertified, 352s
+class 8/16 done: 861125 prefixes, 543 uncertified, 594s
+class 9/16 done: 1033350 prefixes, 543 uncertified, 640s
+class 10/16 done: 1205575 prefixes, 570 uncertified, 709s
+class 11/16 done: 1377800 prefixes, 597 uncertified, 766s
+class 12/16 done: 1550025 prefixes, 597 uncertified, 807s
+class 13/16 done: 1722250 prefixes, 609 uncertified, 870s
+class 14/16 done: 1894475 prefixes, 669 uncertified, 995s
+class 15/16 done: 2066700 prefixes, 669 uncertified, 1079s
+{"statement": "SS(9,8,2,4)", "L1": [[2, 3], [5, 6]], "second_layer_classes": 16, "prefixes_checked": 2066700, "by_rule": {"D/k=0": 28351, "D/k=1": 26386, "SS7/k=2": 514287, "P7/k=2": 1295227, "D/k=2": 198790, "D/k=4": 2990, "none": 669}, "uncertified": 669, "seconds": 1079.4}
+done 669

@@ -1,0 +1,6 @@
+16:02:56 n=12 depth=8 a=5 prefix=[[(1, 2), (3, 4), (5, 6), (7, 8), (9, 10)]] last=None |U|=959 solver=cadical195
+16:03:23 iter 1: SAT in 27.3s inputs=300 vars=18642 clauses=296711 fails=36 elapsed=27s
+16:03:52 iter 2: SAT in 28.7s inputs=330 vars=20388 clauses=326216 fails=23 elapsed=56s
+16:05:53 iter 3: SAT in 120.8s inputs=353 vars=21600 clauses=346050 fails=30 elapsed=177s
+16:08:50 iter 4: SAT in 177.7s inputs=383 vars=23454 clauses=378948 fails=32 elapsed=355s
+16:13:08 iter 5: SAT in 257.4s inputs=413 vars=25116 clauses=406829 fails=10 elapsed=612s

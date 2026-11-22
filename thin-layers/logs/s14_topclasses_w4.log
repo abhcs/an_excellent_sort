@@ -1,0 +1,8 @@
+14:37:15 store 469458 facts
+14:37:16 class 4 10:00188dc5f26d8cc1adfd (covers 50 open children): r=10 h=2 sentinels {0: '+', 1: '+', 2: '+', 4: '-'} |X|=250 prefix [[(2, 3), (4, 5), (6, 7)], [(1, 2), (5, 8), (7, 9)]]; SAT YES (1s)
+14:37:17 class 10 10:e9ef07ece3a95595bad0 (covers 21 open children): r=10 h=2 sentinels {2: '+', 4: '-', 6: '+', 8: '-'} |X|=384 prefix [[(6, 7)], [(0, 1)], [(1, 7), (3, 8)]]; SAT UNKNOWN (1s)
+14:37:18 class 10: NO (1s) fact 20261121-143707-99888-1 new facts 1 nodes 1
+14:37:25 class 16 10:9aa3c73587c867db9900 (covers 10 open children): r=10 h=2 sentinels {0: '+', 1: '+', 2: '+', 4: '+'} |X|=280 prefix [[(2, 3), (4, 5), (6, 7)], [(1, 2), (4, 7), (5, 6)]]; SAT UNKNOWN (7s)
+14:37:30 class 16: YES (5s) fact 20261121-143707-99888-10 new facts 7 nodes 5
+14:37:30 worker done
+exit 0

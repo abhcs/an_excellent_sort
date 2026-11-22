@@ -1,0 +1,34 @@
+         767956645 function calls (767866358 primitive calls) in 300.008 seconds
+
+   Ordered by: internal time
+   List reduced from 624 to 25 due to restriction <25>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+ 67982660  155.584    0.000  222.529    0.000 /Users/abhishek/Documents/an_excellent_sort/.claude/worktrees/depth-bounds-continue/thin-layers/sprove.py:952(closes)
+        8   44.283    5.535   44.283    5.535 {built-in method pysolvers.glucose41_solve_lim}
+267626207/267541603   27.932    0.000   28.024    0.000 {built-in method builtins.max}
+244849088/244849086   21.466    0.000   21.466    0.000 {built-in method builtins.len}
+        2   18.130    9.065  240.806  120.403 /Users/abhishek/Documents/an_excellent_sort/.claude/worktrees/depth-bounds-continue/thin-layers/sprove.py:915(_qcover)
+ 91972727   10.859    0.000   10.859    0.000 /Users/abhishek/Documents/an_excellent_sort/.claude/worktrees/depth-bounds-continue/thin-layers/sprove.py:971(<genexpr>)
+ 58114787    7.234    0.000    7.234    0.000 {method 'append' of 'list' objects}
+  9213005    6.555    0.000    8.313    0.000 /Users/abhishek/Documents/an_excellent_sort/.claude/worktrees/depth-bounds-continue/thin-layers/sprove.py:1064(<genexpr>)
+ 18510480    1.759    0.000    1.759    0.000 {method 'bit_count' of 'int' objects}
+  1493499    1.148    0.000    2.918    0.000 /Users/abhishek/Documents/an_excellent_sort/.claude/worktrees/depth-bounds-continue/thin-layers/../d18-search/netsat.py:269(add)
+    19168    0.923    0.000    9.347    0.000 {built-in method builtins.sum}
+     1286    0.802    0.001    4.199    0.003 /Users/abhishek/Documents/an_excellent_sort/.claude/worktrees/depth-bounds-continue/thin-layers/../d18-search/netsat.py:420(add_input)
+  1364569    0.611    0.000    0.611    0.000 {built-in method pysolvers.glucose41_add_cl}
+  1364569    0.342    0.000    1.286    0.000 /Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/lib/python3.14/site-packages/pysat/solvers.py:1723(add_clause)
+  1364569    0.334    0.000    0.944    0.000 /Users/abhishek/Documents/an_excellent_sort/depth-hand-proofs/verify/.venv/lib/python3.14/site-packages/pysat/solvers.py:6014(add_clause)
+     5444    0.306    0.000    0.377    0.000 /Users/abhishek/Documents/an_excellent_sort/.claude/worktrees/depth-bounds-continue/thin-layers/fastcore.py:41(_u32)
+  1048929    0.227    0.000    0.349    0.000 /Users/abhishek/Documents/an_excellent_sort/.claude/worktrees/depth-bounds-continue/thin-layers/../d18-search/netsat.py:196(neg)
+  1212796    0.141    0.000    0.141    0.000 {built-in method builtins.isinstance}
+     8468    0.140    0.000    0.221    0.000 /Users/abhishek/Documents/an_excellent_sort/.claude/worktrees/depth-bounds-continue/thin-layers/sentinel_prover.py:191(residual2)
+    42564    0.132    0.000    0.149    0.000 /Users/abhishek/Documents/an_excellent_sort/.claude/worktrees/depth-bounds-continue/thin-layers/sprove.py:144(sentinel_state)
+   508472    0.112    0.000    0.112    0.000 {method 'get' of 'dict' objects}
+     2399    0.108    0.000    0.360    0.000 /Users/abhishek/Documents/an_excellent_sort/.claude/worktrees/depth-bounds-continue/thin-layers/fastcore.py:59(apply_layer)
+      3/1    0.098    0.033  300.006  300.006 /Users/abhishek/Documents/an_excellent_sort/.claude/worktrees/depth-bounds-continue/thin-layers/sprove.py:637(_ext)
+     8005    0.074    0.000    0.082    0.000 {built-in method builtins.sorted}
+     1205    0.067    0.000    0.073    0.000 /Users/abhishek/Documents/an_excellent_sort/.claude/worktrees/depth-bounds-continue/thin-layers/fastcore.py:51(outputs)
+
+
+{'nodes': 3, 'hits': 51, 'guide': 4, 'sym': 2}

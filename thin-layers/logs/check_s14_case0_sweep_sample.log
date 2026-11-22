@@ -1,0 +1,4 @@
+FACT:20261122-093932-7828-7394: claims no 6-layer completion of n=14 prefix=[[[2, 3], [4, 5], [6, 7], [8, 9], [10, 11]], [[0, 1], [2, 4], [3, 5], [6, 8], [7, 9]], [[3, 12], [7, 13]]] caps=[]
+FACT:20261122-093932-7825-7541: claims no 6-layer completion of n=14 prefix=[[[2, 3], [4, 5], [6, 7], [8, 9], [10, 11]], [[0, 1], [2, 4], [3, 5], [6, 8], [7, 9]], [[12, 13]]] caps=[]
+976344 facts, 9232 needed by 2 statements, 3 to check
+9232 facts needed, 3 newly verified, 0 failed

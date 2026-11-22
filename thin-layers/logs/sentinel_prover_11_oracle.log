@@ -1,0 +1,12 @@
+n= 3 depth 2: NO sorter (0.0s); proof DAG 1 nodes {'split': 1}; search {'nodes': 1, 'memo': 0, 'sent_quick': 0, 'sent_rec': 0, 'split_no': 1, 'yes': 0, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0}
+n= 4 depth 2: NO sorter (0.0s); proof DAG 1 nodes {'quick': 1}; search {'nodes': 1, 'memo': 0, 'sent_quick': 1, 'sent_rec': 0, 'split_no': 0, 'yes': 0, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0}
+n= 5 depth 4: NO sorter (0.0s); proof DAG 9 nodes {'quick': 8, 'split': 1}; search {'nodes': 9, 'memo': 0, 'sent_quick': 8, 'sent_rec': 0, 'split_no': 1, 'yes': 0, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0}
+n= 6 depth 4: NO sorter (0.0s); proof DAG 1 nodes {'quick': 1}; search {'nodes': 1, 'memo': 0, 'sent_quick': 1, 'sent_rec': 0, 'split_no': 0, 'yes': 0, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0}
+n= 7 depth 5: NO sorter (0.2s); proof DAG 41 nodes {'sent': 2, 'quick': 36, 'split': 3}; search {'nodes': 63, 'memo': 45, 'sent_quick': 36, 'sent_rec': 2, 'split_no': 3, 'yes': 22, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0}
+n= 8 depth 5: NO sorter (0.1s); proof DAG 1 nodes {'quick': 1}; search {'nodes': 1, 'memo': 0, 'sent_quick': 1, 'sent_rec': 0, 'split_no': 0, 'yes': 0, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0}
+n= 9 depth 6: NO sorter (15.2s); proof DAG 68 nodes {'quick': 67, 'split': 1}; search {'nodes': 177, 'memo': 573, 'sent_quick': 72, 'sent_rec': 5, 'split_no': 2, 'yes': 98, 'oracle_yes': 0, 'oracle_no': 68, 'oracle_unknown': 0}
+n=10 depth 6: NO sorter (0.5s); proof DAG 1 nodes {'quick': 1}; search {'nodes': 1, 'memo': 0, 'sent_quick': 1, 'sent_rec': 0, 'split_no': 0, 'yes': 0, 'oracle_yes': 0, 'oracle_no': 1, 'oracle_unknown': 0}
+22:53:06   progress: {'nodes': 500, 'memo': 1939, 'sent_quick': 169, 'sent_rec': 14, 'split_no': 11, 'yes': 294, 'oracle_yes': 4, 'oracle_no': 70, 'oracle_unknown': 1} memo=492
+22:53:33   progress: {'nodes': 1000, 'memo': 4528, 'sent_quick': 462, 'sent_rec': 55, 'split_no': 21, 'yes': 450, 'oracle_yes': 5, 'oracle_no': 72, 'oracle_unknown': 1} memo=993
+22:53:41   progress: {'nodes': 1500, 'memo': 5908, 'sent_quick': 823, 'sent_rec': 118, 'split_no': 38, 'yes': 510, 'oracle_yes': 5, 'oracle_no': 78, 'oracle_unknown': 1} memo=1494
+22:53:59   progress: {'nodes': 2000, 'memo': 9320, 'sent_quick': 1093, 'sent_rec': 231, 'split_no': 50, 'yes': 613, 'oracle_yes': 5, 'oracle_no': 95, 'oracle_unknown': 1} memo=1992

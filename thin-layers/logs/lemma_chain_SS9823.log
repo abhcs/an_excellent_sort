@@ -1,0 +1,551 @@
+00:13:38 D(r) proved for r <= 10
+00:13:38 SS:7,6,1,2: PROVED (0s), proof DAG 4 nodes {'split': 1, 'sent': 1, 'quick': 2}; stats {'nodes': 243, 'memo': 419, 'sent_quick': 122, 'sent_rec': 8, 'split_no': 8, 'yes': 105, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0}
+00:13:38 TRACE split of the traced node: 2 cases (+ empty layer)
+00:13:38 TRACE case 1/2 closed (0s, nodes 262): layer [(2, 3)]
+00:13:38 TRACE case 2/2 closed (0s, nodes 263): layer [(0, 2)]
+00:13:38 SS:7,7,1,3: PROVED (0s), proof DAG 52 nodes {'sent': 4, 'quick': 42, 'split': 6}; stats {'nodes': 263, 'memo': 452, 'sent_quick': 126, 'sent_rec': 9, 'split_no': 10, 'yes': 118, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0}
+00:13:38 TRACE split of the traced node: 12 cases (+ empty layer)
+00:13:38 TRACE case 1/12 closed (0s, nodes 265): layer [(0, 2), (1, 3)]
+00:13:38 TRACE case 2/12 closed (0s, nodes 266): layer [(0, 2), (4, 5)]
+00:13:38 TRACE case 3/12 closed (0s, nodes 267): layer [(0, 3), (4, 5)]
+00:13:38 TRACE case 4/12 closed (0s, nodes 268): layer [(0, 4), (2, 5)]
+00:13:38 TRACE case 5/12 closed (0s, nodes 269): layer [(0, 4), (3, 5)]
+00:13:38 TRACE case 6/12 closed (0s, nodes 270): layer [(0, 2), (1, 4)]
+00:13:38 TRACE case 7/12 closed (0s, nodes 271): layer [(0, 3), (1, 4)]
+00:13:38 TRACE case 8/12 closed (0s, nodes 272): layer [(4, 5)]
+00:13:38 TRACE case 9/12 closed (0s, nodes 273): layer [(0, 3), (1, 2)]
+00:13:38 TRACE case 10/12 closed (0s, nodes 274): layer [(0, 4)]
+00:13:38 TRACE case 11/12 closed (0s, nodes 275): layer [(0, 2)]
+00:13:38 TRACE case 12/12 closed (0s, nodes 276): layer [(0, 3)]
+00:13:38 SS:6,5,2,3: PROVED (0s), proof DAG 32 nodes {'quick': 25, 'split': 3, 'sent': 4}; stats {'nodes': 277, 'memo': 459, 'sent_quick': 135, 'sent_rec': 13, 'split_no': 11, 'yes': 118, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0}
+00:13:39 SS:8,8,1,4: PROVED (0s), proof DAG 56 nodes {'sent': 6, 'quick': 42, 'split': 8}; stats {'nodes': 284, 'memo': 476, 'sent_quick': 135, 'sent_rec': 15, 'split_no': 13, 'yes': 121, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0}
+00:13:39 TRACE split of the traced node: 14 cases (+ empty layer)
+00:13:40   progress: {'nodes': 500, 'memo': 898, 'sent_quick': 262, 'sent_rec': 39, 'split_no': 20, 'yes': 174, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0} memo=495
+00:13:40 TRACE case 1/14 closed (1s, nodes 586): layer [(4, 5), (6, 7)]
+00:13:40 TRACE case 2/14 closed (1s, nodes 595): layer [(0, 4), (5, 6)]
+00:13:40 TRACE case 3/14 closed (1s, nodes 631): layer [(0, 2), (1, 3)]
+00:13:40 TRACE case 4/14 closed (1s, nodes 632): layer [(0, 2), (4, 5)]
+00:13:40 TRACE case 5/14 closed (1s, nodes 633): layer [(0, 3), (4, 5)]
+00:13:41 TRACE case 6/14 closed (2s, nodes 665): layer [(0, 4), (2, 5)]
+00:13:41 TRACE case 7/14 closed (2s, nodes 666): layer [(0, 4), (3, 5)]
+00:13:41 TRACE case 8/14 closed (2s, nodes 667): layer [(0, 2), (1, 4)]
+00:13:41 TRACE case 9/14 closed (2s, nodes 668): layer [(0, 3), (1, 4)]
+00:13:41 TRACE case 10/14 closed (2s, nodes 669): layer [(4, 5)]
+00:13:41 TRACE case 11/14 closed (2s, nodes 670): layer [(0, 3), (1, 2)]
+00:13:41 TRACE case 12/14 closed (2s, nodes 671): layer [(0, 4)]
+00:13:41 TRACE case 13/14 closed (2s, nodes 674): layer [(0, 2)]
+00:13:41 TRACE case 14/14 closed (2s, nodes 675): layer [(0, 3)]
+00:13:41 SS:8,7,2,3: PROVED (2s), proof DAG 348 nodes {'quick': 280, 'sent': 49, 'split': 19}; stats {'nodes': 676, 'memo': 1316, 'sent_quick': 385, 'sent_rec': 68, 'split_no': 29, 'yes': 194, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0}
+00:13:43 TRACE split of the traced node: 14 cases (+ empty layer)
+00:13:43 TRACE case 1/14 closed (0s, nodes 769): layer [(4, 5), (6, 7)]
+00:13:43 TRACE case 2/14 closed (0s, nodes 770): layer [(0, 4), (5, 6)]
+00:13:43 TRACE case 3/14 closed (1s, nodes 774): layer [(0, 2), (1, 3)]
+00:13:43 TRACE case 4/14 closed (1s, nodes 775): layer [(0, 2), (4, 5)]
+00:13:43 TRACE case 5/14 closed (1s, nodes 776): layer [(0, 3), (4, 5)]
+00:13:43 TRACE case 6/14 closed (1s, nodes 777): layer [(0, 4), (2, 5)]
+00:13:43 TRACE case 7/14 closed (1s, nodes 778): layer [(0, 4), (3, 5)]
+00:13:43 TRACE case 8/14 closed (1s, nodes 779): layer [(0, 2), (1, 4)]
+00:13:43 TRACE case 9/14 closed (1s, nodes 780): layer [(0, 3), (1, 4)]
+00:13:43 TRACE case 10/14 closed (1s, nodes 781): layer [(4, 5)]
+00:13:44 TRACE case 11/14 closed (1s, nodes 782): layer [(0, 3), (1, 2)]
+00:13:44 TRACE case 12/14 closed (1s, nodes 783): layer [(0, 4)]
+00:13:44 TRACE case 13/14 closed (1s, nodes 784): layer [(0, 2)]
+00:13:44 TRACE case 14/14 closed (1s, nodes 785): layer [(0, 3)]
+00:13:44 SS:9,8,2,4: PROVED (3s), proof DAG 385 nodes {'sent': 59, 'quick': 281, 'lemma': 22, 'split': 23}; stats {'nodes': 786, 'memo': 1726, 'sent_quick': 394, 'sent_rec': 82, 'split_no': 33, 'yes': 254, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 23}
+00:13:46 TRACE split of the traced node: 14 cases (+ empty layer)
+00:13:48   progress: {'nodes': 1000, 'memo': 2717, 'sent_quick': 448, 'sent_rec': 96, 'split_no': 34, 'yes': 360, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 55} memo=993
+00:13:56   progress: {'nodes': 1500, 'memo': 3398, 'sent_quick': 828, 'sent_rec': 158, 'split_no': 36, 'yes': 394, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 79} memo=1495
+00:14:02   progress: {'nodes': 2000, 'memo': 4102, 'sent_quick': 1114, 'sent_rec': 199, 'split_no': 42, 'yes': 424, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 216} memo=1995
+00:14:08   progress: {'nodes': 2500, 'memo': 4263, 'sent_quick': 1508, 'sent_rec': 226, 'split_no': 42, 'yes': 424, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 295} memo=2495
+00:14:14   progress: {'nodes': 3000, 'memo': 4612, 'sent_quick': 1731, 'sent_rec': 260, 'split_no': 44, 'yes': 432, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 528} memo=2995
+00:14:20   progress: {'nodes': 3500, 'memo': 4994, 'sent_quick': 2098, 'sent_rec': 297, 'split_no': 46, 'yes': 439, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 615} memo=3495
+00:14:27   progress: {'nodes': 4000, 'memo': 5104, 'sent_quick': 2552, 'sent_rec': 318, 'split_no': 46, 'yes': 439, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 640} memo=3995
+00:14:34   progress: {'nodes': 4500, 'memo': 5432, 'sent_quick': 2908, 'sent_rec': 367, 'split_no': 47, 'yes': 440, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 733} memo=4495
+00:14:39   progress: {'nodes': 5000, 'memo': 5500, 'sent_quick': 3284, 'sent_rec': 387, 'split_no': 47, 'yes': 440, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 837} memo=4995
+00:14:46   progress: {'nodes': 5500, 'memo': 6093, 'sent_quick': 3666, 'sent_rec': 437, 'split_no': 53, 'yes': 450, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 889} memo=5495
+00:14:52   progress: {'nodes': 6000, 'memo': 6387, 'sent_quick': 4034, 'sent_rec': 450, 'split_no': 55, 'yes': 456, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 998} memo=5993
+00:15:03   progress: {'nodes': 6500, 'memo': 7059, 'sent_quick': 4412, 'sent_rec': 494, 'split_no': 57, 'yes': 456, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 1077} memo=6496
+00:15:17   progress: {'nodes': 7000, 'memo': 8923, 'sent_quick': 4643, 'sent_rec': 605, 'split_no': 61, 'yes': 520, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 1165} memo=6994
+00:15:24   progress: {'nodes': 7500, 'memo': 9146, 'sent_quick': 5099, 'sent_rec': 634, 'split_no': 62, 'yes': 520, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 1180} memo=7495
+00:15:32   progress: {'nodes': 8000, 'memo': 9327, 'sent_quick': 5565, 'sent_rec': 655, 'split_no': 63, 'yes': 520, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 1192} memo=7995
+00:15:40   progress: {'nodes': 8500, 'memo': 9594, 'sent_quick': 6009, 'sent_rec': 687, 'split_no': 64, 'yes': 522, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 1213} memo=8495
+00:15:46   progress: {'nodes': 9000, 'memo': 9859, 'sent_quick': 6425, 'sent_rec': 698, 'split_no': 65, 'yes': 531, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 1275} memo=8994
+00:15:56   progress: {'nodes': 9500, 'memo': 10439, 'sent_quick': 6827, 'sent_rec': 743, 'split_no': 66, 'yes': 532, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 1327} memo=9495
+00:16:01   progress: {'nodes': 10000, 'memo': 10759, 'sent_quick': 7233, 'sent_rec': 772, 'split_no': 67, 'yes': 532, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 1390} memo=9994
+00:16:04   progress: {'nodes': 10500, 'memo': 11257, 'sent_quick': 7659, 'sent_rec': 844, 'split_no': 70, 'yes': 533, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 1390} memo=10496
+00:16:13   progress: {'nodes': 11000, 'memo': 11906, 'sent_quick': 8114, 'sent_rec': 874, 'split_no': 70, 'yes': 545, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 1392} memo=10995
+00:16:21   progress: {'nodes': 11500, 'memo': 12303, 'sent_quick': 8559, 'sent_rec': 904, 'split_no': 71, 'yes': 545, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 1416} memo=11495
+00:16:26   progress: {'nodes': 12000, 'memo': 12338, 'sent_quick': 8962, 'sent_rec': 906, 'split_no': 71, 'yes': 545, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 1511} memo=11995
+00:16:31   progress: {'nodes': 12500, 'memo': 12660, 'sent_quick': 9182, 'sent_rec': 920, 'split_no': 73, 'yes': 545, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 1774} memo=12494
+00:16:34   progress: {'nodes': 13000, 'memo': 12711, 'sent_quick': 9426, 'sent_rec': 921, 'split_no': 74, 'yes': 545, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2028} memo=12994
+00:16:41   progress: {'nodes': 13500, 'memo': 12926, 'sent_quick': 9815, 'sent_rec': 954, 'split_no': 75, 'yes': 545, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2106} memo=13495
+00:16:45   progress: {'nodes': 14000, 'memo': 12945, 'sent_quick': 10215, 'sent_rec': 955, 'split_no': 75, 'yes': 545, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2205} memo=13995
+00:16:55   progress: {'nodes': 14500, 'memo': 13334, 'sent_quick': 10638, 'sent_rec': 1007, 'split_no': 76, 'yes': 546, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2228} memo=14495
+00:16:59   progress: {'nodes': 15000, 'memo': 13651, 'sent_quick': 11037, 'sent_rec': 1046, 'split_no': 77, 'yes': 546, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2288} memo=14994
+00:17:07   progress: {'nodes': 15500, 'memo': 14061, 'sent_quick': 11457, 'sent_rec': 1100, 'split_no': 78, 'yes': 546, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2314} memo=15495
+00:17:15   progress: {'nodes': 16000, 'memo': 14368, 'sent_quick': 11899, 'sent_rec': 1134, 'split_no': 79, 'yes': 546, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2337} memo=15995
+00:17:20   progress: {'nodes': 16500, 'memo': 14375, 'sent_quick': 12361, 'sent_rec': 1137, 'split_no': 79, 'yes': 546, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2372} memo=16495
+00:17:26   progress: {'nodes': 17000, 'memo': 14612, 'sent_quick': 12805, 'sent_rec': 1157, 'split_no': 80, 'yes': 552, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2401} memo=16995
+00:17:30   progress: {'nodes': 17500, 'memo': 14635, 'sent_quick': 13248, 'sent_rec': 1157, 'split_no': 80, 'yes': 552, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2458} memo=17495
+00:17:37   progress: {'nodes': 18000, 'memo': 14993, 'sent_quick': 13700, 'sent_rec': 1183, 'split_no': 81, 'yes': 552, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2479} memo=17995
+00:17:44   progress: {'nodes': 18500, 'memo': 15288, 'sent_quick': 14112, 'sent_rec': 1214, 'split_no': 82, 'yes': 552, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2535} memo=18495
+00:17:49   progress: {'nodes': 19000, 'memo': 15383, 'sent_quick': 14564, 'sent_rec': 1218, 'split_no': 82, 'yes': 552, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2579} memo=18995
+00:17:56   progress: {'nodes': 19500, 'memo': 15595, 'sent_quick': 15019, 'sent_rec': 1240, 'split_no': 83, 'yes': 552, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2601} memo=19495
+00:18:02   progress: {'nodes': 20000, 'memo': 15839, 'sent_quick': 15451, 'sent_rec': 1258, 'split_no': 84, 'yes': 553, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2649} memo=19995
+00:18:10   progress: {'nodes': 20500, 'memo': 16003, 'sent_quick': 15914, 'sent_rec': 1281, 'split_no': 84, 'yes': 553, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2663} memo=20495
+00:18:16   progress: {'nodes': 21000, 'memo': 16271, 'sent_quick': 16331, 'sent_rec': 1317, 'split_no': 85, 'yes': 553, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2709} memo=20995
+00:18:22   progress: {'nodes': 21500, 'memo': 16351, 'sent_quick': 16802, 'sent_rec': 1332, 'split_no': 85, 'yes': 553, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2723} memo=21495
+00:18:29   progress: {'nodes': 22000, 'memo': 16547, 'sent_quick': 17243, 'sent_rec': 1355, 'split_no': 86, 'yes': 553, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2758} memo=21995
+00:18:34   progress: {'nodes': 22500, 'memo': 16558, 'sent_quick': 17717, 'sent_rec': 1358, 'split_no': 86, 'yes': 553, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2781} memo=22495
+00:18:41   progress: {'nodes': 23000, 'memo': 16847, 'sent_quick': 18176, 'sent_rec': 1379, 'split_no': 87, 'yes': 553, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2800} memo=22995
+00:18:48   progress: {'nodes': 23500, 'memo': 17264, 'sent_quick': 18627, 'sent_rec': 1398, 'split_no': 88, 'yes': 554, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2828} memo=23495
+00:18:58   progress: {'nodes': 24000, 'memo': 17891, 'sent_quick': 19041, 'sent_rec': 1434, 'split_no': 89, 'yes': 558, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2873} memo=23995
+00:19:06   progress: {'nodes': 24500, 'memo': 18063, 'sent_quick': 19502, 'sent_rec': 1461, 'split_no': 89, 'yes': 558, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2885} memo=24495
+00:19:15   progress: {'nodes': 25000, 'memo': 18624, 'sent_quick': 19907, 'sent_rec': 1492, 'split_no': 90, 'yes': 558, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2948} memo=24995
+00:19:20   progress: {'nodes': 25500, 'memo': 18725, 'sent_quick': 20355, 'sent_rec': 1505, 'split_no': 90, 'yes': 558, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 2987} memo=25495
+00:19:35   progress: {'nodes': 26000, 'memo': 20196, 'sent_quick': 20688, 'sent_rec': 1575, 'split_no': 92, 'yes': 560, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 3080} memo=25995
+00:19:40   progress: {'nodes': 26500, 'memo': 20369, 'sent_quick': 21077, 'sent_rec': 1575, 'split_no': 92, 'yes': 560, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 3191} memo=26495
+00:19:48   progress: {'nodes': 27000, 'memo': 20924, 'sent_quick': 21422, 'sent_rec': 1601, 'split_no': 93, 'yes': 560, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 3319} memo=26995
+00:19:51   progress: {'nodes': 27500, 'memo': 21091, 'sent_quick': 21765, 'sent_rec': 1601, 'split_no': 93, 'yes': 560, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 3476} memo=27495
+00:20:26   progress: {'nodes': 28000, 'memo': 24227, 'sent_quick': 22020, 'sent_rec': 1730, 'split_no': 94, 'yes': 563, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 3589} memo=27996
+00:20:35   progress: {'nodes': 28500, 'memo': 24797, 'sent_quick': 22443, 'sent_rec': 1752, 'split_no': 95, 'yes': 585, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 3620} memo=28495
+00:20:42   progress: {'nodes': 29000, 'memo': 25123, 'sent_quick': 22766, 'sent_rec': 1789, 'split_no': 96, 'yes': 585, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 3759} memo=28995
+00:20:47   progress: {'nodes': 29500, 'memo': 25230, 'sent_quick': 23198, 'sent_rec': 1802, 'split_no': 96, 'yes': 585, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 3814} memo=29495
+00:20:53   progress: {'nodes': 30000, 'memo': 25380, 'sent_quick': 23559, 'sent_rec': 1812, 'split_no': 97, 'yes': 585, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 3942} memo=29995
+00:21:01   progress: {'nodes': 30500, 'memo': 25770, 'sent_quick': 23946, 'sent_rec': 1866, 'split_no': 98, 'yes': 586, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 3999} memo=30495
+00:21:07   progress: {'nodes': 31000, 'memo': 26022, 'sent_quick': 24322, 'sent_rec': 1881, 'split_no': 99, 'yes': 586, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 4107} memo=30995
+00:21:14   progress: {'nodes': 31500, 'memo': 26469, 'sent_quick': 24620, 'sent_rec': 1902, 'split_no': 101, 'yes': 587, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 4285} memo=31495
+00:21:23   progress: {'nodes': 32000, 'memo': 26885, 'sent_quick': 25037, 'sent_rec': 1949, 'split_no': 102, 'yes': 587, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 4320} memo=31995
+00:21:28   progress: {'nodes': 32500, 'memo': 27002, 'sent_quick': 25479, 'sent_rec': 1957, 'split_no': 102, 'yes': 587, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 4370} memo=32495
+00:21:41   progress: {'nodes': 33000, 'memo': 27894, 'sent_quick': 25849, 'sent_rec': 2006, 'split_no': 103, 'yes': 587, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 4450} memo=32995
+00:21:45   progress: {'nodes': 33500, 'memo': 27907, 'sent_quick': 26251, 'sent_rec': 2006, 'split_no': 103, 'yes': 587, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 4548} memo=33495
+00:21:52   progress: {'nodes': 34000, 'memo': 28170, 'sent_quick': 26712, 'sent_rec': 2018, 'split_no': 104, 'yes': 587, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 4574} memo=33995
+00:22:03   progress: {'nodes': 34500, 'memo': 28831, 'sent_quick': 27105, 'sent_rec': 2057, 'split_no': 105, 'yes': 587, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 4641} memo=34495
+00:22:08   progress: {'nodes': 35000, 'memo': 28867, 'sent_quick': 27536, 'sent_rec': 2061, 'split_no': 105, 'yes': 587, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 4706} memo=34995
+00:22:33   progress: {'nodes': 35500, 'memo': 31678, 'sent_quick': 27784, 'sent_rec': 2152, 'split_no': 107, 'yes': 638, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 4814} memo=35495
+00:22:46   progress: {'nodes': 36000, 'memo': 32479, 'sent_quick': 28155, 'sent_rec': 2237, 'split_no': 108, 'yes': 639, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 4856} memo=35995
+00:22:52   progress: {'nodes': 36500, 'memo': 32705, 'sent_quick': 28516, 'sent_rec': 2252, 'split_no': 109, 'yes': 639, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 4979} memo=36495
+00:22:58   progress: {'nodes': 37000, 'memo': 32959, 'sent_quick': 28742, 'sent_rec': 2281, 'split_no': 110, 'yes': 639, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 5223} memo=36995
+00:23:08   progress: {'nodes': 37500, 'memo': 33509, 'sent_quick': 29072, 'sent_rec': 2359, 'split_no': 110, 'yes': 639, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 5315} memo=37495
+00:23:13   progress: {'nodes': 38000, 'memo': 33730, 'sent_quick': 29334, 'sent_rec': 2367, 'split_no': 111, 'yes': 645, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 5537} memo=37994
+00:23:21   progress: {'nodes': 38500, 'memo': 34316, 'sent_quick': 29621, 'sent_rec': 2408, 'split_no': 112, 'yes': 646, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 5708} memo=38495
+00:23:28   progress: {'nodes': 39000, 'memo': 34459, 'sent_quick': 30060, 'sent_rec': 2420, 'split_no': 112, 'yes': 646, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 5757} memo=38995
+00:23:37   progress: {'nodes': 39500, 'memo': 34940, 'sent_quick': 30287, 'sent_rec': 2487, 'split_no': 114, 'yes': 647, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 5960} memo=39495
+00:23:43   progress: {'nodes': 40000, 'memo': 35055, 'sent_quick': 30664, 'sent_rec': 2503, 'split_no': 114, 'yes': 647, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 6067} memo=39995
+00:23:52   progress: {'nodes': 40500, 'memo': 35534, 'sent_quick': 31017, 'sent_rec': 2556, 'split_no': 115, 'yes': 647, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 6160} memo=40495
+00:24:00   progress: {'nodes': 41000, 'memo': 35980, 'sent_quick': 31367, 'sent_rec': 2584, 'split_no': 116, 'yes': 649, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 6279} memo=40995
+00:24:10   progress: {'nodes': 41500, 'memo': 36661, 'sent_quick': 31761, 'sent_rec': 2622, 'split_no': 117, 'yes': 649, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 6346} memo=41495
+00:24:18   progress: {'nodes': 42000, 'memo': 37254, 'sent_quick': 32161, 'sent_rec': 2638, 'split_no': 119, 'yes': 649, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 6427} memo=41994
+00:24:25   progress: {'nodes': 42500, 'memo': 37491, 'sent_quick': 32527, 'sent_rec': 2653, 'split_no': 120, 'yes': 649, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 6546} memo=42495
+00:24:33   progress: {'nodes': 43000, 'memo': 37971, 'sent_quick': 32874, 'sent_rec': 2691, 'split_no': 122, 'yes': 649, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 6659} memo=42995
+00:24:41   progress: {'nodes': 43500, 'memo': 38426, 'sent_quick': 33194, 'sent_rec': 2733, 'split_no': 123, 'yes': 649, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 6796} memo=43495
+00:24:45   progress: {'nodes': 44000, 'memo': 38535, 'sent_quick': 33530, 'sent_rec': 2739, 'split_no': 123, 'yes': 649, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 6954} memo=43995
+00:24:52   progress: {'nodes': 44500, 'memo': 38829, 'sent_quick': 33904, 'sent_rec': 2756, 'split_no': 125, 'yes': 649, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 7061} memo=44495
+00:24:59   progress: {'nodes': 45000, 'memo': 39024, 'sent_quick': 34265, 'sent_rec': 2766, 'split_no': 126, 'yes': 649, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 7189} memo=44995
+00:25:06   progress: {'nodes': 45500, 'memo': 39284, 'sent_quick': 34665, 'sent_rec': 2782, 'split_no': 127, 'yes': 649, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 7272} memo=45495
+00:25:12   progress: {'nodes': 46000, 'memo': 39750, 'sent_quick': 34937, 'sent_rec': 2790, 'split_no': 129, 'yes': 650, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 7488} memo=45994
+00:25:20   progress: {'nodes': 46500, 'memo': 40172, 'sent_quick': 35368, 'sent_rec': 2814, 'split_no': 130, 'yes': 650, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 7533} memo=46495
+00:25:28   progress: {'nodes': 47000, 'memo': 40453, 'sent_quick': 35800, 'sent_rec': 2834, 'split_no': 131, 'yes': 650, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 7580} memo=46995
+00:25:35   progress: {'nodes': 47500, 'memo': 40889, 'sent_quick': 36138, 'sent_rec': 2856, 'split_no': 132, 'yes': 650, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 7719} memo=47495
+00:25:41   progress: {'nodes': 48000, 'memo': 41106, 'sent_quick': 36562, 'sent_rec': 2864, 'split_no': 132, 'yes': 650, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 7787} memo=47995
+00:25:49   progress: {'nodes': 48500, 'memo': 41555, 'sent_quick': 36933, 'sent_rec': 2901, 'split_no': 133, 'yes': 652, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 7876} memo=48495
+00:25:58   progress: {'nodes': 49000, 'memo': 41927, 'sent_quick': 37322, 'sent_rec': 2924, 'split_no': 134, 'yes': 652, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 7963} memo=48995
+00:26:06   progress: {'nodes': 49500, 'memo': 42040, 'sent_quick': 37717, 'sent_rec': 2935, 'split_no': 134, 'yes': 652, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 8057} memo=49495
+00:26:13   progress: {'nodes': 50000, 'memo': 42238, 'sent_quick': 38063, 'sent_rec': 2953, 'split_no': 135, 'yes': 654, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 8190} memo=49995
+00:26:19   progress: {'nodes': 50500, 'memo': 42275, 'sent_quick': 38454, 'sent_rec': 2954, 'split_no': 135, 'yes': 654, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 8298} memo=50495
+00:26:25   progress: {'nodes': 51000, 'memo': 42517, 'sent_quick': 38835, 'sent_rec': 2961, 'split_no': 136, 'yes': 658, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 8405} memo=50995
+00:26:34   progress: {'nodes': 51500, 'memo': 43065, 'sent_quick': 39184, 'sent_rec': 2988, 'split_no': 138, 'yes': 658, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 8527} memo=51495
+00:26:41   progress: {'nodes': 52000, 'memo': 43202, 'sent_quick': 39561, 'sent_rec': 3005, 'split_no': 138, 'yes': 658, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 8633} memo=51995
+00:26:49   progress: {'nodes': 52500, 'memo': 43529, 'sent_quick': 39955, 'sent_rec': 3019, 'split_no': 139, 'yes': 658, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 8724} memo=52495
+00:26:58   progress: {'nodes': 53000, 'memo': 44110, 'sent_quick': 40347, 'sent_rec': 3056, 'split_no': 140, 'yes': 658, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 8794} memo=52995
+00:27:08   progress: {'nodes': 53500, 'memo': 44929, 'sent_quick': 40608, 'sent_rec': 3085, 'split_no': 141, 'yes': 658, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 9003} memo=53495
+00:27:17   progress: {'nodes': 54000, 'memo': 45821, 'sent_quick': 40839, 'sent_rec': 3107, 'split_no': 142, 'yes': 660, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 9247} memo=53995
+00:27:22   progress: {'nodes': 54500, 'memo': 46401, 'sent_quick': 41176, 'sent_rec': 3111, 'split_no': 143, 'yes': 661, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 9404} memo=54495
+00:27:33   progress: {'nodes': 55000, 'memo': 47229, 'sent_quick': 41386, 'sent_rec': 3146, 'split_no': 144, 'yes': 661, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 9659} memo=54996
+00:27:42   progress: {'nodes': 55500, 'memo': 48212, 'sent_quick': 41702, 'sent_rec': 3184, 'split_no': 145, 'yes': 693, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 9771} memo=55495
+00:27:48   progress: {'nodes': 56000, 'memo': 48585, 'sent_quick': 42032, 'sent_rec': 3206, 'split_no': 146, 'yes': 693, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 9918} memo=55995
+00:27:58   progress: {'nodes': 56500, 'memo': 49396, 'sent_quick': 42354, 'sent_rec': 3265, 'split_no': 147, 'yes': 694, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 10035} memo=56495
+00:28:03   progress: {'nodes': 57000, 'memo': 49670, 'sent_quick': 42701, 'sent_rec': 3281, 'split_no': 148, 'yes': 694, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 10171} memo=56995
+00:28:11   progress: {'nodes': 57500, 'memo': 49920, 'sent_quick': 43123, 'sent_rec': 3307, 'split_no': 148, 'yes': 694, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 10223} memo=57495
+00:28:21   progress: {'nodes': 58000, 'memo': 50359, 'sent_quick': 43469, 'sent_rec': 3356, 'split_no': 149, 'yes': 694, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 10327} memo=57995
+00:28:27   progress: {'nodes': 58500, 'memo': 50786, 'sent_quick': 43860, 'sent_rec': 3361, 'split_no': 150, 'yes': 695, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 10429} memo=58495
+00:28:36   progress: {'nodes': 59000, 'memo': 51203, 'sent_quick': 44246, 'sent_rec': 3395, 'split_no': 151, 'yes': 695, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 10508} memo=58995
+00:28:43   progress: {'nodes': 59500, 'memo': 51521, 'sent_quick': 44599, 'sent_rec': 3412, 'split_no': 152, 'yes': 695, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 10637} memo=59495
+00:28:50   progress: {'nodes': 60000, 'memo': 51991, 'sent_quick': 44910, 'sent_rec': 3436, 'split_no': 153, 'yes': 695, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 10801} memo=59995
+00:28:54   progress: {'nodes': 60500, 'memo': 52213, 'sent_quick': 45241, 'sent_rec': 3440, 'split_no': 153, 'yes': 695, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 10966} memo=60495
+00:29:03   progress: {'nodes': 61000, 'memo': 52723, 'sent_quick': 45626, 'sent_rec': 3464, 'split_no': 154, 'yes': 695, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 11056} memo=60995
+00:29:11   progress: {'nodes': 61500, 'memo': 53124, 'sent_quick': 45999, 'sent_rec': 3488, 'split_no': 155, 'yes': 695, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 11158} memo=61495
+00:29:17   progress: {'nodes': 62000, 'memo': 53292, 'sent_quick': 46404, 'sent_rec': 3493, 'split_no': 156, 'yes': 695, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 11247} memo=61995
+00:29:24   progress: {'nodes': 62500, 'memo': 53496, 'sent_quick': 46852, 'sent_rec': 3505, 'split_no': 156, 'yes': 695, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 11287} memo=62495
+00:29:30   progress: {'nodes': 63000, 'memo': 53761, 'sent_quick': 47215, 'sent_rec': 3515, 'split_no': 157, 'yes': 695, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 11413} memo=62995
+00:29:37   progress: {'nodes': 63500, 'memo': 54049, 'sent_quick': 47603, 'sent_rec': 3527, 'split_no': 158, 'yes': 695, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 11512} memo=63495
+00:29:45   progress: {'nodes': 64000, 'memo': 54440, 'sent_quick': 47978, 'sent_rec': 3563, 'split_no': 159, 'yes': 695, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 11600} memo=63995
+00:29:52   progress: {'nodes': 64500, 'memo': 54509, 'sent_quick': 48446, 'sent_rec': 3565, 'split_no': 159, 'yes': 695, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 11630} memo=64495
+00:30:02   progress: {'nodes': 65000, 'memo': 55122, 'sent_quick': 48848, 'sent_rec': 3589, 'split_no': 160, 'yes': 695, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 11703} memo=64995
+00:30:06   progress: {'nodes': 65500, 'memo': 55151, 'sent_quick': 49131, 'sent_rec': 3589, 'split_no': 160, 'yes': 695, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 11920} memo=65495
+00:30:13   progress: {'nodes': 66000, 'memo': 55275, 'sent_quick': 49554, 'sent_rec': 3592, 'split_no': 161, 'yes': 695, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 11993} memo=65995
+00:30:17   progress: {'nodes': 66500, 'memo': 55407, 'sent_quick': 49869, 'sent_rec': 3595, 'split_no': 162, 'yes': 695, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 12174} memo=66495
+00:30:24   progress: {'nodes': 67000, 'memo': 55818, 'sent_quick': 50249, 'sent_rec': 3602, 'split_no': 163, 'yes': 695, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 12286} memo=66995
+00:30:31   progress: {'nodes': 67500, 'memo': 56273, 'sent_quick': 50650, 'sent_rec': 3619, 'split_no': 164, 'yes': 695, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 12367} memo=67495
+00:30:36   progress: {'nodes': 68000, 'memo': 56361, 'sent_quick': 50994, 'sent_rec': 3620, 'split_no': 164, 'yes': 695, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 12522} memo=67995
+00:30:46   progress: {'nodes': 68500, 'memo': 57038, 'sent_quick': 51318, 'sent_rec': 3643, 'split_no': 165, 'yes': 695, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 12674} memo=68495
+00:30:52   progress: {'nodes': 69000, 'memo': 57562, 'sent_quick': 51551, 'sent_rec': 3659, 'split_no': 166, 'yes': 695, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 12925} memo=68996
+00:31:03   progress: {'nodes': 69500, 'memo': 58419, 'sent_quick': 51880, 'sent_rec': 3689, 'split_no': 167, 'yes': 711, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 13048} memo=69495
+00:31:09   progress: {'nodes': 70000, 'memo': 58671, 'sent_quick': 52239, 'sent_rec': 3700, 'split_no': 168, 'yes': 711, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 13177} memo=69995
+00:31:15   progress: {'nodes': 70500, 'memo': 58794, 'sent_quick': 52659, 'sent_rec': 3705, 'split_no': 168, 'yes': 711, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 13252} memo=70495
+00:31:28   progress: {'nodes': 71000, 'memo': 59728, 'sent_quick': 53004, 'sent_rec': 3746, 'split_no': 169, 'yes': 711, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 13365} memo=70995
+00:31:32   progress: {'nodes': 71500, 'memo': 59761, 'sent_quick': 53381, 'sent_rec': 3746, 'split_no': 169, 'yes': 711, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 13488} memo=71495
+00:31:45   progress: {'nodes': 72000, 'memo': 60452, 'sent_quick': 53797, 'sent_rec': 3777, 'split_no': 170, 'yes': 711, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 13540} memo=71995
+00:32:00   progress: {'nodes': 72500, 'memo': 61748, 'sent_quick': 54105, 'sent_rec': 3825, 'split_no': 171, 'yes': 711, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 13684} memo=72496
+00:32:10   progress: {'nodes': 73000, 'memo': 62906, 'sent_quick': 54329, 'sent_rec': 3863, 'split_no': 173, 'yes': 742, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 13888} memo=72995
+00:32:18   progress: {'nodes': 73500, 'memo': 63406, 'sent_quick': 54762, 'sent_rec': 3883, 'split_no': 174, 'yes': 742, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 13934} memo=73495
+00:32:26   progress: {'nodes': 74000, 'memo': 63986, 'sent_quick': 55112, 'sent_rec': 3909, 'split_no': 175, 'yes': 742, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 14057} memo=73995
+00:32:31   progress: {'nodes': 74500, 'memo': 64223, 'sent_quick': 55385, 'sent_rec': 3925, 'split_no': 176, 'yes': 742, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 14267} memo=74495
+00:32:37   progress: {'nodes': 75000, 'memo': 64576, 'sent_quick': 55701, 'sent_rec': 3941, 'split_no': 177, 'yes': 742, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 14434} memo=74995
+00:32:43   progress: {'nodes': 75500, 'memo': 64731, 'sent_quick': 56104, 'sent_rec': 3957, 'split_no': 177, 'yes': 742, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 14515} memo=75495
+00:32:50   progress: {'nodes': 76000, 'memo': 65088, 'sent_quick': 56434, 'sent_rec': 3979, 'split_no': 178, 'yes': 742, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 14662} memo=75995
+00:32:57   progress: {'nodes': 76500, 'memo': 65500, 'sent_quick': 56723, 'sent_rec': 3995, 'split_no': 179, 'yes': 742, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 14856} memo=76495
+00:33:03   progress: {'nodes': 77000, 'memo': 65818, 'sent_quick': 57098, 'sent_rec': 4001, 'split_no': 179, 'yes': 742, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 14975} memo=76995
+00:33:10   progress: {'nodes': 77500, 'memo': 66146, 'sent_quick': 57478, 'sent_rec': 4014, 'split_no': 180, 'yes': 742, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 15081} memo=77495
+00:33:14   progress: {'nodes': 78000, 'memo': 66371, 'sent_quick': 57749, 'sent_rec': 4027, 'split_no': 181, 'yes': 742, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 15296} memo=77995
+00:33:19   progress: {'nodes': 78500, 'memo': 66450, 'sent_quick': 58143, 'sent_rec': 4034, 'split_no': 181, 'yes': 742, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 15395} memo=78495
+00:33:25   progress: {'nodes': 79000, 'memo': 66663, 'sent_quick': 58430, 'sent_rec': 4057, 'split_no': 182, 'yes': 742, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 15584} memo=78995
+00:33:29   progress: {'nodes': 79500, 'memo': 66710, 'sent_quick': 58832, 'sent_rec': 4057, 'split_no': 182, 'yes': 742, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 15682} memo=79495
+00:33:36   progress: {'nodes': 80000, 'memo': 67197, 'sent_quick': 59182, 'sent_rec': 4070, 'split_no': 183, 'yes': 742, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 15818} memo=79995
+00:33:45   progress: {'nodes': 80500, 'memo': 68209, 'sent_quick': 59476, 'sent_rec': 4092, 'split_no': 184, 'yes': 742, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 16001} memo=80495
+00:33:52   progress: {'nodes': 81000, 'memo': 68523, 'sent_quick': 59812, 'sent_rec': 4107, 'split_no': 185, 'yes': 742, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 16149} memo=80995
+00:34:03   progress: {'nodes': 81500, 'memo': 69302, 'sent_quick': 60161, 'sent_rec': 4143, 'split_no': 186, 'yes': 742, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 16263} memo=81495
+00:34:07   progress: {'nodes': 82000, 'memo': 69456, 'sent_quick': 60465, 'sent_rec': 4153, 'split_no': 187, 'yes': 742, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 16448} memo=81995
+00:34:13   progress: {'nodes': 82500, 'memo': 69681, 'sent_quick': 60834, 'sent_rec': 4159, 'split_no': 187, 'yes': 742, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 16573} memo=82495
+00:34:19   progress: {'nodes': 83000, 'memo': 69837, 'sent_quick': 61181, 'sent_rec': 4163, 'split_no': 188, 'yes': 742, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 16721} memo=82995
+00:34:22   progress: {'nodes': 83500, 'memo': 69881, 'sent_quick': 61477, 'sent_rec': 4163, 'split_no': 188, 'yes': 742, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 16925} memo=83495
+00:34:28   progress: {'nodes': 84000, 'memo': 70067, 'sent_quick': 61904, 'sent_rec': 4170, 'split_no': 189, 'yes': 742, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 16990} memo=83995
+00:34:49   progress: {'nodes': 84500, 'memo': 72106, 'sent_quick': 62165, 'sent_rec': 4248, 'split_no': 190, 'yes': 742, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 17151} memo=84496
+00:35:03   progress: {'nodes': 85000, 'memo': 73343, 'sent_quick': 62370, 'sent_rec': 4292, 'split_no': 190, 'yes': 742, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 17402} memo=84996
+00:35:09   progress: {'nodes': 85500, 'memo': 73910, 'sent_quick': 62579, 'sent_rec': 4314, 'split_no': 191, 'yes': 758, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 17653} memo=85495
+00:35:15   progress: {'nodes': 86000, 'memo': 74195, 'sent_quick': 62847, 'sent_rec': 4335, 'split_no': 192, 'yes': 758, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 17863} memo=85995
+00:35:20   progress: {'nodes': 86500, 'memo': 74314, 'sent_quick': 63171, 'sent_rec': 4342, 'split_no': 192, 'yes': 758, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 18032} memo=86495
+00:35:27   progress: {'nodes': 87000, 'memo': 74636, 'sent_quick': 63384, 'sent_rec': 4378, 'split_no': 194, 'yes': 758, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 18281} memo=86995
+00:35:32   progress: {'nodes': 87500, 'memo': 74726, 'sent_quick': 63766, 'sent_rec': 4385, 'split_no': 194, 'yes': 758, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 18392} memo=87495
+00:35:39   progress: {'nodes': 88000, 'memo': 74981, 'sent_quick': 64124, 'sent_rec': 4410, 'split_no': 195, 'yes': 758, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 18508} memo=87995
+00:35:45   progress: {'nodes': 88500, 'memo': 75442, 'sent_quick': 64412, 'sent_rec': 4430, 'split_no': 196, 'yes': 758, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 18699} memo=88495
+00:35:50   progress: {'nodes': 89000, 'memo': 75774, 'sent_quick': 64708, 'sent_rec': 4440, 'split_no': 197, 'yes': 758, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 18892} memo=88995
+00:35:59   progress: {'nodes': 89500, 'memo': 76226, 'sent_quick': 65164, 'sent_rec': 4459, 'split_no': 197, 'yes': 758, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 18917} memo=89495
+00:36:08   progress: {'nodes': 90000, 'memo': 77139, 'sent_quick': 65570, 'sent_rec': 4485, 'split_no': 199, 'yes': 758, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 18984} memo=89996
+00:36:15   progress: {'nodes': 90500, 'memo': 77360, 'sent_quick': 65997, 'sent_rec': 4508, 'split_no': 199, 'yes': 758, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 19033} memo=90495
+00:36:20   progress: {'nodes': 91000, 'memo': 77652, 'sent_quick': 66333, 'sent_rec': 4521, 'split_no': 200, 'yes': 758, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 19183} memo=90995
+00:36:24   progress: {'nodes': 91500, 'memo': 77832, 'sent_quick': 66684, 'sent_rec': 4527, 'split_no': 200, 'yes': 758, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 19326} memo=91495
+00:36:33   progress: {'nodes': 92000, 'memo': 78229, 'sent_quick': 67116, 'sent_rec': 4556, 'split_no': 201, 'yes': 758, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 19364} memo=91995
+00:36:40   progress: {'nodes': 92500, 'memo': 78574, 'sent_quick': 67468, 'sent_rec': 4590, 'split_no': 202, 'yes': 758, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 19477} memo=92495
+00:36:44   progress: {'nodes': 93000, 'memo': 78650, 'sent_quick': 67778, 'sent_rec': 4602, 'split_no': 202, 'yes': 758, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 19655} memo=92995
+00:36:51   progress: {'nodes': 93500, 'memo': 78832, 'sent_quick': 68163, 'sent_rec': 4621, 'split_no': 203, 'yes': 758, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 19750} memo=93495
+00:37:01   progress: {'nodes': 94000, 'memo': 79587, 'sent_quick': 68490, 'sent_rec': 4648, 'split_no': 204, 'yes': 758, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 19895} memo=93995
+00:37:06   progress: {'nodes': 94500, 'memo': 79653, 'sent_quick': 68908, 'sent_rec': 4658, 'split_no': 204, 'yes': 758, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 19967} memo=94495
+00:37:14   progress: {'nodes': 95000, 'memo': 80188, 'sent_quick': 69179, 'sent_rec': 4680, 'split_no': 205, 'yes': 758, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 20173} memo=94995
+00:37:17   progress: {'nodes': 95500, 'memo': 80314, 'sent_quick': 69403, 'sent_rec': 4685, 'split_no': 205, 'yes': 758, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 20444} memo=95495
+00:37:23   progress: {'nodes': 96000, 'memo': 80713, 'sent_quick': 69662, 'sent_rec': 4696, 'split_no': 206, 'yes': 758, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 20673} memo=95995
+00:37:26   progress: {'nodes': 96500, 'memo': 81001, 'sent_quick': 69877, 'sent_rec': 4698, 'split_no': 207, 'yes': 758, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 20955} memo=96495
+00:37:30   progress: {'nodes': 97000, 'memo': 81301, 'sent_quick': 70194, 'sent_rec': 4701, 'split_no': 207, 'yes': 758, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 21135} memo=96995
+00:37:36   progress: {'nodes': 97500, 'memo': 81969, 'sent_quick': 70437, 'sent_rec': 4710, 'split_no': 208, 'yes': 758, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 21382} memo=97495
+00:37:49   progress: {'nodes': 98000, 'memo': 83327, 'sent_quick': 70612, 'sent_rec': 4758, 'split_no': 209, 'yes': 761, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 21656} memo=97996
+00:37:57   progress: {'nodes': 98500, 'memo': 83692, 'sent_quick': 70894, 'sent_rec': 4766, 'split_no': 210, 'yes': 774, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 21851} memo=98495
+00:38:02   progress: {'nodes': 99000, 'memo': 83741, 'sent_quick': 71341, 'sent_rec': 4767, 'split_no': 210, 'yes': 774, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 21903} memo=98995
+00:38:32   progress: {'nodes': 99500, 'memo': 87288, 'sent_quick': 71545, 'sent_rec': 4882, 'split_no': 212, 'yes': 798, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 22059} memo=99496
+00:38:45   progress: {'nodes': 100000, 'memo': 88292, 'sent_quick': 71912, 'sent_rec': 4941, 'split_no': 213, 'yes': 803, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 22126} memo=99995
+00:38:55   progress: {'nodes': 100500, 'memo': 89049, 'sent_quick': 72280, 'sent_rec': 4978, 'split_no': 216, 'yes': 819, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 22202} memo=100495
+00:39:02   progress: {'nodes': 101000, 'memo': 89170, 'sent_quick': 72654, 'sent_rec': 4988, 'split_no': 216, 'yes': 819, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 22318} memo=100995
+00:39:09   progress: {'nodes': 101500, 'memo': 89514, 'sent_quick': 72987, 'sent_rec': 5015, 'split_no': 217, 'yes': 820, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 22456} memo=101495
+00:39:15   progress: {'nodes': 102000, 'memo': 89873, 'sent_quick': 73354, 'sent_rec': 5024, 'split_no': 218, 'yes': 820, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 22579} memo=101995
+00:39:26   progress: {'nodes': 102500, 'memo': 90571, 'sent_quick': 73737, 'sent_rec': 5055, 'split_no': 220, 'yes': 820, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 22663} memo=102495
+00:39:34   progress: {'nodes': 103000, 'memo': 91072, 'sent_quick': 74070, 'sent_rec': 5071, 'split_no': 222, 'yes': 824, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 22808} memo=102995
+00:39:41   progress: {'nodes': 103500, 'memo': 91379, 'sent_quick': 74456, 'sent_rec': 5098, 'split_no': 223, 'yes': 824, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 22894} memo=103495
+00:39:49   progress: {'nodes': 104000, 'memo': 91861, 'sent_quick': 74763, 'sent_rec': 5113, 'split_no': 224, 'yes': 824, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 23071} memo=103995
+00:39:54   progress: {'nodes': 104500, 'memo': 92151, 'sent_quick': 75120, 'sent_rec': 5114, 'split_no': 224, 'yes': 824, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 23213} memo=104495
+00:40:03   progress: {'nodes': 105000, 'memo': 93013, 'sent_quick': 75358, 'sent_rec': 5142, 'split_no': 227, 'yes': 838, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 23430} memo=104995
+00:40:09   progress: {'nodes': 105500, 'memo': 93445, 'sent_quick': 75684, 'sent_rec': 5156, 'split_no': 228, 'yes': 839, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 23588} memo=105495
+00:40:15   progress: {'nodes': 106000, 'memo': 93647, 'sent_quick': 76041, 'sent_rec': 5167, 'split_no': 228, 'yes': 839, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 23720} memo=105995
+00:40:23   progress: {'nodes': 106500, 'memo': 94368, 'sent_quick': 76368, 'sent_rec': 5185, 'split_no': 229, 'yes': 839, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 23874} memo=106495
+00:40:31   progress: {'nodes': 107000, 'memo': 94820, 'sent_quick': 76728, 'sent_rec': 5196, 'split_no': 230, 'yes': 839, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 24002} memo=106995
+00:40:37   progress: {'nodes': 107500, 'memo': 95178, 'sent_quick': 77000, 'sent_rec': 5218, 'split_no': 231, 'yes': 839, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 24207} memo=107495
+00:40:43   progress: {'nodes': 108000, 'memo': 95252, 'sent_quick': 77379, 'sent_rec': 5220, 'split_no': 231, 'yes': 839, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 24326} memo=107995
+00:40:48   progress: {'nodes': 108500, 'memo': 95475, 'sent_quick': 77705, 'sent_rec': 5236, 'split_no': 232, 'yes': 839, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 24483} memo=108495
+00:40:54   progress: {'nodes': 109000, 'memo': 95878, 'sent_quick': 77960, 'sent_rec': 5248, 'split_no': 233, 'yes': 839, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 24715} memo=108995
+00:40:58   progress: {'nodes': 109500, 'memo': 96164, 'sent_quick': 78205, 'sent_rec': 5249, 'split_no': 234, 'yes': 839, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 24969} memo=109496
+00:41:08   progress: {'nodes': 110000, 'memo': 96428, 'sent_quick': 78613, 'sent_rec': 5261, 'split_no': 234, 'yes': 839, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 25048} memo=109995
+00:41:24   progress: {'nodes': 110500, 'memo': 97825, 'sent_quick': 78878, 'sent_rec': 5313, 'split_no': 235, 'yes': 839, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 25231} memo=110496
+00:41:31   progress: {'nodes': 111000, 'memo': 98456, 'sent_quick': 79055, 'sent_rec': 5341, 'split_no': 236, 'yes': 844, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 25519} memo=110995
+00:41:38   progress: {'nodes': 111500, 'memo': 98814, 'sent_quick': 79385, 'sent_rec': 5363, 'split_no': 237, 'yes': 844, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 25666} memo=111495
+00:41:45   progress: {'nodes': 112000, 'memo': 99073, 'sent_quick': 79814, 'sent_rec': 5375, 'split_no': 237, 'yes': 844, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 25725} memo=111995
+00:41:52   progress: {'nodes': 112500, 'memo': 99353, 'sent_quick': 80132, 'sent_rec': 5391, 'split_no': 238, 'yes': 845, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 25889} memo=112495
+00:41:57   progress: {'nodes': 113000, 'memo': 99966, 'sent_quick': 80439, 'sent_rec': 5399, 'split_no': 239, 'yes': 845, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 26073} memo=112995
+00:42:04   progress: {'nodes': 113500, 'memo': 100428, 'sent_quick': 80806, 'sent_rec': 5415, 'split_no': 240, 'yes': 845, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 26189} memo=113495
+00:42:12   progress: {'nodes': 114000, 'memo': 100960, 'sent_quick': 81111, 'sent_rec': 5434, 'split_no': 241, 'yes': 845, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 26364} memo=113995
+00:42:18   progress: {'nodes': 114500, 'memo': 101618, 'sent_quick': 81377, 'sent_rec': 5442, 'split_no': 242, 'yes': 845, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 26589} memo=114495
+00:42:29   progress: {'nodes': 115000, 'memo': 102891, 'sent_quick': 81593, 'sent_rec': 5472, 'split_no': 244, 'yes': 846, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 26841} memo=114996
+00:42:33 TRACE case 1/14 closed (1727s, nodes 115092): layer [(4, 5), (6, 7)]
+00:42:46   progress: {'nodes': 115500, 'memo': 105566, 'sent_quick': 81838, 'sent_rec': 5583, 'split_no': 250, 'yes': 900, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 26924} memo=115495
+00:42:56   progress: {'nodes': 116000, 'memo': 106059, 'sent_quick': 82270, 'sent_rec': 5642, 'split_no': 251, 'yes': 900, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 26932} memo=115995
+00:43:16   progress: {'nodes': 116500, 'memo': 107936, 'sent_quick': 82681, 'sent_rec': 5718, 'split_no': 253, 'yes': 906, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 26937} memo=116495
+00:43:22   progress: {'nodes': 117000, 'memo': 107973, 'sent_quick': 83132, 'sent_rec': 5720, 'split_no': 253, 'yes': 906, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 26984} memo=116995
+00:43:29   progress: {'nodes': 117500, 'memo': 108303, 'sent_quick': 83530, 'sent_rec': 5730, 'split_no': 254, 'yes': 906, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 27075} memo=117495
+00:43:36   progress: {'nodes': 118000, 'memo': 108752, 'sent_quick': 83946, 'sent_rec': 5745, 'split_no': 255, 'yes': 906, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 27143} memo=117995
+00:43:42   progress: {'nodes': 118500, 'memo': 108971, 'sent_quick': 84398, 'sent_rec': 5749, 'split_no': 255, 'yes': 906, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 27187} memo=118495
+00:43:52   progress: {'nodes': 119000, 'memo': 109843, 'sent_quick': 84752, 'sent_rec': 5802, 'split_no': 256, 'yes': 906, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 27279} memo=118995
+00:44:11   progress: {'nodes': 119500, 'memo': 111498, 'sent_quick': 85077, 'sent_rec': 5868, 'split_no': 257, 'yes': 906, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 27388} memo=119496
+00:44:19   progress: {'nodes': 120000, 'memo': 112848, 'sent_quick': 85418, 'sent_rec': 5914, 'split_no': 269, 'yes': 948, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 27446} memo=119995
+00:44:24   progress: {'nodes': 120500, 'memo': 112978, 'sent_quick': 85712, 'sent_rec': 5923, 'split_no': 270, 'yes': 948, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 27642} memo=120495
+00:44:29   progress: {'nodes': 121000, 'memo': 113111, 'sent_quick': 86028, 'sent_rec': 5938, 'split_no': 270, 'yes': 948, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 27811} memo=120995
+00:44:37   progress: {'nodes': 121500, 'memo': 113434, 'sent_quick': 86311, 'sent_rec': 5966, 'split_no': 272, 'yes': 949, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 27997} memo=121495
+00:44:43   progress: {'nodes': 122000, 'memo': 113544, 'sent_quick': 86625, 'sent_rec': 5975, 'split_no': 272, 'yes': 949, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 28174} memo=121995
+00:44:50   progress: {'nodes': 122500, 'memo': 113926, 'sent_quick': 86936, 'sent_rec': 5994, 'split_no': 273, 'yes': 954, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 28338} memo=122495
+00:44:54   progress: {'nodes': 123000, 'memo': 114078, 'sent_quick': 87167, 'sent_rec': 6000, 'split_no': 274, 'yes': 955, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 28599} memo=122995
+00:45:00   progress: {'nodes': 123500, 'memo': 114290, 'sent_quick': 87515, 'sent_rec': 6006, 'split_no': 275, 'yes': 955, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 28744} memo=123495
+00:45:07   progress: {'nodes': 124000, 'memo': 115184, 'sent_quick': 87814, 'sent_rec': 6038, 'split_no': 280, 'yes': 959, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 28904} memo=123995
+00:45:11   progress: {'nodes': 124500, 'memo': 115450, 'sent_quick': 88009, 'sent_rec': 6050, 'split_no': 281, 'yes': 959, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 29196} memo=124495
+00:45:15   progress: {'nodes': 125000, 'memo': 115694, 'sent_quick': 88155, 'sent_rec': 6057, 'split_no': 282, 'yes': 961, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 29541} memo=124996
+00:45:23   progress: {'nodes': 125500, 'memo': 115940, 'sent_quick': 88459, 'sent_rec': 6081, 'split_no': 283, 'yes': 961, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 29711} memo=125495
+00:45:29   progress: {'nodes': 126000, 'memo': 116109, 'sent_quick': 88730, 'sent_rec': 6092, 'split_no': 284, 'yes': 962, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 29927} memo=125995
+00:45:33   progress: {'nodes': 126500, 'memo': 116293, 'sent_quick': 88965, 'sent_rec': 6092, 'split_no': 285, 'yes': 962, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 30191} memo=126495
+00:45:36   progress: {'nodes': 127000, 'memo': 116453, 'sent_quick': 89156, 'sent_rec': 6092, 'split_no': 285, 'yes': 962, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 30500} memo=126995
+00:45:44   progress: {'nodes': 127500, 'memo': 117143, 'sent_quick': 89544, 'sent_rec': 6148, 'split_no': 288, 'yes': 963, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 30552} memo=127495
+00:45:51   progress: {'nodes': 128000, 'memo': 117394, 'sent_quick': 89897, 'sent_rec': 6168, 'split_no': 289, 'yes': 963, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 30678} memo=127995
+00:45:54   progress: {'nodes': 128500, 'memo': 117462, 'sent_quick': 90173, 'sent_rec': 6168, 'split_no': 289, 'yes': 963, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 30902} memo=128495
+00:46:00   progress: {'nodes': 129000, 'memo': 117759, 'sent_quick': 90457, 'sent_rec': 6174, 'split_no': 290, 'yes': 963, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 31111} memo=128995
+00:46:04   progress: {'nodes': 129500, 'memo': 117977, 'sent_quick': 90695, 'sent_rec': 6181, 'split_no': 291, 'yes': 963, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 31365} memo=129495
+00:46:08   progress: {'nodes': 130000, 'memo': 118030, 'sent_quick': 90946, 'sent_rec': 6181, 'split_no': 291, 'yes': 963, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 31614} memo=129995
+00:46:13   progress: {'nodes': 130500, 'memo': 118507, 'sent_quick': 91136, 'sent_rec': 6190, 'split_no': 294, 'yes': 973, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 31902} memo=130495
+00:46:23   progress: {'nodes': 131000, 'memo': 118985, 'sent_quick': 91598, 'sent_rec': 6214, 'split_no': 294, 'yes': 973, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 31916} memo=130995
+00:46:33   progress: {'nodes': 131500, 'memo': 119815, 'sent_quick': 92031, 'sent_rec': 6236, 'split_no': 295, 'yes': 973, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 31960} memo=131495
+00:46:56   progress: {'nodes': 132000, 'memo': 122039, 'sent_quick': 92376, 'sent_rec': 6299, 'split_no': 298, 'yes': 994, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 32027} memo=131994
+00:47:13   progress: {'nodes': 132500, 'memo': 123747, 'sent_quick': 92787, 'sent_rec': 6348, 'split_no': 299, 'yes': 1017, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 32044} memo=132495
+00:47:19   progress: {'nodes': 133000, 'memo': 123998, 'sent_quick': 93167, 'sent_rec': 6358, 'split_no': 300, 'yes': 1017, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 32153} memo=132995
+00:47:23   progress: {'nodes': 133500, 'memo': 124167, 'sent_quick': 93555, 'sent_rec': 6361, 'split_no': 300, 'yes': 1017, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 32262} memo=133495
+00:47:31   progress: {'nodes': 134000, 'memo': 124377, 'sent_quick': 94010, 'sent_rec': 6375, 'split_no': 301, 'yes': 1017, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 32292} memo=133995
+00:47:50   progress: {'nodes': 134500, 'memo': 126130, 'sent_quick': 94369, 'sent_rec': 6432, 'split_no': 302, 'yes': 1017, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 32375} memo=134495
+00:47:55   progress: {'nodes': 135000, 'memo': 126543, 'sent_quick': 94565, 'sent_rec': 6441, 'split_no': 303, 'yes': 1017, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 32670} memo=134996
+00:48:03   progress: {'nodes': 135500, 'memo': 127131, 'sent_quick': 94849, 'sent_rec': 6472, 'split_no': 304, 'yes': 1034, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 32836} memo=135495
+00:48:10   progress: {'nodes': 136000, 'memo': 127592, 'sent_quick': 95127, 'sent_rec': 6514, 'split_no': 305, 'yes': 1034, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 33015} memo=135995
+00:48:18   progress: {'nodes': 136500, 'memo': 128126, 'sent_quick': 95403, 'sent_rec': 6539, 'split_no': 306, 'yes': 1040, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 33207} memo=136495
+00:48:23   progress: {'nodes': 137000, 'memo': 128161, 'sent_quick': 95722, 'sent_rec': 6542, 'split_no': 306, 'yes': 1040, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 33385} memo=136995
+00:48:35   progress: {'nodes': 137500, 'memo': 128942, 'sent_quick': 96000, 'sent_rec': 6589, 'split_no': 308, 'yes': 1040, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 33558} memo=137495
+00:48:41   progress: {'nodes': 138000, 'memo': 129042, 'sent_quick': 96376, 'sent_rec': 6604, 'split_no': 308, 'yes': 1040, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 33667} memo=137995
+00:48:46   progress: {'nodes': 138500, 'memo': 129201, 'sent_quick': 96640, 'sent_rec': 6615, 'split_no': 309, 'yes': 1042, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 33889} memo=138495
+00:49:04   progress: {'nodes': 139000, 'memo': 130869, 'sent_quick': 96774, 'sent_rec': 6676, 'split_no': 311, 'yes': 1059, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 34176} memo=138996
+00:49:14   progress: {'nodes': 139500, 'memo': 131804, 'sent_quick': 97070, 'sent_rec': 6697, 'split_no': 312, 'yes': 1069, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 34347} memo=139495
+00:49:19   progress: {'nodes': 140000, 'memo': 132024, 'sent_quick': 97359, 'sent_rec': 6701, 'split_no': 313, 'yes': 1069, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 34553} memo=139995
+00:49:28   progress: {'nodes': 140500, 'memo': 132750, 'sent_quick': 97637, 'sent_rec': 6720, 'split_no': 314, 'yes': 1069, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 34755} memo=140495
+00:49:33   progress: {'nodes': 141000, 'memo': 133232, 'sent_quick': 97804, 'sent_rec': 6732, 'split_no': 315, 'yes': 1069, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 35076} memo=140996
+00:49:44   progress: {'nodes': 141500, 'memo': 134683, 'sent_quick': 98066, 'sent_rec': 6793, 'split_no': 317, 'yes': 1073, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 35245} memo=141494
+00:50:10   progress: {'nodes': 142000, 'memo': 137594, 'sent_quick': 98362, 'sent_rec': 6930, 'split_no': 321, 'yes': 1108, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 35275} memo=141996
+00:50:17   progress: {'nodes': 142500, 'memo': 138124, 'sent_quick': 98599, 'sent_rec': 6947, 'split_no': 322, 'yes': 1114, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 35513} memo=142495
+00:50:23   progress: {'nodes': 143000, 'memo': 138648, 'sent_quick': 98963, 'sent_rec': 6958, 'split_no': 323, 'yes': 1114, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 35637} memo=142995
+00:50:29   progress: {'nodes': 143500, 'memo': 139253, 'sent_quick': 99336, 'sent_rec': 6968, 'split_no': 324, 'yes': 1114, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 35753} memo=143495
+00:50:36   progress: {'nodes': 144000, 'memo': 139961, 'sent_quick': 99710, 'sent_rec': 6977, 'split_no': 325, 'yes': 1114, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 35869} memo=143995
+00:50:44   progress: {'nodes': 144500, 'memo': 140807, 'sent_quick': 100069, 'sent_rec': 6994, 'split_no': 326, 'yes': 1114, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 35992} memo=144495
+00:50:53   progress: {'nodes': 145000, 'memo': 141304, 'sent_quick': 100452, 'sent_rec': 7014, 'split_no': 327, 'yes': 1114, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 36088} memo=144995
+00:50:57   progress: {'nodes': 145500, 'memo': 141329, 'sent_quick': 100835, 'sent_rec': 7014, 'split_no': 327, 'yes': 1114, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 36205} memo=145495
+00:51:17   progress: {'nodes': 146000, 'memo': 143277, 'sent_quick': 101110, 'sent_rec': 7084, 'split_no': 328, 'yes': 1114, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 36360} memo=145996
+00:51:30   progress: {'nodes': 146500, 'memo': 144873, 'sent_quick': 101257, 'sent_rec': 7124, 'split_no': 329, 'yes': 1139, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 36647} memo=146496
+00:51:54   progress: {'nodes': 147000, 'memo': 148193, 'sent_quick': 101394, 'sent_rec': 7207, 'split_no': 332, 'yes': 1172, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 36891} memo=146996
+00:52:02 TRACE case 2/14 closed (2297s, nodes 147182): layer [(0, 4), (5, 6)]
+00:52:17   progress: {'nodes': 147500, 'memo': 150949, 'sent_quick': 101551, 'sent_rec': 7326, 'split_no': 338, 'yes': 1241, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 37037} memo=147493
+00:52:25   progress: {'nodes': 148000, 'memo': 151260, 'sent_quick': 101907, 'sent_rec': 7360, 'split_no': 339, 'yes': 1246, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 37143} memo=147995
+00:52:30   progress: {'nodes': 148500, 'memo': 151402, 'sent_quick': 102193, 'sent_rec': 7368, 'split_no': 340, 'yes': 1246, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 37348} memo=148495
+00:52:33   progress: {'nodes': 149000, 'memo': 151445, 'sent_quick': 102415, 'sent_rec': 7368, 'split_no': 340, 'yes': 1246, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 37626} memo=148995
+00:52:37 TRACE case 3/14 closed (2332s, nodes 149421): layer [(0, 2), (1, 3)]
+00:52:42   progress: {'nodes': 149500, 'memo': 152028, 'sent_quick': 102670, 'sent_rec': 7406, 'split_no': 345, 'yes': 1257, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 37817} memo=149495
+00:52:49   progress: {'nodes': 150000, 'memo': 152274, 'sent_quick': 103003, 'sent_rec': 7419, 'split_no': 346, 'yes': 1257, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 37969} memo=149994
+00:52:58   progress: {'nodes': 150500, 'memo': 152682, 'sent_quick': 103248, 'sent_rec': 7478, 'split_no': 347, 'yes': 1257, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 38165} memo=150495
+00:53:06   progress: {'nodes': 151000, 'memo': 153060, 'sent_quick': 103668, 'sent_rec': 7492, 'split_no': 348, 'yes': 1257, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 38230} memo=150995
+00:53:14   progress: {'nodes': 151500, 'memo': 153475, 'sent_quick': 104078, 'sent_rec': 7520, 'split_no': 349, 'yes': 1257, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 38291} memo=151495
+00:53:21   progress: {'nodes': 152000, 'memo': 153741, 'sent_quick': 104451, 'sent_rec': 7542, 'split_no': 350, 'yes': 1257, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 38395} memo=151995
+00:53:26   progress: {'nodes': 152500, 'memo': 153884, 'sent_quick': 104843, 'sent_rec': 7544, 'split_no': 350, 'yes': 1257, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 38501} memo=152495
+00:53:34   progress: {'nodes': 153000, 'memo': 154306, 'sent_quick': 105263, 'sent_rec': 7572, 'split_no': 351, 'yes': 1257, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 38552} memo=152995
+00:53:44   progress: {'nodes': 153500, 'memo': 154807, 'sent_quick': 105652, 'sent_rec': 7611, 'split_no': 352, 'yes': 1257, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 38623} memo=153495
+00:53:52   progress: {'nodes': 154000, 'memo': 155198, 'sent_quick': 105998, 'sent_rec': 7652, 'split_no': 353, 'yes': 1257, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 38735} memo=153995
+00:53:59   progress: {'nodes': 154500, 'memo': 155312, 'sent_quick': 106462, 'sent_rec': 7661, 'split_no': 353, 'yes': 1257, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 38762} memo=154495
+00:54:09   progress: {'nodes': 155000, 'memo': 155925, 'sent_quick': 106794, 'sent_rec': 7724, 'split_no': 354, 'yes': 1257, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 38866} memo=154995
+00:54:18   progress: {'nodes': 155500, 'memo': 156552, 'sent_quick': 107195, 'sent_rec': 7750, 'split_no': 355, 'yes': 1257, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 38938} memo=155495
+00:54:26   progress: {'nodes': 156000, 'memo': 156691, 'sent_quick': 107650, 'sent_rec': 7757, 'split_no': 355, 'yes': 1257, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 38976} memo=155995
+00:54:31   progress: {'nodes': 156500, 'memo': 156897, 'sent_quick': 107866, 'sent_rec': 7761, 'split_no': 356, 'yes': 1257, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 39254} memo=156494
+00:54:40   progress: {'nodes': 157000, 'memo': 157214, 'sent_quick': 108257, 'sent_rec': 7793, 'split_no': 357, 'yes': 1257, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 39331} memo=156995
+00:54:48   progress: {'nodes': 157500, 'memo': 157536, 'sent_quick': 108634, 'sent_rec': 7812, 'split_no': 358, 'yes': 1257, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 39434} memo=157495
+00:54:52   progress: {'nodes': 158000, 'memo': 157593, 'sent_quick': 109031, 'sent_rec': 7813, 'split_no': 358, 'yes': 1257, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 39536} memo=157995
+00:54:59   progress: {'nodes': 158500, 'memo': 157933, 'sent_quick': 109425, 'sent_rec': 7823, 'split_no': 359, 'yes': 1257, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 39631} memo=158495
+00:55:08   progress: {'nodes': 159000, 'memo': 158271, 'sent_quick': 109842, 'sent_rec': 7844, 'split_no': 360, 'yes': 1257, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 39692} memo=158995
+00:55:14   progress: {'nodes': 159500, 'memo': 158416, 'sent_quick': 110233, 'sent_rec': 7851, 'split_no': 361, 'yes': 1257, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 39793} memo=159495
+00:55:22   progress: {'nodes': 160000, 'memo': 158500, 'sent_quick': 110696, 'sent_rec': 7863, 'split_no': 361, 'yes': 1257, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 39818} memo=159995
+00:55:30   progress: {'nodes': 160500, 'memo': 158700, 'sent_quick': 111082, 'sent_rec': 7878, 'split_no': 362, 'yes': 1257, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 39916} memo=160495
+00:55:36   progress: {'nodes': 161000, 'memo': 158902, 'sent_quick': 111473, 'sent_rec': 7882, 'split_no': 363, 'yes': 1257, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 40021} memo=160996
+00:55:45   progress: {'nodes': 161500, 'memo': 159267, 'sent_quick': 111901, 'sent_rec': 7902, 'split_no': 363, 'yes': 1257, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 40072} memo=161495
+00:55:52   progress: {'nodes': 162000, 'memo': 159534, 'sent_quick': 112288, 'sent_rec': 7924, 'split_no': 364, 'yes': 1257, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 40162} memo=161995
+00:55:57   progress: {'nodes': 162500, 'memo': 159566, 'sent_quick': 112663, 'sent_rec': 7924, 'split_no': 364, 'yes': 1257, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 40287} memo=162495
+00:56:07   progress: {'nodes': 163000, 'memo': 160152, 'sent_quick': 113076, 'sent_rec': 7962, 'split_no': 365, 'yes': 1257, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 40335} memo=162995
+00:56:31   progress: {'nodes': 163500, 'memo': 162548, 'sent_quick': 113345, 'sent_rec': 8046, 'split_no': 367, 'yes': 1276, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 40461} memo=163495
+00:56:36   progress: {'nodes': 164000, 'memo': 162688, 'sent_quick': 113776, 'sent_rec': 8047, 'split_no': 367, 'yes': 1276, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 40529} memo=163995
+00:56:45   progress: {'nodes': 164500, 'memo': 163179, 'sent_quick': 114150, 'sent_rec': 8076, 'split_no': 368, 'yes': 1276, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 40625} memo=164495
+00:56:49   progress: {'nodes': 165000, 'memo': 163222, 'sent_quick': 114514, 'sent_rec': 8077, 'split_no': 368, 'yes': 1276, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 40760} memo=164995
+00:56:57   progress: {'nodes': 165500, 'memo': 163362, 'sent_quick': 114956, 'sent_rec': 8089, 'split_no': 369, 'yes': 1276, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 40805} memo=165495
+00:57:03   progress: {'nodes': 166000, 'memo': 163481, 'sent_quick': 115311, 'sent_rec': 8103, 'split_no': 370, 'yes': 1276, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 40935} memo=165995
+00:57:09   progress: {'nodes': 166500, 'memo': 163577, 'sent_quick': 115750, 'sent_rec': 8109, 'split_no': 370, 'yes': 1276, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 40990} memo=166495
+00:57:15   progress: {'nodes': 167000, 'memo': 163785, 'sent_quick': 116130, 'sent_rec': 8121, 'split_no': 371, 'yes': 1276, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 41097} memo=166995
+00:57:20   progress: {'nodes': 167500, 'memo': 163936, 'sent_quick': 116486, 'sent_rec': 8122, 'split_no': 372, 'yes': 1276, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 41239} memo=167495
+00:57:27   progress: {'nodes': 168000, 'memo': 164033, 'sent_quick': 116939, 'sent_rec': 8132, 'split_no': 372, 'yes': 1276, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 41276} memo=167995
+00:57:33   progress: {'nodes': 168500, 'memo': 164247, 'sent_quick': 117300, 'sent_rec': 8139, 'split_no': 373, 'yes': 1276, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 41407} memo=168495
+00:57:37   progress: {'nodes': 169000, 'memo': 164435, 'sent_quick': 117670, 'sent_rec': 8139, 'split_no': 374, 'yes': 1276, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 41537} memo=168996
+00:58:07   progress: {'nodes': 169500, 'memo': 167585, 'sent_quick': 117956, 'sent_rec': 8261, 'split_no': 374, 'yes': 1276, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 41629} memo=169496
+00:58:16   progress: {'nodes': 170000, 'memo': 168561, 'sent_quick': 118142, 'sent_rec': 8302, 'split_no': 375, 'yes': 1302, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 41874} memo=169995
+00:58:25   progress: {'nodes': 170500, 'memo': 169123, 'sent_quick': 118498, 'sent_rec': 8338, 'split_no': 376, 'yes': 1303, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 41980} memo=170495
+00:58:32   progress: {'nodes': 171000, 'memo': 169542, 'sent_quick': 118783, 'sent_rec': 8366, 'split_no': 377, 'yes': 1303, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 42166} memo=170995
+00:58:37   progress: {'nodes': 171500, 'memo': 169661, 'sent_quick': 119114, 'sent_rec': 8374, 'split_no': 377, 'yes': 1303, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 42327} memo=171495
+00:58:47   progress: {'nodes': 172000, 'memo': 170313, 'sent_quick': 119522, 'sent_rec': 8399, 'split_no': 379, 'yes': 1304, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 42391} memo=171995
+00:58:54   progress: {'nodes': 172500, 'memo': 170550, 'sent_quick': 119908, 'sent_rec': 8422, 'split_no': 379, 'yes': 1304, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 42482} memo=172495
+00:59:02   progress: {'nodes': 173000, 'memo': 170912, 'sent_quick': 120232, 'sent_rec': 8454, 'split_no': 380, 'yes': 1305, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 42624} memo=172995
+00:59:09   progress: {'nodes': 173500, 'memo': 171175, 'sent_quick': 120561, 'sent_rec': 8473, 'split_no': 381, 'yes': 1305, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 42775} memo=173495
+00:59:15   progress: {'nodes': 174000, 'memo': 171556, 'sent_quick': 120856, 'sent_rec': 8494, 'split_no': 382, 'yes': 1305, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 42958} memo=173995
+00:59:22   progress: {'nodes': 174500, 'memo': 171751, 'sent_quick': 121245, 'sent_rec': 8522, 'split_no': 382, 'yes': 1305, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 43041} memo=174495
+00:59:28   progress: {'nodes': 175000, 'memo': 172254, 'sent_quick': 121537, 'sent_rec': 8541, 'split_no': 383, 'yes': 1305, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 43229} memo=174995
+00:59:37   progress: {'nodes': 175500, 'memo': 172629, 'sent_quick': 121855, 'sent_rec': 8577, 'split_no': 384, 'yes': 1305, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 43374} memo=175495
+00:59:41   progress: {'nodes': 176000, 'memo': 172753, 'sent_quick': 122151, 'sent_rec': 8585, 'split_no': 385, 'yes': 1305, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 43569} memo=175995
+00:59:48   progress: {'nodes': 176500, 'memo': 172857, 'sent_quick': 122581, 'sent_rec': 8598, 'split_no': 385, 'yes': 1305, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 43626} memo=176495
+00:59:56   progress: {'nodes': 177000, 'memo': 173151, 'sent_quick': 122954, 'sent_rec': 8626, 'split_no': 386, 'yes': 1305, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 43724} memo=176995
+01:00:02   progress: {'nodes': 177500, 'memo': 173334, 'sent_quick': 123327, 'sent_rec': 8632, 'split_no': 387, 'yes': 1305, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 43844} memo=177495
+01:00:09   progress: {'nodes': 178000, 'memo': 174003, 'sent_quick': 123649, 'sent_rec': 8658, 'split_no': 388, 'yes': 1305, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 43995} memo=177995
+01:00:16   progress: {'nodes': 178500, 'memo': 174616, 'sent_quick': 124018, 'sent_rec': 8680, 'split_no': 389, 'yes': 1305, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 44103} memo=178495
+01:00:22   progress: {'nodes': 179000, 'memo': 175014, 'sent_quick': 124377, 'sent_rec': 8689, 'split_no': 390, 'yes': 1305, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 44234} memo=178995
+01:00:30   progress: {'nodes': 179500, 'memo': 175482, 'sent_quick': 124686, 'sent_rec': 8705, 'split_no': 392, 'yes': 1306, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 44406} memo=179495
+01:00:37   progress: {'nodes': 180000, 'memo': 175807, 'sent_quick': 125009, 'sent_rec': 8725, 'split_no': 393, 'yes': 1306, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 44562} memo=179995
+01:00:43   progress: {'nodes': 180500, 'memo': 176377, 'sent_quick': 125298, 'sent_rec': 8746, 'split_no': 394, 'yes': 1306, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 44751} memo=180495
+01:00:50   progress: {'nodes': 181000, 'memo': 176947, 'sent_quick': 125653, 'sent_rec': 8767, 'split_no': 395, 'yes': 1306, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 44874} memo=180995
+01:00:58   progress: {'nodes': 181500, 'memo': 177809, 'sent_quick': 125974, 'sent_rec': 8788, 'split_no': 396, 'yes': 1306, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 45031} memo=181495
+01:01:05   progress: {'nodes': 182000, 'memo': 178454, 'sent_quick': 126342, 'sent_rec': 8806, 'split_no': 397, 'yes': 1306, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 45144} memo=181995
+01:01:13   progress: {'nodes': 182500, 'memo': 179047, 'sent_quick': 126648, 'sent_rec': 8821, 'split_no': 398, 'yes': 1306, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 45322} memo=182495
+01:01:17   progress: {'nodes': 183000, 'memo': 179667, 'sent_quick': 126952, 'sent_rec': 8826, 'split_no': 399, 'yes': 1306, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 45512} memo=182995
+01:01:26   progress: {'nodes': 183500, 'memo': 180139, 'sent_quick': 127287, 'sent_rec': 8847, 'split_no': 400, 'yes': 1306, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 45655} memo=183495
+01:01:31   progress: {'nodes': 184000, 'memo': 180567, 'sent_quick': 127615, 'sent_rec': 8853, 'split_no': 401, 'yes': 1306, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 45820} memo=183995
+01:01:37   progress: {'nodes': 184500, 'memo': 181291, 'sent_quick': 127915, 'sent_rec': 8863, 'split_no': 402, 'yes': 1306, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 46009} memo=184495
+01:02:02   progress: {'nodes': 185000, 'memo': 183601, 'sent_quick': 128134, 'sent_rec': 8957, 'split_no': 403, 'yes': 1306, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 46196} memo=184996
+01:02:10   progress: {'nodes': 185500, 'memo': 184276, 'sent_quick': 128320, 'sent_rec': 8981, 'split_no': 404, 'yes': 1309, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 46481} memo=185495
+01:02:17   progress: {'nodes': 186000, 'memo': 184685, 'sent_quick': 128591, 'sent_rec': 8992, 'split_no': 405, 'yes': 1309, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 46699} memo=185996
+01:02:26   progress: {'nodes': 186500, 'memo': 184862, 'sent_quick': 128983, 'sent_rec': 9005, 'split_no': 405, 'yes': 1309, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 46793} memo=186495
+01:02:32   progress: {'nodes': 187000, 'memo': 185164, 'sent_quick': 129246, 'sent_rec': 9021, 'split_no': 406, 'yes': 1309, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 47013} memo=186995
+01:02:38   progress: {'nodes': 187500, 'memo': 185310, 'sent_quick': 129579, 'sent_rec': 9023, 'split_no': 406, 'yes': 1309, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 47178} memo=187495
+01:02:45   progress: {'nodes': 188000, 'memo': 185624, 'sent_quick': 129925, 'sent_rec': 9033, 'split_no': 407, 'yes': 1309, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 47321} memo=187995
+01:02:51   progress: {'nodes': 188500, 'memo': 185848, 'sent_quick': 130234, 'sent_rec': 9039, 'split_no': 408, 'yes': 1309, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 47505} memo=188495
+01:02:58   progress: {'nodes': 189000, 'memo': 185946, 'sent_quick': 130633, 'sent_rec': 9049, 'split_no': 408, 'yes': 1309, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 47596} memo=188995
+01:03:10   progress: {'nodes': 189500, 'memo': 186968, 'sent_quick': 130875, 'sent_rec': 9087, 'split_no': 409, 'yes': 1309, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 47816} memo=189496
+01:03:18   progress: {'nodes': 190000, 'memo': 187767, 'sent_quick': 131101, 'sent_rec': 9108, 'split_no': 410, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 48065} memo=189995
+01:03:26   progress: {'nodes': 190500, 'memo': 188035, 'sent_quick': 131487, 'sent_rec': 9135, 'split_no': 411, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 48151} memo=190495
+01:03:33   progress: {'nodes': 191000, 'memo': 188286, 'sent_quick': 131821, 'sent_rec': 9158, 'split_no': 412, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 48293} memo=190995
+01:03:40   progress: {'nodes': 191500, 'memo': 188619, 'sent_quick': 132169, 'sent_rec': 9179, 'split_no': 413, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 48423} memo=191495
+01:03:46   progress: {'nodes': 192000, 'memo': 188829, 'sent_quick': 132523, 'sent_rec': 9188, 'split_no': 414, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 48559} memo=191995
+01:03:53   progress: {'nodes': 192500, 'memo': 189236, 'sent_quick': 132864, 'sent_rec': 9210, 'split_no': 415, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 48695} memo=192495
+01:03:58   progress: {'nodes': 193000, 'memo': 189473, 'sent_quick': 133206, 'sent_rec': 9222, 'split_no': 416, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 48840} memo=192995
+01:04:06   progress: {'nodes': 193500, 'memo': 189936, 'sent_quick': 133588, 'sent_rec': 9236, 'split_no': 417, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 48943} memo=193495
+01:04:14   progress: {'nodes': 194000, 'memo': 190210, 'sent_quick': 133998, 'sent_rec': 9250, 'split_no': 417, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 49019} memo=193995
+01:04:21   progress: {'nodes': 194500, 'memo': 190498, 'sent_quick': 134316, 'sent_rec': 9274, 'split_no': 418, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 49176} memo=194495
+01:04:25   progress: {'nodes': 195000, 'memo': 190634, 'sent_quick': 134583, 'sent_rec': 9277, 'split_no': 419, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 49405} memo=194995
+01:04:32   progress: {'nodes': 195500, 'memo': 190846, 'sent_quick': 134989, 'sent_rec': 9285, 'split_no': 419, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 49491} memo=195495
+01:04:40   progress: {'nodes': 196000, 'memo': 191046, 'sent_quick': 135339, 'sent_rec': 9302, 'split_no': 420, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 49623} memo=195995
+01:04:44   progress: {'nodes': 196500, 'memo': 191238, 'sent_quick': 135610, 'sent_rec': 9313, 'split_no': 421, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 49840} memo=196495
+01:04:50   progress: {'nodes': 197000, 'memo': 191555, 'sent_quick': 135921, 'sent_rec': 9327, 'split_no': 422, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 50014} memo=196995
+01:04:57   progress: {'nodes': 197500, 'memo': 191935, 'sent_quick': 136241, 'sent_rec': 9342, 'split_no': 423, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 50178} memo=197495
+01:05:02   progress: {'nodes': 198000, 'memo': 192127, 'sent_quick': 136587, 'sent_rec': 9348, 'split_no': 423, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 50326} memo=197995
+01:05:09   progress: {'nodes': 198500, 'memo': 192491, 'sent_quick': 136954, 'sent_rec': 9355, 'split_no': 424, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 50451} memo=198495
+01:05:15   progress: {'nodes': 199000, 'memo': 192844, 'sent_quick': 137238, 'sent_rec': 9369, 'split_no': 425, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 50652} memo=198995
+01:05:20   progress: {'nodes': 199500, 'memo': 193160, 'sent_quick': 137515, 'sent_rec': 9376, 'split_no': 426, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 50867} memo=199495
+01:05:24   progress: {'nodes': 200000, 'memo': 193295, 'sent_quick': 137794, 'sent_rec': 9376, 'split_no': 426, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 51088} memo=199995
+01:05:31   progress: {'nodes': 200500, 'memo': 193514, 'sent_quick': 138162, 'sent_rec': 9389, 'split_no': 427, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 51206} memo=200495
+01:05:35   progress: {'nodes': 201000, 'memo': 193636, 'sent_quick': 138399, 'sent_rec': 9391, 'split_no': 428, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 51466} memo=200995
+01:05:42   progress: {'nodes': 201500, 'memo': 193780, 'sent_quick': 138753, 'sent_rec': 9394, 'split_no': 429, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 51608} memo=201495
+01:05:46   progress: {'nodes': 202000, 'memo': 193848, 'sent_quick': 139063, 'sent_rec': 9394, 'split_no': 429, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 51798} memo=201995
+01:05:53   progress: {'nodes': 202500, 'memo': 194028, 'sent_quick': 139469, 'sent_rec': 9402, 'split_no': 430, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 51883} memo=202495
+01:05:58   progress: {'nodes': 203000, 'memo': 194326, 'sent_quick': 139788, 'sent_rec': 9403, 'split_no': 431, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 52062} memo=202995
+01:06:04   progress: {'nodes': 203500, 'memo': 194699, 'sent_quick': 140102, 'sent_rec': 9405, 'split_no': 432, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 52245} memo=203495
+01:06:09   progress: {'nodes': 204000, 'memo': 195048, 'sent_quick': 140404, 'sent_rec': 9414, 'split_no': 433, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 52433} memo=203995
+01:06:15   progress: {'nodes': 204500, 'memo': 195233, 'sent_quick': 140694, 'sent_rec': 9423, 'split_no': 434, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 52633} memo=204495
+01:06:19   progress: {'nodes': 205000, 'memo': 195297, 'sent_quick': 140940, 'sent_rec': 9423, 'split_no': 434, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 52887} memo=204995
+01:06:24   progress: {'nodes': 205500, 'memo': 195627, 'sent_quick': 141273, 'sent_rec': 9427, 'split_no': 435, 'yes': 1311, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 53049} memo=205495
+01:06:31   progress: {'nodes': 206000, 'memo': 195988, 'sent_quick': 141556, 'sent_rec': 9442, 'split_no': 436, 'yes': 1313, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 53248} memo=205995
+01:06:34   progress: {'nodes': 206500, 'memo': 196007, 'sent_quick': 141783, 'sent_rec': 9442, 'split_no': 436, 'yes': 1313, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 53521} memo=206495
+01:06:39   progress: {'nodes': 207000, 'memo': 196184, 'sent_quick': 142065, 'sent_rec': 9444, 'split_no': 437, 'yes': 1313, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 53736} memo=206995
+01:06:43   progress: {'nodes': 207500, 'memo': 196321, 'sent_quick': 142273, 'sent_rec': 9447, 'split_no': 438, 'yes': 1313, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 54024} memo=207495
+01:06:46   progress: {'nodes': 208000, 'memo': 196380, 'sent_quick': 142512, 'sent_rec': 9447, 'split_no': 438, 'yes': 1313, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 54285} memo=207995
+01:06:52   progress: {'nodes': 208500, 'memo': 196725, 'sent_quick': 142773, 'sent_rec': 9454, 'split_no': 439, 'yes': 1313, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 54516} memo=208495
+01:06:58   progress: {'nodes': 209000, 'memo': 197254, 'sent_quick': 142950, 'sent_rec': 9471, 'split_no': 440, 'yes': 1313, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 54822} memo=208996
+01:07:07   progress: {'nodes': 209500, 'memo': 198038, 'sent_quick': 143317, 'sent_rec': 9498, 'split_no': 442, 'yes': 1314, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 54924} memo=209495
+01:07:13   progress: {'nodes': 210000, 'memo': 198293, 'sent_quick': 143686, 'sent_rec': 9503, 'split_no': 442, 'yes': 1314, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 55050} memo=209995
+01:07:21   progress: {'nodes': 210500, 'memo': 198618, 'sent_quick': 144040, 'sent_rec': 9527, 'split_no': 443, 'yes': 1314, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 55171} memo=210495
+01:07:26   progress: {'nodes': 211000, 'memo': 198877, 'sent_quick': 144325, 'sent_rec': 9540, 'split_no': 444, 'yes': 1314, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 55372} memo=210995
+01:07:33   progress: {'nodes': 211500, 'memo': 198979, 'sent_quick': 144695, 'sent_rec': 9542, 'split_no': 444, 'yes': 1314, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 55500} memo=211495
+01:07:37   progress: {'nodes': 212000, 'memo': 199209, 'sent_quick': 145001, 'sent_rec': 9552, 'split_no': 445, 'yes': 1314, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 55683} memo=211995
+01:07:43   progress: {'nodes': 212500, 'memo': 199464, 'sent_quick': 145292, 'sent_rec': 9563, 'split_no': 446, 'yes': 1314, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 55880} memo=212495
+01:07:48   progress: {'nodes': 213000, 'memo': 199800, 'sent_quick': 145655, 'sent_rec': 9566, 'split_no': 447, 'yes': 1314, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 56013} memo=212995
+01:07:56   progress: {'nodes': 213500, 'memo': 200301, 'sent_quick': 146032, 'sent_rec': 9571, 'split_no': 448, 'yes': 1314, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 56130} memo=213495
+01:08:00   progress: {'nodes': 214000, 'memo': 200523, 'sent_quick': 146317, 'sent_rec': 9577, 'split_no': 449, 'yes': 1314, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 56338} memo=213995
+01:08:04   progress: {'nodes': 214500, 'memo': 200673, 'sent_quick': 146620, 'sent_rec': 9577, 'split_no': 449, 'yes': 1314, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 56535} memo=214495
+01:08:11   progress: {'nodes': 215000, 'memo': 201012, 'sent_quick': 146976, 'sent_rec': 9587, 'split_no': 450, 'yes': 1314, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 56668} memo=214995
+01:08:16   progress: {'nodes': 215500, 'memo': 201431, 'sent_quick': 147269, 'sent_rec': 9593, 'split_no': 451, 'yes': 1314, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 56868} memo=215495
+01:08:21   progress: {'nodes': 216000, 'memo': 201814, 'sent_quick': 147567, 'sent_rec': 9598, 'split_no': 452, 'yes': 1314, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 57064} memo=215995
+01:08:26   progress: {'nodes': 216500, 'memo': 202040, 'sent_quick': 147843, 'sent_rec': 9606, 'split_no': 453, 'yes': 1314, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 57279} memo=216495
+01:08:31   progress: {'nodes': 217000, 'memo': 202109, 'sent_quick': 148134, 'sent_rec': 9610, 'split_no': 453, 'yes': 1314, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 57484} memo=216995
+01:08:37   progress: {'nodes': 217500, 'memo': 202248, 'sent_quick': 148464, 'sent_rec': 9617, 'split_no': 454, 'yes': 1314, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 57646} memo=217495
+01:08:41   progress: {'nodes': 218000, 'memo': 202338, 'sent_quick': 148773, 'sent_rec': 9618, 'split_no': 455, 'yes': 1314, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 57835} memo=217995
+01:08:47   progress: {'nodes': 218500, 'memo': 202493, 'sent_quick': 149129, 'sent_rec': 9628, 'split_no': 456, 'yes': 1314, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 57968} memo=218495
+01:08:53   progress: {'nodes': 219000, 'memo': 202611, 'sent_quick': 149523, 'sent_rec': 9632, 'split_no': 456, 'yes': 1314, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 58070} memo=218995
+01:09:00   progress: {'nodes': 219500, 'memo': 202809, 'sent_quick': 149875, 'sent_rec': 9643, 'split_no': 457, 'yes': 1314, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 58206} memo=219495
+01:09:03   progress: {'nodes': 220000, 'memo': 202932, 'sent_quick': 150149, 'sent_rec': 9643, 'split_no': 458, 'yes': 1315, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 58430} memo=219995
+01:09:09   progress: {'nodes': 220500, 'memo': 203180, 'sent_quick': 150474, 'sent_rec': 9645, 'split_no': 459, 'yes': 1315, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 58602} memo=220495
+01:09:13   progress: {'nodes': 221000, 'memo': 203419, 'sent_quick': 150746, 'sent_rec': 9646, 'split_no': 460, 'yes': 1315, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 58828} memo=220995
+01:09:17   progress: {'nodes': 221500, 'memo': 203685, 'sent_quick': 151054, 'sent_rec': 9648, 'split_no': 460, 'yes': 1315, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 59018} memo=221495
+01:09:23   progress: {'nodes': 222000, 'memo': 204002, 'sent_quick': 151356, 'sent_rec': 9656, 'split_no': 461, 'yes': 1315, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 59207} memo=221995
+01:09:28   progress: {'nodes': 222500, 'memo': 204170, 'sent_quick': 151638, 'sent_rec': 9664, 'split_no': 462, 'yes': 1315, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 59416} memo=222495
+01:09:31   progress: {'nodes': 223000, 'memo': 204264, 'sent_quick': 151845, 'sent_rec': 9664, 'split_no': 462, 'yes': 1315, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 59709} memo=222995
+01:09:37   progress: {'nodes': 223500, 'memo': 204539, 'sent_quick': 152137, 'sent_rec': 9673, 'split_no': 463, 'yes': 1315, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 59907} memo=223495
+01:09:41   progress: {'nodes': 224000, 'memo': 204744, 'sent_quick': 152362, 'sent_rec': 9680, 'split_no': 464, 'yes': 1315, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 60174} memo=223995
+01:09:44   progress: {'nodes': 224500, 'memo': 204839, 'sent_quick': 152568, 'sent_rec': 9680, 'split_no': 464, 'yes': 1315, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 60468} memo=224495
+01:09:49   progress: {'nodes': 225000, 'memo': 205040, 'sent_quick': 152866, 'sent_rec': 9684, 'split_no': 465, 'yes': 1315, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 60665} memo=224995
+01:09:53   progress: {'nodes': 225500, 'memo': 205472, 'sent_quick': 153138, 'sent_rec': 9685, 'split_no': 466, 'yes': 1315, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 60891} memo=225495
+01:10:03   progress: {'nodes': 226000, 'memo': 206472, 'sent_quick': 153339, 'sent_rec': 9708, 'split_no': 468, 'yes': 1319, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 61162} memo=225996
+01:10:12   progress: {'nodes': 226500, 'memo': 207216, 'sent_quick': 153712, 'sent_rec': 9734, 'split_no': 469, 'yes': 1327, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 61253} memo=226495
+01:10:18   progress: {'nodes': 227000, 'memo': 207515, 'sent_quick': 154070, 'sent_rec': 9751, 'split_no': 470, 'yes': 1327, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 61377} memo=226995
+01:10:24   progress: {'nodes': 227500, 'memo': 207838, 'sent_quick': 154401, 'sent_rec': 9764, 'split_no': 471, 'yes': 1327, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 61532} memo=227495
+01:10:30   progress: {'nodes': 228000, 'memo': 208247, 'sent_quick': 154709, 'sent_rec': 9775, 'split_no': 472, 'yes': 1327, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 61712} memo=227995
+01:10:36   progress: {'nodes': 228500, 'memo': 208669, 'sent_quick': 155017, 'sent_rec': 9780, 'split_no': 473, 'yes': 1327, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 61898} memo=228495
+01:10:40   progress: {'nodes': 229000, 'memo': 208957, 'sent_quick': 155315, 'sent_rec': 9780, 'split_no': 473, 'yes': 1327, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 62100} memo=228995
+01:10:57   progress: {'nodes': 229500, 'memo': 210848, 'sent_quick': 155522, 'sent_rec': 9849, 'split_no': 475, 'yes': 1343, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 62306} memo=229495
+01:11:03   progress: {'nodes': 230000, 'memo': 211135, 'sent_quick': 155863, 'sent_rec': 9859, 'split_no': 476, 'yes': 1343, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 62454} memo=229995
+01:11:08   progress: {'nodes': 230500, 'memo': 211353, 'sent_quick': 156148, 'sent_rec': 9871, 'split_no': 477, 'yes': 1343, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 62656} memo=230495
+01:11:14   progress: {'nodes': 231000, 'memo': 211597, 'sent_quick': 156484, 'sent_rec': 9872, 'split_no': 477, 'yes': 1343, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 62819} memo=230995
+01:11:20   progress: {'nodes': 231500, 'memo': 211959, 'sent_quick': 156783, 'sent_rec': 9883, 'split_no': 478, 'yes': 1343, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 63008} memo=231495
+01:11:25   progress: {'nodes': 232000, 'memo': 212265, 'sent_quick': 157036, 'sent_rec': 9892, 'split_no': 479, 'yes': 1343, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 63245} memo=231995
+01:11:32   progress: {'nodes': 232500, 'memo': 212777, 'sent_quick': 157322, 'sent_rec': 9913, 'split_no': 480, 'yes': 1343, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 63437} memo=232495
+01:11:37   progress: {'nodes': 233000, 'memo': 213031, 'sent_quick': 157550, 'sent_rec': 9916, 'split_no': 481, 'yes': 1343, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 63705} memo=232995
+01:11:41   progress: {'nodes': 233500, 'memo': 213239, 'sent_quick': 157877, 'sent_rec': 9916, 'split_no': 481, 'yes': 1343, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 63878} memo=233495
+01:11:46   progress: {'nodes': 234000, 'memo': 213607, 'sent_quick': 158135, 'sent_rec': 9923, 'split_no': 482, 'yes': 1343, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 64112} memo=233995
+01:11:55   progress: {'nodes': 234500, 'memo': 214330, 'sent_quick': 158401, 'sent_rec': 9944, 'split_no': 483, 'yes': 1343, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 64324} memo=234495
+01:12:00   progress: {'nodes': 235000, 'memo': 214654, 'sent_quick': 158591, 'sent_rec': 9953, 'split_no': 484, 'yes': 1343, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 64625} memo=234996
+01:12:09   progress: {'nodes': 235500, 'memo': 215448, 'sent_quick': 158839, 'sent_rec': 9987, 'split_no': 485, 'yes': 1353, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 64831} memo=235495
+01:12:19   progress: {'nodes': 236000, 'memo': 216135, 'sent_quick': 159219, 'sent_rec': 10016, 'split_no': 486, 'yes': 1353, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 64921} memo=235995
+01:12:30   progress: {'nodes': 236500, 'memo': 216994, 'sent_quick': 159612, 'sent_rec': 10042, 'split_no': 487, 'yes': 1353, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 65001} memo=236495
+01:12:47   progress: {'nodes': 237000, 'memo': 218596, 'sent_quick': 159995, 'sent_rec': 10090, 'split_no': 489, 'yes': 1353, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 65069} memo=236996
+01:12:53   progress: {'nodes': 237500, 'memo': 219600, 'sent_quick': 160211, 'sent_rec': 10104, 'split_no': 491, 'yes': 1356, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 65331} memo=237493
+01:12:53 TRACE case 4/14 closed (3548s, nodes 237532): layer [(0, 2), (4, 5)]
+01:12:57 TRACE case 5/14 closed (3551s, nodes 237582): layer [(0, 3), (4, 5)]
+01:13:02 TRACE case 6/14 closed (3556s, nodes 237653): layer [(0, 4), (2, 5)]
+01:13:02 TRACE case 7/14 closed (3556s, nodes 237664): layer [(0, 4), (3, 5)]
+01:13:11   progress: {'nodes': 238000, 'memo': 220942, 'sent_quick': 160501, 'sent_rec': 10207, 'split_no': 498, 'yes': 1392, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 65397} memo=237995
+01:13:14   progress: {'nodes': 238500, 'memo': 220980, 'sent_quick': 160768, 'sent_rec': 10207, 'split_no': 498, 'yes': 1392, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 65630} memo=238495
+01:13:32   progress: {'nodes': 239000, 'memo': 222735, 'sent_quick': 161000, 'sent_rec': 10268, 'split_no': 500, 'yes': 1394, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 65833} memo=238995
+01:13:36   progress: {'nodes': 239500, 'memo': 223056, 'sent_quick': 161257, 'sent_rec': 10272, 'split_no': 501, 'yes': 1394, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 66071} memo=239495
+01:13:40   progress: {'nodes': 240000, 'memo': 223234, 'sent_quick': 161547, 'sent_rec': 10272, 'split_no': 501, 'yes': 1394, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 66281} memo=239995
+01:13:46   progress: {'nodes': 240500, 'memo': 223680, 'sent_quick': 161806, 'sent_rec': 10279, 'split_no': 502, 'yes': 1394, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 66514} memo=240495
+01:13:54   progress: {'nodes': 241000, 'memo': 224698, 'sent_quick': 161952, 'sent_rec': 10302, 'split_no': 504, 'yes': 1401, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 66836} memo=240995
+01:13:56 TRACE case 8/14 closed (3610s, nodes 241278): layer [(0, 2), (1, 4)]
+01:13:56 TRACE case 9/14 closed (3610s, nodes 241289): layer [(0, 3), (1, 4)]
+01:13:57 TRACE case 10/14 closed (3611s, nodes 241291): layer [(4, 5)]
+01:13:57 TRACE case 11/14 closed (3611s, nodes 241299): layer [(0, 3), (1, 2)]
+01:13:58 TRACE case 12/14 closed (3612s, nodes 241307): layer [(0, 4)]
+01:13:58 TRACE case 13/14 closed (3612s, nodes 241314): layer [(0, 2)]
+01:13:59 TRACE case 14/14 closed (3613s, nodes 241316): layer [(0, 3)]
+01:13:59 SS:9,8,2,3: PROVED (3616s), proof DAG 239583 nodes {'quick': 161925, 'lemma': 66976, 'sent': 10177, 'split': 505}; stats {'nodes': 241318, 'memo': 225439, 'sent_quick': 162055, 'sent_rec': 10325, 'split_no': 515, 'yes': 1407, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0, 'sent_lemma': 67016}

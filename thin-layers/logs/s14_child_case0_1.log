@@ -1,0 +1,3 @@
+13:11:35 case 0 child 1: layer 3 [(0, 2), (1, 12), (3, 6), (5, 11), (7, 13)] of 17881 canonical; |X|=730; store 442278 facts
+13:12:34 case 0 child 1: NO (59s) fact 20261121-131121-97788-9 new facts 6 {'nodes': 2, 'hits': 0, 'quick': 0, 'lemma': 0, 'sent': 2, 'reuse': 1, 'sub': 0, 'absorb': 0, 'split': 0, 'yes': 0, 'oracle': 0, 'guide': 11, 'shared': 0, 'sym': 0}
+exit 0

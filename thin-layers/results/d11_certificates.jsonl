@@ -1,0 +1,3 @@
+{"case": 8002, "cnf": "case8002.cnf", "cnf_sha256": "60b2c63bd980e67139f10db06c959890d090d8a9b7d40f00f027d4dd5530c629", "cadical": "UNSAT", "solve_seconds": 26.1, "drat_bytes": 19651664, "drat_trim": "VERIFIED", "check_seconds": 27.8}
+{"case": 9003, "cnf": "case9003.cnf", "cnf_sha256": "63af9e8a45f07cde8217d68249a9dbdffe9064b0c5ef4ecc5b385a8b30378bf9", "cadical": "UNSAT", "solve_seconds": 27.7, "drat_bytes": 22180315, "drat_trim": "VERIFIED", "check_seconds": 28.5}
+{"case": 9033, "cnf": "case9033.cnf", "cnf_sha256": "3fc91463b66221cb21356100e311b806ada58ec587aa7ccb49ff54ae5c7d1591", "cadical": "UNSAT", "solve_seconds": 303.4, "drat_bytes": 148128710, "drat_trim": "VERIFIED", "check_seconds": 365.9}

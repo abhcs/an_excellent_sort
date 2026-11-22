@@ -1,0 +1,13 @@
+# wide subsumption benchmark, 2026-11-20 17:17-19:46: S11 cases 16-31 from the base store (4,818 facts),
+# 4 shared guided workers per configuration (s11_cases.py STORE 4 K --oracle --guide --share --only 16-31 [--wide-sub])
+narrow: 16 cases closed in 149 min wall (case times: sum 408 min, max 110 min); 403969 facts written (44654 YES hints)
+   proof of the 16 cases: 153868 facts (153025 new); splits 3104, subsumptions 999, sentinel steps 125466, lemma 20601, height 2855
+wide: 16 cases closed in 147 min wall (case times: sum 407 min, max 108 min); 400083 facts written (44344 YES hints)
+   proof of the 16 cases: 150692 facts (149872 new); splits 2832, subsumptions 1290, sentinel steps 122422, lemma 20653, height 2675
+== check narrow (16 cases)
+154647 facts needed, 65630 newly verified, 0 failed
+== check wide (16 cases)
+151475 facts needed, 61960 newly verified, 0 failed
+# per-case times (case: seconds)
+narrow: 16: 5476, 17: 2321, 18: 3204, 19: 3201, 20: 6598, 21: 421, 22: 66, 23: 615, 24: 468, 25: 41, 26: 18, 27: 15, 28: 25, 29: 492, 30: 1319, 31: 173
+wide: 16: 5452, 17: 2315, 18: 3281, 19: 3279, 20: 6493, 21: 421, 22: 64, 23: 617, 24: 462, 25: 41, 26: 17, 27: 15, 28: 24, 29: 481, 30: 1301, 31: 169

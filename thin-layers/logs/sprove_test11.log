@@ -1,0 +1,78 @@
+13:48:44 loaded 476 facts, 14 statements from /private/tmp/claude-501/-Users-abhishek--claude-spares-spare-8LJXq4/c54486b5-433d-4286-8fa9-f685212181d8/scratchpad/ftest11
+13:48:44 D:3: PROVED (0s) fact 20261119-134841-37077-4; new work {'nodes': 0, 'hits': 0, 'quick': 0, 'lemma': 0, 'sent': 0, 'reuse': 0, 'sub': 0, 'absorb': 0, 'split': 0, 'yes': 0, 'oracle': 0}
+13:48:44 D:4: PROVED (0s) fact 20261119-134841-37077-6; new work {'nodes': 0, 'hits': 0, 'quick': 0, 'lemma': 0, 'sent': 0, 'reuse': 0, 'sub': 0, 'absorb': 0, 'split': 0, 'yes': 0, 'oracle': 0}
+13:48:44 D:5: PROVED (0s) fact 20261119-134841-37077-26; new work {'nodes': 0, 'hits': 0, 'quick': 0, 'lemma': 0, 'sent': 0, 'reuse': 0, 'sub': 0, 'absorb': 0, 'split': 0, 'yes': 0, 'oracle': 0}
+13:48:44 D:6: PROVED (0s) fact 20261119-134841-37077-28; new work {'nodes': 0, 'hits': 0, 'quick': 0, 'lemma': 0, 'sent': 0, 'reuse': 0, 'sub': 0, 'absorb': 0, 'split': 0, 'yes': 0, 'oracle': 0}
+13:48:44 D:7: PROVED (0s) fact 20261119-134841-37077-89; new work {'nodes': 0, 'hits': 0, 'quick': 0, 'lemma': 0, 'sent': 0, 'reuse': 0, 'sub': 0, 'absorb': 0, 'split': 0, 'yes': 0, 'oracle': 0}
+13:48:44 D:8: PROVED (0s) fact 20261119-134841-37077-91; new work {'nodes': 0, 'hits': 0, 'quick': 0, 'lemma': 0, 'sent': 0, 'reuse': 0, 'sub': 0, 'absorb': 0, 'split': 0, 'yes': 0, 'oracle': 0}
+13:48:44 D:9: PROVED (0s) fact 20261119-134841-37077-417; new work {'nodes': 0, 'hits': 0, 'quick': 0, 'lemma': 0, 'sent': 0, 'reuse': 0, 'sub': 0, 'absorb': 0, 'split': 0, 'yes': 0, 'oracle': 0}
+13:48:44 D:10: PROVED (0s) fact 20261119-134841-37077-419; new work {'nodes': 0, 'hits': 0, 'quick': 0, 'lemma': 0, 'sent': 0, 'reuse': 0, 'sub': 0, 'absorb': 0, 'split': 0, 'yes': 0, 'oracle': 0}
+13:48:45 TRACE split: 0 covers, 46 cases (+ empty layer)
+13:48:52   progress {'nodes': 1000, 'hits': 6194, 'quick': 70, 'lemma': 53, 'sent': 432, 'reuse': 427, 'sub': 29, 'absorb': 90, 'split': 29, 'yes': 275, 'oracle': 0} facts=1470
+13:48:58   progress {'nodes': 2000, 'hits': 8267, 'quick': 93, 'lemma': 90, 'sent': 1200, 'reuse': 1193, 'sub': 103, 'absorb': 114, 'split': 59, 'yes': 318, 'oracle': 0} facts=2470
+13:49:06   progress {'nodes': 3000, 'hits': 12206, 'quick': 129, 'lemma': 128, 'sent': 1857, 'reuse': 1849, 'sub': 187, 'absorb': 158, 'split': 89, 'yes': 420, 'oracle': 0} facts=3470
+13:49:14   progress {'nodes': 4000, 'hits': 17797, 'quick': 193, 'lemma': 179, 'sent': 2414, 'reuse': 2406, 'sub': 279, 'absorb': 240, 'split': 117, 'yes': 547, 'oracle': 0} facts=4472
+13:49:21 TRACE case 1/46 closed (36s, nodes 4556): [(0, 2), (1, 3), (6, 7)]
+13:49:27   progress {'nodes': 5000, 'hits': 24364, 'quick': 289, 'lemma': 199, 'sent': 2869, 'reuse': 2861, 'sub': 432, 'absorb': 338, 'split': 129, 'yes': 709, 'oracle': 0} facts=5470
+13:49:35   progress {'nodes': 6000, 'hits': 30102, 'quick': 369, 'lemma': 217, 'sent': 3443, 'reuse': 3435, 'sub': 534, 'absorb': 418, 'split': 144, 'yes': 839, 'oracle': 0} facts=6471
+13:49:44   progress {'nodes': 7000, 'hits': 35341, 'quick': 456, 'lemma': 225, 'sent': 4058, 'reuse': 4050, 'sub': 641, 'absorb': 492, 'split': 162, 'yes': 930, 'oracle': 0} facts=7473
+13:49:53   progress {'nodes': 8000, 'hits': 39634, 'quick': 529, 'lemma': 232, 'sent': 4753, 'reuse': 4745, 'sub': 720, 'absorb': 561, 'split': 170, 'yes': 996, 'oracle': 0} facts=8470
+13:50:03   progress {'nodes': 9000, 'hits': 43333, 'quick': 613, 'lemma': 233, 'sent': 5386, 'reuse': 5378, 'sub': 880, 'absorb': 636, 'split': 182, 'yes': 1033, 'oracle': 0} facts=9472
+13:50:04 TRACE case 2/46 closed (79s, nodes 9130): [(0, 2), (1, 6), (7, 8)]
+13:50:15   progress {'nodes': 10000, 'hits': 49767, 'quick': 730, 'lemma': 249, 'sent': 5868, 'reuse': 5859, 'sub': 1052, 'absorb': 743, 'split': 194, 'yes': 1127, 'oracle': 0} facts=10473
+13:50:18 TRACE case 3/46 closed (93s, nodes 10247): [(0, 3), (1, 6), (7, 8)]
+13:50:24 TRACE case 4/46 closed (99s, nodes 10544): [(0, 2), (1, 3), (4, 6)]
+13:50:30   progress {'nodes': 11000, 'hits': 56103, 'quick': 859, 'lemma': 279, 'sent': 6311, 'reuse': 6302, 'sub': 1180, 'absorb': 879, 'split': 217, 'yes': 1236, 'oracle': 0} facts=11471
+13:50:39   progress {'nodes': 12000, 'hits': 60702, 'quick': 941, 'lemma': 305, 'sent': 6952, 'reuse': 6943, 'sub': 1282, 'absorb': 964, 'split': 239, 'yes': 1278, 'oracle': 0} facts=12471
+13:50:43 TRACE case 5/46 closed (118s, nodes 12368): [(0, 2), (4, 6), (7, 8)]
+13:50:51   progress {'nodes': 13000, 'hits': 65344, 'quick': 1034, 'lemma': 346, 'sent': 7507, 'reuse': 7498, 'sub': 1419, 'absorb': 1069, 'split': 259, 'yes': 1327, 'oracle': 0} facts=13471
+13:50:59 TRACE case 6/46 closed (134s, nodes 13772): [(0, 2), (5, 6), (7, 8)]
+13:51:02 TRACE case 7/46 closed (137s, nodes 13929): [(0, 3), (4, 6), (7, 8)]
+13:51:03 TRACE case 8/46 closed (138s, nodes 13938): [(0, 6), (2, 7), (4, 8)]
+13:51:03 TRACE case 9/46 closed (138s, nodes 13940): [(0, 6), (2, 7), (5, 8)]
+13:51:04   progress {'nodes': 14000, 'hits': 71556, 'quick': 1160, 'lemma': 362, 'sent': 8018, 'reuse': 8009, 'sub': 1551, 'absorb': 1192, 'split': 275, 'yes': 1402, 'oracle': 0} facts=14470
+13:51:13   progress {'nodes': 15000, 'hits': 75839, 'quick': 1210, 'lemma': 380, 'sent': 8732, 'reuse': 8723, 'sub': 1674, 'absorb': 1224, 'split': 311, 'yes': 1429, 'oracle': 0} facts=15470
+13:51:20 TRACE case 10/46 closed (155s, nodes 15663): [(0, 2), (1, 4), (6, 7)]
+13:51:25   progress {'nodes': 16000, 'hits': 82157, 'quick': 1283, 'lemma': 414, 'sent': 9280, 'reuse': 9271, 'sub': 1820, 'absorb': 1312, 'split': 326, 'yes': 1524, 'oracle': 0} facts=16469
+13:51:34   progress {'nodes': 17000, 'hits': 86819, 'quick': 1330, 'lemma': 427, 'sent': 10011, 'reuse': 10002, 'sub': 1931, 'absorb': 1351, 'split': 347, 'yes': 1563, 'oracle': 0} facts=17470
+13:51:43   progress {'nodes': 18000, 'hits': 90595, 'quick': 1356, 'lemma': 464, 'sent': 10782, 'reuse': 10773, 'sub': 2013, 'absorb': 1384, 'split': 377, 'yes': 1584, 'oracle': 0} facts=18470
+13:51:52   progress {'nodes': 19000, 'hits': 94501, 'quick': 1395, 'lemma': 489, 'sent': 11541, 'reuse': 11532, 'sub': 2098, 'absorb': 1422, 'split': 404, 'yes': 1612, 'oracle': 0} facts=19471
+13:51:54 TRACE case 11/46 closed (189s, nodes 19158): [(0, 2), (1, 5), (6, 7)]
+13:51:55 TRACE case 12/46 closed (190s, nodes 19179): [(0, 2), (1, 6), (3, 7)]
+13:52:02 TRACE case 13/46 closed (197s, nodes 19667): [(0, 3), (1, 2), (6, 7)]
+13:52:03 TRACE case 14/46 closed (198s, nodes 19684): [(0, 3), (1, 4), (6, 7)]
+13:52:06   progress {'nodes': 20000, 'hits': 100824, 'quick': 1484, 'lemma': 518, 'sent': 12064, 'reuse': 12055, 'sub': 2245, 'absorb': 1514, 'split': 426, 'yes': 1708, 'oracle': 0} facts=20471
+13:52:13 TRACE case 15/46 closed (208s, nodes 20664): [(0, 2), (4, 6), (5, 7)]
+13:52:13 TRACE case 16/46 closed (208s, nodes 20668): [(0, 3), (4, 6), (5, 7)]
+13:52:16 TRACE case 17/46 closed (211s, nodes 20816): [(0, 2), (1, 6), (4, 7)]
+13:52:16 TRACE case 18/46 closed (211s, nodes 20817): [(0, 2), (1, 6), (5, 7)]
+13:52:17 TRACE case 19/46 closed (212s, nodes 20832): [(0, 3), (1, 6), (4, 7)]
+13:52:17 TRACE case 20/46 closed (212s, nodes 20838): [(0, 3), (1, 6), (5, 7)]
+13:52:17 TRACE case 21/46 closed (212s, nodes 20839): [(0, 6), (7, 8)]
+13:52:17 TRACE case 22/46 closed (212s, nodes 20840): [(0, 2), (1, 4), (3, 6)]
+13:52:17 TRACE case 23/46 closed (212s, nodes 20841): [(0, 2), (1, 4), (5, 6)]
+13:52:17 TRACE case 24/46 closed (212s, nodes 20842): [(0, 2), (1, 5), (3, 6)]
+13:52:17 TRACE case 25/46 closed (212s, nodes 20858): [(0, 3), (1, 4), (2, 6)]
+13:52:19   progress {'nodes': 21000, 'hits': 106505, 'quick': 1544, 'lemma': 554, 'sent': 12699, 'reuse': 12689, 'sub': 2356, 'absorb': 1575, 'split': 460, 'yes': 1771, 'oracle': 0} facts=21471
+13:52:19 TRACE case 26/46 closed (214s, nodes 21024): [(0, 3), (1, 2), (4, 6)]
+13:52:19 TRACE case 27/46 closed (214s, nodes 21027): [(0, 2), (1, 3)]
+13:52:19 TRACE case 28/46 closed (214s, nodes 21028): [(0, 2), (1, 4), (3, 5)]
+13:52:19 TRACE case 29/46 closed (214s, nodes 21029): [(0, 2), (6, 7)]
+13:52:20 TRACE case 30/46 closed (215s, nodes 21061): [(0, 3), (1, 4), (2, 5)]
+13:52:20 TRACE case 31/46 closed (215s, nodes 21062): [(0, 3), (6, 7)]
+13:52:20 TRACE case 32/46 closed (215s, nodes 21063): [(0, 6), (2, 7)]
+13:52:20 TRACE case 33/46 closed (215s, nodes 21064): [(0, 6), (3, 7)]
+13:52:20 TRACE case 34/46 closed (215s, nodes 21065): [(0, 2), (1, 6)]
+13:52:20 TRACE case 35/46 closed (215s, nodes 21066): [(0, 3), (1, 6)]
+13:52:20 TRACE case 36/46 closed (215s, nodes 21067): [(0, 2), (4, 6)]
+13:52:20 TRACE case 37/46 closed (215s, nodes 21068): [(0, 2), (5, 6)]
+13:52:20 TRACE case 38/46 closed (215s, nodes 21069): [(0, 3), (4, 6)]
+13:52:20 TRACE case 39/46 closed (215s, nodes 21069): [(6, 7)]
+13:52:20 TRACE case 40/46 closed (215s, nodes 21070): [(0, 2), (1, 4)]
+13:52:20 TRACE case 41/46 closed (215s, nodes 21071): [(0, 2), (1, 5)]
+13:52:20 TRACE case 42/46 closed (215s, nodes 21072): [(0, 3), (1, 2)]
+13:52:20 TRACE case 43/46 closed (215s, nodes 21073): [(0, 3), (1, 4)]
+13:52:20 TRACE case 44/46 closed (215s, nodes 21074): [(0, 6)]
+13:52:20 TRACE case 45/46 closed (215s, nodes 21075): [(0, 2)]
+13:52:20 TRACE case 46/46 closed (215s, nodes 21076): [(0, 3)]
+13:52:20 SS:9,7,3,2: PROVED (217s) fact 20261119-134844-37081-39201; new work {'nodes': 21077, 'hits': 107111, 'quick': 1548, 'lemma': 555, 'sent': 12743, 'reuse': 12732, 'sub': 2362, 'absorb': 1578, 'split': 464, 'yes': 1791, 'oracle': 0}

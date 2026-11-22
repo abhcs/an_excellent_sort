@@ -1,0 +1,4 @@
+13:38:35   progress {'nodes': 1000, 'hits': 968, 'quick': 0, 'lemma': 152, 'sent': 841, 'reuse': 197, 'sub': 0, 'absorb': 0, 'split': 0, 'yes': 3, 'oracle': 0, 'guide': 2042, 'shared': 0, 'sym': 1} facts=443555
+13:39:49   progress {'nodes': 2000, 'hits': 1598, 'quick': 1, 'lemma': 469, 'sent': 1523, 'reuse': 434, 'sub': 0, 'absorb': 0, 'split': 0, 'yes': 3, 'oracle': 0, 'guide': 2704, 'shared': 0, 'sym': 1} facts=444555
+13:40:31 case 340 layer [(0, 2), (1, 4), (6, 9), (7, 12), (10, 13)] |X|=893: NO by sent (374s) fact 20261121-133358-98630-5505 new facts 2767 {'nodes': 2544, 'hits': 1885, 'quick': 1, 'lemma': 853, 'sent': 1685, 'reuse': 517, 'sub': 0, 'absorb': 0, 'split': 2, 'yes': 3, 'oracle': 0, 'guide': 2812, 'shared': 
+exit 0

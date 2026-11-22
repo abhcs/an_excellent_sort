@@ -1,0 +1,17 @@
+class 0/16 done: 172225 prefixes, 0 uncertified, 26s
+class 1/16 done: 344450 prefixes, 0 uncertified, 61s
+class 2/16 done: 516675 prefixes, 0 uncertified, 98s
+class 3/16 done: 688900 prefixes, 0 uncertified, 158s
+class 4/16 done: 861125 prefixes, 0 uncertified, 206s
+class 5/16 done: 1033350 prefixes, 129 uncertified, 334s
+class 6/16 done: 1205575 prefixes, 327 uncertified, 544s
+class 7/16 done: 1377800 prefixes, 327 uncertified, 613s
+class 8/16 done: 1550025 prefixes, 543 uncertified, 940s
+class 9/16 done: 1722250 prefixes, 543 uncertified, 996s
+class 10/16 done: 1894475 prefixes, 570 uncertified, 1086s
+class 11/16 done: 2066700 prefixes, 597 uncertified, 1165s
+class 12/16 done: 2238925 prefixes, 597 uncertified, 1223s
+class 13/16 done: 2411150 prefixes, 609 uncertified, 1309s
+class 14/16 done: 2583375 prefixes, 669 uncertified, 1436s
+class 15/16 done: 2755600 prefixes, 669 uncertified, 1513s
+{"statement": "SS(9,8,2,4)", "L1": [[2, 3], [5, 6]], "second_layer_classes": 16, "prefixes_checked": 2755600, "by_rule": {"D/k=0": 100847, "D/k=2": 255955, "P7/k=2": 1646819, "D/k=1": 73826, "SS7/k=2": 674494, "D/k=4": 2990, "none": 669}, "uncertified": 669, "seconds": 1512.8}

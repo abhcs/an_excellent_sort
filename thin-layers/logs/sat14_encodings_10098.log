@@ -1,0 +1,5 @@
+0 10098 --full	94.6s	RESULT case 0 child 10098 UNSAT 93.1s solver cadical195 cosat False full True init 300
+0 10098 --full --solver kissat404	197.6s	RESULT case 0 child 10098 UNSAT 196.0s solver kissat404 cosat False full True init 300
+0 10098 --cosat	327.8s	RESULT case 0 child 10098 UNSAT 326.4s solver cadical195 cosat True full False init 300
+0 10098 --solver glucose4	314.0s	RESULT case 0 child 10098 UNSAT 312.5s solver glucose4 cosat False full False init 300
+0 10098 --init 100	413.6s	RESULT case 0 child 10098 UNSAT 412.2s solver cadical195 cosat False full False init 100

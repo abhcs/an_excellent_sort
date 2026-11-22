@@ -1,0 +1,95 @@
+963460 facts, 382318 needed by 1 statements, 382318 to check
+  5000/382318 checked, 0 failed
+  10000/382318 checked, 0 failed
+  15000/382318 checked, 0 failed
+  20000/382318 checked, 0 failed
+  25000/382318 checked, 0 failed
+  30000/382318 checked, 0 failed
+  35000/382318 checked, 0 failed
+  40000/382318 checked, 0 failed
+  45000/382318 checked, 0 failed
+  50000/382318 checked, 0 failed
+  55000/382318 checked, 0 failed
+  60000/382318 checked, 0 failed
+  65000/382318 checked, 0 failed
+  70000/382318 checked, 0 failed
+  75000/382318 checked, 0 failed
+  80000/382318 checked, 0 failed
+  85000/382318 checked, 0 failed
+  90000/382318 checked, 0 failed
+  95000/382318 checked, 0 failed
+  100000/382318 checked, 0 failed
+  105000/382318 checked, 0 failed
+  110000/382318 checked, 0 failed
+  115000/382318 checked, 0 failed
+  120000/382318 checked, 0 failed
+  125000/382318 checked, 0 failed
+  130000/382318 checked, 0 failed
+  135000/382318 checked, 0 failed
+  140000/382318 checked, 0 failed
+  145000/382318 checked, 0 failed
+  150000/382318 checked, 0 failed
+  155000/382318 checked, 0 failed
+  160000/382318 checked, 0 failed
+  165000/382318 checked, 0 failed
+  170000/382318 checked, 0 failed
+  175000/382318 checked, 0 failed
+  180000/382318 checked, 0 failed
+  185000/382318 checked, 0 failed
+  190000/382318 checked, 0 failed
+  195000/382318 checked, 0 failed
+  200000/382318 checked, 0 failed
+  205000/382318 checked, 0 failed
+  210000/382318 checked, 0 failed
+  215000/382318 checked, 0 failed
+  220000/382318 checked, 0 failed
+  225000/382318 checked, 0 failed
+  230000/382318 checked, 0 failed
+  235000/382318 checked, 0 failed
+  240000/382318 checked, 0 failed
+  245000/382318 checked, 0 failed
+  250000/382318 checked, 0 failed
+  255000/382318 checked, 0 failed
+  260000/382318 checked, 0 failed
+  265000/382318 checked, 0 failed
+  270000/382318 checked, 0 failed
+  275000/382318 checked, 0 failed
+  280000/382318 checked, 0 failed
+  285000/382318 checked, 0 failed
+  290000/382318 checked, 0 failed
+  295000/382318 checked, 0 failed
+  300000/382318 checked, 0 failed
+  305000/382318 checked, 0 failed
+  310000/382318 checked, 0 failed
+  315000/382318 checked, 0 failed
+  320000/382318 checked, 0 failed
+  325000/382318 checked, 0 failed
+  330000/382318 checked, 0 failed
+  335000/382318 checked, 0 failed
+  340000/382318 checked, 0 failed
+  345000/382318 checked, 0 failed
+  350000/382318 checked, 0 failed
+  355000/382318 checked, 0 failed
+  360000/382318 checked, 0 failed
+  365000/382318 checked, 0 failed
+  370000/382318 checked, 0 failed
+time: command terminated abnormally
+     9310.95 real      9283.14 user        14.16 sys
+          4199088128  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              982628  page reclaims
+                  41  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                9914  voluntary context switches
+              638601  involuntary context switches
+     188034894730789  instructions retired
+      33802203088996  cycles elapsed
+          5658694000  peak memory footprint
+exit 143

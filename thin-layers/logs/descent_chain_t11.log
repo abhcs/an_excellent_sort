@@ -1,0 +1,40 @@
+11-22 13:26:28 SS:11,9,2,3: 16 cases; store 1178 facts, 0 SAT records; lemmas ['SS:6,5,2,3', 'SS:7,6,1,2', 'SS:7,7,1,3', 'SS:8,7,2,3', 'SS:8,8,1,4', 'SS:9,7,3,2', 'SS:9,8,2,3', 'SS:9,8,2,4']
+11-22 13:26:28 case 0: |L2|=2 |X|=648
+11-22 13:27:28   split: 24 third layers, 0 covers close 0, 24 open (+ the empty layer)
+11-22 13:29:23   child [[0, 2], [8, 9]]: NO by SAT (99s; solve 46.4s, check 51.2s)
+11-22 13:31:34   child [[0, 4], [8, 9]]: NO by SAT (119s; solve 57.4s, check 60.3s)
+11-22 13:33:09   child [[0, 8], [9, 10]]: NO by SAT (87s; solve 38.6s, check 46.8s)
+11-22 13:33:10 case 0: NO -- split: 20 children by the prover, 3 by SAT (402s) (402s)
+11-22 13:33:10 case 1: |L2|=2 |X|=720
+11-22 13:34:10   split: 92 third layers, 0 covers close 0, 92 open (+ the empty layer)
+11-22 13:37:07   child [[3, 4], [5, 8]]: NO by SAT (104s; solve 49.3s, check 53.5s)
+11-22 13:37:08 case 1: NO -- split: 60 children by the prover, 1 by SAT (238s) (238s)
+11-22 13:37:08 case 2: |L2|=2 |X|=768
+11-22 13:37:24 case 2: NO -- root closes (17s, nodes 11) (17s)
+11-22 13:37:24 case 3: |L2|=2 |X|=768
+11-22 13:37:41 case 3: NO -- root closes (17s, nodes 11) (17s)
+11-22 13:37:41 case 4: |L2|=2 |X|=768
+11-22 13:37:41 case 4: NO -- stored (0s)
+11-22 13:37:41 case 5: |L2|=2 |X|=768
+11-22 13:38:10 case 5: NO -- root closes (29s, nodes 3) (29s)
+11-22 13:38:10 case 6: |L2|=2 |X|=800
+11-22 13:38:12 case 6: NO -- root closes (1s, nodes 1) (1s)
+11-22 13:38:12 case 7: |L2|=2 |X|=800
+11-22 13:38:13 case 7: NO -- root closes (1s, nodes 1) (1s)
+11-22 13:38:13 case 8: |L2|=2 |X|=832
+11-22 13:38:14 case 8: NO -- root closes (1s, nodes 1) (1s)
+11-22 13:38:14 case 9: |L2|=2 |X|=832
+11-22 13:38:15 case 9: NO -- root closes (1s, nodes 1) (1s)
+11-22 13:38:15 case 10: |L2|=1 |X|=864
+11-22 13:38:16 case 10: NO -- root closes (1s, nodes 1) (1s)
+11-22 13:38:16 case 11: |L2|=2 |X|=896
+11-22 13:38:17 case 11: NO -- root closes (1s, nodes 1) (1s)
+11-22 13:38:17 case 12: |L2|=1 |X|=960
+11-22 13:38:18 case 12: NO -- root closes (1s, nodes 1) (1s)
+11-22 13:38:18 case 13: |L2|=1 |X|=1024
+11-22 13:38:20 case 13: NO -- root closes (1s, nodes 1) (1s)
+11-22 13:38:20 case 14: |L2|=1 |X|=1024
+11-22 13:38:21 case 14: NO -- root closes (1s, nodes 1) (1s)
+11-22 13:38:21 case 15: |L2|=0 |X|=1152
+11-22 13:38:22 case 15: NO -- root closes (1s, nodes 1) (1s)
+11-22 13:38:22 worker done

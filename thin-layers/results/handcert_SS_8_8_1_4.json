@@ -1,0 +1,20 @@
+{
+ "statement": "SS(8,8,1,4)",
+ "L1": [
+  [
+   3,
+   4
+  ]
+ ],
+ "second_layer_classes": 3,
+ "prefixes_checked": 2523,
+ "by_rule": {
+  "D/k=0": 140,
+  "D/k=1": 622,
+  "P7/k=1": 1278,
+  "SS7/k=1": 483
+ },
+ "uncertified": 0,
+ "uncertified_examples": [],
+ "seconds": 0.0
+}

@@ -1,0 +1,18 @@
+23:31:08 D(r) proved for r <= 9: {1: 0, 2: 1, 3: 3, 4: 3, 5: 5, 6: 5, 7: 6, 8: 6, 9: 7}
+23:31:11 TRACE split of the traced node: 14 cases (+ empty layer)
+23:31:11   progress: {'nodes': 500, 'memo': 1171, 'sent_quick': 250, 'sent_rec': 29, 'split_no': 14, 'yes': 201, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0} memo=494
+23:31:12 TRACE case 1/14 closed (1s, nodes 624): layer [(4, 5), (6, 7)]
+23:31:13 TRACE case 2/14 closed (2s, nodes 732): layer [(0, 4), (5, 6)]
+23:31:13 TRACE case 3/14 closed (3s, nodes 736): layer [(0, 2), (1, 3)]
+23:31:13 TRACE case 4/14 closed (3s, nodes 737): layer [(0, 2), (4, 5)]
+23:31:13 TRACE case 5/14 closed (3s, nodes 738): layer [(0, 3), (4, 5)]
+23:31:13 TRACE case 6/14 closed (3s, nodes 739): layer [(0, 4), (2, 5)]
+23:31:13 TRACE case 7/14 closed (3s, nodes 740): layer [(0, 4), (3, 5)]
+23:31:13 TRACE case 8/14 closed (3s, nodes 741): layer [(0, 2), (1, 4)]
+23:31:13 TRACE case 9/14 closed (3s, nodes 742): layer [(0, 3), (1, 4)]
+23:31:13 TRACE case 10/14 closed (3s, nodes 743): layer [(4, 5)]
+23:31:13 TRACE case 11/14 closed (3s, nodes 744): layer [(0, 3), (1, 2)]
+23:31:13 TRACE case 12/14 closed (3s, nodes 745): layer [(0, 4)]
+23:31:13 TRACE case 13/14 closed (3s, nodes 746): layer [(0, 2)]
+23:31:13 TRACE case 14/14 closed (3s, nodes 747): layer [(0, 3)]
+23:31:13 SS(9,8,2,4) is TRUE (5.1s): proof DAG 382 nodes {'sent': 81, 'quick': 278, 'split': 23}; search {'nodes': 512, 'memo': 1362, 'sent_quick': 267, 'sent_rec': 90, 'split_no': 20, 'yes': 135, 'oracle_yes': 0, 'oracle_no': 0, 'oracle_unknown': 0}

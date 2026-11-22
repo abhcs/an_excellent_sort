@@ -1,0 +1,2 @@
+13:37:11 case 0 layer [(0, 2), (1, 10), (3, 6), (5, 9), (7, 12)] |X|=804: NO by sent (173s) fact 20261121-133358-98621-296 new facts 160 {'nodes': 81, 'hits': 323, 'quick': 0, 'lemma': 15, 'sent': 61, 'reuse': 20, 'sub': 0, 'absorb': 0, 'split': 1, 'yes': 4, 'oracle': 0, 'guide': 97, 'shared': 0, 'sym': 1}
+exit 0

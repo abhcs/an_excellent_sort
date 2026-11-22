@@ -1,0 +1,18 @@
+12:41:29 case 340: |X|=1800 layer [(0, 1), (2, 4), (6, 12), (8, 13)]; store 383522 facts
+12:44:20   progress {'nodes': 1000, 'hits': 5520, 'quick': 7, 'lemma': 18, 'sent': 426, 'reuse': 204, 'sub': 4, 'absorb': 9, 'split': 6, 'yes': 471, 'oracle': 5, 'guide': 1107, 'shared': 0, 'sym': 5} facts=385114
+12:45:02   progress {'nodes': 2000, 'hits': 8785, 'quick': 10, 'lemma': 29, 'sent': 1188, 'reuse': 674, 'sub': 10, 'absorb': 16, 'split': 13, 'yes': 666, 'oracle': 5, 'guide': 2053, 'shared': 0, 'sym': 5} facts=386578
+12:45:54   progress {'nodes': 3000, 'hits': 12315, 'quick': 11, 'lemma': 38, 'sent': 1986, 'reuse': 1176, 'sub': 13, 'absorb': 18, 'split': 20, 'yes': 845, 'oracle': 5, 'guide': 3239, 'shared': 0, 'sym': 5} facts=388161
+12:46:57   progress {'nodes': 4000, 'hits': 14923, 'quick': 19, 'lemma': 51, 'sent': 2814, 'reuse': 1585, 'sub': 15, 'absorb': 26, 'split': 27, 'yes': 977, 'oracle': 5, 'guide': 4440, 'shared': 0, 'sym': 5} facts=389565
+12:50:31   progress {'nodes': 5000, 'hits': 17358, 'quick': 28, 'lemma': 138, 'sent': 3581, 'reuse': 2164, 'sub': 15, 'absorb': 35, 'split': 29, 'yes': 1081, 'oracle': 23, 'guide': 4783, 'shared': 0, 'sym': 22} facts=390798
+12:51:25   progress {'nodes': 6000, 'hits': 18634, 'quick': 29, 'lemma': 156, 'sent': 4490, 'reuse': 2931, 'sub': 15, 'absorb': 37, 'split': 30, 'yes': 1152, 'oracle': 23, 'guide': 5349, 'shared': 0, 'sym': 22} facts=392010
+12:53:38   progress {'nodes': 7000, 'hits': 20151, 'quick': 29, 'lemma': 161, 'sent': 5462, 'reuse': 2986, 'sub': 15, 'absorb': 38, 'split': 31, 'yes': 1174, 'oracle': 23, 'guide': 8022, 'shared': 0, 'sym': 22} facts=393300
+12:55:41   progress {'nodes': 8000, 'hits': 21229, 'quick': 29, 'lemma': 212, 'sent': 6411, 'reuse': 2986, 'sub': 15, 'absorb': 38, 'split': 31, 'yes': 1174, 'oracle': 23, 'guide': 9399, 'shared': 0, 'sym': 22} facts=394356
+12:57:23   progress {'nodes': 9000, 'hits': 23348, 'quick': 29, 'lemma': 383, 'sent': 7170, 'reuse': 3000, 'sub': 15, 'absorb': 38, 'split': 32, 'yes': 1237, 'oracle': 23, 'guide': 10156, 'shared': 0, 'sym': 23} facts=395598
+12:58:24   progress {'nodes': 10000, 'hits': 29322, 'quick': 31, 'lemma': 396, 'sent': 7861, 'reuse': 3315, 'sub': 15, 'absorb': 46, 'split': 34, 'yes': 1521, 'oracle': 23, 'guide': 11853, 'shared': 0, 'sym': 23} facts=397282
+12:59:59   progress {'nodes': 11000, 'hits': 32554, 'quick': 32, 'lemma': 417, 'sent': 8712, 'reuse': 3609, 'sub': 15, 'absorb': 54, 'split': 34, 'yes': 1642, 'oracle': 23, 'guide': 13490, 'shared': 0, 'sym': 23} facts=398511
+13:01:29   progress {'nodes': 12000, 'hits': 35270, 'quick': 32, 'lemma': 511, 'sent': 9507, 'reuse': 3909, 'sub': 18, 'absorb': 60, 'split': 35, 'yes': 1741, 'oracle': 23, 'guide': 15408, 'shared': 0, 'sym': 24} facts=400070
+13:03:08   progress {'nodes': 13000, 'hits': 36294, 'quick': 32, 'lemma': 571, 'sent': 10436, 'reuse': 4257, 'sub': 18, 'absorb': 61, 'split': 35, 'yes': 1753, 'oracle': 23, 'guide': 16334, 'shared': 0, 'sym': 24} facts=401123
+13:04:55   progress {'nodes': 14000, 'hits': 39727, 'quick': 33, 'lemma': 602, 'sent': 11257, 'reuse': 4499, 'sub': 19, 'absorb': 66, 'split': 36, 'yes': 1893, 'oracle': 23, 'guide': 18553, 'shared': 0, 'sym': 25} facts=402657
+13:07:10   progress {'nodes': 15000, 'hits': 40363, 'quick': 36, 'lemma': 847, 'sent': 12005, 'reuse': 4876, 'sub': 19, 'absorb': 66, 'split': 38, 'yes': 1895, 'oracle': 25, 'guide': 19276, 'shared': 0, 'sym': 28} facts=403800
+13:10:40   progress {'nodes': 16000, 'hits': 42883, 'quick': 43, 'lemma': 945, 'sent': 12791, 'reuse': 5512, 'sub': 19, 'absorb': 75, 'split': 38, 'yes': 1967, 'oracle': 51, 'guide': 19579, 'shared': 0, 'sym': 43} facts=404965
+exit 142

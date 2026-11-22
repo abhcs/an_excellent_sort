@@ -1,0 +1,6 @@
+14 9 5 --capped 3 --exceptional 3	1800.0s	TIMEOUT
+13 9 4 --capped 3 --exceptional 3	1800.0s	TIMEOUT
+12 9 3 --capped 3 --exceptional 3	1800.0s	TIMEOUT
+12 9 3 --capped 3	1800.0s	TIMEOUT
+11 9 2 --capped 3	1800.0s	TIMEOUT
+13 9 4 --capped 3	1800.0s	TIMEOUT

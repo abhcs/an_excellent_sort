@@ -1,0 +1,8 @@
+13:25:37 SS(11,9,2,3) worker 0/3: 16 cases; store 1001984 facts
+13:25:37 case 0: NO already stored |L2|=2
+13:25:57 case 3: NO by absorb (19.8s) |L2|=2 |X|=768 nodes 9
+13:25:59 case 6: NO by sent (2.3s) |L2|=2 |X|=800 nodes 1
+13:26:01 case 9: NO by sent (2.0s) |L2|=2 |X|=832 nodes 1
+13:26:01 case 12: NO already stored |L2|=1
+13:26:01 case 15: NO already stored |L2|=0
+13:26:01 worker done

@@ -1,0 +1,9 @@
+# fact stores: hundreds of MB to GB each; runs rebuild them (base: results/descent_base_*)
+facts/
+facts_*/
+# the C core is compiled on first import
+fastcore.dylib
+fastcore.so
+# large proof dumps (regenerable; their summaries are in results/ and the README)
+results/*.drat
+results/sentinel_proof_*.jsonl

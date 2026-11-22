@@ -1,0 +1,512 @@
+[
+ {
+  "n": 7,
+  "a": 3,
+  "k": 1,
+  "L1": [
+   [
+    0,
+    1
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    4,
+    5
+   ]
+  ],
+  "second_layers": 232,
+  "lemma_condition": true,
+  "L2_with_no_good_track_vs_some_L3_at_cap": 0,
+  "L2_with_no_good_track_vs_L3_below_cap": 0,
+  "example_bad_L2": null,
+  "consistent": true
+ },
+ {
+  "n": 6,
+  "a": 2,
+  "k": 2,
+  "L1": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    4
+   ]
+  ],
+  "second_layers": 61,
+  "lemma_condition": false,
+  "L2_with_no_good_track_vs_some_L3_at_cap": 27,
+  "L2_with_no_good_track_vs_L3_below_cap": 0,
+  "example_bad_L2": [
+   1,
+   [
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     3
+    ]
+   ]
+  ],
+  "consistent": true
+ },
+ {
+  "n": 9,
+  "a": 4,
+  "k": 1,
+  "L1": [
+   [
+    0,
+    1
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    7,
+    8
+   ]
+  ],
+  "second_layers": 2620,
+  "lemma_condition": true,
+  "L2_with_no_good_track_vs_some_L3_at_cap": 0,
+  "L2_with_no_good_track_vs_L3_below_cap": 0,
+  "example_bad_L2": null,
+  "consistent": true
+ },
+ {
+  "n": 8,
+  "a": 3,
+  "k": 2,
+  "L1": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ]
+  ],
+  "second_layers": 659,
+  "lemma_condition": false,
+  "L2_with_no_good_track_vs_some_L3_at_cap": 9,
+  "L2_with_no_good_track_vs_L3_below_cap": 0,
+  "example_bad_L2": [
+   2,
+   [
+    [
+     0,
+     7
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     4
+    ]
+   ]
+  ],
+  "consistent": true
+ },
+ {
+  "n": 11,
+  "a": 5,
+  "k": 1,
+  "L1": [
+   [
+    0,
+    1
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    8,
+    9
+   ]
+  ],
+  "second_layers": 35696,
+  "lemma_condition": true,
+  "L2_with_no_good_track_vs_some_L3_at_cap": 0,
+  "L2_with_no_good_track_vs_L3_below_cap": 0,
+  "example_bad_L2": null,
+  "consistent": true
+ },
+ {
+  "n": 10,
+  "a": 4,
+  "k": 2,
+  "L1": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    7,
+    8
+   ]
+  ],
+  "second_layers": 8551,
+  "lemma_condition": true,
+  "L2_with_no_good_track_vs_some_L3_at_cap": 0,
+  "L2_with_no_good_track_vs_L3_below_cap": 0,
+  "example_bad_L2": null,
+  "consistent": true
+ },
+ {
+  "n": 9,
+  "a": 3,
+  "k": 3,
+  "L1": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ]
+  ],
+  "second_layers": 1675,
+  "lemma_condition": false,
+  "L2_with_no_good_track_vs_some_L3_at_cap": 651,
+  "L2_with_no_good_track_vs_L3_below_cap": 0,
+  "example_bad_L2": [
+   2,
+   [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     7,
+     8
+    ]
+   ]
+  ],
+  "consistent": true
+ },
+ {
+  "n": 13,
+  "a": 6,
+  "k": 1,
+  "L1": [
+   [
+    0,
+    1
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    7,
+    8
+   ],
+   [
+    9,
+    10
+   ],
+   [
+    11,
+    12
+   ]
+  ],
+  "second_layers": 568504,
+  "lemma_condition": true,
+  "L2_with_no_good_track_vs_some_L3_at_cap": 0,
+  "L2_with_no_good_track_vs_L3_below_cap": 0,
+  "example_bad_L2": null,
+  "consistent": true
+ },
+ {
+  "n": 12,
+  "a": 5,
+  "k": 2,
+  "L1": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    7,
+    8
+   ],
+   [
+    9,
+    10
+   ]
+  ],
+  "second_layers": 129757,
+  "lemma_condition": true,
+  "L2_with_no_good_track_vs_some_L3_at_cap": 0,
+  "L2_with_no_good_track_vs_L3_below_cap": 0,
+  "example_bad_L2": null,
+  "consistent": true
+ },
+ {
+  "n": 11,
+  "a": 4,
+  "k": 3,
+  "L1": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    8,
+    9
+   ]
+  ],
+  "second_layers": 25301,
+  "lemma_condition": false,
+  "L2_with_no_good_track_vs_some_L3_at_cap": 612,
+  "L2_with_no_good_track_vs_L3_below_cap": 0,
+  "example_bad_L2": [
+   3,
+   [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     5,
+     10
+    ]
+   ]
+  ],
+  "consistent": true
+ },
+ {
+  "n": 15,
+  "a": 7,
+  "k": 1,
+  "L1": [
+   [
+    0,
+    1
+   ],
+   [
+    2,
+    3
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    8,
+    9
+   ],
+   [
+    10,
+    11
+   ],
+   [
+    12,
+    13
+   ]
+  ],
+  "second_layers": 10349536,
+  "lemma_condition": true,
+  "L2_with_no_good_track_vs_some_L3_at_cap": 0,
+  "L2_with_no_good_track_vs_L3_below_cap": 0,
+  "example_bad_L2": null,
+  "consistent": true
+ },
+ {
+  "n": 14,
+  "a": 6,
+  "k": 2,
+  "L1": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    7,
+    8
+   ],
+   [
+    9,
+    10
+   ],
+   [
+    11,
+    12
+   ]
+  ],
+  "second_layers": 2255345,
+  "lemma_condition": true,
+  "L2_with_no_good_track_vs_some_L3_at_cap": 0,
+  "L2_with_no_good_track_vs_L3_below_cap": 0,
+  "example_bad_L2": null,
+  "consistent": true
+ },
+ {
+  "n": 13,
+  "a": 5,
+  "k": 3,
+  "L1": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    7,
+    8
+   ],
+   [
+    9,
+    10
+   ]
+  ],
+  "second_layers": 433369,
+  "lemma_condition": true,
+  "L2_with_no_good_track_vs_some_L3_at_cap": 0,
+  "L2_with_no_good_track_vs_L3_below_cap": 0,
+  "example_bad_L2": null,
+  "consistent": true
+ },
+ {
+  "n": 12,
+  "a": 4,
+  "k": 4,
+  "L1": [
+   [
+    2,
+    3
+   ],
+   [
+    4,
+    5
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    8,
+    9
+   ]
+  ],
+  "second_layers": 67387,
+  "lemma_condition": false,
+  "L2_with_no_good_track_vs_some_L3_at_cap": 24135,
+  "L2_with_no_good_track_vs_L3_below_cap": 0,
+  "example_bad_L2": [
+   2,
+   [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     10,
+     11
+    ]
+   ]
+  ],
+  "consistent": true
+ }
+]

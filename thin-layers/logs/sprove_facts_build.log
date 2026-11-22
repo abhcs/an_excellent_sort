@@ -1,0 +1,95 @@
+08:39:36 loaded 0 facts, 0 statements from facts
+08:39:36 TRACE absorb: 2 covers, 0 cases (+ empty layer)
+08:39:36 D:3: PROVED (0s) fact 20261119-083936-33093-4; new work {'nodes': 2, 'hits': 1, 'quick': 0, 'lemma': 0, 'sent': 0, 'reuse': 0, 'sub': 0, 'absorb': 1, 'split': 1, 'yes': 0}
+08:39:36 D:4: PROVED (0s) fact 20261119-083936-33093-6; new work {'nodes': 1, 'hits': 0, 'quick': 1, 'lemma': 0, 'sent': 0, 'reuse': 0, 'sub': 0, 'absorb': 0, 'split': 0, 'yes': 0}
+08:39:36 TRACE split: 0 covers, 0 cases (+ empty layer)
+08:39:36 D:5: PROVED (0s) fact 20261119-083936-33093-27; new work {'nodes': 15, 'hits': 35, 'quick': 1, 'lemma': 0, 'sent': 0, 'reuse': 0, 'sub': 1, 'absorb': 0, 'split': 3, 'yes': 7}
+08:39:36 D:6: PROVED (0s) fact 20261119-083936-33093-29; new work {'nodes': 1, 'hits': 0, 'quick': 1, 'lemma': 0, 'sent': 0, 'reuse': 0, 'sub': 0, 'absorb': 0, 'split': 0, 'yes': 0}
+08:39:37 TRACE absorb: 6 covers, 0 cases (+ empty layer)
+08:39:37 D:7: PROVED (0s) fact 20261119-083936-33093-90; new work {'nodes': 42, 'hits': 180, 'quick': 5, 'lemma': 0, 'sent': 0, 'reuse': 0, 'sub': 1, 'absorb': 6, 'split': 2, 'yes': 22}
+08:39:37 D:8: PROVED (0s) fact 20261119-083936-33093-92; new work {'nodes': 1, 'hits': 0, 'quick': 1, 'lemma': 0, 'sent': 0, 'reuse': 0, 'sub': 0, 'absorb': 0, 'split': 0, 'yes': 0}
+08:39:43 TRACE absorb: 8 covers, 0 cases (+ empty layer)
+08:39:43 D:9: PROVED (7s) fact 20261119-083936-33093-388; new work {'nodes': 199, 'hits': 1815, 'quick': 17, 'lemma': 0, 'sent': 13, 'reuse': 8, 'sub': 1, 'absorb': 10, 'split': 9, 'yes': 138}
+08:39:43 D:10: PROVED (0s) fact 20261119-083936-33093-390; new work {'nodes': 1, 'hits': 0, 'quick': 1, 'lemma': 0, 'sent': 0, 'reuse': 0, 'sub': 0, 'absorb': 0, 'split': 0, 'yes': 0}
+08:39:43 SS:7,6,1,2: PROVED (0s) fact 20261119-083936-33093-395; new work {'nodes': 3, 'hits': 9, 'quick': 1, 'lemma': 0, 'sent': 1, 'reuse': 0, 'sub': 0, 'absorb': 1, 'split': 0, 'yes': 0}
+08:39:44 TRACE absorb: 2 covers, 1 cases (+ empty layer)
+08:39:44 TRACE case 1/1 closed (0s, nodes 278): [(2, 3)]
+08:39:44 SS:7,7,1,3: PROVED (0s) fact 20261119-083936-33093-408; new work {'nodes': 13, 'hits': 113, 'quick': 0, 'lemma': 0, 'sent': 0, 'reuse': 0, 'sub': 0, 'absorb': 1, 'split': 1, 'yes': 6}
+08:39:44 SS:6,5,2,3: PROVED (0s) fact 20261119-083936-33093-88; new work {'nodes': 0, 'hits': 1, 'quick': 0, 'lemma': 0, 'sent': 0, 'reuse': 0, 'sub': 0, 'absorb': 0, 'split': 0, 'yes': 0}
+08:39:44 SS:8,8,1,4: PROVED (0s) fact 20261119-083936-33093-419; new work {'nodes': 9, 'hits': 66, 'quick': 0, 'lemma': 0, 'sent': 1, 'reuse': 0, 'sub': 1, 'absorb': 0, 'split': 1, 'yes': 3}
+08:39:46 TRACE absorb: 4 covers, 1 cases (+ empty layer)
+08:39:46 TRACE case 1/1 closed (0s, nodes 326): [(4, 5), (6, 7)]
+08:39:46 SS:8,7,2,3: PROVED (2s) fact 20261119-083936-33093-472; new work {'nodes': 40, 'hits': 440, 'quick': 3, 'lemma': 0, 'sent': 2, 'reuse': 2, 'sub': 1, 'absorb': 5, 'split': 2, 'yes': 20}
+08:40:02 TRACE absorb: 4 covers, 1 cases (+ empty layer)
+08:40:03 TRACE case 1/1 closed (0s, nodes 468): [(4, 5), (6, 7)]
+08:40:03 SS:9,8,2,4: PROVED (17s) fact 20261119-083936-33093-667; new work {'nodes': 142, 'hits': 1795, 'quick': 8, 'lemma': 1, 'sent': 7, 'reuse': 5, 'sub': 3, 'absorb': 10, 'split': 4, 'yes': 97}
+08:40:40 TRACE split: 0 covers, 46 cases (+ empty layer)
+08:41:08   progress {'nodes': 1000, 'hits': 13292, 'quick': 64, 'lemma': 11, 'sent': 53, 'reuse': 33, 'sub': 11, 'absorb': 64, 'split': 34, 'yes': 696} facts=994
+08:41:27 TRACE case 1/46 closed (47s, nodes 1350): [(0, 2), (1, 3), (6, 7)]
+08:42:11 TRACE case 2/46 closed (91s, nodes 1791): [(0, 2), (1, 6), (7, 8)]
+08:42:24 TRACE case 3/46 closed (104s, nodes 1899): [(0, 3), (1, 6), (7, 8)]
+08:42:41 TRACE case 4/46 closed (121s, nodes 1985): [(0, 2), (1, 3), (4, 6)]
+08:42:48   progress {'nodes': 2000, 'hits': 31640, 'quick': 162, 'lemma': 34, 'sent': 248, 'reuse': 192, 'sub': 31, 'absorb': 159, 'split': 61, 'yes': 1229} facts=1995
+08:43:05 TRACE case 5/46 closed (145s, nodes 2109): [(0, 2), (4, 6), (7, 8)]
+08:43:21 TRACE case 6/46 closed (161s, nodes 2191): [(0, 2), (5, 6), (7, 8)]
+08:43:29 TRACE case 7/46 closed (169s, nodes 2224): [(0, 3), (4, 6), (7, 8)]
+08:43:29 TRACE case 8/46 closed (169s, nodes 2226): [(0, 6), (2, 7), (4, 8)]
+08:43:29 TRACE case 9/46 closed (169s, nodes 2228): [(0, 6), (2, 7), (5, 8)]
+08:43:45 TRACE case 10/46 closed (185s, nodes 2280): [(0, 2), (1, 4), (6, 7)]
+08:44:06 TRACE case 11/46 closed (206s, nodes 2384): [(0, 2), (1, 5), (6, 7)]
+08:44:19 TRACE case 12/46 closed (219s, nodes 2401): [(0, 2), (1, 6), (3, 7)]
+08:44:36 TRACE case 13/46 closed (236s, nodes 2429): [(0, 3), (1, 2), (6, 7)]
+08:44:49 TRACE case 14/46 closed (249s, nodes 2450): [(0, 3), (1, 4), (6, 7)]
+08:45:03 TRACE case 15/46 closed (263s, nodes 2527): [(0, 2), (4, 6), (5, 7)]
+08:45:11 TRACE case 16/46 closed (271s, nodes 2536): [(0, 3), (4, 6), (5, 7)]
+08:45:13 TRACE case 17/46 closed (273s, nodes 2560): [(0, 2), (1, 6), (4, 7)]
+08:45:13 TRACE case 18/46 closed (273s, nodes 2561): [(0, 2), (1, 6), (5, 7)]
+08:45:22 TRACE case 19/46 closed (282s, nodes 2581): [(0, 3), (1, 6), (4, 7)]
+08:45:30 TRACE case 20/46 closed (291s, nodes 2595): [(0, 3), (1, 6), (5, 7)]
+08:45:30 TRACE case 21/46 closed (291s, nodes 2596): [(0, 6), (7, 8)]
+08:45:30 TRACE case 22/46 closed (291s, nodes 2597): [(0, 2), (1, 4), (3, 6)]
+08:45:30 TRACE case 23/46 closed (291s, nodes 2598): [(0, 2), (1, 4), (5, 6)]
+08:45:30 TRACE case 24/46 closed (291s, nodes 2599): [(0, 2), (1, 5), (3, 6)]
+08:45:38 TRACE case 25/46 closed (299s, nodes 2617): [(0, 3), (1, 4), (2, 6)]
+08:45:44 TRACE case 26/46 closed (305s, nodes 2628): [(0, 3), (1, 2), (4, 6)]
+08:45:45 TRACE case 27/46 closed (305s, nodes 2631): [(0, 2), (1, 3)]
+08:45:45 TRACE case 28/46 closed (305s, nodes 2632): [(0, 2), (1, 4), (3, 5)]
+08:45:45 TRACE case 29/46 closed (305s, nodes 2633): [(0, 2), (6, 7)]
+08:45:53 TRACE case 30/46 closed (313s, nodes 2657): [(0, 3), (1, 4), (2, 5)]
+08:45:53 TRACE case 31/46 closed (313s, nodes 2658): [(0, 3), (6, 7)]
+08:45:53 TRACE case 32/46 closed (313s, nodes 2659): [(0, 6), (2, 7)]
+08:45:53 TRACE case 33/46 closed (313s, nodes 2660): [(0, 6), (3, 7)]
+08:45:53 TRACE case 34/46 closed (313s, nodes 2661): [(0, 2), (1, 6)]
+08:45:53 TRACE case 35/46 closed (313s, nodes 2662): [(0, 3), (1, 6)]
+08:45:53 TRACE case 36/46 closed (313s, nodes 2663): [(0, 2), (4, 6)]
+08:45:53 TRACE case 37/46 closed (313s, nodes 2664): [(0, 2), (5, 6)]
+08:45:53 TRACE case 38/46 closed (313s, nodes 2665): [(0, 3), (4, 6)]
+08:45:53 TRACE case 39/46 closed (313s, nodes 2665): [(6, 7)]
+08:45:53 TRACE case 40/46 closed (313s, nodes 2666): [(0, 2), (1, 4)]
+08:45:53 TRACE case 41/46 closed (313s, nodes 2667): [(0, 2), (1, 5)]
+08:45:53 TRACE case 42/46 closed (313s, nodes 2668): [(0, 3), (1, 2)]
+08:45:53 TRACE case 43/46 closed (313s, nodes 2669): [(0, 3), (1, 4)]
+08:45:53 TRACE case 44/46 closed (313s, nodes 2670): [(0, 6)]
+08:45:53 TRACE case 45/46 closed (313s, nodes 2671): [(0, 2)]
+08:45:53 TRACE case 46/46 closed (313s, nodes 2672): [(0, 3)]
+08:45:53 SS:9,7,3,2: PROVED (350s) fact 20261119-083936-33093-4230; new work {'nodes': 2204, 'hits': 42894, 'quick': 183, 'lemma': 55, 'sent': 307, 'reuse': 246, 'sub': 50, 'absorb': 192, 'split': 54, 'yes': 1338}
+08:47:49   progress {'nodes': 3000, 'hits': 52944, 'quick': 236, 'lemma': 59, 'sent': 411, 'reuse': 305, 'sub': 60, 'absorb': 237, 'split': 85, 'yes': 1820} facts=2993
+08:51:01 TRACE absorb: 10 covers, 0 cases (+ empty layer)
+08:51:01 D:11: PROVED (308s) fact 20261119-083936-33093-5930; new work {'nodes': 980, 'hits': 9919, 'quick': 30, 'lemma': 15, 'sent': 578, 'reuse': 513, 'sub': 3, 'absorb': 33, 'split': 13, 'yes': 294}
+08:51:10 TRACE split: 0 covers, 14 cases (+ empty layer)
+08:51:44 TRACE case 1/14 closed (34s, nodes 3733): [(4, 5), (6, 7)]
+08:53:10   progress {'nodes': 4000, 'hits': 65620, 'quick': 283, 'lemma': 77, 'sent': 933, 'reuse': 792, 'sub': 66, 'absorb': 288, 'split': 100, 'yes': 2155} facts=3995
+08:53:53 TRACE case 2/14 closed (163s, nodes 4116): [(0, 4), (5, 6)]
+08:54:24 TRACE case 3/14 closed (194s, nodes 4172): [(0, 2), (1, 3)]
+08:56:36 TRACE case 4/14 closed (326s, nodes 4724): [(0, 2), (4, 5)]
+08:56:48 TRACE case 5/14 closed (338s, nodes 4741): [(0, 3), (4, 5)]
+08:57:01 TRACE case 6/14 closed (351s, nodes 4765): [(0, 4), (2, 5)]
+08:57:05 TRACE case 7/14 closed (355s, nodes 4772): [(0, 4), (3, 5)]
+08:57:28 TRACE case 8/14 closed (378s, nodes 4799): [(0, 2), (1, 4)]
+08:57:31 TRACE case 9/14 closed (381s, nodes 4806): [(0, 3), (1, 4)]
+08:57:31 TRACE case 10/14 closed (381s, nodes 4806): [(4, 5)]
+08:57:33 TRACE case 11/14 closed (383s, nodes 4813): [(0, 3), (1, 2)]
+08:57:34 TRACE case 12/14 closed (384s, nodes 4815): [(0, 4)]
+08:57:34 TRACE case 13/14 closed (384s, nodes 4816): [(0, 2)]
+08:57:34 TRACE case 14/14 closed (384s, nodes 4817): [(0, 3)]
+08:57:34 SS:9,8,2,3: PROVED (393s) fact 20261119-083936-33093-7836; new work {'nodes': 1165, 'hits': 27362, 'quick': 78, 'lemma': 51, 'sent': 154, 'reuse': 125, 'sub': 44, 'absorb': 106, 'split': 30, 'yes': 675}

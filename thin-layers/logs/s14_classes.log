@@ -1,0 +1,25 @@
+14:33:12 store 469458 facts
+14:33:18 case 681: 250/1500 children, 15 keys so far (6s)
+14:33:23 case 681: 500/1500 children, 19 keys so far (11s)
+14:33:35 case 681: 1000/1500 children, 25 keys so far (23s)
+14:33:41 case 681: 1250/1500 children, 26 keys so far (29s)
+14:33:47 case 681: 1500 of 3032 children done, 27 keys (35s)
+14:33:47 case 0: 0/1500 children, 50 keys so far (0s)
+14:33:56 case 0: 250/1500 children, 1227 keys so far (9s)
+14:34:05 case 0: 500/1500 children, 1742 keys so far (18s)
+14:34:14 case 0: 750/1500 children, 2043 keys so far (28s)
+14:34:24 case 0: 1000/1500 children, 2292 keys so far (37s)
+14:34:33 case 0: 1250/1500 children, 2458 keys so far (46s)
+14:34:42 case 0: 1500 of 17881 children done, 2607 keys (55s)
+14:34:42 case 340: 0/1500 children, 2607 keys so far (0s)
+14:35:03 case 340: 500/1500 children, 2944 keys so far (22s)
+14:35:14 case 340: 750/1500 children, 3055 keys so far (33s)
+14:35:26 case 340: 1000/1500 children, 3123 keys so far (44s)
+14:35:36 case 340: 1250/1500 children, 3170 keys so far (55s)
+14:35:48 case 340: 1500 of 41896 children done, 3231 keys (66s)
+14:35:48 store lookups for 3231 keys (0s)
+14:35:48 case 681: {'leaf (quick)': 1102, 'none known': 394, 'a stored NO residual': 4}; min (h, k) of first candidate: [((1, 4), 383), ((2, 4), 15)]
+14:35:48 case 0: {'a stored NO residual': 1027, 'none known': 473}; min (h, k) of first candidate: [((2, 4), 975), ((1, 4), 316), ((2, 3), 154), ((3, 4), 55)]
+14:35:48 case 340: {'none known': 185, 'leaf (quick)': 56, 'a stored NO residual': 1259}; min (h, k) of first candidate: [((2, 4), 901), ((1, 4), 272), ((2, 3), 271)]
+14:35:48 key status: Counter({None: 2655, 'known class': 447, 'YES': 110, 'NO': 19})
+exit 0

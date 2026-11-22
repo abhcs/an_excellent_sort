@@ -1,0 +1,144 @@
+Proof that no 9-channel sorting network has depth 6 (D(9) >= 7), found by sentinel_prover.py.
+Channels 0..8; a comparator (i, j) puts the minimum on i.  "c:+inf" fixes input c to +infinity.
+D(r) for r < 9 is proved the same way (results/sentinel_proof_D3-9.jsonl).
+
+N0: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)]], 5 more layers
+    split on the next layer: 67 cases -> N13, N54, N30, N36, N21, N62, N33, N31, N12, N16, N40, N20 ...
+N1: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 3), (4, 7)]], 4 more layers
+    sentinels 0:-inf 4:-inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N2: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 3), (1, 2), (4, 8)]], 4 more layers
+    sentinels 0:+inf 2:+inf 4:-inf: residual is N69
+N3: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 4), (3, 5)]], 4 more layers
+    sentinels 0:+inf 2:+inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N4: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 3), (1, 4), (2, 5)]], 4 more layers
+    sentinels 0:+inf 2:-inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N5: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 8)]], 4 more layers
+    sentinels 0:+inf: 8 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(8)
+N6: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (4, 7), (6, 8)]], 4 more layers
+    sentinels 0:-inf 6:+inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N7: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 5), (3, 8)]], 4 more layers
+    sentinels 0:+inf 2:+inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N8: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 4), (3, 6)]], 4 more layers
+    sentinels 0:+inf 2:+inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N9: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (5, 7)]], 4 more layers
+    sentinels 0:-inf 4:+inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N10: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 8)]], 4 more layers
+    sentinels 0:-inf: 8 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(8)
+N11: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 3)]], 4 more layers
+    sentinels 0:+inf 1:+inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N12: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 4), (3, 8), (5, 7)]], 4 more layers
+    sentinels 0:-inf 2:+inf 4:-inf: residual is N68
+N13: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 3), (4, 6), (5, 7)]], 4 more layers
+    sentinels 0:+inf 2:-inf 4:+inf: residual is N68
+N14: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 8), (4, 7)]], 4 more layers
+    sentinels 0:-inf 4:-inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N15: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 5), (3, 7), (4, 6)]], 4 more layers
+    sentinels 0:+inf 2:-inf 4:-inf: residual is N68
+N16: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 4), (5, 6), (7, 8)]], 4 more layers
+    sentinels 0:+inf 2:-inf 4:+inf: residual is N68
+N17: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 3), (1, 4), (2, 7)]], 4 more layers
+    sentinels 0:+inf 2:-inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N18: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 4), (5, 8)]], 4 more layers
+    sentinels 0:-inf 4:+inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N19: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 3)]], 4 more layers
+    sentinels 0:-inf: 8 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(8)
+N20: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 3), (1, 4), (2, 7), (5, 8)]], 4 more layers
+    sentinels 0:+inf 2:+inf 4:+inf: residual is N68
+N21: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 4), (3, 6), (5, 8)]], 4 more layers
+    sentinels 0:+inf 2:-inf 4:+inf: residual is N68
+N22: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 3), (4, 7)]], 4 more layers
+    sentinels 0:+inf 2:-inf 4:-inf: residual is N69
+N23: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 3), (1, 2), (4, 7)]], 4 more layers
+    sentinels 0:+inf 2:+inf 4:-inf: residual is N69
+N24: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 3), (1, 4), (6, 8)]], 4 more layers
+    sentinels 0:+inf 2:+inf 6:-inf: residual is N69
+N25: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 4), (7, 8)]], 4 more layers
+    sentinels 0:+inf 2:-inf 6:+inf: residual is N69
+N26: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 8), (5, 7)]], 4 more layers
+    sentinels 0:-inf 4:+inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N27: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 4), (3, 7), (5, 6)]], 4 more layers
+    sentinels 0:+inf 2:-inf 4:+inf: residual is N68
+N28: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 5), (3, 7)]], 4 more layers
+    sentinels 0:+inf 2:+inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N29: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 3), (1, 8), (4, 7)]], 4 more layers
+    sentinels 0:-inf 4:-inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N30: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 3), (4, 7), (5, 8)]], 4 more layers
+    sentinels 0:+inf 2:-inf 4:+inf: residual is N68
+N31: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 4), (3, 8), (5, 6)]], 4 more layers
+    sentinels 0:-inf 2:+inf 4:-inf: residual is N68
+N32: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 3), (1, 4)]], 4 more layers
+    sentinels 0:+inf 1:+inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N33: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 4), (3, 7), (6, 8)]], 4 more layers
+    sentinels 0:-inf 2:+inf 4:-inf: residual is N68
+N34: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (4, 7)]], 4 more layers
+    sentinels 0:-inf 4:-inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N35: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 3), (1, 2), (4, 7), (5, 8)]], 4 more layers
+    sentinels 0:+inf 2:+inf 4:+inf: residual is N68
+N36: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 3), (4, 7), (5, 6)]], 4 more layers
+    sentinels 0:+inf 2:-inf 4:+inf: residual is N68
+N37: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 4)]], 4 more layers
+    sentinels 0:+inf 1:+inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N38: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (4, 7), (5, 8)]], 4 more layers
+    sentinels 0:-inf 4:-inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N39: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 3), (4, 8)]], 4 more layers
+    sentinels 0:-inf 4:+inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N40: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 5), (3, 7), (4, 8)]], 4 more layers
+    sentinels 0:+inf 2:-inf 4:-inf: residual is N68
+N41: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2)]], 4 more layers
+    sentinels 0:-inf: 8 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(8)
+N42: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)]], 4 more layers
+    sentinels 0:+inf: 8 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(8)
+N43: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 4), (5, 6)]], 4 more layers
+    sentinels 0:-inf 4:+inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N44: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 5), (6, 8)]], 4 more layers
+    sentinels 0:+inf 2:-inf 6:-inf: residual is N69
+N45: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 3), (1, 4), (2, 5), (6, 8)]], 4 more layers
+    sentinels 0:+inf 2:+inf 4:+inf: residual is N68
+N46: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 4), (3, 5), (6, 8)]], 4 more layers
+    sentinels 0:+inf 2:-inf 4:+inf: residual is N68
+N47: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 4), (5, 7)]], 4 more layers
+    sentinels 0:-inf 4:+inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N48: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (5, 8)]], 4 more layers
+    sentinels 0:-inf 4:+inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N49: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 3), (1, 4), (2, 7), (5, 6)]], 4 more layers
+    sentinels 0:+inf 2:+inf 4:+inf: residual is N68
+N50: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (4, 8)]], 4 more layers
+    sentinels 0:-inf 4:+inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N51: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 3), (4, 6)]], 4 more layers
+    sentinels 0:+inf 2:-inf 4:-inf: residual is N69
+N52: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 8), (4, 6)]], 4 more layers
+    sentinels 0:-inf 4:-inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N53: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 4), (3, 6), (5, 7)]], 4 more layers
+    sentinels 0:+inf 2:-inf 4:+inf: residual is N68
+N54: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 3), (4, 6), (5, 8)]], 4 more layers
+    sentinels 0:+inf 2:-inf 4:+inf: residual is N68
+N55: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 4), (3, 7)]], 4 more layers
+    sentinels 0:+inf 2:+inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N56: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 3), (1, 2)]], 4 more layers
+    sentinels 0:+inf 1:+inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N57: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 4), (6, 8)]], 4 more layers
+    sentinels 0:+inf 2:-inf 6:-inf: residual is N69
+N58: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 3), (1, 4), (2, 8)]], 4 more layers
+    sentinels 0:+inf 2:+inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N59: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 8), (4, 7), (5, 6)]], 4 more layers
+    sentinels 0:+inf 2:-inf 4:+inf: residual is N68
+N60: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 5)]], 4 more layers
+    sentinels 0:+inf 1:+inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N61: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 3), (1, 2), (4, 7), (5, 6)]], 4 more layers
+    sentinels 0:+inf 2:+inf 4:+inf: residual is N68
+N62: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 4), (3, 7), (5, 8)]], 4 more layers
+    sentinels 0:+inf 2:-inf 4:+inf: residual is N68
+N63: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 3), (4, 8)]], 4 more layers
+    sentinels 0:+inf 2:-inf 4:-inf: residual is N69
+N64: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (4, 7), (5, 6)]], 4 more layers
+    sentinels 0:-inf 4:+inf 6:+inf: residual is N69
+N65: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (4, 6)]], 4 more layers
+    sentinels 0:-inf 4:-inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N66: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 3), (1, 8)]], 4 more layers
+    sentinels 0:-inf: 8 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(8)
+N67: n=9, prefix [[(0, 1), (2, 3), (4, 5), (6, 7)], [(0, 2), (1, 4), (3, 8)]], 4 more layers
+    sentinels 0:+inf 2:+inf: 7 reals, real comparisons reschedule into 1 layers; 1 + 4 < D(7)
+N68: n=6, prefix [[(3, 4)], [(2, 3)]], 4 more layers
+    sentinels 3:-inf: 5 reals, real comparisons reschedule into 0 layers; 0 + 4 < D(5)
+N69: n=6, prefix [[(3, 4)]], 4 more layers
+    sentinels 3:+inf: 5 reals, real comparisons reschedule into 0 layers; 0 + 4 < D(5)

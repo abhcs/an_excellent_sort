@@ -1,0 +1,2 @@
+11:17:44 n=11 depth=8 a=3 capped layers 1..2 prefix=[[(2, 3), (4, 5), (6, 7)]] last=None |U|=852 solver=cadical195 cosat=False exceptional=None
+stopped SS(11,8,3,2) after 40 min without a first answer

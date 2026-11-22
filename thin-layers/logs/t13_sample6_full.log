@@ -1,0 +1,6 @@
+0 1031 --full --n 13 --a 4	118.3s	RESULT n 13 a 4 case 0 child 1031 UNSAT 117.9s solver cadical195 cosat False full True init 300
+0 898 --full --n 13 --a 4	128.2s	RESULT n 13 a 4 case 0 child 898 UNSAT 127.8s solver cadical195 cosat False full True init 300
+0 1576 --full --n 13 --a 4	56.6s	RESULT n 13 a 4 case 0 child 1576 UNSAT 56.3s solver cadical195 cosat False full True init 300
+0 1670 --full --n 13 --a 4	99.3s	RESULT n 13 a 4 case 0 child 1670 UNSAT 99.0s solver cadical195 cosat False full True init 300
+0 848 --full --n 13 --a 4	89.8s	RESULT n 13 a 4 case 0 child 848 UNSAT 89.4s solver cadical195 cosat False full True init 300
+0 715 --full --n 13 --a 4	139.9s	RESULT n 13 a 4 case 0 child 715 UNSAT 139.5s solver cadical195 cosat False full True init 300

@@ -1,0 +1,3 @@
+{"n": 11, "depth": 8, "a": 4, "capped": 3, "l2": [[0, 1], [3, 6], [4, 8], [5, 10]], "encoder": "satnet.py", "vars": 20598, "clauses": 586083, "result": "UNSAT", "seconds": 413.4}
+{"n": 11, "depth": 8, "a": 4, "capped": 3, "l2": [[0, 1], [3, 7], [5, 10]], "encoder": "satnet.py", "vars": 23568, "clauses": 672480, "result": "UNSAT", "seconds": 523.3}
+{"n": 11, "depth": 8, "a": 4, "capped": 3, "l2": [], "encoder": "satnet.py", "vars": 42576, "clauses": 1225320, "result": "UNSAT", "seconds": 586.1}

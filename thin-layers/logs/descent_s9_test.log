@@ -1,0 +1,396 @@
+11-22 13:10:53 SS:9,7,3,3: 82 cases; store 69 facts, 0 SAT records; lemmas ['SS:8,7,2,3']
+11-22 13:10:53 case 0: |L2|=3 |X|=108
+11-22 13:10:53   split: 171 third layers, 2 covers close 156, 15 open (+ the empty layer)
+11-22 13:10:53   child [[0, 2], [3, 5], [6, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:53   child [[0, 2], [3, 5], [6, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:53   child [[0, 2], [3, 6], [5, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:53   child [[0, 2], [3, 6], [5, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:53   child [[0, 2], [3, 7], [5, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:53   child [[0, 2], [3, 8], [5, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:53   child [[0, 2], [3, 8], [6, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:53   child [[0, 2], [5, 7], [6, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:53   child [[0, 2], [5, 8], [6, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:54   child [[0, 5], [2, 3], [6, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:54   child [[0, 5], [2, 3], [6, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:54   child [[0, 5], [2, 8], [6, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:54   child [[0, 6], [2, 3], [5, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:54   child [[0, 6], [2, 3], [5, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:54   child [[0, 6], [2, 8], [5, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:54   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:10:54 case 0: NO -- split: 0 children by the prover, 16 by SAT (1s) (1s)
+11-22 13:10:54 case 1: |L2|=3 |X|=117
+11-22 13:10:54   split: 301 third layers, 2 covers close 296, 5 open (+ the empty layer)
+11-22 13:10:54   child [[1, 4], [5, 7], [6, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:54   child [[1, 4], [5, 8], [6, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:54   child [[1, 5], [4, 7], [6, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:54   child [[1, 6], [4, 8], [5, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:54   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:10:54 case 1: NO -- split: 0 children by the prover, 5 by SAT (0s) (0s)
+11-22 13:10:54 case 2: |L2|=3 |X|=117
+11-22 13:10:54   split: 537 third layers, 2 covers close 495, 42 open (+ the empty layer)
+11-22 13:10:54   child [[1, 2], [3, 5], [6, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:55   child [[1, 2], [3, 5], [6, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:55   child [[1, 2], [3, 6], [5, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:55   child [[1, 2], [3, 6], [5, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:55   child [[1, 2], [5, 7], [6, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:55   child [[1, 2], [5, 8], [6, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:55   child [[1, 3], [2, 5], [6, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:55   child [[1, 3], [2, 5], [6, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:55   child [[1, 3], [2, 6], [5, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:55   child [[1, 3], [2, 6], [5, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:55   child [[1, 5], [2, 3], [6, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:55   child [[1, 5], [2, 3], [6, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:56   child [[1, 5], [2, 6], [3, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:56   child [[1, 5], [2, 6], [3, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:56   child [[1, 5], [2, 7], [3, 6]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:56   child [[1, 5], [2, 7], [3, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:56   child [[1, 5], [2, 7], [6, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:56   child [[1, 5], [2, 8], [3, 6]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:56   child [[1, 5], [2, 8], [3, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:56   child [[1, 5], [2, 8], [6, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:56   child [[1, 6], [2, 3], [5, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:56   child [[1, 6], [2, 3], [5, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:56   child [[1, 6], [2, 5], [3, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:57   child [[1, 6], [2, 5], [3, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:57   child [[1, 6], [2, 7], [3, 5]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:57   child [[1, 6], [2, 7], [3, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:57   child [[1, 6], [2, 7], [5, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:57   child [[1, 6], [2, 8], [3, 5]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:57   child [[1, 6], [2, 8], [3, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:57   child [[1, 6], [2, 8], [5, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:57   child [[1, 6], [3, 7], [5, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:57   child [[2, 3], [5, 7], [6, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:57   child [[2, 3], [5, 8], [6, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:57   child [[2, 5], [3, 7], [6, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:58   child [[2, 5], [3, 8], [6, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:58   child [[2, 6], [3, 7], [5, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:58   child [[2, 6], [3, 8], [5, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:58   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:10:58 case 2: NO -- split: 0 children by the prover, 38 by SAT (3s) (3s)
+11-22 13:10:58 case 3: |L2|=3 |X|=117
+11-22 13:10:58 case 3: NO -- stored (0s)
+11-22 13:10:58 case 4: |L2|=3 |X|=117
+11-22 13:10:58 case 4: NO -- stored (0s)
+11-22 13:10:58 case 5: |L2|=3 |X|=120
+11-22 13:10:58   split: 632 third layers, 3 covers close 625, 7 open (+ the empty layer)
+11-22 13:10:58   child [[1, 5], [2, 6], [4, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:58   child [[1, 6], [2, 5], [4, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:58   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:10:58 case 5: NO -- split: 0 children by the prover, 3 by SAT (0s) (0s)
+11-22 13:10:58 case 6: |L2|=3 |X|=120
+11-22 13:10:58 case 6: NO -- stored (0s)
+11-22 13:10:58 case 7: |L2|=3 |X|=120
+11-22 13:10:58   split: 220 third layers, 3 covers close 215, 5 open (+ the empty layer)
+11-22 13:10:58   child [[1, 2], [4, 5], [7, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:58   child [[1, 2], [4, 7], [5, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:58   child [[1, 4], [2, 5], [7, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:58   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:10:58 case 7: NO -- split: 0 children by the prover, 4 by SAT (0s) (0s)
+11-22 13:10:58 case 8: |L2|=3 |X|=120
+11-22 13:10:58   split: 392 third layers, 2 covers close 362, 30 open (+ the empty layer)
+11-22 13:10:58   child [[1, 2], [4, 5], [6, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:58   child [[1, 2], [4, 5], [6, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:59   child [[1, 2], [4, 6], [5, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:59   child [[1, 2], [4, 7], [5, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:59   child [[1, 2], [4, 8], [5, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:59   child [[1, 4], [2, 5], [6, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:59   child [[1, 4], [2, 5], [6, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:59   child [[1, 4], [2, 6], [5, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:59   child [[1, 4], [2, 6], [5, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:59   child [[1, 4], [2, 7], [5, 6]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:59   child [[1, 4], [2, 7], [5, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:59   child [[1, 4], [2, 8], [5, 6]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:59   child [[1, 4], [2, 8], [5, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:10:59   child [[1, 4], [5, 7], [6, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:00   child [[1, 4], [5, 8], [6, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:00   child [[1, 5], [2, 8], [4, 6]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:00   child [[1, 5], [2, 8], [4, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:00   child [[1, 5], [4, 7], [6, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:00   child [[1, 7], [2, 8], [4, 5]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:00   child [[1, 8], [4, 5], [6, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:00   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:00 case 8: NO -- split: 0 children by the prover, 21 by SAT (2s) (2s)
+11-22 13:11:00 case 9: |L2|=3 |X|=120
+11-22 13:11:00 case 9: NO -- stored (0s)
+11-22 13:11:00 case 10: |L2|=3 |X|=120
+11-22 13:11:00   split: 392 third layers, 2 covers close 362, 30 open (+ the empty layer)
+11-22 13:11:00   child [[1, 4], [2, 8], [3, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:00   child [[1, 4], [3, 7], [5, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:00   child [[1, 7], [2, 8], [3, 4]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:00   child [[1, 8], [3, 4], [5, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:00   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:00 case 10: NO -- split: 0 children by the prover, 5 by SAT (0s) (0s)
+11-22 13:11:00 case 11: |L2|=3 |X|=120
+11-22 13:11:00 case 11: NO -- stored (0s)
+11-22 13:11:00 case 12: |L2|=3 |X|=120
+11-22 13:11:00 case 12: NO -- stored (0s)
+11-22 13:11:00 case 13: |L2|=3 |X|=120
+11-22 13:11:00 case 13: NO -- stored (0s)
+11-22 13:11:00 case 14: |L2|=3 |X|=120
+11-22 13:11:00 case 14: NO -- stored (0s)
+11-22 13:11:00 case 15: |L2|=3 |X|=125
+11-22 13:11:00   split: 54 third layers, 1 covers close 51, 3 open (+ the empty layer)
+11-22 13:11:01   child [[1, 2], [4, 6], [7, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:01   child [[1, 2], [4, 7], [6, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:01   child [[1, 4], [2, 6], [7, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:01   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:01 case 15: NO -- split: 0 children by the prover, 4 by SAT (0s) (0s)
+11-22 13:11:01 case 16: |L2|=3 |X|=125
+11-22 13:11:01   split: 137 third layers, 2 covers close 133, 4 open (+ the empty layer)
+11-22 13:11:01   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:01 case 16: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:01 case 17: |L2|=3 |X|=125
+11-22 13:11:01 case 17: NO -- stored (0s)
+11-22 13:11:01 case 18: |L2|=3 |X|=125
+11-22 13:11:01 case 18: NO -- stored (0s)
+11-22 13:11:01 case 19: |L2|=3 |X|=126
+11-22 13:11:01   split: 525 third layers, 3 covers close 525, 0 open (+ the empty layer)
+11-22 13:11:01   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:01 case 19: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:01 case 20: |L2|=3 |X|=126
+11-22 13:11:01   split: 545 third layers, 2 covers close 538, 7 open (+ the empty layer)
+11-22 13:11:01   child [[1, 2], [5, 8], [6, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:01   child [[1, 5], [2, 8], [6, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:01   child [[1, 7], [2, 5], [6, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:01   child [[1, 7], [2, 6], [5, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:01   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:01 case 20: NO -- split: 0 children by the prover, 5 by SAT (0s) (0s)
+11-22 13:11:01 case 21: |L2|=3 |X|=126
+11-22 13:11:01 case 21: NO -- stored (0s)
+11-22 13:11:01 case 22: |L2|=3 |X|=126
+11-22 13:11:01   split: 1017 third layers, 3 covers close 1005, 12 open (+ the empty layer)
+11-22 13:11:01   child [[0, 4], [3, 8], [6, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:01   child [[0, 6], [3, 8], [4, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:01   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:01 case 22: NO -- split: 0 children by the prover, 3 by SAT (0s) (0s)
+11-22 13:11:01 case 23: |L2|=3 |X|=126
+11-22 13:11:01   split: 515 third layers, 2 covers close 468, 47 open (+ the empty layer)
+11-22 13:11:02   child [[0, 2], [3, 4], [5, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:02   child [[0, 2], [3, 4], [5, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:02   child [[0, 2], [3, 4], [7, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:02   child [[0, 2], [3, 5], [4, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:02   child [[0, 2], [3, 5], [4, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:02   child [[0, 2], [3, 5], [7, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:02   child [[0, 2], [3, 7], [4, 5]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:02   child [[0, 2], [3, 7], [4, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:02   child [[0, 2], [3, 8], [4, 5]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:02   child [[0, 2], [3, 8], [4, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:02   child [[0, 2], [3, 8], [5, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:02   child [[0, 3], [2, 4], [5, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:03   child [[0, 3], [2, 4], [5, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:03   child [[0, 3], [2, 4], [7, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:03   child [[0, 3], [2, 5], [4, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:03   child [[0, 3], [2, 5], [4, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:03   child [[0, 3], [2, 5], [7, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:03   child [[0, 3], [2, 7], [4, 5]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:03   child [[0, 3], [2, 7], [4, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:03   child [[0, 3], [2, 8], [4, 5]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:03   child [[0, 3], [2, 8], [4, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:03   child [[0, 3], [2, 8], [5, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:03   child [[0, 4], [2, 3], [5, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:04   child [[0, 4], [2, 3], [5, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:04   child [[0, 4], [2, 3], [7, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:04   child [[0, 4], [2, 5], [3, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:04   child [[0, 4], [2, 8], [3, 5]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:04   child [[0, 5], [2, 3], [4, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:04   child [[0, 5], [2, 3], [4, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:04   child [[0, 5], [2, 3], [7, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:04   child [[0, 5], [2, 4], [3, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:04   child [[0, 5], [2, 8], [3, 4]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:04   child [[0, 5], [2, 8], [4, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:04   child [[0, 8], [2, 3], [4, 5]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:04   child [[0, 8], [2, 5], [3, 4]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:04   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:05 case 23: NO -- split: 0 children by the prover, 36 by SAT (3s) (3s)
+11-22 13:11:05 case 24: |L2|=3 |X|=126
+11-22 13:11:05   split: 122 third layers, 2 covers close 122, 0 open (+ the empty layer)
+11-22 13:11:05   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:05 case 24: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:05 case 25: |L2|=3 |X|=126
+11-22 13:11:05 case 25: NO -- stored (0s)
+11-22 13:11:05 case 26: |L2|=3 |X|=126
+11-22 13:11:05 case 26: NO -- stored (0s)
+11-22 13:11:05 case 27: |L2|=3 |X|=128
+11-22 13:11:05   split: 624 third layers, 3 covers close 615, 9 open (+ the empty layer)
+11-22 13:11:05   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:05 case 27: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:05 case 28: |L2|=3 |X|=128
+11-22 13:11:05   split: 283 third layers, 1 covers close 283, 0 open (+ the empty layer)
+11-22 13:11:05   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:05 case 28: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:05 case 29: |L2|=3 |X|=128
+11-22 13:11:05 case 29: NO -- stored (0s)
+11-22 13:11:05 case 30: |L2|=3 |X|=130
+11-22 13:11:05   split: 344 third layers, 3 covers close 344, 0 open (+ the empty layer)
+11-22 13:11:05   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:05 case 30: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:05 case 31: |L2|=3 |X|=130
+11-22 13:11:05   split: 344 third layers, 3 covers close 344, 0 open (+ the empty layer)
+11-22 13:11:05   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:05 case 31: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:05 case 32: |L2|=3 |X|=130
+11-22 13:11:05   split: 619 third layers, 3 covers close 610, 9 open (+ the empty layer)
+11-22 13:11:05   child [[1, 2], [3, 8], [6, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:05   child [[1, 3], [2, 8], [6, 7]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:05   child [[1, 6], [2, 7], [3, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:05   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:05 case 32: NO -- split: 0 children by the prover, 4 by SAT (0s) (0s)
+11-22 13:11:05 case 33: |L2|=3 |X|=130
+11-22 13:11:05   split: 619 third layers, 3 covers close 610, 9 open (+ the empty layer)
+11-22 13:11:05   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:05 case 33: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:05 case 34: |L2|=3 |X|=130
+11-22 13:11:05 case 34: NO -- stored (0s)
+11-22 13:11:05 case 35: |L2|=3 |X|=130
+11-22 13:11:05 case 35: NO -- stored (0s)
+11-22 13:11:05 case 36: |L2|=3 |X|=130
+11-22 13:11:05 case 36: NO -- stored (0s)
+11-22 13:11:05 case 37: |L2|=3 |X|=130
+11-22 13:11:05 case 37: NO -- stored (0s)
+11-22 13:11:05 case 38: |L2|=2 |X|=135
+11-22 13:11:05   split: 143 third layers, 2 covers close 143, 0 open (+ the empty layer)
+11-22 13:11:05   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:05 case 38: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:05 case 39: |L2|=2 |X|=135
+11-22 13:11:05 case 39: NO -- stored (0s)
+11-22 13:11:05 case 40: |L2|=3 |X|=136
+11-22 13:11:05   split: 323 third layers, 3 covers close 323, 0 open (+ the empty layer)
+11-22 13:11:05   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:05 case 40: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:05 case 41: |L2|=3 |X|=136
+11-22 13:11:05   split: 594 third layers, 4 covers close 594, 0 open (+ the empty layer)
+11-22 13:11:05   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:05 case 41: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:05 case 42: |L2|=3 |X|=136
+11-22 13:11:05   split: 586 third layers, 3 covers close 577, 9 open (+ the empty layer)
+11-22 13:11:05   child [[1, 2], [5, 6], [7, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:05   child [[1, 2], [5, 7], [6, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:05   child [[1, 5], [2, 6], [7, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:06   child [[1, 5], [2, 7], [6, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:06   child [[1, 6], [2, 5], [7, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:06   child [[1, 6], [2, 7], [5, 8]]: NO by SAT (0s; solve 0.0s, check 0.0s)
+11-22 13:11:06   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:06 case 42: NO -- split: 0 children by the prover, 7 by SAT (1s) (1s)
+11-22 13:11:06 case 43: |L2|=3 |X|=136
+11-22 13:11:06   split: 593 third layers, 4 covers close 593, 0 open (+ the empty layer)
+11-22 13:11:06   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:06 case 43: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:06 case 44: |L2|=3 |X|=136
+11-22 13:11:06 case 44: NO -- stored (0s)
+11-22 13:11:06 case 45: |L2|=3 |X|=136
+11-22 13:11:06 case 45: NO -- stored (0s)
+11-22 13:11:06 case 46: |L2|=3 |X|=136
+11-22 13:11:06 case 46: NO -- stored (0s)
+11-22 13:11:06 case 47: |L2|=3 |X|=136
+11-22 13:11:06 case 47: NO -- stored (0s)
+11-22 13:11:06 case 48: |L2|=3 |X|=140
+11-22 13:11:06   split: 170 third layers, 2 covers close 170, 0 open (+ the empty layer)
+11-22 13:11:06   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:06 case 48: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:06 case 49: |L2|=3 |X|=140
+11-22 13:11:06 case 49: NO -- stored (0s)
+11-22 13:11:06 case 50: |L2|=2 |X|=144
+11-22 13:11:06   split: 308 third layers, 2 covers close 308, 0 open (+ the empty layer)
+11-22 13:11:06   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:06 case 50: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:06 case 51: |L2|=2 |X|=144
+11-22 13:11:06   split: 368 third layers, 3 covers close 368, 0 open (+ the empty layer)
+11-22 13:11:06   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:06 case 51: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:06 case 52: |L2|=2 |X|=144
+11-22 13:11:06 case 52: NO -- stored (0s)
+11-22 13:11:06 case 53: |L2|=2 |X|=144
+11-22 13:11:06 case 53: NO -- stored (0s)
+11-22 13:11:06 case 54: |L2|=2 |X|=144
+11-22 13:11:06   split: 99 third layers, 2 covers close 99, 0 open (+ the empty layer)
+11-22 13:11:06   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:06 case 54: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:06 case 55: |L2|=3 |X|=144
+11-22 13:11:06   split: 138 third layers, 3 covers close 138, 0 open (+ the empty layer)
+11-22 13:11:06   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:06 case 55: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:06 case 56: |L2|=3 |X|=144
+11-22 13:11:06   split: 42 third layers, 1 covers close 42, 0 open (+ the empty layer)
+11-22 13:11:06   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:06 case 56: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:06 case 57: |L2|=2 |X|=150
+11-22 13:11:06   split: 228 third layers, 2 covers close 228, 0 open (+ the empty layer)
+11-22 13:11:06   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:06 case 57: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:06 case 58: |L2|=2 |X|=150
+11-22 13:11:06   split: 226 third layers, 2 covers close 226, 0 open (+ the empty layer)
+11-22 13:11:06   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:06 case 58: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:06 case 59: |L2|=2 |X|=150
+11-22 13:11:06 case 59: NO -- stored (0s)
+11-22 13:11:06 case 60: |L2|=2 |X|=156
+11-22 13:11:06   split: 361 third layers, 3 covers close 361, 0 open (+ the empty layer)
+11-22 13:11:06   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:06 case 60: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:06 case 61: |L2|=2 |X|=156
+11-22 13:11:06   split: 652 third layers, 4 covers close 652, 0 open (+ the empty layer)
+11-22 13:11:06   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:06 case 61: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:06 case 62: |L2|=2 |X|=156
+11-22 13:11:06 case 62: NO -- stored (0s)
+11-22 13:11:06 case 63: |L2|=2 |X|=156
+11-22 13:11:06 case 63: NO -- stored (0s)
+11-22 13:11:06 case 64: |L2|=2 |X|=160
+11-22 13:11:06   split: 261 third layers, 3 covers close 261, 0 open (+ the empty layer)
+11-22 13:11:06   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:06 case 64: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:06 case 65: |L2|=2 |X|=160
+11-22 13:11:06   split: 410 third layers, 4 covers close 410, 0 open (+ the empty layer)
+11-22 13:11:06   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:06 case 65: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:06 case 66: |L2|=2 |X|=160
+11-22 13:11:06   split: 261 third layers, 3 covers close 261, 0 open (+ the empty layer)
+11-22 13:11:06   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:06 case 66: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:06 case 67: |L2|=2 |X|=160
+11-22 13:11:06 case 67: NO -- stored (0s)
+11-22 13:11:06 case 68: |L2|=2 |X|=160
+11-22 13:11:06 case 68: NO -- stored (0s)
+11-22 13:11:06 case 69: |L2|=2 |X|=160
+11-22 13:11:06 case 69: NO -- stored (0s)
+11-22 13:11:06 case 70: |L2|=1 |X|=162
+11-22 13:11:06 case 70: NO -- stored (0s)
+11-22 13:11:06 case 71: |L2|=2 |X|=168
+11-22 13:11:06   split: 293 third layers, 4 covers close 293, 0 open (+ the empty layer)
+11-22 13:11:06   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:06 case 71: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:06 case 72: |L2|=2 |X|=168
+11-22 13:11:06   split: 156 third layers, 4 covers close 156, 0 open (+ the empty layer)
+11-22 13:11:06   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:06 case 72: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:06 case 73: |L2|=2 |X|=168
+11-22 13:11:06   split: 72 third layers, 2 covers close 72, 0 open (+ the empty layer)
+11-22 13:11:06   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:06 case 73: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:06 case 74: |L2|=2 |X|=168
+11-22 13:11:07   split: 161 third layers, 3 covers close 161, 0 open (+ the empty layer)
+11-22 13:11:07   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:07 case 74: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:07 case 75: |L2|=2 |X|=168
+11-22 13:11:07 case 75: NO -- stored (0s)
+11-22 13:11:07 case 76: |L2|=1 |X|=180
+11-22 13:11:07   split: 253 third layers, 2 covers close 253, 0 open (+ the empty layer)
+11-22 13:11:07   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:07 case 76: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:07 case 77: |L2|=1 |X|=180
+11-22 13:11:07 case 77: NO -- stored (0s)
+11-22 13:11:07 case 78: |L2|=1 |X|=192
+11-22 13:11:07   split: 210 third layers, 3 covers close 210, 0 open (+ the empty layer)
+11-22 13:11:07   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:07 case 78: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:07 case 79: |L2|=1 |X|=192
+11-22 13:11:07   split: 175 third layers, 3 covers close 175, 0 open (+ the empty layer)
+11-22 13:11:07   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:07 case 79: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:07 case 80: |L2|=1 |X|=192
+11-22 13:11:07 case 80: NO -- stored (0s)
+11-22 13:11:07 case 81: |L2|=0 |X|=216
+11-22 13:11:07   split: 49 third layers, 1 covers close 49, 0 open (+ the empty layer)
+11-22 13:11:07   child []: NO by prover (0s; solve Nones, check Nones)
+11-22 13:11:07 case 81: NO -- split: 0 children by the prover, 1 by SAT (0s) (0s)
+11-22 13:11:07 worker done

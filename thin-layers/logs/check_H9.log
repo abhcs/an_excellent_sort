@@ -1,0 +1,2 @@
+129745 nodes checked, 0 failed
+nice -n 5 python3 check_sentinel_proof.py results/sentinel_proof_H9.jsonl   1788.57s user 5.39s system 98% cpu 30:25.94 total

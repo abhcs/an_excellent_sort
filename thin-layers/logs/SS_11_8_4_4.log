@@ -1,0 +1,2 @@
+18:13:19 n=11 depth=8 a=4 capped layers 1..4 prefix=[[(1, 2), (3, 4), (6, 7), (8, 9)]] last=None |U|=636 solver=cadical195 cosat=False
+19:15:13 iter 1: SAT in 3712.9s inputs=300 vars=17140 clauses=248791 fails=12 elapsed=3713s

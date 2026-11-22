@@ -1,0 +1,12 @@
+11-22 13:14:17 SS:12,9,3,3: 58 cases; store 1178 facts, 0 SAT records; lemmas ['SS:6,5,2,3', 'SS:7,6,1,2', 'SS:7,7,1,3', 'SS:8,7,2,3', 'SS:8,8,1,4', 'SS:9,7,3,2', 'SS:9,8,2,3', 'SS:9,8,2,4']
+11-22 13:14:17 case 0: |L2|=3 |X|=729
+11-22 13:14:47   split: 55 third layers, 2 covers close 3, 52 open (+ the empty layer)
+11-22 13:16:04   child [[0, 2], [1, 3]]: NO by SAT (71s; solve 37.1s, check 32.9s)
+11-22 13:17:27   child [[0, 2], [1, 3], [4, 5]]: NO by SAT (78s; solve 38.9s, check 37.7s)
+11-22 13:19:16   child [[0, 2], [1, 3], [4, 6]]: NO by SAT (104s; solve 51.8s, check 50.9s)
+11-22 13:20:20   child [[0, 2], [1, 3], [4, 9]]: NO by SAT (59s; solve 28.9s, check 28.7s)
+11-22 13:21:53   child [[0, 2], [1, 3], [5, 7]]: NO by SAT (87s; solve 43.5s, check 42.7s)
+11-22 13:23:02   child [[0, 2], [1, 3], [5, 8]]: NO by SAT (64s; solve 32.3s, check 30.1s)
+11-22 13:24:07   child [[0, 2], [1, 3], [5, 9]]: NO by SAT (60s; solve 29.7s, check 29.3s)
+11-22 13:25:04   child [[0, 2], [1, 3], [6, 8]]: NO by SAT (51s; solve 25.9s, check 24.0s)
+11-22 13:26:11   child [[0, 2], [1, 3], [6, 9]]: NO by SAT (62s; solve 29.8s, check 31.1s)
