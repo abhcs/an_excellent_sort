@@ -1,0 +1,10 @@
+{"n": 14, "case": 80, "k": 38758, "result": "UNSAT", "drat": "VERIFIED", "vars": 32776, "clauses": 505936, "gen_s": 0.8, "solve_s": 69.9, "check_s": 57.9, "proof_bytes": 30036509, "tool_maxrss_mb": 253}
+{"n": 13, "case": 28, "k": 16894, "result": "UNSAT", "drat": "VERIFIED", "vars": 26125, "clauses": 378657, "gen_s": 0.5, "solve_s": 69.7, "check_s": 67.7, "proof_bytes": 27095126, "tool_maxrss_mb": 231}
+{"n": 14, "case": 99, "k": 44317, "result": "UNSAT", "drat": "VERIFIED", "vars": 32171, "clauses": 512948, "gen_s": 0.8, "solve_s": 75.7, "check_s": 68.6, "proof_bytes": 31461458, "tool_maxrss_mb": 281}
+{"n": 13, "case": 3, "k": 11547, "result": "UNSAT", "drat": "VERIFIED", "vars": 26372, "clauses": 402686, "gen_s": 0.5, "solve_s": 108.1, "check_s": 89.8, "proof_bytes": 33230252, "tool_maxrss_mb": 345}
+{"n": 13, "case": 19, "k": 4934, "result": "UNSAT", "drat": "VERIFIED", "vars": 28011, "clauses": 430855, "gen_s": 0.6, "solve_s": 121.7, "check_s": 93.0, "proof_bytes": 35636504, "tool_maxrss_mb": 271}
+{"n": 12, "case": 27, "k": 882, "result": "UNSAT", "drat": "VERIFIED", "vars": 25559, "clauses": 384401, "gen_s": 0.5, "solve_s": 123.8, "check_s": 97.2, "proof_bytes": 39641258, "tool_maxrss_mb": 267}
+{"n": 12, "case": 19, "k": 154, "result": "UNSAT", "drat": "VERIFIED", "vars": 26735, "clauses": 411146, "gen_s": 0.5, "solve_s": 153.0, "check_s": 97.4, "proof_bytes": 42284888, "tool_maxrss_mb": 260}
+{"n": 14, "case": 64, "k": 38425, "result": "UNSAT", "drat": "VERIFIED", "vars": 33586, "clauses": 527598, "gen_s": 1.1, "solve_s": 97.2, "check_s": 44.5, "proof_bytes": 40185290, "tool_maxrss_mb": 386}
+{"n": 12, "case": 9, "k": 420, "result": "UNSAT", "drat": "VERIFIED", "vars": 24675, "clauses": 378509, "gen_s": 0.5, "solve_s": 225.3, "check_s": 92.3, "proof_bytes": 61105491, "tool_maxrss_mb": 248}
+done in 318s

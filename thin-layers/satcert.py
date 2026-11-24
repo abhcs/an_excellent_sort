@@ -147,6 +147,12 @@ def certify(n, layers, t, caps=(), seconds=None, workdir=None, keep=False):
         rec['rc'] = p.returncode
     if not keep:
         shutil.rmtree(d, ignore_errors=True)
+    try:                                    # peak memory of the largest tool run so far (capacity planning)
+        import resource
+        m = resource.getrusage(resource.RUSAGE_CHILDREN).ru_maxrss
+        rec['tool_maxrss_mb'] = round(m / (1 << 20) if sys.platform == 'darwin' else m / 1024)
+    except Exception:
+        pass
     rec['when'] = time.strftime('%Y-%m-%d %H:%M:%S')
     return rec
 

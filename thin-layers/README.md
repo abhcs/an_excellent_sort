@@ -1411,3 +1411,72 @@ Hard 13- and 14-channel children took 1–6 minutes to solve (§8.14).
 
 None of SS(12, 9, 3, 3), SS(13, 9, 4, 3) or S14 is proved yet: that is the run. SS(11, 9, 2, 3)
 was proved here, in a scratch store.
+
+## 9. Toward a hand proof for the efficient prefixes
+
+The route of §8.15 settles the exceptional configurations by SAT. A hand proof of $D(17)\ge10$
+needs an argument for them instead. [efficient-prefixes.md](efficient-prefixes.md) collects what
+is known.
+* **Structure theorem (proved).** Exceptional configurations have full second and third layers,
+  and the tracks that meet layer 2 land on layer 3's idle channels. At (14, 5), layer 2 contains at
+  least two merges.
+* **Normal form.** Redundant comparators can be deleted, which shrinks the cases.
+* **What provably cannot settle them.** Sentinel reductions, one-layer sparse lemmas (several are
+  false at optimal depth), a splitting construction that refutes many candidate statements, and
+  static linear-extension arguments.
+* **Probe tokens settle the $D(11)$ level without SAT.** Every normalized exceptional prefix of
+  E3(9, 3), E3(8, 2) and E3(7, 1) (1,010 + 663 + 59) fails the token cone bound at layer 5: after
+  any fourth and fifth layer, some output's tokens lie on at least 5 channels. With the descent
+  this gives $D(11)\ge8$ from a two-second enumeration (`hand/tokcore.c`), cross-checked without
+  pruning (`hand/tokfull.c`).
+* **In fact every sparse prefix fails, not only the exceptional ones.** All 87,075 prefixes of
+  $T_3(9,3)$ (and all of $T_3(8,2)$, $T_3(7,1)$) fail at layer 5 in under two minutes. So
+  $D(11)\ge8$ needs only the descent to $T_3(9,3)$ and one lemma, (W): after a sparse 9-channel
+  prefix and any two more layers, ranks 3–5 still lie in at least 13 channel intervals.
+  efficient-prefixes.md §7 reduces (W) exactly to counting "separated" pairs: 2-element hitting
+  sets of the families of positions of the smallest and largest elements.
+* **The obstruction is local to the middle outputs.** At (9, 3), a sum over outputs 3–5 already
+  exceeds the cone, but the median alone refutes nothing. The sum over all outputs never
+  suffices, so the total spread is the wrong potential.
+* **Tokens are rank intervals (proved).** Channel $c$ holds a token of output $k$ exactly when the
+  element on $c$ can have rank $k$. These ranks form an interval fixed by the least term and
+  clause sizes of the channel's Boolean function. An overlap-free calculus of these intervals is
+  too weak over several layers (it refutes 205 of 1,010 prefixes at (9, 3)), so overlaps matter.
+* **(W) has short certificates, but one per class.** Take any of the 1,003 leftover prefixes at
+  (9, 3). An LP certificate proves (W) for every fourth and fifth layer at once
+  (efficient-prefixes.md §7.3–§7.6). It consists of potentials on the nine channels and cover values
+  on the possible fourth-layer outputs.
+  * The overlaps it needs are pairwise and visible in the prefix: which shortest terms of two prefix
+    channels meet.
+  * Still, the 136 classes need separate certificates of about a thousand checks each. That is a
+    checkable appendix, not yet a readable proof.
+  * The fifth layer can be dropped. Let $N_t$ count the fourth-layer outputs that still have a
+    partner with gain at least $t$. Then a fifth layer removes at most
+    $\lfloor N_1/2\rfloor+\lfloor N_2/2\rfloor+\lfloor N_3/2\rfloor$. Layer-4 removal plus this
+    count is at most 14 for every fourth layer of every leftover (efficient-prefixes.md §7.7).
+* **$D(13)\ge9$ without SAT (efficient-prefixes.md §9).** The hand descent reduces it to
+  $T_3(11,4)\ge9$: 2,647,384 sparse 11-channel prefixes in 315,835 reachable-set classes, with three
+  free layers. Every class is settled by the exact token search, in about 15 CPU-hours.
+  * 315,619 classes are settled through a sentinel residual whose 10-channel class tokens refute:
+    4,561 such classes are refuted, and 10 others complete to depth-8 sorters.
+  * The other 216 classes are refuted directly.
+  * Prefixes of one class extend or fail together (subsumption). Witnesses are in
+    `logs/hand_d13_token_witness.tsv.gz`.
+  * **Checked independently** (efficient-prefixes.md §9.2, `hand/indep13/run_all.sh`). New code
+    recomputes the family, the classes, the residuals and every token search. It agrees on every
+    count, in about 9 CPU-hours.
+    * Classes are identified by explicit, state-checked permutations, not hashes. The partition agrees
+      prefix by prefix with the 128-bit hash classes.
+    * The token search uses fewer facts: no end-game normal form and no merge filter. Its node counts
+      equal the original's at every layer for all 4,787 searches.
+    * The hash-free certificate is `logs/ind13_class_witness.tsv.gz`.
+* **$D(17)$, the same strategy (efficient-prefixes.md §10).** Reachable-set classes cut the
+  exceptional children that the SAT route of §8.15 must refute. One refutation settles a class, and a
+  class that also contains a non-exceptional prefix needs none.
+  * (12, 3): 3,748 children become 787 classes.
+  * (13, 4): 27,582 children become 6,238 classes.
+  * In all, roughly 9,500 SAT refutations instead of 43,000. Tokens cannot replace them: four free
+    layers cost about 16 CPU-hours per class.
+* **At 14 channels** the evidence is heuristic. Beam search brings half of the feasible prefixes
+  inside the cone at layer 7, but no exceptional S14 prefix: those miss by 7–11 channels in the
+  middle outputs. $D(17)$ needs four layers before the cone, out of reach of exhaustive search.

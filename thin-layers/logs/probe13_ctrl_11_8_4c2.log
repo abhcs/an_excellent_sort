@@ -1,0 +1,18 @@
+21:28:30 n=11 depth=8 a=4 capped layers 1..2 prefix=[[(1, 2), (3, 4), (6, 7), (8, 9)]] last=None |U|=636 solver=cadical195 cosat=False exceptional=None
+21:28:37 iter 1: SAT in 6.6s inputs=300 vars=16732 clauses=247881 fails=11 elapsed=7s
+21:28:39 iter 2: SAT in 1.6s inputs=311 vars=17380 clauses=258860 fails=20 elapsed=8s
+21:28:47 iter 3: SAT in 8.3s inputs=331 vars=18400 clauses=274494 fails=9 elapsed=17s
+21:28:50 iter 4: SAT in 2.6s inputs=340 vars=18856 clauses=281186 fails=15 elapsed=19s
+21:29:29 iter 5: SAT in 39.0s inputs=355 vars=19690 clauses=294555 fails=5 elapsed=58s
+21:29:30 iter 6: SAT in 1.4s inputs=360 vars=19930 clauses=298226 fails=5 elapsed=60s
+21:29:38 iter 7: SAT in 7.8s inputs=365 vars=20200 clauses=302535 fails=2 elapsed=68s
+21:30:11 iter 8: SAT in 33.4s inputs=367 vars=20320 clauses=304545 fails=11 elapsed=101s
+21:30:22 iter 9: SAT in 10.5s inputs=378 vars=20962 clauses=315267 fails=6 elapsed=112s
+21:30:36 iter 10: SAT in 14.6s inputs=384 vars=21274 clauses=320246 fails=2 elapsed=126s
+21:30:39 iter 11: SAT in 2.2s inputs=386 vars=21388 clauses=322117 fails=7 elapsed=128s
+21:30:52 iter 12: SAT in 13.7s inputs=393 vars=21790 clauses=328822 fails=6 elapsed=142s
+21:32:32 iter 13: SAT in 100.1s inputs=399 vars=22090 clauses=333312 fails=9 elapsed=242s
+21:32:56 iter 14: SAT in 23.4s inputs=408 vars=22588 clauses=341175 fails=5 elapsed=266s
+21:34:21 iter 15: SAT in 85.4s inputs=413 vars=22906 clauses=346864 fails=3 elapsed=351s
+21:40:11 iter 16: SAT in 349.5s inputs=416 vars=23044 clauses=348728 fails=2 elapsed=701s
+21:42:05 iter 17: SAT in 114.3s inputs=418 vars=23158 clauses=350618 fails=5 elapsed=815s

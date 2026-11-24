@@ -1,0 +1,26 @@
+136 prefixes, 31 parameters (10 types)
+round 0: total excess 0.0000; prefixes over 15 - 0.01: 0
+   136 violated (largest 11432.000), 136 cuts, 2s
+round 1: total excess 0.0000; prefixes over 15 - 0.01: 0
+   136 violated (largest 1001.400), 272 cuts, 5s
+round 2: total excess 0.0000; prefixes over 15 - 0.01: 0
+   136 violated (largest 346.379), 408 cuts, 7s
+round 3: total excess 0.0000; prefixes over 15 - 0.01: 0
+   136 violated (largest 64.780), 544 cuts, 11s
+round 4: total excess 0.0000; prefixes over 15 - 0.01: 0
+   136 violated (largest 7.836), 680 cuts, 14s
+round 5: total excess 0.0000; prefixes over 15 - 0.01: 0
+   115 violated (largest 3.169), 795 cuts, 20s
+round 6: total excess 0.0000; prefixes over 15 - 0.01: 0
+   92 violated (largest 2.458), 887 cuts, 26s
+round 7: total excess 0.0000; prefixes over 15 - 0.01: 0
+   38 violated (largest 1.244), 925 cuts, 33s
+round 8: total excess 0.1791; prefixes over 15 - 0.01: 2
+   19 violated (largest 0.509), 944 cuts, 41s
+round 9: total excess 0.4790; prefixes over 15 - 0.01: 4
+   5 violated (largest 0.313), 949 cuts, 49s
+round 10: total excess 0.6733; prefixes over 15 - 0.01: 5
+   5 violated (largest 0.050), 954 cuts, 57s
+round 11: total excess 0.7183; prefixes over 15 - 0.01: 7
+   0 violated (largest 0.000), 954 cuts, 64s
+converged (l1): 7 of 136 prefixes need sum kappa > 15 - 0.01: [0, 135, 146, 304, 846, 926, 957]

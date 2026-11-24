@@ -1,0 +1,8 @@
+prefix 100: 394 non-redundant layers 4, 301016 pairs (L4, L5); least max_k |T_5(k)| = 5 (refuted)
+prefix 300: 398 non-redundant layers 4, 304072 pairs (L4, L5); least max_k |T_5(k)| = 5 (refuted)
+prefix 500: 397 non-redundant layers 4, 303308 pairs (L4, L5); least max_k |T_5(k)| = 5 (refuted)
+prefix 662: 404 non-redundant layers 4, 308656 pairs (L4, L5); least max_k |T_5(k)| = 5 (refuted)
+prefix 0: 994 non-redundant layers 4, 2604280 pairs (L4, L5); least max_k |T_5(k)| = 5 (refuted)
+prefix 333: 1098 non-redundant layers 4, 2876760 pairs (L4, L5); least max_k |T_5(k)| = 5 (refuted)
+prefix 666: 1080 non-redundant layers 4, 2829600 pairs (L4, L5); least max_k |T_5(k)| = 5 (refuted)
+prefix 1009: 1092 non-redundant layers 4, 2861040 pairs (L4, L5); least max_k |T_5(k)| = 5 (refuted)

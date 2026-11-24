@@ -1,0 +1,7 @@
+21:28:30 n=10 depth=8 a=3 capped layers 1..3 prefix=[[(2, 3), (4, 5), (6, 7)]] last=None |U|=421 solver=cadical195 cosat=False exceptional=None
+21:29:39 iter 1: SAT in 69.1s inputs=300 vars=15252 clauses=208366 fails=6 elapsed=69s
+21:29:41 iter 2: SAT in 1.3s inputs=306 vars=15510 clauses=211723 fails=8 elapsed=70s
+21:30:01 iter 3: SAT in 20.2s inputs=314 vars=15930 clauses=218249 fails=2 elapsed=91s
+21:30:24 iter 4: SAT in 23.3s inputs=316 vars=16032 clauses=219738 fails=3 elapsed=114s
+21:30:37 iter 5: SAT in 12.9s inputs=319 vars=16206 clauses=222576 fails=0 elapsed=127s
+21:30:37 FOUND depth=8 sizes=[3, 3, 3, 5, 5, 4, 4, 5] network=[[[2, 3], [4, 5], [6, 7]], [[0, 8], [2, 4], [3, 5]], [[0, 3], [1, 9], [4, 8]], [[0, 2], [1, 6], [3, 4], [5, 8], [7, 9]], [[0, 9], [1, 8], [2, 3], [4, 5], [6, 7]], [[1, 2], [3, 6], [4, 7], [5, 9]], [[0, 3], [2, 4], [5, 6], [7, 8]], [[0, 1], [2, 3], [4, 5], [6, 7], [8, 9]]]

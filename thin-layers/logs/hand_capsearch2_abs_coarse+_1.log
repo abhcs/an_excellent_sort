@@ -1,0 +1,20 @@
+136 prefixes, 41 parameters (6 types)
+round 0: eps = 675.0000 (best max sum kappa -660.0000)
+   136 violated (largest 10587.000), 136 cuts, 2s
+round 1: eps = 2.2857 (best max sum kappa 12.7143)
+   136 violated (largest 1283.093), 272 cuts, 4s
+round 2: eps = 1.3865 (best max sum kappa 13.6135)
+   135 violated (largest 7.008), 407 cuts, 7s
+round 3: eps = 0.5247 (best max sum kappa 14.4753)
+   116 violated (largest 2.895), 523 cuts, 11s
+round 4: eps = 0.3683 (best max sum kappa 14.6317)
+   100 violated (largest 2.687), 623 cuts, 15s
+round 5: eps = 0.1405 (best max sum kappa 14.8595)
+   40 violated (largest 0.696), 663 cuts, 20s
+round 6: eps = -0.0487 (best max sum kappa 15.0487)
+   16 violated (largest 0.331), 679 cuts, 25s
+round 7: eps = -0.0631 (best max sum kappa 15.0631)
+   10 violated (largest 0.197), 689 cuts, 31s
+round 8: eps = -0.0679 (best max sum kappa 15.0679)
+   0 violated (largest 0.000), 689 cuts, 37s
+converged: NO uniform pairwise table of this kind: best max sum kappa = 15.0679

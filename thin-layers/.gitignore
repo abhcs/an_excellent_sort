@@ -7,3 +7,21 @@ fastcore.so
 # large proof dumps (regenerable; their summaries are in results/ and the README)
 results/*.drat
 results/sentinel_proof_*.jsonl
+# compiled token tools in hand/ (sources tok*.c, drivers tok*.py are kept)
+hand/tok*
+!hand/tok*.c
+!hand/tok*.py
+# other compiled tools in hand/ (sources are kept)
+hand/classcount
+hand/resid
+hand/excres
+hand/x4count
+hand/coverdump
+hand/featagg
+hand/perrank
+hand/subsetperm
+hand/tophalf
+hand/witness
+# compiled independent D(13) checker in hand/indep13/ (sources are kept)
+hand/indep13/tok
+hand/indep13/cls
