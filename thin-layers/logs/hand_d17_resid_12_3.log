@@ -1,0 +1,4 @@
+(11,2) family: 14599 prefixes, 253 reachable-set classes (relabelling + complement); permutations tried: max 14400, mean 28.0
+(12,3) family: 690806 prefixes (68079 exceptional), 12226 classes, 787 classes with only exceptional members
+12226 classes; 11439 contain a non-exceptional prefix; of the 787 exceptional-only classes, 0 have a residual in a lower-family class, 787 remain
+the 787 remaining classes are those of exconly_12_3.json: True

@@ -746,7 +746,8 @@ active depends on the other blocks present.
    share.
    * The $D(13)$ strategy applied here (§10) cuts the SAT route's exceptional children about 4.5
      times through class sharing, to 787 classes at (12, 3) and 6,238 at (13, 4).
-   * But tokens cannot replace SAT with four free layers: about 16 CPU-hours per class.
+   * But its other two steps do not carry over. Exceptional prefixes have no good track for a
+     residual, and with four free layers tokens need roughly 200 CPU-hours per class.
 3. **$D(13)\ge9$ without SAT** (§9). Tokens settle $T_3(11,4)$ at layer 6, three layers after the
    prefix, again with the obstruction in the middle ranks.
    * A descent prefix by prefix brings the work down to about 15 CPU-hours: 4,561 ten-channel
@@ -938,14 +939,22 @@ So the measured levels need about 4.5 times fewer refutations.
   into 6,238 classes.
 * Each level relies on the level below being settled first, as the descent does anyway.
 
-**What does not carry over.**
+**What does not carry over.** `hand/d17_probe.sh` reruns both measurements.
 * **Residuals.** An exceptional prefix has no good track, so every sentinel residual keeps a full
-  layer. Its class is then never the class of a sparser prefix: at (12, 3), none of the 787 classes
-  has a residual in an (11, 2) class.
-* **Tokens.** At depth 9 the cone is four layers after the prefix.
-  * For one exceptional-only (12, 3) class, 64 s cover only 32 of its fourth layers, at about 60,000
-    fifth layers each.
-  * That is roughly 16 CPU-hours per class, against minutes for SAT.
+  layer. Its class is then never the class of a sparser prefix (`logs/hand_d17_resid_12_3.log`).
+  * Take every member of the 787 exceptional-only (12, 3) classes and all 24 sentinels, on any track.
+  * None of these residuals lies in one of the 253 classes of the proved (11, 2) family.
+* **Tokens.** At depth 9 the cone is four layers after the prefix (`hand/d17_tokrate.py`,
+  `logs/hand_d17_tok_12_3.log`).
+  * The first exceptional-only (12, 3) class has 72,948 fourth layers, each with tens of thousands
+    of fifth layers.
+  * A capped run covers the first 32 fourth layers in about 65 s. Those are cheap ones, and the
+    16 CPU-hours per class first quoted here was extrapolated from them.
+  * 100 random fourth layers, each searched to the end, take 13 s each on average (3–26 s). That
+    gives 264 CPU-hours for the class as measured.
+  * The same capped run took 87 s during the measurement instead of about 65 s, because other work
+    was running. So on an idle performance core the class needs roughly 200 CPU-hours, against minutes
+    for SAT.
 
 **What it means.** The strategy cuts the SAT work but does not remove SAT.
 * The count drops to about 787 + 6,238 + an estimated 2,500 at (14, 5), about 9,500 refutations

@@ -1475,8 +1475,13 @@ is known.
   class that also contains a non-exceptional prefix needs none.
   * (12, 3): 3,748 children become 787 classes.
   * (13, 4): 27,582 children become 6,238 classes.
-  * In all, roughly 9,500 SAT refutations instead of 43,000. Tokens cannot replace them: four free
-    layers cost about 16 CPU-hours per class.
+  * In all, roughly 9,500 SAT refutations instead of 43,000.
+  * The other two steps of the $D(13)$ proof do not carry over (`hand/d17_probe.sh`, logs
+    `hand_d17_resid_12_3.log` and `hand_d17_tok_12_3.log`).
+    * Residuals: an exceptional prefix has no good track, so every sentinel residual keeps a full
+      layer. No residual of the 787 (12, 3) classes lies in a class of the proved (11, 2) family.
+    * Tokens: with four free layers, one (12, 3) class needs roughly 200 CPU-hours, against minutes
+      for SAT.
 * **At 14 channels** the evidence is heuristic. Beam search brings half of the feasible prefixes
   inside the cone at layer 7, but no exceptional S14 prefix: those miss by 7–11 channels in the
   middle outputs. $D(17)$ needs four layers before the cone, out of reach of exhaustive search.
