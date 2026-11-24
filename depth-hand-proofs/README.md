@@ -1,5 +1,15 @@
 # Hand proofs of $D(5)\ge5$, $D(7)\ge6$ and $D(9)\ge7$
 
+**Newest route (2026-11-18): [the sentinel descent](../thin-layers/README.md).** One infinity at a
+time, placed by a counting lemma, reduces each odd $D(2p+1)$ to a single *sparse-start
+statement* SS(n, d, a, m) ("no n-channel sorter of depth d has at most a comparators in each of
+its first m layers"). By hand: $D(11)\ge8$ follows from (P7), $D(5)\ge5$ and two SAT checks of
+about 20 seconds; $D(13)\ge9$ from S11 = SS(11, 8, 4, 3) (all 177 SAT cases UNSAT, median 5.3 minutes); and
+$D(17)\ge10$ from S14 = SS(14, 9, 5, 3). Sparse-start statements with slack also get hand
+certificates prefix by prefix: SS(8, 8, 1, 4) and SS(6, 5, 2, 3) entirely, and SS(9, 8, 2, 4)
+for 2,754,931 of its 2,755,600 prefixes, the other 669 closing by SAT with the prefix fixed in
+13.7 s in all. The method cannot reach $D(18)$.
+
 **Continuation:** [extension.md](extension.md) generalizes the two-layer
 restriction to any number of sentinels, proves why its first-two-layer cap
 consequences cannot distinguish $D(18)$ from $D(17)$, and records a validated
@@ -37,8 +47,14 @@ The [fence-image proof](h9_feedback_round9_fence6.md) adds the two
 classes `03 14 67` and `03 16 27`, raising accepted hand coverage to
 **32 of 50 classes**. Its independent
 [recovery review](results/recovery-h9-fence6-review.json) checks the
-hand reductions and replays all 33 fourth-layer forms. A full hand
-proof of H9, and therefore this hand route to D(11)>=8, remains open.
+hand reductions and replays all 33 fourth-layer forms. The class
+`02 15 36` ([reduction](h9_recovery_021536_reduction.md), [case 2](h9_recovery_021536_case2.md),
+[fourth layers](h9_recovery_021536_fourths.md), [endings](h9_recovery_021536_endings.md)) passed an
+[independent review](results/h9-recovery-021536-claude-review.md) on 2026-11-18 (ACCEPT WITH
+FIXES; its two substantive fixes, a link checker `verify/h9_recovery_021536_link_check.py` and the
+exact statement of the five-wire lemma, are applied), raising accepted hand coverage to
+**33 of 50 classes**. A full hand proof of H9 remains open; the
+[sentinel descent](../thin-layers/README.md) now gives a shorter route to D(11)>=8.
 The [poset image closure theorem](../d18-search/height-two-image-closure.md)
 preserves full height-two reachable families through compatible layers
 at arbitrary width. Antichains then give lower bounds on the remaining

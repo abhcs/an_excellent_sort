@@ -22,7 +22,9 @@ contain at least d edges inside the displayed real set. Otherwise at
 most two real-real gates have occurred through N. Serialize them into
 two layers, then append the original last three layers. This would be
 a five-wire depth-five sorter with at most one gate in each of its
-first two layers, contradicting the five-wire thin lemma.
+first two layers, contradicting the five-wire thin lemma ([README Lemma 3](README.md): at most
+one comparator in each of the first two layers is impossible for a five-channel sorter of
+depth at most five).
 
 All forbidden N edges in the appendix are universally ordered pairs
 after the given third layer, obtained by elementary min/max propagation.

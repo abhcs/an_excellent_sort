@@ -13,7 +13,10 @@ M must be a perfect matching K on `123478`, optionally together with
 of M, not yet a proof that this H9 class has no completion.
 
 The proof uses the established [seven-wire early profiles](h7-early-profiles.md)
-and the five-wire thin-layer lemma. No SAT answer or matching census is
+and the five-wire thin-layer lemma, [README Lemma 3](README.md): no network of at most five
+layers on five channels whose first two layers contain **at most one comparator each** sorts.
+(It does not say a depth-5 five-sorter needs two comparators in each of those layers; the
+sorter `34 / 13 24 / 02 34 / 01 23 / 12 34` has a one-comparator first layer.) No SAT answer or matching census is
 a premise. Signs below specify original inputs; retained gates are
 followed on their fixed real tracks through sentinel comparisons.
 
